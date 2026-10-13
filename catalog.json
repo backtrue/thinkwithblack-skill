@@ -799,12 +799,12 @@
     {
       "id": "MK-073",
       "name": "營收缺口拆解",
-      "description": "營收缺口拆解。用於需要流量、轉換率、客單的缺口分解的工作；依本項方法處理已指定資料並核對交付",
+      "description": "營收下降或未達目標時，用同口徑資料拆解流量、成交率與客單差額，決定優先檢查方向、下一步與回看條件；缺資料先補問，資料更正後重新判斷",
       "source": "skills/mk-073/SKILL.md",
       "references": [],
       "pack": "packs/mk-073.md",
-      "sourceSha256": "f109a182de7f9bb95a2868fad312004ad56803bd2af6ee70584c48cd40c95b5c",
-      "packSha256": "d07d6e32f25d2b2f3fd4f7c58c64ba3a6769d6efe0d458c7ab2aa6a96261b652",
+      "sourceSha256": "ce5d8dc3c68f24893e2f5d817191210cd1a68888cd58ebbcb07d76bb6a5ebbfa",
+      "packSha256": "4e705a9998a8c269444a5ac6bccf76b92b607bb3df557dbf7190759cf3f37ddb",
       "referenceSha256": {}
     },
     {

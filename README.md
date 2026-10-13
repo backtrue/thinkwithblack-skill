@@ -1,3 +1,5 @@
+[English — all 365 skills](en/README.md) · 繁體中文
+
 <div align="center">
 
 # Marketing Skills for Everyone

@@ -2,14 +2,15 @@
 """Build the public upload packs and identical download artifact using stdlib."""
 from pathlib import Path
 from urllib.parse import unquote
-import argparse, hashlib, json, re, zipfile
+import argparse, hashlib, json, re, zipfile, runpy
 
 ROOT=Path(__file__).resolve().parents[1]
 DOCS=['README.md','START_HERE.md','PUBLIC_SKILL_RULES.md','PUBLIC_BOUNDARY.md','LICENSE',
       'RELEASE.md','CHANGELOG.md','CONTRIBUTING.md','context/MARKETING_CONTEXT.template.md',
       'examples/README.md','examples/product-facts.md','examples/cookie-costs.md','examples/cookie-repeat.md','examples/event-forecast.md','examples/member-rules.md']
 MAINTENANCE=['scripts/build-free-edition.py','scripts/verify-public-skills.py','tests/test_free_edition.py',
-             '.github/workflows/prepare-thinkwithblack-release.yml','.gitignore']
+             '.github/workflows/prepare-thinkwithblack-release.yml','.gitignore',
+             'scripts/build-english-edition.py','tests/test_english_edition.py']
 FORBIDDEN=['.codex-plugin','.agents','.app.json','openai.yaml','validate-skill-run.py','check_assets.py']
 PRODUCT_PATTERNS=[r'THINKWITHBLACK_SYNC',r'Entry Router',r'approval_token',r'unsupported_by_current_mcp',
                   r'(?i)MCP runtime',r'TWB_REPOSITORY_READ_TOKEN',r'backtrue/thinkwithblack-mcp',
@@ -109,9 +110,13 @@ def expected(root):
     out['INDEX.md']=intro.encode()
     return m,out
 
+def english_builder(root):
+    return runpy.run_path(str(root/'scripts/build-english-edition.py'))
+
 def verify(root):
     m,out=expected(root)
-    wanted=set(source_files(m))|set(out)|set(MAINTENANCE)
+    en=english_builder(root)
+    wanted=set(source_files(m))|set(out)|set(MAINTENANCE)|{'en/'+p for p in en['paths'](root)}
     actual={str(p.relative_to(root)) for p in root.rglob('*') if p.is_file() and '.git' not in p.relative_to(root).parts and '__pycache__' not in p.parts}
     if actual!=wanted:raise ValueError('File inventory mismatch: '+str(sorted(actual^wanted)))
     for rel,data in out.items():
@@ -126,13 +131,15 @@ def verify(root):
             for match in LINK.finditer(t):
                 target=local_link(root,rel,match[1])
                 if target and not target.is_file():raise ValueError('Broken local link in '+rel+': '+match[1])
-                if rel.startswith('packs/') and target:raise ValueError('Pack has external file dependency: '+rel+': '+match[1])
+                if (rel.startswith('packs/') or rel.startswith('en/packs/')) and target:raise ValueError('Pack has external file dependency: '+rel+': '+match[1])
+    en['verify'](root)
     return m,out
 
 def generate(root):
     m,out=expected(root)
     for rel,data in out.items():
         p=root/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(data)
+    english_builder(root)['generate'](root)
     return m
 
 def zip_bytes(root,paths,dest):
@@ -146,12 +153,17 @@ def package(root,destination):
     m,out=verify(root);destination=destination.resolve()
     if destination.is_relative_to(root.resolve()):raise ValueError('Output directory must be outside the source repository')
     destination.mkdir(parents=True,exist_ok=True)
-    content=sorted(set(source_files(m))|set(out));source=sorted(set(content)|set(MAINTENANCE))
-    name='ThinkWithBlack-free-'+m['version']
-    receipt={'version':m['version'],'entryCount':len(m['entries']),'files':{p:sha((root/p).read_bytes()) for p in content},'artifacts':{}}
+    en=english_builder(root);em,_=en['verify'](root);english_paths=en['paths'](root)
+    content=sorted(set(source_files(m))|set(out)|{'en/'+p for p in english_paths});source=sorted(set(content)|set(MAINTENANCE))
+    name='ThinkWithBlack-bilingual-'+em['version']
+    receipt={'version':m['version'],'bundleVersion':em['version'],'entryCount':len(m['entries']),'files':{p:sha((root/p).read_bytes()) for p in content},'artifacts':{}}
     for suffix,paths in [('.zip',content),('-source.zip',source)]:
         target=destination/(name+suffix);zip_bytes(root,paths,target)
         receipt['artifacts'][target.name]={'sha256':sha(target.read_bytes()),'fileCount':len(paths)}
+    target=destination/('ThinkWithBlack-free-en-'+em['version']+'.zip')
+    zip_bytes(root/'en',english_paths,target)
+    receipt['artifacts'][target.name]={'sha256':sha(target.read_bytes()),'fileCount':len(english_paths),'language':'en','version':em['version']}
+    receipt['englishVersion']=em['version']
     (destination/(name+'-receipt.json')).write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
     return receipt
 
