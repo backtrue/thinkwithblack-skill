@@ -15,17 +15,21 @@ Do not rank RFM results from different observation periods as if they shared one
 
 ## Required inputs
 
-Provide: de-identified customer, order, date, amount, and refund data
+Raw inputs: anonymized customer keys, valid deduplicated orders, dates, receipts/refunds; total or average M definition, order validity rules, observation period and currency
 
 ## Method steps
 
-1. Monetary can be measured as total spending during a period
-2. For customer lifetime value, use SUM to aggregate all order amounts for each member
-3. The course materials also allow average spending for marketing segmentation; before using totals, confirm whether the purpose is lifetime value or spending capacity
+1. Fix M as cumulative net consumption or average order value in the specified period, without mixing definitions across members. Specify period, order dates and refund allocation; unknown rules retain raw values and pending definitions
+2. Deduplicate customer/order keys, apply case-defined cancellation/refund validity and sum period net amounts. Retain receipts, refunds and inclusion per order; product rows are not orders
+3. Cumulative M is total valid-order net amounts; average M is that total/valid-order count. Average is undefined with zero orders; confirmed no valid transactions yields cumulative zero, while missing sources mean unavailable data
+4. Label historical receipts as historical net consumption, not complete customer lifetime value. Contribution requires specified costs; future LTV needs a horizon, retention/purchase and cost model. Without that model leave LTV unestimated
+5. Deliver period, definition, included details and result per member. Recompute and update dependent scores/groups after refunds, added orders, coverage or M-definition changes rather than reuse a different-definition ranking
 
 ## Calculation and interpretation
 
-First define members, valid orders, refunds, and the period; calculate frequency using orders rather than item rows
+Hypothetical check: two valid orders net 100 and 200 give cumulative M 300 and average M 150. A further refund 50 on the second order, with both still valid under the case rule, changes them to 250 and 125. Full-refund order inclusion follows the case validity rule
+
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required output fields
 

@@ -15,17 +15,23 @@ Historical seasonality can inform planning but does not guarantee recurrence; do
 
 ## Required inputs
 
-Provide: Annual goals, historical seasonality, brand events, capacity, and budget
+Raw inputs: valid event orders, payment/shipping/refunds, usage issues/cycles, first/second purchases, actual offers, contact eligibility and historical reminder outcomes
 
 ## Method
 
-1. Enter the repeat-purchase phase after the campaign. The course's classic structure asks entirely new Purchase users to make their first repeat purchase within 7 days
-2. After the campaign, connect its new customers to their first repeat purchase and member engagement rather than simply stopping advertising
-3. Adjust the actual repeat-purchase window to the product cycle and campaign design; do not apply 7 days to every product
+1. Use valid orders/fulfillment to separate undelivered purchases, delivered items with use issues, first-time customers, repeat purchasers and noncontactable people. Pending/cancelled orders are not completed first purchases
+2. Resolve fulfillment exceptions first, then service/education for use issues. Exclude ineligible marketing contacts. Repeat-purchase planning requires actual need and product conditions
+3. Plan a second product for one-time customers using actual replenishment/use cycles or comparable historical intervals. Repeat purchasers move to their current use/benefit task. Seven days is a course example, not failure criteria for immature long-cycle products
+4. Check demand, cost, stock and eligibility for offers/second products. Retain candidates addressing the same need; change/omit ones merely subsidizing normal purchases or failing costs/fulfillment. Without cycles, deliver supported state actions and original-order gaps rather than invented days
+5. Deliver group state, timing evidence, education/service/repeat/stop action and window. Update for new shipping, refunds, second purchases or unsubscribes so obsolete first-repeat reminders end
 
 ## Calculations and interpretation
 
-Use actual brand data for campaign dates and high/low seasons; classroom schedules are not fixed market laws
+Match first-repeat outcomes to the same contactable one-time cohort and window with valid deduplicated second purchases. Apply original cancellation/refund rules and do not add reminder-recipient totals
+
+Hypothetical check: on day seven an item is unshipped, so handle delivery rather than a repeat discount. Delivered but hard to use calls for education. A valid second order ends the first-repeat reminder
+
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required output fields
 

@@ -15,21 +15,21 @@ Recalculability does not mean the data is complete; break-even points and cost c
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+Raw inputs: per-valid-order Target CPA, matched add-to-carts A and resulting valid purchases P, event/person/order units, matching method, mature window and actual add-to-cart spend
 
 ## Method
 
-1. A reasonable ROAS can be derived as average order value ÷ ideal CPA; the course example is 1,200 ÷ 216 = 5.56
-2. Set ROAS first from the brand's gross margin and advertising affordability; do not apply a fixed ROAS threshold across brands
-3. After ROAS meets the target, also check whether the budget is fully spent. High ROAS at insufficient volume does not mean the sales target has been achieved
+1. Fix Target CPA and valid-order definition; specify whether cost concerns events, cart users or deduplicated cart flows. Match subsequent valid purchases to those carts rather than divide unrelated purchase and cart events
+2. For a matched cohort/window, cart-to-purchase ratio is P/A. If the ratio counts people but Target CPA counts orders with multiple orders per person, obtain consistent order/flow units first. Unmatched or immature outcomes leave the usable ratio pending
+3. With A positive and consistent units, target add-to-cart cost = Target CPA × P/A. Compare matched spend/A in the same unit. Values outside the defined feasible ratio require duplicate/unit checks rather than clamping to 100%
+4. With A zero, the ratio is undefined. With A positive and P zero, observed ratio/formula value zero supports no positive cart allowance; retain actual spend and do not call purchase cost zero
+5. Actual matched cart cost above target identifies cost/completion gaps. Use checkout/payment evidence to choose landing repair or acquisition changes. Recompute and withdraw obsolete judgments after purchases, refunds, matching or Target CPA changes
 
 ## Calculations and interpretation
 
-Reasonable cost per add-to-cart = Target CPA × add-to-cart-to-purchase ratio
+Hypothetical check: Target CPA 216 with 100 deduplicated cart flows and 25 valid orders gives target cart cost 54. Confirming 50 mature orders changes it to 108. Retain ratio, currency and units with the calculation; this task delivers add-to-cart cost
 
-Retain original values, units, periods, and substituted formulas. The formula is not an unconditional guarantee of results
-
-Define gross profit, contribution margin, cost denominators, and periods explicitly; do not copy classroom example numbers as universal thresholds
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required output fields
 

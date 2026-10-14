@@ -15,17 +15,27 @@ Past success supports candidates and hypotheses only; shared content elements ar
 
 ## Required Inputs
 
-Provide: Post IDs, cross-audience performance, creative, and seed-list quality
+Raw inputs: Post ID, impressions/corresponding clicks/engagement events, remarketing task, ads/audience breakdowns, exclusions/overlap, periods/spend, mature valid orders/costs, creative and destination pages
 
 ## Method Steps
 
-1. Assess whether the same remarketing Hero Post can advance engaged/browsing audiences toward conversion
-2. Evaluate it separately from acquisition Hero Posts because audience readiness and tasks differ
-3. Still consider CTR, engagement, conversions, and sample size together, rather than social reactions alone
+1. Aggregate by Post ID but separate acquisition, remarketing purchases and member tasks. Verify creative version, period, attribution and valid purchases; do not add duplicate orders from several ad reports
+2. Check promise, rights, offer, page and recipient fit first. Fix/exclude expired or unusable items rather than retain conversion priority because of historical engagement
+3. Compare mature valid purchases, actual acquisition costs and the task target within comparable remarketing groups. List a primary candidate when business evidence supports it and ranking is not unresolved due to few orders. Otherwise retain a test and specify the next required record
+4. High engagement without purchase evidence supports an approved education/engagement role or a changed conversion use. If mature costs fail the objective after tracking/landing differences are checked, reduce/stop that use. One high-ROAS row does not establish scaling or incrementality
+5. Deliver four-dimension values/denominators, role, eligibility evidence, affordable input and revision conditions. Recalculate after refunds mature, overlap is resolved or creative/offers change; downgrade to testing or withdraw when appropriate
 
 ## Calculation and Interpretation
 
-Aggregate by Post ID and distinguish advertising contexts; high engagement or high ROAS alone does not guarantee scalability
+Four dimensions are CTR (corresponding clicks/impressions), engagement (specified events/denominator), conversions (valid orders/costs), and sample size (impressions, clicks, audience and orders), retaining matched cohort/window values
+
+Actual acquisition cost is task spend divided by valid deduplicated purchases. With zero purchases, report spend and zero purchases, not zero cost. Without a target, give comparable results and conditional candidates
+
+Hypothetical check: spend 600 and six valid orders give cost 100, meeting a specified 120 target and supporting a primary candidate. Mature refunds leave three valid orders and cost 200; withdraw eligibility even if engagement stays unchanged
+
+For a primary candidate, remove one valid order temporarily and recompute cost/rank. If target eligibility or rank flips, retain testing instead of primary status. This identifies decisions dependent on one order
+
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required Output Fields
 

@@ -15,17 +15,23 @@ Historical seasonality can inform planning but does not guarantee recurrence; do
 
 ## Required inputs
 
-Provide: Annual goals, historical seasonality, brand events, capacity, and budget
+Raw inputs: routine/event tasks, mature matched orders/costs, break-even requirements, organic/member purchases, stock/fulfillment, total budget and cash reserve requirements
 
 ## Method
 
-1. Ongoing traffic supplies the baseline needed for daily operations and break-even revenue; campaign traffic generates additional revenue in months of essential demand
-2. Campaigns are not the main source of sales; retain autonomous member repeat purchases, organic new-customer purchases, and educational traffic
-3. Prioritize campaign traffic toward educated/engaged non-buyers and previous customers; do not spend the entire budget pursuing completely unfamiliar audiences
+1. Separate routine operations, education, event demand and member repeat purchases; list valid outcomes/full costs and count each order once. Separate break-even traffic from the paid shortfall rather than buy all revenue-target traffic
+2. Check whether routine tasks have valid demand, affordable acquisition costs and fulfillable products. Supported tasks retain candidate input; fix unsupported costs/landing first. The routine label does not protect every budget unconditionally
+3. Actual event demand, offers, stock and pages plus affordable input within total/cash constraints support bounded event investment. Separate shifted normal member purchases and discounts from new demand
+4. Compare retaining routine input, transferring part to events or deferring events, showing foregone outcomes/costs. Exclude unfulfillable, nonpositive-contribution or over-limit options first. Without incremental evidence, propose capped options rather than a fixed split
+5. Deliver task allocation, costs/outcome sources, retain/transfer/defer choices and review evidence. Reallocate after changed event demand, mature routine results, stock or cash limits and preserve the original decision
 
 ## Calculations and interpretation
 
-Use actual brand data for campaign dates and high/low seasons; classroom schedules are not fixed market laws
+Compare same-period incremental available contribution minus additional event/step costs. Without a counterfactual, incremental components remain assumptions. Count existing and new input once within the total
+
+Hypothetical check: both routine and event candidates are affordable, but event goods cannot arrive by the promised date; retain routine input and defer the event. Confirmed fulfillable stock makes the event eligible for the same-total comparison, without raising the total
+
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required output fields
 

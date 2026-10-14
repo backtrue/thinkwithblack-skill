@@ -15,21 +15,21 @@ Recalculability does not mean the data is complete; break-even points and cost c
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+Raw inputs: requested metric, expense scope, clicks, valid deduplicated leads, valid orders, buyers/new-customer keys, period, currency, attribution and validity definitions
 
 ## Method
 
-1. The course's three cost formulas are: traffic acquisition cost=(Meta Amount Spent + Google Ads spend) ÷ (Meta Clicks/Outbound Click + Google clicks); lead acquisition cost=advertising spend ÷ first-time buyers; order acquisition cost=advertising spend ÷ total buyers
-2. Before use, confirm consistent periods, currencies, click definitions, and denominators across sources
-3. Mark the result incalculable if the denominator is zero or sources are missing; do not force cross-platform figures together
+1. Name the outcome as clicks, leads, orders, buyers or new customers and map each to a source field. First purchasers are not leads and buyer counts are not order counts; correct existing mislabeled formulas and denominators
+2. Click cost uses matching spend/clicks; lead cost matching spend/valid deduplicated leads; order cost matching spend/valid deduplicated orders. Buyer cost and new-customer CAC use their respective counts, with CAC expenses scoped as specified
+3. Before combining sources verify period, currency, click definitions and expenses. Mixing outbound and incompatible all-click counts is not one CPC. Deduplicate overlapping platform-attributed purchases using valid order keys or report platform values separately
+4. Zero denominators mean report spend and zero outcomes with undefined cost. Missing sources/partial costs retain partial values and missing items. Without validity rules report raw fields rather than infer sale, cancellation or new-customer definitions
+5. Deliver numerator, denominator, population, period, currency, deduplication and result for each metric. Recompute relevant values after orders, refunds, identity coverage or attribution corrections, retaining prior values and change sources
 
 ## Calculations and interpretation
 
-Check the numerator, denominator, population, period, currency, attribution, and deduplication for each metric
+Hypothetical check with approved common spend 600: 300 matching clicks, 20 valid leads, 6 valid orders, 5 buyers and 3 new customers yield 2/click, 30/lead, 100/order, 120/buyer and 200/new customer. Different outcome definitions cannot be compared as deterioration in the same task
 
-Retain original values, units, periods, and substituted formulas. The formula is not an unconditional guarantee of results
-
-Define gross profit, contribution margin, cost denominators, and periods explicitly; do not copy classroom example numbers as universal thresholds
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required output fields
 

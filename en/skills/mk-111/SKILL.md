@@ -15,17 +15,23 @@ Do not fabricate discounts, gift inventory, countdown deadlines, limited quantit
 
 ## Required inputs
 
-Provide: Campaign goals, products, costs, real offer conditions, and customer groups
+Raw inputs: actual baskets, valid single/bundle purchases, usage needs/cycles, SKU stock, discounted revenue, payment/fulfillment/packaging costs and recipient eligibility
 
 ## Method
 
-1. Combine different products into multi-item bundles to reduce direct comparison of discounts on individual items
-2. Member-benefit bundles can use multiple units or products to increase average order value; new-customer bundles focus on lowering the first-purchase barrier
-3. For each bundle, check all variable costs in the contribution margin table, including products, logistics, payment processing, packaging, and sales-support items
+1. Separate new/member tasks and usage situations for singles/bundles; specify quantities, contents, prices and delivery. Shared roles suggest hypotheses, while actual baskets/next needs support bundle use
+2. Calculate net bundle revenue minus product, payment, shipping, packaging, gift and service costs. Count shared order costs once and retain per-item charges/stock limits. Check contribution and usage duration, not just order value
+3. Omit/shrink bundles with unsupported need, unreasonable use quantities, nonpositive contribution or unavailable supply. Compare valid orders and same-period total contribution for supported singles/small/large bundles
+4. Expand bundles with comparable demand and incremental contribution evidence. Bringing later purchases forward or subsidizing existing demand requires showing transfer/cost and shrinking/observing. Without bundle outcomes use a capped candidate test and retain a single-item choice
+5. Deliver usage, eligibility, supply, costs, order/period contribution and conditions. Rechoose after costs/refunds/needs/stock corrections. Higher order value with lower total contribution does not retain expansion priority
 
 ## Calculations and interpretation
 
-Check gross margin and stacked offers; time limits, inventory, and benefits must be real, with no promise of guaranteed results
+Total contribution is valid orders × matched average order contribution, or a per-order sum when costs differ. Include the later window from which demand may be pulled forward
+
+Hypothetical check: singles give 100 orders × 100 = 10,000; bundles give 60 × 140 = 8,400. Higher bundle order value does not support replacing all singles. Correcting to 80 valid orders gives 11,200, then check transferred demand and supply before expansion
+
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required output fields
 

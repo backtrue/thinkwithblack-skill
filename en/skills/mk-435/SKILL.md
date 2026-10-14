@@ -15,17 +15,23 @@ Adding impressions across platforms does not yield deduplicated reach; conversio
 
 ## Required inputs
 
-Provide: GA4, GSC, advertising, and sales exports, metric definitions, and costs
+Raw inputs: same-period SKUs, valid deduplicated views/orders, net product revenue, margin definition, full variable costs, refunds, stock and advertising task
 
 ## Method steps
 
-1. At product level, first obtain product revenue, product views, purchases, and gross margin rate
-2. Calculate product conversion rate, then form a profitability index using product revenue × gross margin rate × conversion rate
-3. Use relative values to find products worth paid exposure, SEO, and content investment; neither high revenue nor high conversion alone is profit
+1. Verify SKU, period, product/order counts and refunds; separate unit price, revenue, gross margin and order contribution. Allocate shared bundle/fulfillment costs once using actual rules
+2. Calculate the course revenue × margin ratio × conversion-rate index with view/valid-purchase numerators and denominators. Missing values or zero denominators remain unknown. The index ranks comparable candidates, not spendable profit
+3. Then calculate same-period/per-order available contribution and check supply, fulfillment, returns and new input costs. High-index items with nonpositive contribution, no stock or failed fulfillment are not spend candidates. Fix demonstrated landing/supply gaps first
+4. Select bounded exposure/content inputs among task-matched, cost-supported and fulfillable SKUs. Separate natural historical purchases from paid results. If removing the largest valid order reverses ranking, investigate. Without incremental evidence, use capped comparisons rather than extrapolate an optimal allocation
+5. Deliver index, actual costs, available contribution, supply, selection and contrary evidence. Re-rank after refunds, mix or costs change; unchanged index does not retain eligibility automatically
 
 ## Calculation and interpretation
 
-Verify data sources, dates, currencies, denominators, and attribution; sums across platforms do not equal unique reach or incremental impact
+Course index I = net product revenue × specified gross-margin ratio × valid purchases/matching views. Available contribution C = net revenue minus same-scope non-ad variable costs; show ad costs separately and deduct once
+
+Hypothetical check: A has a higher index but contribution -20; B has a lower index, contribution 100 and fulfillable stock, supporting B. A documented duplicate return cost corrected to contribution 150 makes A eligible for reconsideration
+
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required output fields
 

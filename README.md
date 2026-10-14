@@ -16,7 +16,7 @@
 
 [![365 Skills](https://img.shields.io/badge/行銷_Skills-365-171717?style=flat-square)](INDEX.md) [![Markdown](https://img.shields.io/badge/使用方式-上傳_Markdown-F2C94C?style=flat-square&labelColor=171717)](START_HERE.md) [![MIT License](https://img.shields.io/badge/License-MIT-171717?style=flat-square)](LICENSE)
 
-**[下載完整教材包 ↓](https://github.com/backtrue/thinkwithblack-skill/releases/download/2026.10.14-free.3/ThinkWithBlack-bilingual-2026.10.14-en.3.zip)** · **[逛逛 365 個 Skills](INDEX.md)** · **[開始第一題](#三步開始你的第一題)**
+**[下載完整教材包 ↓](https://github.com/backtrue/thinkwithblack-skill/releases/download/2026.10.14-free.4/ThinkWithBlack-bilingual-2026.10.14-en.4.zip)** · **[逛逛 365 個 Skills](INDEX.md)** · **[開始第一題](#三步開始你的第一題)**
 
 覺得這份工具箱值得留著，點右上角 **Star ⭐** 收藏，下次遇到行銷問題再回來
 
@@ -99,7 +99,7 @@
 
 ### 1. 下載教材，上傳索引
 
-[下載完整教材包](https://github.com/backtrue/thinkwithblack-skill/releases/download/2026.10.14-free.3/ThinkWithBlack-bilingual-2026.10.14-en.3.zip)並解壓縮，在 ChatGPT、Claude、Gemini 等支援檔案閱讀的 AI 對話中，上傳 `INDEX.md`
+[下載完整教材包](https://github.com/backtrue/thinkwithblack-skill/releases/download/2026.10.14-free.4/ThinkWithBlack-bilingual-2026.10.14-en.4.zip)並解壓縮，在 ChatGPT、Claude、Gemini 等支援檔案閱讀的 AI 對話中，上傳 `INDEX.md`
 
 ### 2. 貼上這段指示，加上你的問題
 
@@ -166,7 +166,7 @@
 
 也歡迎把這個專案分享給那位每天都在想文案、算預算、研究客人為什麼不回購的同事。找到適合自己的第一個 Skill，就從那一題開始
 
-**[下載教材，開始第一題 ↓](https://github.com/backtrue/thinkwithblack-skill/releases/download/2026.10.14-free.3/ThinkWithBlack-bilingual-2026.10.14-en.3.zip)**
+**[下載教材，開始第一題 ↓](https://github.com/backtrue/thinkwithblack-skill/releases/download/2026.10.14-free.4/ThinkWithBlack-bilingual-2026.10.14-en.4.zip)**
 
 ## 特別感謝
 

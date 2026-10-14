@@ -15,21 +15,21 @@ Recalculability does not mean the data is complete; break-even points and cost c
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+Raw inputs: consistent Target CPA, corresponding clicks K, valid orders P from those clicks, click definition, attribution/mature observation window and currency
 
 ## Method
 
-1. The course formula for ideal CPC is: ideal CPA × conversion rate, namely target revenue / average order value × gross margin ratio × 30% × conversion rate
-2. Use actual conversion data from the same funnel and period; do not force a precise CPC calculation without a reliable conversion rate
-3. If CPC is too high, return to diagnosing CTR, audiences/creative, and the pricing model; do not treat CPC alone as the root cause
+1. Use the specified per-valid-order Target CPA. An approved estimate retains order value times margin times approved ad-allocation fraction, not revenue-target/order-value volume
+2. Match clicks and their valid orders; purchase conversion rate is P/K. Outbound clicks, all clicks and sessions have distinct denominators. A session conversion rate cannot imply an all-click CPC allowance
+3. With K positive, matched attribution and a mature window, Target CPC = Target CPA × P/K per corresponding click. For immature or unmatched outcomes, report observed counts and an unset usable rate
+4. With K zero, conversion is undefined. With K positive and P zero, observed conversion and the formula value are zero but support no positive click allowance; do not recommend a platform zero bid or claim order cost zero
+5. When matched actual CPC exceeds the candidate allowance, show the gap and conversion rate, then examine creative/audience/landing differences. Recompute after new valid orders, click definitions, windows or Target CPA; CPC alone does not establish the cause
 
 ## Calculations and interpretation
 
-Target CPC = Target CPA × purchase conversion rate per corresponding click
+Hypothetical check: Target CPA 216 with 1,000 corresponding clicks and 10 valid orders gives Target CPC 2.16; 20 verified mature orders changes it to 4.32. If 1,000 denotes sessions, label the result per-session allowance rather than CPC
 
-Retain original values, units, periods, and substituted formulas. The formula is not an unconditional guarantee of results
-
-Define gross profit, contribution margin, cost denominators, and periods explicitly; do not copy classroom example numbers as universal thresholds
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required output fields
 

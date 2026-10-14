@@ -15,17 +15,23 @@ General content rewriting differs from Speak Human TW language review; do not au
 
 ## Required inputs
 
-Provide: the full article, reader questions, sources, and actual experience or evidence
+Raw inputs: full article, core reader question, original sources for material claims, existing sections/dependencies and available editing resources
 
 ## Method steps
 
-1. Use the 10-item checklist to find the weakest 3 modules, rather than pursuing an attractive total score alone
-2. Prioritize gaps affecting AI understanding, extraction, trust, and judgment: summary / H2 / Answer-First, extractable modules, experience / evidence, differentiation / context / next-step entry points
-3. Tool scores are diagnostic aids; ultimately explain which layer the article is missing
+1. Read the core answer and evidence first. Wrong answers, source contradictions or unsupported material claims are mandatory first fixes. Pair the claim with its actual source and identify the conclusion it fails to support
+2. After the core answer holds, identify missing applicability, exceptions, comparison criteria or next actions that would lead readers to choose incorrectly. State the missing information and the decision it enables, rather than just a low score
+3. Next prioritize unclear or unextractable structure, then wording/headings/format. Fix upstream conclusions before dependent sections. Within a tier, prioritize core-task impact and repairs supported by available evidence
+4. Choose feasible items within resources and provide original text, gap, evidence needed, specific edit and affected sections. Deliver two valid issues when only two exist. When tool scores differ, retain the actual priority evidence
+5. Reorder affected items when evidence or the core answer changes and remove resolved items. A source overturning a claim requires withdrawing that claim and dependent advice before the planned formatting edit
 
 ## Calculation and interpretation
 
-Check only presence and clarity; do not invent experts, experience, or data, or guarantee AI citations
+Order fixes by wrong core answer/unsupported material evidence, decision-changing omissions, comprehension/structure, then wording/format. Within a tier consider dependencies and feasible resources. A score difference is not an improvement outcome
+
+Hypothetical check: an H2 rewrite initially leads, but the core comparison reverses its cited finding. Fix the conclusion and dependent recommendation first; after verifying the conclusion, return to remaining H2 and other gaps
+
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required output fields
 

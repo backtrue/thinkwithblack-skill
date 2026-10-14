@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.10.14-en.4
+
+- Upgrade evidence, actions and revision conditions in 20 methods
+- Correct formulas, cost definitions, member amounts, RFM mapping and first-repeat cohorts in 8 methods
+- Preserve the 365-method single-Markdown workflow in both complete language editions
+
 ## 2026.10.14-en.3
 
 - Rewrite decision steps in 55 methods, connecting raw records, qualifying conditions, actions, and revision triggers

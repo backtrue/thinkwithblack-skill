@@ -15,17 +15,23 @@ Do not fabricate discounts, gift inventory, countdown deadlines, limited quantit
 
 ## Required inputs
 
-Provide: Campaign goals, products, costs, real offer conditions, and customer groups
+Raw inputs: valid member purchases/segmentation, actual needs/preferences, candidate benefits/eligibility, product and benefit costs, stock/capacity and existing policy
 
 ## Method
 
-1. Member-benefit bundles are central to existing-customer repeat purchases and that month's profit; larger quantities, group-use bundles, or multi-product bundles can increase average order value
-2. Prioritize existing-customer repeat purchases during the early-bird period; they can also generate Purchase events for subsequent ad learning
-3. Keep member-benefit bundles separate from new-customer promotional bundles; do not make the same low-barrier first-purchase offer publicly available to all existing customers
+1. Fix the member task/eligibility and preserve approved benefits. Returning customers are not all high-value members, and analysis does not cancel existing commitments. Separate acquisition offers from repeat benefits
+2. For each candidate list what/when the customer gets it, demand evidence and the business burden. Separate discounts, gifts, service, priority and bundles; high order value is not available contribution
+3. Calculate same-cohort expected order contribution minus additional benefits/fulfillment and check stacking, stock/capacity. Exclude unsupported spending, resource failures or ineligible recipients. Honor existing policy while recording its cost issue
+4. Choose a feasible, affordable candidate directly supporting observed member needs with reviewable outcomes. Mark new-purchase assumptions and limit trials when incremental evidence is absent; offer use does not mean a new order. A service response need not become a discount
+5. Deliver costs, eligibility, evidence, selections/rejections and revision conditions. Rechoose after changed stacked costs, supply, member state or needs. Rising order value with falling total contribution withdraws a volume proposal
 
 ## Calculations and interpretation
 
-Check gross margin and stacked offers; time limits, inventory, and benefits must be real, with no promise of guaranteed results
+Candidate order contribution is net order revenue minus variable costs not already deducted and added benefit cost, each counted once. Benefits on purchases that would already occur are subsidies, not incremental orders
+
+Hypothetical check: two options meet the same member need; A contributes 120 and B 80, supporting A. Adding A's omitted shipping/service costs of 70 lowers it to 50; choose B. Previously promised benefits are still honored
+
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required output fields
 

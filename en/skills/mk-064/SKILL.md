@@ -15,21 +15,21 @@ Recalculability does not mean the data is complete; break-even points and cost c
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+Raw inputs: specified Target CPA and valid-order definition; an approved simplified estimate requires average order value, gross-margin rate, ad-allocation fraction and covered cost items with period/currency
 
 ## Method
 
-1. The course formula for ideal CPA is: target revenue / average order value × gross margin ratio × 30%. For example, with an average order value of 1,200 and a gross margin ratio of 60%, ideal CPA is 216
-2. The 30% is the course's benchmark for allocating advertising expenses, not an accounting rule for every brand. Confirm it against the brand's actual profit and loss and goals before formal use
-3. Only after CPA fits the cost constraints should budget utilization and scaling be assessed; do not look at a single CPA alone
+1. Use the case-specified Target CPA with source, cost scope and valid-order definition. Otherwise find approved estimating assumptions; 30% is a teaching example, not a default
+2. For an approved simplified estimate, Target CPA equals average order value times gross-margin rate times acceptable ad-allocation fraction. Revenue target divided by average order value is target order volume, not part of per-order CPA
+3. Identify costs already deducted in the margin and the portion being allocated, counting ad costs once. Product margin alone gives a partial estimate with actual missing costs; full affordability needs the approved profit calculation rather than treating margin as net profit
+4. Check nonnegative amounts, fractions from 0 to 1 and consistent definitions; repair invalid input. Zero/negative available contribution provides no positive ad allowance rather than a profitable zero-cost recommendation. Retain an explicitly approved zero Target CPA as the stated goal
+5. Deliver inputs, units, source, substitution and result. Recompute with changed order value, costs or approved allocation. New-customer CAC uses its own customer count and specified expenses, not a renamed order CPA
 
 ## Calculations and interpretation
 
-An already specified Target CPA takes priority. Only when a simplified estimate is approved for this case, Target CPA = average order value × gross margin ratio × acceptable advertising-cost allocation
+Hypothetical approved estimate: average order value 1,200, margin 60% and allocation 30% give Target CPA = 1,200 × 0.60 × 0.30 = 216 per valid order. An approved 20% allocation gives 144. Without a fraction, report order margin 720 and an unset allocation rather than filling 30%
 
-Retain original values, units, periods, and substituted formulas. The formula is not an unconditional guarantee of results
-
-Define gross profit, contribution margin, cost denominators, and periods explicitly; do not copy classroom example numbers as universal thresholds
+Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources are retained below
 
 ## Required output fields
 
