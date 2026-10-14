@@ -15,17 +15,24 @@ Historical seasonality can inform planning but does not guarantee recurrence; do
 
 ## Required inputs
 
-Provide: Annual goals, historical seasonality, brand events, capacity, and budget
 
-## Method
+Available raw records: daily campaign spend, order and conversion timestamps, creative versions, offer changes, and remaining budget
 
-1. Prioritize stable output in the middle of the campaign; do not arbitrarily rebuild the whole campaign because of a single day's fluctuations
-2. Keep monitoring conversions from new-customer bundles, member-benefit bundles, and warm-up lists; adjust creative and resources when needed
-3. The original course material does not define an automatic mid-campaign adjustment formula; determine the scale of changes from actual performance and available budget
+## Method Steps
 
-## Calculations and interpretation
+1. Align daily spend, impressions, clicks, valid orders, conversion lag, creatives, and change logs within this campaign by offer, audience, and campaign stage. Even without a budget, identify supported creative or page issues
+2. If tracking definitions or reporting maturity differ, rebuild comparable windows first. Pending orders do not establish deterioration. Repair a reproducible landing-page or checkout obstruction first
+3. When creative response declines under the same audience, offer, and placement while post-click conversion remains stable, propose a comparison changing one creative element. Stable clicks with a downstream problem call for a landing or checkout change, not a wholesale creative replacement because total ROAS fell
+4. If acquisition cost for a mature group exceeds the brand-provided limit, propose reducing or pausing that group. Maintain a group within the limit when fulfillment is available. Expansion additionally needs available funds, supply, and evidence about the cost of added traffic
+5. Withdraw a cost-based reduction when recovered orders bring cost within the limit. Withdraw a fatigue diagnosis if tracking reconciliation alone explains the change. With no limit, report costs and conditional actions and ask only for the acceptable acquisition cost; do not invent an adjustment percentage
 
-Use actual brand data for campaign dates and high/low seasons; classroom schedules are not fixed market laws
+## Calculation and Interpretation
+
+Acquisition cost = group spend / valid new customers in that group. With zero customers, report spend and zero purchases without dividing. Use observed historical conversion delays or the established evaluation window. In the plan field, specify maintain, repair, replace creative, or reduce, with its comparison
+
+Check example (hypothetical): a 500 cost limit, 3,000 spend, and four mature new customers yield 750, supporting reduction. Reconciliation finds eight customers, yielding 375; withdraw the over-limit reduction and maintain if supply is available
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

@@ -15,17 +15,24 @@ Keep review excerpts faithful; a recommendation, collaboration plan, or reuse ar
 
 ## Required Inputs
 
-Provide: actual reviews, customer service records, collaboration content, permissions, and performance data
+
+Available raw records: collaboration fees and terms, usage rights, comparable source/order records, refunds, and first-buyer history
 
 ## Method Steps
 
-1. When KOL/KOC traffic is categorized by UTM source/medium, compare the new-customer conversions and traffic quality each partner brings
-2. When utm_campaign distinguishes collaboration campaigns, also compare per-session value across collaboration types
-3. Prioritize valuable new customers/revenue in renewal decisions rather than exposure or engagement alone; retain actual collaboration costs for a complete business assessment
+1. Read the contract objective, deliverables and usage rights, total actual cost, linked UTMs/orders, and observation horizon. Separate acquisition, reach, and reusable-asset objectives
+2. For sales, compare mature valid new buyers and contribution after product, fulfillment, and collaboration costs. For reach, use the specified audience and verifiable reach objective. For assets, use delivered quality, license term, and a confirmed usage plan; these outcomes do not substitute for one another
+3. Meeting the objective with affordable renewal terms and rights covering intended use supports renewal within the original scope. Success confined to one asset or audience supports a narrower proposal. Unfulfilled deliverables or rights without a repair path support nonrenewal or replacement
+4. If removing the largest of a few orders reverses contribution, retain a limited test rather than a full long contract. Clicks or follower counts alone call for linked outcomes or rights documents, not invented revenue
+5. Recalculate scope after refunds, a new quote, rights expiry, or objective changes. Attributed orders are observed outcomes, not all incremental sales without a comparable control
 
 ## Calculation and Interpretation
 
-Use only authentic reviews and third-party content with usage rights; do not fabricate reviews, endorsements, or engagement
+Sales-collaboration net contribution = linked valid-order net revenue − product/variable fulfillment costs − collaboration and advertising costs not already included. Asset value uses verifiable replacement-production cost and confirmed uses rather than fabricated future sales
+
+Check example (hypothetical): order contribution of 30,000 and collaboration/advertising cost of 20,000 meet the break-even objective. A renewal quote of 40,000 with unchanged supported outcomes withdraws the full-scope renewal recommendation in favor of narrower terms or nonrenewal
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required Output Fields
 

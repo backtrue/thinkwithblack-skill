@@ -15,17 +15,24 @@ Historical seasonality can inform planning but does not guarantee recurrence; do
 
 ## Required inputs
 
-Provide: Annual goals, historical seasonality, brand events, capacity, and budget
 
-## Method
+Available raw records: launch offers and eligibility, inventory/capacity, checkout results, event/order reconciliation, contacts, and the available allowance
 
-1. The early campaign's task is to help the conversion system learn quickly; prioritize warm-up contacts and existing customers to trigger purchase events first
-2. The course's reference budget pacing treats the first three days as the main investment period, rather than spreading the budget evenly across the campaign
-3. Use both new-customer promotional bundles and member-benefit bundles at launch, serving new and existing customers separately
+## Method Steps
 
-## Calculations and interpretation
+1. Before opening, inspect real offer terms, expiry, inventory or service capacity, a checkout walkthrough, event/order reconciliation, and new-customer versus member eligibility. Confirm purchases from orders rather than event volume
+2. Prepare opening assets and budget when the offer is fulfillable, checkout works, and list eligibility is identifiable. Direct the acquisition offer to eligible first buyers and member benefits to qualified members
+3. Repair a failed required step before using that entry point. Contacts without messaging eligibility are not usable launch capacity. Asset preparation can proceed without a known budget
+4. While results remain inside observed conversion lag, retain the approved test allowance and wait for reporting to mature. Mature costs above the acceptable limit support a reduction candidate; expansion requires acceptable cost plus additional supply and demand
+5. Contract the affected plan when orders consume inventory, an offer expires, or the page fails again. Restore test eligibility after verified repair and restored capacity. Request the specific record affecting completion rather than asking the customer to classify the problem
 
-Use actual brand data for campaign dates and high/low seasons; classroom schedules are not fixed market laws
+## Calculation and Interpretation
+
+Planned launch orders must fit fulfillment capacity and spending must fit the provided budget or loss cap. Without a cap, deliver assets, groups, and conditional costs rather than choosing spend. The course's emphasis on the first three days is not a spending deadline
+
+Check example (hypothetical): eligible members and a valid offer encounter a checkout submission failure; repair checkout first. A successful retest finds only eight bundles available, so plan around eight rather than retaining the original 50-order plan
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

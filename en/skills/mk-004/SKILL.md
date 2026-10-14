@@ -15,17 +15,24 @@ Separate features, benefits, and evidence; do not claim exclusivity without comp
 
 ## Required inputs
 
-Provide: Product specifications, competitor differences, verifiable evidence, and intended customers
 
-## Method
+Available raw records: the proposed claim, product specifications or tests, actual customer questions, and usage conditions
 
-1. A USP must align with how a specific role decides what to trust, rather than repeating the same slogan to everyone
-2. Check whether the subject of the copy includes the user/role. Copy that talks only about the product lacks personalization
-3. The same USP must translate into a value proposition this Persona cares about; otherwise, do not make it the lead selling point
+## Method Steps
 
-## Calculations and interpretation
+1. Break the claim into product capability, conditions where it works, and the user's resolved problem or completed task. Support the capability with specifications/tests and the task with customer records
+2. Keep a capability directly serving a known task as a value proposition. A true but irrelevant feature becomes supporting information or a different angle. Narrow an effect exceeding its evidence to the supported scope
+3. The word “you” is not a pass condition. A clear task can work without it; repeated “you” without an observable result still needs revision
+4. With missing context, give a conditional version using known situations and request one customer question or usage record. Missing capability evidence leaves the claim unresolved rather than validated by fluent copy
+5. Withdraw the lead benefit when new evidence invalidates the context or effect. Reconnect the benefit when the customer task changes instead of retaining the same persona assumption
 
-Use only verifiable product differences. Mark claims lacking evidence as needing support; do not generate fabricated evidence
+## Calculation and Interpretation
+
+Deliver original claim, product fact, customer task, supported outcome, retain/rewrite/remove, and revision evidence. Numerical benefits must map to measurement under matching conditions
+
+Check example (hypothetical): ten-hour battery evidence under matching use conditions supports avoiding charging during an eight-hour field shift. For a permanently plugged-in desk worker, move it to supporting specifications rather than leading with a field-work benefit
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

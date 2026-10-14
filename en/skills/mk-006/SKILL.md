@@ -15,17 +15,24 @@ Separate features, benefits, and evidence; do not claim exclusivity without comp
 
 ## Required inputs
 
-Provide: Product specifications, competitor differences, verifiable evidence, and intended customers
 
-## Method
+Available raw records: candidate product claims, supporting evidence, customer choice or lost-sale records, and competitor conditions
 
-1. Narrow the lead selling points to three. The course material's rationale is that more selling points mean lower profit and less focused communication
-2. Let the AI identify candidates first, then discuss/vote using exclusivity, personalization, quantification, and relevance to the Persona
-3. Feed the ranking back into the Persona/copy workflow; prioritize these three points on the product page and in FABE
+## Method Steps
 
-## Calculations and interpretation
+1. Link each candidate benefit to product facts, verifiable evidence, the customer's current job, and actual competitor differences. Exclude unsupported, irrelevant, or unfulfillable promises
+2. Prioritize a condition that remarks or choice records show would block purchase, when the product can resolve it. If the product fails a necessary condition, change the offer rather than hiding the failure behind another attractive benefit
+3. Compare the remaining known trade-offs. For equally relevant benefits, favor direct evidence and a perceptible difference. Shared basic features remain supporting points; without competitor evidence, state owned capability rather than exclusivity
+4. Select up to three lead benefits addressing distinct important problems; deliver two if only two qualify. Internal votes express preference, not proof. If candidates cannot be distinguished, retain them and inspect an actual lost-sale/choice record or compare message response
+5. Re-rank after customer-task, competitor, or evidence changes. Move a former lead to support or remove it when differentiation or fulfillment disappears, identifying the replacement and its evidence
 
-Use only verifiable product differences. Mark claims lacking evidence as needing support; do not generate fabricated evidence
+## Calculation and Interpretation
+
+For each benefit, deliver supporting fact → decision barrier resolved → lead/support/unresolved → reason another option was not selected → condition for changing rank. Do not invent weighted scores without established brand weights
+
+Check example (hypothetical): a customer requires same-day pickup and verified stock exists, making pickup more relevant than packaging design. Stock updates show arrival in three days; remove the same-day promise despite its earlier internal vote count
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

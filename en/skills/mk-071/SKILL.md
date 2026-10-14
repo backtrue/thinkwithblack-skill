@@ -15,21 +15,24 @@ Working backward to resource requirements is not a forecast or optimal allocatio
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
 
-## Method
+Available raw records: same-period revenue, orders, traffic denominator, average order value, costs, target, capacity, and proposed actions
 
-1. Calculate scenarios using revenue = traffic × conversion rate × average order value
-2. Hold two variables constant and separately test how changes in average order value, conversion rate, or traffic affect orders and revenue
-3. Use the break-even target to judge which lever deserves attention first; an increase in a single metric does not automatically improve profit
+## Method Steps
 
-## Calculations and interpretation
+1. Align revenue, valid orders, traffic denominator, and average order value in one period, then rebuild the baseline. A visit-based denominator needs a visit-based order rate, not a user conversion rate from another report
+2. Solve each lever's required value while holding others fixed, then attach actual actions, costs, preparation time, supply, and evidence for the assumed change. The smallest algebraic change is not necessarily the easiest action
+3. Exclude scenarios exceeding fulfillment, supported conversion ranges, or preparation deadlines. For equal target outcomes, prefer the option with lower cost and shorter time if the other has no known compensating benefit
+4. Compare contribution and feasibility against the user's objective without invented weights. If one missing cost determines a trade-off, request that cost while delivering the known calculations and eliminated options
+5. Recalculate linked variables when an offer reduces contribution or a larger basket reduces conversion. Replace the original preferred lever when new conditions invalidate it
 
-Scenario revenue = consistently defined traffic × conversion rate × average order value; calculate scenario contribution separately by deducting each cost
+## Calculation and Interpretation
 
-Retain original values, units, periods, and substituted formulas. The formula is not an unconditional guarantee of results
+Revenue R = traffic T × order rate C × average order value A. Required C = target R / (T × A), with analogous solutions for other variables; do not solve with a zero denominator. Contribution = orders × net revenue less variable costs per order − additional acquisition and implementation costs, compared with fixed costs or the objective
 
-Define gross profit, contribution margin, cost denominators, and periods explicitly; do not copy classroom example numbers as universal thresholds
+Check example (hypothetical): 1,000 visits × 2% × 1,000 = 20,000. Reaching 30,000 could use a 1,500 basket scenario. If the bundle reduces conversion to 1%, revenue becomes 15,000; withdraw the recommendation that a larger basket alone reaches the target
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

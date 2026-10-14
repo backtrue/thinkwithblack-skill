@@ -15,17 +15,24 @@ Hypotheses are useful but do not establish demographics or market share; do not 
 
 ## Required inputs
 
-Provide: Product facts, existing customer data, surveys, or customer-service records
 
-## Method
+Available raw records: actual choices and remarks, feasible alternatives, prices, delivery, quality, and availability at the time
 
-1. Values are not merely the reasons consumers state on the surface; they are the underlying standards by which they judge something to be "valuable"
-2. Infer the underlying priorities from the Persona's trade-offs among price, quality, craftsmanship, brand, convenience, story, and other factors
-3. Values must translate into observable audience signals and different funnel pacing; otherwise, they are only abstract descriptions
+## Method Steps
 
-## Calculations and interpretation
+1. Preserve feasible alternatives, prices, delivery, quality, availability, actual choices, and remarks. First exclude unavailable options or those failing necessary conditions
+2. A choice supports a contextual value priority only when feasible alternatives involve a real trade-off. Buying a cheaper item when the premium one is unavailable does not establish price priority; paying more to meet a deadline may support timing priority
+3. When stated preference and behavior differ, inspect constraints rather than alleging dishonesty or inferring personality. Different tasks with different trade-offs remain separate conditions
+4. Translate supported trade-offs into observable signals and messaging, such as prioritizing delivery evidence when people ask about dates and pay more under comparable terms. Demographics alone leave a hypothesis; request one complete choice record
+5. Withdraw the value inference if no alternative was actually available or someone else made the decision. Opposite choices narrow the applicable context rather than changing a permanent personality label
 
-Treat customer roles and motivations as hypotheses initially; do not establish someone's actual identity from a single purchase behavior
+## Calculation and Interpretation
+
+Deliver options/constraints, observed trade-off, supported contextual value, matching message, and a potentially contradicting record. Do not score values from income or age
+
+Check example (hypothetical): choosing next-day delivery at 1,500 over five-day delivery at 1,200 supports timing priority for that purchase. Records showing both were next-day and the cheaper item was unavailable withdraw the timing inference from price
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

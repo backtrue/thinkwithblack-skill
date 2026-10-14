@@ -15,17 +15,24 @@ Separate features, benefits, and evidence; do not claim exclusivity without comp
 
 ## Required inputs
 
-Provide: Product specifications, competitor differences, verifiable evidence, and intended customers
 
-## Method
+Available raw records: the exact claim, product/version and conditions, full original evidence, comparator, measurement method, and outcome
 
-1. For Evidence in FABE, use only genuine proof, cases, or data that can build trust
-2. If a USP is strengthened with numbers, verify their sources first; retain a nonnumeric version if no source is available
-3. Evidence should substantiate the Feature/Advantage/Benefit. Do not fill the space with irrelevant awards or vague appeals to authority
+## Method Steps
 
-## Calculations and interpretation
+1. Make the claim checkable by specifying subject/version, conditions, comparator, outcome, and period. Read the source content and measurement method rather than treating a title, award, or brand name as support
+2. A matching product and use condition directly measuring the claimed outcome supports that scope. Partial evidence calls for narrowing; evidence for another model or quantity does not transfer the full effect
+3. “Better than others” requires comparable subjects and measurement. A testimonial supports that person's experience, not a universal guarantee or precise improvement percentage. If the function is supported but the number is not, retain a functional claim
+4. Contradictory evidence withdraws the claim; an absent source leaves it unresolved. Request the original passage or report most likely to support the core statement, not more unrelated endorsements
+5. Re-map claims after product-version, measurement-condition, or source revisions. Remove unsupported wording and supply a still-supported version
 
-Use only verifiable product differences. Mark claims lacking evidence as needing support; do not generate fabricated evidence
+## Calculation and Interpretation
+
+For each claim, record source location, supported scope, unsupported portion, usable wording, and replacement condition. An improvement calculation must show the original baseline and comparable difference; do not confuse relative percentages with percentage points
+
+Check example (hypothetical): a report testing model A for ten continuous indoor hours does not prove ten outdoor hours for model B. Corrected data identifying the same model A and indoor context supports a narrowly conditioned statement
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

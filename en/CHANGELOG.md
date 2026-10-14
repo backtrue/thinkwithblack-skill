@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.10.14-en.3
+
+- Rewrite decision steps in 55 methods, connecting raw records, qualifying conditions, actions, and revision triggers
+- Add 55 condition-change examples covering promotion economics, product choices, advertising destinations, member eligibility, and content evidence
+- Keep the 365-method inventory and self-contained Markdown upload workflow aligned with the Chinese edition
+
 ## 2026.10.13-en.1
 
 - Add English versions of all 365 methods, complete upload packs, index, required references, shared rules, examples and user guides

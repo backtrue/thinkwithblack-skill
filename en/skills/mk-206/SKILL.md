@@ -15,17 +15,24 @@ Past success supports candidates and hypotheses only; shared content elements ar
 
 ## Required Inputs
 
-Provide: Post IDs, cross-audience performance, creative, and seed-list quality
+
+Available raw records: Post ID records by audience and objective, with spend, impressions, clicks, mature outcomes, and usage scope
 
 ## Method Steps
 
-1. A Hero Post is a core post validated by sufficient ad spend, with strong conversion, CTR, and engagement, that can be reused across audiences while accumulating Social Proof
-2. Organic engagement is not required, and the highest ROAS alone is not the criterion; evaluate by Post ID and include sample size
-3. Candidates can come from highly engaging social posts, creators' social momentum, or winners of competitive ad testing
+1. Aggregate spend, impressions, clicks, engagement, valid orders, and order contribution by Post ID while preserving audience temperature, offer, page, and observation maturity. Do not collapse different contexts into one winner
+2. Within the same task and comparable context, a sales objective prioritizes mature valid outcomes and acceptable cost. High CTR or engagement without mature sales support remains an attention or education candidate, not a sales workhorse
+3. Check fragility by removing the largest order and asking whether the result changes from meeting the objective to missing it. A reversal keeps the post as a test candidate with the dependency identified, not a cross-audience winner
+4. Mature, within-limit results across several intended audiences support continued use within those observed conditions. Warm-audience success alone restricts the recommendation to warm audiences
+5. Expired products or offers, refund-adjusted failure, or failure in a new audience withdraw the corresponding use scope. If order mapping is missing, request outcomes by Post ID rather than substituting an arbitrary spend threshold
 
 ## Calculation and Interpretation
 
-Aggregate by Post ID and distinguish advertising contexts; high engagement or high ROAS alone does not guarantee scalability
+CTR = clicks / impressions in the same scope; cost per outcome = spend / valid outcomes. Report conversion, clicks, engagement, and replication across contexts together. Removing the largest order is a fragility check, not a statistical test
+
+Check example (hypothetical): two posts each spend 2,000. A has one 20,000 order; B has several mature orders within the established cost limit. Keep A as a candidate and use B within its observed audience. Refunds later push B over the limit; return it to testing or withdrawal consideration
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required Output Fields
 

@@ -15,18 +15,24 @@ Do not rank RFM results from different observation periods as if they shared one
 
 ## Required inputs
 
-Provide: de-identified customer, order, date, amount, and refund data
 
-## Method steps
+Available raw records: valid orders, observation coverage, product cycles, order-value distributions, approved rules, and intended group actions
 
-1. Set R thresholds based on the average purchase cycle; the course materials suggest ranges of 1–2 times, 2–3 times, and more than 3 times the cycle
-2. Set F thresholds according to data coverage and the average repeat purchase cycle; the course materials provide no fixed value across industries
-3. M thresholds may reference the free-shipping threshold, average order value, TOP 50% order value, and TOP 10% order value, then be adjusted to marketing goals
-4. If the brand has not provided its average purchase cycle, free-shipping threshold, or order-value distribution, list those gaps first; do not invent five equal segments
+## Method Steps
 
-## Calculation and interpretation
+1. Read existing brand segmentation rules, valid-order/refund definitions, observation dates, and each member's observable start. Apply approved thresholds first and flag unsuitable data separately rather than silently changing policy
+2. Without thresholds, calculate raw R, F, and M before proposing boundaries tied to product cycles and list actions. Candidate R boundaries come from observed purchase intervals or known usage cycles. Separate short-history and long-cycle products; an uncompleted interval at the data cutoff is not infinite
+3. Compare F across equal observable tenure. Members without a second-purchase opportunity remain not yet assessable. M uses valid net order value; expensive benefits additionally require contribution and benefit costs, not high revenue alone
+4. Connect every candidate group to an action such as due replenishment, overdue investigation, or loyalty care. Merge groups receiving the same action; do not impose quintiles or invented score weights without a task
+5. Inspect records on both sides of boundaries, specify inclusive/exclusive endpoints, and assign each member exactly once. Recalculate after cycle, refund, or window changes. Without a cycle, deliver distributions and unresolved products rather than asking the user to identify sleepers
 
-First define members, valid orders, refunds, and the period; calculate frequency using orders rather than item rows
+## Calculation and Interpretation
+
+R = reference date minus last valid purchase date; F = distinct valid orders in the window; M = net value of valid orders in the window. Course cycle multiples and basket distributions are candidate inputs. Separate proposed thresholds from approved rules and list members whose actions change
+
+Check example (hypothetical): a known 60-day cycle supports candidate rules R≤60 not overdue and R>60 investigate; R=61 triggers investigation. Correcting the purchase to a double quantity lasting 120 days changes it to not overdue and removes overdue-winback messaging
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

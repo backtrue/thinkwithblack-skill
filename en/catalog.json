@@ -2,8 +2,8 @@
   "schemaVersion": "2.0",
   "edition": "free",
   "language": "en",
-  "version": "2026.10.13-en.1",
-  "sourceVersion": "2026.10.09-free.2",
+  "version": "2026.10.14-en.3",
+  "sourceVersion": "2026.10.14-free.3",
   "entryCount": 365,
   "entries": [
     {
@@ -14,7 +14,7 @@
       "references": [],
       "pack": "packs/inf-05-07.md",
       "sourceSha256": "b57f298d021fe481378c273b87f8316c4664aa84407c1626adc45c5c9263964c",
-      "packSha256": "462c6e13e994dcd90f5c886621a07b1d3592a45daa9a2660a52e09e75200a054",
+      "packSha256": "b57c07f40f0192fb4ad17b21f1b4b2c8223535760ac6f9a37b503405a5193764",
       "referenceSha256": {}
     },
     {
@@ -25,7 +25,7 @@
       "references": [],
       "pack": "packs/mk-001.md",
       "sourceSha256": "d1f3a2e52841461e3c723e326078a59e2759592dad8df407c05811cfdf9bee68",
-      "packSha256": "ffaad67dc0157f0a7da7e1a2caa254cc8e3bc3a06a14d2e25523a31b872a5b7e",
+      "packSha256": "85b51724d68e3c05ec1aad5d69196b0026e4725a8aab5e354b694309a3d8e6ee",
       "referenceSha256": {}
     },
     {
@@ -36,7 +36,7 @@
       "references": [],
       "pack": "packs/mk-002.md",
       "sourceSha256": "bf9085486e3df742290384b9932f8f16e86c50bcb4f26ab6fae05eeb858ee5a7",
-      "packSha256": "aedb9fb9cd2d02fb03f160f9b35b2fff9b2b523ea1fc47cf145055de7f866ecb",
+      "packSha256": "6639efaafdc929c20cb543636f6add41b64c4f2eee7d8ce82a268588ae8cf310",
       "referenceSha256": {}
     },
     {
@@ -47,7 +47,7 @@
       "references": [],
       "pack": "packs/mk-003.md",
       "sourceSha256": "61a5a999c5a4bc7b35ceca7aedae16e6ce84afc755a265af701c565583d178a2",
-      "packSha256": "d8fb8302fce81b3d1ddd3d92f6fe031eb911581c9a630430dacb93a53477cc54",
+      "packSha256": "cab64d3dc54cb8b558cde86b3dfc1a25de95ca164818fd7268565eb49272e0ed",
       "referenceSha256": {}
     },
     {
@@ -57,8 +57,8 @@
       "source": "skills/mk-004/SKILL.md",
       "references": [],
       "pack": "packs/mk-004.md",
-      "sourceSha256": "964587130ca0c8935833e09ba06be2f6643d389f0ac28a4e10bab350cce442b8",
-      "packSha256": "401e8a6c45d4b995fb1775785c9014139c60a0a2b7446308ab25e2ebd9f04ff5",
+      "sourceSha256": "93669456d0902e91bd60094108b4a8449eb376187299fe546ef55bfc886d83a7",
+      "packSha256": "2fe0315ad1a4f64a245543aec35ef889c91242497b6114413c441cfa8fbb5714",
       "referenceSha256": {}
     },
     {
@@ -68,8 +68,8 @@
       "source": "skills/mk-005/SKILL.md",
       "references": [],
       "pack": "packs/mk-005.md",
-      "sourceSha256": "2914b3eabf897bb7f82fee0a841d925ea884bc3e5e69e1e802e29db56a52f7df",
-      "packSha256": "f5583c25261cd9f4fdf116d7a4d12959f865734faf1f46c9274954913e238d39",
+      "sourceSha256": "1f01c1da83f7d88b37db2a1995824087482150bb9c6e7d8ed7afc40c42f2d274",
+      "packSha256": "3472eb12d1e2b4afc305bb8270f5a86422239eeffaf67a5db712cd1c3c0be7a0",
       "referenceSha256": {}
     },
     {
@@ -79,8 +79,8 @@
       "source": "skills/mk-006/SKILL.md",
       "references": [],
       "pack": "packs/mk-006.md",
-      "sourceSha256": "143fe98d363a528900135e9f02c5d0ca6d4ce4c2b1fbaefb465151d4ee415a57",
-      "packSha256": "875163aa520e0bbc20d0d6e21eac54986cef24f45d4e3cd001dd64e769d06cc7",
+      "sourceSha256": "3790eba0f3ab5a69343345e30c9b5755045401a5b0db3f7281f9a45490b90c69",
+      "packSha256": "37b9a4c0b3e37f583feb6363f4efa6bdff34561a90a8ccfc5f4dfce8576d3729",
       "referenceSha256": {}
     },
     {
@@ -91,7 +91,7 @@
       "references": [],
       "pack": "packs/mk-007.md",
       "sourceSha256": "5b5bff32ccbc507643fdd67f0b29b8e69622f65ebcc1d86c04133f8dc6e26ef6",
-      "packSha256": "ca0cea5dd349d595ffc0947fa84a7398aec28074486cbf06eee8fc111fce0052",
+      "packSha256": "a82e1585eb7a60857264ab020c8365ffe13ce72f80629a3ff2255d109f2cb668",
       "referenceSha256": {}
     },
     {
@@ -102,7 +102,7 @@
       "references": [],
       "pack": "packs/mk-008.md",
       "sourceSha256": "dc9b6e72a08e433764748b72c06eee043a57d8ffe3f9cb32873e06e8a730dc8d",
-      "packSha256": "ed374a0438c32236ae63857cad28b8507f7ecc93121076e6a1faded951e7995b",
+      "packSha256": "52ad4ff83b5e862417de35a149737645e3a0b5390850e74a026c5b58ab83b090",
       "referenceSha256": {}
     },
     {
@@ -113,7 +113,7 @@
       "references": [],
       "pack": "packs/mk-009.md",
       "sourceSha256": "b523529917093e758043f28e3a8d6fedfff9cfeb405abfaf2e46f4ad538e72a3",
-      "packSha256": "6c0940fe7432c76950a3fd59df105e50add4b6aadf97e883a1558d9c8738767c",
+      "packSha256": "e66e4300b7768ce0e3ae14377ff2e3f129d43b42c8548ca630dde719299d0b72",
       "referenceSha256": {}
     },
     {
@@ -124,7 +124,7 @@
       "references": [],
       "pack": "packs/mk-010.md",
       "sourceSha256": "c2fba9826fbf59a20b6eefd394aca25d0c66bb21e87b66f827a2138d42fec857",
-      "packSha256": "73d2ff8ace05f1401441c4a80536a335471c6118c7147ed2a2c9c54e346b002f",
+      "packSha256": "fe7a1a709ce8c3c4a776265aa780354a6de62a1dc9658a3502d1a0759baebbf4",
       "referenceSha256": {}
     },
     {
@@ -135,7 +135,7 @@
       "references": [],
       "pack": "packs/mk-011.md",
       "sourceSha256": "b00900ac4e5a03181f7c2ccdf3a890d178d200ffa0ac38ad95f95d91d602d612",
-      "packSha256": "a3c069852dbc8eba98275067109395bebf3944878e928ee77305cb6487936ef7",
+      "packSha256": "fbfaad846543b0d8560fa65eba454b780755b1e93479209a1ab044627f6244ea",
       "referenceSha256": {}
     },
     {
@@ -146,7 +146,7 @@
       "references": [],
       "pack": "packs/mk-012.md",
       "sourceSha256": "1fbbad76e0f16c65f8d6213be2c6c300a2bfb6c8a1ecd7a9d7190b1ba6c572ff",
-      "packSha256": "f270bcd33a3355220802387e120e0f4e93d4f0bda0123fd7f066eaded62a8dc9",
+      "packSha256": "744cf46bcdd94629831453e451b3c6474dd137a97c7e05ca8450d3e35c0488cb",
       "referenceSha256": {}
     },
     {
@@ -157,7 +157,7 @@
       "references": [],
       "pack": "packs/mk-013.md",
       "sourceSha256": "36f7d2e42c5f7a1c4eea10faedcdbd6d07d6020fd378c279114384cf8ac2694e",
-      "packSha256": "704e5e214acf0c8d19efd99df12eee70706001c1306eaa5ae7cfbe3edd1ca4d4",
+      "packSha256": "8ba4348ab2791d054b5b2ecaa6fba478c1f67e42ccdbded9c04678263b464baf",
       "referenceSha256": {}
     },
     {
@@ -168,7 +168,7 @@
       "references": [],
       "pack": "packs/mk-014.md",
       "sourceSha256": "e9507d5af5a1bc600cbee602773ee9369f3aa5ce3f4847afe71b06222d76de2a",
-      "packSha256": "520f8279e3b6ce66e85f8ccbd286147213f9415383b10a59f5988acaf578c73e",
+      "packSha256": "aa6726809257c20cb6a1173f9d80a3c832c0500dc9895940dc625c0276c33651",
       "referenceSha256": {}
     },
     {
@@ -179,7 +179,7 @@
       "references": [],
       "pack": "packs/mk-015.md",
       "sourceSha256": "f460aee1364b38764506e4f70e9e2524cfdba986121d75edccbe3d9b590391b4",
-      "packSha256": "092291e920b33aad9943fd833fbce7cf9807feb051da3e26c9d655bafa56e038",
+      "packSha256": "17e1eb025be7cfadf2ac23145b4fbdf2a349f2a32c7777c127fe15aaff6d591a",
       "referenceSha256": {}
     },
     {
@@ -190,7 +190,7 @@
       "references": [],
       "pack": "packs/mk-016.md",
       "sourceSha256": "df5d2b19b6481e829cc5cb764904f63e0a912e1c6b28c87b0af0561831b000bd",
-      "packSha256": "13a5e1dc42e8934fcfdfd2787377030956559addd02812d83e21ab2053f34b3d",
+      "packSha256": "d826ac91e8c57b96ee34f54a9b20087dc421ca0ec51f86b301d2e09dcc75868d",
       "referenceSha256": {}
     },
     {
@@ -200,8 +200,8 @@
       "source": "skills/mk-017/SKILL.md",
       "references": [],
       "pack": "packs/mk-017.md",
-      "sourceSha256": "a0a4afca3421fa2d2e74f6d1a53c408fd379da1bb8469d1daae56487d46723c3",
-      "packSha256": "cc4c35a46ea5ceac9cc3abac3b9ea845b2aec696e912803fe6b8cd4dcb1c85d5",
+      "sourceSha256": "fc4f86fb6dd03eaf6d83a818b8529eba6843926c8a379e02d9c4b34db35599c1",
+      "packSha256": "8b417d617556dc2113bf36caa1701199f67a785dea8e9a2f8c93fe3b237cec67",
       "referenceSha256": {}
     },
     {
@@ -212,7 +212,7 @@
       "references": [],
       "pack": "packs/mk-018.md",
       "sourceSha256": "06422a7b86815e8f6a7ede5a9270b83481578e0caa82a82b022c8a7ec16b8427",
-      "packSha256": "8a5abcd3a78e194492001f1cb7a0f8d4e1b20c5529d9b3dd21eeeb135746745e",
+      "packSha256": "4b086e647c6ef5d7debf9f0949bd56e719fafcf80fc34c15922758f24e41ec40",
       "referenceSha256": {}
     },
     {
@@ -223,7 +223,7 @@
       "references": [],
       "pack": "packs/mk-019.md",
       "sourceSha256": "ffd633b769babe48e093d5a5de839d7dec68e83a66ccb90c4eeb75e0e0bb122e",
-      "packSha256": "f6185e26b09854e7baa088f8c9f8283c1564fc9726f03242cdf4b918832adf63",
+      "packSha256": "58e5f3c2f3edfed912ac9cf7055bb658c8a97764ec31b882fd097600d734ec41",
       "referenceSha256": {}
     },
     {
@@ -234,7 +234,7 @@
       "references": [],
       "pack": "packs/mk-020.md",
       "sourceSha256": "7481b34bf3869948e0a5ff399a7e2df789b6dd89692d8739ed8b5c6227a03547",
-      "packSha256": "31017a4075e352439cb0b8bb728e921acc4477baf1ea0a20e751903824f243a5",
+      "packSha256": "8ef263e1b72bf86bce27e0f7b3795e65f49fd7dc41d8a4671d573335c404e2a8",
       "referenceSha256": {}
     },
     {
@@ -244,8 +244,8 @@
       "source": "skills/mk-021/SKILL.md",
       "references": [],
       "pack": "packs/mk-021.md",
-      "sourceSha256": "5ff87eb218ff819d74de088e2d26c4465bd075ca95ca85cf6e9e8b47876e5d99",
-      "packSha256": "df3cc5c52091893e40caedbc6f0152ca7fcd5f7feec94bb6aef403223a404900",
+      "sourceSha256": "eda456e61b9e0c1af3a4de27fc5c23dcf7d373ed3b2f25310c919b6f7a9ecd45",
+      "packSha256": "51212e95369c0a4c9215d572e6b55da6668fc486eef02d57ceb8d3b3117350cd",
       "referenceSha256": {}
     },
     {
@@ -256,7 +256,7 @@
       "references": [],
       "pack": "packs/mk-022.md",
       "sourceSha256": "7fb33ed45867c2234d33e341194ccf9bff262789927e5cbac54893d476645231",
-      "packSha256": "fc601a5e3ed0d42a7a032fbca1d531751679f188d1490a231f74875d55eb1488",
+      "packSha256": "d12715273910be6e0e7a2fecb42d8089c26a2ec5ae7e09705a6d0501ef389896",
       "referenceSha256": {}
     },
     {
@@ -267,7 +267,7 @@
       "references": [],
       "pack": "packs/mk-023.md",
       "sourceSha256": "bf5b286d3a8d43bea95d27fc086f56d21b4ae48c065e24fb4a1411ab59820ca9",
-      "packSha256": "d275d7583369be6be26abb809b3649f624eb78314bcea2146c560c35566f74af",
+      "packSha256": "41d408cc868ac4e4c77a953ad4e24445842ae5dc7b528c6fd52b6fd35dbc284c",
       "referenceSha256": {}
     },
     {
@@ -278,7 +278,7 @@
       "references": [],
       "pack": "packs/mk-024.md",
       "sourceSha256": "8080b129b94ef016a8c3d3a95ef686150c00c82cf005e47515582c34a4e4ba25",
-      "packSha256": "ad71d544a16c7db9ce6e9f705dccfa98b2e51acfe058ffd9371b808a5d953b18",
+      "packSha256": "3fe33922b860f3663589087a998bf20f104796fdcdaedbed2a3646068c137fbf",
       "referenceSha256": {}
     },
     {
@@ -289,7 +289,7 @@
       "references": [],
       "pack": "packs/mk-025.md",
       "sourceSha256": "b8af9df40dc7c486b27da8684a2e4ee772093c244f86fb89a6c730cf1f36ab14",
-      "packSha256": "89d28274b0da93af9647376c968ba5489cd76f43ac9a9dbe7275ba10ea9e2395",
+      "packSha256": "1bbfffb5be2119643932c6298e72b38f89f28d54d46163cf8aee8f6894a5a570",
       "referenceSha256": {}
     },
     {
@@ -300,7 +300,7 @@
       "references": [],
       "pack": "packs/mk-026.md",
       "sourceSha256": "e5d7054859129c55352d3b830d4a23599de82b3938799e9176217c6d2adabd89",
-      "packSha256": "2b0fe64e452dda4a010b2228b7822e08c178838edba1db9ac19ceb0aa9257af1",
+      "packSha256": "430877b977221ee1f4a3611fffe9939a520100a9a01f7526a1001d62155ece8c",
       "referenceSha256": {}
     },
     {
@@ -310,8 +310,8 @@
       "source": "skills/mk-027/SKILL.md",
       "references": [],
       "pack": "packs/mk-027.md",
-      "sourceSha256": "f4dda9b71392f13690d59094a6c7f87a82aaa447781d8ff8c42689c554e276b2",
-      "packSha256": "7ad67b60f5d1e27deab55dfd6c12dd1a6fc21ecab7d32310b9dcd685c631288b",
+      "sourceSha256": "c84e72cac966e3f8e79358bc751d8b57a19f09ff056f281d11fd7d3847574ef8",
+      "packSha256": "d5852fb3dabf47c80f901bb0a70dc836d4c6de5914cda1bab28c8205138ecc5d",
       "referenceSha256": {}
     },
     {
@@ -322,7 +322,7 @@
       "references": [],
       "pack": "packs/mk-028.md",
       "sourceSha256": "ee5c67b58c1fbccf103ab489efcc6fb745d70ed1e97b6058e51ba1d158ba900c",
-      "packSha256": "25466732ba06781439fa39052cf4ff64e1dfed53f1114871fa97a7b684893fba",
+      "packSha256": "0632aa4e2c31efae08968207b9bebdbaa9e67b4dc630e5747b4e5ddfa146352e",
       "referenceSha256": {}
     },
     {
@@ -333,7 +333,7 @@
       "references": [],
       "pack": "packs/mk-029.md",
       "sourceSha256": "37e739a3ac550e1f1549dfdc9bbbe8294073adbed37e7ee596fdadb7754b6cb0",
-      "packSha256": "0e8a10d7b3d4f4cce4602a45cd16a03a3475d1e5f1f6e114cddf08d4e238b51b",
+      "packSha256": "f952186c761407c6460d5b1e2477e6f842bf42eb890ae0c8057511829bbcd9f8",
       "referenceSha256": {}
     },
     {
@@ -344,7 +344,7 @@
       "references": [],
       "pack": "packs/mk-030.md",
       "sourceSha256": "968e815d05dd0e70ed6a75bdf359ecd877bf065196b64533766227e3e64c33c6",
-      "packSha256": "ff72344c2bb548315e76bcfc4227585e62a7b5cfa41f5216606c959c1cecae21",
+      "packSha256": "e152921a3c20db79391ccd2d82216100099e1a466db8ce351fada078f45174f5",
       "referenceSha256": {}
     },
     {
@@ -355,7 +355,7 @@
       "references": [],
       "pack": "packs/mk-031.md",
       "sourceSha256": "3effe1e7052aaa314417e84fdc57025ed1006cd840a2d94000722eac47620b9e",
-      "packSha256": "b8f78cc8c76d6a3d42e2cb033b015bc3ada58d6f61d6699ecaea184dbd0feaa7",
+      "packSha256": "7bd80ccba87f2db62f1a693a28e28dfa2404c56966f047935cbabb20b2d1d2fc",
       "referenceSha256": {}
     },
     {
@@ -366,7 +366,7 @@
       "references": [],
       "pack": "packs/mk-032.md",
       "sourceSha256": "6a04f05bc7f6bea13aefcd41fa397a1fcf5e1def0b792c99f590bffa09c0fbcf",
-      "packSha256": "274010a2ef9699dbfdc7b5ecf264eca909a3895ad4965d09656ee4dcd51bf591",
+      "packSha256": "2aba0fc275da739358df7a5c84617bf3fb22d8ffe6396e0ce8c0eb3b882e8750",
       "referenceSha256": {}
     },
     {
@@ -377,7 +377,7 @@
       "references": [],
       "pack": "packs/mk-033.md",
       "sourceSha256": "8b2abf735bd8c408bf44d70a255950cbf66cae4707bd0ae9fefdaed89c5a8255",
-      "packSha256": "1e331e6ed6927e74cd03fad13747d200df9141b846c1d1e7714d1d4ec6b811f4",
+      "packSha256": "aa28b707b677ccee97042ea06d22d3533c0d4c8401af2e6581129f6a4741e667",
       "referenceSha256": {}
     },
     {
@@ -388,7 +388,7 @@
       "references": [],
       "pack": "packs/mk-034.md",
       "sourceSha256": "770f51df92b2c9b15e23035195c9a3f0853ab5e16849d4c72e11bc14981a7200",
-      "packSha256": "a24eb3442ea2891f7c4c01c0cbb3dc60c549a7650b66298905f01d66f993d466",
+      "packSha256": "734ac1ec3b2d279af4aef7fa013615bcbaaec10ee5e40ed59d6014c8407b1f9f",
       "referenceSha256": {}
     },
     {
@@ -399,7 +399,7 @@
       "references": [],
       "pack": "packs/mk-035.md",
       "sourceSha256": "9223332d27e6f0794c6e6be50d0491cf5d5b106b361d6445b7d44953a08a1b1c",
-      "packSha256": "0eef8920da847cd6faed510be8cb013fb1f21c8d67cf4d24dc736d6a2c4aa123",
+      "packSha256": "5bce6e8155d0213c89692a6b1f45b76543573070a626050c1bebd750b65b91c8",
       "referenceSha256": {}
     },
     {
@@ -410,7 +410,7 @@
       "references": [],
       "pack": "packs/mk-036.md",
       "sourceSha256": "979f8a0c3093405bba61368e90ab07b7fc403e3dd0d33f17061d7e26cff519b6",
-      "packSha256": "fc7ef3fd408f8e140b7712a64332e4dcd51bef2460ddf29ab71d72ea398847be",
+      "packSha256": "9737ba3a912fb23881b81b1943c4d02b121d4104527b2cbef04bf3b59d1970e7",
       "referenceSha256": {}
     },
     {
@@ -421,7 +421,7 @@
       "references": [],
       "pack": "packs/mk-037.md",
       "sourceSha256": "6cbdf281e3c420b2310c4fc05493156b35dc488ea6a2115921b1f4c8074bd896",
-      "packSha256": "044cd32182f29d28c94f69aef569d0d9a875084c4d23443850f3670323b20091",
+      "packSha256": "627feb2182a595c7cbe25f1beeb41ff84ebe03a15bad106c7b86ad0b5bc072ea",
       "referenceSha256": {}
     },
     {
@@ -432,7 +432,7 @@
       "references": [],
       "pack": "packs/mk-038.md",
       "sourceSha256": "e0aba01850e255a0375fbd602a1edc5517d563feab73d338e0765995dcf4a92b",
-      "packSha256": "187a6765c87b690ca93b2bcf7aaf363f989cefa238935ed94669d5de09ae8ce4",
+      "packSha256": "49baa334158be0880f210ffd2257f60773461fdd9705a8a1ea129059d3769742",
       "referenceSha256": {}
     },
     {
@@ -443,7 +443,7 @@
       "references": [],
       "pack": "packs/mk-039.md",
       "sourceSha256": "3d8864925f8e8671656ac24de2efa38e3bc46f26e7e093a5e21a9108bcb2ce2e",
-      "packSha256": "982b7ec004a9d26a5b60d9d96ec5a7290e3e203dd8400c7cfb8ff7f29f305bb6",
+      "packSha256": "b63b3f4a2b7536cbfac9169ee39ac10f78ea2a45b278adcde6d110bbab02d932",
       "referenceSha256": {}
     },
     {
@@ -453,8 +453,8 @@
       "source": "skills/mk-040/SKILL.md",
       "references": [],
       "pack": "packs/mk-040.md",
-      "sourceSha256": "2307f60297a3836effd580a353a378ec211df452df1a9d51cdc28210c1f1034a",
-      "packSha256": "defd8a4a9cfa1d82777cc497101dfc711030625e9c4eb58d7426305942983fae",
+      "sourceSha256": "bae5ed6a283fb9a9181d45353e6e0bec790161ba62a7a35867088fbc3c88acf6",
+      "packSha256": "fc51f41d5e79dd03d343fbfac2e3524b666938277f33cff6e4f954433e0c4723",
       "referenceSha256": {}
     },
     {
@@ -465,7 +465,7 @@
       "references": [],
       "pack": "packs/mk-041.md",
       "sourceSha256": "222bdcc6101b20f232ebeb5fcc88d1ce4e79539d20835be2d1f0bed193b8e6a4",
-      "packSha256": "ae840016408302792a79a72e9e5d4adadb94df43d5c149d26f0d8b484f006659",
+      "packSha256": "6758a51dc1a521f826a2a8d46324160ef14ecc9d17efe5af41f278c1274f804d",
       "referenceSha256": {}
     },
     {
@@ -475,8 +475,8 @@
       "source": "skills/mk-042/SKILL.md",
       "references": [],
       "pack": "packs/mk-042.md",
-      "sourceSha256": "9743b0258f5832c63244ff18366b77a882f92737213d60efc287f9538026e7a9",
-      "packSha256": "2fdf305ad31d3ccb2976832fc907fc42ba37b9bc4076d5f0234ba7c68db78b1b",
+      "sourceSha256": "0e202a551048b96286d8d75e7671aae84d99635ca22b1bf1e7f3903e44b8bd92",
+      "packSha256": "e87df25e43a9380bb6ca86238dff992abda791f0981c7724b52aeee8b3ed311e",
       "referenceSha256": {}
     },
     {
@@ -486,8 +486,8 @@
       "source": "skills/mk-043/SKILL.md",
       "references": [],
       "pack": "packs/mk-043.md",
-      "sourceSha256": "88c15f43f95d0b3cafbdbafa696fcf2591516b22a85756840201680c750aaaaf",
-      "packSha256": "e028370f2d44f5ac41ce76a948f2dba8bde60ae46545561b74112a9d6f0bafff",
+      "sourceSha256": "656ab648e2231b1affaa24c5ac91d0625b5b825dd7bb4d977a832f27f84bd333",
+      "packSha256": "7e9835eed41b02de4c97dc68be2c5d36f0c4cbc3f131f1fcb947d5882aa4d487",
       "referenceSha256": {}
     },
     {
@@ -498,7 +498,7 @@
       "references": [],
       "pack": "packs/mk-044.md",
       "sourceSha256": "2801c6658bec486ab9789a9e8fef9f4bc105bb9a024bf4ffa9d8bb51ac7d74d0",
-      "packSha256": "613dbcfca1dd6624ded6dd12b5682268e9cad25aff2c48882b8b24ae4db5f29b",
+      "packSha256": "6b073a688e96f07787e9247265c233feafa07fe669bfdbaaddcc885398363667",
       "referenceSha256": {}
     },
     {
@@ -509,7 +509,7 @@
       "references": [],
       "pack": "packs/mk-046.md",
       "sourceSha256": "250a59ccf29f3849a55f6d5b1bc29158366ffdecac4aeb46b45d8f26362a606a",
-      "packSha256": "a88e2681a7e93e3133705142d4146fa0ca7065834a4df3f9325f8ea218dff1cb",
+      "packSha256": "e45a086e67566612c0d4a97133f870359c70afe503b97ff5dfa76a294983554e",
       "referenceSha256": {}
     },
     {
@@ -520,7 +520,7 @@
       "references": [],
       "pack": "packs/mk-047.md",
       "sourceSha256": "48fd2932b3a73af658bfe58151a6f2cba678a734541b1a1cd509d4aa83fccc26",
-      "packSha256": "2a8de7e8739306d10a414f19b6046a9e2f9cd081c6a79e64e3f97ecc5b1a11f6",
+      "packSha256": "4bed2cc2651c65472265db3aa8db47c56e0573ea3ff5a04b7e5ffc975afcf9b8",
       "referenceSha256": {}
     },
     {
@@ -531,7 +531,7 @@
       "references": [],
       "pack": "packs/mk-048.md",
       "sourceSha256": "d8833553228e46b38bfedba047e52169dbc2d9b2084cbea286a125bcf9b69815",
-      "packSha256": "9ae710d0708de8bd44bbcf43729fac04c4f843ee5bf9503bd6124c669914920c",
+      "packSha256": "ae0ba175fce63eb8709fd2b3685872e510025937ba11b8f05fcb70c3d30d9fd4",
       "referenceSha256": {}
     },
     {
@@ -542,7 +542,7 @@
       "references": [],
       "pack": "packs/mk-049.md",
       "sourceSha256": "e1961b3d53c5401a4ad64451dc177c35b54a297a5a4361ae681799cffb2f242a",
-      "packSha256": "22741e84708a1e382d3e136d6512097d4cb2c16b2d49ffebee32e0ae3591f3b2",
+      "packSha256": "de4dcecd3377b0ddd54c287741154e905db325e700b831e28053e55f4b931898",
       "referenceSha256": {}
     },
     {
@@ -553,7 +553,7 @@
       "references": [],
       "pack": "packs/mk-050.md",
       "sourceSha256": "c80c03cac47be8be8676ad46929c5c4c97f6934d1f0253a57b710a8b2ce7078f",
-      "packSha256": "8fce58accc9e1f761e2ca537c4953a663b9e2a024281989396783dd81a0f91e0",
+      "packSha256": "faff8299ef38124615195aa06dec7e2b5adb435b2868615787f2411a19621b46",
       "referenceSha256": {}
     },
     {
@@ -563,8 +563,8 @@
       "source": "skills/mk-051/SKILL.md",
       "references": [],
       "pack": "packs/mk-051.md",
-      "sourceSha256": "6152d355c6f88c888ad897919d5dd5c9ed609313b0025955406ea641f75c2ff9",
-      "packSha256": "b43e8d98d1c42941065eb520927f7800272b51cb9a1a832393832374907b38b9",
+      "sourceSha256": "6ae68467e6156b0b333f51defbb4b45c799b9b0f984166a7b9680db79369bc0b",
+      "packSha256": "5c79d4dea597a3c2c6bf1fbe39b184fd5bf744b7e518df20203760b66199384e",
       "referenceSha256": {}
     },
     {
@@ -575,7 +575,7 @@
       "references": [],
       "pack": "packs/mk-052.md",
       "sourceSha256": "61c7abb35bff5b62cee73e825236a31163247354a118d249c4d49b1b4de873b7",
-      "packSha256": "ae454ba364595ac47543ed34a558309e5608ef3e095e7cbbcabf57bf6728b846",
+      "packSha256": "2a17b8f3f88a381af5495c78f0dab7ea44104106462e2aa2c01e83036bb888c9",
       "referenceSha256": {}
     },
     {
@@ -586,7 +586,7 @@
       "references": [],
       "pack": "packs/mk-053.md",
       "sourceSha256": "14cfe16750411cd3de3e039ff65e6db2c4c0050634b84e90b4935595b3638105",
-      "packSha256": "cb76a894a4ce2b905d8737a3dfdb476c623ef6285bf9a38f389e5b64e88150bd",
+      "packSha256": "9e197ec2242c7dd063d829eababf04821f40bd677b9f0c8ed9958c5ad6c24242",
       "referenceSha256": {}
     },
     {
@@ -597,7 +597,7 @@
       "references": [],
       "pack": "packs/mk-054.md",
       "sourceSha256": "c194e8da211e71ea82310ea256eeea1e560c943beb3c925c5ae054ab8e21d0cf",
-      "packSha256": "d03b8c00a04062b75e2fb2b80f8391a85883c6e643725f7a88864689f730a6dd",
+      "packSha256": "5a8fe17b1252960a50b2981f8c67f841a069d926edba124c1233ddb14a770826",
       "referenceSha256": {}
     },
     {
@@ -608,7 +608,7 @@
       "references": [],
       "pack": "packs/mk-055.md",
       "sourceSha256": "ddb3056e77375c68d59cc7f08c2c89179c7ce40b9517027b5bf5297e92e18913",
-      "packSha256": "28cd4b7e0da149bde5f2869f593e76bbf63dd2935ea1987d9a96b4e18c2794b5",
+      "packSha256": "f147145e2149a9d7b089d39536ae09cfbdfdb25c07e1a9841942634af7c4f754",
       "referenceSha256": {}
     },
     {
@@ -619,7 +619,7 @@
       "references": [],
       "pack": "packs/mk-056.md",
       "sourceSha256": "ecd25f727c7c749bd4884723ad0a3217ce1d0bfa25dd8fb9b7bf8abe87be6a62",
-      "packSha256": "6eadd1c1bfa8715f283557a70897eae2848918947e34b5d9451a0723d4ba9b9e",
+      "packSha256": "a4766736e444ffd277d15f8a9572c9a64921520bc2d5905ce70d5a26096a2c9e",
       "referenceSha256": {}
     },
     {
@@ -630,7 +630,7 @@
       "references": [],
       "pack": "packs/mk-057.md",
       "sourceSha256": "c48adb07340e4a72702b1cdd2a4568dbd1f24b1602cad1b3a9e6afa97c2e539f",
-      "packSha256": "3c7d9923edbce603f4ce30e69eab61279b2e9b97464bc62c86b51c64691fe0a7",
+      "packSha256": "bb881da5c00605e99e15ee099246c9c25ac7c6b73098984c93031b73eb182124",
       "referenceSha256": {}
     },
     {
@@ -641,7 +641,7 @@
       "references": [],
       "pack": "packs/mk-058.md",
       "sourceSha256": "e7f62d1ac79982cbcf4160f553eda142542bbd13ef68804c7eb40899d056078c",
-      "packSha256": "11e0797d128d1372553fa476e39deed5b3fd1052ce5cfa345c216120f4aebe70",
+      "packSha256": "a300c224d993b2f6503a726cc2fda30c7ad4da0e26d18d2111ed08f3d7014833",
       "referenceSha256": {}
     },
     {
@@ -652,7 +652,7 @@
       "references": [],
       "pack": "packs/mk-059.md",
       "sourceSha256": "930f44493419abcdfcacddc6d409bf1b822c69e47900932ab1b57fb6944bf1ca",
-      "packSha256": "a86c5d8cca977c50ee8368f152e16954d2d3b749822e2f20b9585f8f24fc557e",
+      "packSha256": "fa4239fc4af1c3f2e010672180bc96ecf0a4de5129f0def86ab98c6004e0134a",
       "referenceSha256": {}
     },
     {
@@ -663,7 +663,7 @@
       "references": [],
       "pack": "packs/mk-060.md",
       "sourceSha256": "e52253f12d2a194971c903035dbf5baadac2f2921c26d3a959fbdaea3b901056",
-      "packSha256": "168c0adfde1155f0cc9e2185ea8d2b2c2cc55c176ff239469244df2caf5604b3",
+      "packSha256": "10001f6016a8d2b9ef0ebdfee1ba2648d95e1c4913323c37391ccb4173411b2a",
       "referenceSha256": {}
     },
     {
@@ -674,7 +674,7 @@
       "references": [],
       "pack": "packs/mk-061.md",
       "sourceSha256": "c091dad7a9934919f45abc77450930801d938c95cc44f815ba15f68a52b736da",
-      "packSha256": "5a6c221d7118c9f8763e99d5d5b475ef1e39464cd1a01dddc0e42a1c7e939c9e",
+      "packSha256": "0519cf63ce403455eeb0b3d6664de4b6b35523049a0706daddde261f426b4eb1",
       "referenceSha256": {}
     },
     {
@@ -685,7 +685,7 @@
       "references": [],
       "pack": "packs/mk-062.md",
       "sourceSha256": "094c85024a7b240f9f24f0b1428bd63c40eb95ca9ded473d3c6139c1e54e277c",
-      "packSha256": "3368670ed1b83887e35147e09d0c43defbb361177d8373cd63389f3ef4c4b8c7",
+      "packSha256": "b863c1ac1a2f72dc3f0bcda551ff87d84df2c8d08ef3aeab277ae771b4084638",
       "referenceSha256": {}
     },
     {
@@ -696,7 +696,7 @@
       "references": [],
       "pack": "packs/mk-063.md",
       "sourceSha256": "88d9172c5c3325778c9264f754e2206b8dc23e6edc312d6e18c9edbb2baa0ad1",
-      "packSha256": "f0d2e1415c6039690c0b54caefba940a48e9260d626bc52f914b144a6dd3582b",
+      "packSha256": "3783d190c6972866cdcfff388f25481fbc05c829350d4a1b8941910ca250c06e",
       "referenceSha256": {}
     },
     {
@@ -707,7 +707,7 @@
       "references": [],
       "pack": "packs/mk-064.md",
       "sourceSha256": "e9821fb193c2b18667b103e21ad7e0c92c25a3da2a014100a9a47bf362bb9f4c",
-      "packSha256": "d835ca520674adbae60e2f0d6249d9e6f4ac4c9be8a7d99ef1db756c9dcf64ca",
+      "packSha256": "2c0cf7de892a94c5d6834f45ef879766893b6f4a4e49a6373fec2b7c4ad52679",
       "referenceSha256": {}
     },
     {
@@ -718,7 +718,7 @@
       "references": [],
       "pack": "packs/mk-065.md",
       "sourceSha256": "755a9c319cfe3203fceb8b1e6b5608e2bc1b7e0b67a9fc8b99fe646f4b344f16",
-      "packSha256": "593149c11cd5f90fb12461fde6e60f1df4b39c44c8122472a79ecc6ce0912ed2",
+      "packSha256": "ae238fa1bea8031766f91420ceced2d1dfef3cd3fd43303d134b5bb56c21bc8f",
       "referenceSha256": {}
     },
     {
@@ -729,7 +729,7 @@
       "references": [],
       "pack": "packs/mk-066.md",
       "sourceSha256": "322c6632064a19206c40847fe16cbc7f64f30c56665b8abf4d56764a55f845b5",
-      "packSha256": "63a94f51e71f66e94b5c515d2c51909429a610e3b4e2c585085be86a0ffbaffa",
+      "packSha256": "d8af238f3302da14a70582e407b8e6e1c7ee972b1d7f77cf7845fbb6cd1fc2d1",
       "referenceSha256": {}
     },
     {
@@ -740,7 +740,7 @@
       "references": [],
       "pack": "packs/mk-067.md",
       "sourceSha256": "5e016bdce79157445d7e290bbfd712164e015695a5447aafb697eecadea347d4",
-      "packSha256": "ed5b07bc649d40bdcfc9612e6b250b6cfeac56743a23d493deaa67678b4a66f5",
+      "packSha256": "8f278ef310c76d294dd910fa5892ef68ac95f5781001510450e3d79188de4318",
       "referenceSha256": {}
     },
     {
@@ -751,7 +751,7 @@
       "references": [],
       "pack": "packs/mk-068.md",
       "sourceSha256": "af5bdca30b0041efabce6e6a4b8e53b18cbbf45ac0f17ce50597db12006c8773",
-      "packSha256": "28d96ab4022c22bb196a53b0d3fd3ab9280c4ee4e75316c9755c9d1250466294",
+      "packSha256": "ecddb64344ec3c7115189c2aaaf9127c973b7682947625b2565d85c284d4aa22",
       "referenceSha256": {}
     },
     {
@@ -762,7 +762,7 @@
       "references": [],
       "pack": "packs/mk-069.md",
       "sourceSha256": "89a009105ff4b8403558eedf7f59201de9c3612b01fdc82aa4f34aac4924a2d3",
-      "packSha256": "21ad1af9df9c7b8b0a903397f39af66dd9683cc2aeb186b0b958921b9ff734d2",
+      "packSha256": "70ab0ac608b09f2ee6fc0d9e3d3587237d8645f8b870d61935821d136bd35f41",
       "referenceSha256": {}
     },
     {
@@ -773,7 +773,7 @@
       "references": [],
       "pack": "packs/mk-070.md",
       "sourceSha256": "b7120ed2faf03ace5c04c57af4de1ff6a37c916cda6395c789c69d4d862f30f0",
-      "packSha256": "ff24b2885f0047ada54c1d921716a6cb795b798c6ce37232a291ed8008ca0096",
+      "packSha256": "7b35acf4991d1a0122546168dc5430b93fb2ced1705cb97a5f59dcf7b78b6146",
       "referenceSha256": {}
     },
     {
@@ -783,8 +783,8 @@
       "source": "skills/mk-071/SKILL.md",
       "references": [],
       "pack": "packs/mk-071.md",
-      "sourceSha256": "9cdd5f535e0061e148ad760b4c67b5f4f555e6492c1249ea9a86abc2d90bb354",
-      "packSha256": "7ae18d395de8762ffab45942d99b6184155ef07948e794a5e963714299c9b37e",
+      "sourceSha256": "7b1015a92db264ed6578534ee0d41c3b46d19ae20e0863af88d61299fd4fdd15",
+      "packSha256": "d4b82022900c61af8a83fe09ab2603efd5fb9df296f4de11edecd05df5d90235",
       "referenceSha256": {}
     },
     {
@@ -795,7 +795,7 @@
       "references": [],
       "pack": "packs/mk-072.md",
       "sourceSha256": "d4276feaf9cf720a64bc33254b39668f6d4d676c5ea513e123cd21879319b428",
-      "packSha256": "275e25fc032bad73ae38e2598bcd0a7fc8c49e0c843137bce141fc61a499f464",
+      "packSha256": "369ebbd70ba410ac28523e13cf8eacf3c61f1fe3aad6b7b3deb9769927ddf332",
       "referenceSha256": {}
     },
     {
@@ -806,7 +806,7 @@
       "references": [],
       "pack": "packs/mk-073.md",
       "sourceSha256": "cdaa41262df4c134f54beec757da6c643002f9c1e8bfffb0174e0f2ed22c7bf2",
-      "packSha256": "b502f1fb0dc9e314555a3c3a8981af3bd6cb7c0c6919f52ab727bc295ef15877",
+      "packSha256": "d7b92fd80f2a47790814126a55976a0034408185049298c1893a73fb9387fadb",
       "referenceSha256": {}
     },
     {
@@ -817,7 +817,7 @@
       "references": [],
       "pack": "packs/mk-074.md",
       "sourceSha256": "0b3fb186bbe3ffaed1623e85f3e309e5a3afa79d597be6b8afcddc20954c3680",
-      "packSha256": "2920ac83966005dfe06cf3832638c8e595032226958e30878a5777ce4093f88f",
+      "packSha256": "244efb6b12f739725d2c8dfc02c47264c715ed3dc5ca075fc191baae4cd8cb91",
       "referenceSha256": {}
     },
     {
@@ -828,7 +828,7 @@
       "references": [],
       "pack": "packs/mk-075.md",
       "sourceSha256": "4a4120828fa8310468874c4a2890aca4656fe545645b24ddf436058023665a93",
-      "packSha256": "0c5d3b99fc2ae16f66971d3fbf415e491dc0773b75fd3ace6d82fe66933e3546",
+      "packSha256": "0ec8e9da73c1375187325fb6c5dbb41d7db891ab6e5c5d6ddea5b4086700ddd5",
       "referenceSha256": {}
     },
     {
@@ -839,7 +839,7 @@
       "references": [],
       "pack": "packs/mk-076.md",
       "sourceSha256": "fd2961272b5ef3fa042b0de451f79a049283c3eb51c034371edb7df95bb79d5e",
-      "packSha256": "7ee340f5a6901a3c6eb453210fa63487d6c7b3645033ab706a360a2a18b43003",
+      "packSha256": "5850f29d208d3bc7da2767b8fb451d19520be1fd19d378f84de095b5feeeacc5",
       "referenceSha256": {}
     },
     {
@@ -850,7 +850,7 @@
       "references": [],
       "pack": "packs/mk-077.md",
       "sourceSha256": "0611ac3aed2381c72acf079e1184d830611cf23e48fd1f929e14d221e3cab1c1",
-      "packSha256": "e13ff0211fc5df77b6eb1a10f86f5fa679b2c4cd68fb3103fc7f7e09bc8b1c96",
+      "packSha256": "bcfb2d1d3aec7f1b4a9888c910dbd3a100b41d07c87c7a54828e67d5131a2ed0",
       "referenceSha256": {}
     },
     {
@@ -860,8 +860,8 @@
       "source": "skills/mk-078/SKILL.md",
       "references": [],
       "pack": "packs/mk-078.md",
-      "sourceSha256": "dbe0f7cd817c33e9a005761b141e4f815e866f48a2b876546f094bfdf4546000",
-      "packSha256": "1c1e3544409b1b781ad5a8251e59fb793f9ec5afcafe5b171e4ea37a9ec22a67",
+      "sourceSha256": "4ad996c1e0fb365c04e87a8b0a821f6218fb8f3c9a1fc0550c7e094e5c441b1c",
+      "packSha256": "9f5f637a2ea2590fba76166a30f293e0293f3671377f163c97cd1f487529fbcb",
       "referenceSha256": {}
     },
     {
@@ -871,8 +871,8 @@
       "source": "skills/mk-079/SKILL.md",
       "references": [],
       "pack": "packs/mk-079.md",
-      "sourceSha256": "5546ff0627870e0debfccb2f788fdacaa1c79561262edf12794822c80cb01461",
-      "packSha256": "985293a3b4cff3d2425b9133f27637bed0eda12f5c6d46d5b729fd20762fbd4b",
+      "sourceSha256": "1769580249466a6443ff2454662590ce95921769ee0c3596fdd3872c2cd67dc5",
+      "packSha256": "7012553d731039c005f1db753456831b0e9a41a8a40a4a53966ef446e0595aaa",
       "referenceSha256": {}
     },
     {
@@ -883,7 +883,7 @@
       "references": [],
       "pack": "packs/mk-080.md",
       "sourceSha256": "0368d44fe5ef774652d14a55fcfb9e11ef4b6a9bf2e764a47ce335aba4b90eae",
-      "packSha256": "2c94b18a07cd6297d14353c8d9947946f5ca1e69cd8cfa05b9a56a78edab7cfe",
+      "packSha256": "da2e11a96b7783a8703d94f53aff4725d9bb59f00ed5d07b1be93d4b08504ebf",
       "referenceSha256": {}
     },
     {
@@ -893,8 +893,8 @@
       "source": "skills/mk-081/SKILL.md",
       "references": [],
       "pack": "packs/mk-081.md",
-      "sourceSha256": "e0654b3f0a3b461ccc1eba501f077156ac0ae4b3af320bc4d92719f43e91c109",
-      "packSha256": "52bdb99bb12c9c913c0388ca663bcb908ab845eff11ce5c1e31e61ca7040f589",
+      "sourceSha256": "68f54c7e128c037ec4f572fb6211ed4cf888841220e9940afc75f89e4ef39664",
+      "packSha256": "5b024ddfdffdd32d699731375a4fddcc292c46ee2aa36c6c064f87c904f08777",
       "referenceSha256": {}
     },
     {
@@ -905,7 +905,7 @@
       "references": [],
       "pack": "packs/mk-082.md",
       "sourceSha256": "f0f449b05fe1fa3bfb95d9ee2b65bd27f5e7088a6fe5e8e1b7383c8bd8f4a29f",
-      "packSha256": "6396f2bf6e8ea454cc87aa6731d31423335a29b8513b00331c1ed636a569e278",
+      "packSha256": "a94f40f16e9cf6533118ab218936556878e0cbc59b6eb0bea726766142606460",
       "referenceSha256": {}
     },
     {
@@ -915,8 +915,8 @@
       "source": "skills/mk-083/SKILL.md",
       "references": [],
       "pack": "packs/mk-083.md",
-      "sourceSha256": "80c6db418d70f55b327009ea0bf80e75009fe0c629c615e07b6034417ce9887f",
-      "packSha256": "3704fb51e37a18a3dd8f083ee3544a3d7ef86d8bb6ce6ee3fabe760fb427b639",
+      "sourceSha256": "1b5cd3c6bd9d78c42a044589392d9e6fe393481ec21eba5cbba522e4a8204472",
+      "packSha256": "4c0438f5cefa5201dd92df2c3dac5d3da35d64a81584f8a051d67449196c46da",
       "referenceSha256": {}
     },
     {
@@ -927,7 +927,7 @@
       "references": [],
       "pack": "packs/mk-084.md",
       "sourceSha256": "b0f7ea7104df9c51d04fe535baf50e49497498171de66aa7eeca78835a098ed9",
-      "packSha256": "204ee1cc582a85962c130d27f901bc14a640ad42a90d331cd19d4f51d254eabe",
+      "packSha256": "1055a25de3026d2feec9d8ec375ebb3659e67d086270ee51d0fe2b8ce41b8551",
       "referenceSha256": {}
     },
     {
@@ -938,7 +938,7 @@
       "references": [],
       "pack": "packs/mk-085.md",
       "sourceSha256": "b4149cc24b38e76963fcb04ba322087494e99fb269b252cf89b93f4669f1244f",
-      "packSha256": "a1041d66153c2ee1b8018f8e237e1d323ec00afa4e75aad0482323a2b10d7e4f",
+      "packSha256": "b5e85e01c9048dd42580986a81726d17fde41f8db84f50f1fa588fd29c61e7a0",
       "referenceSha256": {}
     },
     {
@@ -948,8 +948,8 @@
       "source": "skills/mk-086/SKILL.md",
       "references": [],
       "pack": "packs/mk-086.md",
-      "sourceSha256": "0cad1f251c14b6eca3ce30c5d6594505acda7286127d8da15f0898e31dee4b84",
-      "packSha256": "61a4cb17e0de6963d85c05200dee4cd92b524e6a67ada705b581d59542dc640b",
+      "sourceSha256": "83feb6652f9705b439ab7681c7d2e1f1723de0c6cfad12ca8ba7b99dcc862398",
+      "packSha256": "8641ae65bf45a22a68a2017e9b800e81b655bd14622846ffbe95622dd6240875",
       "referenceSha256": {}
     },
     {
@@ -960,7 +960,7 @@
       "references": [],
       "pack": "packs/mk-087.md",
       "sourceSha256": "1c79d16f2d082533541b1183ee0490ba9a219502b1450b730cba7f9e4e58e0c4",
-      "packSha256": "91b731f1d16eeefb0e4f15ae550265fbf55766096a686f932905e4d9026559aa",
+      "packSha256": "87d3ce40d42c8dfc3ba056ea40db4678e60115029ab7c22ee426f79f0676cbec",
       "referenceSha256": {}
     },
     {
@@ -971,7 +971,7 @@
       "references": [],
       "pack": "packs/mk-088.md",
       "sourceSha256": "c54d73565faa874d0272404a5755df8c337802a7dd48c41dc6bea7e25be27ba3",
-      "packSha256": "b4694ed1d5dd6ca9107dba43ae944440a3e28aeb4fce59647a2a5482ca0b3e42",
+      "packSha256": "4fb87143f51e747687713a174efc0972bf50080550543d8481bd1c5a92f8aadd",
       "referenceSha256": {}
     },
     {
@@ -982,7 +982,7 @@
       "references": [],
       "pack": "packs/mk-089.md",
       "sourceSha256": "88ade1b8a7e9b68065877f699b1d4c1a27de8c95609b0a2afd6c42dc860aa3f6",
-      "packSha256": "8df36c98e3cc9eb8e5bd02a1312de97d2d3207a24efd26191e451feeea62a0a6",
+      "packSha256": "0d251b48a46e3510b97715bedfe57e7502e87cb284256dee7dae36c421d0a3ab",
       "referenceSha256": {}
     },
     {
@@ -992,8 +992,8 @@
       "source": "skills/mk-090/SKILL.md",
       "references": [],
       "pack": "packs/mk-090.md",
-      "sourceSha256": "1749a11cab8d50fd9b69cfecc8bca1f7bb5a721fce71c346240ba14dd5045495",
-      "packSha256": "95ff897dc26fdf0a828ee99303469233a8b97cf821cdf3246b9a4d66d5364afb",
+      "sourceSha256": "5caee1dd80deaf558d071ef2a66b4939926b5230f9a89a28cd304a83b109b327",
+      "packSha256": "6023909f18751739e6e2a315e936427f1dbf21bd83a1579f158473774e43d90f",
       "referenceSha256": {}
     },
     {
@@ -1004,7 +1004,7 @@
       "references": [],
       "pack": "packs/mk-091.md",
       "sourceSha256": "0f57c5d3bd25ebcfb036f61aecc09eaae12141ba92968d8fec7048de25ee8175",
-      "packSha256": "5709a9a2cf977d185fbf74d2fe71a5f2db4bd574eea480c70265149d4f2a9d09",
+      "packSha256": "5c5c21e0b10bf45d23fdf0c4f5e58046408bc7dc568c2b8f321c6efe06c7d1df",
       "referenceSha256": {}
     },
     {
@@ -1015,7 +1015,7 @@
       "references": [],
       "pack": "packs/mk-092.md",
       "sourceSha256": "71eacf35312a20320d3cc4e5d3ff4e250723f50e406d936edde5360c0391c2b5",
-      "packSha256": "def90197c54bad8b25fb04ba5a483eb3c3aad52037e0d80d3c27b59e3073cf9e",
+      "packSha256": "a4abfc66c8705e39723d14c5aaac66d12ea1d4d49d28dd572df3feb5654dd36b",
       "referenceSha256": {}
     },
     {
@@ -1025,8 +1025,8 @@
       "source": "skills/mk-093/SKILL.md",
       "references": [],
       "pack": "packs/mk-093.md",
-      "sourceSha256": "f58f305fc73a61d3dbc80809e26801a3ca7646c6ce5b14e85122b8990b888df1",
-      "packSha256": "384c222ef907e059a5583e2631803cb8cbb578b1c1cc0b519f116dd3d2c48448",
+      "sourceSha256": "fe629ee50b7fd1ef38d303cf3dbcb08b081e966bfa249fd7cfef6569d85acbea",
+      "packSha256": "2668e17a0e62f66b4d3b80f094564e1fb2dd8721d2fd2fec5484887bac92717c",
       "referenceSha256": {}
     },
     {
@@ -1037,7 +1037,7 @@
       "references": [],
       "pack": "packs/mk-094.md",
       "sourceSha256": "debc609ad8e536368f55c35d2e4ee1d68ce3dba40208978bd52318770161f259",
-      "packSha256": "ff1728ba19a0ec266f3e48e8772e78f4740e414024417890fdff14d9fa35dc10",
+      "packSha256": "438c88a6bfbb662283040f76634d06bae90bbd786a80f87ee70c111f3c16e3a1",
       "referenceSha256": {}
     },
     {
@@ -1047,8 +1047,8 @@
       "source": "skills/mk-095/SKILL.md",
       "references": [],
       "pack": "packs/mk-095.md",
-      "sourceSha256": "8ba741fa786f8a397c8edbf83fff8bb93a4dbacacebe5c3fc383eca781dc80bd",
-      "packSha256": "4542c3e0366b44bb7dd39dc1ad480c77321418a782151e9ba002ee6d8bbc5a88",
+      "sourceSha256": "b0e0c2b73b63e051bcdc218ed457d790298f29022b17d8e2eba6279f1fb5d967",
+      "packSha256": "cd4b8967c063bf6b00862e651867244c3c6f5b3f69fbd3db05bbf722198a480e",
       "referenceSha256": {}
     },
     {
@@ -1059,7 +1059,7 @@
       "references": [],
       "pack": "packs/mk-096.md",
       "sourceSha256": "3401eab360417888bafec19a7a8640212d4806dbd2122b9de0065fddd8f4009f",
-      "packSha256": "e82de654fa741fd611e5ee30ede3672259cfca9fee92687b90b4ca208e451f78",
+      "packSha256": "5dc50a2e423010e3ca642ebe6547db6f8ecb06d9644e94e08eaa5f63968bddd7",
       "referenceSha256": {}
     },
     {
@@ -1070,7 +1070,7 @@
       "references": [],
       "pack": "packs/mk-097.md",
       "sourceSha256": "21db86b0e64a57397c312125212128a9add5420db7bc8acee2015a724a3417b8",
-      "packSha256": "5936520f0ad98b2ae6390a73051f439e4854c83efbb8eb91ac79b0e67b33a6f8",
+      "packSha256": "1231993e2c5f7ab43ce18290275e22586e40c76f3e9d5f6e367a623792adeb76",
       "referenceSha256": {}
     },
     {
@@ -1081,7 +1081,7 @@
       "references": [],
       "pack": "packs/mk-098.md",
       "sourceSha256": "36040afd9bc4740b948341bea141c2cbf35b4ef1f8ebcf036eaac0651b66c100",
-      "packSha256": "bbf38e03a24bd794bb46624dd0ad99de03b052a74288ed3f907d9263b8edc1b4",
+      "packSha256": "5816077dbe714ad6c86c42c5ddb2c9a44512913ffced678d6e805e41e4852ec5",
       "referenceSha256": {}
     },
     {
@@ -1092,7 +1092,7 @@
       "references": [],
       "pack": "packs/mk-099.md",
       "sourceSha256": "23b3c70c5b5fa84ea1ad3643f5d842de013a1c0d3c835bec0307e8fb7582363b",
-      "packSha256": "c2e6f92dcc10491cb89f6fb23bfa5f72637807f9bf9d38d8ce1e1bfd0a8db4ae",
+      "packSha256": "80de895677411b390ac9b01ff22e7bb78f0803a17505b9e48b59a0c99a5a4dc6",
       "referenceSha256": {}
     },
     {
@@ -1103,7 +1103,7 @@
       "references": [],
       "pack": "packs/mk-100.md",
       "sourceSha256": "44788900574296015b2b8141f8c40885002c8363977a9cb26340ddc64dd71d60",
-      "packSha256": "583548c8efa409becd7cd93c4d71ad4d657bc1d57b03434169eaaac8ebe5b21d",
+      "packSha256": "a2d5a374e7374c7e7f827071bf1e3fde51c3eaa963b1f693813c13b17dee1976",
       "referenceSha256": {}
     },
     {
@@ -1113,8 +1113,8 @@
       "source": "skills/mk-101/SKILL.md",
       "references": [],
       "pack": "packs/mk-101.md",
-      "sourceSha256": "3d200fc9dae52ecc6a03fb67900102796719e1bd6ed526ad55c9710d44c5fc7d",
-      "packSha256": "8047957bf55fc8ea5d24ac50e9857083071ec59256d5d7b949a4f246b647af9e",
+      "sourceSha256": "705b56509aef369f8c44539006ef92dcc6d986bfb8e49a82240108cf21a02d87",
+      "packSha256": "34cd008aa8ace40e40f5bc67682fc2c457f8a28d42292e9bdc81ef24578eed67",
       "referenceSha256": {}
     },
     {
@@ -1124,8 +1124,8 @@
       "source": "skills/mk-102/SKILL.md",
       "references": [],
       "pack": "packs/mk-102.md",
-      "sourceSha256": "dd225a7bdf70c257e843c8f1fd4a3d77e473258e8f097111dcac18fcde2965a0",
-      "packSha256": "e0e9bcb2e6ac7f99b11ae9128aa5d2b0bb969c3cf1a0af95a82a253df372c9af",
+      "sourceSha256": "2d1d4e20c8553a684a016261a33cff0acca6b52554e5723f978462d809845ff8",
+      "packSha256": "7cb1a482e29dc24034bfdb6acb1fce45e68f4f9ef90463a9a94cde8093b243df",
       "referenceSha256": {}
     },
     {
@@ -1136,7 +1136,7 @@
       "references": [],
       "pack": "packs/mk-103.md",
       "sourceSha256": "3a305fe29d1dda32a39060ef094340fa72a3c699b550a7012da49c337a49a619",
-      "packSha256": "078822c8abc00f274c0ee1708286a6b4992bedd2aa852d337c9dc0ba84999a43",
+      "packSha256": "e4862e33ee16ccb46ffd5587776e230ced4e29e6c7139d82cb7874a1e4787d8d",
       "referenceSha256": {}
     },
     {
@@ -1147,7 +1147,7 @@
       "references": [],
       "pack": "packs/mk-104.md",
       "sourceSha256": "4e45cecad0deb773852e824b8703bd1b6e04b31eada695d4e74c4fc0b96dcb57",
-      "packSha256": "8a46fe0ae14b7953c20298e739c4ad93ad25e3ded40ecf50cc56f48c44990d6c",
+      "packSha256": "fedb0a39d2989bed2c7935e96de3a9477896ad25442da19e75a9033df66e4f16",
       "referenceSha256": {}
     },
     {
@@ -1158,7 +1158,7 @@
       "references": [],
       "pack": "packs/mk-105.md",
       "sourceSha256": "4e7cd316d1685f0219b683445aa3b90f14f04159dead4ef17d1af47a7a6b737a",
-      "packSha256": "75ec21db0c94ce9e616c7ff42ee094801f8db3ce4bad32c2e588cfabad15f8d6",
+      "packSha256": "c99b50dbb3daca7bcec3b4b36413a445b1834127a72de724212f4b0a2cbc175c",
       "referenceSha256": {}
     },
     {
@@ -1168,8 +1168,8 @@
       "source": "skills/mk-106/SKILL.md",
       "references": [],
       "pack": "packs/mk-106.md",
-      "sourceSha256": "78ed3b49715597eef8a5d4c7dd9f787835f9ced33307608edf256fe15a382fcd",
-      "packSha256": "babea0e72b2a46f85aac9f4e8f2d4046907c4da3e4e582b6ff129c4d34f27e65",
+      "sourceSha256": "323cbd7ed35efa3cc9173125110e9b91bd9605af22f7eae351265143ee202359",
+      "packSha256": "f008c84d828e3ac40df5f542ce286ae05085e7eeceba7b600e33d30a60e5d1a0",
       "referenceSha256": {}
     },
     {
@@ -1180,7 +1180,7 @@
       "references": [],
       "pack": "packs/mk-107.md",
       "sourceSha256": "45e548a7cdf93d93179c87ab898d7aa3352780e226dd4815c1ed973099d1e73d",
-      "packSha256": "d86eee34e17a7784c8658a4c1fa825f9ef998cea1996ee96ee382854f0c1723b",
+      "packSha256": "105211132d163ae513d10375905b06fa0215cb2feffad3e63ccb01706d758062",
       "referenceSha256": {}
     },
     {
@@ -1190,8 +1190,8 @@
       "source": "skills/mk-108/SKILL.md",
       "references": [],
       "pack": "packs/mk-108.md",
-      "sourceSha256": "761e7d909ae85a5d1d313a139ae8733a0d3295839b356e7eef53cea34f711c5b",
-      "packSha256": "e88585591cb6456131c620c1b512da59bd7316dbb89da798a7b001e34418c0f3",
+      "sourceSha256": "b7610647685a32aabf7e3fab63704d2425c9472c9bd97ae46b035144166f8ae3",
+      "packSha256": "11a22b1bd1077143f04d2e121e0712bf6d609b711538da106ef1087cc7d03c8f",
       "referenceSha256": {}
     },
     {
@@ -1202,7 +1202,7 @@
       "references": [],
       "pack": "packs/mk-109.md",
       "sourceSha256": "83e08c2495e17a21e87d25cc5d759eb70010a0be92ed40fd785beca779d29061",
-      "packSha256": "8b7f7bebd40f1752aa801e119f69f928be75b3a04e3e0308bf8508a1efbd74f1",
+      "packSha256": "fa720e79c57c515e758b39c413bf883179cb287f0bb25b1fac4d756d45b81d44",
       "referenceSha256": {}
     },
     {
@@ -1212,8 +1212,8 @@
       "source": "skills/mk-110/SKILL.md",
       "references": [],
       "pack": "packs/mk-110.md",
-      "sourceSha256": "199737034f4e12d48ed8502b3b30f575d8e475731697b4922eb36c71bff14350",
-      "packSha256": "fb7f17576116f8dff62e3a8df3283c17a1f31198bbc8617e2d1c90f25077d23d",
+      "sourceSha256": "6908cc59fe1c726b876d51c262f53201ff14b89a726412dc302515aeacf739fa",
+      "packSha256": "726abdce05b953f4538b3f4887dcadf86d047332bf1d66fe0e132824c62d6b9a",
       "referenceSha256": {}
     },
     {
@@ -1224,7 +1224,7 @@
       "references": [],
       "pack": "packs/mk-111.md",
       "sourceSha256": "adc7a3cf9d579e92fb817c8882937e1bc18e9f554dbd095250153785e3bf29d5",
-      "packSha256": "2c249ddf19e9e082e52ae2d7c321d35272fb21e83c126ddad91cd551070bdec8",
+      "packSha256": "3359629be6aab0698db03fc2dc3343a5e1ce6cf9d61f099f099086d28594d0e6",
       "referenceSha256": {}
     },
     {
@@ -1234,8 +1234,8 @@
       "source": "skills/mk-112/SKILL.md",
       "references": [],
       "pack": "packs/mk-112.md",
-      "sourceSha256": "a529e9efe57e8104b5906f2235f9633cdfc86d357a97fa9e974353b59b393354",
-      "packSha256": "f43f57bdf0d158525d5fd789f85bca01786b0ba99072a8f6abbf0cfe00a4623e",
+      "sourceSha256": "334bfea0cadab51f303e81a6720e857cc6a3d672d50c119592e0e4a88644bde7",
+      "packSha256": "40373c147f53b1357dce6dbf2feba9ddd968c812521acb4d653b009561ebe0ee",
       "referenceSha256": {}
     },
     {
@@ -1246,7 +1246,7 @@
       "references": [],
       "pack": "packs/mk-113.md",
       "sourceSha256": "d891b1c4fc66a6ac0b16817ec020c8b9ec35d5c80a52be2c5a2977209bcccb3e",
-      "packSha256": "b7a706e2bceb6caefe3c4fadd91661ad0e368e807103e5274140944e144ce36e",
+      "packSha256": "6e255e2ef4f086f0c774a53424d04dac94d0a6c9e9e82eeedf9e5d04074cef99",
       "referenceSha256": {}
     },
     {
@@ -1257,7 +1257,7 @@
       "references": [],
       "pack": "packs/mk-114.md",
       "sourceSha256": "c0998e72429f69334b5c264b6184b24d5a4bddc0998cba48c9602d58b03667b4",
-      "packSha256": "9cf8c7ce7127d24bca41ce34373fa8eeb243a00babed2c6e80ceefd2f9e7a30a",
+      "packSha256": "a4c75dbef07adf027e2186ef61c1c0ab64ca0aea5ddabea7ed174ccc4f3319eb",
       "referenceSha256": {}
     },
     {
@@ -1267,8 +1267,8 @@
       "source": "skills/mk-115/SKILL.md",
       "references": [],
       "pack": "packs/mk-115.md",
-      "sourceSha256": "773d38d51421981ee1fc9499f8ce15249177c47ca779f5faa52c9c75036079ae",
-      "packSha256": "37229464de3c7c3b3e093a6a2ddd16b29d54c02099def86ba8514261f22048d6",
+      "sourceSha256": "5f76532b712b7ca5edc2b390182a8b2e279e57388ab0f4cd2ed63b5c4d8c0c29",
+      "packSha256": "24bbea0e8a53bc538ba4581ec21974949ec297e1fe5886bbece8d0efa4d1e509",
       "referenceSha256": {}
     },
     {
@@ -1279,7 +1279,7 @@
       "references": [],
       "pack": "packs/mk-116.md",
       "sourceSha256": "e98e08479da52b68e4362339d99767719902fe7ddc2e8be5029d42cb8d8f6e4d",
-      "packSha256": "356151eef0d8677994877aec3e6a9cb81ba8b568e0b95cf4e6b4a0dec7c73ebe",
+      "packSha256": "a025417dd4546e70a3c8564c476f666fc8d7475051701a70ac67abc8a579a3be",
       "referenceSha256": {}
     },
     {
@@ -1290,7 +1290,7 @@
       "references": [],
       "pack": "packs/mk-117.md",
       "sourceSha256": "d3e3a323b2847500a8e251f75740bc9e60395ffbedee7a68b010ac79ae8c2013",
-      "packSha256": "ca0f7fed58a7c7fbbc1668537d17e5aa1e8c40c0f4adfca60e0ed45c67f07031",
+      "packSha256": "49be5f2d5d34d6d6631bf3c11293372ebfb6f025dde030ec90a1733757eb37d0",
       "referenceSha256": {}
     },
     {
@@ -1300,8 +1300,8 @@
       "source": "skills/mk-118/SKILL.md",
       "references": [],
       "pack": "packs/mk-118.md",
-      "sourceSha256": "9dc5f47908e4d900a01d86874570d0168f70cf4b665a71fbf5830bbac7839258",
-      "packSha256": "ebc87764fdd225c5d78d5465121283c47851f94e30585a530afe49007384bc86",
+      "sourceSha256": "004a44016e03d5f7737e407f906bb8fd89350e7108e9645675a31e706e1833e7",
+      "packSha256": "b2d2b7d33b30207bbbdd0988afe654358fcba775f977ec78be7027a4c0c57f38",
       "referenceSha256": {}
     },
     {
@@ -1311,8 +1311,8 @@
       "source": "skills/mk-119/SKILL.md",
       "references": [],
       "pack": "packs/mk-119.md",
-      "sourceSha256": "8ed04f6ec8be367795f0602415f6c6472c62be6979df30e659eb0a1ff06b77fa",
-      "packSha256": "a8fca7ecc4854c2aecc5c9580f6e44c01105ee877b28879caabea6e097da4949",
+      "sourceSha256": "fb7f50053dded8dfe96f88967c3416c7e86564c811a928859632b865240dfb85",
+      "packSha256": "a11ef5a4ce913647db315d9543decb8475cf966a623a6aa269b8a0ad67cb4612",
       "referenceSha256": {}
     },
     {
@@ -1323,7 +1323,7 @@
       "references": [],
       "pack": "packs/mk-120.md",
       "sourceSha256": "3dff63d4eb778822251aae5e546a8f432079a26d5f2acc3c8b96d5f38db4a0c2",
-      "packSha256": "1af1691ce0f5ae4bb2540fad86419940046b185e3f7e4c99fa4d0f44e013c6c9",
+      "packSha256": "793089fa2646d35feccd20b982c247b222fbcc4087ce424ae7be33059b3f2078",
       "referenceSha256": {}
     },
     {
@@ -1334,7 +1334,7 @@
       "references": [],
       "pack": "packs/mk-121.md",
       "sourceSha256": "e3f06b879901c7bc801dcc3eca95082886b7b18b8c3b11e8b171834a2190685c",
-      "packSha256": "721938d7f4093c55ce4fdfa8fc90127d7cfed0114acc2af821f235c6fedebdb1",
+      "packSha256": "4ed4b01f83b70f72da56acb59fd4279f3d4ede790a58c64944a3711fd3be0839",
       "referenceSha256": {}
     },
     {
@@ -1345,7 +1345,7 @@
       "references": [],
       "pack": "packs/mk-122.md",
       "sourceSha256": "3efbca30775a2b1d84425c227b83aef63b02a965d98cf5a1a0c614e8a3aec492",
-      "packSha256": "454785a72f3e4a0002075df01c0a2b18e78769548fd23adc8af7f7c0a3f7644f",
+      "packSha256": "da04eade2736174073964a0d726e0f4cb6e8b31cdc0b8bf383d14106515b5a64",
       "referenceSha256": {}
     },
     {
@@ -1356,7 +1356,7 @@
       "references": [],
       "pack": "packs/mk-123.md",
       "sourceSha256": "9686d9981620b9f7f5433cdb5375629fdacf7adb4f9ce3e957c22ce558fac671",
-      "packSha256": "4962d1224c97705355ee4f0fce2574a047a1a179d7a72e12540640acf6b41bcc",
+      "packSha256": "01e021c0b861deef0944069594f02b5cf3a1fbf24c5cf96ede1ce05d134953a3",
       "referenceSha256": {}
     },
     {
@@ -1367,7 +1367,7 @@
       "references": [],
       "pack": "packs/mk-124.md",
       "sourceSha256": "446db0bf698abe8ebf925c3c378e43e4cfab63e8a49de14cf89f0270e548859c",
-      "packSha256": "128c1f64dc29a8dedafa35a96eca9f7274695df4d3dab71a008cf65ad1181934",
+      "packSha256": "dece24f27413100803586dfb699f1a931a28e34ef7f50b6e9506885ff053f73f",
       "referenceSha256": {}
     },
     {
@@ -1378,7 +1378,7 @@
       "references": [],
       "pack": "packs/mk-125.md",
       "sourceSha256": "295fde8d83e5b1dbffdb8343ad689f881913c0066d8326ae0fb2d95297dfa6ac",
-      "packSha256": "d5f78c29b784fe5ba88385d12644fe0e478002754cda7b881685c37f13ec10db",
+      "packSha256": "4e7d2347aeec72dc62c100e0508dbbe7cf766d25b332afad6ad07c82ae9d070a",
       "referenceSha256": {}
     },
     {
@@ -1389,7 +1389,7 @@
       "references": [],
       "pack": "packs/mk-126.md",
       "sourceSha256": "2b399ce176048898381ee96087c8fc959d10d94712b01631d618af9d9a32593d",
-      "packSha256": "45f373047cf8ff248fed7a09946e89395632b718828063d72e7add109a079062",
+      "packSha256": "1243798e70f1910b911b64098f20dba63117f4a771951ab67c59bbf95262e4dd",
       "referenceSha256": {}
     },
     {
@@ -1400,7 +1400,7 @@
       "references": [],
       "pack": "packs/mk-127.md",
       "sourceSha256": "02b8be3d9e612041eb20b941574437f4b20b02ca333baa1d81f125fb096dc7cf",
-      "packSha256": "9c05d21a02b9e15a9cf3b2fd35c7744627c98b5722ef43d9917f24f08fb6ff63",
+      "packSha256": "06a33afc5b7c234a38b8ece68f90bd552bef9b90cbc1aa3e25707c3f22a0c350",
       "referenceSha256": {}
     },
     {
@@ -1411,7 +1411,7 @@
       "references": [],
       "pack": "packs/mk-128.md",
       "sourceSha256": "f323d56c481bf228cdaa751c179842a0cfc618fcb306551c61cf3798526ee5c0",
-      "packSha256": "cd01aa8adc6d21c8950e81caee5498b4b81a7ed52d02120315c5422d209acee5",
+      "packSha256": "e3b66cf2a0b888beff51e40726856d4b2e0d8b9ccbe76f70f36762b62d300b17",
       "referenceSha256": {}
     },
     {
@@ -1422,7 +1422,7 @@
       "references": [],
       "pack": "packs/mk-129.md",
       "sourceSha256": "20433e7918598e3af329c3f9fe2c25a85b7bf44d8a07d26c4addc4d167b551b1",
-      "packSha256": "907aba61a8b30cde7d28a834046791bbd0c2ecbb0b55a03474e91b939d808929",
+      "packSha256": "cb203346058048ded0f8f7c1ef98812dd5b2ce3dd29fe2a2cb9eb0df861c4de3",
       "referenceSha256": {}
     },
     {
@@ -1433,7 +1433,7 @@
       "references": [],
       "pack": "packs/mk-130.md",
       "sourceSha256": "99a46e77c8c2b94a6514621f6bdeee2c85fbbd5d8c0a93f03c36235d96f25474",
-      "packSha256": "78c5a59ce36bd818c8939584028023bafcb94107ba0a0a426c05fa0003990a55",
+      "packSha256": "f1dc7715a30d5556f12313f0c97815a6ff98314637c2fddd325d4dc34414f12a",
       "referenceSha256": {}
     },
     {
@@ -1444,7 +1444,7 @@
       "references": [],
       "pack": "packs/mk-131.md",
       "sourceSha256": "9a7533cc26a7137fd7384158003a57e6666691b57ed81428352d39054383b5b0",
-      "packSha256": "10fb17967f6c76d0c674a0e6c7cd0be6e4ed34b4391086b486700cb66a07197e",
+      "packSha256": "43d173afd30d05b452ac8ee5887f1aed1ea844f58eb8ce13639723279b2017da",
       "referenceSha256": {}
     },
     {
@@ -1455,7 +1455,7 @@
       "references": [],
       "pack": "packs/mk-132.md",
       "sourceSha256": "9dacd02d4fb21b28bcf24cf195142836e6eb7febecb8dacd7a87cb5cbb83fde3",
-      "packSha256": "cdc923fd369d9097eb317335d06aa998ab600bfd3afd971b6bb49aa91f47d64d",
+      "packSha256": "524090efb160ee4bac9e45ae2ec577dd05d0dc1659e8d453bf94316bdf4371ad",
       "referenceSha256": {}
     },
     {
@@ -1466,7 +1466,7 @@
       "references": [],
       "pack": "packs/mk-133.md",
       "sourceSha256": "526cf27f8c05c53c7fb7fbc389fad7073b81076ec6990701015f4ab5df4c868e",
-      "packSha256": "b2d0c206599ecdad5779e98cc7708c1a9f7758c6604b15c92ef51dbd7a64d620",
+      "packSha256": "e5af02b833c456ce43d3f3bea76f522ef3dc9ee5917fa54c9cc732652e2b05a9",
       "referenceSha256": {}
     },
     {
@@ -1476,8 +1476,8 @@
       "source": "skills/mk-134/SKILL.md",
       "references": [],
       "pack": "packs/mk-134.md",
-      "sourceSha256": "278d061d717545011d33397728915518f402b760e29f65810cf8a2126ebfeddf",
-      "packSha256": "f5a5ba80534ee0d936d73139cdc8d7464f0fa2c807b4f8a312e935c9036da7a3",
+      "sourceSha256": "6f6c75e6c3dfb83fc59ebb6b4920dfc66edfabc80b12a87253459c667d7cedf1",
+      "packSha256": "7346a65de8d4f6fa1379b6db669f0ed5888eee142491a7f3aaef812522c9c68f",
       "referenceSha256": {}
     },
     {
@@ -1488,7 +1488,7 @@
       "references": [],
       "pack": "packs/mk-135.md",
       "sourceSha256": "ad56fdcd3e2c1612e469bb0540222296df7e84d4dee7bfa1d43d5fc43fc69887",
-      "packSha256": "dee4852dc42024c8dd43f855cf1af1c80cfa1a0c36729a0783ad567a90d27d72",
+      "packSha256": "c187391466a136a0a8bd81252840e1ae7d263babfef1eb9f40fff1053da3330c",
       "referenceSha256": {}
     },
     {
@@ -1499,7 +1499,7 @@
       "references": [],
       "pack": "packs/mk-136.md",
       "sourceSha256": "a14ddee152c11a8f4cd0070ce9a228e9bc77c1a8ac2388ad28cd947dcbda4a5d",
-      "packSha256": "8a2c3eca779b6a60b519ee1cc5b0ddbe678e439f76cef43e8288b3d2f72a5e06",
+      "packSha256": "f168534748ad4d151531b8c5f0840ca4a04a711dea3a90a7ae0a05a1d5dc9483",
       "referenceSha256": {}
     },
     {
@@ -1510,7 +1510,7 @@
       "references": [],
       "pack": "packs/mk-137.md",
       "sourceSha256": "4265828651e78667596334b2c26a065855636d1e47f6d7961eef0b3a63cb6f53",
-      "packSha256": "24b5968f67dbf1b66e40dcc5a7eeb2b940de7c27943a79cecbe32a42eada79fa",
+      "packSha256": "aadf87024f7940a7028bd87334cd8e56465c568f21cfb1a7ae126e573693eb65",
       "referenceSha256": {}
     },
     {
@@ -1521,7 +1521,7 @@
       "references": [],
       "pack": "packs/mk-138.md",
       "sourceSha256": "6ca1d592d9605aeae45005d7edd87024d1d46180dff343cbaa8a1f8dc962cdb1",
-      "packSha256": "4ec4763a0372e439088ba2caf70509faddc6ddccc34e2cf46541c808b3de2d11",
+      "packSha256": "ef0a6d219f82d6ef46dd1afd44f2bb0cb2ff32867eb60d3013f6cd3fe6e3e4d9",
       "referenceSha256": {}
     },
     {
@@ -1532,7 +1532,7 @@
       "references": [],
       "pack": "packs/mk-139.md",
       "sourceSha256": "7b822416025fa75bed9e4720664b5908e967a4b5fa21dc2ef1572bd572f9e42f",
-      "packSha256": "2d93644c3f69c5f5852e7de9d4fe9964dd42c8a0810fed5a144ff926092d2d30",
+      "packSha256": "278e1e01136f2d8d780e6dfabafef8fb9ec9582781723e49af994df5bf4804cd",
       "referenceSha256": {}
     },
     {
@@ -1543,7 +1543,7 @@
       "references": [],
       "pack": "packs/mk-140.md",
       "sourceSha256": "8fa35d712de13ab876ddf58af36079660452f651c7a7ec7b2999535de6a95c89",
-      "packSha256": "ae4c68497dd1d4c3a83f996f6924ddcdb762cd843483c2e114e6031518d21bba",
+      "packSha256": "70e8f5db117cb58efca47f0ac30a1b79b92dda2a20127ba5f987943ffc62ff9f",
       "referenceSha256": {}
     },
     {
@@ -1554,7 +1554,7 @@
       "references": [],
       "pack": "packs/mk-141.md",
       "sourceSha256": "d95f37f30bb81b3a276b082f8bd7ab9aa025387295be8b7b506e9af5002c135b",
-      "packSha256": "757b351a9f558462b71a98ae6c9d01554700abac7d1f5958eeea513936518500",
+      "packSha256": "f48bf8b4ca1215c2c463e0a868a1a980409ea314668cbf7b815321c4e90cfe2f",
       "referenceSha256": {}
     },
     {
@@ -1565,7 +1565,7 @@
       "references": [],
       "pack": "packs/mk-142.md",
       "sourceSha256": "1fe9074139f89e368718dced9e9c8d40be5c770498849839d179a999ba57cbad",
-      "packSha256": "d1c82b378a812e6ba979de885c03daf902e0b1832e6af57ee7a09fec952b2700",
+      "packSha256": "bb504f35ca5540926e342d71da3186e0a60ad13f8738f582051fba57a5089ada",
       "referenceSha256": {}
     },
     {
@@ -1576,7 +1576,7 @@
       "references": [],
       "pack": "packs/mk-143.md",
       "sourceSha256": "be6b14ae6c0e2c2657fbb2c1f3a01ad83498e6279effa1fa0706c85492766758",
-      "packSha256": "eef574e632b2a32481f36c823613049d7dc670a2328e72bdf2660854210a9189",
+      "packSha256": "c6fd2fb9ac00030bc3a8a670b90213e3076159dc1cd064188d69cc9c56189077",
       "referenceSha256": {}
     },
     {
@@ -1587,7 +1587,7 @@
       "references": [],
       "pack": "packs/mk-144.md",
       "sourceSha256": "1e06c94a14c78052e6786af415eab15775d66070fded5241727a1e5722d0c3b1",
-      "packSha256": "b8c2fe70d3d07db6b08a20f5b8c7eb680ebf87fa82e4b1f00054c8e76f56a8f5",
+      "packSha256": "a3e999830d414e07bc8c52055e827a53545f08eb83b8182fb5c1699a7dee69ae",
       "referenceSha256": {}
     },
     {
@@ -1598,7 +1598,7 @@
       "references": [],
       "pack": "packs/mk-145.md",
       "sourceSha256": "a7613f292dc9353bfceef69270608a5080b5f93c2c08260066dfc9bcc4b2aba1",
-      "packSha256": "b48b31ee252ef2caa1084248b101adab3a25bed5c1089080c4e42d73da5b73eb",
+      "packSha256": "6bf99bdf964f1f3299fe046e65eb894c772a2c28390421da8b8046fb1172545b",
       "referenceSha256": {}
     },
     {
@@ -1609,7 +1609,7 @@
       "references": [],
       "pack": "packs/mk-146.md",
       "sourceSha256": "0436f515159ef1c13434dc48c335b15b01b9c96f8b3dfa40afe8abf0ca503e29",
-      "packSha256": "1a08a2fb671a92f3a828b50a5faf5a3dd1451ce9e0809daa599bb52f85b1be53",
+      "packSha256": "f93487b34fd41b27cc6065cf98478c2bd24d3c2147e2bdec31ed885c341330f0",
       "referenceSha256": {}
     },
     {
@@ -1620,7 +1620,7 @@
       "references": [],
       "pack": "packs/mk-147.md",
       "sourceSha256": "fdfa2ec05bba5eda18c6c617e107ffc7537afe1db20fb9e72778d6fff36f1df3",
-      "packSha256": "9953d8974b7e7a1e0ced8fb2621fe8f140702ba4147c9e437513e907b85fdb5f",
+      "packSha256": "3548bcfff05a6f48c969b5efac97ee246aa8759a7b6f2abadc3379f4e2d9b7fa",
       "referenceSha256": {}
     },
     {
@@ -1630,8 +1630,8 @@
       "source": "skills/mk-148/SKILL.md",
       "references": [],
       "pack": "packs/mk-148.md",
-      "sourceSha256": "05762ab14e3bcd3fa721e6869145b6dd9b4068f8410e922d97ea7fea19f43eda",
-      "packSha256": "8d81dc354146743f90b199d85a9c8a084d06ec4eab415af3c41d5c1f34b788c2",
+      "sourceSha256": "8e462433510adefd6e3301aa776d4fcb565a1a9388606077ede99308226a4729",
+      "packSha256": "d756d0581b15c58c7ab6689d07adc1623b18b70d0219af15fcfe82c0b5d2dc27",
       "referenceSha256": {}
     },
     {
@@ -1642,7 +1642,7 @@
       "references": [],
       "pack": "packs/mk-149.md",
       "sourceSha256": "b5ccbf9a8e4fcfdfa4c78e321e4398e0f372d39b7a76cd3e536ef22355eeca16",
-      "packSha256": "f394b3f480c30a90e53c2d50e8e9c7ed3774967d18b0e9c4c267ad9a1d19ab03",
+      "packSha256": "6a0fa8b272c7bc5e012b594afdaf27b23e1750a7cefdf9ded6545b32e81ed857",
       "referenceSha256": {}
     },
     {
@@ -1653,7 +1653,7 @@
       "references": [],
       "pack": "packs/mk-150.md",
       "sourceSha256": "284acc5563f6c431568cfe13878ee06d1282cd4cec02a486a995ef6398bcb32b",
-      "packSha256": "1b26b0835664cfa110d09be7e14236a3d0afe50afa30e29d23a3db9180534d12",
+      "packSha256": "a57fbd915f60302963f69eb31c810d78279b7b504c487a5a08ec4cfe6edc2150",
       "referenceSha256": {}
     },
     {
@@ -1664,7 +1664,7 @@
       "references": [],
       "pack": "packs/mk-151.md",
       "sourceSha256": "5dce0f71aacb2d52d3168e6267ae9f74fba22cb48ad56f0455adc5cdb171b982",
-      "packSha256": "9b5e0063a1e8011da8b10de586a0caa99d4344aae8f948c3deb994aa05b9f289",
+      "packSha256": "f576733042da179278bb344cadfdb1a47da6e39387e2628a23ac3b407c2cf607",
       "referenceSha256": {}
     },
     {
@@ -1675,7 +1675,7 @@
       "references": [],
       "pack": "packs/mk-152.md",
       "sourceSha256": "b2599688ff552839c71285561ee9c55f9c75961ec159b1a9ceb61a673acfda96",
-      "packSha256": "294d56ded593c957f9101605e6fc9d025e16a1ccb761272a8c33ccf00ef2fc16",
+      "packSha256": "8c19445b5a2b7c67f195cd0f844af282d5e66e73760120a2656b8d017240fbe1",
       "referenceSha256": {}
     },
     {
@@ -1686,7 +1686,7 @@
       "references": [],
       "pack": "packs/mk-153.md",
       "sourceSha256": "49111d95d28936d8d885a0826f76f20f8623165b0b1cf9b75ec50c27e9d1e2f0",
-      "packSha256": "331206c75f70fb2171d1e92570bdb8b22d711480ebcf6546048b967d9e35511c",
+      "packSha256": "4616e4ca0ce0066755c051c3d1c512897ef873c2df9b870aef59464c565f39e3",
       "referenceSha256": {}
     },
     {
@@ -1696,8 +1696,8 @@
       "source": "skills/mk-154/SKILL.md",
       "references": [],
       "pack": "packs/mk-154.md",
-      "sourceSha256": "682a359bfaa8803ac49ae24f0a2bdc586bfc987e89989697014e1752bd8221d2",
-      "packSha256": "da99b4db6a37375f94422218b48dffa1cf950c7a4dc8cf5c65104d702ff00d30",
+      "sourceSha256": "c8cdf99cf84136ead755072b9b558a5d4116d3b4a6106423175336d3ff5b5111",
+      "packSha256": "799116bb1acb739dcdfa1b411b8af4aeb7d7830debe547038dfdfe8b5e245577",
       "referenceSha256": {}
     },
     {
@@ -1708,7 +1708,7 @@
       "references": [],
       "pack": "packs/mk-155.md",
       "sourceSha256": "baf27bea5dafc0019bed96a02ed88f4e779b7927ef3c6812d03de408b1fdfcab",
-      "packSha256": "4ab95280a32a8f9fd78e9136797095325fccf45f5a7bf6ca4b14edbe58037f6b",
+      "packSha256": "a7f85fed3eef8e99bb8e1721ae595eefd3913322c79c74af5be3582913d9729a",
       "referenceSha256": {}
     },
     {
@@ -1719,7 +1719,7 @@
       "references": [],
       "pack": "packs/mk-156.md",
       "sourceSha256": "85ba835686e41a78861bde95921c703127370cc599024ad9aee8a653883cce5b",
-      "packSha256": "3bfcaa87d6518c70b04ac59851737258f8d21a2e1458d44f72038654e533a70d",
+      "packSha256": "3e4c1619ada8a778cf6ac21f7e574563c7493ba48f9bdea6472491bbdd7e9c02",
       "referenceSha256": {}
     },
     {
@@ -1729,8 +1729,8 @@
       "source": "skills/mk-157/SKILL.md",
       "references": [],
       "pack": "packs/mk-157.md",
-      "sourceSha256": "b4a9ae8b7637b82e397a3da733b4e8f57d5803e7fc63edf03a711ff985792ef3",
-      "packSha256": "ebd5ef2a4308708b94c13c7751e9a1a2b16714c2e77a0c5e2b2aa6ab7abab5a6",
+      "sourceSha256": "76ee533f901b8654e9b0278f4517b65e5de9511b9ab21d25939d31b3397b911e",
+      "packSha256": "67981ed0c5159d8831da11b88132c5e07c044b05de053739d123cd22a5641b26",
       "referenceSha256": {}
     },
     {
@@ -1741,7 +1741,7 @@
       "references": [],
       "pack": "packs/mk-158.md",
       "sourceSha256": "69c0008db0ebbbb341937cc820d68a982c97f2de893df9e34165429db17704f6",
-      "packSha256": "0975295fd16636e948be460f86f1004d7386a93ae4ebf26b0bb75351222e8c8f",
+      "packSha256": "83a55c273825265a4bb3bb5ee1d1460acb8b70bbf564841415708aa91bd52efe",
       "referenceSha256": {}
     },
     {
@@ -1752,7 +1752,7 @@
       "references": [],
       "pack": "packs/mk-159.md",
       "sourceSha256": "2ecc1dd753686b9cd988c941ce85a2b3eb321195f6ccb8945a3061d6c39a9d9e",
-      "packSha256": "675ac37fc9d9ffad79c7534f1ab3102feb97a813b43711452ceb84d34c11be15",
+      "packSha256": "5dda8fb9645ab2ca6e5552c96c135867d8b45eec51422bb1f9301eac0991411e",
       "referenceSha256": {}
     },
     {
@@ -1763,7 +1763,7 @@
       "references": [],
       "pack": "packs/mk-160.md",
       "sourceSha256": "52c1375827361043d52e66eacd67a81cf4ad6f89c7226f172b5a4213f7ec401c",
-      "packSha256": "a3e7abae1edaa346b118570001f67e97b0656348dd1e1d3cd1299e5fccf4941f",
+      "packSha256": "716e931cab8dc0ff7d630b1827cbf7d8189dcb604b32410023d5a6e7fb3a7ee8",
       "referenceSha256": {}
     },
     {
@@ -1774,7 +1774,7 @@
       "references": [],
       "pack": "packs/mk-161.md",
       "sourceSha256": "4b0147328c90af071f7bb183acb89cea96fe124273e31ea7aa306e4b04a5d14a",
-      "packSha256": "27bb9dc973d9ce3ddc8a221a8f286632841d4842bbb13b2b0f9550544b8b4314",
+      "packSha256": "10e5987c42c8716b207b9427392fb798548ec289051ee49d3a56d67dccef2eb7",
       "referenceSha256": {}
     },
     {
@@ -1785,7 +1785,7 @@
       "references": [],
       "pack": "packs/mk-162.md",
       "sourceSha256": "42ebae4cfc7ac85468e2a75e0a1ec94a76fd8d3b5a4423ff81c253ec493cb201",
-      "packSha256": "adfc999ff6effdfa0ee1503f463718214a1a38905d2aea393fb6ebd786824786",
+      "packSha256": "d7f2936a0bb1be7713c1c75db4435505ddbe490cdb8ed05dd057965f28a0a0a5",
       "referenceSha256": {}
     },
     {
@@ -1796,7 +1796,7 @@
       "references": [],
       "pack": "packs/mk-163.md",
       "sourceSha256": "aa44d5d3733aea368b51df36b090b9781b4818aff8565bfb740079be1ccdc275",
-      "packSha256": "dc2b2e3f042c9649fffc190c2fadffca3e758cf38c8fa0969c65cbf2b6330389",
+      "packSha256": "5a4ab7a5c6db7636fb0ce3bb41e7dda40719bf41d7ca479529006adb1109b3e4",
       "referenceSha256": {}
     },
     {
@@ -1811,7 +1811,7 @@
       ],
       "pack": "packs/mk-164.md",
       "sourceSha256": "f2a97ce8dde36885bcb821c2dd707817bfd8da7a27872ae2edd71ed0b56b5dac",
-      "packSha256": "206ed2cc2cf113077d2d109039cd72932e98d659f56b4d321e848985063dcdaa",
+      "packSha256": "0e898dce8b6164ed8a59dcf1a9f70827ea5f92c1ee51f964eb63deeab2df0c2d",
       "referenceSha256": {
         "skills/mk-164/assets/eachspy-302-interests.csv": "3c3df59c5486a7a4041a1cf2d1255d9ae190790b905a218edee4ebe2bb2aac2c",
         "skills/mk-164/assets/interest-reference.md": "7b4b5eb1e3a2062de08c2b43e36d9398d23f6f63248b33706d1274bd9c89da48",
@@ -1826,7 +1826,7 @@
       "references": [],
       "pack": "packs/mk-165.md",
       "sourceSha256": "021f2b7a1cbedea87fad7efb21a2a9e54ee1de3b723a955ee6104471a3d691d2",
-      "packSha256": "1dbe658808cd754ecd39faf061d71bb90c44f9505598384cd4f1c32868e5e0ff",
+      "packSha256": "d1d2749ab0dd3d3f7881fcec55ff8cd161521406ac82fcda2eb2c60a76789fd1",
       "referenceSha256": {}
     },
     {
@@ -1837,7 +1837,7 @@
       "references": [],
       "pack": "packs/mk-166.md",
       "sourceSha256": "c13dea093e9e34294aba22a181f90edc3103e3deb090f7e791bd3633b98368c3",
-      "packSha256": "3f1630710f2e1caf7192bd9d308fa54f6ab6877db3c189796c43bcc1b9d06524",
+      "packSha256": "536cbc612d50e5f49335942758f3532d9ea103f6a85b0c5b606a68e6fa64ff4f",
       "referenceSha256": {}
     },
     {
@@ -1848,7 +1848,7 @@
       "references": [],
       "pack": "packs/mk-167.md",
       "sourceSha256": "548efdbf749479448bcac64fea2fed303e92fdfae64b747e03afafd43e408400",
-      "packSha256": "3132c6e2c85ac8e467a62502070b420dc5fafa61128e545e520759400f5af993",
+      "packSha256": "dc662448dfea9d511f1220295924a021a235aae9dd887038c91a171708da72c0",
       "referenceSha256": {}
     },
     {
@@ -1859,7 +1859,7 @@
       "references": [],
       "pack": "packs/mk-172.md",
       "sourceSha256": "5bfe4bd88f5208cf06ca7ec361ffe8aa3516329cb12b2f3d300f84494aa377d9",
-      "packSha256": "35bd91e5ae4b30338b69bcbc18a68575af3fa4f38189ab0d9fdeccc2fea5b82e",
+      "packSha256": "6a62edaab619e01c2935116adb0340c8a939c686e58c527c3bf08085ef0ba8f2",
       "referenceSha256": {}
     },
     {
@@ -1869,8 +1869,8 @@
       "source": "skills/mk-173/SKILL.md",
       "references": [],
       "pack": "packs/mk-173.md",
-      "sourceSha256": "30b7486a979f5389c6358835b1d54c502896aa43ab2fa154027ca302eaa230ea",
-      "packSha256": "69c55789406bfa79b23f65b2a8a5a612551c5f459929dd6dd6301c7f7a64cf97",
+      "sourceSha256": "d637285962288b68c97be4277e83cf2c4a214a8ade51a746110bb207d1147812",
+      "packSha256": "90973a914488979abe3f1741a79bbdbd3ee3e1087740ec3ccc5b7627c2651e7f",
       "referenceSha256": {}
     },
     {
@@ -1880,8 +1880,8 @@
       "source": "skills/mk-174/SKILL.md",
       "references": [],
       "pack": "packs/mk-174.md",
-      "sourceSha256": "3e7a375640b9d31034aedb0606ebe26a065878a39462140539d89ae44d399b54",
-      "packSha256": "93dd1f31c014668224caefb638ac6626acca4e760e25e6f6780b963439db0c5d",
+      "sourceSha256": "dbd1f58c998836abcaa1c561204e47866e11e885f35a13e11f8eab886bad1632",
+      "packSha256": "dc94f57b90f956e9bdc062665550f9987b763e100cfc37b87b69f0ee69061eae",
       "referenceSha256": {}
     },
     {
@@ -1892,7 +1892,7 @@
       "references": [],
       "pack": "packs/mk-181.md",
       "sourceSha256": "1d9980a969291362205d1ec07759d60a8bd73ee0cd217eddcb217a66b8dbfcb7",
-      "packSha256": "d87877f5c2ff08852abc2a2b14bd2fcfc5d4c55ca687c72a455baf44be5f4622",
+      "packSha256": "81a3d69d67aafe85d3b96d1bcba990a47923ef8eb1de3d1cb1bed8ccab5eab50",
       "referenceSha256": {}
     },
     {
@@ -1903,7 +1903,7 @@
       "references": [],
       "pack": "packs/mk-182.md",
       "sourceSha256": "d8a55a0c377005977cc159bd46940a0495751433bffcc9714d5173e2a5bcaab7",
-      "packSha256": "4db1af8df70afae07746d6231c59993d65d521f5710992d1cc62b4b2a6a83835",
+      "packSha256": "3393cc3cd8191b9610ce4f946490f8f226fc87f5b8d74d37f3977b6b8e63823e",
       "referenceSha256": {}
     },
     {
@@ -1914,7 +1914,7 @@
       "references": [],
       "pack": "packs/mk-183.md",
       "sourceSha256": "b1599e88fe17ef2a4e1c72e63709268620419f4889af41a3ba12c9e016602a44",
-      "packSha256": "1dd27017e52803554fb1a50146a742930621820ae2048f3d039cfeb653b5b2ff",
+      "packSha256": "a13e02b1e488f13375e3c0587409ddb18ea55b894979393029ee864997e094d3",
       "referenceSha256": {}
     },
     {
@@ -1925,7 +1925,7 @@
       "references": [],
       "pack": "packs/mk-184.md",
       "sourceSha256": "ef5e55de80af423b455903c75b28b1879774c5d41832da53fd634c82463d8509",
-      "packSha256": "451ac6dda24c202504fb2586efec35ad4264de1acfb6f4ada31e16c2f71fc448",
+      "packSha256": "56b9eab75e05bb901fb7cf552d495993c1c31db9d6c446b1c054fde123125001",
       "referenceSha256": {}
     },
     {
@@ -1936,7 +1936,7 @@
       "references": [],
       "pack": "packs/mk-185.md",
       "sourceSha256": "282f0d1b5a1d870917df41880fa68fb5bf30e08cf1dccb0c429e3039b08cbb4c",
-      "packSha256": "3525e1793eb4d80a5fa70ab1491ca092aa629fc656429e8d3833ecbfc1222cc5",
+      "packSha256": "9a6e93477041c2383fd5b1b8e9f8ca27e92060732c3f2d2ed34e86eaa42b59d5",
       "referenceSha256": {}
     },
     {
@@ -1947,7 +1947,7 @@
       "references": [],
       "pack": "packs/mk-186.md",
       "sourceSha256": "47cbae82a080095d7bd2439f5683443bbf8eef40d6d3e9d5e8067350e5dccf6a",
-      "packSha256": "a243835f2b3215ff540a709ccc6d3c5893cfa4efa1d16a478e63a7cb33b09a24",
+      "packSha256": "63d9985d84522a9eeb5ae35d34d63c15f162dc83146b6ccbbd48f19f349702c3",
       "referenceSha256": {}
     },
     {
@@ -1957,8 +1957,8 @@
       "source": "skills/mk-187/SKILL.md",
       "references": [],
       "pack": "packs/mk-187.md",
-      "sourceSha256": "acf59c92fb4295f71a46c4e26667cbd7a3546768a9f293b94ddfa3194d78c12a",
-      "packSha256": "8a98758779cf9d005507b69efa7d235709f91964575c4efddcb946723c74740d",
+      "sourceSha256": "55d5a10dd7dd33623e24838d664f868dba4e25bd1260d329192b30bac8b9ae60",
+      "packSha256": "0a47673081c8ed38e7b90a4b74ba62c670d031d5656c9f9ccd54ba63264cf749",
       "referenceSha256": {}
     },
     {
@@ -1969,7 +1969,7 @@
       "references": [],
       "pack": "packs/mk-204.md",
       "sourceSha256": "f773adc9d3ac16171d0e5d756cfaf7297fdaf19fe47a7e50a68d2343dc2b83e7",
-      "packSha256": "fb5d60064d8bf913258c2cc5ddb54f3a616ab652b37cebd0a30fc19c6477584b",
+      "packSha256": "2c75b348046e432943eb3d32b2e57a3606e77c2be04770717e15f1183ca2d9cb",
       "referenceSha256": {}
     },
     {
@@ -1980,7 +1980,7 @@
       "references": [],
       "pack": "packs/mk-205.md",
       "sourceSha256": "6c76fa0276da7b4508b42e56741f5afc373bbd4ab5bc046aec42f444e93508b6",
-      "packSha256": "4a5353b7a7d675c23053818e7e93759e88bd45603210cb627d6624430583c393",
+      "packSha256": "b2982fd8d624a282b26a8f13d62feb0c500ddbb739a11a349f4114cc4fd425f7",
       "referenceSha256": {}
     },
     {
@@ -1990,8 +1990,8 @@
       "source": "skills/mk-206/SKILL.md",
       "references": [],
       "pack": "packs/mk-206.md",
-      "sourceSha256": "cc1fed3d2fa21e6f9facb4aef01b2a52305d0115f6c03ae2b9a7995101531a9c",
-      "packSha256": "0d23c2a8ca909d74b143d5ccd8446a3e11aeed2b5d82cce4afcc0830770a16af",
+      "sourceSha256": "a77b880e91ce0b8a01dc372dbb1847e177e832f0e1afc45d7d9cb4b87a674e90",
+      "packSha256": "8a863f84703deef731789be7becf29152c7b95273a100348d4917d786c446fa2",
       "referenceSha256": {}
     },
     {
@@ -2001,8 +2001,8 @@
       "source": "skills/mk-207/SKILL.md",
       "references": [],
       "pack": "packs/mk-207.md",
-      "sourceSha256": "47fb28e14ee4928671ab73cd79dfc7782dd638c0f6b3fba78706963ed353088a",
-      "packSha256": "3a7097fba64121462d1942c6fac0fa0ba4cf45ca0c7b388dfdf69203091d7dd5",
+      "sourceSha256": "2528a913afc1df30d726dd62f58b6338678c19dc5a05a7bc6087fe32ac9a1b2c",
+      "packSha256": "64dc9fcaff45888b439e7d7a20b1a3b3df4aee676b75c0a6cb6c173f17509276",
       "referenceSha256": {}
     },
     {
@@ -2013,7 +2013,7 @@
       "references": [],
       "pack": "packs/mk-208.md",
       "sourceSha256": "fa51b5ad611e1bf053917ce57b7534db4a04c352759b9efda6c9104751bb439e",
-      "packSha256": "a9ecfbc62fe3918a3673907fecfffe0d289a554ad7160196d5cbc8a5e605e29d",
+      "packSha256": "99fbbfad68a811b16b8722a2feb5f181323034516f69e74331ac4a9d424c0096",
       "referenceSha256": {}
     },
     {
@@ -2024,7 +2024,7 @@
       "references": [],
       "pack": "packs/mk-209.md",
       "sourceSha256": "a5fdb52636244b9715ef44aa57512d7f5accc4f7f7c9139c4ca1f5893ae2cb88",
-      "packSha256": "b0c89dc6acc9efd953222bc837651f9e2c1413b189ea1b87ebcf6078ad1449e7",
+      "packSha256": "8042e2924434c1d7c3e7690fd06b75b452b2e625bfb173260f9cf3080cdd9759",
       "referenceSha256": {}
     },
     {
@@ -2035,7 +2035,7 @@
       "references": [],
       "pack": "packs/mk-211.md",
       "sourceSha256": "84ce1bf05545344eee948c082c9752fbb590fde502bc40ce72de52beab5b5865",
-      "packSha256": "b569474e1182ec248ab25f1814a09fd4780536d51851c658fbd3d2cb0a394600",
+      "packSha256": "2b847a09cb98ec4ae6bbbbc603176f7ef117a7efdb8877e45df95054a658ca6b",
       "referenceSha256": {}
     },
     {
@@ -2046,7 +2046,7 @@
       "references": [],
       "pack": "packs/mk-232.md",
       "sourceSha256": "bd3e3822bc85c929935fe99199c0968e0711a1d4fe20c181e9bdf8bf8292e686",
-      "packSha256": "7766a45130e964246141abef182faecf2c08d4689b501241fa6f3b4e26296527",
+      "packSha256": "82e4163ecd2a4105c0448df0b5e45912da757be6d416a2c9c0bcecddbba514d0",
       "referenceSha256": {}
     },
     {
@@ -2057,7 +2057,7 @@
       "references": [],
       "pack": "packs/mk-233.md",
       "sourceSha256": "86f46b68c35ae3cc4887de3ae773add487881d6addc31f85cd36b9befca8f65d",
-      "packSha256": "a1bbd481193fd2ddb413f10fd8fd97020b3a100dfde73fec7a77d15c6ec269ca",
+      "packSha256": "61a88b73d54eb8e3b2f16946ea1f16d83f32cbb56ec4096420ccb85747b80b3c",
       "referenceSha256": {}
     },
     {
@@ -2067,8 +2067,8 @@
       "source": "skills/mk-234/SKILL.md",
       "references": [],
       "pack": "packs/mk-234.md",
-      "sourceSha256": "d6ebcaeba74a4d805fb1a674051c9f40355d7977d3f720a7d8c443ad2ca6ea03",
-      "packSha256": "b2a483cf03341cd71d03287440694a5f8af735f1f2a19f1f9ecb4c11046ca3d0",
+      "sourceSha256": "1cb93dd510bfc227bda4aec7f7d97b788f193320acc7d2b29d18db0e22609d52",
+      "packSha256": "83fa2ffbedee5f7c241d9d60ca50c3a019ee7d8b536addbf43f578aa2f22ae65",
       "referenceSha256": {}
     },
     {
@@ -2079,7 +2079,7 @@
       "references": [],
       "pack": "packs/mk-235.md",
       "sourceSha256": "178e2eeccb8a06457922159b19e03774b9686788f585dcc7603720720ed1af72",
-      "packSha256": "cbf5e915d68b45fddf1b0c53a9811403cd8fc7ff6023c071059becc8a24c634f",
+      "packSha256": "350aa56436a999de3d54129e8eeb174ba0b6710d16c937a6c815f133e7292b81",
       "referenceSha256": {}
     },
     {
@@ -2090,7 +2090,7 @@
       "references": [],
       "pack": "packs/mk-236.md",
       "sourceSha256": "dc5bc8fd0c9489263c281c442cb9fcf78ad5d43982cafc3b7c3b4ad29cb52479",
-      "packSha256": "ed0a2bb051df0165d675946afc2a6bd941d7a91ad946b0288298507b7d352b71",
+      "packSha256": "96cb1a45fd613c0da9b75403802733d5973e1344c5965fb64ebf37bd68544c28",
       "referenceSha256": {}
     },
     {
@@ -2101,7 +2101,7 @@
       "references": [],
       "pack": "packs/mk-237.md",
       "sourceSha256": "0cd62d3569e4a4d253a25cedd387933e3ffd928753635010f72942ffb0ce07d1",
-      "packSha256": "daef9fefb6e2643436fc9c9989c66964beb3813ec5b10ba2b341f16661baf25f",
+      "packSha256": "8c035ce1fa4ca4f81b449a72be8ce3dabd75aaa72ede9df1ef0cf59eeef1c292",
       "referenceSha256": {}
     },
     {
@@ -2112,7 +2112,7 @@
       "references": [],
       "pack": "packs/mk-238.md",
       "sourceSha256": "987b354aafbdaa60fce7807476121806772b57c0834000da580bd818388702ce",
-      "packSha256": "bf05d1ba1cd96cb6f36c338033c3ecba14394b4fde7047d83859b82d92665fcf",
+      "packSha256": "8436aa9cc35a7efbab952c0d47979b6e0720fe9df100cde47024fa298772d445",
       "referenceSha256": {}
     },
     {
@@ -2123,7 +2123,7 @@
       "references": [],
       "pack": "packs/mk-239.md",
       "sourceSha256": "a0110243d044d86bab070d2d3141601f05c229f5c75909cd5480518c082a323e",
-      "packSha256": "bb57a831789879d3aa970e6cbe9fbd267fcc4d41ef25fde348aadb3bf5af77dd",
+      "packSha256": "964d084700ef5842c272364f8bf8d80209cf48daa1abb0df1c250ba189209827",
       "referenceSha256": {}
     },
     {
@@ -2134,7 +2134,7 @@
       "references": [],
       "pack": "packs/mk-240.md",
       "sourceSha256": "8adfb83603ee9c970ef4cddf47a12503849d64316834a0f91bdf6f28ad7ba3ac",
-      "packSha256": "51456411b51c74a548c48e606d15d75c6e2d9b88a33386b6f80fc26e5ee06062",
+      "packSha256": "73b1dd058afa7e2dd4cf4509cf855566fd85f00cc2a4d33224e7da5531a7350b",
       "referenceSha256": {}
     },
     {
@@ -2145,7 +2145,7 @@
       "references": [],
       "pack": "packs/mk-241.md",
       "sourceSha256": "1e766737775d03b561d45eed0f74235bdbd54a437d73c7579c828e1fe0e6e407",
-      "packSha256": "41dbe4075fbd6525f2ccefc19cd5f0060223657319afa1666833ef3f54f4a7f7",
+      "packSha256": "16d1053366f4270db99e12166837c45a8098ddab08655cc2512e4f821c676866",
       "referenceSha256": {}
     },
     {
@@ -2156,7 +2156,7 @@
       "references": [],
       "pack": "packs/mk-242.md",
       "sourceSha256": "dd5e2673af905c10aab5fa2a908030474d87fd3eb82da0ed10bc329e78331ea1",
-      "packSha256": "64352a29f2057736dc63681c98a261aa4f1a2655d2ca9da7b5b051d6f34b5536",
+      "packSha256": "01b9ef30c1cb088f8ab65efdf51c0478a20fe5f71bcf8cb7150937e7b557fe4b",
       "referenceSha256": {}
     },
     {
@@ -2167,7 +2167,7 @@
       "references": [],
       "pack": "packs/mk-243.md",
       "sourceSha256": "edc6ea2a0c74fd1d53e3fbab14fee938c276d3c0a7c6e16bd2dbbff5fcc42ed0",
-      "packSha256": "9c3a5e91870308efe0ff0de83e147562077632fbadeedff06be3c3f9911f1b14",
+      "packSha256": "2db11165d9e6d5bf35584d7afb8690c686248fbc06fe9dffe43e2c34a92f538c",
       "referenceSha256": {}
     },
     {
@@ -2178,7 +2178,7 @@
       "references": [],
       "pack": "packs/mk-250.md",
       "sourceSha256": "a473582e73810b94f003665a6aeb918f8bddeb1bf3c466da440008dfb3fc3fc5",
-      "packSha256": "c63e9dd0397f73cee3737b12bba6fb6ff1240f70ce492ff5011f399761d8cf8d",
+      "packSha256": "52d3272776b572772e5bd68996adbfcfcd869c70a9626665863fe7425044876c",
       "referenceSha256": {}
     },
     {
@@ -2189,7 +2189,7 @@
       "references": [],
       "pack": "packs/mk-251.md",
       "sourceSha256": "fb0542f45e5618d7a08ad9c9f78528804a2e5b8f21541ad4d1669d27d9349910",
-      "packSha256": "8e73814a65497d8689961529295333772b13a1b342e75fa0a31459881cb6e1e8",
+      "packSha256": "26c56bfc17dd73b64160c1fc2fa13d43d1689b9501c687c131e42a33bd02e7bd",
       "referenceSha256": {}
     },
     {
@@ -2200,7 +2200,7 @@
       "references": [],
       "pack": "packs/mk-252.md",
       "sourceSha256": "773b4a56814a1fe985c5442ad0be183669c607c3d1bbe31ac07637a72790ebdb",
-      "packSha256": "b3c2a1b938ee0c73ee0e907638b881a13b36a1dbc13cbc2e1162c3f535e1bfc2",
+      "packSha256": "a3ef1a62a380c1ebae0509aceb1b8542df6f16b8b402b9fd691e9f3599ee6e40",
       "referenceSha256": {}
     },
     {
@@ -2211,7 +2211,7 @@
       "references": [],
       "pack": "packs/mk-253.md",
       "sourceSha256": "7df5d5f429bde0d45543d2e13d0426d9f333dbf5636c986b0cfd80036d2019bf",
-      "packSha256": "762319a71184e4bae27573a352051eb569a7a9b3f9fa3c7c91621bdaaf921dce",
+      "packSha256": "18c04a035b9452e2550c72f975bef3e2f6f1434fec851a2a01390a7b944ffb84",
       "referenceSha256": {}
     },
     {
@@ -2222,7 +2222,7 @@
       "references": [],
       "pack": "packs/mk-254.md",
       "sourceSha256": "2a3b1e9c0d3bb586479e788d0dec2a5790a233d625f5c4557966a88b641ce5c6",
-      "packSha256": "7c30c1b90983dc7ed6f0a5db58c37472515e842d2e9c68d2a5ff6e1d2c8c32fd",
+      "packSha256": "31d6668840fa7a04f843cc2890fcbd7e08fb53d71d2299ae4c48746da08aa056",
       "referenceSha256": {}
     },
     {
@@ -2233,7 +2233,7 @@
       "references": [],
       "pack": "packs/mk-255.md",
       "sourceSha256": "b6b013f63e5727038b0093521f32afb2d647b47862bfcafefb2cf4c33f361f13",
-      "packSha256": "fc84ef352d53236dfaedceb81306fe18cd54411e2967df8a767e3ae5c3464fa9",
+      "packSha256": "4c0f1e4777d7e50065b5f40b7aca1f6e12e1168cf3779211e4ef33bbaaabbbbf",
       "referenceSha256": {}
     },
     {
@@ -2244,7 +2244,7 @@
       "references": [],
       "pack": "packs/mk-256.md",
       "sourceSha256": "d1f009e04176919ad389edd6981335a26bbe5002a74e822a8c12db2bf2b078d4",
-      "packSha256": "77c3af86cbe6021fd50a3c1a35a96a4d275262226d19f72dc0ffe22db14bd6e2",
+      "packSha256": "cd5a5a2481c57ab14532de5e27ddf2ffdea927f340b77e07d411f803b03cad7e",
       "referenceSha256": {}
     },
     {
@@ -2255,7 +2255,7 @@
       "references": [],
       "pack": "packs/mk-257.md",
       "sourceSha256": "37b7a7da6a58df372537fbc3ae94707583fb7b7011c8ebca78cddcc4157e57db",
-      "packSha256": "5230bcb33308e7421e0316198eb560958f95fd347861911e606b5454530cfbec",
+      "packSha256": "fc7ce7cf486a1860185f5007fbab420bc17fc12c9dc641d184e94e97ee634842",
       "referenceSha256": {}
     },
     {
@@ -2266,7 +2266,7 @@
       "references": [],
       "pack": "packs/mk-261.md",
       "sourceSha256": "1a38f74cd867f09e6aa908a6ad7c08bfc6bd0b39efedf49165057782918a4925",
-      "packSha256": "b072c99b6c74c9dabccaf23b29634ea287b30d4b633c53806cf23606b563d3ba",
+      "packSha256": "0c0bf943dafc523faf7ca116e89add7e638878dd34dc5e0ea4b2a7568f26f26c",
       "referenceSha256": {}
     },
     {
@@ -2277,7 +2277,7 @@
       "references": [],
       "pack": "packs/mk-262.md",
       "sourceSha256": "2f9a0a0f246ed1c1e512581449bef7745b04da53bd442d67799229a2b902145b",
-      "packSha256": "d9561aec7136bcbaa14962c11b87d17e41c64c187ef9777335d06a73d3be3557",
+      "packSha256": "96d226cf5ae9b477047931462827a3f81051b7c69423d0e1a5e1bd9206654023",
       "referenceSha256": {}
     },
     {
@@ -2288,7 +2288,7 @@
       "references": [],
       "pack": "packs/mk-263.md",
       "sourceSha256": "4194e37e77977179b7cbe9b056217ee42467ebc17069cfe76a71fc3f6a623594",
-      "packSha256": "45cd44afe4b0deb5c7574228468df46565733376388322425fa023ca0dbf80df",
+      "packSha256": "8c9d71a432759396e07b72a5d60203c6f0ed9860fdc565660d8dcc2b08403d05",
       "referenceSha256": {}
     },
     {
@@ -2299,7 +2299,7 @@
       "references": [],
       "pack": "packs/mk-264.md",
       "sourceSha256": "fa66d6d676f08ed2037a20d6c541ce5abae1cd34f190f1da130061ec26869ea4",
-      "packSha256": "7a3f60dbd805a944c35a351ce3b18d0d0d4e787ac847f6195165d5c458edebc9",
+      "packSha256": "4cb633e7f4d402857a705827cbdc219e4ce7246f3d6f6a860939bf286295af60",
       "referenceSha256": {}
     },
     {
@@ -2310,7 +2310,7 @@
       "references": [],
       "pack": "packs/mk-265.md",
       "sourceSha256": "e0a9a7b23c5bf78309ccdaaebd2ac53b9569766c273489cde5349abba3d2d7c3",
-      "packSha256": "07e9060e6189c04a8174356eb03673db082171ab0ddad26240f043f31ed29103",
+      "packSha256": "007a28f2f980abeb078eacc2f8492ce212de7e1b1c84b4e8c082c1862b1809d9",
       "referenceSha256": {}
     },
     {
@@ -2321,7 +2321,7 @@
       "references": [],
       "pack": "packs/mk-267.md",
       "sourceSha256": "3c36334ea47f81011024daad77f07d1a9bd23d4532294177aed58d08514431d4",
-      "packSha256": "a2e64f2cd1d1c056cc7f52d5bb76df56ddfa4f1908801ee8c2f8ff3f15754065",
+      "packSha256": "77562aa6c501a8baeac4753cd971f845f8d5dbef8c2e9dcb7b738477b002a20d",
       "referenceSha256": {}
     },
     {
@@ -2332,7 +2332,7 @@
       "references": [],
       "pack": "packs/mk-268.md",
       "sourceSha256": "cd53caa11d967d005e0165c845dabc8c389df692e47ad5daf1b16750e269900a",
-      "packSha256": "276502e048e98651d401399aa0c31b2bfa5fa579c430969c14b1ccc9ea07c509",
+      "packSha256": "3649c639b0350e83ee238cec642c5a2aaa45858c4aeccc63022202df06d36718",
       "referenceSha256": {}
     },
     {
@@ -2343,7 +2343,7 @@
       "references": [],
       "pack": "packs/mk-269.md",
       "sourceSha256": "675e3fd9ddb18fbba3e2d2269403d3bcf76951f4fcbef7a89c21869f6d0aed15",
-      "packSha256": "01e373d325a36975cba3cc05ee04fbd1ec988782340305fdbf3015784031e21a",
+      "packSha256": "01460994b3588b473b993f149242ee822cfacc3fef1d6b7855c234000fb0f2a2",
       "referenceSha256": {}
     },
     {
@@ -2354,7 +2354,7 @@
       "references": [],
       "pack": "packs/mk-270.md",
       "sourceSha256": "6e90c9c5068a512d4f6207eab9b80bfa3c6ca772cf4531f901bcb47aeb33b47e",
-      "packSha256": "7bbdb6d830392eab2ce5d21467e0f2c8de8177ab84a734719afe98946aa48285",
+      "packSha256": "90b0c3c30762b6d7959d37d0167f6f00402a840872123abd937689509dc1f4ab",
       "referenceSha256": {}
     },
     {
@@ -2365,7 +2365,7 @@
       "references": [],
       "pack": "packs/mk-271.md",
       "sourceSha256": "a0c665e3c77f116087ea04d3fade1fd536432d1cac65593b0a98792eaf1fb87a",
-      "packSha256": "2a3475f58420c417aceba0d7790a6c04f91dbad1b1d01ace389b288acb009f83",
+      "packSha256": "b8eafde0a9bbf9c704dd74a79e62aa5825dd3e42e464eb4a56e9d0b310c1654d",
       "referenceSha256": {}
     },
     {
@@ -2376,7 +2376,7 @@
       "references": [],
       "pack": "packs/mk-272.md",
       "sourceSha256": "6759bd36cae2eb94950d5fbdaa5bbdba2f8e624d9c2dd84fd62cf2b4ed9101c4",
-      "packSha256": "fd6aa1cb669636361f2a5a671b43351bb1aad7617a6dddfe97922993dba4546d",
+      "packSha256": "e72fb8207177a8adb7e42d9eb6448bb294486417f0d1901fb46a5303dadd5239",
       "referenceSha256": {}
     },
     {
@@ -2387,7 +2387,7 @@
       "references": [],
       "pack": "packs/mk-273.md",
       "sourceSha256": "aa19d7abd9644bdbcfa29bdb02bbb679e496fd26a7c2759b836f0630ac054cbd",
-      "packSha256": "ce48b5037ccb9dde1bf91a0ddfec80a3b8586fb28ad0fe5d542559ce9d50782b",
+      "packSha256": "d4a27af122a97d4b87ff802d28aab4b9616d5d55fb68cc39241edd0deaa4e644",
       "referenceSha256": {}
     },
     {
@@ -2398,7 +2398,7 @@
       "references": [],
       "pack": "packs/mk-274.md",
       "sourceSha256": "873fc6ea3e9022b4e252869b97c3d978905538a304dee15c4d2c357ceb16f360",
-      "packSha256": "b75c72063717c09569cfd9eb0e2d900f57ced109c539ebfd906b9539e56e48db",
+      "packSha256": "02c9257c642a4d7a386209399abc3ee7921d4cf384fe3b7b848fddac09c6c219",
       "referenceSha256": {}
     },
     {
@@ -2409,7 +2409,7 @@
       "references": [],
       "pack": "packs/mk-275.md",
       "sourceSha256": "99a0f4caecd3cd452d1cf34ee7ed61fbb35fb2c5ae49373f724db07af2f60f87",
-      "packSha256": "70563bf130ebe3e5aae2099bda0be72de1ac5e60af1a980cfd896a49e9ff426e",
+      "packSha256": "2c96165d7a9e09d7eeec8d4f0bd66a513a8d2b48df4d3fb6311a8cd53cb6d332",
       "referenceSha256": {}
     },
     {
@@ -2420,7 +2420,7 @@
       "references": [],
       "pack": "packs/mk-276.md",
       "sourceSha256": "b128e95ad7485e48939b21ab6b59d6a8fdcddc1f3ee79e4ae5a27730b589c7a6",
-      "packSha256": "e11040e2c94aa0b5f14551f821005197e5801e7834a1e1d603910a91dae2378f",
+      "packSha256": "e05ed4beff70d45ea5ab65f46a256fc68592a4d73d506dd4da1bd51f16446c51",
       "referenceSha256": {}
     },
     {
@@ -2431,7 +2431,7 @@
       "references": [],
       "pack": "packs/mk-277.md",
       "sourceSha256": "79a21898b59d0cc6b90102e10f446c34d7e51dde0167bc6eec1a5af5984d0667",
-      "packSha256": "daae8d449d33983820f5a161f21c9299b6cbf2c3d461c55e0faae692ea858156",
+      "packSha256": "f5f846c0dec2e074fd3e7e2f4a08b439847aa3591a36b863f5049bfe733e005c",
       "referenceSha256": {}
     },
     {
@@ -2442,7 +2442,7 @@
       "references": [],
       "pack": "packs/mk-279.md",
       "sourceSha256": "8d7e29e261bdde303cde2734ee3f932a3d2fe14edc34f116dea5e44dec7a58d8",
-      "packSha256": "1d86df2eb04292d62395a12438227a8e42a131966cda8237c305818002bc6ae5",
+      "packSha256": "32f50a4f9867fc5cf510a58c42df77b6bb30410f47567896845d05c56bfda833",
       "referenceSha256": {}
     },
     {
@@ -2453,7 +2453,7 @@
       "references": [],
       "pack": "packs/mk-280.md",
       "sourceSha256": "bb0269c93f15446d3bca8f72b6549233a0a65239f0be8c24233438e981b2fbfa",
-      "packSha256": "b75689acecdd59a3e8fc485fbd58444d25dd2516b7096df1b5ce21e3a120b199",
+      "packSha256": "f6c2ded84c7a2900d62d6e7e901853ace5c65c74918d60f4743cc2e235be546d",
       "referenceSha256": {}
     },
     {
@@ -2464,7 +2464,7 @@
       "references": [],
       "pack": "packs/mk-281.md",
       "sourceSha256": "0ad76c9e730adc8250e64a5ebf9a332c629111387cfbb2ddbf200cb7f26f96ff",
-      "packSha256": "f25a07bf6ee6460c3b8c772e37b2ef4c65d84caebc9b500f6b526f209dd0cea9",
+      "packSha256": "26ed74fea55e2872ada1813f749297c9b01c1584e24f6a3a83e0f7a76318113c",
       "referenceSha256": {}
     },
     {
@@ -2475,7 +2475,7 @@
       "references": [],
       "pack": "packs/mk-282.md",
       "sourceSha256": "4d4bf856163c653269d62c4efb49033c594de65ccdd9e62b45ae025e34429d66",
-      "packSha256": "d48b1bb7a81c8142a701f2b6424d3cda6c386f296654ea140b2a6b9d4828df54",
+      "packSha256": "6ffcdcf463e058fbf919a8f5cae7781204a204093a0262f939cd48890ab47002",
       "referenceSha256": {}
     },
     {
@@ -2486,7 +2486,7 @@
       "references": [],
       "pack": "packs/mk-283.md",
       "sourceSha256": "4f7f0f4d1d538b5b9968fd89d956d0c757dd1fc298d8045195ab42e22a41708c",
-      "packSha256": "a2063a5458e94d713178fdd0bd23dcd2df059a6bdbc2398f810d63e4b9be9586",
+      "packSha256": "1ad813adb69c0eef0aecfe13ecf3e6951e37bbd35ccbe545bc85bf6fe2eac6e7",
       "referenceSha256": {}
     },
     {
@@ -2497,7 +2497,7 @@
       "references": [],
       "pack": "packs/mk-284.md",
       "sourceSha256": "bdb735cf7af6cb809f280d54dabc4a4b885821c490c9e8fc73517b4acfab4f6a",
-      "packSha256": "54d27e7c235e56cc5890aac7c0e1c476bfd4608de0ea20b31f70ad06ad369542",
+      "packSha256": "370f4821c1d0ccff79ebd26b666a5bbefaf87ac0478e11ab374c03d1e78a0d47",
       "referenceSha256": {}
     },
     {
@@ -2508,7 +2508,7 @@
       "references": [],
       "pack": "packs/mk-285.md",
       "sourceSha256": "7a3b5262fe89ae288b5f3a4e8109162a48136d7c84f0e30a6d86ba3878b529d7",
-      "packSha256": "1696b459aa525ecce17aec5f6b038f0a32c0c16e8b51867833b0b846698a5f2e",
+      "packSha256": "b0efba3a8c9fa5e2dea4af40c7006d88ad1ee33f420ab1680f8cb57fa313801d",
       "referenceSha256": {}
     },
     {
@@ -2519,7 +2519,7 @@
       "references": [],
       "pack": "packs/mk-286.md",
       "sourceSha256": "cf403eed66173f735dad18034944f13dec57466ad8f52646446b3d34ac6e6f29",
-      "packSha256": "05539d35bf6ee630a412e74bc55ca46b661056f76be7a70f5b0c4a6ad496d975",
+      "packSha256": "746d740371eb85027d3b3b64961d1a01763122dd043b05d6e49e7692617dba1b",
       "referenceSha256": {}
     },
     {
@@ -2530,7 +2530,7 @@
       "references": [],
       "pack": "packs/mk-287.md",
       "sourceSha256": "5736bf4fd50a89379b60a1267eff0c71fcb026d2dabc8a30d1c503a1a416470f",
-      "packSha256": "6d6c9072a3714afab800dee0e9bbd993db2c36bed93bf9dc76e6c0dd1974e0c2",
+      "packSha256": "1eda6d381b0781ea0516b3e5adbefeafc6a594bf5233488838dbe82bed5db1ed",
       "referenceSha256": {}
     },
     {
@@ -2541,7 +2541,7 @@
       "references": [],
       "pack": "packs/mk-288.md",
       "sourceSha256": "7bcb57e5999bc7b0b09705f97a821b26b08354562c9be406ce0792a9c4ae7fb3",
-      "packSha256": "6914ccacaf8e008a605f9d17e34282506470b25a70f4c123baf475970a4af45d",
+      "packSha256": "9e7db49d77c9138cdd6f294626dd0042e87b9880850d2c1a04df61dc22d982d8",
       "referenceSha256": {}
     },
     {
@@ -2552,7 +2552,7 @@
       "references": [],
       "pack": "packs/mk-289.md",
       "sourceSha256": "3d2df4277398a1a139dbe4d024c60914c2087ddeb72839859249759596ddce63",
-      "packSha256": "74ef76535f2cb5d9c0f9ca5a811f7a69e68eec8365b2129c5dacdcf243b7002b",
+      "packSha256": "e4a7bea40d78d5add3228b21dfbf8f40f5cfe36f1681b93590d83064fee194fc",
       "referenceSha256": {}
     },
     {
@@ -2563,7 +2563,7 @@
       "references": [],
       "pack": "packs/mk-290.md",
       "sourceSha256": "bc9cd13cbb6eecd86e3ce57c2e3502e312cbdfaaae8a68120c8adeca47e8b37b",
-      "packSha256": "2377e3319dc716c62b5ab9b06b342f334bb6b45d0fc1a13b58568fbeffbb4f78",
+      "packSha256": "7fbd88cfe96e74e29030849a7a24b409d4900dbe9d9238594f71e1500e8374ab",
       "referenceSha256": {}
     },
     {
@@ -2574,7 +2574,7 @@
       "references": [],
       "pack": "packs/mk-291.md",
       "sourceSha256": "cdcd44711b2663e550e9194c904960166b27e05b5315e8a687e5d627c6ef2d4d",
-      "packSha256": "e799c4a8a18db2de714a8df41b23ae48038b22c67bff037ea8a828bee11c9fbe",
+      "packSha256": "cb513a287f03d2c6f5d6444cdc0b6bb313c48997aab6d7c382972af8f829d020",
       "referenceSha256": {}
     },
     {
@@ -2585,7 +2585,7 @@
       "references": [],
       "pack": "packs/mk-292.md",
       "sourceSha256": "de03761daf5681d3cc54915c2638a1ee9b46c2fe801c7b5f2145ca58a4372ace",
-      "packSha256": "08f7be9781afce75d053c89da80e603785fee78939d0194a33cc0330c104f135",
+      "packSha256": "fa232be47e3485eb8b32d50019d3ac048b0399d72702e7c9fa1c2dd47e3c4c4a",
       "referenceSha256": {}
     },
     {
@@ -2596,7 +2596,7 @@
       "references": [],
       "pack": "packs/mk-308.md",
       "sourceSha256": "b94431a282b8089dd1e70f9a3ed40f3d3064fbf3fe045bc2e84faaec0cb47be1",
-      "packSha256": "b577184ca79773b3039b937ef426284befdbb10f58d0733b534ed0e1e364325e",
+      "packSha256": "da435bd2cb583df4a9b65899406b25a18fcbbe246bbf6203c8f8807a35640928",
       "referenceSha256": {}
     },
     {
@@ -2607,7 +2607,7 @@
       "references": [],
       "pack": "packs/mk-309.md",
       "sourceSha256": "95643f8aa6cb32509a657c98b78b3b74841f9bb84fd12291ac0a8d68fef42c75",
-      "packSha256": "a12c86bac6fe2896ef5057f15bff2619a154ed89f7e3d57469aeb54ebd8b31e7",
+      "packSha256": "717d26bdca5fab2c8851941ac2bf56053acad7e8afa7da8326a1f08d90e0e91a",
       "referenceSha256": {}
     },
     {
@@ -2618,7 +2618,7 @@
       "references": [],
       "pack": "packs/mk-310.md",
       "sourceSha256": "2b7e8aa1ecceead3f2298e1663bfbbfd677d1b877fe3737c02792c2574a8a65a",
-      "packSha256": "885c78e22a4f8261e6153b27946b210ffda2ac3ebdf8c4cde14dc2ae669cab0f",
+      "packSha256": "bee13742d2439718e1032e62598283518938ffe7dea7724084b6b1deca4dd738",
       "referenceSha256": {}
     },
     {
@@ -2629,7 +2629,7 @@
       "references": [],
       "pack": "packs/mk-311.md",
       "sourceSha256": "40b89564c4e0ff3e19053166b37fc2d21be51196bf4fd2512fa22c29fa833c2a",
-      "packSha256": "056b1b815714fd40cb33c391d325c1bcf80d9891e99454908dffbc6c7ed8223f",
+      "packSha256": "75fe6adf0e05bb6933567f1de658a65a333239be673e3c36b0d9395b81398ef0",
       "referenceSha256": {}
     },
     {
@@ -2640,7 +2640,7 @@
       "references": [],
       "pack": "packs/mk-312.md",
       "sourceSha256": "273d46d5dd4a2092a9e94773bcadb687f384eadac21fd0e76a742bf84d6f8b79",
-      "packSha256": "1dba88bcf9b9dab71248cb8b27f6e0ded31b401bb219a0a21c1de7e1b8740531",
+      "packSha256": "914eb5ad73a12e91bf985730245167fcd57a5673f299f567bf8019243c3755ca",
       "referenceSha256": {}
     },
     {
@@ -2651,7 +2651,7 @@
       "references": [],
       "pack": "packs/mk-313.md",
       "sourceSha256": "af109f534ba9a3aafdb9ef0593601bb58607cd4c0b133dae7fab44a62587ec9c",
-      "packSha256": "2bf88c5dbeaafb19eba0a5d3d4ee4b84f39c60d13252f10501e76dcccc061b13",
+      "packSha256": "237eb58c59e1e416c9487d0a6f4f6e764e3948d95c0d7ba2f6a5c064662161a8",
       "referenceSha256": {}
     },
     {
@@ -2662,7 +2662,7 @@
       "references": [],
       "pack": "packs/mk-314.md",
       "sourceSha256": "bfccfabc5c330b793859f84328fbf362c5ba3b72b252f6911df212d5b0f7d59f",
-      "packSha256": "f14fdd9d55dbd63b16cb7273a01f9ae3b6b2130be8c589dd0c7857e621ff8334",
+      "packSha256": "6fd30a29ec4dcfe85b9e01674c33d98d83877f1d7e447af5cdeaa5782be68f6f",
       "referenceSha256": {}
     },
     {
@@ -2673,7 +2673,7 @@
       "references": [],
       "pack": "packs/mk-315.md",
       "sourceSha256": "01823f44c6854677af3c75a139c26d5498f4b260986e11fb00c582c06c6e670b",
-      "packSha256": "2a81ae56884888c55ec92447efc476b13118b37680dd13d4720f91eb78d30fa4",
+      "packSha256": "363ec26f5287d931965b014e3a0aea2b5bc5b62b1ae83ee5a6e9e6ace94130c6",
       "referenceSha256": {}
     },
     {
@@ -2684,7 +2684,7 @@
       "references": [],
       "pack": "packs/mk-316.md",
       "sourceSha256": "36fec44056001ef04c51684a5d96d3f11b8d731bf13a0c9ea16e6e9a43407e77",
-      "packSha256": "e3708de937c4ca4bdfd1f12a60075594a7d953cf7eb0c4c986398f489233613a",
+      "packSha256": "4dbaaf0aad3e3123759c595cb4300b8553e04956698e489134d90887d27b2a04",
       "referenceSha256": {}
     },
     {
@@ -2695,7 +2695,7 @@
       "references": [],
       "pack": "packs/mk-317.md",
       "sourceSha256": "81af7114743cfc34536f12bacac4b024f25dcf6d7a55ada6bb3d38394f49b0fe",
-      "packSha256": "f778a74ea4fd64fe0f122caae10d2eb86cc9f9fea3fb2329b2e08884cdf4d572",
+      "packSha256": "ed7ca23b94571ee30312e8fd95d0d0a6e6a25bf38aa99378b703deb7d11173a4",
       "referenceSha256": {}
     },
     {
@@ -2706,7 +2706,7 @@
       "references": [],
       "pack": "packs/mk-318.md",
       "sourceSha256": "afec459ba09cf156ee4e2543006db51a5396b2cc1c224af0e6010f9d22333477",
-      "packSha256": "852b0cb1e7aaf36fcd97bb9635040c2e068c1a4b48f70fae224dc5008a8c3ee8",
+      "packSha256": "79e167cbad781d43bb835363868b3d56775626773a9888a5e1c167aa2af23be5",
       "referenceSha256": {}
     },
     {
@@ -2717,7 +2717,7 @@
       "references": [],
       "pack": "packs/mk-319.md",
       "sourceSha256": "275c3fdb0c22a1b8204aa4aad4ae681abf7373e679f6009c8c7ff6e37c627402",
-      "packSha256": "8532bbd63cd5a042b0f32f727adcdcb230e2096f87fde4ca1799c2409058c647",
+      "packSha256": "791b935c5229711269d8ea45cce6334048031c5c32a6c66eb1abb7499a571a7d",
       "referenceSha256": {}
     },
     {
@@ -2728,7 +2728,7 @@
       "references": [],
       "pack": "packs/mk-320.md",
       "sourceSha256": "8e63383efcea878aac8b21af5ae8f1131b8ae5c85332bb3a611f1e7900555b10",
-      "packSha256": "d56f696eb165be9e6e8a880ee0bb355715f9e692df1d0c0cb85ad5dd30f07973",
+      "packSha256": "9b7d497b373f210b3a180b28ec9f56ac78bd9e28a1d59c0d49074346520938c9",
       "referenceSha256": {}
     },
     {
@@ -2739,7 +2739,7 @@
       "references": [],
       "pack": "packs/mk-321.md",
       "sourceSha256": "fdda49f2286e867e3cfe29b3ce32002c0c7ff9766ebb55eb06828c6dabf65fb3",
-      "packSha256": "72e9202b512f85753b4273b32c388dd1bb1ab308ed3c3b4c9bbecd092ca54027",
+      "packSha256": "43c9d19098817088650da694ff8edb411088aede6a922a9809e21f7b6da38079",
       "referenceSha256": {}
     },
     {
@@ -2750,7 +2750,7 @@
       "references": [],
       "pack": "packs/mk-322.md",
       "sourceSha256": "86368f689f1eb5d60a03db913c4ff8ed75af33c947bed5be04e78d2c9978d3f5",
-      "packSha256": "35fb1b3f0b6a1807f6fe3db5bd3c66b6af0c727a7b5fe54cdaeab563e1e9a6de",
+      "packSha256": "25a685fc56d2709b2633febfadecd90ca5bbb7c9e2e4ff6759d3896c9479c0c0",
       "referenceSha256": {}
     },
     {
@@ -2761,7 +2761,7 @@
       "references": [],
       "pack": "packs/mk-324.md",
       "sourceSha256": "97b568e9285f8f8f8637d63739695765517d7f239761cfaa18a9bbc1c467c6ae",
-      "packSha256": "01ac1b9b289d2fb08f79dde47eef848e5f9ecb9d95bed14ad41205e4399a106a",
+      "packSha256": "4133e5db43710c6818c0cebfb5985fd0b97e1d22336d7217b4f97699f4ce431d",
       "referenceSha256": {}
     },
     {
@@ -2772,7 +2772,7 @@
       "references": [],
       "pack": "packs/mk-325.md",
       "sourceSha256": "1b4c920f0f544ef64c5e8106a0c53ad261fe33f2b8f336a3f8d6dec5cbd38930",
-      "packSha256": "caf5d9610bae2b4fb2cb34c523720a771da6e559c5d78556074074c6544c671e",
+      "packSha256": "87e3b17b7d0cdb4eb5649a121c0a5c490474672b264f71d6b0b902a0464bc560",
       "referenceSha256": {}
     },
     {
@@ -2783,7 +2783,7 @@
       "references": [],
       "pack": "packs/mk-326.md",
       "sourceSha256": "922c9699659676bdf84b343f82e7bc35d50d3c3a67c8ef5824b77f0a64170e9e",
-      "packSha256": "94e980ffc019d82da03c8b9865f5892f1f4512470dd2be9d294dcbc69c061da5",
+      "packSha256": "656404e87a294238fd0c451c8f1a8f9f15117028950b0ed5e17e0de3379486d6",
       "referenceSha256": {}
     },
     {
@@ -2794,7 +2794,7 @@
       "references": [],
       "pack": "packs/mk-327.md",
       "sourceSha256": "52cc6b42e45fec7bafd565bce2a659aef7ed3d12c2a90998b631f974d85ba7f5",
-      "packSha256": "79213a680eec8e020ae400d04733e266dc7ff513eea3abefadfe7dcf4bbc7937",
+      "packSha256": "4ceba5d98689679f0fd5bbebeacd0f66f0d3310c83265d36034d74d28589bb81",
       "referenceSha256": {}
     },
     {
@@ -2805,7 +2805,7 @@
       "references": [],
       "pack": "packs/mk-328.md",
       "sourceSha256": "8f29ae283f5b2e978960814e0c9bd44c8750cc735d025a77e008b20759327e50",
-      "packSha256": "e9622d1124cc86214cc9c661925382796000f7999a32df9c05844de91836601c",
+      "packSha256": "7d81f60a1f3a74914b9106eee38c8de15a590d2f236bfcf9fcc98147a78cbcb8",
       "referenceSha256": {}
     },
     {
@@ -2816,7 +2816,7 @@
       "references": [],
       "pack": "packs/mk-329.md",
       "sourceSha256": "768f3fca719ce8618af0631636524c0f1655f1aa5efd917103e0eb7c77cfb8f2",
-      "packSha256": "f80a360049067d39c390fae7e92c843468d9221830c2d83efa6d570e4db60cfc",
+      "packSha256": "5f8ee1d82da893977108cc7dbd0a1770a415bb00cbe60f2a3985be018b663a49",
       "referenceSha256": {}
     },
     {
@@ -2827,7 +2827,7 @@
       "references": [],
       "pack": "packs/mk-330.md",
       "sourceSha256": "aa786a3b61d8504f82922719e495263c56879aa8982a89109bbb8847f18e0093",
-      "packSha256": "396ef5fb3e684d92c2086c31c4d2f4add298b86f3a25b6bb586096fc1c2298c2",
+      "packSha256": "93c42db0d61392cea5d7351d494640511616327ea43470fc9fe8b2f6c9defb42",
       "referenceSha256": {}
     },
     {
@@ -2838,7 +2838,7 @@
       "references": [],
       "pack": "packs/mk-331.md",
       "sourceSha256": "d5a5a6e358dab48848c856a1bb719bcfb16781cd74440cf30da10e177b181bf0",
-      "packSha256": "512da2aa2de00cb4932e360a6c0ab01361d0e2ad832a52cb9e8a5724b5acd261",
+      "packSha256": "b8c233977cf8b44d6e5877c6ce18818c0510b04f24e6e87a3e5326f82919304b",
       "referenceSha256": {}
     },
     {
@@ -2849,7 +2849,7 @@
       "references": [],
       "pack": "packs/mk-332.md",
       "sourceSha256": "86e39bd78e7b5b7860ceb7615739f3d395220e3a988fb82925daf384062ba6fc",
-      "packSha256": "712228eeec0b2071bdc1fada0577df5bf9fb2195a0ee71fe605e67021dc85ee2",
+      "packSha256": "fd390387343a575b9b98096ebe892f84f38bc855bf86cb59ae01490c2696c75d",
       "referenceSha256": {}
     },
     {
@@ -2860,7 +2860,7 @@
       "references": [],
       "pack": "packs/mk-333.md",
       "sourceSha256": "396b6aea5be1dd4428cc777bdff7c1f1fd104089e515a78c54643f87b58601ca",
-      "packSha256": "2e2c3d7593b1ca4dcb60678df75ec25cf78cc031c7e6cf1d91a38dd010865adf",
+      "packSha256": "ac794fd8ce6d508446d99bbfc9a70654f539a5af04ccc271f23b62822c51815e",
       "referenceSha256": {}
     },
     {
@@ -2871,7 +2871,7 @@
       "references": [],
       "pack": "packs/mk-334.md",
       "sourceSha256": "0ae29fd1d23e3fc7375d33e92d5619d7d198c6809a312d68f1550f903839ccdd",
-      "packSha256": "0d733b9173854854ec34633ecae35b4ea52a936600a12cc5db8be598f9d9a9cd",
+      "packSha256": "b4709e254ee5d5efddbb409dc69bd8e54d7f769d3b0f8d29d822668214199ae2",
       "referenceSha256": {}
     },
     {
@@ -2882,7 +2882,7 @@
       "references": [],
       "pack": "packs/mk-335.md",
       "sourceSha256": "db11e315088a21bb14e53f0bcf555671bcf55da205e0346b116d4ebe1eadc07a",
-      "packSha256": "7a03067deb975a3c774426ebd711e9094dbf92017f1e8e0476806ee3682d7295",
+      "packSha256": "9cd6b21a01fa30810a5bc7fa193010874bddef00c86cdd42a6c2b884993a44e8",
       "referenceSha256": {}
     },
     {
@@ -2893,7 +2893,7 @@
       "references": [],
       "pack": "packs/mk-336.md",
       "sourceSha256": "96dfc2859f136ae88ae5e7163ccac6b52cd130c1ef62a02cb497165b5a1af830",
-      "packSha256": "6ede8c2dcdcf12b576293fc79ef6c9735e9835798899e850c2102f8bf0997b85",
+      "packSha256": "56173e524e9a399c2e0c4931d1bfa96ce1de8ea414fc6740d81e47f21a47d018",
       "referenceSha256": {}
     },
     {
@@ -2904,7 +2904,7 @@
       "references": [],
       "pack": "packs/mk-337.md",
       "sourceSha256": "4cdcec7e2ee04ee0676325238ba6317a94346f7f7580a2562b74115aadad1573",
-      "packSha256": "5cd6117d99018700340911aeff5602960d306a429e58d203c6c1bcd322a3bc74",
+      "packSha256": "0120366eae495b52dede5723b2c17b9635a514e1809c42d0825cdd6b2dfdcda2",
       "referenceSha256": {}
     },
     {
@@ -2915,7 +2915,7 @@
       "references": [],
       "pack": "packs/mk-338.md",
       "sourceSha256": "f5181de3e0e978bb5d294f63e71b89223236cc62d57cfb403b9c2e8003ec3d3a",
-      "packSha256": "0474366d3c9e90fd903b8422293641bb32e9bb06a9241d664d40bfde6f207a12",
+      "packSha256": "950903dee6ad4894e761162fcc59cc88c5f9e19c35d0b221d766e66cf9fa2f3f",
       "referenceSha256": {}
     },
     {
@@ -2926,7 +2926,7 @@
       "references": [],
       "pack": "packs/mk-339.md",
       "sourceSha256": "846aaf70ae3e684d05c0f157f0a9ee3e24eb9d7a898664a89216927069213902",
-      "packSha256": "2436e04f72a2698ee0d96c288349bec3f6800cfa26ca3a1d4f527836aca7e141",
+      "packSha256": "f514fb3227a0aca2f4daa6ba8769ba5bd420647db5bc83fe7f06b252956e0076",
       "referenceSha256": {}
     },
     {
@@ -2937,7 +2937,7 @@
       "references": [],
       "pack": "packs/mk-340.md",
       "sourceSha256": "5577be481f6bf2e19855dbd6d5d30cd7c537dab1ceecd02b570bf49c7115b85b",
-      "packSha256": "16401a5a83bf0cdecd562d9800ecdc1daa5009eb5e0c4b94ab4f6e7ace1fc065",
+      "packSha256": "c8c27a136b4ad93d556d259b4b9c63fd1adddb5415e698f314571188167f0b91",
       "referenceSha256": {}
     },
     {
@@ -2948,7 +2948,7 @@
       "references": [],
       "pack": "packs/mk-341.md",
       "sourceSha256": "c8a57a244954cc0b75499e1f799224e92359933991f63b70e966566f6379cccb",
-      "packSha256": "2816a351a3342411dbda76f6d74c1cae4dfb0e5f701cd82383f9ba3cee4d9c7b",
+      "packSha256": "f7ab607c69573fce22bfa69280331b61a4ea055b166abe10c5abe2b96c8d40ee",
       "referenceSha256": {}
     },
     {
@@ -2959,7 +2959,7 @@
       "references": [],
       "pack": "packs/mk-342.md",
       "sourceSha256": "9bf0d4e0532b6369db8b593488bf703a987935ea7487ae912da593c7e6ed878f",
-      "packSha256": "298d2247debcc995492e43158c152ae7159ab651184483b9eb7993f6426cdf9c",
+      "packSha256": "0d7a42c27f3d98a6d82f2b9c34bb1c441635a86296b6e8dede3e6d342af75d39",
       "referenceSha256": {}
     },
     {
@@ -2970,7 +2970,7 @@
       "references": [],
       "pack": "packs/mk-343.md",
       "sourceSha256": "153e7f9baf1f4eaed45659149d8c78447d686b9f3d027bf3af3c09ed870f889b",
-      "packSha256": "ef56fc8053efeaad3413e60a9d2bd50fc586d2cedd4005311362aaa054882dde",
+      "packSha256": "16674e0a12210d2f86d716d860379dba9806cbacb35d61d3a347da0105c167f9",
       "referenceSha256": {}
     },
     {
@@ -2981,7 +2981,7 @@
       "references": [],
       "pack": "packs/mk-344.md",
       "sourceSha256": "dcfc29007ffdeb7cc92ff04c768be3470859dac83bd538246bd7f501d0065e64",
-      "packSha256": "7333283eec0baf33a894e917579c70b0875a5ab1efa709ae244f7e10c1cab191",
+      "packSha256": "a355c13ab462257596c7dceaf52077d6e0f43238415d6bb365ab7becff1ef6cf",
       "referenceSha256": {}
     },
     {
@@ -2992,7 +2992,7 @@
       "references": [],
       "pack": "packs/mk-345.md",
       "sourceSha256": "77ce092426e35bfa00ff5f41ccc44ea6f6094901815122bdd3e1e2b7d065bab2",
-      "packSha256": "7feda1e941774da888b99710f0f1e3be972798872e183de21872d6bb3bfbf139",
+      "packSha256": "58fd11edcdc264e167bf56ad5e5cb6ecbc492633ab05ca440e65eb4583baa097",
       "referenceSha256": {}
     },
     {
@@ -3003,7 +3003,7 @@
       "references": [],
       "pack": "packs/mk-346.md",
       "sourceSha256": "80987e8782d9584acd0c88c8aa9339f0d1c6892d4adfc972429ad4f5bd3ee2db",
-      "packSha256": "66ab0f923ec2ce7a4c1abfdba55197f77cb071afd25df74db3230968d445f7ce",
+      "packSha256": "37854afe738c9bce2a26c96d0fd72aaec2a55d9fd730dbafb151163a22556a4e",
       "referenceSha256": {}
     },
     {
@@ -3014,7 +3014,7 @@
       "references": [],
       "pack": "packs/mk-347.md",
       "sourceSha256": "efe59883acf26fd44ba197c0daced5c725fa651bf7ecaa04ca337ddc8503f75d",
-      "packSha256": "f18e4323bf9ae010f39e2bf6625b7ad6a860a6f3607b75eace15ec747e15d54d",
+      "packSha256": "458eb8da85bf1f1f688e92721bb4b5afbce45e5d92c788b1b6ce6ad49cafd8d9",
       "referenceSha256": {}
     },
     {
@@ -3025,7 +3025,7 @@
       "references": [],
       "pack": "packs/mk-348.md",
       "sourceSha256": "14607ff5df1a6243576b1bb68abd556111160ff0883d237fe9582733d20e95ba",
-      "packSha256": "1f2c63ebf8a90d46c0e878537efaaac0a05772f9c4743b0055b4596d729883a9",
+      "packSha256": "f599cbe3a99337e9a0e53031ccdce0e6fa95e249a6bbd605cd5ad45a1980c5fe",
       "referenceSha256": {}
     },
     {
@@ -3036,7 +3036,7 @@
       "references": [],
       "pack": "packs/mk-349.md",
       "sourceSha256": "adb7fc2a5dea5361102132eb57e263c591916c0e64a0ef51556a1035b4a5f563",
-      "packSha256": "465cad02b6fb60a964fd033512e47d56af9e6f60a38903f9404e89ef4f287cdf",
+      "packSha256": "4ef943a5c76fff0e290c5078597d86356003db469b1ff625b8b62e2afe67de25",
       "referenceSha256": {}
     },
     {
@@ -3047,7 +3047,7 @@
       "references": [],
       "pack": "packs/mk-350.md",
       "sourceSha256": "d4f4cf5084ea20ceadd3b01abd70cd5568681dfa7ad7724e41ca02b1aba42232",
-      "packSha256": "1cc8150c5bcef1bfcb3b523c7357e3ce326144fd13c2a4cec0040706284d5101",
+      "packSha256": "b9407ff678acab159591057ed9aed910bd8d5dd7317db47f0e213c14f8cb884e",
       "referenceSha256": {}
     },
     {
@@ -3058,7 +3058,7 @@
       "references": [],
       "pack": "packs/mk-351.md",
       "sourceSha256": "abcf5a5163b3f06b64e33fd34384ac485e1542a2ba817e224f6859e5ba620cb7",
-      "packSha256": "39fac0b14dd04898361dcbc0aa10452a321a0f6f239e6c0fa79063db7c7b5380",
+      "packSha256": "ce4b2056e2a926d9181f7411b0f92bea74c62ac37096e3f04e5547008a1d8b2c",
       "referenceSha256": {}
     },
     {
@@ -3068,8 +3068,8 @@
       "source": "skills/mk-352/SKILL.md",
       "references": [],
       "pack": "packs/mk-352.md",
-      "sourceSha256": "dd41bd099f1c4f70dec2a7c466c7bf7bc62b440d55458e81baa9a6da90bf3d37",
-      "packSha256": "ae1904f1b5f0a1861f66460443bb590b2cedfa12f9eee3b9e621883cb94446c1",
+      "sourceSha256": "3e12da4b0b96c49cf2166a7482c0a7622a6229fe6582ee9ae1027be2ba666a47",
+      "packSha256": "d26cc8bb9cddfd4cf7ed46e46c77ef9149c522dbcb0e52fc8cb570680674bb08",
       "referenceSha256": {}
     },
     {
@@ -3080,7 +3080,7 @@
       "references": [],
       "pack": "packs/mk-353.md",
       "sourceSha256": "fa5144e0c19257d9cb6976747a935c6ce82b6693c9372938905a88066ee34eaf",
-      "packSha256": "5678e86ded53ae15d6f579b6ce552cbb0f9e9b370c539d33d5563a3eb2e9f814",
+      "packSha256": "6a112006f11f04f5aea62c5b9172b4c3d8a671fce2550ac5e7e9b7ab4d0c4d11",
       "referenceSha256": {}
     },
     {
@@ -3090,8 +3090,8 @@
       "source": "skills/mk-354/SKILL.md",
       "references": [],
       "pack": "packs/mk-354.md",
-      "sourceSha256": "cd054bbaa23498fa547c8e6b952dc63926efa35b92d123f97cf9224f8665a929",
-      "packSha256": "285d20375f64352976e12c09aabc8a68c841b50a51dd470a0cb82d9dae871c6e",
+      "sourceSha256": "7817c6e8ebde055b1d7220233224c88c287cff6784975ae0a1a3b64b7781fa06",
+      "packSha256": "ace169c3d8b2ddf4968da08c4bc83e4003fb8663f0a9b9eb660ea0a160a26a9a",
       "referenceSha256": {}
     },
     {
@@ -3102,7 +3102,7 @@
       "references": [],
       "pack": "packs/mk-355.md",
       "sourceSha256": "02bc98da55a7f05418fbb7a955528aeb6a6d0cf13d78f40f4498b11ec8dfa626",
-      "packSha256": "55fd70bc73271627c7c62a663b68613670d2deee858fce67cb1a6154c5bc38de",
+      "packSha256": "f1f21d9e2f10aec67f157ec06a24546ba1a98195b05d49046c8839ffbcb1b78f",
       "referenceSha256": {}
     },
     {
@@ -3113,7 +3113,7 @@
       "references": [],
       "pack": "packs/mk-356.md",
       "sourceSha256": "003e45a495bbf09debf86268450cef72a138a5784c3fc2e19bd7852f54ec2dac",
-      "packSha256": "364512f166c6b8ae45df49277e37cca2df1c736cb3da2690410b7e3c1973d652",
+      "packSha256": "e0c8a53e61264cee0b42dc879be9eef0910130e8d6742f0a66e7284ad5a43df3",
       "referenceSha256": {}
     },
     {
@@ -3124,7 +3124,7 @@
       "references": [],
       "pack": "packs/mk-357.md",
       "sourceSha256": "e8a5f53de9504a4c6329dc976ab2afcd06278d313a24c892b26da98a88a54ca2",
-      "packSha256": "abd235246480f2b4f8d81e642272b8b44829dfcaf117f9dd0ca8ffbc9f64302f",
+      "packSha256": "56b61e93cdb10196818dbe4862043c640059dd88c6fa0ce81b52eacf07da0a1b",
       "referenceSha256": {}
     },
     {
@@ -3135,7 +3135,7 @@
       "references": [],
       "pack": "packs/mk-358.md",
       "sourceSha256": "8aad997ea8e9549e024d0a2706a5ba998771d7951f16761d1f81f267807e3160",
-      "packSha256": "a5cf476fb6d52406f89da4e65c16b146ac9cd870d73eaccb644ea33368cc97e1",
+      "packSha256": "908c4420d716b5e55bc5a2eb0ce1f2e291397bad20965e53a68b1300bb1eb800",
       "referenceSha256": {}
     },
     {
@@ -3146,7 +3146,7 @@
       "references": [],
       "pack": "packs/mk-359.md",
       "sourceSha256": "0d307bd224794187653fa071c76a35f17ed419b443b889ca70eb9b687ee58694",
-      "packSha256": "d1bd7abbec5846b61a62a6f2e93a41a40a9566c03c78bff21c4ee7edee574d13",
+      "packSha256": "2ff5b1bbcd5c84fedab78dc64a11857279fa5ea4bfb58cc58363986bf7196794",
       "referenceSha256": {}
     },
     {
@@ -3156,8 +3156,8 @@
       "source": "skills/mk-360/SKILL.md",
       "references": [],
       "pack": "packs/mk-360.md",
-      "sourceSha256": "9672d5a9c7bbac04355cc9280179f9c526ea0dfdfa33761be8c32e994705a8be",
-      "packSha256": "ea5004fba5792d0fb378a387bf3f12cd6efa1033d8a318836df2d7d5db032cdc",
+      "sourceSha256": "8c014fd6b4cecfa2a694afe2deaf57ea0307fb9b84af68e836e3a72036e48940",
+      "packSha256": "ce58af6409863ab35649d31dd2db050e74932f31ee10c2d5482293da60069c24",
       "referenceSha256": {}
     },
     {
@@ -3168,7 +3168,7 @@
       "references": [],
       "pack": "packs/mk-361.md",
       "sourceSha256": "c58e964fa8d173d4959f0cb29a631fba74de71394c2f62be711ad237731ac5b5",
-      "packSha256": "f92eef43438f77694f5c09102149e4add61ce05eb29176106c018cc76e562386",
+      "packSha256": "2a86de6d96dc6cd92aeca4103ffd1dcccf3a7f108021c3ea066b8402d7a49e9e",
       "referenceSha256": {}
     },
     {
@@ -3178,8 +3178,8 @@
       "source": "skills/mk-362/SKILL.md",
       "references": [],
       "pack": "packs/mk-362.md",
-      "sourceSha256": "ba7f1e2a52a59f3df5157bc0a57e158c43321864f963d16ca05467b79a00c4bd",
-      "packSha256": "a02cb8dc5401301db5e5f2c0f83461af659fb8b601379592f8ff50a1e0e89739",
+      "sourceSha256": "d03a98dc1d46852b7c6348639159881bbe162062cc518607c935b5436aae826a",
+      "packSha256": "eb9cdd9928f55812c83a32308696d9a965f6e9b1ebffcd189c518cf42f8fb041",
       "referenceSha256": {}
     },
     {
@@ -3189,8 +3189,8 @@
       "source": "skills/mk-363/SKILL.md",
       "references": [],
       "pack": "packs/mk-363.md",
-      "sourceSha256": "a9041ee4d982cf5bb4c859355f80a4cd1bbddab024303bf18038f97aa10236ba",
-      "packSha256": "46416b051479178ae5e73d1a9703b86e811bf72a0692c16ba49ac24aecaf05b4",
+      "sourceSha256": "d6492c9f57a2294b99d1152b744939986d4f944e5695e93ac8d95325253a1e3a",
+      "packSha256": "4d4dd4ecd44d4f9099b4aad4efc5c4442d4aa70040c1c6b51861aa6fae09315b",
       "referenceSha256": {}
     },
     {
@@ -3201,7 +3201,7 @@
       "references": [],
       "pack": "packs/mk-364.md",
       "sourceSha256": "f64f154667d38ea8ae96128fb7a23e9ebf735c0d86bb32d793cf6a056634b71f",
-      "packSha256": "b786f8df156e07aa15594bb590a5204085dcb6e6bb52e427dcb78f136c0027c1",
+      "packSha256": "07c922245d5ebbe15c79b669254fc9dbe27e736b5bbf41b2d18ed4cb0c1f06b4",
       "referenceSha256": {}
     },
     {
@@ -3212,7 +3212,7 @@
       "references": [],
       "pack": "packs/mk-365.md",
       "sourceSha256": "4492c7ba4b486855c8ab17fe2274373683094e269360e07fed8bcf35ba1fa3d4",
-      "packSha256": "fa198d3d02934d0946f08ebf542294470b722e43edc0ec3442f1f43ed7c84d45",
+      "packSha256": "fb57323bc27358c77caa48f3f8e9dbed143c816f74406acc82059fadeff4839c",
       "referenceSha256": {}
     },
     {
@@ -3223,7 +3223,7 @@
       "references": [],
       "pack": "packs/mk-372.md",
       "sourceSha256": "74e3a956d217cd77784cddfbd2a0f1efc5c80b32b9cc973598604a89557c0167",
-      "packSha256": "2474de2693890b7e889f1f21c441be54e6a4a975809fea858f901b273ce1edd1",
+      "packSha256": "1909643bd4d1c20bc01efa5e6d6ea3bb5443f360979bb3144a6fa8db51715283",
       "referenceSha256": {}
     },
     {
@@ -3234,7 +3234,7 @@
       "references": [],
       "pack": "packs/mk-373.md",
       "sourceSha256": "05bc49f94cee1183168b6ccadabb1f71c795441c8366cb888d282e5c7c5d0b53",
-      "packSha256": "ba64eac987934c94ee8ce2ae7e7901b29a01fa814292c43a6396aac7acc58b5a",
+      "packSha256": "efde43c8127730a3fdc2cba878fe2fbdf250083dca444d46eba52b6a64adf99e",
       "referenceSha256": {}
     },
     {
@@ -3245,7 +3245,7 @@
       "references": [],
       "pack": "packs/mk-374.md",
       "sourceSha256": "321953474e8f9f1fe9cc1f5ae98a825e27f46f3978e330ea12e1d12b74c3cdf2",
-      "packSha256": "9da204427b2c2b4ce407503c01cfc2a88405900d147bed6f30e202ff8a0e50f6",
+      "packSha256": "7d0281bc908c29fe98efde1ed765ddf8392f7b86e3d764b8fa295c002eda69b9",
       "referenceSha256": {}
     },
     {
@@ -3256,7 +3256,7 @@
       "references": [],
       "pack": "packs/mk-375.md",
       "sourceSha256": "193a837e46e6df4fb8558c624eabdf0f030214d2126d84b37253dbfd914f0b51",
-      "packSha256": "4e7f8041c468dec3b59eefcc61041b027a79efbe2073d8323ea1fb87e170a58f",
+      "packSha256": "2061f2035b09f16c0323ff47784c6f5ad2d678a415bcb8d13492ac1cee28fe01",
       "referenceSha256": {}
     },
     {
@@ -3267,7 +3267,7 @@
       "references": [],
       "pack": "packs/mk-376.md",
       "sourceSha256": "31c6655817bfd7846f34b42b92785aac812223df2b1355ce1d534c85e8af80df",
-      "packSha256": "e616c494fd69f41a581363ca687426a7d8b350940317ee2526c5a8e164e9bf77",
+      "packSha256": "9ba44cbc941987b006782b2f069ec5f7870c1447892d6df381c7bcff1b14b3e0",
       "referenceSha256": {}
     },
     {
@@ -3278,7 +3278,7 @@
       "references": [],
       "pack": "packs/mk-377.md",
       "sourceSha256": "67ea7022241b90192ec7ba7774fc8ffc0dd645dc28b58377384168012204cd26",
-      "packSha256": "f2013fdd149a15e337c49357b5000f46830d74ec8b7ef322558415f66dc9578c",
+      "packSha256": "d382671bfa8b7b12e8fdbf501a53c1dfd5bbff168ce6a451287ed1cd269e9107",
       "referenceSha256": {}
     },
     {
@@ -3288,8 +3288,8 @@
       "source": "skills/mk-378/SKILL.md",
       "references": [],
       "pack": "packs/mk-378.md",
-      "sourceSha256": "cd97756ba74b557afc450c8796a1abe536e8693b1dc56be824a2e7f649826e53",
-      "packSha256": "f0ee6c23ea5910691db459949575cc7b9a112ffc2bd501dae0f2bc72bf669087",
+      "sourceSha256": "f364be0146866be84886b4770a73000f472cdeb16cdddfad02520a792385d913",
+      "packSha256": "1eb3e2e1cf7e72a6503bae8a6a4dab4c5673e2f5dffb40ec796a6483bbaf8d22",
       "referenceSha256": {}
     },
     {
@@ -3300,7 +3300,7 @@
       "references": [],
       "pack": "packs/mk-379.md",
       "sourceSha256": "ded501ca46f14862c8d8caf593de7bbc07ba6c312ce65a2c97e5e09b94ceca78",
-      "packSha256": "ec7c8b70d73adf88e74e11ee2aa5fd6622ef9dd3553cc7a5af3b458b47a8b2b8",
+      "packSha256": "3d7500458c12f18d6fe329c618616907d41c8258375262e13d9f357cde8a261b",
       "referenceSha256": {}
     },
     {
@@ -3311,7 +3311,7 @@
       "references": [],
       "pack": "packs/mk-380.md",
       "sourceSha256": "5dd9ee64f9476dc7d61b7abc772b42f135777d6df203b2df84041841089b4028",
-      "packSha256": "800460f70b51aaa81d0fae9bebd46a8fa856ac7f2b0174a13b2d5c8d153ef218",
+      "packSha256": "406b9b3ab7a6694a0e76724fb2a54ef8632d95f6c3f504c0030f3de9cdabcde9",
       "referenceSha256": {}
     },
     {
@@ -3322,7 +3322,7 @@
       "references": [],
       "pack": "packs/mk-381.md",
       "sourceSha256": "1fcd738ebdc814ab10ecacc5581e2385878e04009bf83e8196a1c0e93ba6824c",
-      "packSha256": "7fdc30bf5769610f57869787ad75da38b61d5e3287e103a783694c671e48ae0a",
+      "packSha256": "3e87113dbd5c4381aaba90977c30ac146802b94d8d47cf61d2fd29300d075032",
       "referenceSha256": {}
     },
     {
@@ -3333,7 +3333,7 @@
       "references": [],
       "pack": "packs/mk-382.md",
       "sourceSha256": "19c7e614239f9960cc146ca7b77fab3dae60568acc0b8553953bc9a8953a9550",
-      "packSha256": "bb92e6e917b7321a16a5b19c9b613dc466f73d54eb4284705496962e5c4f254e",
+      "packSha256": "7166be764e9d933725b2387a5356e301c226d95c8c5c8ca5f45586ac029fbdea",
       "referenceSha256": {}
     },
     {
@@ -3344,7 +3344,7 @@
       "references": [],
       "pack": "packs/mk-383.md",
       "sourceSha256": "d7b5e313c683acf86e0f466bef0b595a5d75f9d106aeb9de64d40fcf6ea1c958",
-      "packSha256": "1c7facb39518549c9bdfcaa8a656bf6b46a41d80afdcb8bb27366a7c7f9fe0e9",
+      "packSha256": "8f052b9700aab95a64e30e7cf62d9537d1de0f1e0be66d652f157e2844c6e204",
       "referenceSha256": {}
     },
     {
@@ -3354,8 +3354,8 @@
       "source": "skills/mk-384/SKILL.md",
       "references": [],
       "pack": "packs/mk-384.md",
-      "sourceSha256": "5707e3e8ea1a01a19176ede273a9314165ad841c3116b4f4f6b4e63ad4186b86",
-      "packSha256": "2d71a92f0cebf23f799e6fb8b12f9846074fe307dc57f1cc979a1196a02deb92",
+      "sourceSha256": "cdf26014472bb1f701b84eb103aaa83731df9a02e0d838c677e1ce9d0048a88a",
+      "packSha256": "3a8a00618190656953431a46f4a67b2230b25980f25d9d39c575a318ca5f8b58",
       "referenceSha256": {}
     },
     {
@@ -3366,7 +3366,7 @@
       "references": [],
       "pack": "packs/mk-385.md",
       "sourceSha256": "579b056b1e5bdff0cc9cf8b7e4f64f3571b0d553fb42512cd9c816a93359d076",
-      "packSha256": "b8cbca595d31cff074404e61ffd387ed8e299386080d951d71a5ea4cd632fb49",
+      "packSha256": "2bdf1a4bffa92776fb4773ad4f10f2c294b1ef1327da2c8d1b79389133c038c2",
       "referenceSha256": {}
     },
     {
@@ -3376,8 +3376,8 @@
       "source": "skills/mk-386/SKILL.md",
       "references": [],
       "pack": "packs/mk-386.md",
-      "sourceSha256": "024c410acb02125e71ca53630137bd57a11e046320cc5e414ad1e8caf60d7448",
-      "packSha256": "6eb75083dc033137d5b1a2da7673a83ac14c646c5ad3013ba19f65d9993e93c4",
+      "sourceSha256": "fe2f12e951d2edaa581cf4593c66f44de37b32440492d2fd781b029fdc86601e",
+      "packSha256": "981eb6b075d30e2ec4d7780c0fa06f7aa8bf3ae509e1424fd139fac7cf185d51",
       "referenceSha256": {}
     },
     {
@@ -3388,7 +3388,7 @@
       "references": [],
       "pack": "packs/mk-387.md",
       "sourceSha256": "3f97912f0271c78fdbdac45470704ff4859a92b7e877d3c09937976efa15293a",
-      "packSha256": "cabbd24092632e53ff21ff6cb5d720b1c038be54193865aefdd3ae2661b52075",
+      "packSha256": "946033bed2818bd864b0c623e9acda94aa6e3a6813c128403aa11716b2f23eb4",
       "referenceSha256": {}
     },
     {
@@ -3399,7 +3399,7 @@
       "references": [],
       "pack": "packs/mk-388.md",
       "sourceSha256": "155b2374728ee4f07774e8acd19a6966dd6acd8d6fe8a5837a5b6a71dfd0fc30",
-      "packSha256": "7a5b4a739451af4a8eb615f1bf75347d887bf1f31637cfc85b4d1c4a67b2f8ed",
+      "packSha256": "c8f75de2569aad1aa0c5dc7aef97ec272ce142b3163e068dc877fc3cc79fbac8",
       "referenceSha256": {}
     },
     {
@@ -3410,7 +3410,7 @@
       "references": [],
       "pack": "packs/mk-389.md",
       "sourceSha256": "5dfdb5a40fc2d4b35816ad73379adb8d49444c324999d58190e1edb4b4cbe76a",
-      "packSha256": "6bd399cda160b4f3318231baccd8398f2082a863a8d84555ed688eedc405d78a",
+      "packSha256": "c4817fea95642b29a9ce987f14a64a58643234c9964e29020c00502f821932fb",
       "referenceSha256": {}
     },
     {
@@ -3421,7 +3421,7 @@
       "references": [],
       "pack": "packs/mk-390.md",
       "sourceSha256": "0398794dc82c16a47f1fb1cfb1e931947465ae6b77bf519fb7dab6641395478d",
-      "packSha256": "f81750da2cfb1b487f562348b91a5147772e8563dd049088bfc7de266d43c7c0",
+      "packSha256": "d47062b56bb60a3e5d8695c82aaa5c7ad8549f088a7acb4ea7842a8395c82426",
       "referenceSha256": {}
     },
     {
@@ -3431,8 +3431,8 @@
       "source": "skills/mk-391/SKILL.md",
       "references": [],
       "pack": "packs/mk-391.md",
-      "sourceSha256": "64d5d6d759df909decdddf01d29fc0c050b198d7d8dcb4fcb15f2079fc22b271",
-      "packSha256": "6beafffb72a1e195b39e6b02bc5eee5ba8687c6d8b1c7fd28c9e7d2f31d6028e",
+      "sourceSha256": "f2d00ad5beae241933d71c1355772b9dbf42ff1c24723551c60f14d028f527e5",
+      "packSha256": "a277625b13f999d3a652c8d84c3ec302472de3fbf086bd582be1aa8507a516c9",
       "referenceSha256": {}
     },
     {
@@ -3443,7 +3443,7 @@
       "references": [],
       "pack": "packs/mk-392.md",
       "sourceSha256": "06bb2342f567e87c6a7dad3d30814f4e1dd19d0959f81e3eeb130bb864af5edc",
-      "packSha256": "64fd67b62a65b21b6d69adff1ef5bdc6adbd2bca45e9cb1cf2ae34f4f5c5bcfd",
+      "packSha256": "d76f7e0c05b060f5b1a37d8ca1e8afc0b2b65b4a1d9c5e856bf08eb6b14bcab9",
       "referenceSha256": {}
     },
     {
@@ -3454,7 +3454,7 @@
       "references": [],
       "pack": "packs/mk-393.md",
       "sourceSha256": "f0194236bd68198c6ac35090ae18ad1abb02dcaa6192e85088c1f83e34350fd0",
-      "packSha256": "5641e7faba26538367faf104ca1a74e8546496594d2a82ec0fc2871ed82729df",
+      "packSha256": "a908d86fdca9b52a2d6e773c02014e21870d543ddde941c77d3a7633a5025e7f",
       "referenceSha256": {}
     },
     {
@@ -3465,7 +3465,7 @@
       "references": [],
       "pack": "packs/mk-394.md",
       "sourceSha256": "7e876d1e7618e3652a216a7f5738612e31af55c3131698cd4004511fc33f0a4c",
-      "packSha256": "e0eb850abc0caecdf8e99324d522cf819d3b20daa8b061d2192b4786013e0b14",
+      "packSha256": "a0f6794585a58ba583d0a4ccf53c3f28aaccecf4890597b073353f3368f2f7bf",
       "referenceSha256": {}
     },
     {
@@ -3475,8 +3475,8 @@
       "source": "skills/mk-395/SKILL.md",
       "references": [],
       "pack": "packs/mk-395.md",
-      "sourceSha256": "baf3aa31f53662a2dbb964f5818435de1de5939ff35d13295d09b7c7de3859fd",
-      "packSha256": "177da83cc9e0a728e02754b43df01c34231bb20996f265afd14d6be5b479df4b",
+      "sourceSha256": "bcc22cbd1decfa18bc53a282e5bd1ebf1c3174842f65b5c03902a83f8179ed1e",
+      "packSha256": "ed9055368a6a6db4d39a946eec1a5807d700f9cfe3c7326c584aaa455cab9495",
       "referenceSha256": {}
     },
     {
@@ -3487,7 +3487,7 @@
       "references": [],
       "pack": "packs/mk-396.md",
       "sourceSha256": "4e8cb22ceb3e1633021613ba2313c36aa3cac41b49f510f90c18b8ba9e839f41",
-      "packSha256": "5b2ac4f3e674c3cd6d467521a838e459496fba4bc01106bb7be2c4de13b278f3",
+      "packSha256": "a25c9e306d9316c87abeb3a0df4c67707a32113ee32d33e37058c4f82185396a",
       "referenceSha256": {}
     },
     {
@@ -3498,7 +3498,7 @@
       "references": [],
       "pack": "packs/mk-397.md",
       "sourceSha256": "2a015f6be9e2279cf51b480eb7bdb7a4af9dc4e6625a10307c5446c166046a37",
-      "packSha256": "d108b98f5ac535cca156bb0a0da76720735efff7a37709125c603cfbb81b109e",
+      "packSha256": "811905af34171cc68423fadb4256e873768c077dda699ed338d8ac54f0a9bf54",
       "referenceSha256": {}
     },
     {
@@ -3508,8 +3508,8 @@
       "source": "skills/mk-398/SKILL.md",
       "references": [],
       "pack": "packs/mk-398.md",
-      "sourceSha256": "db63babf527581defdc5335a2c8d6c8f69cd4aacd148f2cfe8a9ec2e93256d68",
-      "packSha256": "eb16bdebbe06b0290689c1fd623dee6b105ff97a1dc67b3383680d7139377cef",
+      "sourceSha256": "f5dbc31226b18360eb5980ae718441d960c609c1fd41b6c0aa7cb2d22404af64",
+      "packSha256": "706e9f70075960a0553a29683d1ff21d01614c144a314d5ac5cac83051d6fdf8",
       "referenceSha256": {}
     },
     {
@@ -3520,7 +3520,7 @@
       "references": [],
       "pack": "packs/mk-399.md",
       "sourceSha256": "b34c7bc824bd041e383e9ae529b1bb9214ebe956aeb86faa6852ae3deb503627",
-      "packSha256": "d13ea7f94e8dbae2afffc6ae4ca2a14f282d30115be8c87853695049b1cccb57",
+      "packSha256": "4bcb925497a6794192d850cfa32463f7ddf1f80cc9df954cf33235f955c42ec4",
       "referenceSha256": {}
     },
     {
@@ -3531,7 +3531,7 @@
       "references": [],
       "pack": "packs/mk-400.md",
       "sourceSha256": "b683723e6d25bcc5014e32ab90c2d1114f32870ad14aab554ba2ca608eec7914",
-      "packSha256": "d3864222f40a8517a29f5b852e3344ff93f5c1bed87380199d3f70962162bf7b",
+      "packSha256": "b7393526469469cbf36bb40d251aa1056eb58dc19d655492519cf93e8440d304",
       "referenceSha256": {}
     },
     {
@@ -3542,7 +3542,7 @@
       "references": [],
       "pack": "packs/mk-401.md",
       "sourceSha256": "814ff5845703f7d4ec3afb4669bfbccd222387d060c3880153e66bbc90b87417",
-      "packSha256": "675fb8f9b00947f8c3794da43fd261f3c54f3c438eadff93262c5d24cd156fa7",
+      "packSha256": "ce6d8231327ab9cbc3dfbd8850f89106fcba60295909545eed0e7e9364360cbd",
       "referenceSha256": {}
     },
     {
@@ -3553,7 +3553,7 @@
       "references": [],
       "pack": "packs/mk-402.md",
       "sourceSha256": "465d61e21641a68ed6bc8096da700a978eef0584e7f2a7c8a065720d82492193",
-      "packSha256": "52468ee8c4f6e5d6cdb287f4a750fe0754d5b08a28d10b74ce4f50a2c632da71",
+      "packSha256": "fdb06174fb03956745a6b27a6e47c0785d68a2acd496236ed6a5a1fffb156056",
       "referenceSha256": {}
     },
     {
@@ -3564,7 +3564,7 @@
       "references": [],
       "pack": "packs/mk-403.md",
       "sourceSha256": "2bda68cbfeee62a6b52a62355c15e825ca0796cde0d693363e92b665376babc8",
-      "packSha256": "83576ed048f1af532d73b72df81eea87c2d7c2a72f1d6931382574997f485e39",
+      "packSha256": "d0e8c7484ed786b51440c332ceba7b56aec8a9e25a6ca1ceb1ec10b4c4181e8c",
       "referenceSha256": {}
     },
     {
@@ -3574,8 +3574,8 @@
       "source": "skills/mk-404/SKILL.md",
       "references": [],
       "pack": "packs/mk-404.md",
-      "sourceSha256": "4ce0ac86f3116c74c2b920607be4dc910b3ebac0261fd3de36d81f115f814199",
-      "packSha256": "884d225dff79816c9e3879eff3b40e45ee1d5094f893110ed60b5c34abb2b4c9",
+      "sourceSha256": "578f2215b2698776036aa43e3e4f2e0d072db9c018ac52ebda9174468d70b41c",
+      "packSha256": "aee706cf5483f0a1a4fad1c6e825cf958f54e126db65216c662e3b76f64db577",
       "referenceSha256": {}
     },
     {
@@ -3586,7 +3586,7 @@
       "references": [],
       "pack": "packs/mk-405.md",
       "sourceSha256": "1c5440598499ecb558d5afeaca0065b476956746744e399ee9eea047f128d413",
-      "packSha256": "848b98184ef0b4a02e6ae758b61b92b64fe26192be7dbcf15434a9e76e4a705e",
+      "packSha256": "6d1d7d0a1eb318247e35b06a4d1381eb95bb3838c98c881d29403eb0ea7448b4",
       "referenceSha256": {}
     },
     {
@@ -3596,8 +3596,8 @@
       "source": "skills/mk-406/SKILL.md",
       "references": [],
       "pack": "packs/mk-406.md",
-      "sourceSha256": "ab829aab1e55894daada227e4eddee6d32380eb5926c40fc677c8f81d21d5fee",
-      "packSha256": "05928ff6a20e9f1798e755caaa3b173f8931ee804d7d63950167a2a1e283b168",
+      "sourceSha256": "6e13fcc7c811f4a8196ee1bfbca50d01ac0a96c10583afdbb9356fba6bfaec17",
+      "packSha256": "e438fe8906e8f6d2b0bb65e35b1400c3a83f0139e73cbd040a15686cedfd80fc",
       "referenceSha256": {}
     },
     {
@@ -3608,7 +3608,7 @@
       "references": [],
       "pack": "packs/mk-407.md",
       "sourceSha256": "dc3f210d94f448b42b5f9fe2d33e39283070f5a2e9cc4e309630bf8193247f3a",
-      "packSha256": "86e8146d241eceac1fc21c6324fb77d224532a74d8e93f1cd0a31e2822053d12",
+      "packSha256": "05b61693c6e931e65b68e7af1f3173107a48ae3d0d64a9c3501bc1d7e726bf7b",
       "referenceSha256": {}
     },
     {
@@ -3619,7 +3619,7 @@
       "references": [],
       "pack": "packs/mk-408.md",
       "sourceSha256": "4e68064406d60ac3a2234c341ab3c7c24b56bce9ac38c51d6dbdbb0a9b0d3b61",
-      "packSha256": "48e9f6b14f52ebc74a0b45067a880d8e9b06090d2e912391598b8094b1f1c618",
+      "packSha256": "d0b6c3c2ce41738767f1b926593c32914e88e42452be14c0cfda23ce0eb67789",
       "referenceSha256": {}
     },
     {
@@ -3629,8 +3629,8 @@
       "source": "skills/mk-409/SKILL.md",
       "references": [],
       "pack": "packs/mk-409.md",
-      "sourceSha256": "28b075b2e179d77994f9cb1af362e898bce42dec79296afd9fe88052193e6927",
-      "packSha256": "49ca29af1bc86c263a86f6d3f6baa172c94a6e6dc8ae6d02161f93ab8c7c7966",
+      "sourceSha256": "365dc8ef98299a39465547a81ddbce34b788cb009ade61a7ac2008c0a4004d88",
+      "packSha256": "0274e28ab29e7af960c5ce48b74757e109624f91b63c6f2c5b6315e43cbc5d0f",
       "referenceSha256": {}
     },
     {
@@ -3640,8 +3640,8 @@
       "source": "skills/mk-410/SKILL.md",
       "references": [],
       "pack": "packs/mk-410.md",
-      "sourceSha256": "61af93c2c07eb7e22e15d491a2695abbed61eb96250308fe06148d581b5198ed",
-      "packSha256": "27ae8286bbd8ac99b6ad45aa5f329ac714a1c7891c2a4dd01f06c29907015b5d",
+      "sourceSha256": "4dc53b36bcd81116a863847f24ceb14cd522cdd70e30b18ebabebf1cd4e16c33",
+      "packSha256": "fee76b9282fe7442411efbe3e6460c32e0689d623d63ab6c363587356f35f80d",
       "referenceSha256": {}
     },
     {
@@ -3652,7 +3652,7 @@
       "references": [],
       "pack": "packs/mk-411.md",
       "sourceSha256": "6b102ee6fe533050a2758b5c131f2aad9ad8e9ad2911ca03b10bba56b97a688a",
-      "packSha256": "0069e281482cde0899a627794e934330f51d7f422d19fed5ef32c2534c5085be",
+      "packSha256": "c87286b97b168743233cab6ab0b43abfb8fadd556ccbcc9c3a995b5bed641a2c",
       "referenceSha256": {}
     },
     {
@@ -3663,7 +3663,7 @@
       "references": [],
       "pack": "packs/mk-412.md",
       "sourceSha256": "b802143a46c5475d92a2958b39160a2e0c03f5ddd70b05fd63c990b6c7606e07",
-      "packSha256": "27939b59dd2501a1be5c40a742811f30deeabaeb2d915e40b02ef872d9a83b35",
+      "packSha256": "d9bc29601be33ddbc3c9d800e9c7baad73295fd5e506582e2e268d9cdfc5bcb2",
       "referenceSha256": {}
     },
     {
@@ -3674,7 +3674,7 @@
       "references": [],
       "pack": "packs/mk-413.md",
       "sourceSha256": "d33d9c12b725b8561241c8647527420dfb7a3c4f796b0459f562c33890a19409",
-      "packSha256": "1d123b4e24b474d6495ffe4065d808786b02f873d5176bb7ca5f4620af9d9f53",
+      "packSha256": "39932f2f436a4e73a874d658f2cb5dead05e354fdb103b28ff94ea88fd32a882",
       "referenceSha256": {}
     },
     {
@@ -3685,7 +3685,7 @@
       "references": [],
       "pack": "packs/mk-414.md",
       "sourceSha256": "32af5e4b5d09827cd19a013d05d901bd383180f4891a55d76e69594328fe0630",
-      "packSha256": "de1701fa881d4dee3b2a591279b6257f16ca0cf15548b9f37491781bc00ff9ab",
+      "packSha256": "64bff6a9f756eb3fa30bc9fee50a0653a262bf5ec2a544e449b1041920fbf171",
       "referenceSha256": {}
     },
     {
@@ -3695,8 +3695,8 @@
       "source": "skills/mk-415/SKILL.md",
       "references": [],
       "pack": "packs/mk-415.md",
-      "sourceSha256": "995fce236a244963765bf97bc44789305e26312ae186bd4986f90aa33eb66b08",
-      "packSha256": "e8a0b71fca07da83d79c3702e0cd3a7a9457068a31762470e319accd52edc41e",
+      "sourceSha256": "4f732cba4281a90ab37f19b9f6661e131e4397d61002845a772f280d67fa67b0",
+      "packSha256": "40634960290c4fef21bfb9bedfdbf28c651638817119c5105844d1a7b7187342",
       "referenceSha256": {}
     },
     {
@@ -3707,7 +3707,7 @@
       "references": [],
       "pack": "packs/mk-416.md",
       "sourceSha256": "b4a4a0ce35f3337d1f149e0065bf4480334800fe29d8e484fa25a4a0fa819a43",
-      "packSha256": "e3d8746295b62c6363440929db873893cb95533b007819f0fe8fde718de60567",
+      "packSha256": "348b0d126f69dc1f3f4fbf9a260c24d55376eee9e74eb30b29cbadc7b7e04ef8",
       "referenceSha256": {}
     },
     {
@@ -3718,7 +3718,7 @@
       "references": [],
       "pack": "packs/mk-417.md",
       "sourceSha256": "a8e1c1de7742cf79b8236e9fcb660f8c50db933ccf4cac714cb068a2af2dda0c",
-      "packSha256": "053003e13430ec2023673edf2761c531350047a7a55cadb8fe20bec765ef0a60",
+      "packSha256": "a1471eb86a97f8bdd3c7b44592b0e22eaa7796b6abca7d975d6eb3fab9740ff0",
       "referenceSha256": {}
     },
     {
@@ -3729,7 +3729,7 @@
       "references": [],
       "pack": "packs/mk-418.md",
       "sourceSha256": "dfce7d28ae67917ca2de1de5212b4958a8ec4a4b0906a66672d0efd57a944f46",
-      "packSha256": "4275db94a5cc6247b25c4fba703213398e0d20689eb1e4a9b1ac24cc97ddb369",
+      "packSha256": "31e902189a55e11e067f8b5c561aa3c5a01be2c742d37286227870654cc04673",
       "referenceSha256": {}
     },
     {
@@ -3740,7 +3740,7 @@
       "references": [],
       "pack": "packs/mk-419.md",
       "sourceSha256": "e19da2ac7f2bdb489816a7bf8dc7a16396d3a4ff64e26a3f9eadf94f129576c3",
-      "packSha256": "d102e6c743a771a5c7b305b3f0276cb4c2d5962e430d3b0fc0a4cbc8739552a4",
+      "packSha256": "188783e056f1ce91a8ec1c5afdadafb4533348a6efd7dbf219d3ed6d2939300b",
       "referenceSha256": {}
     },
     {
@@ -3751,7 +3751,7 @@
       "references": [],
       "pack": "packs/mk-420.md",
       "sourceSha256": "f15c0c3355b1ec62bc30df9f40c35ea738c70b8d6af0ab46611ab82c3c5e1ba4",
-      "packSha256": "292055e718fbcfd5b1fa5bfe3c55d90a7be70254ef264151c37e474e41b35a36",
+      "packSha256": "49ce904140273110027138cf6b1a86c13a2f4dfd96eae1ec7b694a4440643124",
       "referenceSha256": {}
     },
     {
@@ -3762,7 +3762,7 @@
       "references": [],
       "pack": "packs/mk-421.md",
       "sourceSha256": "6c31d7be9bb1be0d9de95fb6b049c6c11b710b75ebb0b3fb17b7dd5b4120e8ea",
-      "packSha256": "62d6e077af92b088be1e175bb9af25c255b58735d639e373353796c72df8816b",
+      "packSha256": "51ba789dac0df2988606d46d9d3fe0f91633a09a3e69a92ccd67151d8f42db00",
       "referenceSha256": {}
     },
     {
@@ -3773,7 +3773,7 @@
       "references": [],
       "pack": "packs/mk-422.md",
       "sourceSha256": "4df4f26569aa922a45a090e0b6e17a234eff27ed05a5ded46fd375e54184b447",
-      "packSha256": "8e3c2012a61efafe4bdba74575f63a8e144b67c1c0a4f7296dcaf65b26523783",
+      "packSha256": "d12de66bb99cf4bb8c9d8982ad7d0cd973949623ca6531aee5d4aaab9d84e19d",
       "referenceSha256": {}
     },
     {
@@ -3784,7 +3784,7 @@
       "references": [],
       "pack": "packs/mk-423.md",
       "sourceSha256": "1723ba2fd57db2b7e7fdf751c7b419901ea751bb843579edc88d2a363ac9bb9a",
-      "packSha256": "786db523185645b71773c32c7fb5dd17e30f9efb4883e1644d2c6fafcc0baa0a",
+      "packSha256": "ca2265f48f15c9fce029ebad8755c3eda726bac8a7a7683ab878934524527e16",
       "referenceSha256": {}
     },
     {
@@ -3795,7 +3795,7 @@
       "references": [],
       "pack": "packs/mk-424.md",
       "sourceSha256": "ea9e087ecc16594162e7b8c106c540b53e7018fb1931fb02a4f77caa770564bc",
-      "packSha256": "10d1469815356f91eb4f42e56b0bf90fdc7e31003981a2382fe51f0a8bda285f",
+      "packSha256": "246934386537a652ff3ba2ff526187dfb07b8f7e1e5ee5804369b6bb0626cc44",
       "referenceSha256": {}
     },
     {
@@ -3806,7 +3806,7 @@
       "references": [],
       "pack": "packs/mk-425.md",
       "sourceSha256": "367b1c6bbbe6995a64c3768cc8144227bde359235e1f2fd0d61d1a98345980c3",
-      "packSha256": "7ca80ae407b66fd95bf4f8d27eb0a0fe6d542ed8b64ea8d49e6aef60f5e95e86",
+      "packSha256": "a8d15e0d56cb960fb7df1edd2b66ee04371c9483e40df4f094e6ba17a1068f70",
       "referenceSha256": {}
     },
     {
@@ -3817,7 +3817,7 @@
       "references": [],
       "pack": "packs/mk-426.md",
       "sourceSha256": "4f73b22011e3ee83e0a74342253bac29a21c376b875f8b6eb03b87da9d2f35a6",
-      "packSha256": "08395715567d9052d73bc01725cd5053a27baffeb28579a87e66d42f04a1d65f",
+      "packSha256": "15bb373d291d6d251acd218ddd406e1bf9e67ee3789cfc6af6133947fb65e188",
       "referenceSha256": {}
     },
     {
@@ -3828,7 +3828,7 @@
       "references": [],
       "pack": "packs/mk-427.md",
       "sourceSha256": "12951ee66c77ee4f7a0fe4bfa67712324b374dc9ca5d7ef3accdaf5f8db1c404",
-      "packSha256": "fd221ccfa9eb26b635d025d9d3437eaa48a635e31a02f0051d1bb28fd356d7d0",
+      "packSha256": "c92d3bb9506671d03891bd671dfca31de6bcd3b605624e9c19fb07cdb6c299a5",
       "referenceSha256": {}
     },
     {
@@ -3839,7 +3839,7 @@
       "references": [],
       "pack": "packs/mk-428.md",
       "sourceSha256": "09a6032d6b51f9b61754fe519dd565bb90cc97f96a094c95282dabea02f1f31d",
-      "packSha256": "f8c8ed66759bbbc9aa2c620637569d56e80a076adb1ba1179ad4bf9efa71f85e",
+      "packSha256": "2beed80741ffbaf60d03a7b630f18d70d62e8e6bb86fe6283d17ae7fa73b3860",
       "referenceSha256": {}
     },
     {
@@ -3850,7 +3850,7 @@
       "references": [],
       "pack": "packs/mk-429.md",
       "sourceSha256": "4287c251d119306fdc86ae22b30735a6175063e0686527da365c1b53e242dba2",
-      "packSha256": "3cd15fe8c796073679cd7544532a866d861e43e8245559365d1d58d3392e2cf9",
+      "packSha256": "2c00142d32af1d610e7a02872745be6c6a748cb3bfb82c4f1d09db22d654b2d3",
       "referenceSha256": {}
     },
     {
@@ -3861,7 +3861,7 @@
       "references": [],
       "pack": "packs/mk-430.md",
       "sourceSha256": "2c5599b00be02aeb19cb013dd7b682f4fef00ad58e8f96b9bc21e430cb518468",
-      "packSha256": "e8b8165a5ddc70d884acc4af23f61886a0a0e1c5ec10d761c025837419fdaf08",
+      "packSha256": "f5cff2d79604e1f5e6db057bf52c522f057f7c35a08418577ef48ee2235ee5ea",
       "referenceSha256": {}
     },
     {
@@ -3872,7 +3872,7 @@
       "references": [],
       "pack": "packs/mk-431.md",
       "sourceSha256": "b0f37a459e53892d4e7f01a5b281cf2ec9db1c62511fb84164a3c261eda81eb2",
-      "packSha256": "26a7abdecc1c8ca3098e27b547a7407c82b4bdc68d73c444f102577baedcc4e7",
+      "packSha256": "6545c9a09a29ffd093fbc552639a8b4451c97127d4d1ad80025930be462a9040",
       "referenceSha256": {}
     },
     {
@@ -3882,8 +3882,8 @@
       "source": "skills/mk-432/SKILL.md",
       "references": [],
       "pack": "packs/mk-432.md",
-      "sourceSha256": "461c0b5d7330cd24e86e6d255de39035020ee00b6ab86dd7d016cd2b648bc235",
-      "packSha256": "c99e424a2610e214581c2dacc396a6ced12b6735ced760efbb6c3467d8bbe6d8",
+      "sourceSha256": "a149ef013860711b0ed522db1c72ff6c4cd7ad7d86f9082ca7e921a14e5512dc",
+      "packSha256": "b8f006704cae44ffbce8347fb45583c4396d76fbbf35ef0787a9a33409ed9530",
       "referenceSha256": {}
     },
     {
@@ -3894,7 +3894,7 @@
       "references": [],
       "pack": "packs/mk-433.md",
       "sourceSha256": "32ef0f6a4b7ceff1c2b36149773166bf72a7d856decee14fb5e02fc350374ef4",
-      "packSha256": "fe7daa4f4a566e12a4bd3d63b028e5b44d9b518628e78a87a5bc8c5afca0ea9d",
+      "packSha256": "4e5de5d8f5d8befb38263d274465ad85ca52fa4e02a77025474df6770f68dec8",
       "referenceSha256": {}
     },
     {
@@ -3905,7 +3905,7 @@
       "references": [],
       "pack": "packs/mk-434.md",
       "sourceSha256": "d162608f8bf00c0580c1df4febef1e3dc19a9528032ca34cba110cc36e5ca3f0",
-      "packSha256": "c8de17e9b7ad134da638bd925ff1eaeddd9dad88f754341cc1fb0edcc82d2ece",
+      "packSha256": "ded07f6eda3fbb31cc9374ea9a5ffdf9c51b764fc0e51177aca484e698eb3709",
       "referenceSha256": {}
     },
     {
@@ -3916,7 +3916,7 @@
       "references": [],
       "pack": "packs/mk-435.md",
       "sourceSha256": "1f5c1cfd8ea69a441b66c56a03bbb89d2707e2db730408d62d2dc921ff3729f1",
-      "packSha256": "abcfa27cf28715a306946751888207cfd5fef3ac8869d91c685220fc00fc2894",
+      "packSha256": "441269ba9814676130b3791e5ea20b5eb844d2e1a04cfeebbfab78f0e8dc6dcc",
       "referenceSha256": {}
     },
     {
@@ -3927,7 +3927,7 @@
       "references": [],
       "pack": "packs/mk-436.md",
       "sourceSha256": "1e428cae6ef08aedd004e5312e23667eb88e4b1e648a2ecab22cb0dc0950f613",
-      "packSha256": "850f4bdd185f6fc670f9f8509bce81b38f72a859314fa185216e282ec889af6d",
+      "packSha256": "96ca4f414c9c56af09670e935b9d3cd810a8d8083017d2220b1e2c75048dba68",
       "referenceSha256": {}
     },
     {
@@ -3938,7 +3938,7 @@
       "references": [],
       "pack": "packs/mk-440.md",
       "sourceSha256": "1a6cf848eef6bf505c738c901cf264c6bb1b31e754d1c368984ba1b387025f5b",
-      "packSha256": "5082d614ceda9fda2dda998c24d471fe1217d2d7e51ae8a032d499b25f2bb4b1",
+      "packSha256": "a0cd95666a153348b1884ee2bf2e7dc184004ee11988af6334450ce92aaffb32",
       "referenceSha256": {}
     },
     {
@@ -3949,7 +3949,7 @@
       "references": [],
       "pack": "packs/mk-441.md",
       "sourceSha256": "1e57df25efd2db0ddb9282c3e08e3e8f18228e1420019835f0a8f5a4ea9f5b59",
-      "packSha256": "23634a5defd978fc926b947c22538ece32d1b85743a3422bffaeede91babf103",
+      "packSha256": "d3c900d7ed3f7199c83a06d93ec19b91d93bc77a433d8f583a273f9f19da54d6",
       "referenceSha256": {}
     },
     {
@@ -3960,7 +3960,7 @@
       "references": [],
       "pack": "packs/mk-444.md",
       "sourceSha256": "34e0d54c5ef1ba2d6f6150846e71d26ca166456368a6a48a760c351aad81dc6b",
-      "packSha256": "687d384542a3d977278b297b2de0e505b2fe7dea1f4795e6ede3063677e4fde5",
+      "packSha256": "7cc90965a5b621958b94b1afe9c5b748036a932e43b69f0565775dd13a38dfe4",
       "referenceSha256": {}
     },
     {
@@ -3971,7 +3971,7 @@
       "references": [],
       "pack": "packs/mk-448.md",
       "sourceSha256": "2fe873f71eb641e95285c88f9e6dbee065294c0f80721358e360db55bb3da592",
-      "packSha256": "7ade386e48dd27cf93678830895e5cf4436cb33d0f61d6e46c4e0a06e2cf991d",
+      "packSha256": "0c0aa61a257faef9740fe131d83591cddd8bce1b484e2ad9933129ee809dc199",
       "referenceSha256": {}
     },
     {
@@ -3982,7 +3982,7 @@
       "references": [],
       "pack": "packs/mk-450.md",
       "sourceSha256": "62bf77e18824271939d0e98b78d47edb7bcdb65d5aa161ac1e31077de144182e",
-      "packSha256": "33578165ba454001d7f1b870da6babc0179380c4941a34d2bf74f8b220f83dd8",
+      "packSha256": "f1b236deb54c01c11966a49d4434d8402b68a1a6506f138913fcb8748ae8da3b",
       "referenceSha256": {}
     },
     {
@@ -3995,7 +3995,7 @@
       ],
       "pack": "packs/pmax-copy.md",
       "sourceSha256": "52682cec0da6a3aaad30bf22a1e719d6fb8ff88a9ea83203eb01b478aca2de46",
-      "packSha256": "2beb9e531dd978bed35c2ca4788aa19d5f4ac45e5b9c25dfa0d3bf3925152e6a",
+      "packSha256": "1e3a3713e2e622d11c315de815ac0155cc1b712396f72c5aef703934f9758529",
       "referenceSha256": {
         "extensions/pmax-copy/references/copy-contract.md": "5f5a21e518a1693dab756637e88b38c0b45368e1599c2c4300095bd0b4e0a79a"
       }
@@ -4011,7 +4011,7 @@
       ],
       "pack": "packs/write-marketing-rollout-plan.md",
       "sourceSha256": "ba1b29c0200b51ceb11149c59ab92ae66127fdb62cfc22bbe079f62e8ca0dc06",
-      "packSha256": "79c163fb7c5f8db91145b6057a4a110d1dd2d5aae81c8c779c360946f99e672e",
+      "packSha256": "07d40c43151cc765f46c0173a90d413db80962fdd023e2503377c52207c672fa",
       "referenceSha256": {
         "extensions/write-marketing-rollout-plan/THIRD_PARTY_NOTICES.md": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
         "extensions/write-marketing-rollout-plan/references/sources.md": "d1c4a52dfc576bc50829e3a6a89b75e58757508cd884e55e0823b637309a5846"
@@ -4028,7 +4028,7 @@
       ],
       "pack": "packs/forecast-event-profit.md",
       "sourceSha256": "bb3c374cf6db5c571c63ef7171e6c5924820af3366c3cb797e6a4e7b4468f968",
-      "packSha256": "9d018dd445bf8d06ec96f56e84904b83d3ea01cbe6f4722b9950cb507273bbd1",
+      "packSha256": "16de9595bfe4af8aa0244a866c444e621f029c4c6d92c0b0598bdc6a418ba17d",
       "referenceSha256": {
         "extensions/forecast-event-profit/THIRD_PARTY_NOTICES.md": "a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151",
         "extensions/forecast-event-profit/references/sources.md": "334b3bf7cf0d6350269a176d4f56539fb0256c55bf7c6851f2e0179edf332dd0"
@@ -4045,7 +4045,7 @@
       ],
       "pack": "packs/simplify-member-rules.md",
       "sourceSha256": "9b5520a021c980f81812d01eb26d401b31bdedb2a1511becc5975cd8ae975ede",
-      "packSha256": "007143d278750b422eeb0f4dbcce83a2043e98c5d5dba586c45e37a6deca8733",
+      "packSha256": "6ab169c33fb14fba0557ca9905d1e52d45b1a6b3d0c6e601d30e721c87b54a72",
       "referenceSha256": {
         "extensions/simplify-member-rules/THIRD_PARTY_NOTICES.md": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
         "extensions/simplify-member-rules/references/sources.md": "3ccb4847d26bdcb05b5bba6668160063a09c00370000ffecdff3ce62271c9726"

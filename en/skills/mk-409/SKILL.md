@@ -15,17 +15,24 @@ Do not send messages or create automation without approval; if a tool cannot sho
 
 ## Required inputs
 
-Provide: friend or subscriber status, permissions, product content, campaigns, and channel reports
 
-## Method steps
+Available raw records: original acquisition cohorts and sources, costs, contact/block status, linked orders/refunds, and equal observation horizons
 
-1. Assess friend quality using interaction, tags, first purchases, repeat purchases, retention, and gross profit alongside CPF
-2. Friends who are cheap to acquire but do not interact, click, or buy and quickly block the account are not high quality merely because CPF is low
-3. Define quality according to the brand's business model, gross profit, repeat purchases, and incentive; do not set a fixed CPF across industries
+## Method Steps
 
-## Calculation and interpretation
+1. Freeze all original contacts by source and join date, linking acquisition cost, contact/block status, and valid orders. Compare equal observation horizons and retain nonbuyers
+2. Check whether the source supplies the intended audience and serviceable need, then compare first purchase, repeat purchase, retention, and contribution per original contact. Engagement describes response or demand clues, not sales or economics
+3. A low CPF with worse contribution after acquisition cost is not high quality. A more expensive source meeting the recovery objective with serviceable contacts supports reuse, subject to the cost of acquiring additional contacts
+4. Mark cohorts not yet reaching their purchase cycle as immature rather than rejecting them. Without source/order joins, report confirmed joins and cost and request the mapping needed for contribution
+5. Recalculate after refunds, omitted nonbuyers, expired incentives, or block updates. Uncontactable people remain in historical cost denominators; report the future usable list separately rather than improving quality by deleting people
 
-Verify contact consent, unsubscribes, and message specifications; friend counts and open rates are not sales
+## Calculation and Interpretation
+
+CPF = source acquisition cost / original new contacts. Net contribution per contact = cohort net order revenue less product, fulfillment, operating, and acquisition costs / original contacts. Other objectives require their own qualified-outcome definition and cost; do not mix objectives in one ranking
+
+Check example (hypothetical): A and B each acquire 100 contacts. A costs 1,000 and contributes 500 before acquisition; B costs 2,000 and contributes 3,000. Net values are −5 and +10 per person, favoring B. Refunds reducing B's pre-acquisition contribution to 1,000 withdraw the positive-value reuse candidate
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

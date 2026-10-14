@@ -15,18 +15,24 @@ Do not send messages or create automation without approval; if a tool cannot sho
 
 ## Required inputs
 
-Provide: friend or subscriber status, permissions, product content, campaigns, and channel reports
 
-## Method steps
+Available raw records: channel lists and usable identity joins, consent/opt-out scope, sent/replied/completed records, offers, deadlines, and existing contact rules
 
-1. Simultaneous use of multiple channels helps existing customers notice the message, but still requires segmentation instead of sending to every member
-2. Select eDM, SMS, LINE, groups, or other channels based on member type and task; course examples use multiple channels for loyal / loyal-due-for-reactivation members and different tool intensity for high-potential, low-potential, and dormant members
-3. For one campaign, check audiences, messages, and timing across channels so members do not receive conflicting offers
-4. The original course materials provide no fixed formula for spacing channels; schedule according to the current campaign and existing sending rules
+## Method Steps
 
-## Calculation and interpretation
+1. Match campaign lists across channels with usable deidentified identity keys. List actual consent/opt-out scope, sent/replied/completed states, offers, and deadlines. Unmatched identities remain unresolved rather than guessed from names
+2. Completion of the same task, such as buying the first-order bundle, cancels remaining acquisition messages for that task across channels. For incomplete tasks, follow existing frequency and cross-channel rules; prior receipt does not prohibit all follow-up
+3. Resolve incompatible offers and eligibility first. Prioritize necessary service and existing commitments by actual urgency and deadlines, then schedule marketing in available slots. If two campaigns lack priority, ask only which objective takes precedence rather than inventing a universal interval
+4. A channel-specific opt-out removes that scope; an explicit global refusal removes global marketing. Missing eligibility on another channel leaves a draft rather than treating no opt-out as consent
+5. Re-evaluate schedules before each planned send using new purchases, replies, expiry, and eligibility. Remove resolved needs and route new service problems to service while retaining contact history
 
-Verify contact consent, unsubscribes, and message specifications; friend counts and open rates are not sales
+## Calculation and Interpretation
+
+Deliver channel, task, trigger, timing basis, and cancellation condition for each identifiable group. Deduplicate only linked identities and report unknown intersections separately
+
+Check example (hypothetical): a Monday LINE acquisition message is followed by a planned Wednesday email for the same offer. A confirmed Tuesday purchase cancels Wednesday's promotion. A read receipt without purchase instead leaves follow-up governed by the existing contact rule
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

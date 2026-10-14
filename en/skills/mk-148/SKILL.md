@@ -15,17 +15,24 @@ Keep review excerpts faithful; a recommendation, collaboration plan, or reuse ar
 
 ## Required Inputs
 
-Provide: actual reviews, customer service records, collaboration content, permissions, and performance data
+
+Available raw records: verbatim support exchanges, the associated SKU and page, timestamps, behavior, and actual offer or fulfillment terms
 
 ## Method Steps
 
-1. First classify concerns by behavioral stage: for viewers who did not add to cart, the course's main hypotheses are simply not having bought or insufficient brand trust; for cart adders who did not buy, the main hypotheses are simply not having bought or unexpected costs/shipping barriers
-2. These are hypotheses to test; an event alone does not establish the psychological reason
-3. Then use customer service content, authentic reviews, page information, and subsequent tests to choose which concern to address first
+1. Collect verbatim support remarks with SKU, page at the time, timestamp, and behavior. One person may have several concerns; retain the actual words and stage
+2. Price concerns need explicit rejection or comparison of total price or alternatives. Trust concerns concern authenticity, safety, evidence, or support; usage concerns concern size, compatibility, or operation; delivery concerns concern dates, region, or fees
+3. Match the answer to the concern: disclose total price, supply genuine evidence, explain fit, or state fulfillable delivery. If a required size is unavailable or payment cannot complete, resolve that supply or technical obstruction first
+4. Browse or cart events alone leave the concern unsupported by remarks. Inspect one support exchange or interaction record from that stage to distinguish causes rather than assigning a psychological label to the whole event group
+5. Reclassify after a clarification or verified failure. Retain the original evidence, but change the next message to the currently actionable issue
 
 ## Calculation and Interpretation
 
-Use only authentic reviews and third-party content with usage rights; do not fabricate reviews, endorsements, or engagement
+For each case, deliver the remark, supported classification, unsupported inference, matching action, and withdrawal condition. Count unique customers or cases; multiple labels may sum to more than the number of cases
+
+Check example (hypothetical): “Too expensive; the other store delivers tomorrow” supports tentative price and timing concerns. Context shows the product is needed tomorrow at any acceptable quoted price; prioritize next-day fulfillment rather than sending a coupon
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required Output Fields
 

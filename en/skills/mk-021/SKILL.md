@@ -15,17 +15,24 @@ Hypotheses are useful but do not establish demographics or market share; do not 
 
 ## Required inputs
 
-Provide: Product facts, existing customer data, surveys, or customer-service records
 
-## Method
+Available raw records: accepted and rejected quotes, actual available alternatives, price and delivery terms, and customer wording
 
-1. Willingness to pay is the maximum value a customer will pay for a Benefit in a specific situation, not simply "how high a price we can charge"
-2. Assess internal factors (income, location, age, loyalty/membership, etc.), external factors (competitors, packaging, expectations, environment, etc.), need intensity, and purchase frequency
-3. High need/low frequency usually places more weight on trust; high need/high frequency places more weight on cumulative cost. Treat the course material's strategies for other quadrants as candidates, not certainties
+## Method Steps
 
-## Calculations and interpretation
+1. Organize quotes, available alternatives, actual acceptance/rejection, and remarks under the same product, quantity, delivery, support, and payment terms. Separate transactions, stated survey intentions, and demographics
+2. Accepting a fulfillable quote supports willingness to pay at least that amount in that context, not an exact maximum. Rejection due to delivery or size does not establish low willingness to pay
+3. Actual choices under comparable terms provide price-range clues. Repeated buyers explicitly concerned about cumulative cost support a bundle or quantity test; infrequent urgent buyers asking for credibility need evidence before a price change
+4. Age, income, or membership alone supports a value hypothesis to investigate, not a high/low willingness classification. Request one complete accepted and rejected quote and diagnose the difference from their terms
+5. Withdraw a low-price preference if the higher-priced option was unavailable. Split contradictory choices by usage context rather than assigning a permanent personality
 
-Treat customer roles and motivations as hypotheses initially; do not establish someone's actual identity from a single purchase behavior
+## Calculation and Interpretation
+
+For each case, deliver accepted/rejected price, conditions, observed trade-off, quote or evidence action, and the record that would overturn it. Prices from different offers do not isolate price effects
+
+Check example (hypothetical): a customer rejects 1,200 and buys a 900 option. Inspection shows the former ships in three weeks and the latter arrives tomorrow. Reclassify as a delivery-priority clue, not a maximum willingness to pay of 900
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

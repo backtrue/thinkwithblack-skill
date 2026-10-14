@@ -15,17 +15,24 @@ Task stages are analytical categories, not a claim that every customer follows t
 
 ## Required inputs
 
-Provide: The product or service, customers' own words, existing pages, and actions the company can support
 
-## Method
+Available raw records: ad/query promises, actual supply and service scope, pages, missing answers, and preparation dates
 
-1. Check whether the company actually has the supporting pages recommended by the AI/strategy
-2. If a need exists but the website has no page that answers it, mark "currently unsupported by the company"; do not pretend the page exists
-3. Then decide whether to add a page, revise the ad promise, or temporarily avoid advertising to that need
+## Method Steps
 
-## Calculations and interpretation
+1. Map each ad or query promise to actual products, service areas, inventory or capacity, page answers, and the next action. Distinguish an undocumented capability from a service the business cannot provide
+2. Add a page when fulfillment is real and the missing answer can be ready before advertising. If an existing page serves only part of the need, narrow the ad promise to that part
+3. Do not advertise a need the business cannot fulfill, a region it cannot serve, or an offer that cannot be ready in time. Writing a page does not create supply or service capacity
+4. If the page answers the question but an interaction fails, specify the repair. If demand itself has no records, retain a hypothesis and request an original query or customer remark before planning a whole page system
+5. Change a deferred demand segment to a test candidate only after fulfillment evidence and a usable page exist. Withdraw or narrow the promise when supply or service capacity disappears, even if the page is complete
 
-Search phrases and paths are planning hypotheses; check them against real search terms and evidence of how pages support the need
+## Calculation and Interpretation
+
+For each need, deliver fulfillment scope, current destination, gap, add page/narrow promise/defer advertising, and restart condition. Compare actual readiness dates with required launch dates
+
+Check example (hypothetical): Taipei installation exists but is missing from the page, so add the service answer. An ad then promises nationwide installation while service remains Taipei-only; narrow the promise rather than adding a nationwide page
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

@@ -15,17 +15,24 @@ Hypotheses are useful but do not establish demographics or market share; do not 
 
 ## Required inputs
 
-Provide: Product facts, existing customer data, surveys, or customer-service records
 
-## Method
+Available raw records: customer questions, won/lost-sale and usage records, verified product claims, evidence, and the current task
 
-1. Establish the Persona's values and purchase motivations first, then choose the selling point among the three USPs that best fits the role
-2. Use FABE to translate the selling point into a Benefit for the role, and SPIN to connect the situation, problem, implication, and value payoff
-3. Different Personas can receive different USPs/creative language for the same product; avoid making everyone hear the same message
+## Method Steps
 
-## Calculations and interpretation
+1. Identify the current task and buying barrier from questions, won/lost sales, and usage records, then match verified benefits. Persona age or occupation is background, not automatic evidence of priorities
+2. A benefit resolving the condition blocking the current choice becomes the lead for that context. Shared necessary features remain support rather than fabricated exclusivity
+3. Split different tasks within one role into different angles. The same task across roles may share a message; demographic segments do not require invented differences
+4. Connect situation → concrete problem → consequence → supported product outcome, then write a usable message with fact, benefit, and evidence. If the product cannot resolve the key barrier, change the offer or suitable audience
+5. Replace the lead when new remarks or product conditions change the barrier, identifying the replaced statement. Request one actual lost-sale reason or original question rather than a full persona questionnaire
 
-Treat customer roles and motivations as hypotheses initially; do not establish someone's actual identity from a single purchase behavior
+## Calculation and Interpretation
+
+The mapping records task evidence, candidate USP, why it matters now, usable proof, message, and replacement condition. Without outcome data, describe a supported function rather than inventing quantified results
+
+Check example (hypothetical): store manager A worries about cleaning before closing, supporting an evidenced quick-cleaning benefit. Manager B worries about fitting the equipment, supporting actual dimensions and compatibility instead of the same generic efficiency claim
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

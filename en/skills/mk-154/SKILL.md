@@ -15,17 +15,24 @@ Keep review excerpts faithful; a recommendation, collaboration plan, or reuse ar
 
 ## Required Inputs
 
-Provide: actual reviews, customer service records, collaboration content, permissions, and performance data
+
+Available raw records: the actual article, query and audience task, ranking snapshot, quote, usage rights, and any linked outcomes
 
 ## Method Steps
 
-1. Identify potential collaboration assets among the first 10–30 SERP results, including third-party content, bloggers, media, videos, forums, and retail channels
-2. Prioritize results Google has already treated as highly relevant to the target search demand, with content formats matching the SERP
-3. Assess search visibility, licensable content, Hero Post/ad reuse, and actual new-customer acquisition ability together; do not judge only by follower count
+1. Read the actual third-party article, query, reader task, ranking snapshot, quote, and usage rights. Search position records visibility, not certified quality or conversion ability
+2. An article directly serving the target customer's choice, with supported facts and rights covering the planned use, is a candidate. High ranking on an irrelevant task lowers priority or rejects it
+3. Match rights to quotation, adaptation, or paid advertising. Missing rights leave negotiation conditions and specific questions rather than immediate reuse. Material errors require correction or another source
+4. Compare delivered content, actual costs, availability date, and confirmed reuse scope with owned production or other partners. An acquisition objective needs linked outcomes; ranking does not become forecast revenue
+5. Reconsider after rights expiry, increased quotes, or topic/content changes. Request the full article or rights for the intended use rather than an entire media kit to judge relevance
 
 ## Calculation and Interpretation
 
-Use only authentic reviews and third-party content with usage rights; do not fabricate reviews, endorsements, or engagement
+Deliver article location, need served, rights/fact status, adopt/negotiate/reject, and revision condition. Use verifiable costs and compare unit outcomes only for the same objective
+
+Check example (hypothetical): a relevant article licensed for social quotation supports that use. A new paid-ad use absent from the license changes the action to negotiating advertising rights rather than carrying forward approval
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required Output Fields
 

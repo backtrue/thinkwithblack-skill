@@ -15,17 +15,24 @@ Customer segmentation and actual eligibility to receive marketing messages are s
 
 ## Required inputs
 
-Provide: member groups, product cycles, available offers, and permission to receive messages
 
-## Method steps
+Available raw records: last valid order, product quantity, actual start and usage, remaining stock, later replenishment, delivery time, and contact eligibility
 
-1. Use the brand's average purchase cycle and the member's latest purchase time to estimate the next purchase window
-2. The course materials express R ranges as multiples of the average purchase cycle; reminders should follow the brand's cycle instead of a fixed 30 days
-3. The original course materials provide no formula for estimating replenishment dates from usage; without usage data, do not claim to calculate an exact replenishment date
+## Method Steps
 
-## Calculation and interpretation
+1. Inspect last valid purchase, whether the product is consumable, usable quantity, actual start date, usage rate, and later replenishment. Purchase date is not automatically the usage start
+2. Known quantity, rate, and start date support an estimated depletion date and a reminder adjusted for actual delivery preparation. Product-specific historical intervals support a repurchase-window candidate, not an exact depletion date
+3. Do not apply replenishment to a durable product or ended use. Match a genuine compatible consumable or service when that is the next need. Exclude people who replenished, have remaining stock, or cannot be contacted
+4. If usage is missing, request existing package quantity and one usage or remaining-stock record rather than a complete questionnaire. If still unknown, deliver a cycle condition rather than a fabricated calendar date
+5. Recalculate from updated stock after replenishment, remaining-quantity, or usage changes. Cancel the schedule for refunded, undelivered orders and adjust promises for supply delays
 
-Base repeat purchase reminders on purchase cycles and contact consent; this catalog does not actually send messages
+## Calculation and Interpretation
+
+Usable days = usable quantity / actual daily usage. Estimated depletion = actual start date + usable days; subtract known delivery preparation for the reminder. Zero or intermittent usage requires separate treatment, not forced division. Deliver evidence, timing, and cancellation/rescheduling conditions
+
+Check example (hypothetical): 300 mL used from day one at 10 mL/day lasts about 30 days. On day ten, a record shows 250 mL remaining and 5 mL/day usage; estimate another 50 days from that date and postpone the original reminder
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

@@ -15,17 +15,24 @@ Event groups do not necessarily represent the same people dropping off at each s
 
 ## Required Inputs
 
-Provide: the event funnel, pages, existing audiences, and actual offer terms
+
+Available raw records: cart/order keys, products, quoted shipping, failed checkout steps, payment outcomes, and customer remarks
 
 ## Method Steps
 
-1. For people with AddToCart but no Purchase, first test simply not having bought and unexpected costs/shipping barriers
-2. Candidate responses to cost barriers include new-customer credit, shipping credit, or starter bundles, but the offers must actually exist
-3. Adding to cart without buying does not necessarily indicate a shipping problem; verify through the real shopping process, customer service, and tests
+1. Join product, fee disclosure, checkout steps, payment outcome, and customer remarks by the same cart or order key. Remove paid orders, duplicate events, and cases still within their normal payment waiting period
+2. If a required step prevents completion, such as a broken payment button or address submission, propose repairing and replaying that step. A discount does not resolve that obstruction in these records
+3. Treat fees as a candidate cause for the affected group only when checkout works and customers explicitly reject a newly disclosed cost. Compare earlier total-price disclosure, existing shipping offers, or real bundles rather than automatically proposing sitewide free shipping
+4. Match stated payment-security or delivery concerns to payment explanations or feasible delivery terms. With cart events alone, identify the unresolved checkout stage and request one failed checkout record with its payment outcome; diagnose it from the raw record
+5. A newly found successful payment removes that order from the nonbuyer group and changes the task to tracking reconciliation. If customers still reject fees after a repair, move to comparing fee offers
 
 ## Calculation and Interpretation
 
-Verify source periods, audience overlap, and exclusions; funnel changes alone do not prove psychological causes
+Abandoned carts = valid carts whose observation window has elapsed minus paid carts within that group. Without a join, report separate event counts rather than a person-level dropout rate. In the barrier and next-message fields, record the matched step, action, and new record that would invalidate the action
+
+Check example (hypothetical): a checkout reports a card-verification error, so repair payment. A later successful-payment record changes the action to investigating a missing event and excluding the buyer from nonbuyer messaging, even though shipping was also charged
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required Output Fields
 

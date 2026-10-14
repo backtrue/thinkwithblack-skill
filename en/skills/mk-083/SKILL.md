@@ -15,17 +15,24 @@ Products occurring in the same transaction do not establish psychological motive
 
 ## Required inputs
 
-Provide: SKUs, product costs, customer groups, purchase records, and product lines
 
-## Method
+Available raw records: first-purchase SKU, quantity, purpose and use, available products and costs, later orders, and product cycles
 
-1. At minimum, design a product-line sequence from traffic-driving/trial/new-customer promotional bundles to member-benefit/core/high-margin products
-2. Do not require repeat purchases of the same product; the point is for the same audience to keep buying other products in the brand's line
-3. Plan reminder timing after the first purchase. The course example invites the first repeat purchase after 10–14 days; adjust actual timing to the product cycle
+## Method Steps
 
-## Calculations and interpretation
+1. Use first SKU, quantity, purpose, usage conditions, and later orders to find the next unmet need. For directional advice, propose conditional paths from existing products without requiring complete second/third-purchase metrics
+2. Choose replenishment for a consumable approaching an evidenced usage cycle. Choose cross-product continuation when a compatible accessory or next-stage need exists while the main product remains usable. Do not force an unrelated, already-owned, or incompatible margin product
+3. For both second and third purchases, ask what the previous order resolved and what remains needed. Exclude already purchased or unsuitable products, then inspect stock, contribution, and contact eligibility
+4. Time replenishment from actual quantity/use or product-specific intervals; time complementary products from the usage stage. Without cycle data, give a trigger and request product-use evidence rather than imposing 10–14 days
+5. Replace the next product or date after a new order, remaining stock, changed use, or return. If the planned second product has been bought, move only to the next evidenced need
 
-Product selections and next-need proposals are candidates; check inventory, gross margin, existing buyers, and sales data
+## Calculation and Interpretation
+
+When measurement is requested, next-product purchase rate = people in the same first-purchase cohort buying that product within the same horizon / the complete original first-buyer group, including nonrepeat buyers. Report product mix among repeat buyers separately. Deliver product, fit evidence, trigger, exclusions, and revision record for each step
+
+Check example (hypothetical): a printer buyer explicitly needs duplex binding and a compatible binding accessory exists, supporting a next-step candidate. A new order shows that accessory was bought; remove the promotion and schedule consumable replenishment only when actual usage supports it
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

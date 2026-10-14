@@ -15,17 +15,24 @@ Brand mentions, citations, and correct descriptions are different outcomes and c
 
 ## Required inputs
 
-Provide: brand information, the official website, off-site mentions, media coverage, and search results
 
-## Method steps
+Available raw records: exact query, region, date, SERP snapshot or results, actual destination content, and available owned assets and resources
 
-1. Treat the SERP as a snapshot of market competition; inventory formats such as paid search, AI Overview, Google Business Profile, videos, news, images, and organic website results
-2. Further classify organic results into competitor websites / content, e-commerce channels, third parties, bloggers, media, videos, and similar groups; inspect at least the top 10, or the top 30 for a fuller view, and update regularly
-3. Use result formats to prioritize work: many channels suggest listings / on-platform resources; many videos suggest video planning; many third parties / media suggest collaboration; much competitor content suggests strengthening your own content and trust
+## Method Steps
 
-## Calculation and interpretation
+1. Retain the exact query, region, date, and supplied SERP snapshot/results. Classify paid, shopping, business, video, third-party, and owned-site positions. Separate temporal changes for one query from different intents
+2. Format prevalence describes entry points in that snapshot. Read representative results for the job they serve, then inspect matching demand, available content, supply, and participation requirements
+3. Improve an existing page when it can answer the task but lacks key comparison or evidence. Consider video when demonstrations serve the task better than existing text and production is feasible. Marketplace or third-party options require matching supply and cooperation rights
+4. Choose among feasible routes by the current need, gap, actual production cost, and timing. Without costs, deliver candidates and the missing comparison rather than allocating budget by format counts
+5. Reconsider after new snapshots, content, or resource corrections. Ranking or format changes do not automatically invalidate prior work. Complete the visible scope and request only necessary results for the target query
 
-Use official original information as the basis for brand facts; creating materials or requesting corrections does not mean a citation has been obtained
+## Calculation and Interpretation
+
+Format share uses inventoried positions as its denominator, with a defined treatment of multiple blocks on one page; it is not traffic share. Deliver snapshot evidence → reader task → owned gap → feasible action → replacement condition
+
+Check example (hypothetical): six of ten results are installation videos, but the target task is consumable dimensions and a usable size page exists; improve that page. Changing the query to installation instructions with real demonstration assets makes video a priority candidate
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

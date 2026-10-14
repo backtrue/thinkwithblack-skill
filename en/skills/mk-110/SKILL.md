@@ -15,17 +15,24 @@ Do not fabricate discounts, gift inventory, countdown deadlines, limited quantit
 
 ## Required inputs
 
-Provide: Campaign goals, products, costs, real offer conditions, and customer groups
 
-## Method
+Available raw records: main/add-on product fit, historical baskets, standalone and add-on prices, variable costs, eligibility, and inventory
 
-1. Paid add-ons/sales-support products use high-margin additional items to increase bundle value or average order value
-2. Calculate sales-support product costs separately in the contribution margin table so an apparently value-adding campaign does not actually erode margin
-3. The original course material specifies no fixed add-on price; design it using product cost, perceived value, and the overall contribution margin ratio
+## Method Steps
 
-## Calculations and interpretation
+1. Inspect the shared job, full-price purchase records, add-on price, actual product/fulfillment costs, eligibility, and stock. High margin does not justify an incompatible or irrelevant add-on
+2. Check whether each genuinely added purchase contributes positively and meets the objective. A negative contribution without a provided alternative campaign objective or allowance calls for repricing, replacement, or rejection
+3. Deduct baseline contribution when customers who would buy the add-on at full price switch to the offer. Redemptions are not all new demand
+4. A qualifying total-contribution scenario with supply supports a candidate. If displacement is unknown, calculate the level that reverses the decision and request historical baskets or run a capped comparison retaining the original offer
+5. Recalculate after increased displacement, main-product abandonment, or fulfillment cost changes, then narrow eligibility, replace the item, or stop. Restore candidacy only with supported demand and costs
 
-Check gross margin and stacked offers; time limits, inventory, and benefits must be real, with no promise of guaranteed results
+## Calculation and Interpretation
+
+Contribution per add-on = add-on receipts − added variable costs. Total added contribution = all add-on contribution − displaced full-price add-on contribution − added campaign cost; report main-product volume changes separately
+
+Check example (hypothetical): 20 add-ons contribute 30 each, totaling 600. Eight replace full-price purchases contributing 100 each, yielding −200 and withdrawing an all-customer offer. If only two are displaced, the scenario becomes +400 and qualifies for testing
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

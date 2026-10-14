@@ -15,17 +15,24 @@ Products occurring in the same transaction do not establish psychological motive
 
 ## Required inputs
 
-Provide: SKUs, product costs, customer groups, purchase records, and product lines
 
-## Method
+Available raw records: SKU-level first-buyer records, first and later orders, refunds, product/fulfillment/acquisition costs, and inventory
 
-1. Traffic-driving products/new-customer promotional bundles create a first purchase through high-value combinations priced below the audience's psychological price point
-2. In early growth, pair them with sales-support items that help people remember the brand. At maturity, popular products can also raise CTR and lower traffic acquisition cost
-3. A traffic-driving product is not a permanently cheap mainstay; it must lead into subsequent core/high-margin products
+## Method Steps
 
-## Calculations and interpretation
+1. For each SKU, verify first-purchase identity, first-order net receipts and variable costs, acquisition expense, supply, and later orders from the same buyers. Separate new visitors, existing members, and genuine first buyers
+2. A first order meeting the brand's objective after acquisition cost, with demand and inventory, supports an entry-product candidate. A loss-making first order must fit a provided test loss allowance, with recovery evidence or a hypothesis to test
+3. Compare complete first-buyer cohorts over equal horizons, retaining nonrepeat buyers in the denominator. Buyers not yet reaching the usage cycle are not one-time bargain shoppers. Mature cohorts without a subsequent need lower the product's priority as a long-term entry point
+4. Cheap clicks or popular sales do not establish new-buyer acquisition. Request purchase-history mapping; without it, report partial first-order economics and unknown identity
+5. Recalculate recovery after repeat purchases, refunds, or cost changes. Contract or stop the loss-making entry offer when its recovery condition fails, and consider an affordable first-order alternative
 
-Product selections and next-need proposals are candidates; check inventory, gross margin, existing buyers, and sales data
+## Calculation and Interpretation
+
+Contribution per original first buyer = cohort net order revenue less product, variable fulfillment, and acquisition costs over the specified period / original first buyers. Do not deduct discounts twice or rank unequal horizons directly
+
+Check example (hypothetical): a first-order loss of 100 per person and mature full-cohort follow-up contribution of 150 yield 50, supporting a test within the allowance. Refunds reduce follow-up contribution to 60, yielding −40 and withdrawing the recovery finding
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

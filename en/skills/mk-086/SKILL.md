@@ -15,17 +15,24 @@ Products occurring in the same transaction do not establish psychological motive
 
 ## Required inputs
 
-Provide: SKUs, product costs, customer groups, purchase records, and product lines
 
-## Method
+Available raw records: popular/new product uses and compatibility, joint baskets or questions, standalone prices, costs, and inventory
 
-1. At launch, avoid forcing a new product to sell on its own. Prioritize pairing it with known popular products or products/pages with high session value
-2. For existing customers especially, use popular products to introduce new ones, drawing on established trust and reducing the perceived-value decline from directly discounting new products
-3. Check gross margin and actual product relationships; do not force a pairing merely because one product is popular
+## Method Steps
 
-## Calculations and interpretation
+1. List the popular product and new product's jobs, compatibility, actual joint purchases/questions, standalone prices, costs, and stock. Popularity establishes demand for the existing item, not the new one
+2. A shared task or necessary sequence supported by customer remarks or usage records supports a bundle candidate. Unrelated tasks or incompatibility call for separate presentation or another pairing
+3. Compare total bundle contribution with the same customers' standalone baseline. Include concessions to people who would already buy both; the entire bundle revenue is not incremental
+4. Feasible costs and supply with unknown new-product acceptance support a bounded comparison preserving a standalone option. Request baskets and remarks rather than asking customers to diagnose whether the products fit
+5. Unbundle or replace the pairing if returns, forced-bundle abandonment, or displaced standalone sales worsen contribution. Evidence of a concrete complementary job restores candidacy within that condition
 
-Product selections and next-need proposals are candidates; check inventory, gross margin, existing buyers, and sales data
+## Calculation and Interpretation
+
+Added bundle contribution = scenario total net revenue less product/variable fulfillment costs − same-group standalone baseline contribution − added promotion costs. Report new-item units separately; bundled sales do not prove full-price demand
+
+Check example (hypothetical): the original main item contributes 300 and the bundle 340, adding 40. If the customer would also have bought the new item separately for another 100 contribution, baseline becomes 400 and the bundle loses 60; withdraw the added-value finding for that group
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 

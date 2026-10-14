@@ -15,17 +15,24 @@ Adding impressions across platforms does not yield deduplicated reach; conversio
 
 ## Required inputs
 
-Provide: GA4, GSC, advertising, and sales exports, metric definitions, and costs
 
-## Method steps
+Available raw records: deidentified first-visit cohorts and sources, visit/purchase timestamps, order history, refunds, and acquisition and order costs
 
-1. Use GA Explore / new-customer conversion reports, with dimensions such as session source / medium and landing page + query string
-2. Compare new-user counts with the number becoming first-time purchasers to assess which sources are more likely to buy on their first visit
-3. High new-customer conversion sources may be candidates for increased investment, but consider costs and traffic value as well as the rate
+## Method Steps
 
-## Calculation and interpretation
+1. Define whether new means first visit, first purchase, or first brand contact. Separate purchase on the first visit from a first purchase on a later return using deidentified user keys, first-visit source/time, purchase time, and valid orders
+2. Compare sources within first-visit cohorts of equal observation length, retaining nonbuyers in the denominator. Session-source summaries support source performance reporting, not a cohort's long-term value
+3. High conversion with low order contribution or high acquisition cost does not justify priority. Compare valid order contribution and acquisition cost per original new visitor, then consider scale, supply, and the cost objective
+4. Observed contribution after acquisition cost meeting the objective, with capacity for added demand, supports a capped expansion test. Keep immature cohorts under observation; mature loss-making cohorts support reduction candidates. Existing attribution describes observed results; additional-budget effects need a subsequent comparable test
+5. Rebuild the cohort and outcomes after first-visit attribution, refunds, or purchase-history corrections, withdrawing rankings that no longer qualify. Request missing cohort/order fields instead of dividing unrelated report totals
 
-Verify data sources, dates, currencies, denominators, and attribution; sums across platforms do not equal unique reach or incremental impact
+## Calculation and Interpretation
+
+Same-cohort first-purchase rate = first buyers within the window / original new visitors. Contribution per new visitor = cohort net order revenue minus product and variable fulfillment costs, divided by original new visitors; then subtract acquisition cost per person on the same basis. Do not calculate with a zero denominator
+
+Check example (hypothetical): A and B each bring 100 new visitors. A has ten buyers, 2,000 contribution, and 3,000 acquisition cost; B has five buyers, 2,500 contribution, and 1,000 cost. A's higher conversion does not give it priority. Refunds reducing B's contribution to 500 withdraw B's positive-contribution expansion candidate
+
+Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources remain below
 
 ## Required output fields
 
