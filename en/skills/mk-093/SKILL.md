@@ -1,6 +1,6 @@
 ---
 name: mk-093
-description: "Organizing high- and low-season pacing. Use when the task requires seasonality hypotheses grounded in historical data. Apply this method to the specified inputs and verify the deliverable"
+description: "Organizing high- and low-season pacing. Use for historical seasonality hypotheses or seasonal ecommerce questions about peak-demand assumptions, annual planning, and end-of-season monitoring. Deliver conditional guidance for general method questions; mentions of PPC or CAC alone do not trigger account diagnosis"
 ---
 
 # MK-093 | Organizing high- and low-season pacing
@@ -12,6 +12,8 @@ For a regular chat, upload `packs/mk-093.md`. It includes the shared rules, this
 This skill delivers: **Seasonality hypotheses grounded in historical data**
 
 Historical seasonality can inform planning but does not guarantee recurrence; do not create paid schedules or publish without user approval
+
+When a seasonal ecommerce operator asks whether searches, auction competition, and conversions rise together, whether to cut budgets as end-of-season costs increase, and how to plan over the long term, use this method to examine seasonal hypotheses, events, and comparability and deliver an annual phase table. Check platform concepts against current official documentation. Treat general assumptions as hypotheses and provide method guidance without requiring account data. If the user separately requests diagnosis of an actual account, confirm the campaign type, valid outcomes, mature reporting period, and change history before handing off to the relevant method. Define brand queries separately from new-versus-existing customer identity, and platform CPA separately from new-customer CAC
 
 ## Required inputs
 

@@ -1,7 +1,7 @@
 # ThinkWithBlack free method index
 
-Materials version: 2026.10.14-en.4 | 365 methods | Language: English
-Chinese source version: 2026.10.14-free.4
+Materials version: 2026.10.15-en.1 | 365 methods | Language: English
+Chinese source version: 2026.10.15-free.1
 
 ## Read this first
 
@@ -107,7 +107,7 @@ Each method pack includes the shared rules, complete method, required references
 | MK-090 | Product-profitability prioritization | Product-profitability prioritization. Use when the task requires a comparison of revenue, gross margin, and conversion performance. Apply this method to the specified inputs and verify the deliverable | [packs/mk-090.md](packs/mk-090.md) |
 | MK-091 | Product-mix gap diagnosis | Product-mix gap diagnosis. Use when the task requires imbalances between traffic-driving and profit-generating roles. Apply this method to the specified inputs and verify the deliverable | [packs/mk-091.md](packs/mk-091.md) |
 | MK-092 | Annual marketing-event inventory | Annual marketing-event inventory. Use when the task requires a table of holidays, brand milestones, and launch events. Apply this method to the specified inputs and verify the deliverable | [packs/mk-092.md](packs/mk-092.md) |
-| MK-093 | Organizing high- and low-season pacing | Organizing high- and low-season pacing. Use when the task requires seasonality hypotheses grounded in historical data. Apply this method to the specified inputs and verify the deliverable | [packs/mk-093.md](packs/mk-093.md) |
+| MK-093 | Organizing high- and low-season pacing | Organizing high- and low-season pacing. Use for historical seasonality hypotheses or seasonal ecommerce questions about peak-demand assumptions, annual planning, and end-of-season monitoring. Deliver conditional guidance for general method questions; mentions of PPC or CAC alone do not trigger account diagnosis | [packs/mk-093.md](packs/mk-093.md) |
 | MK-094 | Monthly theme planning | Monthly theme planning. Use when the task requires monthly themes connecting needs, Personas, and products. Apply this method to the specified inputs and verify the deliverable | [packs/mk-094.md](packs/mk-094.md) |
 | MK-095 | Annual campaign scheduling | Annual campaign scheduling. Use when the task requires a campaign calendar that avoids resource conflicts. Apply this method to the specified inputs and verify the deliverable | [packs/mk-095.md](packs/mk-095.md) |
 | MK-096 | Dividing roles between ongoing and campaign traffic | Dividing roles between ongoing and campaign traffic. Use when the task requires a task table for break-even traffic and campaign-driven additional volume. Apply this method to the specified inputs and verify the deliverable | [packs/mk-096.md](packs/mk-096.md) |

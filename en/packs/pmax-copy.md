@@ -1,6 +1,6 @@
 # pmax-copy | PMAX Copy Production and Review — method pack
 
-Materials version: 2026.10.14-en.4
+Materials version: 2026.10.15-en.1
 
 <a id="common-rules"></a>
 

@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.14-en.4",
+  "version": "2026.10.15-en.1",
   "language": "en",
-  "sourceVersion": "2026.10.14-free.4",
+  "sourceVersion": "2026.10.15-free.1",
   "entries": [
     {
       "id": "INF-05-07",
@@ -742,7 +742,7 @@
     {
       "id": "MK-093",
       "name": "Organizing high- and low-season pacing",
-      "description": "Organizing high- and low-season pacing. Use when the task requires seasonality hypotheses grounded in historical data. Apply this method to the specified inputs and verify the deliverable",
+      "description": "Organizing high- and low-season pacing. Use for historical seasonality hypotheses or seasonal ecommerce questions about peak-demand assumptions, annual planning, and end-of-season monitoring. Deliver conditional guidance for general method questions; mentions of PPC or CAC alone do not trigger account diagnosis",
       "source": "skills/mk-093/SKILL.md",
       "references": [],
       "pack": "packs/mk-093.md"
