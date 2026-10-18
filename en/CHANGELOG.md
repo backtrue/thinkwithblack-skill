@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026.10.18-en.1
+
+Update MK-137 to the original three-line workflow, with 14–15 Traditional Chinese characters in line one and 7–8 in the CTA, confirmed comparison-aware USPs, and all three tones
+
 ## 2026.10.14-en.4
 
 - Upgrade evidence, actions and revision conditions in 20 methods

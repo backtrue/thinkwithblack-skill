@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.15-en.1",
+  "version": "2026.10.18-en.1",
   "language": "en",
-  "sourceVersion": "2026.10.15-free.1",
+  "sourceVersion": "2026.10.18-free.1",
   "entries": [
     {
       "id": "INF-05-07",
@@ -1094,7 +1094,7 @@
     {
       "id": "MK-137",
       "name": "Three-Line Ad Copy",
-      "description": "Three-Line Ad Copy. Use when you need a draft covering the situation, connection to the solution, and expected feeling; apply this method to the specified inputs and verify the deliverable",
+      "description": "Write Traditional Chinese Facebook ads with three confirmed comparison-aware USPs and active, friendly, and professional variants. Require 14–15 Traditional Chinese characters without punctuation in line one and 7–8 Traditional Chinese characters in the CTA",
       "source": "skills/mk-137/SKILL.md",
       "references": [],
       "pack": "packs/mk-137.md"
