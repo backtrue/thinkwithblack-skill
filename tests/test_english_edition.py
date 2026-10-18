@@ -84,7 +84,10 @@ class EnglishEditionTests(unittest.TestCase):
         name = next(name for name, meta in one['artifacts'].items() if meta.get('language') == 'en')
         with zipfile.ZipFile(self.base / 'one' / name) as archive:
             self.assertEqual(set(archive.namelist()), e.paths(self.root))
-            self.assertEqual(len([p for p in archive.namelist() if p.startswith('packs/')]), 365)
+            manifest = e.load(self.root)
+            self.assertEqual(len(manifest['entries']), 365)
+            self.assertEqual({p for p in archive.namelist() if p.startswith('packs/')},
+                             {entry['pack'] for entry in manifest['entries'] + manifest.get('supplements', [])})
             self.assertIn('Read the attached INDEX.md', archive.read('README.md').decode())
             self.assertNotIn('en/INDEX.md', archive.namelist())
             for path in archive.namelist():

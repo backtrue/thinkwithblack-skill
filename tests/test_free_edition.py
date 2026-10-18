@@ -46,4 +46,22 @@ class FreeEditionTests(unittest.TestCase):
         for name in ['mk-001','mk-059','mk-390']:
             text=out['packs/'+name+'.md'].decode()
             self.assertIn('重新查索引',text);self.assertIn('## 方法步驟',text);self.assertIn('## 方法來源',text)
+    def test_supplement_keeps_the_complete_article_and_has_no_file_dependencies(self):
+        manifest,out=b.verify(self.root)
+        self.assertEqual(len(manifest['entries']),365)
+        supplement=manifest['supplements'][0]
+        sample=(self.root/'supplements/speak-human-tw/references/long-form-approved-example.md').read_text().strip()
+        pack=out[supplement['pack']].decode()
+        self.assertIn(sample,pack)
+        self.assertIn('(#supplement-reference-',pack)
+        self.assertIn('speak-human-tw',out['INDEX.md'].decode())
+        catalog=json.loads(out['catalog.json'])
+        self.assertEqual(catalog['supplements'][0]['sourceSha256'],b.sha((self.root/supplement['source']).read_bytes()))
+    def test_supplement_missing_reference_is_rejected(self):
+        (self.root/'supplements/speak-human-tw/references/long-form-approved-example.md').unlink()
+        with self.assertRaisesRegex(ValueError,'Missing supplemental source'):b.verify(self.root)
+    def test_original_language_supplement_cannot_drift_in_english_download(self):
+        p=self.root/'en/supplements/speak-human-tw/references/long-form-approved-example.md'
+        p.write_text(p.read_text()+'\nChanged example\n')
+        with self.assertRaisesRegex(ValueError,'Source-language supplement differs'):b.verify(self.root)
 if __name__=='__main__':unittest.main()

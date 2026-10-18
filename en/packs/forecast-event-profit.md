@@ -1,6 +1,6 @@
 # forecast-event-profit | Campaign Budget and Profit Forecasting — method pack
 
-Materials version: 2026.10.18-en.1
+Materials version: 2026.10.18-en.2
 
 <a id="common-rules"></a>
 

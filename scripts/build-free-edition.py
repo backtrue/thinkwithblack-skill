@@ -37,10 +37,35 @@ def load(root):
             if any(x in Path(f).parts for x in FORBIDDEN):raise ValueError('Product file: '+f)
     actual={str(p.relative_to(root)) for group in ['skills','extensions'] for p in (root/group).glob('*/SKILL.md')}
     if actual!=sources:raise ValueError('Public method inventory mismatch: '+str(sorted(actual^sources)))
+    for e in m.get('supplements',[]):
+        identifier=e['id'];prefix='supplements/'+identifier+'/'
+        if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',identifier) or identifier in ids:raise ValueError('Invalid supplemental ID')
+        if e['source']!=prefix+'SKILL.md' or e['pack']!='packs/'+identifier+'.md' or e.get('language')!='zh-TW':raise ValueError('Invalid supplemental mapping')
+        ids.add(identifier)
+        for rel in [e['source']]+e['references']:
+            if not rel.startswith(prefix) or not safe(root,rel).is_relative_to((root/prefix).resolve()):raise ValueError('Supplemental path outside Skill')
+            if not safe(root,rel).is_file():raise ValueError('Missing supplemental source: '+rel)
+            if any(x in Path(rel).parts for x in FORBIDDEN):raise ValueError('Product file: '+rel)
     return m
 
 def source_files(m):
-    return sorted(set(DOCS+['free-content.json']+[f for e in m['entries'] for f in [e['source']]+e['references']]))
+    return sorted(set(DOCS+['free-content.json']+[f for e in m['entries']+m.get('supplements',[]) for f in [e['source']]+e['references']]))
+
+def render_supplement(root,entry,version):
+    refs=entry['references']
+    anchors={safe(root,rel):'supplement-reference-'+str(i) for i,rel in enumerate(refs,1)}
+    chunks=[f'# {entry["name"]}\n\n版本：{version}｜原文語言：{entry["language"]}']
+    for rel in [entry['source']]+refs:
+        text=safe(root,rel).read_text()
+        if rel==entry['source']:text=re.sub(r'\A---\n.*?\n---\n','',text,flags=re.S)
+        def replace(match):
+            target=local_link(root,rel,match[1])
+            if target in anchors:return match[0].replace('('+match[1]+')','(#'+anchors[target]+')')
+            return match[0]
+        text=LINK.sub(replace,text).strip()
+        if rel in refs:chunks.append(f'<a id="{anchors[safe(root,rel)]}"></a>\n\n## 附錄：{Path(rel).name}\n\n'+text)
+        else:chunks.append(text)
+    return ('\n\n'.join(chunks)+'\n').encode()
 
 def local_link(root,current,link):
     link=unquote(link.strip('<>')).split('#',1)[0]
@@ -86,6 +111,11 @@ def expected(root):
         entries.append({**e,'sourceSha256':sha((root/e['source']).read_bytes()),'packSha256':sha(pack),
                         'referenceSha256':{p:sha((root/p).read_bytes()) for p in e['references']}})
     catalog={'schemaVersion':'2.0','edition':'free','version':version,'entryCount':len(entries),'entries':entries}
+    if m.get('supplements'):
+        catalog['supplements']=[]
+        for e in m['supplements']:
+            pack=render_supplement(root,e,version);out[e['pack']]=pack
+            catalog['supplements'].append({**e,'sourceSha256':sha((root/e['source']).read_bytes()),'packSha256':sha(pack),'referenceSha256':{p:sha((root/p).read_bytes()) for p in e['references']}})
     out['catalog.json']=(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n').encode()
     intro=f'''# ThinkWithBlack 免費方法索引
 
@@ -107,6 +137,9 @@ def expected(root):
     for e in entries:
         desc=e['description'].replace('|','／').replace('\n',' ')
         intro+=f'| {e["id"]} | {e["name"]} | {desc} | [{e["pack"]}]({e["pack"]}) |\n'
+    if m.get('supplements'):
+        intro+='\n## 附加校稿工具\n\n'
+        for e in m['supplements']:intro+=f'- [{e["name"]}]({e["pack"]})：{e["description"]}\n'
     out['INDEX.md']=intro.encode()
     return m,out
 

@@ -36,6 +36,12 @@ def load(root):
         for key in ['name', 'description']:
             if not entry[key].strip() or re.search(r'[\u3400-\u9fff]', entry[key]):
                 raise ValueError('Untranslated English metadata: ' + identifier + ': ' + key)
+    if manifest.get('supplements',[]) != original.get('supplements',[]):
+        raise ValueError('Source-language supplement inventory mismatch')
+    for entry in manifest.get('supplements',[]):
+        for rel in [entry['source']]+entry['references']:
+            if core.safe(root,rel).read_bytes()!=core.safe(english,rel).read_bytes():
+                raise ValueError('Source-language supplement differs: '+rel)
     return manifest
 
 
@@ -93,6 +99,12 @@ def expected(root):
     catalog = {'schemaVersion': '2.0', 'edition': 'free', 'language': 'en',
                'version': manifest['version'], 'sourceVersion': manifest['sourceVersion'],
                'entryCount': len(entries), 'entries': entries}
+    if manifest.get('supplements'):
+        catalog['supplements']=[]
+        for entry in manifest['supplements']:
+            pack=core.render_supplement(english,entry,manifest['version'])
+            generated[entry['pack']]=pack
+            catalog['supplements'].append({**entry,'sourceSha256':core.sha((english/entry['source']).read_bytes()),'packSha256':core.sha(pack),'referenceSha256':{p:core.sha((english/p).read_bytes()) for p in entry['references']}})
     generated['catalog.json'] = (json.dumps(catalog, ensure_ascii=False, indent=2) + '\n').encode()
     index = f'''# ThinkWithBlack free method index
 
@@ -116,6 +128,10 @@ Each method pack includes the shared rules, complete method, required references
         desc = entry['description'].replace('|', '/').replace('\n', ' ')
         name = entry['name'].replace('|', '/')
         index += f'| {entry["id"]} | {name} | {desc} | [{entry["pack"]}]({entry["pack"]}) |\n'
+    if manifest.get('supplements'):
+        index+='\n## Source-language editing supplements\n\n'
+        for entry in manifest['supplements']:
+            index+=f'- [{entry["id"]}: Traditional Chinese editing helper]({entry["pack"]}) — includes the complete original-language writing example\n'
     generated['INDEX.md'] = index.encode()
     return manifest, generated
 
@@ -206,13 +222,14 @@ def verify(root):
         if (english / rel).read_bytes() != data:
             raise ValueError('Stale English generated file: ' + rel)
     exceptions = language_exceptions(root)
+    original_language_files={p for entry in manifest.get('supplements',[]) for p in [entry['source'],entry['pack']]+entry['references']}
     for rel in sorted(wanted):
         path = core.safe(english, rel)
         text = path.read_text()
         for pattern in core.PRODUCT_PATTERNS:
             if re.search(pattern, text):
                 raise ValueError('Product content in English file: ' + rel + ': ' + pattern)
-        if rel.endswith(('.md', '.csv')):
+        if rel.endswith(('.md', '.csv')) and rel not in original_language_files:
             verify_language(rel, text, exceptions)
         if rel.endswith('.md'):
             verify_fragments(english, rel, text)

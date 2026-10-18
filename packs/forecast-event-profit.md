@@ -1,6 +1,6 @@
 # forecast-event-profit｜檔期預算與獲利預估 方法包
 
-教材版本：2026.10.18-free.1
+教材版本：2026.10.18-free.2
 
 <a id="common-rules"></a>
 

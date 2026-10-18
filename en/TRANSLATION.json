@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0",
   "language": "en",
-  "version": "2026.10.18-en.1",
+  "version": "2026.10.18-en.2",
   "sourceLanguage": "zh-TW",
-  "sourceVersion": "2026.10.18-free.1",
+  "sourceVersion": "2026.10.18-free.2",
   "sourceRevision": "28f0c2ccf0f8581b857f8d1d854d43908acc3656",
   "sourceFiles": {
     "CHANGELOG.md": "34962efad2f47adc8fa6c8e07d95f047fe42e3558ba1b2bb415669521ac49cd5",
@@ -32,7 +32,7 @@
     "extensions/write-marketing-rollout-plan/SKILL.md": "47864cd899099744bb7f9c1dc0c791a9b77598540e931eaf27e705501a5b2cbd",
     "extensions/write-marketing-rollout-plan/THIRD_PARTY_NOTICES.md": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
     "extensions/write-marketing-rollout-plan/references/sources.md": "1f35e48160760d503969e714c080007a9d683fa37429c00d5b3496ad6cab4d32",
-    "free-content.json": "a42de8662b65adf38ba2f8b12f5aecad3574aa275d5bd3f387739a14061656e8",
+    "free-content.json": "c96fbc090f938a5461465db50fc284e3a441e612a5e01b10a92fa9d210efdf49",
     "skills/inf-05-07/SKILL.md": "f3ce55e361cd90425013437c63605a2ebf6b8b4a45c285b79c4e7a68da04c566",
     "skills/mk-001/SKILL.md": "9a6755cf10b5cd5b9da82002e07cc565151a43a7f4f9170fa0e9ae695dc94b1e",
     "skills/mk-002/SKILL.md": "87864cc1ed84085c8f764f403a3d4e67068216ba076c02a1dd7eda674c772993",
@@ -396,7 +396,16 @@
     "skills/mk-441/SKILL.md": "64a5ccf6b938d0d3d61656427b94dd48824e22e65c10f7ab20e7df77a0cd3959",
     "skills/mk-444/SKILL.md": "32f5921c91306af47885c0da6d20a2b6dda4ba0d6dbf52cd83d79efab3fbdf80",
     "skills/mk-448/SKILL.md": "215766d776e050d47220c18863d5d7aee8961798d599e2b44e7e397e8a633bd5",
-    "skills/mk-450/SKILL.md": "ee82483918d2144696f113fefe57fc862b723a7774b92094a6dad93536944ab3"
+    "skills/mk-450/SKILL.md": "ee82483918d2144696f113fefe57fc862b723a7774b92094a6dad93536944ab3",
+    "supplements/speak-human-tw/LICENSE": "51b47eb42673c9b0051b6579e49b6e9db0d2ee1f05a8d2285aaabf559bd178a2",
+    "supplements/speak-human-tw/SKILL.md": "e2a8b4c0c739f8603d780175ca7b20fd5da568a33f0693eda4fbe5c72ac5d997",
+    "supplements/speak-human-tw/references/examples.md": "99933365bfb8940bb30508e71b8236ac28b5156b29b8c8aeb6d3c43b7cbbcad0",
+    "supplements/speak-human-tw/references/long-form-approved-example.md": "e12f6c88165906fe7d48b207641885545c477224e9b75a2042a4a8693eba7585",
+    "supplements/speak-human-tw/references/patterns.md": "1d2be8a988d6a563585bd49fd6e409c20580d68e069cf768c77e4affee8bfb0e",
+    "supplements/speak-human-tw/references/protected-content.md": "cc4d7a8cb82d4b6d710139a2b0c736e18b55d82595a1ef38877a0580f560b9fe",
+    "supplements/speak-human-tw/references/scenes.md": "f3fed8efad26fb909c5adc85a620ca1fcae0331b41555a55264582b8e7525986",
+    "supplements/speak-human-tw/references/taiwan-localization.md": "5dd6115d19228455ea79261c8b47b7d3f8df90d179e506cf689571a9bce12b4d",
+    "supplements/speak-human-tw/references/voice-and-rhythm.md": "7368d0628ae78e62299fb44aec7046277a2d927f3d923fa4136a681b1857ec19"
   },
   "translatedFiles": {
     "CHANGELOG.md": "d450bf57c84b7440158b245f03c5e57008e0f34c76c9d9134b6fea6e32c1e860",
@@ -425,7 +434,7 @@
     "extensions/write-marketing-rollout-plan/SKILL.md": "ba1b29c0200b51ceb11149c59ab92ae66127fdb62cfc22bbe079f62e8ca0dc06",
     "extensions/write-marketing-rollout-plan/THIRD_PARTY_NOTICES.md": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
     "extensions/write-marketing-rollout-plan/references/sources.md": "d1c4a52dfc576bc50829e3a6a89b75e58757508cd884e55e0823b637309a5846",
-    "free-content.json": "410ed474cb44c50a203e516ee78b15161a47af527b57ad3cfc885bf1d76b6bb7",
+    "free-content.json": "cd84d205ca41dd4a8b4d0241e12edce44a05d16f3acb19e82990fe1560a03f06",
     "skills/inf-05-07/SKILL.md": "b57f298d021fe481378c273b87f8316c4664aa84407c1626adc45c5c9263964c",
     "skills/mk-001/SKILL.md": "d1f3a2e52841461e3c723e326078a59e2759592dad8df407c05811cfdf9bee68",
     "skills/mk-002/SKILL.md": "bf9085486e3df742290384b9932f8f16e86c50bcb4f26ab6fae05eeb858ee5a7",
@@ -789,6 +798,22 @@
     "skills/mk-441/SKILL.md": "024460406fc49c4a0e467987c41545874e4a70f65330ea7d3231e272052b3a8a",
     "skills/mk-444/SKILL.md": "34e0d54c5ef1ba2d6f6150846e71d26ca166456368a6a48a760c351aad81dc6b",
     "skills/mk-448/SKILL.md": "2fe873f71eb641e95285c88f9e6dbee065294c0f80721358e360db55bb3da592",
-    "skills/mk-450/SKILL.md": "62bf77e18824271939d0e98b78d47edb7bcdb65d5aa161ac1e31077de144182e"
-  }
+    "skills/mk-450/SKILL.md": "62bf77e18824271939d0e98b78d47edb7bcdb65d5aa161ac1e31077de144182e",
+    "supplements/speak-human-tw/LICENSE": "51b47eb42673c9b0051b6579e49b6e9db0d2ee1f05a8d2285aaabf559bd178a2",
+    "supplements/speak-human-tw/SKILL.md": "e2a8b4c0c739f8603d780175ca7b20fd5da568a33f0693eda4fbe5c72ac5d997",
+    "supplements/speak-human-tw/references/examples.md": "99933365bfb8940bb30508e71b8236ac28b5156b29b8c8aeb6d3c43b7cbbcad0",
+    "supplements/speak-human-tw/references/long-form-approved-example.md": "e12f6c88165906fe7d48b207641885545c477224e9b75a2042a4a8693eba7585",
+    "supplements/speak-human-tw/references/patterns.md": "1d2be8a988d6a563585bd49fd6e409c20580d68e069cf768c77e4affee8bfb0e",
+    "supplements/speak-human-tw/references/protected-content.md": "cc4d7a8cb82d4b6d710139a2b0c736e18b55d82595a1ef38877a0580f560b9fe",
+    "supplements/speak-human-tw/references/scenes.md": "f3fed8efad26fb909c5adc85a620ca1fcae0331b41555a55264582b8e7525986",
+    "supplements/speak-human-tw/references/taiwan-localization.md": "5dd6115d19228455ea79261c8b47b7d3f8df90d179e506cf689571a9bce12b4d",
+    "supplements/speak-human-tw/references/voice-and-rhythm.md": "7368d0628ae78e62299fb44aec7046277a2d927f3d923fa4136a681b1857ec19"
+  },
+  "sourceLanguageSupplements": [
+    {
+      "id": "speak-human-tw",
+      "language": "zh-TW",
+      "handling": "Preserve the original Traditional Chinese editing instructions, references and complete writing example in both download editions"
+    }
+  ]
 }

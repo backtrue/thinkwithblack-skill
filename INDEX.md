@@ -1,6 +1,6 @@
 # ThinkWithBlack 免費方法索引
 
-教材版本：2026.10.18-free.1｜共 365 份方法
+教材版本：2026.10.18-free.2｜共 365 份方法
 
 ## 先讀這段
 
@@ -379,3 +379,7 @@
 | write-marketing-rollout-plan | 書面行銷策略與 rollout | 將既有行銷想法寫成主管看得懂的季度／指定期間策略與廣告 rollout，交付目的、採用做法及依據、階段與依賴、責任資源、衡量回顧及可填範本；適用詢問怎麼寫、如何避免空泛、用文件或 Excel。單純活動前倒排、實際投放設定、預算推算及索取已發生的同業案例另依該工作處理 | [packs/write-marketing-rollout-plan.md](packs/write-marketing-rollout-plan.md) |
 | forecast-event-profit | 檔期預算與獲利預估 | 以歷史檔期與近期基準估計促銷 CPM、轉換率、客單，建立廣告預算、營收與貢獻利潤情境及回測。適用黑五等檔期預估與建模教學；只有已給數值的敏感度比較使用既有敏感度方法 | [packs/forecast-event-profit.md](packs/forecast-event-profit.md) |
 | simplify-member-rules | 會員規則簡化與理解檢查 | 將既有點數、會員、訂閱及數位權益規則整理成顧客看得懂的說明，逐情境核對改寫前後的權益相同，並設計不提示答案的理解測試。適用規則太多、名稱混亂、例外難找；輸入既有制度，交規則對照、顧客說明、測試題與答案表 | [packs/simplify-member-rules.md](packs/simplify-member-rules.md) |
+
+## 附加校稿工具
+
+- [說人話：繁中去 AI 味](packs/speak-human-tw.md)：潤飾既有繁體中文長文，保留背景鋪陳、作者關切、自然銜接與完整參考範例

@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.18-en.1",
+  "version": "2026.10.18-en.2",
   "language": "en",
-  "sourceVersion": "2026.10.18-free.1",
+  "sourceVersion": "2026.10.18-free.2",
   "entries": [
     {
       "id": "INF-05-07",
@@ -2937,6 +2937,26 @@
         "extensions/simplify-member-rules/references/sources.md"
       ],
       "pack": "packs/simplify-member-rules.md"
+    }
+  ],
+  "supplements": [
+    {
+      "id": "speak-human-tw",
+      "name": "說人話：繁中去 AI 味",
+      "description": "潤飾既有繁體中文長文，保留背景鋪陳、作者關切、自然銜接與完整參考範例",
+      "source": "supplements/speak-human-tw/SKILL.md",
+      "references": [
+        "supplements/speak-human-tw/LICENSE",
+        "supplements/speak-human-tw/references/examples.md",
+        "supplements/speak-human-tw/references/long-form-approved-example.md",
+        "supplements/speak-human-tw/references/patterns.md",
+        "supplements/speak-human-tw/references/protected-content.md",
+        "supplements/speak-human-tw/references/scenes.md",
+        "supplements/speak-human-tw/references/taiwan-localization.md",
+        "supplements/speak-human-tw/references/voice-and-rhythm.md"
+      ],
+      "pack": "packs/speak-human-tw.md",
+      "language": "zh-TW"
     }
   ]
 }
