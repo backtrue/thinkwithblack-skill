@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026.10.20-en.1
+
+MK-137 counts all text before the arrow as one complete 7–8-character Traditional Chinese CTA, including every prefix; remove the extra introduction allowance and update validation examples
+
 ## 2026.10.18-en.1
 
 Update MK-137 to the original three-line workflow, with 14–15 Traditional Chinese characters in line one and 7–8 in the CTA, confirmed comparison-aware USPs, and all three tones
