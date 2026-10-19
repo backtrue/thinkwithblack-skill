@@ -39,6 +39,8 @@ The consumer's potential feelings after use
 
 The introduction and CTA together must contain 10–15 characters before the arrow. The entire second line, including introduction, CTA, arrow, and URL, must remain within 40 characters
 
+Actual character validation: count each Chinese character as one Unicode character, rather than bytes, display width, or UTF-16 code units. Submit all three complete active, friendly, and professional drafts to the checker after writing. Validate 14–15 Chinese characters in line one, 7–8 in the CTA, 10–15 characters in the full message before the arrow, and at most 40 characters in each of lines two and three. If a tone is missing or duplicated, or any draft fails, rewrite and resubmit all three complete drafts. Deliver only after every draft passes, using the exact validated text. Any edits require another validation
+
 ## Calculation and Interpretation
 
 Make the consumer the subject; products, brands, and components are objects the consumer uses or chooses. Describe feelings in line three rather than listing features or specifications
