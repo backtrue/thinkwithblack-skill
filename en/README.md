@@ -14,9 +14,9 @@ Created by [Chiu Yu-Ting — Teacher Black](#meet-the-person-behind-the-methods)
 
 Product positioning · Ad copy · Campaign budgets · Contribution margin · Repeat purchases<br>**Start with the problem on your desk today**
 
-[![365 Skills](https://img.shields.io/badge/Marketing_Skills-365-171717?style=flat-square)](INDEX.md) [![Markdown](https://img.shields.io/badge/Format-Markdown-F2C94C?style=flat-square&labelColor=171717)](START_HERE.md) [![MIT License](https://img.shields.io/badge/License-MIT-171717?style=flat-square)](LICENSE)
+[![365 Skills](https://img.shields.io/badge/Marketing_Skills-365-171717?style=flat-square)](INDEX.md) [![Markdown](https://img.shields.io/badge/Format-Markdown-F2C94C?style=flat-square&labelColor=171717)](START_HERE.md) [![MIT License](https://img.shields.io/badge/License-MIT-171717?style=flat-square)](LICENSE) [![npm](https://img.shields.io/npm/v/ai-marketing-skills?style=flat-square)](https://www.npmjs.com/package/ai-marketing-skills)
 
-**[Get the full toolkit ↓](https://github.com/backtrue/thinkwithblack-skill/releases)** · **[Explore all 365 skills](INDEX.md)** · **[Start your first task](#start-your-first-task)**
+**[Install with npx](#install-with-npx)** · **[Get the full toolkit ↓](https://github.com/backtrue/thinkwithblack-skill/releases)** · **[Explore all 365 skills](INDEX.md)** · **[Start your first task](#start-your-first-task)**
 
 **365 methods worth keeping? Give the repository a Star ⭐**<br>Keep your marketing toolbox one click away
 
@@ -24,13 +24,39 @@ Product positioning · Ad copy · Campaign budgets · Contribution margin · Rep
 
 ---
 
+## Install with npx
+
+With Node.js 20 or later and npm installed, open a terminal in the project where you want to use a skill and run:
+
+```bash
+npx ai-marketing-skills
+```
+
+Choose English or Traditional Chinese, select your AI tool, and describe your task, such as "calculate product margin". Pick a method from the results to install it in the current project for Claude Code, Codex or Cursor
+
+Open the same project in your selected tool, ask your question and provide the required data. The complete method is available locally
+
+You can also use these commands:
+
+| Task | Command |
+|---|---|
+| Find a method | `npx ai-marketing-skills search "calculate product margin" --lang en` |
+| Install the contribution-margin method for Codex | `npx ai-marketing-skills install contribution-margin --agent codex --lang en` |
+| Export for an AI conversation | `npx ai-marketing-skills export contribution-margin --lang en` |
+
+Use `claude-code`, `codex` or `cursor` for `--agent`. Use `--lang zh-TW` for Traditional Chinese methods
+
+For an AI conversation export, follow `README.md` in the exported folder to upload the method and practice files, then paste `STARTER_PROMPT.txt` to begin
+
+[View the npm package and versions](https://www.npmjs.com/package/ai-marketing-skills)
+
 ## Put your AI to work on today’s marketing problem
 
 “What actually makes this product worth buying?” “After ads and shipping, what do we keep?” “They bought once — how do we bring them back?”
 
-**Marketing Skills for Everyone** gives you **365 complete Markdown method packs** to upload to an AI conversation. Each includes the inputs it needs, steps to follow, output fields and checks that help you assess the result
+**Marketing Skills for Everyone** gives you **365 complete Markdown method packs**. Install a method in Claude Code, Codex or Cursor with npx, or upload it to an AI conversation. Each includes the inputs it needs, steps to follow, output fields and checks that help you assess the result
 
-**Describe your problem and let the AI find a method in the index.** Then upload that pack and your data. You do not need to memorize 365 skill names
+When using file uploads, **describe your problem and let the AI find a method in the index.** Then upload that pack and your data. You do not need to memorize 365 skill names
 
 ## Why I made these skills open source
 
