@@ -1,7 +1,7 @@
 # ThinkWithBlack free method index
 
-Materials version: 2026.10.21-en.1 | 365 methods | Language: English
-Chinese source version: 2026.10.21-free.1
+Materials version: 2026.10.21-en.2 | 365 methods | Language: English
+Chinese source version: 2026.10.21-free.2
 
 ## Read this first
 
@@ -151,7 +151,7 @@ Each method pack includes the shared rules, complete method, required references
 | MK-134 | Sales Page Single-Variable Test Design | Sales Page Single-Variable Test Design. Use when you need one key difference compared per test; apply this method to the specified inputs and verify the deliverable | [packs/mk-134.md](packs/mk-134.md) |
 | MK-135 | FABE Ad Copy Generation | FABE Ad Copy Generation. Use when you need a complete draft covering features, advantages, benefits, and evidence; apply this method to the specified inputs and verify the deliverable | [packs/mk-135.md](packs/mk-135.md) |
 | MK-136 | FABE Copy Gap Check | FABE Copy Gap Check. Use when you need missing or inconsistent elements among the four components; apply this method to the specified inputs and verify the deliverable | [packs/mk-136.md](packs/mk-136.md) |
-| MK-137 | Three-Line Ad Copy | Write Traditional Chinese Facebook ads with three confirmed comparison-aware USPs and active, friendly, and professional variants. Require 14–15 Traditional Chinese characters without punctuation in line one and 7–8 Traditional Chinese characters in the entire CTA before the arrow, including any prefix | [packs/mk-137.md](packs/mk-137.md) |
+| MK-137 | Three-Line Ad Copy | Write Traditional Chinese Facebook ads from three confirmed comparison-aware USPs. Base line one on the Persona’s buying motivation rather than a fixed pain-point formula. Deliver three tones with 14–15 Traditional Chinese characters in line one and 7–8 in the complete CTA | [packs/mk-137.md](packs/mk-137.md) |
 | MK-138 | Situational Question Opening | Situational Question Opening. Use when you need opening candidates matched to usage occasions; apply this method to the specified inputs and verify the deliverable | [packs/mk-138.md](packs/mk-138.md) |
 | MK-139 | Benefit-Led Headline | Benefit-Led Headline. Use when you need headlines supported by product facts; apply this method to the specified inputs and verify the deliverable | [packs/mk-139.md](packs/mk-139.md) |
 | MK-140 | Evidence-Led Creative Planning | Evidence-Led Creative Planning. Use when you need a plan for turning data or demonstrations into creative; apply this method to the specified inputs and verify the deliverable | [packs/mk-140.md](packs/mk-140.md) |

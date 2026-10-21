@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026.10.21-en.2
+
+MK-137 starts line one from the Persona’s buying motivation, selecting pain points, aspirations, self-identity, or purchase concerns accordingly. Check the opening–USP connection, add matching cases, and preserve the character limits and all-three-draft validation
+
 ## 2026.10.21-en.1
 
 - Review all 365 methods across content, routing, consistency, structure, execution and maintenance

@@ -1,6 +1,6 @@
 # write-marketing-rollout-plan | Written Marketing Strategy and Rollout — method pack
 
-Materials version: 2026.10.21-en.1
+Materials version: 2026.10.21-en.2
 
 <a id="common-rules"></a>
 
