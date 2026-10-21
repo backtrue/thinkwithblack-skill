@@ -1,0 +1,76 @@
+{
+  "skill_id": "MK-428",
+  "source_sha256": "704f1c94e839f6f4ee34844117a83dfdd0dbd928070aeb1de71dec89239d5752",
+  "role": "producer",
+  "stages": {
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.destination_url",
+            "label": "\u5b8c\u6574\u76ee\u7684 URL\uff0c\u5305\u542b\u539f\u6709 query \u8207 fragment",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5b8c\u6574\u76ee\u7684 URL\u3001\u6838\u51c6\u7684 source/medium/campaign \u503c\u3001\u9700\u8981\u6642\u7684 content/term\u3001\u73fe\u6709\u8ffd\u8e64\u53c3\u6578\u53ca\u9700\u8981\u4fdd\u7559\u7684 query \u8207 fragment"
+          },
+          {
+            "field": "task.utm_values",
+            "label": "\u5df2\u6838\u51c6 source\u3001medium\u3001campaign \u53ca\u672c\u6b21\u9700\u8981\u7684 content\u3001term",
+            "location": "task",
+            "states": [
+              "user_confirmed"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5b8c\u6574\u76ee\u7684 URL\u3001\u6838\u51c6\u7684 source/medium/campaign \u503c\u3001\u9700\u8981\u6642\u7684 content/term\u3001\u73fe\u6709\u8ffd\u8e64\u53c3\u6578\u53ca\u9700\u8981\u4fdd\u7559\u7684 query \u8207 fragment"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u4fdd\u7559\u65e2\u6709\u53c3\u6578\u8207 fragment \u7684 UTM \u7db2\u5740"
+    },
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u65b9\u6cd5\u3001\u516c\u5f0f\u8207\u660e\u793a\u5047\u8a2d\u793a\u4f8b"
+    }
+  },
+  "writeback": [
+    "rule.utm_dictionary"
+  ],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4f9d datum ID\u3001\u4f86\u6e90\u7248\u672c\u8207\u5167\u5bb9\u6458\u8981\u91cd\u67e5\u884d\u751f\u8cc7\u6599\u53ca\u4efb\u52d9"
+  },
+  "schema_version": 1,
+  "method_sha256": "1bc8cbacde825681b93611c4cc9c5a6e2cccd6760b77fc51d1c70b520a2aa472",
+  "method_path": "skills/mk-428/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

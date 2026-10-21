@@ -1,7 +1,7 @@
 # ThinkWithBlack free method index
 
-Materials version: 2026.10.21-en.3 | 365 methods | Language: English
-Chinese source version: 2026.10.21-free.3
+Materials version: 2026.10.22-en.1 | 365 methods | Language: English
+Chinese source version: 2026.10.22-free.1
 
 ## Read this first
 

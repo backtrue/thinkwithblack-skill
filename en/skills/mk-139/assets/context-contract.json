@@ -1,0 +1,321 @@
+{
+  "skill_id": "MK-139",
+  "source_sha256": "b6abe09c10e3499f2165ec22c3f480241f55b5eca526d5b57c11722502139273",
+  "role": "conditional",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u63d0\u4f9b\u7684 Persona\u3001USP \u8207\u8b49\u64da\u7f3a\u9805"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "persona.profile",
+            "label": "\u5df2\u78ba\u8a8d Persona",
+            "location": "context",
+            "states": [
+              "user_confirmed"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "persona_id"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "MK-028",
+            "condition": null,
+            "source_excerpt": "\u5df2\u78ba\u8a8d Persona\u3001\u4e09\u500b USP \u8207\u8b49\u64da\u3001\u7522\u54c1\u4e8b\u5be6\u53ca\u6295\u653e\u60c5\u5883\uff1b\u5df2\u6709\u6587\u6848\u6642\u63d0\u4f9b\u539f\u7a3f\uff0c\u5f9e\u96f6\u7522\u7a3f\u6642\u76f4\u63a5\u4f7f\u7528\u524d\u8ff0\u8cc7\u6599"
+          },
+          {
+            "field": "claim.usp",
+            "label": "\u76f8\u540c\u5546\u54c1\u7248\u672c\u7684\u4e09\u500b\u5df2\u78ba\u8a8d USP",
+            "location": "context",
+            "states": [
+              "user_confirmed"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 3,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "MK-002",
+            "condition": null,
+            "exact_count": 3,
+            "source_excerpt": "\u5df2\u78ba\u8a8d Persona\u3001\u4e09\u500b USP \u8207\u8b49\u64da\u3001\u7522\u54c1\u4e8b\u5be6\u53ca\u6295\u653e\u60c5\u5883\uff1b\u5df2\u6709\u6587\u6848\u6642\u63d0\u4f9b\u539f\u7a3f\uff0c\u5f9e\u96f6\u7522\u7a3f\u6642\u76f4\u63a5\u4f7f\u7528\u524d\u8ff0\u8cc7\u6599"
+          },
+          {
+            "field": "claim.proof",
+            "label": "\u5404\u9805 USP \u7684\u53ef\u6838\u5c0d\u8b49\u64da",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 3,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "MK-005",
+            "condition": null,
+            "source_excerpt": "\u5df2\u78ba\u8a8d Persona\u3001\u4e09\u500b USP \u8207\u8b49\u64da\u3001\u7522\u54c1\u4e8b\u5be6\u53ca\u6295\u653e\u60c5\u5883\uff1b\u5df2\u6709\u6587\u6848\u6642\u63d0\u4f9b\u539f\u7a3f\uff0c\u5f9e\u96f6\u7522\u7a3f\u6642\u76f4\u63a5\u4f7f\u7528\u524d\u8ff0\u8cc7\u6599"
+          },
+          {
+            "field": "product.facts",
+            "label": "\u7522\u54c1\u4e8b\u5be6",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5df2\u78ba\u8a8d Persona\u3001\u4e09\u500b USP \u8207\u8b49\u64da\u3001\u7522\u54c1\u4e8b\u5be6\u53ca\u6295\u653e\u60c5\u5883\uff1b\u5df2\u6709\u6587\u6848\u6642\u63d0\u4f9b\u539f\u7a3f\uff0c\u5f9e\u96f6\u7522\u7a3f\u6642\u76f4\u63a5\u4f7f\u7528\u524d\u8ff0\u8cc7\u6599"
+          },
+          {
+            "field": "task.placement",
+            "label": "\u5be6\u969b\u6295\u653e\u60c5\u5883",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5df2\u78ba\u8a8d Persona\u3001\u4e09\u500b USP \u8207\u8b49\u64da\u3001\u7522\u54c1\u4e8b\u5be6\u53ca\u6295\u653e\u60c5\u5883\uff1b\u5df2\u6709\u6587\u6848\u6642\u63d0\u4f9b\u539f\u7a3f\uff0c\u5f9e\u96f6\u7522\u7a3f\u6642\u76f4\u63a5\u4f7f\u7528\u524d\u8ff0\u8cc7\u6599"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u5f9e\u96f6\u7522\u51fa\u6709\u5546\u54c1\u4e8b\u5be6\u652f\u6301\u7684\u4e3b\u6a19\uff1b\u5df2\u6709\u539f\u7a3f\u6539\u7528 revise"
+    },
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u65b9\u6cd5\u3001\u516c\u5f0f\u8207\u660e\u793a\u5047\u8a2d\u793a\u4f8b"
+    },
+    "revise": {
+      "requires": {
+        "all": [
+          {
+            "all": [
+              {
+                "field": "persona.profile",
+                "label": "\u5df2\u78ba\u8a8d Persona",
+                "location": "context",
+                "states": [
+                  "user_confirmed"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key",
+                  "persona_id"
+                ],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_website_or_source",
+                "preparation": "MK-028",
+                "condition": null,
+                "source_excerpt": "\u5df2\u78ba\u8a8d Persona\u3001\u4e09\u500b USP \u8207\u8b49\u64da\u3001\u7522\u54c1\u4e8b\u5be6\u53ca\u6295\u653e\u60c5\u5883\uff1b\u5df2\u6709\u6587\u6848\u6642\u63d0\u4f9b\u539f\u7a3f\uff0c\u5f9e\u96f6\u7522\u7a3f\u6642\u76f4\u63a5\u4f7f\u7528\u524d\u8ff0\u8cc7\u6599"
+              },
+              {
+                "field": "claim.usp",
+                "label": "\u76f8\u540c\u5546\u54c1\u7248\u672c\u7684\u4e09\u500b\u5df2\u78ba\u8a8d USP",
+                "location": "context",
+                "states": [
+                  "user_confirmed"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key",
+                  "product_id",
+                  "product_version"
+                ],
+                "min_count": 3,
+                "source_line": 38,
+                "missing_action": "collect_website_or_source",
+                "preparation": "MK-002",
+                "condition": null,
+                "exact_count": 3,
+                "source_excerpt": "\u5df2\u78ba\u8a8d Persona\u3001\u4e09\u500b USP \u8207\u8b49\u64da\u3001\u7522\u54c1\u4e8b\u5be6\u53ca\u6295\u653e\u60c5\u5883\uff1b\u5df2\u6709\u6587\u6848\u6642\u63d0\u4f9b\u539f\u7a3f\uff0c\u5f9e\u96f6\u7522\u7a3f\u6642\u76f4\u63a5\u4f7f\u7528\u524d\u8ff0\u8cc7\u6599"
+              },
+              {
+                "field": "claim.proof",
+                "label": "\u5404\u9805 USP \u7684\u53ef\u6838\u5c0d\u8b49\u64da",
+                "location": "context",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key",
+                  "product_id",
+                  "product_version"
+                ],
+                "min_count": 3,
+                "source_line": 38,
+                "missing_action": "collect_website_or_source",
+                "preparation": "MK-005",
+                "condition": null,
+                "source_excerpt": "\u5df2\u78ba\u8a8d Persona\u3001\u4e09\u500b USP \u8207\u8b49\u64da\u3001\u7522\u54c1\u4e8b\u5be6\u53ca\u6295\u653e\u60c5\u5883\uff1b\u5df2\u6709\u6587\u6848\u6642\u63d0\u4f9b\u539f\u7a3f\uff0c\u5f9e\u96f6\u7522\u7a3f\u6642\u76f4\u63a5\u4f7f\u7528\u524d\u8ff0\u8cc7\u6599"
+              },
+              {
+                "field": "product.facts",
+                "label": "\u7522\u54c1\u4e8b\u5be6",
+                "location": "context",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key",
+                  "product_id",
+                  "product_version"
+                ],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_website_or_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u5df2\u78ba\u8a8d Persona\u3001\u4e09\u500b USP \u8207\u8b49\u64da\u3001\u7522\u54c1\u4e8b\u5be6\u53ca\u6295\u653e\u60c5\u5883\uff1b\u5df2\u6709\u6587\u6848\u6642\u63d0\u4f9b\u539f\u7a3f\uff0c\u5f9e\u96f6\u7522\u7a3f\u6642\u76f4\u63a5\u4f7f\u7528\u524d\u8ff0\u8cc7\u6599"
+              },
+              {
+                "field": "task.placement",
+                "label": "\u5be6\u969b\u6295\u653e\u60c5\u5883",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u5df2\u78ba\u8a8d Persona\u3001\u4e09\u500b USP \u8207\u8b49\u64da\u3001\u7522\u54c1\u4e8b\u5be6\u53ca\u6295\u653e\u60c5\u5883\uff1b\u5df2\u6709\u6587\u6848\u6642\u63d0\u4f9b\u539f\u7a3f\uff0c\u5f9e\u96f6\u7522\u7a3f\u6642\u76f4\u63a5\u4f7f\u7528\u524d\u8ff0\u8cc7\u6599"
+              }
+            ]
+          },
+          {
+            "field": "task.original",
+            "label": "\u5f85\u6539\u539f\u7a3f",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u5df2\u78ba\u8a8d Persona\u3001\u4e09\u500b USP \u8207\u8b49\u64da\u3001\u7522\u54c1\u4e8b\u5be6\u53ca\u6295\u653e\u60c5\u5883\uff1b\u5df2\u6709\u6587\u6848\u6642\u63d0\u4f9b\u539f\u7a3f\uff0c\u5f9e\u96f6\u7522\u7a3f\u6642\u76f4\u63a5\u4f7f\u7528\u524d\u8ff0\u8cc7\u6599"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u4f9d\u540c\u4e00 Persona\u3001USP\u3001\u8b49\u64da\u53ca\u6295\u653e\u60c5\u5883\u6539\u5beb\u6307\u5b9a\u539f\u7a3f"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [
+      "claim.proof",
+      "claim.usp",
+      "persona.profile",
+      "product.facts"
+    ],
+    "dependents": "\u4f9d datum ID\u3001\u4f86\u6e90\u7248\u672c\u8207\u5167\u5bb9\u6458\u8981\u91cd\u67e5\u884d\u751f\u8cc7\u6599\u53ca\u4efb\u52d9"
+  },
+  "schema_version": 1,
+  "method_sha256": "1f82f36cbc1afb53244ee9ba707f4567b5b58cd6e95c577bb325d0ad9880422b",
+  "method_path": "skills/mk-139/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

@@ -1,0 +1,359 @@
+{
+  "skill_id": "MK-172",
+  "source_sha256": "66cc8bb496612c0cd95147d8b6646b2943608fe39ceaaac016fd700d602970d7",
+  "role": "unneeded",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u7684\u4f86\u6e90\u8207\u78ba\u5207\u7f3a\u9805\uff0c\u4f9d\u539f\u65b9\u6cd5\u63a5\u7e8c"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.view_content",
+            "label": "ViewContent \u539f\u59cb\u6578\u91cf",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "period_start",
+              "period_end"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "count",
+            "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+          },
+          {
+            "field": "task.add_to_carts",
+            "label": "AddToCart \u539f\u59cb\u6578\u91cf",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "period_start",
+              "period_end"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "count",
+            "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+          },
+          {
+            "field": "task.purchases",
+            "label": "Purchase \u539f\u59cb\u6578\u91cf",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "period_start",
+              "period_end"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "count",
+            "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+          },
+          {
+            "field": "task.event_count_definition",
+            "label": "\u540c\u4e00\u4f86\u6e90\u3001\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u5171\u540c\u53e3\u5f91\u4e0b\u7684\u6f0f\u6597\u6578\u91cf\u8207\u6d41\u5931\u4f4d\u7f6e"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.view_content",
+            "label": "ViewContent \u539f\u59cb\u6578\u91cf",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "period_start",
+              "period_end"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "count",
+            "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+          },
+          {
+            "field": "task.add_to_carts",
+            "label": "AddToCart \u539f\u59cb\u6578\u91cf",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "period_start",
+              "period_end"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "count",
+            "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+          },
+          {
+            "field": "task.purchases",
+            "label": "Purchase \u539f\u59cb\u6578\u91cf",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "period_start",
+              "period_end"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "count",
+            "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+          },
+          {
+            "field": "task.event_count_definition",
+            "label": "\u540c\u4e00\u4f86\u6e90\u3001\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u5df2\u53d6\u5f97\u7684\u539f\u59cb\u6578\u91cf\u8207\u5b9a\u7fa9\uff0c\u6a19\u51fa\u5c1a\u672a\u53ef\u6bd4\u7684\u90e8\u5206"
+    },
+    "hypothesis": {
+      "requires": {
+        "all": [
+          {
+            "all": [
+              {
+                "field": "task.view_content",
+                "label": "ViewContent \u539f\u59cb\u6578\u91cf",
+                "location": "task",
+                "states": [
+                  "data_supported"
+                ],
+                "value_types": [
+                  "number"
+                ],
+                "scope": [
+                  "brand_key",
+                  "period_start",
+                  "period_end"
+                ],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "quantity": "count",
+                "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+              },
+              {
+                "field": "task.add_to_carts",
+                "label": "AddToCart \u539f\u59cb\u6578\u91cf",
+                "location": "task",
+                "states": [
+                  "data_supported"
+                ],
+                "value_types": [
+                  "number"
+                ],
+                "scope": [
+                  "brand_key",
+                  "period_start",
+                  "period_end"
+                ],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "quantity": "count",
+                "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+              },
+              {
+                "field": "task.purchases",
+                "label": "Purchase \u539f\u59cb\u6578\u91cf",
+                "location": "task",
+                "states": [
+                  "data_supported"
+                ],
+                "value_types": [
+                  "number"
+                ],
+                "scope": [
+                  "brand_key",
+                  "period_start",
+                  "period_end"
+                ],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "quantity": "count",
+                "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+              },
+              {
+                "field": "task.event_count_definition",
+                "label": "\u540c\u4e00\u4f86\u6e90\u3001\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "field": "task.page_evidence",
+                "label": "\u9801\u9762\u8cc7\u6599",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+              },
+              {
+                "field": "task.customer_service_evidence",
+                "label": "\u5ba2\u670d\u8cc7\u6599",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "source_excerpt": "\u540c\u4e00\u4f86\u6e90\u8207\u5171\u540c\u671f\u9593\u7684 ViewContent\u3001AddToCart\u3001Purchase \u539f\u59cb\u6578\u91cf\uff0c\u4e8b\u4ef6\uff0f\u4eba\u6578\u7684\u8a08\u6578\u5b9a\u7fa9\u3001\u53bb\u91cd\u8207\u6b78\u56e0\u689d\u4ef6\uff1b\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u53ef\u7528\u65bc\u5f8c\u7e8c\u7591\u616e\u5047\u8aaa"
+              }
+            ]
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u4ee5\u9801\u9762\u6216\u5ba2\u670d\u8cc7\u6599\u652f\u6301\u7684\u7591\u616e\u5047\u8aaa"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4ee5\u5df2\u4f7f\u7528 datum ID \u8207 digest \u5c0d\u61c9\u6b63\u5728\u9032\u884c\u7684\u4efb\u52d9\u53ca\u884d\u751f\u8cc7\u6599"
+  },
+  "schema_version": 1,
+  "method_sha256": "6f6360952600e6cfaecdc4a9b9dfe2cc40751acf7548ee2b33470b40b1e1df0c",
+  "method_path": "skills/mk-172/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

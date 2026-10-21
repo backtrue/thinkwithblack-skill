@@ -1,0 +1,85 @@
+{
+  "skill_id": "MK-001",
+  "source_sha256": "51b4147263c4c47877cbc6edd7c304589a140eaf7ae98a8d90f62034a63e74b3",
+  "role": "producer",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "field": "task.product_material",
+        "label": "\u53ef\u8b80\u5546\u54c1\u9801\u3001\u7167\u7247\u6216 PDF",
+        "location": "task",
+        "states": [
+          "source_stated",
+          "user_confirmed",
+          "data_supported"
+        ],
+        "value_types": [
+          "text",
+          "texts",
+          "references"
+        ],
+        "scope": [],
+        "min_count": 1,
+        "source_line": 45,
+        "missing_action": "collect_authorized_source",
+        "preparation": null,
+        "condition": null,
+        "source_excerpt": "1. \u5148\u8b93 AI \u770b\u5f97\u5230\u7522\u54c1\u672c\u8eab\uff1a\u512a\u5148\u63d0\u4f9b\u5546\u54c1\u9801\u5167\u5bb9\uff1b\u82e5\u5de5\u5177\u7121\u6cd5\u76f4\u63a5\u8b80\u7db2\u9801\uff0c\u4f9d\u8b1b\u7fa9\u6539\u7528\u5546\u54c1\u5716\u7247\u6216\u5546\u54c1\u9801 PDF\u3002"
+      },
+      "delivery": false,
+      "allowed_output": "\u5546\u54c1\u8fa8\u8b58\u8207\u4f86\u6e90"
+    },
+    "execute": {
+      "requires": {
+        "field": "task.product_material",
+        "label": "\u53ef\u8b80\u5546\u54c1\u9801\u3001\u7167\u7247\u6216 PDF",
+        "location": "task",
+        "states": [
+          "source_stated",
+          "user_confirmed",
+          "data_supported"
+        ],
+        "value_types": [
+          "text",
+          "texts",
+          "references"
+        ],
+        "scope": [],
+        "min_count": 1,
+        "source_line": 45,
+        "missing_action": "collect_authorized_source",
+        "preparation": null,
+        "condition": null,
+        "source_excerpt": "1. \u5148\u8b93 AI \u770b\u5f97\u5230\u7522\u54c1\u672c\u8eab\uff1a\u512a\u5148\u63d0\u4f9b\u5546\u54c1\u9801\u5167\u5bb9\uff1b\u82e5\u5de5\u5177\u7121\u6cd5\u76f4\u63a5\u8b80\u7db2\u9801\uff0c\u4f9d\u8b1b\u7fa9\u6539\u7528\u5546\u54c1\u5716\u7247\u6216\u5546\u54c1\u9801 PDF\u3002"
+      },
+      "delivery": true,
+      "allowed_output": "\u5546\u54c1\u4e8b\u5be6\u3001\u9650\u5236\u3001\u5ba3\u7a31\u8207\u7f3a\u8b49\u64da\u72c0\u614b"
+    },
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u65b9\u6cd5\u3001\u516c\u5f0f\u8207\u660e\u793a\u5047\u8a2d\u793a\u4f8b"
+    }
+  },
+  "writeback": [
+    "product.facts",
+    "product.name",
+    "product.specification",
+    "product.instructions",
+    "product.limitations",
+    "claim.statement",
+    "offer.price",
+    "offer.terms"
+  ],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4f9d datum ID\u3001\u4f86\u6e90\u7248\u672c\u8207\u5167\u5bb9\u6458\u8981\u91cd\u67e5\u884d\u751f\u8cc7\u6599\u53ca\u4efb\u52d9"
+  },
+  "schema_version": 1,
+  "method_sha256": "d1f3a2e52841461e3c723e326078a59e2759592dad8df407c05811cfdf9bee68",
+  "method_path": "skills/mk-001/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

@@ -1,6 +1,6 @@
 # 說人話：繁中去 AI 味
 
-版本：2026.10.21-free.3｜原文語言：zh-TW
+版本：2026.10.22-free.1｜原文語言：zh-TW
 
 # 說人話：繁體中文去 AI 味校對
 
@@ -987,3 +987,176 @@ A 從眼前的問題切入，B 把課程會檢查的範圍說出來，C 則讓�
 - 是否把作者原本有稜角的判斷磨成「各有優缺點」？若是，恢復原立場
 - 是否刪了問句或比喻後，讀者反而更難理解？若是，恢復它的解說作用
 - 是否為了精簡而只剩結論與資料？若是，把原稿必要的理由、例子與承接放回去
+
+<a id="supplement-reference-9"></a>
+
+## 附錄：context-contract.json
+
+{
+  "skill_id": "references/lecture-skills/speak-human-tw/SKILL.md",
+  "source_sha256": "e2a8b4c0c739f8603d780175ca7b20fd5da568a33f0693eda4fbe5c72ac5d997",
+  "role": "unneeded",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6cbf\u7528\u5df2\u6709\u4f86\u6e90\uff0c\u5217\u51fa\u539f\u65b9\u6cd5\u9700\u8981\u7684\u78ba\u5207\u7f3a\u9805\u8207\u63a5\u7e8c\u5de5\u4f5c"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.original_text",
+            "label": "\u5f85\u6539\u7684\u5b8c\u6574\u539f\u6587\u3001\u7528\u9014\u3001\u8b80\u8005\u53ca\u5fc5\u9808\u4fdd\u7559\u5167\u5bb9",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 8,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8b93\u65e2\u6709\u7a3f\u4ef6\u50cf\u4f5c\u8005\u628a\u4e8b\u60c5\u5411\u8b80\u8005\u8b1b\u6e05\u695a\uff0c\u4fdd\u7559\u539f\u672c\u6210\u7acb\u7684\u53e3\u543b\u3001\u89e3\u8aaa\u8207\u7bc0\u594f\uff0c\u518d\u4fee\u6b63\u59a8\u7919\u7406\u89e3\u7684\u5730\u65b9\u3002\u4ee5\u4e8b\u5be6\u4fdd\u771f\u3001\u8b80\u8005\u7406\u89e3\u548c\u53f0\u7063\u8a9e\u611f\u4f5c\u70ba\u6821\u5c0d\u4f9d\u64da"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u5b8c\u6210\u672c\u65b9\u6cd5\u7684\u6709\u4f86\u6e90\u500b\u6848\u7522\u51fa"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4f9d datum ID\u3001\u4f86\u6e90\u7248\u672c\u8207\u5167\u5bb9\u6458\u8981\u91cd\u67e5\u884d\u751f\u8cc7\u6599\u53ca\u4efb\u52d9"
+  },
+  "schema_version": 1,
+  "method_sha256": "e2a8b4c0c739f8603d780175ca7b20fd5da568a33f0693eda4fbe5c72ac5d997",
+  "method_path": "supplements/speak-human-tw/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}
+
+<a id="supplement-reference-10"></a>
+
+## 附錄：check-context.py
+
+#!/usr/bin/env python3
+"""Check a source-bound Skill contract against brand and task snapshots."""
+import argparse, hashlib, json, re, math
+from decimal import Decimal
+from pathlib import Path
+from datetime import datetime, timezone
+
+def json_stringify(value):
+    if value is None or isinstance(value,(str,bool)):return json.dumps(value,ensure_ascii=False,separators=(',',':'))
+    if isinstance(value,(int,float)):
+        if not math.isfinite(value):raise ValueError('CONTEXT_NUMBER_NOT_FINITE')
+        if value==0:return '0'
+        if 1e-6<=abs(value)<1e21:
+            return str(int(value))if int(value)==value else format(Decimal(repr(value)),'f')
+        mantissa,exponent=format(float(value),'.16e').split('e')if isinstance(value,int)else repr(value).lower().split('e')
+        mantissa=mantissa.rstrip('0').rstrip('.')if '.'in mantissa else mantissa
+        return mantissa+'e'+('+'if int(exponent)>=0 else '-')+str(abs(int(exponent)))
+    if isinstance(value,list):return '['+','.join(json_stringify(v)for v in value)+']'
+    return '{'+','.join(json.dumps(k,ensure_ascii=False)+':'+json_stringify(v)for k,v in value.items())+'}'
+
+def digest(value):
+    raw=value if isinstance(value,str) else json_stringify(value)
+    return hashlib.sha256(raw.encode()).hexdigest()
+
+def check(contract, request, context, task=None, now=None):
+    now=now or datetime.now(timezone.utc).isoformat().replace('+00:00','Z')
+    stage=contract['stages'][request['stage']]
+    scope={**(task or {}).get('scope',{}),**request.get('scope',{})}
+    if request.get('brand_key'):scope['brand_key']=request['brand_key']
+    if task and (task['skill_id']!=contract['skill_id'] or task['stage']!=request['stage'] or any(scope.get(k)!=v for k,v in task['scope'].items())):raise ValueError('TASK_SCOPE_MISMATCH')
+    sources={e['id']:e for e in context.get('evidence',[])+(task or {}).get('evidence',[])}
+    for e in sources.values():
+        if digest(e['excerpt'])!=e['content_sha256']:raise ValueError('CONTEXT_EVIDENCE_HASH_MISMATCH')
+        if e['source'].split(':')[0].lower() in ['model','assistant','generated','hypothesis']:raise ValueError('CONTEXT_SOURCE_NOT_ORIGINAL')
+    for d in context.get('data',[])+(task or {}).get('data',[]):
+        linked=[sources.get(e) for e in d['evidence_ids']]
+        if not linked or any(e is None for e in linked):raise ValueError('CONTEXT_EVIDENCE_MISSING')
+        if any(any(d['scope'].get(k)!=v for k,v in e['scope'].items())for e in linked):raise ValueError('CONTEXT_EVIDENCE_SCOPE_MISMATCH')
+        if d['state']=='data_supported' and not any(e['source_type']=='report'for e in linked):raise ValueError('CONTEXT_REPORT_EVIDENCE_REQUIRED')
+        conf=d.get('confirmation',{})
+        if d['state']=='user_confirmed' and not any(e['source_type'] in ['conversation','approved_document'] and e['source']==conf.get('source') and conf.get('excerpt') and conf['excerpt'] in e['excerpt'] for e in linked):raise ValueError('CONTEXT_CONFIRMATION_EVIDENCE_REQUIRED')
+    for item in [context]+([task]if task else []):
+        for d in item.get('data',[]):
+            ds=d['scope'];v=d['value']
+            if ds.get('period_start')and ds.get('period_end')and ds['period_start']>ds['period_end']:raise ValueError('CONTEXT_PERIOD_INVALID')
+            if v['type']=='number'and(not math.isfinite(v['number'])or(re.fullmatch('[A-Z]{3}',v['unit'])and v['unit']!=ds.get('currency'))):raise ValueError('CONTEXT_NUMBER_INVALID')
+            if d['field']in ['offer.price','rule.target_cpa','task.spend','task.net_revenue','task.non_ad_cost','task.unaccounted_fixed_cost','task.variable_cost','task.fixed_cost']and(v['type']!='number'or not ds.get('currency')or v['unit']!=ds['currency']):raise ValueError('CONTEXT_AMOUNT_INVALID')
+    used={}
+    def active(d):
+        return d.get('status','active')=='active' and all((not x.get('valid_from') or x['valid_from']<=now)and(not x.get('valid_until')or x['valid_until']>=now)for x in [d]+[sources[i]for i in d['evidence_ids']])
+    def evaluate(n):
+        if n.get('condition'):
+            decision=(task or {}).get('decisions',{}).get(n['condition']['id'])
+            if not decision:return [dict(field=n['condition']['id'],reason='branch_decision',location='task')]
+            if not decision['applies']:return []
+        if 'field' in n:
+            if n.get('task_property')=='original_question' and (task or {}).get('original_question','').strip():return []
+            pool=context.get('data',[]) if n['location']=='context' else (task or {}).get('data',[]) if n['location']=='task' else context.get('data',[])+(task or {}).get('data',[])
+            candidates=[d for d in pool if d['field']==n['field'] and(not n.get('kind')or d['kind']==n['kind'])]
+            keys=set(n['scope'])|(set(scope)if n['location']=='task'else set())
+            scoped=[d for d in candidates if all(k in scope and d['scope'].get(k)==scope[k]for k in keys)and all(k not in d['scope']or d['scope'][k]==v for k,v in scope.items())]
+            valid=[d for d in scoped if active(d)and d['state']in n['states']and d['value']['type']in n['value_types']and(n.get('quantity')!='amount'or(d['value']['type']=='number'and d['value']['unit']==d['scope'].get('currency')))and(n.get('quantity')!='ratio'or(d['value']['type']=='number'and not re.fullmatch('[A-Z]{3}',d['value']['unit'])))and(n.get('quantity')!='count'or(d['value']['type']=='number'and d['value']['number']>=0 and int(d['value']['number'])==d['value']['number']and not re.fullmatch('[A-Z]{3}',d['value']['unit'])))and(not n.get('evidence_roles')or any(sources[i].get('source_role')in n['evidence_roles']for i in d['evidence_ids']))]
+            def proofs(d):
+                return [p for p in context.get('data',[])+(task or {}).get('data',[])if p['field']=='claim.proof'and p['state']in ['source_stated','user_confirmed','data_supported']and all(k in d['scope']and p['scope'].get(k)==d['scope'][k]for k in ['brand_key','product_id','product_version'])and all(k not in p['scope']or p['scope'][k]==v for k,v in d['scope'].items())and active(p)and any(r['relation']=='proof'and r['target_id']==p['id']for r in d.get('relations',[]))]
+            if n.get('requires_proof'):valid=[d for d in valid if proofs(d)]
+            usable=list({d['entity_id']:d for d in valid}.values())
+            def fail(reason):return [dict(field=n['field'],reason=reason,location=n['location'])]
+            if len(usable)<n['min_count']or('exact_count'in n and len(usable)!=n['exact_count']):
+                reason='conflicting'if any(d.get('status')=='conflicting'for d in scoped)else'stale_or_unread_evidence'if any(not active(d)for d in scoped)else'unconfirmed'if any(d['state']not in n['states']for d in scoped)else'scope_mismatch'if candidates and not scoped else'missing'
+                return fail(reason)
+            if any(d.get('status')=='conflicting'for d in scoped)or(n['field']in ['brand.identity','rule.target_cpa','rule.target_roas','rule.ranking','rule.adjustment','offer.price']and len({digest(d['value'])for d in valid})>1):return fail('conflicting')
+            used.update({d['id']:d for d in usable})
+            if n.get('requires_proof'):used.update({p['id']:p for d in usable for p in proofs(d)})
+            return []
+        if 'any'in n:
+            results=[]
+            for child in n['any']:
+                before=used.copy();result=evaluate(child);selected=used.copy();used.clear();used.update(before)
+                if not result:used.update(selected);return []
+                results+=result
+            return [{**r,'reason':'any_of:'+r['reason']}for r in results]
+        return [r for child in n.get('all',[])for r in evaluate(child)]
+    missing=evaluate(stage['requires'])
+    if contract['skill_id']=='MK-135'and request['stage']=='copy'and not missing:
+        proofs={d['id']for d in used.values()if d['field']=='claim.proof'}
+        for d in list(used.values()):
+            if d['field']=='claim.usp'and not any(x['relation']=='proof'and x['target_id']in proofs for x in d.get('relations',[])):missing.append(dict(field=d['id'],reason='missing_proof_link',location='context'))
+    if task and 'expected_task_revision'in request and task['revision']!=request['expected_task_revision']:missing.append(dict(field='task.revision',reason='revision_conflict',location='task'))
+    data={d['id']:d for d in context.get('data',[])}
+    for old in (task or {}).get('used_context',[]):
+        if old['id']not in data or digest(data[old['id']])!=old['sha256']:missing.append(dict(field=old['id'],reason='changed_dependency',location='context'))
+    if 'expected_context_revision'in request and request['expected_context_revision']!=context['revision']and not(task or {}).get('used_context'):missing.append(dict(field='context.revision',reason='revision_conflict',location='context'))
+    reasons=' '.join(r['reason']for r in missing)
+    needs_context=any(r['location']!='task'for r in missing)
+    status='conflicting_context'if any(r in reasons for r in ['conflicting','revision_conflict','changed_dependency'])else'needs_decision'if any(r in reasons for r in ['unconfirmed','branch_decision'])else'needs_create'if needs_context and not context['revision']else'needs_context'if needs_context else'needs_task_data'if missing else'ready'
+    available=[]
+    if status not in ['ready','conflicting_context']:
+        for name,candidate in contract['stages'].items():
+            if name==request['stage'] or not candidate['delivery']:continue
+            before=used.copy();problems=evaluate(candidate['requires']);used.clear();used.update(before)
+            if not problems:available.append(dict(stage=name,allowed_output=candidate['allowed_output']))
+    return dict(skill_id=contract['skill_id'],stage=request['stage'],status=status,available_stages=available,execution_allowed=status=='ready',delivery_allowed=status=='ready'and stage['delivery'],missing=missing,used_context=[dict(id=d['id'],sha256=digest(d))for d in used.values()if d['id']in data])
+
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('--contract',type=Path,required=True);p.add_argument('--snapshot',type=Path,required=True);p.add_argument('--method',type=Path,required=True);p.add_argument('--purpose',choices=['start','delivery'],default='delivery');a=p.parse_args()
+    c=json.loads(a.contract.read_text());snapshot=json.loads(a.snapshot.read_text())
+    if hashlib.sha256(a.method.read_bytes()).hexdigest()!=c.get('method_sha256',c['source_sha256']):raise ValueError('CONTEXT_SKILL_VERSION_MISMATCH')
+    result=check(c,snapshot['input'],snapshot['context'],snapshot.get('task'),snapshot.get('now'))
+    print(json.dumps(result,ensure_ascii=False,indent=2));raise SystemExit(0 if result['delivery_allowed'if a.purpose=='delivery'else'execution_allowed']else 1)

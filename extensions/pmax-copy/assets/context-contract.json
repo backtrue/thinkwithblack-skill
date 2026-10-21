@@ -1,0 +1,356 @@
+{
+  "skill_id": "pmax-copy",
+  "source_sha256": "c5e090e9529bbe149136f1e30260661ca8ecb9e7e3f10926cfb2c6c3f22ccaac",
+  "role": "conditional",
+  "stages": {
+    "copy": {
+      "requires": {
+        "all": [
+          {
+            "any": [
+              {
+                "field": "persona.profile",
+                "label": "Existing approved audience or a sourced creative hypothesis",
+                "location": "context",
+                "kind": "persona",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported",
+                  "hypothesis"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key"
+                ],
+                "min_count": 1,
+                "source_line": 16,
+                "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              },
+              {
+                "field": "task.audience",
+                "label": "Audience and use case from the original brief",
+                "location": "task",
+                "kind": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 12,
+                "source_excerpt": "\u5f9e Persona \u00d7 USP \u8207\u57fa\u790e E \u63a5\u624b\u3002\u6cbf\u7528\u5df2\u6838\u53ef\u7b56\u7565\uff0c\u88dc\u9f4a\u672c Skill \u7684\u5165\u53e3\u3001\u5834\u666f\u8207\u9801\u9762\u5c0d\u7167\uff1b\u7d14\u91cd\u5beb\u4e0d\u91cd\u8dd1\u5e33\u6236\u76e4\u9ede\u3001\u4e0d\u8981\u6c42\u518d\u6b21\u6838\u53ef\u3002\u65e2\u6709\u6548\u679c\u8cc7\u6599\u4e0d\u662f\u65b0\u6587\u6848\u7684\u5fc5\u8981\u524d\u7f6e\u689d\u4ef6",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "field": "product.facts",
+                "label": "Verified product or service facts",
+                "location": "context",
+                "kind": "product",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key",
+                  "product_id",
+                  "product_version"
+                ],
+                "min_count": 1,
+                "source_line": 16,
+                "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              },
+              {
+                "field": "task.product_facts",
+                "label": "Verified product or service facts",
+                "location": "task",
+                "kind": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 16,
+                "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              }
+            ]
+          },
+          {
+            "field": "task.landing_page",
+            "label": "Read landing page and support for the selected claims",
+            "location": "task",
+            "kind": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 42,
+            "source_excerpt": "\u5148\u8b80\u9801\u9762\uff0c\u518d\u5beb\u5ee3\u544a\u627f\u8afe\u3002\u9801\u9762\u7b2c\u4e00\u5c4f\u63a5\u4e0d\u4e0a\u5165\u53e3\u6642\uff0c\u5217\u660e\u843d\u5dee\uff1b\u5148\u7528\u9801\u9762\u78ba\u5be6\u627f\u63a5\u7684\u5167\u5bb9\u5b8c\u6210\u7a3f\u4ef6\u3002\u4e0d\u5f97\u865b\u69cb\u5c08\u5c6c\u65b9\u6848\u3001\u6bd4\u8f03\u8868\u6216\u670d\u52d9\uff0c\u4e5f\u4e0d\u81ea\u884c\u6539\u7db2\u7ad9\u3002E \u7528\u4f86\u89e3\u91cb\u54c1\u724c\u70ba\u4f55\u80fd\u63a5\u4f4f\u9019\u500b\u5834\u666f\uff1b\u5217\u51fa\u6578\u5b57\u3001\u63a2\u982d\u6216\u5730\u5740\u4e0d\u7b49\u65bc\u5b8c\u6210\u8aaa\u670d",
+            "missing_action": "read_existing_source",
+            "preparation": null
+          },
+          {
+            "field": "task.policy_sources",
+            "label": "Applicable current official policy and any supplied account notices",
+            "location": "task",
+            "kind": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 26,
+            "source_excerpt": "\u672a\u63d0\u4f9b\u5e33\u6236\u7d00\u9304\u6642\uff0c\u5148\u7528\u5df2\u63d0\u4f9b\u7684\u5546\u54c1\u3001\u9801\u9762\u8207\u5b98\u65b9\u653f\u7b56\u5b8c\u6210\u8349\u7a3f\u53ca\u9010\u5247\u6aa2\u67e5\uff0c\u5217\u51fa\u4ecd\u9700\u6838\u5c0d\u7684\u4e3b\u5f35\u3002\u82e5\u554f\u984c\u6d89\u53ca\u5230\u9054\u9801\u6216\u6307\u5b9a\u76ee\u6a19\uff0c\u5217\u51fa\u5177\u9ad4\u5f85\u8655\u7406\u9805\u76ee\uff0c\u4e0d\u628a\u6587\u6848\u66ff\u63db\u7576\u6210\u5df2\u89e3\u9664\u9650\u5236\uff0c\u4e5f\u4e0d\u81ea\u884c\u6539\u52d5\u7db2\u7ad9\u6216\u53d7\u773e",
+            "missing_action": "read_existing_source",
+            "preparation": null
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "Produce the source-supported asset pool and claim checks; remove or narrow unsupported claims"
+    },
+    "review": {
+      "requires": {
+        "all": [
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "field": "persona.profile",
+                    "label": "Existing approved audience or a sourced creative hypothesis",
+                    "location": "context",
+                    "kind": "persona",
+                    "states": [
+                      "source_stated",
+                      "user_confirmed",
+                      "data_supported",
+                      "hypothesis"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [
+                      "brand_key"
+                    ],
+                    "min_count": 1,
+                    "source_line": 16,
+                    "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                    "missing_action": "read_existing_source",
+                    "preparation": null
+                  },
+                  {
+                    "field": "task.audience",
+                    "label": "Audience and use case from the original brief",
+                    "location": "task",
+                    "kind": "task",
+                    "states": [
+                      "source_stated",
+                      "user_confirmed",
+                      "data_supported"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [],
+                    "min_count": 1,
+                    "source_line": 12,
+                    "source_excerpt": "\u5f9e Persona \u00d7 USP \u8207\u57fa\u790e E \u63a5\u624b\u3002\u6cbf\u7528\u5df2\u6838\u53ef\u7b56\u7565\uff0c\u88dc\u9f4a\u672c Skill \u7684\u5165\u53e3\u3001\u5834\u666f\u8207\u9801\u9762\u5c0d\u7167\uff1b\u7d14\u91cd\u5beb\u4e0d\u91cd\u8dd1\u5e33\u6236\u76e4\u9ede\u3001\u4e0d\u8981\u6c42\u518d\u6b21\u6838\u53ef\u3002\u65e2\u6709\u6548\u679c\u8cc7\u6599\u4e0d\u662f\u65b0\u6587\u6848\u7684\u5fc5\u8981\u524d\u7f6e\u689d\u4ef6",
+                    "missing_action": "read_existing_source",
+                    "preparation": null
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "field": "product.facts",
+                    "label": "Verified product or service facts",
+                    "location": "context",
+                    "kind": "product",
+                    "states": [
+                      "source_stated",
+                      "user_confirmed",
+                      "data_supported"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [
+                      "brand_key",
+                      "product_id",
+                      "product_version"
+                    ],
+                    "min_count": 1,
+                    "source_line": 16,
+                    "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                    "missing_action": "read_existing_source",
+                    "preparation": null
+                  },
+                  {
+                    "field": "task.product_facts",
+                    "label": "Verified product or service facts",
+                    "location": "task",
+                    "kind": "task",
+                    "states": [
+                      "source_stated",
+                      "user_confirmed",
+                      "data_supported"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [],
+                    "min_count": 1,
+                    "source_line": 16,
+                    "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                    "missing_action": "read_existing_source",
+                    "preparation": null
+                  }
+                ]
+              },
+              {
+                "field": "task.landing_page",
+                "label": "Read landing page and support for the selected claims",
+                "location": "task",
+                "kind": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 42,
+                "source_excerpt": "\u5148\u8b80\u9801\u9762\uff0c\u518d\u5beb\u5ee3\u544a\u627f\u8afe\u3002\u9801\u9762\u7b2c\u4e00\u5c4f\u63a5\u4e0d\u4e0a\u5165\u53e3\u6642\uff0c\u5217\u660e\u843d\u5dee\uff1b\u5148\u7528\u9801\u9762\u78ba\u5be6\u627f\u63a5\u7684\u5167\u5bb9\u5b8c\u6210\u7a3f\u4ef6\u3002\u4e0d\u5f97\u865b\u69cb\u5c08\u5c6c\u65b9\u6848\u3001\u6bd4\u8f03\u8868\u6216\u670d\u52d9\uff0c\u4e5f\u4e0d\u81ea\u884c\u6539\u7db2\u7ad9\u3002E \u7528\u4f86\u89e3\u91cb\u54c1\u724c\u70ba\u4f55\u80fd\u63a5\u4f4f\u9019\u500b\u5834\u666f\uff1b\u5217\u51fa\u6578\u5b57\u3001\u63a2\u982d\u6216\u5730\u5740\u4e0d\u7b49\u65bc\u5b8c\u6210\u8aaa\u670d",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              },
+              {
+                "field": "task.policy_sources",
+                "label": "Applicable current official policy and any supplied account notices",
+                "location": "task",
+                "kind": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 26,
+                "source_excerpt": "\u672a\u63d0\u4f9b\u5e33\u6236\u7d00\u9304\u6642\uff0c\u5148\u7528\u5df2\u63d0\u4f9b\u7684\u5546\u54c1\u3001\u9801\u9762\u8207\u5b98\u65b9\u653f\u7b56\u5b8c\u6210\u8349\u7a3f\u53ca\u9010\u5247\u6aa2\u67e5\uff0c\u5217\u51fa\u4ecd\u9700\u6838\u5c0d\u7684\u4e3b\u5f35\u3002\u82e5\u554f\u984c\u6d89\u53ca\u5230\u9054\u9801\u6216\u6307\u5b9a\u76ee\u6a19\uff0c\u5217\u51fa\u5177\u9ad4\u5f85\u8655\u7406\u9805\u76ee\uff0c\u4e0d\u628a\u6587\u6848\u66ff\u63db\u7576\u6210\u5df2\u89e3\u9664\u9650\u5236\uff0c\u4e5f\u4e0d\u81ea\u884c\u6539\u52d5\u7db2\u7ad9\u6216\u53d7\u773e",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              }
+            ]
+          },
+          {
+            "field": "task.copy",
+            "label": "Existing copy to review",
+            "location": "task",
+            "kind": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 14,
+            "source_excerpt": "\u5148\u8b80 [\u6587\u6848\u914d\u7f6e\u8207\u4ea4\u7a3f\u6aa2\u67e5](references/copy-contract.md)\u3002\u8a72\u6587\u4ef6\u7d71\u4e00\u7dad\u8b77\u7d20\u6750\u4efb\u52d9\u3001\u6a4b\u63a5\u9078\u9805\u3001\u5b57\u5143\u5951\u7d04\u8207\u5be9\u67e5\u554f\u984c\uff1b\u672c\u9801\u8ca0\u8cac\u57f7\u884c\u9806\u5e8f\u3002\u5be9\u6838\u65e2\u6709\u7a3f\u4ef6\u4e5f\u5f9e\u4e0b\u5217\u7b2c 1 \u6b65\u56de\u63a8\uff0c\u4e0d\u80fd\u53ea\u88dc\u8a9e\u6c23\u6a19\u7c64\u6216\u91cd\u7b97\u5b57\u6578",
+            "missing_action": "read_existing_source",
+            "preparation": null
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "Review the supplied copy against the same source-bound requirements"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [
+      "persona.profile",
+      "product.facts"
+    ],
+    "dependents": "Track used data IDs and digests"
+  },
+  "schema_version": 1,
+  "method_sha256": "c5e090e9529bbe149136f1e30260661ca8ecb9e7e3f10926cfb2c6c3f22ccaac",
+  "method_path": "extensions/pmax-copy/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

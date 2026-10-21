@@ -1,0 +1,260 @@
+{
+  "skill_id": "MK-265",
+  "source_sha256": "2e5c371597db65f1038bcc9ce0edf1beca46f5ebf79e4b748f2003d954b278ba",
+  "role": "unneeded",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u7684\u4f86\u6e90\u8207\u78ba\u5207\u7f3a\u9805\uff0c\u4f9d\u539f\u65b9\u6cd5\u63a5\u7e8c"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.input.dd16d9b988a12510",
+            "label": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 39,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593\u3001\u5c0d\u61c9\u5546\u54c1\u8207 Feed\u3001\u843d\u5730\u9801\u3001\u82b1\u8cbb\u7d50\u679c\u3001\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44"
+          },
+          {
+            "field": "task.input.5e202e3a2577df7a",
+            "label": "\u5c0d\u61c9\u5546\u54c1\u8207 Feed",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 39,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593\u3001\u5c0d\u61c9\u5546\u54c1\u8207 Feed\u3001\u843d\u5730\u9801\u3001\u82b1\u8cbb\u7d50\u679c\u3001\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44"
+          },
+          {
+            "field": "task.input.dc4cfb98f9b2d2b4",
+            "label": "\u843d\u5730\u9801",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 39,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593\u3001\u5c0d\u61c9\u5546\u54c1\u8207 Feed\u3001\u843d\u5730\u9801\u3001\u82b1\u8cbb\u7d50\u679c\u3001\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44"
+          },
+          {
+            "field": "task.input.201a29307c1a2481",
+            "label": "\u82b1\u8cbb\u7d50\u679c",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 39,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593\u3001\u5c0d\u61c9\u5546\u54c1\u8207 Feed\u3001\u843d\u5730\u9801\u3001\u82b1\u8cbb\u7d50\u679c\u3001\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44"
+          },
+          {
+            "field": "task.input.9abc6ace9c53c364",
+            "label": "\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 39,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593\u3001\u5c0d\u61c9\u5546\u54c1\u8207 Feed\u3001\u843d\u5730\u9801\u3001\u82b1\u8cbb\u7d50\u679c\u3001\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "Shopping \u641c\u5c0b\u5b57\u8a5e\u56de\u994b\u7684\u539f\u65b9\u6cd5\u4ea4\u4ed8"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.input.dd16d9b988a12510",
+            "label": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 39,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593\u3001\u5c0d\u61c9\u5546\u54c1\u8207 Feed\u3001\u843d\u5730\u9801\u3001\u82b1\u8cbb\u7d50\u679c\u3001\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44"
+          },
+          {
+            "field": "task.input.5e202e3a2577df7a",
+            "label": "\u5c0d\u61c9\u5546\u54c1\u8207 Feed",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 39,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593\u3001\u5c0d\u61c9\u5546\u54c1\u8207 Feed\u3001\u843d\u5730\u9801\u3001\u82b1\u8cbb\u7d50\u679c\u3001\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44"
+          },
+          {
+            "field": "task.input.dc4cfb98f9b2d2b4",
+            "label": "\u843d\u5730\u9801",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 39,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593\u3001\u5c0d\u61c9\u5546\u54c1\u8207 Feed\u3001\u843d\u5730\u9801\u3001\u82b1\u8cbb\u7d50\u679c\u3001\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44"
+          },
+          {
+            "field": "task.input.201a29307c1a2481",
+            "label": "\u82b1\u8cbb\u7d50\u679c",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 39,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593\u3001\u5c0d\u61c9\u5546\u54c1\u8207 Feed\u3001\u843d\u5730\u9801\u3001\u82b1\u8cbb\u7d50\u679c\u3001\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44"
+          },
+          {
+            "field": "task.input.9abc6ace9c53c364",
+            "label": "\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 39,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5be6\u969b Shopping \u641c\u5c0b\u5b57\u8a5e\u53ca\u671f\u9593\u3001\u5c0d\u61c9\u5546\u54c1\u8207 Feed\u3001\u843d\u5730\u9801\u3001\u82b1\u8cbb\u7d50\u679c\u3001\u73fe\u6709\u6392\u9664\u8207\u5206\u7d44"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4ee5\u5df2\u4f7f\u7528 datum ID \u8207 digest \u5c0d\u61c9\u6b63\u5728\u9032\u884c\u7684\u4efb\u52d9\u53ca\u884d\u751f\u8cc7\u6599"
+  },
+  "schema_version": 1,
+  "method_sha256": "f5232a4c4a412c4cc0dfea041208d2c14dc5cc4eb07329652022a1e6c85fa0bd",
+  "method_path": "skills/mk-265/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

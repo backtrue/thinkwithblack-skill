@@ -3,11 +3,21 @@
 Use these materials in an ordinary AI conversation to complete one clearly defined task with the data supplied by the user
 
 
-## Reuse and update brand context
+## Build and use brand context for the selected method
 
-For work on a specific brand, read the latest relevant sections of that brand’s context first and reuse known information without asking again. On the first task, inventory the supplied statements, attachments, and authorized sources for the brand, products, Persona buying-motivation evidence, positioning, voice, objectives, and constraints. Ask only for gaps that affect this task; do not require a complete background form
+Read the method and its `context-contract.json` appendix, select the work stage, then check the latest brand context and task evidence. Teaching, research, drafts, partial analysis and final conclusions have separate requirements
 
-Merge newly confirmed facts with their sources, confirmation basis, and dates while retaining other fields and earlier versions. Keep hypotheses, unverified psychology, and one-task diagnoses in the task record. Read again when the brand, facts, or version changes, then continue the original task
+A brand website is enough to begin. The AI reads the website, the current conversation and available attachments, choosing pages for the missing fields: About pages for identity, product pages for product facts, and FAQ or policy pages for purchase terms. Save the actual text, URL, retrieval time and product scope before extracting facts. The user does not need to complete a questionnaire first
+
+Keep brand context scoped by brand, product version, Persona, market and validity period. Distinguish source statements, brand claims, user confirmations, original data and hypotheses. Motivation candidates may remain hypotheses; the selected method determines whether that evidence is sufficient. Preserve numeric values, units, currency, offer dates and eligibility
+
+Keep the original request, report references, analysis period, drafts, pending decisions and outputs in a separate Task Context. Read reports and contact eligibility from authorized sources. Leave bulk orders and personal lists in their source systems and save only the necessary references. Ask for decisions when needed, then recheck the original stage and resume the task
+
+Read relevant current data at the start of each task and reuse known answers. Merge newly confirmed facts only into the contract's permitted output fields, with method version, original evidence and confirmation records. Keep history. When facts change, recheck outputs that actually used those data IDs and digests
+
+Before delivery, run the same contract again. The method pack includes `check-context.py`; its snapshot contains `input`, `context` and `task`, using the appendix's fields, evidence states and scope. Run `python3 check-context.py --contract context-contract.json --method SKILL.md --snapshot context-snapshot.json`. Complete the stages supported by the available evidence and preserve specific missing items. After the data check, complete the method's content and formatting checks
+
+MK-137 retains confirmation of three USPs and validation of all three finished variants: 14–15 Traditional Chinese characters in the first line and 7–8 in the entire CTA before the arrow. Count each Chinese character as one character and deliver only after every variant passes
 
 ## Each question and change of task
 

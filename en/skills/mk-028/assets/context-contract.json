@@ -1,0 +1,120 @@
+{
+  "skill_id": "MK-028",
+  "source_sha256": "b459d208b362cbf45ffc004483e54976098611fac74c39702050fa7df7e5a057",
+  "role": "producer",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u5df2\u63d0\u4f9b\u7684\u5f85\u6838\u5c0d Persona \u8207\u4f86\u6e90"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "persona.profile",
+            "label": "\u5f85\u6838\u5c0d Persona \u6216\u9700\u6c42\u5047\u8aaa",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported",
+              "hypothesis"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "persona_id"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5f85\u6838\u5c0d\u7684 Persona \u6216\u9700\u6c42\u5047\u8aaa\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u9867\u5ba2\u539f\u8a71\u3001\u554f\u5377\u6216\u5ba2\u670d\u7d00\u9304\u53ca\u4f86\u6e90"
+          },
+          {
+            "field": "product.facts",
+            "label": "\u7522\u54c1\u4e8b\u5be6",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5f85\u6838\u5c0d\u7684 Persona \u6216\u9700\u6c42\u5047\u8aaa\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u9867\u5ba2\u539f\u8a71\u3001\u554f\u5377\u6216\u5ba2\u670d\u7d00\u9304\u53ca\u4f86\u6e90"
+          },
+          {
+            "field": "task.customer_evidence_status",
+            "label": "\u9867\u5ba2\u539f\u8a71\u8207\u8b49\u64da\u53ca\u7f3a\u6f0f\u72c0\u614b",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5f85\u6838\u5c0d\u7684 Persona \u6216\u9700\u6c42\u5047\u8aaa\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u9867\u5ba2\u539f\u8a71\u3001\u554f\u5377\u6216\u5ba2\u670d\u7d00\u9304\u53ca\u4f86\u6e90"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "Persona \u652f\u6301\u3001\u53cd\u5c0d\u8207\u672a\u77e5\u8b49\u64da"
+    },
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u65b9\u6cd5\u3001\u516c\u5f0f\u8207\u660e\u793a\u5047\u8a2d\u793a\u4f8b"
+    }
+  },
+  "writeback": [
+    "persona.profile",
+    "persona.motivation",
+    "persona.evidence"
+  ],
+  "invalidation": {
+    "fields": [
+      "persona.profile",
+      "product.facts"
+    ],
+    "dependents": "\u4f9d datum ID\u3001\u4f86\u6e90\u7248\u672c\u8207\u5167\u5bb9\u6458\u8981\u91cd\u67e5\u884d\u751f\u8cc7\u6599\u53ca\u4efb\u52d9"
+  },
+  "schema_version": 1,
+  "method_sha256": "390a9d687414ae02a08ea1f651c736d3c9c04463cc85a64bbd2bf4c8afad913c",
+  "method_path": "skills/mk-028/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

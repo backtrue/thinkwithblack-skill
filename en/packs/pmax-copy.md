@@ -1,6 +1,6 @@
 # pmax-copy | PMAX Copy Production and Review — method pack
 
-Materials version: 2026.10.21-en.3
+Materials version: 2026.10.22-en.1
 
 <a id="common-rules"></a>
 
@@ -9,11 +9,21 @@ Materials version: 2026.10.21-en.3
 Use these materials in an ordinary AI conversation to complete one clearly defined task with the data supplied by the user
 
 
-## Reuse and update brand context
+## Build and use brand context for the selected method
 
-For work on a specific brand, read the latest relevant sections of that brand’s context first and reuse known information without asking again. On the first task, inventory the supplied statements, attachments, and authorized sources for the brand, products, Persona buying-motivation evidence, positioning, voice, objectives, and constraints. Ask only for gaps that affect this task; do not require a complete background form
+Read the method and its `context-contract.json` appendix, select the work stage, then check the latest brand context and task evidence. Teaching, research, drafts, partial analysis and final conclusions have separate requirements
 
-Merge newly confirmed facts with their sources, confirmation basis, and dates while retaining other fields and earlier versions. Keep hypotheses, unverified psychology, and one-task diagnoses in the task record. Read again when the brand, facts, or version changes, then continue the original task
+A brand website is enough to begin. The AI reads the website, the current conversation and available attachments, choosing pages for the missing fields: About pages for identity, product pages for product facts, and FAQ or policy pages for purchase terms. Save the actual text, URL, retrieval time and product scope before extracting facts. The user does not need to complete a questionnaire first
+
+Keep brand context scoped by brand, product version, Persona, market and validity period. Distinguish source statements, brand claims, user confirmations, original data and hypotheses. Motivation candidates may remain hypotheses; the selected method determines whether that evidence is sufficient. Preserve numeric values, units, currency, offer dates and eligibility
+
+Keep the original request, report references, analysis period, drafts, pending decisions and outputs in a separate Task Context. Read reports and contact eligibility from authorized sources. Leave bulk orders and personal lists in their source systems and save only the necessary references. Ask for decisions when needed, then recheck the original stage and resume the task
+
+Read relevant current data at the start of each task and reuse known answers. Merge newly confirmed facts only into the contract's permitted output fields, with method version, original evidence and confirmation records. Keep history. When facts change, recheck outputs that actually used those data IDs and digests
+
+Before delivery, run the same contract again. The method pack includes `check-context.py`; its snapshot contains `input`, `context` and `task`, using the appendix's fields, evidence states and scope. Run `python3 check-context.py --contract context-contract.json --method SKILL.md --snapshot context-snapshot.json`. Complete the stages supported by the available evidence and preserve specific missing items. After the data check, complete the method's content and formatting checks
+
+MK-137 retains confirmation of three USPs and validation of all three finished variants: 14–15 Traditional Chinese characters in the first line and 7–8 in the entire CTA before the arrow. Count each Chinese character as one character and deliver only after every variant passes
 
 ## Each question and change of task
 
@@ -257,6 +267,485 @@ First deliver the entry / scenario / page brief and four role directions, then t
 | H01 / L01 / D01, etc. | Actual text | Actual count | From the allocation above | S / N / T / F / shared | Reference the brief | Reference the source passage | Reason retained or before-and-after differences |
 
 List bridge functions separately for L05 and D05; separate scenario hypotheses from verified facts. Check each claim, recombinations within the same scenario, and tone differences before delivering the complete asset pool
+
+<a id="reference-2"></a>
+
+## Appendix: context-contract.json
+
+```json
+{
+  "skill_id": "pmax-copy",
+  "source_sha256": "c5e090e9529bbe149136f1e30260661ca8ecb9e7e3f10926cfb2c6c3f22ccaac",
+  "role": "conditional",
+  "stages": {
+    "copy": {
+      "requires": {
+        "all": [
+          {
+            "any": [
+              {
+                "field": "persona.profile",
+                "label": "Existing approved audience or a sourced creative hypothesis",
+                "location": "context",
+                "kind": "persona",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported",
+                  "hypothesis"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key"
+                ],
+                "min_count": 1,
+                "source_line": 16,
+                "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              },
+              {
+                "field": "task.audience",
+                "label": "Audience and use case from the original brief",
+                "location": "task",
+                "kind": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 12,
+                "source_excerpt": "\u5f9e Persona \u00d7 USP \u8207\u57fa\u790e E \u63a5\u624b\u3002\u6cbf\u7528\u5df2\u6838\u53ef\u7b56\u7565\uff0c\u88dc\u9f4a\u672c Skill \u7684\u5165\u53e3\u3001\u5834\u666f\u8207\u9801\u9762\u5c0d\u7167\uff1b\u7d14\u91cd\u5beb\u4e0d\u91cd\u8dd1\u5e33\u6236\u76e4\u9ede\u3001\u4e0d\u8981\u6c42\u518d\u6b21\u6838\u53ef\u3002\u65e2\u6709\u6548\u679c\u8cc7\u6599\u4e0d\u662f\u65b0\u6587\u6848\u7684\u5fc5\u8981\u524d\u7f6e\u689d\u4ef6",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "field": "product.facts",
+                "label": "Verified product or service facts",
+                "location": "context",
+                "kind": "product",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key",
+                  "product_id",
+                  "product_version"
+                ],
+                "min_count": 1,
+                "source_line": 16,
+                "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              },
+              {
+                "field": "task.product_facts",
+                "label": "Verified product or service facts",
+                "location": "task",
+                "kind": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 16,
+                "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              }
+            ]
+          },
+          {
+            "field": "task.landing_page",
+            "label": "Read landing page and support for the selected claims",
+            "location": "task",
+            "kind": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 42,
+            "source_excerpt": "\u5148\u8b80\u9801\u9762\uff0c\u518d\u5beb\u5ee3\u544a\u627f\u8afe\u3002\u9801\u9762\u7b2c\u4e00\u5c4f\u63a5\u4e0d\u4e0a\u5165\u53e3\u6642\uff0c\u5217\u660e\u843d\u5dee\uff1b\u5148\u7528\u9801\u9762\u78ba\u5be6\u627f\u63a5\u7684\u5167\u5bb9\u5b8c\u6210\u7a3f\u4ef6\u3002\u4e0d\u5f97\u865b\u69cb\u5c08\u5c6c\u65b9\u6848\u3001\u6bd4\u8f03\u8868\u6216\u670d\u52d9\uff0c\u4e5f\u4e0d\u81ea\u884c\u6539\u7db2\u7ad9\u3002E \u7528\u4f86\u89e3\u91cb\u54c1\u724c\u70ba\u4f55\u80fd\u63a5\u4f4f\u9019\u500b\u5834\u666f\uff1b\u5217\u51fa\u6578\u5b57\u3001\u63a2\u982d\u6216\u5730\u5740\u4e0d\u7b49\u65bc\u5b8c\u6210\u8aaa\u670d",
+            "missing_action": "read_existing_source",
+            "preparation": null
+          },
+          {
+            "field": "task.policy_sources",
+            "label": "Applicable current official policy and any supplied account notices",
+            "location": "task",
+            "kind": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 26,
+            "source_excerpt": "\u672a\u63d0\u4f9b\u5e33\u6236\u7d00\u9304\u6642\uff0c\u5148\u7528\u5df2\u63d0\u4f9b\u7684\u5546\u54c1\u3001\u9801\u9762\u8207\u5b98\u65b9\u653f\u7b56\u5b8c\u6210\u8349\u7a3f\u53ca\u9010\u5247\u6aa2\u67e5\uff0c\u5217\u51fa\u4ecd\u9700\u6838\u5c0d\u7684\u4e3b\u5f35\u3002\u82e5\u554f\u984c\u6d89\u53ca\u5230\u9054\u9801\u6216\u6307\u5b9a\u76ee\u6a19\uff0c\u5217\u51fa\u5177\u9ad4\u5f85\u8655\u7406\u9805\u76ee\uff0c\u4e0d\u628a\u6587\u6848\u66ff\u63db\u7576\u6210\u5df2\u89e3\u9664\u9650\u5236\uff0c\u4e5f\u4e0d\u81ea\u884c\u6539\u52d5\u7db2\u7ad9\u6216\u53d7\u773e",
+            "missing_action": "read_existing_source",
+            "preparation": null
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "Produce the source-supported asset pool and claim checks; remove or narrow unsupported claims"
+    },
+    "review": {
+      "requires": {
+        "all": [
+          {
+            "all": [
+              {
+                "any": [
+                  {
+                    "field": "persona.profile",
+                    "label": "Existing approved audience or a sourced creative hypothesis",
+                    "location": "context",
+                    "kind": "persona",
+                    "states": [
+                      "source_stated",
+                      "user_confirmed",
+                      "data_supported",
+                      "hypothesis"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [
+                      "brand_key"
+                    ],
+                    "min_count": 1,
+                    "source_line": 16,
+                    "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                    "missing_action": "read_existing_source",
+                    "preparation": null
+                  },
+                  {
+                    "field": "task.audience",
+                    "label": "Audience and use case from the original brief",
+                    "location": "task",
+                    "kind": "task",
+                    "states": [
+                      "source_stated",
+                      "user_confirmed",
+                      "data_supported"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [],
+                    "min_count": 1,
+                    "source_line": 12,
+                    "source_excerpt": "\u5f9e Persona \u00d7 USP \u8207\u57fa\u790e E \u63a5\u624b\u3002\u6cbf\u7528\u5df2\u6838\u53ef\u7b56\u7565\uff0c\u88dc\u9f4a\u672c Skill \u7684\u5165\u53e3\u3001\u5834\u666f\u8207\u9801\u9762\u5c0d\u7167\uff1b\u7d14\u91cd\u5beb\u4e0d\u91cd\u8dd1\u5e33\u6236\u76e4\u9ede\u3001\u4e0d\u8981\u6c42\u518d\u6b21\u6838\u53ef\u3002\u65e2\u6709\u6548\u679c\u8cc7\u6599\u4e0d\u662f\u65b0\u6587\u6848\u7684\u5fc5\u8981\u524d\u7f6e\u689d\u4ef6",
+                    "missing_action": "read_existing_source",
+                    "preparation": null
+                  }
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "field": "product.facts",
+                    "label": "Verified product or service facts",
+                    "location": "context",
+                    "kind": "product",
+                    "states": [
+                      "source_stated",
+                      "user_confirmed",
+                      "data_supported"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [
+                      "brand_key",
+                      "product_id",
+                      "product_version"
+                    ],
+                    "min_count": 1,
+                    "source_line": 16,
+                    "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                    "missing_action": "read_existing_source",
+                    "preparation": null
+                  },
+                  {
+                    "field": "task.product_facts",
+                    "label": "Verified product or service facts",
+                    "location": "task",
+                    "kind": "task",
+                    "states": [
+                      "source_stated",
+                      "user_confirmed",
+                      "data_supported"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [],
+                    "min_count": 1,
+                    "source_line": 16,
+                    "source_excerpt": "\u7f3a\u5c11\u7b2c\u4e00\u624b\u5ba2\u670d\uff0f\u8aee\u8a62\u8cc7\u6599\u6642\u5982\u5be6\u8a18\u9304\uff1b\u4ecd\u53ef\u7528\u5df2\u67e5\u8b49\u9801\u9762\u5f62\u6210\u5275\u610f\u5047\u8aaa\uff0c\u4e0d\u7de8\u9020\u9867\u5ba2\u539f\u8a71\u3001\u4eba\u53e3\u7279\u5fb5\u6216\u504f\u597d\u3002\u53ea\u7f3a\u67d0\u500b\u4e3b\u5f35\u7684\u8b49\u64da\u6642\uff0c\u79fb\u9664\u6216\u7e2e\u5c0f\u8a72\u4e3b\u5f35\uff0c\u7e7c\u7e8c\u5b8c\u6210\u6709\u4f9d\u64da\u7684\u6587\u6848\uff1b\u53ea\u6709\u7121\u6cd5\u78ba\u5b9a\u670d\u52d9\u5c0d\u8c61\u3001\u7522\u54c1\u6216\u6838\u5fc3\u4e8b\u5be6\u6642\u624d\u8a62\u554f",
+                    "missing_action": "read_existing_source",
+                    "preparation": null
+                  }
+                ]
+              },
+              {
+                "field": "task.landing_page",
+                "label": "Read landing page and support for the selected claims",
+                "location": "task",
+                "kind": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 42,
+                "source_excerpt": "\u5148\u8b80\u9801\u9762\uff0c\u518d\u5beb\u5ee3\u544a\u627f\u8afe\u3002\u9801\u9762\u7b2c\u4e00\u5c4f\u63a5\u4e0d\u4e0a\u5165\u53e3\u6642\uff0c\u5217\u660e\u843d\u5dee\uff1b\u5148\u7528\u9801\u9762\u78ba\u5be6\u627f\u63a5\u7684\u5167\u5bb9\u5b8c\u6210\u7a3f\u4ef6\u3002\u4e0d\u5f97\u865b\u69cb\u5c08\u5c6c\u65b9\u6848\u3001\u6bd4\u8f03\u8868\u6216\u670d\u52d9\uff0c\u4e5f\u4e0d\u81ea\u884c\u6539\u7db2\u7ad9\u3002E \u7528\u4f86\u89e3\u91cb\u54c1\u724c\u70ba\u4f55\u80fd\u63a5\u4f4f\u9019\u500b\u5834\u666f\uff1b\u5217\u51fa\u6578\u5b57\u3001\u63a2\u982d\u6216\u5730\u5740\u4e0d\u7b49\u65bc\u5b8c\u6210\u8aaa\u670d",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              },
+              {
+                "field": "task.policy_sources",
+                "label": "Applicable current official policy and any supplied account notices",
+                "location": "task",
+                "kind": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 26,
+                "source_excerpt": "\u672a\u63d0\u4f9b\u5e33\u6236\u7d00\u9304\u6642\uff0c\u5148\u7528\u5df2\u63d0\u4f9b\u7684\u5546\u54c1\u3001\u9801\u9762\u8207\u5b98\u65b9\u653f\u7b56\u5b8c\u6210\u8349\u7a3f\u53ca\u9010\u5247\u6aa2\u67e5\uff0c\u5217\u51fa\u4ecd\u9700\u6838\u5c0d\u7684\u4e3b\u5f35\u3002\u82e5\u554f\u984c\u6d89\u53ca\u5230\u9054\u9801\u6216\u6307\u5b9a\u76ee\u6a19\uff0c\u5217\u51fa\u5177\u9ad4\u5f85\u8655\u7406\u9805\u76ee\uff0c\u4e0d\u628a\u6587\u6848\u66ff\u63db\u7576\u6210\u5df2\u89e3\u9664\u9650\u5236\uff0c\u4e5f\u4e0d\u81ea\u884c\u6539\u52d5\u7db2\u7ad9\u6216\u53d7\u773e",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              }
+            ]
+          },
+          {
+            "field": "task.copy",
+            "label": "Existing copy to review",
+            "location": "task",
+            "kind": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 14,
+            "source_excerpt": "\u5148\u8b80 [\u6587\u6848\u914d\u7f6e\u8207\u4ea4\u7a3f\u6aa2\u67e5](references/copy-contract.md)\u3002\u8a72\u6587\u4ef6\u7d71\u4e00\u7dad\u8b77\u7d20\u6750\u4efb\u52d9\u3001\u6a4b\u63a5\u9078\u9805\u3001\u5b57\u5143\u5951\u7d04\u8207\u5be9\u67e5\u554f\u984c\uff1b\u672c\u9801\u8ca0\u8cac\u57f7\u884c\u9806\u5e8f\u3002\u5be9\u6838\u65e2\u6709\u7a3f\u4ef6\u4e5f\u5f9e\u4e0b\u5217\u7b2c 1 \u6b65\u56de\u63a8\uff0c\u4e0d\u80fd\u53ea\u88dc\u8a9e\u6c23\u6a19\u7c64\u6216\u91cd\u7b97\u5b57\u6578",
+            "missing_action": "read_existing_source",
+            "preparation": null
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "Review the supplied copy against the same source-bound requirements"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [
+      "persona.profile",
+      "product.facts"
+    ],
+    "dependents": "Track used data IDs and digests"
+  },
+  "schema_version": 1,
+  "method_sha256": "52682cec0da6a3aaad30bf22a1e719d6fb8ff88a9ea83203eb01b478aca2de46",
+  "method_path": "extensions/pmax-copy/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}
+```
+
+<a id="reference-3"></a>
+
+## Appendix: check-context.py
+
+```python
+#!/usr/bin/env python3
+"""Check a source-bound Skill contract against brand and task snapshots."""
+import argparse, hashlib, json, re, math
+from decimal import Decimal
+from pathlib import Path
+from datetime import datetime, timezone
+
+def json_stringify(value):
+    if value is None or isinstance(value,(str,bool)):return json.dumps(value,ensure_ascii=False,separators=(',',':'))
+    if isinstance(value,(int,float)):
+        if not math.isfinite(value):raise ValueError('CONTEXT_NUMBER_NOT_FINITE')
+        if value==0:return '0'
+        if 1e-6<=abs(value)<1e21:
+            return str(int(value))if int(value)==value else format(Decimal(repr(value)),'f')
+        mantissa,exponent=format(float(value),'.16e').split('e')if isinstance(value,int)else repr(value).lower().split('e')
+        mantissa=mantissa.rstrip('0').rstrip('.')if '.'in mantissa else mantissa
+        return mantissa+'e'+('+'if int(exponent)>=0 else '-')+str(abs(int(exponent)))
+    if isinstance(value,list):return '['+','.join(json_stringify(v)for v in value)+']'
+    return '{'+','.join(json.dumps(k,ensure_ascii=False)+':'+json_stringify(v)for k,v in value.items())+'}'
+
+def digest(value):
+    raw=value if isinstance(value,str) else json_stringify(value)
+    return hashlib.sha256(raw.encode()).hexdigest()
+
+def check(contract, request, context, task=None, now=None):
+    now=now or datetime.now(timezone.utc).isoformat().replace('+00:00','Z')
+    stage=contract['stages'][request['stage']]
+    scope={**(task or {}).get('scope',{}),**request.get('scope',{})}
+    if request.get('brand_key'):scope['brand_key']=request['brand_key']
+    if task and (task['skill_id']!=contract['skill_id'] or task['stage']!=request['stage'] or any(scope.get(k)!=v for k,v in task['scope'].items())):raise ValueError('TASK_SCOPE_MISMATCH')
+    sources={e['id']:e for e in context.get('evidence',[])+(task or {}).get('evidence',[])}
+    for e in sources.values():
+        if digest(e['excerpt'])!=e['content_sha256']:raise ValueError('CONTEXT_EVIDENCE_HASH_MISMATCH')
+        if e['source'].split(':')[0].lower() in ['model','assistant','generated','hypothesis']:raise ValueError('CONTEXT_SOURCE_NOT_ORIGINAL')
+    for d in context.get('data',[])+(task or {}).get('data',[]):
+        linked=[sources.get(e) for e in d['evidence_ids']]
+        if not linked or any(e is None for e in linked):raise ValueError('CONTEXT_EVIDENCE_MISSING')
+        if any(any(d['scope'].get(k)!=v for k,v in e['scope'].items())for e in linked):raise ValueError('CONTEXT_EVIDENCE_SCOPE_MISMATCH')
+        if d['state']=='data_supported' and not any(e['source_type']=='report'for e in linked):raise ValueError('CONTEXT_REPORT_EVIDENCE_REQUIRED')
+        conf=d.get('confirmation',{})
+        if d['state']=='user_confirmed' and not any(e['source_type'] in ['conversation','approved_document'] and e['source']==conf.get('source') and conf.get('excerpt') and conf['excerpt'] in e['excerpt'] for e in linked):raise ValueError('CONTEXT_CONFIRMATION_EVIDENCE_REQUIRED')
+    for item in [context]+([task]if task else []):
+        for d in item.get('data',[]):
+            ds=d['scope'];v=d['value']
+            if ds.get('period_start')and ds.get('period_end')and ds['period_start']>ds['period_end']:raise ValueError('CONTEXT_PERIOD_INVALID')
+            if v['type']=='number'and(not math.isfinite(v['number'])or(re.fullmatch('[A-Z]{3}',v['unit'])and v['unit']!=ds.get('currency'))):raise ValueError('CONTEXT_NUMBER_INVALID')
+            if d['field']in ['offer.price','rule.target_cpa','task.spend','task.net_revenue','task.non_ad_cost','task.unaccounted_fixed_cost','task.variable_cost','task.fixed_cost']and(v['type']!='number'or not ds.get('currency')or v['unit']!=ds['currency']):raise ValueError('CONTEXT_AMOUNT_INVALID')
+    used={}
+    def active(d):
+        return d.get('status','active')=='active' and all((not x.get('valid_from') or x['valid_from']<=now)and(not x.get('valid_until')or x['valid_until']>=now)for x in [d]+[sources[i]for i in d['evidence_ids']])
+    def evaluate(n):
+        if n.get('condition'):
+            decision=(task or {}).get('decisions',{}).get(n['condition']['id'])
+            if not decision:return [dict(field=n['condition']['id'],reason='branch_decision',location='task')]
+            if not decision['applies']:return []
+        if 'field' in n:
+            if n.get('task_property')=='original_question' and (task or {}).get('original_question','').strip():return []
+            pool=context.get('data',[]) if n['location']=='context' else (task or {}).get('data',[]) if n['location']=='task' else context.get('data',[])+(task or {}).get('data',[])
+            candidates=[d for d in pool if d['field']==n['field'] and(not n.get('kind')or d['kind']==n['kind'])]
+            keys=set(n['scope'])|(set(scope)if n['location']=='task'else set())
+            scoped=[d for d in candidates if all(k in scope and d['scope'].get(k)==scope[k]for k in keys)and all(k not in d['scope']or d['scope'][k]==v for k,v in scope.items())]
+            valid=[d for d in scoped if active(d)and d['state']in n['states']and d['value']['type']in n['value_types']and(n.get('quantity')!='amount'or(d['value']['type']=='number'and d['value']['unit']==d['scope'].get('currency')))and(n.get('quantity')!='ratio'or(d['value']['type']=='number'and not re.fullmatch('[A-Z]{3}',d['value']['unit'])))and(n.get('quantity')!='count'or(d['value']['type']=='number'and d['value']['number']>=0 and int(d['value']['number'])==d['value']['number']and not re.fullmatch('[A-Z]{3}',d['value']['unit'])))and(not n.get('evidence_roles')or any(sources[i].get('source_role')in n['evidence_roles']for i in d['evidence_ids']))]
+            def proofs(d):
+                return [p for p in context.get('data',[])+(task or {}).get('data',[])if p['field']=='claim.proof'and p['state']in ['source_stated','user_confirmed','data_supported']and all(k in d['scope']and p['scope'].get(k)==d['scope'][k]for k in ['brand_key','product_id','product_version'])and all(k not in p['scope']or p['scope'][k]==v for k,v in d['scope'].items())and active(p)and any(r['relation']=='proof'and r['target_id']==p['id']for r in d.get('relations',[]))]
+            if n.get('requires_proof'):valid=[d for d in valid if proofs(d)]
+            usable=list({d['entity_id']:d for d in valid}.values())
+            def fail(reason):return [dict(field=n['field'],reason=reason,location=n['location'])]
+            if len(usable)<n['min_count']or('exact_count'in n and len(usable)!=n['exact_count']):
+                reason='conflicting'if any(d.get('status')=='conflicting'for d in scoped)else'stale_or_unread_evidence'if any(not active(d)for d in scoped)else'unconfirmed'if any(d['state']not in n['states']for d in scoped)else'scope_mismatch'if candidates and not scoped else'missing'
+                return fail(reason)
+            if any(d.get('status')=='conflicting'for d in scoped)or(n['field']in ['brand.identity','rule.target_cpa','rule.target_roas','rule.ranking','rule.adjustment','offer.price']and len({digest(d['value'])for d in valid})>1):return fail('conflicting')
+            used.update({d['id']:d for d in usable})
+            if n.get('requires_proof'):used.update({p['id']:p for d in usable for p in proofs(d)})
+            return []
+        if 'any'in n:
+            results=[]
+            for child in n['any']:
+                before=used.copy();result=evaluate(child);selected=used.copy();used.clear();used.update(before)
+                if not result:used.update(selected);return []
+                results+=result
+            return [{**r,'reason':'any_of:'+r['reason']}for r in results]
+        return [r for child in n.get('all',[])for r in evaluate(child)]
+    missing=evaluate(stage['requires'])
+    if contract['skill_id']=='MK-135'and request['stage']=='copy'and not missing:
+        proofs={d['id']for d in used.values()if d['field']=='claim.proof'}
+        for d in list(used.values()):
+            if d['field']=='claim.usp'and not any(x['relation']=='proof'and x['target_id']in proofs for x in d.get('relations',[])):missing.append(dict(field=d['id'],reason='missing_proof_link',location='context'))
+    if task and 'expected_task_revision'in request and task['revision']!=request['expected_task_revision']:missing.append(dict(field='task.revision',reason='revision_conflict',location='task'))
+    data={d['id']:d for d in context.get('data',[])}
+    for old in (task or {}).get('used_context',[]):
+        if old['id']not in data or digest(data[old['id']])!=old['sha256']:missing.append(dict(field=old['id'],reason='changed_dependency',location='context'))
+    if 'expected_context_revision'in request and request['expected_context_revision']!=context['revision']and not(task or {}).get('used_context'):missing.append(dict(field='context.revision',reason='revision_conflict',location='context'))
+    reasons=' '.join(r['reason']for r in missing)
+    needs_context=any(r['location']!='task'for r in missing)
+    status='conflicting_context'if any(r in reasons for r in ['conflicting','revision_conflict','changed_dependency'])else'needs_decision'if any(r in reasons for r in ['unconfirmed','branch_decision'])else'needs_create'if needs_context and not context['revision']else'needs_context'if needs_context else'needs_task_data'if missing else'ready'
+    available=[]
+    if status not in ['ready','conflicting_context']:
+        for name,candidate in contract['stages'].items():
+            if name==request['stage'] or not candidate['delivery']:continue
+            before=used.copy();problems=evaluate(candidate['requires']);used.clear();used.update(before)
+            if not problems:available.append(dict(stage=name,allowed_output=candidate['allowed_output']))
+    return dict(skill_id=contract['skill_id'],stage=request['stage'],status=status,available_stages=available,execution_allowed=status=='ready',delivery_allowed=status=='ready'and stage['delivery'],missing=missing,used_context=[dict(id=d['id'],sha256=digest(d))for d in used.values()if d['id']in data])
+
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('--contract',type=Path,required=True);p.add_argument('--snapshot',type=Path,required=True);p.add_argument('--method',type=Path,required=True);p.add_argument('--purpose',choices=['start','delivery'],default='delivery');a=p.parse_args()
+    c=json.loads(a.contract.read_text());snapshot=json.loads(a.snapshot.read_text())
+    if hashlib.sha256(a.method.read_bytes()).hexdigest()!=c.get('method_sha256',c['source_sha256']):raise ValueError('CONTEXT_SKILL_VERSION_MISMATCH')
+    result=check(c,snapshot['input'],snapshot['context'],snapshot.get('task'),snapshot.get('now'))
+    print(json.dumps(result,ensure_ascii=False,indent=2));raise SystemExit(0 if result['delivery_allowed'if a.purpose=='delivery'else'execution_allowed']else 1)
+```
 
 ## Materials license
 

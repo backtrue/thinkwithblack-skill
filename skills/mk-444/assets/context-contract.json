@@ -1,0 +1,64 @@
+{
+  "skill_id": "MK-444",
+  "source_sha256": "218c85d14aa637d3f76f27c3f89e144bc718dda9036a9c34c305bf9197963166",
+  "role": "producer",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u6709\u54c1\u724c\u8cc7\u6599\u53ca\u660e\u78ba\u7f3a\u9805"
+    },
+    "execute": {
+      "requires": {
+        "field": "task.acquired_brand_material",
+        "label": "\u5df2\u53d6\u5f97\u7684\u54c1\u724c\u3001\u5b98\u7db2\u3001\u5546\u54c1\u3001\u5c0d\u8c61\u8207\u6838\u51c6\u4e8b\u5be6\u53ca\u539f\u59cb\u4f86\u6e90",
+        "location": "task",
+        "states": [
+          "source_stated",
+          "user_confirmed",
+          "data_supported"
+        ],
+        "value_types": [
+          "text",
+          "texts",
+          "references"
+        ],
+        "scope": [],
+        "min_count": 1,
+        "source_line": 98,
+        "missing_action": "collect_authorized_source",
+        "preparation": null,
+        "condition": null,
+        "source_excerpt": "\u9810\u671f\uff1a\u4f9d\u672c\u9805\u6b65\u9a5f\u4ea4\u4ed8\u300c\u54c1\u724c\u3001\u5546\u54c1\u3001\u5c0d\u8c61\u8207\u9650\u5236\u7684\u4e8b\u5be6\u8868\u300d\uff0c\u6bcf\u500b\u5224\u65b7\u53ef\u56de\u6307\u539f\u59cb\u8cc7\u6599\uff0c\u4fdd\u7559\u9069\u7528\u689d\u4ef6\u3002"
+      },
+      "delivery": true,
+      "allowed_output": "\u54c1\u724c\u80cc\u666f\u5e95\u7a3f\u8207\u4f86\u6e90\u7d22\u5f15\uff1b\u7f3a\u9805\u4ea4\u5171\u7528\u63a1\u96c6\u6d41\u7a0b"
+    },
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u65b9\u6cd5\u3001\u516c\u5f0f\u8207\u660e\u793a\u5047\u8a2d\u793a\u4f8b"
+    }
+  },
+  "writeback": [
+    "brand.identity",
+    "brand.website",
+    "brand.category",
+    "brand.positioning",
+    "product.facts",
+    "persona.profile"
+  ],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4f9d datum ID\u3001\u4f86\u6e90\u7248\u672c\u8207\u5167\u5bb9\u6458\u8981\u91cd\u67e5\u884d\u751f\u8cc7\u6599\u53ca\u4efb\u52d9"
+  },
+  "schema_version": 1,
+  "method_sha256": "e155ff33695ca3e920f6dbdb49cd68ab9e959587e06aa50de12b67b79e88e5c0",
+  "method_path": "skills/mk-444/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

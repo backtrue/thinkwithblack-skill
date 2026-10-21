@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.10.22-en.1
+
+- Added a source-bound data contract and shared checker to each method pack, with requirements for research, planning, drafts and final conclusions
+- AI can build brand context from a brand website and reuse existing evidence, keeping sources and versions with confirmed updates
+- Reusable brand context and current drafts or report snapshots are stored separately; changed inputs trigger checks on dependent work
+
 ## 2026.10.21-en.3
 
 Add initial brand-context inventory, latest relevant context reads before each brand task, reuse of known information, and provenance-backed confirmed-fact updates; keep unknowns, hypotheses, and task diagnoses distinct

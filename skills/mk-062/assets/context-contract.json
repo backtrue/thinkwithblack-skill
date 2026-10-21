@@ -1,0 +1,90 @@
+{
+  "skill_id": "MK-062",
+  "source_sha256": "820649e594a5664c8c10c5ef4f164a208907cbfb943d6093f658ba23fb67c182",
+  "role": "unneeded",
+  "stages": {
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u65b9\u6cd5\u3001\u516c\u5f0f\u8207\u660e\u793a\u5047\u8a2d\u793a\u4f8b"
+    },
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u5df2\u63d0\u4f9b\u6578\u503c\u8207\u516c\u5f0f\u7f3a\u9805"
+    },
+    "calculate": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.revenue_goal",
+            "label": "\u76ee\u6a19\u6216\u640d\u5e73\u71df\u6536",
+            "location": "task",
+            "states": [
+              "data_supported",
+              "user_confirmed"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "period_start",
+              "period_end",
+              "currency"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u76ee\u6a19\u6216\u640d\u5e73\u71df\u6536\u3001\u540c\u53e3\u5f91\u5ba2\u55ae\u50f9\u8207\u898f\u5283\u671f\u9593"
+          },
+          {
+            "field": "task.average_order_value",
+            "label": "\u540c\u53e3\u5f91\u5ba2\u55ae\u50f9",
+            "location": "task",
+            "states": [
+              "data_supported",
+              "user_confirmed"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start",
+              "product_id"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "quantity": "amount",
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u76ee\u6a19\u6216\u640d\u5e73\u71df\u6536\u3001\u540c\u53e3\u5f91\u5ba2\u55ae\u50f9\u8207\u898f\u5283\u671f\u9593"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u4f9d\u539f\u65b9\u6cd5\u516c\u5f0f\u8a08\u7b97\u53ca\u540c\u53e3\u5f91\u7d50\u679c"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4f9d datum ID\u3001\u4f86\u6e90\u7248\u672c\u8207\u5167\u5bb9\u6458\u8981\u91cd\u67e5\u884d\u751f\u8cc7\u6599\u53ca\u4efb\u52d9"
+  },
+  "schema_version": 1,
+  "method_sha256": "4dfdcbc48c8f3680b833de1c26e9b0242d6eaacc476924da1b2f86fc5b7a6295",
+  "method_path": "skills/mk-062/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

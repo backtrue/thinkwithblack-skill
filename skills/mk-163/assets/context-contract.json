@@ -1,0 +1,101 @@
+{
+  "skill_id": "MK-163",
+  "source_sha256": "4909a8e3d0f61ddfa1ebf3adebb181140e239a8733e28d7a7025a9d953c24952",
+  "role": "consumer",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u8cc7\u6599\u53ca\u539f\u65b9\u6cd5\u7684\u78ba\u5207\u7f3a\u9805"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.mk_163_1",
+            "label": "Persona \u6216\u9867\u5ba2\u8b49\u64da",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "Persona \u6216\u9867\u5ba2\u8b49\u64da\u3001\u5546\u54c1\u80fd\u529b\u8207\u9650\u5236\u3001\u9700\u6c42\u60c5\u5883\u8207\u5546\u696d\u76ee\u7684\uff1b\u63a1\u7528\u65e2\u6709\u8f49\u63db\u7dda\u7d22\u6642\u518d\u63d0\u4f9b\u76f8\u61c9\u8cc7\u6599"
+          },
+          {
+            "field": "product.facts",
+            "label": "\u5546\u54c1\u80fd\u529b\u8207\u9650\u5236",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "source_excerpt": "Persona \u6216\u9867\u5ba2\u8b49\u64da\u3001\u5546\u54c1\u80fd\u529b\u8207\u9650\u5236\u3001\u9700\u6c42\u60c5\u5883\u8207\u5546\u696d\u76ee\u7684\uff1b\u63a1\u7528\u65e2\u6709\u8f49\u63db\u7dda\u7d22\u6642\u518d\u63d0\u4f9b\u76f8\u61c9\u8cc7\u6599"
+          },
+          {
+            "field": "task.mk_163_3",
+            "label": "\u9700\u6c42\u60c5\u5883\u8207\u5546\u696d\u76ee\u7684",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "Persona \u6216\u9867\u5ba2\u8b49\u64da\u3001\u5546\u54c1\u80fd\u529b\u8207\u9650\u5236\u3001\u9700\u6c42\u60c5\u5883\u8207\u5546\u696d\u76ee\u7684\uff1b\u63a1\u7528\u65e2\u6709\u8f49\u63db\u7dda\u7d22\u6642\u518d\u63d0\u4f9b\u76f8\u61c9\u8cc7\u6599"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u539f\u65b9\u6cd5\u60c5\u5883\u8207\u8b49\u64da\u5224\u8b80"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [
+      "product.facts"
+    ],
+    "dependents": "\u4f9d\u5be6\u969b\u4f7f\u7528\u8cc7\u6599 ID \u8207\u6458\u8981\u91cd\u67e5"
+  },
+  "schema_version": 1,
+  "method_sha256": "c0878a06b1121cf02fa451dc3e4238f74c110a285e5d24c1732a7e64b7e1f646",
+  "method_path": "skills/mk-163/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

@@ -1,0 +1,84 @@
+{
+  "skill_id": "simplify-member-rules",
+  "source_sha256": "bbaddf99c587ab207c352692f9d3f8f17536ffb6932d1572985bc050e9552e16",
+  "role": "conditional",
+  "stages": {
+    "rewrite": {
+      "requires": {
+        "all": [
+          {
+            "any": [
+              {
+                "field": "rule.loyalty",
+                "label": "Existing member rules with version and applicability",
+                "location": "context",
+                "kind": "rule",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key"
+                ],
+                "min_count": 1,
+                "source_line": 14,
+                "source_excerpt": "\u8acb\u4e0a\u50b3\u65e2\u6709\u6703\u54e1\u689d\u6b3e\u3001\u9867\u5ba2\u8aaa\u660e\u8207\u8981\u6574\u7406\u7684\u7bc4\u570d\uff0c\u9644\u9069\u7528\u7248\u672c\u3001\u65e5\u671f\u53ca\u5546\u54c1\u985e\u578b\u3002\u5df2\u6709\u5ba2\u670d\u8aa4\u89e3\u7d00\u9304\u6216\u8a2a\u8ac7\u56de\u7b54\u6642\u4e00\u4f75\u63d0\u4f9b\uff0c\u79fb\u9664\u59d3\u540d\u3001\u806f\u7d61\u65b9\u5f0f\u7b49\u4e0d\u9700\u8981\u7684\u500b\u8cc7",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              },
+              {
+                "field": "task.member_rules",
+                "label": "Existing terms and explanations with version and scope",
+                "location": "task",
+                "kind": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 14,
+                "source_excerpt": "\u8acb\u4e0a\u50b3\u65e2\u6709\u6703\u54e1\u689d\u6b3e\u3001\u9867\u5ba2\u8aaa\u660e\u8207\u8981\u6574\u7406\u7684\u7bc4\u570d\uff0c\u9644\u9069\u7528\u7248\u672c\u3001\u65e5\u671f\u53ca\u5546\u54c1\u985e\u578b\u3002\u5df2\u6709\u5ba2\u670d\u8aa4\u89e3\u7d00\u9304\u6216\u8a2a\u8ac7\u56de\u7b54\u6642\u4e00\u4f75\u63d0\u4f9b\uff0c\u79fb\u9664\u59d3\u540d\u3001\u806f\u7d61\u65b9\u5f0f\u7b49\u4e0d\u9700\u8981\u7684\u500b\u8cc7",
+                "missing_action": "read_existing_source",
+                "preparation": null
+              }
+            ]
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "Rewrite the known terms and build comprehension questions while preserving entitlements"
+    },
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "Explain the method using explicitly hypothetical examples"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [
+      "rule.loyalty"
+    ],
+    "dependents": "Track used data IDs and digests"
+  },
+  "schema_version": 1,
+  "method_sha256": "9b5520a021c980f81812d01eb26d401b31bdedb2a1511becc5975cd8ae975ede",
+  "method_path": "extensions/simplify-member-rules/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

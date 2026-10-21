@@ -85,7 +85,7 @@ class FreeEditionTests(unittest.TestCase):
         for language in ['', 'en/']:
             manifest=json.loads((self.root/(language+'free-content.json')).read_text())
             entry=next(e for e in manifest['entries'] if e['id']=='MK-164')
-            self.assertEqual(entry['references'],['skills/mk-164/assets/interest-reference.md'])
+            self.assertEqual(entry['references'],['skills/mk-164/assets/interest-reference.md','skills/mk-164/assets/context-contract.json','skills/mk-164/assets/check-context.py'])
             pack=(self.root/(language+entry['pack'])).read_text()
             self.assertIn('https://www.eachspy.com/terms/',pack)
             self.assertIn('https://primenumbers.co.jp/download/meta_interesting/',pack)

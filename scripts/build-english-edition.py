@@ -79,7 +79,7 @@ def render_pack(root, entry, version):
     ]
     for rel in refs:
         body = (english / rel).read_text().strip()
-        body = '```csv\n' + body + '\n```' if rel.endswith('.csv') else render(rel)
+        body = '```' + {'.csv':'csv','.json':'json','.py':'python'}[Path(rel).suffix] + '\n' + body + '\n```' if rel.endswith(('.csv','.json','.py')) else render(rel)
         chunks.append(f'<a id="{anchors[(english / rel).resolve()]}"></a>\n\n## Appendix: {Path(rel).name}\n\n' + body)
     chunks.append('## Materials license\n\n' + (english / 'LICENSE').read_text().strip())
     return ('\n\n'.join(chunks) + '\n').encode()
@@ -193,7 +193,7 @@ def markdown_anchors(text):
 
 
 def verify_fragments(english, rel, text, label='English'):
-    for match in core.LINK.finditer(text):
+    for match in core.LINK.finditer(re.sub(r"^```[^\n]*\n.*?^```[ \t]*$", "", text, flags=re.M|re.S)):
         link = unquote(match[1].strip('<>'))
         if '#' not in link or re.match(r'[a-zA-Z][a-zA-Z0-9+.-]*:', link):
             continue
@@ -227,7 +227,7 @@ def verify(root):
             verify_language(rel, text, exceptions)
         if rel.endswith('.md'):
             verify_fragments(english, rel, text)
-            for match in core.LINK.finditer(text):
+            for match in core.LINK.finditer(re.sub(r"^```[^\n]*\n.*?^```[ \t]*$", "", text, flags=re.M|re.S)):
                 target = core.local_link(english, rel, match[1])
                 if target and not target.is_file():
                     raise ValueError('Broken English local link in ' + rel + ': ' + match[1])

@@ -1,0 +1,114 @@
+{
+  "skill_id": "MK-047",
+  "source_sha256": "c212a5e24f4a392d8a205a4ade2faf07e9c4207d53772990e240a594786c23ee",
+  "role": "unneeded",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u8cc7\u6599\u53ca\u539f\u65b9\u6cd5\u7684\u78ba\u5207\u7f3a\u9805"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.psm_questions",
+            "label": "\u56db\u500b PSM \u984c\u76ee\u539f\u6587",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
+          },
+          {
+            "field": "task.psm_definition",
+            "label": "\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
+          },
+          {
+            "field": "task.psm_answers",
+            "label": "\u9010\u7b46\u539f\u59cb\u56de\u7b54\u53ca\u53bb\u8b58\u5225\u56de\u7b54\u9375",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
+          },
+          {
+            "field": "task.psm_sample",
+            "label": "\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "PSM \u56de\u7b54\u54c1\u8cea\u8207\u53ef\u7528\u6a23\u672c"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4f9d\u5be6\u969b\u4f7f\u7528\u8cc7\u6599 ID \u8207\u6458\u8981\u91cd\u67e5"
+  },
+  "schema_version": 1,
+  "method_sha256": "7be8683b10ec4d697dd396c5eea086378579e31e413b827db157213cf49a33de",
+  "method_path": "skills/mk-047/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

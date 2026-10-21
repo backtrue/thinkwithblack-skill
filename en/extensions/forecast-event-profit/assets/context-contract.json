@@ -1,0 +1,257 @@
+{
+  "skill_id": "references/lecture-skills/forecast-event-profit/SKILL.md",
+  "source_sha256": "c72057297d74ca5a6a23508ff035e14b90738aff259556d64700c1a248f18c0b",
+  "role": "producer",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6cbf\u7528\u5df2\u6709\u4f86\u6e90\uff0c\u5217\u51fa\u539f\u65b9\u6cd5\u9700\u8981\u7684\u78ba\u5207\u7f3a\u9805\u8207\u63a5\u7e8c\u5de5\u4f5c"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.forecast_basis",
+            "label": "\u8fd1\u671f\u53ef\u6bd4\u57fa\u6e96\u8207\u6b77\u53f2\u6d3b\u52d5\u6574\u7d44 CPM/CVR/AOV\u3001\u4f86\u6e90\u671f\u9593\u8207\u6210\u719f\u5ea6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 24,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5148\u5217\u8fd1\u671f\u53ef\u6bd4\u57fa\u6e96\uff0c\u518d\u70ba\u6bcf\u500b\u53ef\u6bd4\u6b77\u53f2\u6d3b\u52d5\u5efa\u7acb\u4e00\u7d44\u300c\u8a72\u5e74\u6d3b\u52d5\u503c\u00f7\u8a72\u5e74\u6d3b\u52d5\u524d\u57fa\u6e96\u503c\u300d\u500d\u7387\uff0c\u4fdd\u7559\u539f\u59cb\u5206\u5b50\u3001\u5206\u6bcd\u8207\u4e8b\u4ef6\u5e74\u3002\u5c0d CPM\u3001CVR\u3001AOV \u5404\u7b97\u4e00\u6b21\uff1b\u57fa\u6e96\u70ba\u96f6\u6642\u4e0d\u7528\u500d\u7387\u6cd5"
+          },
+          {
+            "all": [
+              {
+                "field": "task.event_offer_cost",
+                "label": "\u672c\u671f\u771f\u5be6\u512a\u60e0\u3001\u4ee3\u8868\u8a02\u55ae\u7d44\u5408\u8207\u5404\u9805\u8cbb\u7528",
+                "location": "task",
+                "states": [
+                  "data_supported"
+                ],
+                "value_types": [
+                  "references"
+                ],
+                "scope": [
+                  "brand_key",
+                  "period_end",
+                  "period_start"
+                ],
+                "min_count": 1,
+                "source_line": 30,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "CVR \u6309\u5fc5\u8981\u6e20\u9053\u6216\u65b0\u820a\u5ba2\u7fa4\u62c6\u7b97\uff0c\u518d\u7528\u9810\u4f30\u6d41\u91cf\u52a0\u6b0a\uff1b\u6c92\u6709\u672a\u4f86\u6d41\u91cf\u5360\u6bd4\u5c31\u5217\u5360\u6bd4\u60c5\u5883\u3002AOV \u82e5\u5546\u54c1\u6216\u512a\u60e0\u5df2\u6539\uff0c\u6309\u4ee3\u8868\u8a02\u55ae\u7d44\u5408\u7684\u6298\u5f8c\u6de8\u6536\u5165\u8207\u9810\u4f30\u8a02\u55ae\u5360\u6bd4\u91cd\u7b97\uff0c\u53e6\u8a08\u6bcf\u7a2e\u7d44\u5408\u8b8a\u52d5\u8cbb\uff1b\u5360\u6bd4\u7531\u6b77\u53f2\u6216\u5df2\u77e5\u8a02\u55ae\u652f\u6301\uff0c\u672a\u77e5\u5360\u6bd4\u660e\u793a\u70ba\u5047\u8a2d\u3002\u7d44\u5408\u5360\u6bd4\u52a0\u7e3d\u70ba1\uff1b\u4e0d\u80fd\u62ff\u5546\u54c1\u55ae\u50f9\u5e73\u5747\u7576\u5ba2\u55ae\u3002\u5df2\u91cd\u7b97\u7684\u512a\u60e0\u6548\u679c\u4e0d\u518d\u91cd\u8907\u4e58\u6b77\u53f2\u512a\u60e0\u500d\u7387"
+              },
+              {
+                "any": [
+                  {
+                    "field": "rule.cost_definition",
+                    "label": "\u6bdb\u5229\u8207\u8cbb\u7528\u6db5\u84cb\u53e3\u5f91",
+                    "location": "context",
+                    "states": [
+                      "user_confirmed"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [
+                      "brand_key"
+                    ],
+                    "min_count": 1,
+                    "source_line": 48,
+                    "missing_action": "reuse_or_collect_source",
+                    "preparation": null,
+                    "source_excerpt": "CPM\uff0fCPC \u70ba\u96f6\u6642\u9664\u6cd5\u672a\u5b9a\u7fa9\uff0c\u505c\u6b62\u8a72\u5206\u652f\u3002CVR \u70ba\u96f6\u6642\u524d\u5411\u8a02\u55ae\u70ba\u96f6\uff1bAOV \u5c1a\u672a\u5b9a\u7fa9\u6642\u4fdd\u7559\u5f85\u586b\uff0c\u4e0d\u4ee5\u96f6\u88dc\u503c\u3002\u5ee3\u544a\u8cbb\u70ba\u96f6\u6642 ROAS \u672a\u5b9a\u7fa9\uff0c\u76f4\u63a5\u4ea4\u71df\u6536\u8207\u8cbb\u7528\u660e\u7d30\u3002\u9810\u7b97\u3001CPM\uff0fCPC\u3001\u9ede\u64ca\u7387\u3001\u5230\u7ad9\u4fc2\u6578\u3001CVR \u51fa\u73fe\u8ca0\u503c\u6642\u5148\u56de\u67e5\u8cc7\u6599\u8207\u53e3\u5f91\uff1b\u8ca0\u6de8\u6536\u5165\u53e6\u67e5\u9000\u6b3e\u6b78\u5c6c\uff0c\u4e0d\u80fd\u62ff\u5b83\u4f5c\u6b63\u5e38\u6b63\u5ba2\u55ae\u7684\u76ee\u6a19\u53cd\u63a8\u3002\u8a66\u7b97\u8868\u4e0d\u5f97\u7528 IFERROR(...,0) \u628a\u7f3a\u4ef6\u6216\u672a\u5b9a\u7fa9\u516c\u5f0f\u8f49\u6210\u96f6"
+                  },
+                  {
+                    "field": "task.rule_cost_definition",
+                    "label": "\u6bdb\u5229\u8207\u8cbb\u7528\u6db5\u84cb\u53e3\u5f91",
+                    "location": "task",
+                    "states": [
+                      "source_stated",
+                      "user_confirmed",
+                      "data_supported"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [],
+                    "min_count": 1,
+                    "source_line": 48,
+                    "missing_action": "collect_authorized_source",
+                    "preparation": null,
+                    "source_excerpt": "CPM\uff0fCPC \u70ba\u96f6\u6642\u9664\u6cd5\u672a\u5b9a\u7fa9\uff0c\u505c\u6b62\u8a72\u5206\u652f\u3002CVR \u70ba\u96f6\u6642\u524d\u5411\u8a02\u55ae\u70ba\u96f6\uff1bAOV \u5c1a\u672a\u5b9a\u7fa9\u6642\u4fdd\u7559\u5f85\u586b\uff0c\u4e0d\u4ee5\u96f6\u88dc\u503c\u3002\u5ee3\u544a\u8cbb\u70ba\u96f6\u6642 ROAS \u672a\u5b9a\u7fa9\uff0c\u76f4\u63a5\u4ea4\u71df\u6536\u8207\u8cbb\u7528\u660e\u7d30\u3002\u9810\u7b97\u3001CPM\uff0fCPC\u3001\u9ede\u64ca\u7387\u3001\u5230\u7ad9\u4fc2\u6578\u3001CVR \u51fa\u73fe\u8ca0\u503c\u6642\u5148\u56de\u67e5\u8cc7\u6599\u8207\u53e3\u5f91\uff1b\u8ca0\u6de8\u6536\u5165\u53e6\u67e5\u9000\u6b3e\u6b78\u5c6c\uff0c\u4e0d\u80fd\u62ff\u5b83\u4f5c\u6b63\u5e38\u6b63\u5ba2\u55ae\u7684\u76ee\u6a19\u53cd\u63a8\u3002\u8a66\u7b97\u8868\u4e0d\u5f97\u7528 IFERROR(...,0) \u628a\u7f3a\u4ef6\u6216\u672a\u5b9a\u7fa9\u516c\u5f0f\u8f49\u6210\u96f6"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "task.scenario_assumptions",
+            "label": "\u9810\u7b97\u3001\u6d41\u91cf\u5360\u6bd4\u3001\u60c5\u5883\u4f9d\u64da\u3001\u8b8a\u66f4\u5047\u8a2d\u53ca\u53ef\u6bd4\u689d\u4ef6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 28,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u591a\u7d44\u6b77\u53f2\u6642\uff0c\u4ee5\u9810\u5148\u8a18\u9304\u7684\u53ef\u6bd4\u689d\u4ef6\u9078\u4e3b\u60c5\u5883\uff0c\u5176\u4ed6\u5b8c\u6574\u7d44\u5408\u5448\u73fe\u7d50\u679c\u7bc4\u570d\u3002\u8cc7\u6599\u5c11\u4e14\u7121\u660e\u78ba\u512a\u5148\u689d\u4ef6\u6642\u4e26\u5217\uff0c\u907f\u514d\u9760\u60f3\u8981\u7684\u5229\u6f64\u53cd\u9078\u8f38\u5165\u3002\u9019\u662f\u53ef\u56de\u6e2c\u7684\u6b77\u53f2\u985e\u6bd4\u57fa\u6e96\uff1b\u65b0\u589e\u9810\u7b97\u3001\u53d7\u773e\u6216\u7af6\u50f9\u7d50\u69cb\u6539\u8b8a\u6642\uff0c\u53e6\u5217\u8b8a\u66f4\u5047\u8a2d\u8207\u8b49\u64da"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u5b8c\u6210\u672c\u65b9\u6cd5\u7684\u6709\u4f86\u6e90\u500b\u6848\u7522\u51fa"
+    },
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u4f9d\u5b8c\u6574\u539f\u554f\u984c\u8207\u5df2\u77e5\u60c5\u5883\u63d0\u4f9b\u65b9\u6cd5\u3001\u689d\u4ef6\u65b9\u6848\u53ca\u5fc5\u8981\u4f86\u6e90\uff1b\u672a\u77e5\u7dad\u6301\u672a\u77e5"
+    },
+    "plan": {
+      "requires": {
+        "field": "task.planning_brief",
+        "label": "\u539f\u59cb\u554f\u984c\u3001\u5df2\u77e5\u60c5\u5883\u3001\u6307\u5b9a\u5de5\u4f5c\u8207\u65e2\u6709\u8cc7\u6599\u53d6\u5f97\u72c0\u614b",
+        "location": "task",
+        "states": [
+          "source_stated",
+          "user_confirmed",
+          "data_supported"
+        ],
+        "value_types": [
+          "text",
+          "texts",
+          "references"
+        ],
+        "scope": [],
+        "min_count": 1,
+        "source_line": 62,
+        "missing_action": "collect_authorized_source",
+        "preparation": null,
+        "task_property": "original_question",
+        "source_excerpt": "\u4ea4\u4e00\u4efd\u5de5\u4f5c\u7c3f\u6216\u7b49\u50f9\u53ef\u8907\u88fd\u8868\u683c\uff1a\u6b77\u53f2\u539f\u59cb\u8cc7\u6599\u3001\u53e3\u5f91\u8207\u5047\u8a2d\u3001\u4f30\u8a08\u53ca\u56de\u6e2c\u3001\u9810\u7b97\uff0f\u71df\u6536\uff0f\u5229\u6f64\u60c5\u5883\u3002\u6bcf\u500b\u7d50\u679c\u53ef\u56de\u5230\u516c\u5f0f\u53ca\u4f86\u6e90\u3002\u4f9d\u4f7f\u7528\u8005\u5df2\u6709\u74b0\u5883\u9078 Excel \u6216 Google Sheets\uff1b\u9700\u6c42\u662f\u65b9\u6cd5\u6642\u53ef\u76f4\u63a5\u4ea4\u8868\u683c\uff0c\u4e0d\u5f37\u8feb\u8cfc\u8cb7\u5de5\u5177"
+      },
+      "delivery": true,
+      "allowed_output": "\u6a21\u578b\u5de5\u4f5c\u8868\u3001\u516c\u5f0f\u3001\u9078\u503c\u65b9\u6cd5\u8207\u654f\u611f\u5ea6\u60c5\u5883\uff1b\u6709\u6b77\u53f2\u624d\u6838\u5c0d\u53ef\u6bd4\u6027\uff0c\u4e0d\u628a\u60c5\u5883\u7576\u5be6\u969b\u9810\u6e2c"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.forecast_basis",
+            "label": "\u8fd1\u671f\u53ef\u6bd4\u57fa\u6e96\u8207\u6b77\u53f2\u6d3b\u52d5\u6574\u7d44 CPM/CVR/AOV\u3001\u4f86\u6e90\u671f\u9593\u8207\u6210\u719f\u5ea6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 24,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5148\u5217\u8fd1\u671f\u53ef\u6bd4\u57fa\u6e96\uff0c\u518d\u70ba\u6bcf\u500b\u53ef\u6bd4\u6b77\u53f2\u6d3b\u52d5\u5efa\u7acb\u4e00\u7d44\u300c\u8a72\u5e74\u6d3b\u52d5\u503c\u00f7\u8a72\u5e74\u6d3b\u52d5\u524d\u57fa\u6e96\u503c\u300d\u500d\u7387\uff0c\u4fdd\u7559\u539f\u59cb\u5206\u5b50\u3001\u5206\u6bcd\u8207\u4e8b\u4ef6\u5e74\u3002\u5c0d CPM\u3001CVR\u3001AOV \u5404\u7b97\u4e00\u6b21\uff1b\u57fa\u6e96\u70ba\u96f6\u6642\u4e0d\u7528\u500d\u7387\u6cd5"
+          },
+          {
+            "field": "task.event_offer_cost",
+            "label": "\u672c\u671f\u5546\u54c1\u512a\u60e0\u3001\u4ee3\u8868\u8a02\u55ae\u7d44\u5408\u3001\u6bdb\u5229\u5b9a\u7fa9\u53ca\u5b8c\u6574\u8cbb\u7528",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 30,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "CVR \u6309\u5fc5\u8981\u6e20\u9053\u6216\u65b0\u820a\u5ba2\u7fa4\u62c6\u7b97\uff0c\u518d\u7528\u9810\u4f30\u6d41\u91cf\u52a0\u6b0a\uff1b\u6c92\u6709\u672a\u4f86\u6d41\u91cf\u5360\u6bd4\u5c31\u5217\u5360\u6bd4\u60c5\u5883\u3002AOV \u82e5\u5546\u54c1\u6216\u512a\u60e0\u5df2\u6539\uff0c\u6309\u4ee3\u8868\u8a02\u55ae\u7d44\u5408\u7684\u6298\u5f8c\u6de8\u6536\u5165\u8207\u9810\u4f30\u8a02\u55ae\u5360\u6bd4\u91cd\u7b97\uff0c\u53e6\u8a08\u6bcf\u7a2e\u7d44\u5408\u8b8a\u52d5\u8cbb\uff1b\u5360\u6bd4\u7531\u6b77\u53f2\u6216\u5df2\u77e5\u8a02\u55ae\u652f\u6301\uff0c\u672a\u77e5\u5360\u6bd4\u660e\u793a\u70ba\u5047\u8a2d\u3002\u7d44\u5408\u5360\u6bd4\u52a0\u7e3d\u70ba1\uff1b\u4e0d\u80fd\u62ff\u5546\u54c1\u55ae\u50f9\u5e73\u5747\u7576\u5ba2\u55ae\u3002\u5df2\u91cd\u7b97\u7684\u512a\u60e0\u6548\u679c\u4e0d\u518d\u91cd\u8907\u4e58\u6b77\u53f2\u512a\u60e0\u500d\u7387"
+          },
+          {
+            "field": "task.scenario_assumptions",
+            "label": "\u9810\u7b97\u3001\u6d41\u91cf\u5360\u6bd4\u3001\u60c5\u5883\u4f9d\u64da\u3001\u8b8a\u66f4\u5047\u8a2d\u53ca\u53ef\u6bd4\u689d\u4ef6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 28,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u591a\u7d44\u6b77\u53f2\u6642\uff0c\u4ee5\u9810\u5148\u8a18\u9304\u7684\u53ef\u6bd4\u689d\u4ef6\u9078\u4e3b\u60c5\u5883\uff0c\u5176\u4ed6\u5b8c\u6574\u7d44\u5408\u5448\u73fe\u7d50\u679c\u7bc4\u570d\u3002\u8cc7\u6599\u5c11\u4e14\u7121\u660e\u78ba\u512a\u5148\u689d\u4ef6\u6642\u4e26\u5217\uff0c\u907f\u514d\u9760\u60f3\u8981\u7684\u5229\u6f64\u53cd\u9078\u8f38\u5165\u3002\u9019\u662f\u53ef\u56de\u6e2c\u7684\u6b77\u53f2\u985e\u6bd4\u57fa\u6e96\uff1b\u65b0\u589e\u9810\u7b97\u3001\u53d7\u773e\u6216\u7af6\u50f9\u7d50\u69cb\u6539\u8b8a\u6642\uff0c\u53e6\u5217\u8b8a\u66f4\u5047\u8a2d\u8207\u8b49\u64da"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u4ea4\u4ed8\u5df2\u8b80\u8cc7\u6599\u80fd\u652f\u6301\u7684\u5c0d\u61c9\u6210\u679c\uff0c\u9010\u9805\u9023\u56de\u4f86\u6e90\uff1b\u7f3a\u5c11\u6b04\u4f4d\u53ea\u963b\u64cb\u4f9d\u8cf4\u5b83\u7684\u8a08\u7b97\u3001\u500b\u6848\u7d50\u8ad6\u6216\u64cd\u4f5c\uff0c\u4e0d\u88dc\u6210\u5b8c\u6574\u7d50\u8ad6"
+    }
+  },
+  "writeback": [
+    "rule.cost_definition"
+  ],
+  "invalidation": {
+    "fields": [
+      "rule.cost_definition"
+    ],
+    "dependents": "\u4f9d datum ID\u3001\u4f86\u6e90\u7248\u672c\u8207\u5167\u5bb9\u6458\u8981\u91cd\u67e5\u884d\u751f\u8cc7\u6599\u53ca\u4efb\u52d9"
+  },
+  "schema_version": 1,
+  "method_sha256": "bb3c374cf6db5c571c63ef7171e6c5924820af3366c3cb797e6a4e7b4468f968",
+  "method_path": "extensions/forecast-event-profit/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

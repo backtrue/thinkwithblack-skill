@@ -1,0 +1,38 @@
+{
+  "skill_id": "MK-151",
+  "source_sha256": "0caca3e2a2629f6873688a05ebc912dcc0ab0bae662fec67ad4d261696795517",
+  "role": "unneeded",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u7684\u4f86\u6e90\u8207\u78ba\u5207\u7f3a\u9805\uff0c\u4f9d\u539f\u65b9\u6cd5\u63a5\u7e8c"
+    },
+    "execute": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u8a55\u50f9\u7d20\u6750\u6388\u6b0a\u6aa2\u67e5\u7684\u539f\u65b9\u6cd5\u4ea4\u4ed8"
+    },
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u65b9\u6cd5\u8aaa\u660e\u53ca\u660e\u793a\u5047\u8a2d\u793a\u4f8b"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4ee5\u5df2\u4f7f\u7528 datum ID \u8207 digest \u5c0d\u61c9\u6b63\u5728\u9032\u884c\u7684\u4efb\u52d9\u53ca\u884d\u751f\u8cc7\u6599"
+  },
+  "schema_version": 1,
+  "method_sha256": "e88bfc5bc83c69ba94a821a81096f20116680b702f23596f0ce9c359d3d1477c",
+  "method_path": "skills/mk-151/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

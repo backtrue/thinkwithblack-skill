@@ -1,0 +1,105 @@
+{
+  "skill_id": "MK-380",
+  "source_sha256": "8d31e062115e01e416bb36ad87894940488328061d34beed349534353e54406f",
+  "role": "conditional",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u8cc7\u6599\u53ca\u539f\u65b9\u6cd5\u7684\u78ba\u5207\u7f3a\u9805"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "all": [
+              {
+                "field": "task.rfm_scores",
+                "label": "\u5df2\u6838\u5c0d RFM \u5206\u6578\u8207\u4e09\u4f4d\u4ee3\u78bc\u53ca\u5340\u9593\u89c0\u5bdf\u7a97\u7248\u672c",
+                "location": "task",
+                "states": [
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6838\u5c0d\u7684R\uff0fF\uff0fM\u5206\u6578\u8207\u4e09\u4f4d\u4ee3\u78bc\u3001\u5340\u9593\uff0f\u89c0\u5bdf\u7a97\u7248\u672c\u3001\u54c1\u724c\u6838\u51c6\u985e\u578b\u6620\u5c04\uff1b\u63a1\u539f\u8b1b\u7fa9\u793a\u4f8b\u6642\u4f7f\u7528\u672c\u6587\u5167\u5d4c\u8868\u4e26\u4fdd\u7559\u672a\u660e\u78ba\u9805\u76ee"
+              }
+            ]
+          },
+          {
+            "field": "rule.rfm_names",
+            "label": "\u54c1\u724c\u6838\u51c6\u985e\u578b\u6620\u5c04",
+            "location": "context",
+            "states": [
+              "user_confirmed"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6838\u5c0d\u7684R\uff0fF\uff0fM\u5206\u6578\u8207\u4e09\u4f4d\u4ee3\u78bc\u3001\u5340\u9593\uff0f\u89c0\u5bdf\u7a97\u7248\u672c\u3001\u54c1\u724c\u6838\u51c6\u985e\u578b\u6620\u5c04\uff1b\u63a1\u539f\u8b1b\u7fa9\u793a\u4f8b\u6642\u4f7f\u7528\u672c\u6587\u5167\u5d4c\u8868\u4e26\u4fdd\u7559\u672a\u660e\u78ba\u9805\u76ee"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u54c1\u724c\u7fa4\u7d44\u985e\u578b"
+    },
+    "lecture_example": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.rfm_scores",
+            "label": "\u5df2\u6838\u5c0d RFM \u5206\u6578\u8207\u4e09\u4f4d\u4ee3\u78bc\u53ca\u5340\u9593\u89c0\u5bdf\u7a97\u7248\u672c",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6838\u5c0d\u7684R\uff0fF\uff0fM\u5206\u6578\u8207\u4e09\u4f4d\u4ee3\u78bc\u3001\u5340\u9593\uff0f\u89c0\u5bdf\u7a97\u7248\u672c\u3001\u54c1\u724c\u6838\u51c6\u985e\u578b\u6620\u5c04\uff1b\u63a1\u539f\u8b1b\u7fa9\u793a\u4f8b\u6642\u4f7f\u7528\u672c\u6587\u5167\u5d4c\u8868\u4e26\u4fdd\u7559\u672a\u660e\u78ba\u9805\u76ee"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u4f7f\u7528\u539f\u8b1b\u7fa9\u5167\u5d4c\u8868\u4e26\u4fdd\u7559\u672a\u660e\u78ba\u9805\u76ee"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [
+      "rule.rfm_names"
+    ],
+    "dependents": "\u4f9d\u5be6\u969b\u4f7f\u7528\u8cc7\u6599 ID \u8207\u6458\u8981\u91cd\u67e5"
+  },
+  "schema_version": 1,
+  "method_sha256": "7255af831a5235c3de5add7610155e2ef53be6a1a6a541f8e1081eeb34b06d71",
+  "method_path": "skills/mk-380/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

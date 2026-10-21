@@ -1,0 +1,419 @@
+{
+  "skill_id": "MK-087",
+  "source_sha256": "7d48e1ddac47d7018e41750b24653554a0e3e7835690828bb01c1c315201abf4",
+  "role": "consumer",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u7684\u4f86\u6e90\u8207\u78ba\u5207\u7f3a\u9805\uff0c\u4f9d\u539f\u65b9\u6cd5\u63a5\u7e8c"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "any": [
+              {
+                "field": "asset.sku_catalog",
+                "label": "SKU",
+                "location": "context",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key"
+                ],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_website_or_source",
+                "preparation": "INF-00-06",
+                "condition": null,
+                "kind": "asset",
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+              },
+              {
+                "field": "task.input.f88ba99c9b342767",
+                "label": "SKU",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+              }
+            ],
+            "condition": null
+          },
+          {
+            "field": "task.input.639de58eb608d490",
+            "label": "\u6210\u672c",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "quantity": "amount",
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.2f3ba5141f3862d1",
+            "label": "\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.597de6884b77d3b9",
+            "label": "\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          },
+          {
+            "any": [
+              {
+                "field": "task.input.67f1d34e0b8f618a",
+                "label": "\u5ba2\u7fa4\u9858\u4ed8",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+              },
+              {
+                "field": "task.input.9b6f78dac3563354",
+                "label": "\u9078\u64c7\u8b49\u64da",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+              }
+            ],
+            "condition": null,
+            "source_line": 36
+          },
+          {
+            "field": "task.input.1d0150522d0ccfa8",
+            "label": "\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u9ad8\u50f9\u7d44\u5408\u5347\u7d1a\u8a2d\u8a08\u7684\u539f\u65b9\u6cd5\u4ea4\u4ed8"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "asset.sku_catalog",
+            "label": "SKU",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "INF-00-06",
+            "condition": null,
+            "kind": "asset",
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.f88ba99c9b342767",
+            "label": "SKU",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.639de58eb608d490",
+            "label": "\u6210\u672c",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "quantity": "amount",
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.2f3ba5141f3862d1",
+            "label": "\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.597de6884b77d3b9",
+            "label": "\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.67f1d34e0b8f618a",
+            "label": "\u5ba2\u7fa4\u9858\u4ed8",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.9b6f78dac3563354",
+            "label": "\u9078\u64c7\u8b49\u64da",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.1d0150522d0ccfa8",
+            "label": "\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u6210\u672c\u3001\u76ee\u524d\u8207\u5347\u7d1a\u65b9\u6848\u3001\u53ef\u6bd4\u5e02\u5834\u8cc7\u6599\u3001\u5ba2\u7fa4\u9858\u4ed8\u6216\u9078\u64c7\u8b49\u64da\u3001\u5eab\u5b58\u8207\u5c65\u7d04\u689d\u4ef6"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [
+      "asset.sku_catalog"
+    ],
+    "dependents": "\u4ee5\u5df2\u4f7f\u7528 datum ID \u8207 digest \u5c0d\u61c9\u6b63\u5728\u9032\u884c\u7684\u4efb\u52d9\u53ca\u884d\u751f\u8cc7\u6599"
+  },
+  "schema_version": 1,
+  "method_sha256": "c66faf82479fe73f419f96644b42a391c9885abfde82dc07ff0088c318c55937",
+  "method_path": "skills/mk-087/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

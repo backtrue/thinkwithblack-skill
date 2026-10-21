@@ -1,0 +1,61 @@
+{
+  "skill_id": "MK-058",
+  "source_sha256": "dae9b525132cf3a70f1425d28dc1a7227fe47ecdc5bffc6ef108581f13de5349",
+  "role": "unneeded",
+  "stages": {
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u65b9\u6cd5\u3001\u516c\u5f0f\u8207\u660e\u793a\u5047\u8a2d\u793a\u4f8b"
+    },
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u5df2\u63d0\u4f9b\u6578\u503c\u8207\u516c\u5f0f\u7f3a\u9805"
+    },
+    "calculate": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.cost_items",
+            "label": "\u6210\u672c\u660e\u7d30\u3001\u91d1\u984d\u3001\u671f\u9593\u8207\u8a08\u50f9\u65b9\u5f0f",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u6210\u672c\u660e\u7d30\u3001\u91d1\u984d\u3001\u671f\u9593\u8207\u8a08\u50f9\u65b9\u5f0f\uff1b\u53ea\u554f\u5206\u985e\u65b9\u6cd5\u6642\uff0c\u76f4\u63a5\u4ea4\u5206\u985e\u539f\u5247\u8207\u4f8b\u5b50"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u4f9d\u539f\u65b9\u6cd5\u516c\u5f0f\u8a08\u7b97\u53ca\u540c\u53e3\u5f91\u7d50\u679c"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4f9d datum ID\u3001\u4f86\u6e90\u7248\u672c\u8207\u5167\u5bb9\u6458\u8981\u91cd\u67e5\u884d\u751f\u8cc7\u6599\u53ca\u4efb\u52d9"
+  },
+  "schema_version": 1,
+  "method_sha256": "b0749a3f1f95f9654aaf1e5222afb6a68af4ae803bb81328796322c872247f91",
+  "method_path": "skills/mk-058/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

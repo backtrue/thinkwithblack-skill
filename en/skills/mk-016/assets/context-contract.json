@@ -1,0 +1,167 @@
+{
+  "skill_id": "MK-016",
+  "source_sha256": "a9d7844948e6dcd3fe86d7265fbc9e2c123a14ed34b586c82dd2e5a2102056a1",
+  "role": "producer",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "any": [
+          {
+            "field": "product.facts",
+            "label": "\u53ef\u8b80\u5546\u54c1\u8cc7\u6599",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "MK-001",
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u4e8b\u5be6\u3001\u65e2\u6709\u9867\u5ba2\u8cc7\u6599\u3001\u554f\u5377\u6216\u5ba2\u670d\u7d00\u9304"
+          },
+          {
+            "field": "task.product_material",
+            "label": "\u7522\u54c1\u8cc7\u8a0a\u3001\u5546\u54c1\u9801\u3001\u7167\u7247\u3001PDF \u6216\u57fa\u790e\u6587\u6848",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u4e8b\u5be6\u3001\u65e2\u6709\u9867\u5ba2\u8cc7\u6599\u3001\u554f\u5377\u6216\u5ba2\u670d\u7d00\u9304"
+          }
+        ]
+      },
+      "delivery": false,
+      "allowed_output": "\u5546\u54c1\u4f86\u6e90\u8207\u7f3a\u9805"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "product.facts",
+            "label": "\u5df2\u6838\u5c0d\u5546\u54c1\u4e8b\u5be6",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "MK-001",
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u4e8b\u5be6\u3001\u65e2\u6709\u9867\u5ba2\u8cc7\u6599\u3001\u554f\u5377\u6216\u5ba2\u670d\u7d00\u9304"
+          },
+          {
+            "field": "task.goal",
+            "label": "\u672c\u6b21\u5de5\u4f5c\u76ee\u7684",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 6,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5148\u8b80\u53d6 ../../references/HOST_MCP_POLICY.md\u3001../../references/COMMON_EXECUTION_RULES.md \u8207 ../../references/MARKETING_ENTRY_ORCHESTRATOR.md\u3002\u53ea\u8f09\u5165\u672c\u6b21\u5de5\u4f5c\u9700\u8981\u7684\u898f\u5247\u3002\u539f\u6587\u7684 routing/ \u8def\u5f91\u76f8\u5c0d ../../references/\uff1b../batch001_meta/ \u8def\u5f91\u5c0d\u61c9 ../../references/batch001_meta/\u3002\u5f15\u7528\u4f86\u6e90\u4e0d\u4ee3\u8868\u5de5\u5177\u5df2\u53ef\u7528\uff0c\u4fdd\u7559\u539f\u6587\u9a57\u6536\u72c0\u614b\u3002"
+          },
+          {
+            "field": "task.customer_evidence_status",
+            "label": "\u9867\u5ba2\u7dda\u7d22\u53ca\u6b77\u53f2\u8cc7\u6599\u53d6\u5f97\u72c0\u614b\uff1a\u5df2\u8b80\u3001\u78ba\u5b9a\u7121\u8cc7\u6599\u3001\u672a\u77e5\u3001\u8b80\u53d6\u5931\u6557",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 62,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "**\u4f86\u6e90\u5c1a\u672a\u53d6\u5f97\uff1a**\u80fd\u5728\u6388\u6b0a\u7bc4\u570d\u67e5\u5c31\u5148\u67e5\uff1b\u5fc5\u8981\u9023\u63a5\u7f3a\u5c11\u624d\u5f15\u5c0e\u9023\u63a5\u3002\u672a\u67e5\u3001\u5931\u6557\u3001\u78ba\u5b9a\u7121\u8cc7\u6599\u5206\u958b\u3002"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "Persona \u5019\u9078\u3001\u4f9d\u64da\u3001\u53cd\u4f8b\u8207\u660e\u793a\u5047\u8a2d"
+    },
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u65b9\u6cd5\u3001\u516c\u5f0f\u8207\u660e\u793a\u5047\u8a2d\u793a\u4f8b"
+    }
+  },
+  "writeback": [
+    "persona.profile",
+    "persona.motivation",
+    "persona.objection",
+    "persona.alternative",
+    "persona.role",
+    "persona.evidence"
+  ],
+  "invalidation": {
+    "fields": [
+      "product.facts"
+    ],
+    "dependents": "\u4f9d datum ID\u3001\u4f86\u6e90\u7248\u672c\u8207\u5167\u5bb9\u6458\u8981\u91cd\u67e5\u884d\u751f\u8cc7\u6599\u53ca\u4efb\u52d9"
+  },
+  "schema_version": 1,
+  "method_sha256": "273ffd7e59d971750a567009f2b9de827f44df4da95ef823d8aca401bd79ed55",
+  "method_path": "skills/mk-016/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

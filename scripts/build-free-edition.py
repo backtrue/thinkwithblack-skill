@@ -128,7 +128,7 @@ def render_pack(root,e,version):
     for rel in refs:
         anchor=anchors[(root/rel).resolve()]
         body=(root/rel).read_text().strip()
-        if rel.endswith('.csv'):body='```csv\n'+body+'\n```'
+        if rel.endswith(('.csv','.json','.py')):body='```'+{'.csv':'csv','.json':'json','.py':'python'}[Path(rel).suffix]+'\n'+body+'\n```'
         else:body=render(rel)
         chunks.append(f'<a id="{anchor}"></a>\n\n## 附錄：{Path(rel).name}\n\n'+body)
     chunks+=['## 教材授權\n\n'+(root/'LICENSE').read_text().strip()]
@@ -192,7 +192,7 @@ def verify(root):
                 if re.search(pat,t):raise ValueError('Product content in '+rel+': '+pat)
         if rel.endswith('.md'):
             if not rel.startswith('en/'):en['verify_fragments'](root,rel,t,label='local')
-            for match in LINK.finditer(t):
+            for match in LINK.finditer(re.sub(r"^```[^\n]*\n.*?^```[ \t]*$", "", t, flags=re.M|re.S)):
                 target=local_link(root,rel,match[1])
                 if target and not target.is_file():raise ValueError('Broken local link in '+rel+': '+match[1])
                 if (rel.startswith('packs/') or rel.startswith('en/packs/')) and target:raise ValueError('Pack has external file dependency: '+rel+': '+match[1])

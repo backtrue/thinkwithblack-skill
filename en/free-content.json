@@ -1,14 +1,17 @@
 {
-  "version": "2026.10.21-en.3",
+  "version": "2026.10.22-en.1",
   "language": "en",
-  "sourceVersion": "2026.10.21-free.3",
+  "sourceVersion": "2026.10.22-free.1",
   "entries": [
     {
       "id": "INF-05-07",
       "name": "Repeat-purchase interval calculation",
       "description": "Calculate the repeat-purchase interval, mean, and median for a specified cohort using customer identifiers and valid order dates. Use for questions about the average days between first and second orders across five years of records or how to calculate this in a spreadsheet; perform the measurement directly",
       "source": "skills/inf-05-07/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/inf-05-07/assets/context-contract.json",
+        "skills/inf-05-07/assets/check-context.py"
+      ],
       "pack": "packs/inf-05-07.md"
     },
     {
@@ -16,7 +19,10 @@
       "name": "Product fact inventory",
       "description": "Product fact inventory. Use when the task requires a citable product fact table and missing-input list. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-001/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-001/assets/context-contract.json",
+        "skills/mk-001/assets/check-context.py"
+      ],
       "pack": "packs/mk-001.md"
     },
     {
@@ -24,7 +30,10 @@
       "name": "Unique selling proposition extraction",
       "description": "Unique selling proposition extraction. Use when the task requires evidence-based candidates for differentiated selling points. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-002/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-002/assets/context-contract.json",
+        "skills/mk-002/assets/check-context.py"
+      ],
       "pack": "packs/mk-002.md"
     },
     {
@@ -32,7 +41,10 @@
       "name": "Selling-point distinctiveness check",
       "description": "Check whether existing product selling points or USPs are merely generic slogans, and compare distinctiveness using product facts and competitor evidence. Use for \"Could competitors make this claim too?\" or \"Is this USP differentiated?\"",
       "source": "skills/mk-003/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-003/assets/context-contract.json",
+        "skills/mk-003/assets/check-context.py"
+      ],
       "pack": "packs/mk-003.md"
     },
     {
@@ -40,7 +52,10 @@
       "name": "Customer-value check for selling points",
       "description": "Customer-value check for selling points. Use when the task requires the customer benefit associated with each selling point. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-004/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-004/assets/context-contract.json",
+        "skills/mk-004/assets/check-context.py"
+      ],
       "pack": "packs/mk-004.md"
     },
     {
@@ -48,7 +63,10 @@
       "name": "Selling-point evidence matching",
       "description": "Selling-point evidence matching. Use when the task requires a claim, evidence, and gap comparison table. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-005/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-005/assets/context-contract.json",
+        "skills/mk-005/assets/check-context.py"
+      ],
       "pack": "packs/mk-005.md"
     },
     {
@@ -56,7 +74,10 @@
       "name": "Prioritizing three lead selling points",
       "description": "Prioritizing three lead selling points. Use when the task requires lead selling-point priorities and reasons for trade-offs. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-006/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-006/assets/context-contract.json",
+        "skills/mk-006/assets/check-context.py"
+      ],
       "pack": "packs/mk-006.md"
     },
     {
@@ -64,7 +85,10 @@
       "name": "Turning features into customer benefits",
       "description": "Turning features into customer benefits. Use when the task requires a feature, advantage, and benefit translation table. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-007/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-007/assets/context-contract.json",
+        "skills/mk-007/assets/check-context.py"
+      ],
       "pack": "packs/mk-007.md"
     },
     {
@@ -72,7 +96,10 @@
       "name": "Turning selling points into usage scenarios",
       "description": "Turning selling points into usage scenarios. Use when the task requires creative angles that place specifications in everyday situations. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-008/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-008/assets/context-contract.json",
+        "skills/mk-008/assets/check-context.py"
+      ],
       "pack": "packs/mk-008.md"
     },
     {
@@ -80,7 +107,10 @@
       "name": "Functional value proposition",
       "description": "Functional value proposition. Use when the task requires one sentence linking a functional problem and its solution. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-009/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-009/assets/context-contract.json",
+        "skills/mk-009/assets/check-context.py"
+      ],
       "pack": "packs/mk-009.md"
     },
     {
@@ -88,7 +118,10 @@
       "name": "Emotional value proposition",
       "description": "Emotional value proposition. Use when the task requires source-supported emotional benefits and communication boundaries. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-010/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-010/assets/context-contract.json",
+        "skills/mk-010/assets/check-context.py"
+      ],
       "pack": "packs/mk-010.md"
     },
     {
@@ -96,7 +129,10 @@
       "name": "Social-role value proposition",
       "description": "Social-role value proposition. Use when the task requires a draft connecting role identity with product value. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-011/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-011/assets/context-contract.json",
+        "skills/mk-011/assets/check-context.py"
+      ],
       "pack": "packs/mk-011.md"
     },
     {
@@ -104,7 +140,10 @@
       "name": "One-sentence brand positioning",
       "description": "One-sentence brand positioning. Use when the task requires one sentence stating who it serves, what it solves, and how it differs. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-012/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-012/assets/context-contract.json",
+        "skills/mk-012/assets/check-context.py"
+      ],
       "pack": "packs/mk-012.md"
     },
     {
@@ -112,7 +151,10 @@
       "name": "Competitive advantage comparison",
       "description": "Competitive advantage comparison. Use when the task requires a comparison of brand differences within the evidence available. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-013/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-013/assets/context-contract.json",
+        "skills/mk-013/assets/check-context.py"
+      ],
       "pack": "packs/mk-013.md"
     },
     {
@@ -120,7 +162,10 @@
       "name": "Diagnosing unfocused selling points",
       "description": "Diagnosing unfocused selling points. Use when the task requires locations where copy departs from the core value and directions for revision. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-014/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-014/assets/context-contract.json",
+        "skills/mk-014/assets/check-context.py"
+      ],
       "pack": "packs/mk-014.md"
     },
     {
@@ -128,7 +173,10 @@
       "name": "Customer-clue inventory",
       "description": "Customer-clue inventory. Use when the task requires separate columns for raw clues, sources, knowns, and unknowns. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-015/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-015/assets/context-contract.json",
+        "skills/mk-015/assets/check-context.py"
+      ],
       "pack": "packs/mk-015.md"
     },
     {
@@ -136,7 +184,10 @@
       "name": "Persona candidate creation",
       "description": "Persona candidate creation. Use when the task requires audience hypothesis cards that do not fabricate real identities. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-016/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-016/assets/context-contract.json",
+        "skills/mk-016/assets/check-context.py"
+      ],
       "pack": "packs/mk-016.md"
     },
     {
@@ -144,7 +195,10 @@
       "name": "Interpreting customers' core values",
       "description": "Interpreting customers' core values. Use when the task requires what customers value and the original evidence for it. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-017/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-017/assets/context-contract.json",
+        "skills/mk-017/assets/check-context.py"
+      ],
       "pack": "packs/mk-017.md"
     },
     {
@@ -152,7 +206,10 @@
       "name": "Grouping purchase motivations",
       "description": "Grouping purchase motivations. Use when the task requires groups with different motivations for buying the same product. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-018/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-018/assets/context-contract.json",
+        "skills/mk-018/assets/check-context.py"
+      ],
       "pack": "packs/mk-018.md"
     },
     {
@@ -160,7 +217,10 @@
       "name": "Customer pain-point inventory",
       "description": "Customer pain-point inventory. Use when the task requires a list of customer problems, their impacts, and evidence. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-019/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-019/assets/context-contract.json",
+        "skills/mk-019/assets/check-context.py"
+      ],
       "pack": "packs/mk-019.md"
     },
     {
@@ -168,7 +228,10 @@
       "name": "Distinguishing needs from wants",
       "description": "Distinguishing needs from wants. Use when the task requires a comparison of necessary solutions and desired feelings. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-020/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-020/assets/context-contract.json",
+        "skills/mk-020/assets/check-context.py"
+      ],
       "pack": "packs/mk-020.md"
     },
     {
@@ -176,7 +239,10 @@
       "name": "Interpreting high and low willingness-to-pay clues",
       "description": "Interpreting high and low willingness-to-pay clues. Use when the task requires observable signals and questions to validate. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-021/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-021/assets/context-contract.json",
+        "skills/mk-021/assets/check-context.py"
+      ],
       "pack": "packs/mk-021.md"
     },
     {
@@ -184,7 +250,10 @@
       "name": "Expanding scenarios with 5W1H",
       "description": "Expanding scenarios with 5W1H. Use when the task requires a table of people, tasks, times, places, and reasons. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-022/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-022/assets/context-contract.json",
+        "skills/mk-022/assets/check-context.py"
+      ],
       "pack": "packs/mk-022.md"
     },
     {
@@ -192,7 +261,10 @@
       "name": "Separating users from buyers",
       "description": "Separating users from buyers. Use when the task requires role hypotheses such as personal use, gifting, and purchasing for someone else. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-023/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-023/assets/context-contract.json",
+        "skills/mk-023/assets/check-context.py"
+      ],
       "pack": "packs/mk-023.md"
     },
     {
@@ -200,7 +272,10 @@
       "name": "Time-based scenario angles",
       "description": "Time-based scenario angles. Use when the task requires a scenario question bank for usage times or seasons. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-024/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-024/assets/context-contract.json",
+        "skills/mk-024/assets/check-context.py"
+      ],
       "pack": "packs/mk-024.md"
     },
     {
@@ -208,7 +283,10 @@
       "name": "Place-based scenario angles",
       "description": "Place-based scenario angles. Use when the task requires differences in needs across settings. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-025/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-025/assets/context-contract.json",
+        "skills/mk-025/assets/check-context.py"
+      ],
       "pack": "packs/mk-025.md"
     },
     {
@@ -216,7 +294,10 @@
       "name": "Occasion-based scenario angles",
       "description": "Occasion-based scenario angles. Use when the task requires differences in needs for gifting, everyday use, and special occasions. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-026/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-026/assets/context-contract.json",
+        "skills/mk-026/assets/check-context.py"
+      ],
       "pack": "packs/mk-026.md"
     },
     {
@@ -224,7 +305,10 @@
       "name": "Audience and selling-point matching",
       "description": "Audience and selling-point matching. Use when the task requires a Persona × USP communication-priority matrix. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-027/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-027/assets/context-contract.json",
+        "skills/mk-027/assets/check-context.py"
+      ],
       "pack": "packs/mk-027.md"
     },
     {
@@ -232,7 +316,10 @@
       "name": "Persona evidence review",
       "description": "Persona evidence review. Use when the task requires a checklist distinguishing supported items from invented assumptions. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-028/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-028/assets/context-contract.json",
+        "skills/mk-028/assets/check-context.py"
+      ],
       "pack": "packs/mk-028.md"
     },
     {
@@ -240,7 +327,10 @@
       "name": "Identifying role-marker products",
       "description": "Identifying role-marker products. Use when the task requires products that may provide identity clues and their limitations. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-029/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-029/assets/context-contract.json",
+        "skills/mk-029/assets/check-context.py"
+      ],
       "pack": "packs/mk-029.md"
     },
     {
@@ -248,7 +338,10 @@
       "name": "Role-marker counterexample check",
       "description": "Role-marker counterexample check. Use when the task requires alternative explanations such as gifting and purchasing for others. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-030/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-030/assets/context-contract.json",
+        "skills/mk-030/assets/check-context.py"
+      ],
       "pack": "packs/mk-030.md"
     },
     {
@@ -256,7 +349,10 @@
       "name": "Next needs of existing buyers",
       "description": "Next needs of existing buyers. Use when the task requires testable hypotheses about a buyer's subsequent needs. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-031/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-031/assets/context-contract.json",
+        "skills/mk-031/assets/check-context.py"
+      ],
       "pack": "packs/mk-031.md"
     },
     {
@@ -264,7 +360,10 @@
       "name": "Need-trigger event ideation",
       "description": "Need-trigger event ideation. Use when the task requires a table of specific, observable candidate events. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-032/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-032/assets/context-contract.json",
+        "skills/mk-032/assets/check-context.py"
+      ],
       "pack": "packs/mk-032.md"
     },
     {
@@ -272,7 +371,10 @@
       "name": "Separating events from personality descriptions",
       "description": "Separating events from personality descriptions. Use when the task requires abstract labels rewritten as verifiable events. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-033/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-033/assets/context-contract.json",
+        "skills/mk-033/assets/check-context.py"
+      ],
       "pack": "packs/mk-033.md"
     },
     {
@@ -280,7 +382,10 @@
       "name": "Turning events into problem awareness",
       "description": "Turning events into problem awareness. Use when the task requires hypotheses about the problems each event raises. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-034/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-034/assets/context-contract.json",
+        "skills/mk-034/assets/check-context.py"
+      ],
       "pack": "packs/mk-034.md"
     },
     {
@@ -288,7 +393,10 @@
       "name": "Generating natural customer search phrases",
       "description": "Generating natural customer search phrases. Use when the task requires candidate search phrases that preserve the original meaning. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-035/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-035/assets/context-contract.json",
+        "skills/mk-035/assets/check-context.py"
+      ],
       "pack": "packs/mk-035.md"
     },
     {
@@ -296,7 +404,10 @@
       "name": "Interpreting four types of search intent",
       "description": "Interpreting four types of search intent. Use when the task requires intent classifications, supporting reasons, and uncertain items. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-036/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-036/assets/context-contract.json",
+        "skills/mk-036/assets/check-context.py"
+      ],
       "pack": "packs/mk-036.md"
     },
     {
@@ -304,7 +415,10 @@
       "name": "Information-gap assessment",
       "description": "Information-gap assessment. Use when the task requires information each need still requires before action. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-037/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-037/assets/context-contract.json",
+        "skills/mk-037/assets/check-context.py"
+      ],
       "pack": "packs/mk-037.md"
     },
     {
@@ -312,7 +426,10 @@
       "name": "Designing a reasonable next step",
       "description": "Designing a reasonable next step. Use when the task requires actions matched to the maturity of the need. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-038/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-038/assets/context-contract.json",
+        "skills/mk-038/assets/check-context.py"
+      ],
       "pack": "packs/mk-038.md"
     },
     {
@@ -320,7 +437,10 @@
       "name": "Search-need mapping",
       "description": "Search-need mapping. Use when the task requires a verifiable path table from event to action. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-039/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-039/assets/context-contract.json",
+        "skills/mk-039/assets/check-context.py"
+      ],
       "pack": "packs/mk-039.md"
     },
     {
@@ -328,7 +448,10 @@
       "name": "Matching needs to ad formats",
       "description": "Matching needs to ad formats. Use when the task requires task allocation across search, video, and other formats. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-040/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-040/assets/context-contract.json",
+        "skills/mk-040/assets/check-context.py"
+      ],
       "pack": "packs/mk-040.md"
     },
     {
@@ -336,7 +459,10 @@
       "name": "Ad-to-page promise check",
       "description": "Ad-to-page promise check. Use when the task requires breaks where the page does not answer the ad's promise. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-041/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-041/assets/context-contract.json",
+        "skills/mk-041/assets/check-context.py"
+      ],
       "pack": "packs/mk-041.md"
     },
     {
@@ -344,7 +470,10 @@
       "name": "Diagnosing an overly early call to action",
       "description": "Diagnosing an overly early call to action. Use when the task requires locations that request a purchase or inquiry too early. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-042/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-042/assets/context-contract.json",
+        "skills/mk-042/assets/check-context.py"
+      ],
       "pack": "packs/mk-042.md"
     },
     {
@@ -352,7 +481,10 @@
       "name": "Identifying website gaps in supporting needs",
       "description": "Identifying website gaps in supporting needs. Use when the task requires a list of missing or inadequate pages to address needs. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-043/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-043/assets/context-contract.json",
+        "skills/mk-043/assets/check-context.py"
+      ],
       "pack": "packs/mk-043.md"
     },
     {
@@ -360,7 +492,10 @@
       "name": "Search-hypothesis validation checklist",
       "description": "Search-hypothesis validation checklist. Use when the task requires interview, search-term, or page evidence needed for each hypothesis. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-044/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-044/assets/context-contract.json",
+        "skills/mk-044/assets/check-context.py"
+      ],
       "pack": "packs/mk-044.md"
     },
     {
@@ -368,7 +503,10 @@
       "name": "Price-sensitivity questionnaire design",
       "description": "Price-sensitivity questionnaire design. Use when the task requires four price-perception questions and survey instructions. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-046/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-046/assets/context-contract.json",
+        "skills/mk-046/assets/check-context.py"
+      ],
       "pack": "packs/mk-046.md"
     },
     {
@@ -376,7 +514,10 @@
       "name": "Price-survey response review",
       "description": "Price-survey response review. Use when the task requires a list of missing values, contradictory responses, and outliers. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-047/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-047/assets/context-contract.json",
+        "skills/mk-047/assets/check-context.py"
+      ],
       "pack": "packs/mk-047.md"
     },
     {
@@ -384,7 +525,10 @@
       "name": "Price-perception distribution analysis",
       "description": "Price-perception distribution analysis. Use when the task requires a calculation table for four cumulative-proportion curves. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-048/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-048/assets/context-contract.json",
+        "skills/mk-048/assets/check-context.py"
+      ],
       "pack": "packs/mk-048.md"
     },
     {
@@ -392,7 +536,10 @@
       "name": "Interpreting the acceptable price range",
       "description": "Interpreting the acceptable price range. Use when the task requires explanation of intersections, the reasonable price range, and their limitations. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-049/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-049/assets/context-contract.json",
+        "skills/mk-049/assets/check-context.py"
+      ],
       "pack": "packs/mk-049.md"
     },
     {
@@ -400,7 +547,10 @@
       "name": "Interpreting optimal-price intersections",
       "description": "Interpreting optimal-price intersections. Use when the task requires price-intersection calculations and interpretation. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-050/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-050/assets/context-contract.json",
+        "skills/mk-050/assets/check-context.py"
+      ],
       "pack": "packs/mk-050.md"
     },
     {
@@ -408,7 +558,10 @@
       "name": "Comparing price acceptance across customer groups",
       "description": "Comparing price acceptance across customer groups. Use when the task requires group-specific price distributions on a consistent basis. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-051/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-051/assets/context-contract.json",
+        "skills/mk-051/assets/check-context.py"
+      ],
       "pack": "packs/mk-051.md"
     },
     {
@@ -416,7 +569,10 @@
       "name": "Checking pricing against the cost floor",
       "description": "Checking pricing against the cost floor. Use when the task requires a comparison of acceptable prices and profit constraints. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-052/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-052/assets/context-contract.json",
+        "skills/mk-052/assets/check-context.py"
+      ],
       "pack": "packs/mk-052.md"
     },
     {
@@ -424,7 +580,10 @@
       "name": "Launch-price and early-bird-price questionnaire",
       "description": "Launch-price and early-bird-price questionnaire. Use when the task requires questions measuring acceptance of two offers. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-053/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-053/assets/context-contract.json",
+        "skills/mk-053/assets/check-context.py"
+      ],
       "pack": "packs/mk-053.md"
     },
     {
@@ -432,7 +591,10 @@
       "name": "Ranking selling points from surveys",
       "description": "Ranking selling points from surveys. Use when the task requires a ranking of the features consumers value. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-054/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-054/assets/context-contract.json",
+        "skills/mk-054/assets/check-context.py"
+      ],
       "pack": "packs/mk-054.md"
     },
     {
@@ -440,7 +602,10 @@
       "name": "Product-preference question design",
       "description": "Design survey questions that distinguish reasons for choosing products. Use for post-purchase e-commerce customer insights, question recommendations, and research into pain points, needs, and product features. Deliver an evidence-based question draft first; derive specific options from real products and situations",
       "source": "skills/mk-055/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-055/assets/context-contract.json",
+        "skills/mk-055/assets/check-context.py"
+      ],
       "pack": "packs/mk-055.md"
     },
     {
@@ -448,7 +613,10 @@
       "name": "Supplementary questions for scenarios and roles",
       "description": "Supplementary questions for scenarios and roles. Use when the task requires questions that resolve uncertainty in role markers. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-056/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-056/assets/context-contract.json",
+        "skills/mk-056/assets/check-context.py"
+      ],
       "pack": "packs/mk-056.md"
     },
     {
@@ -456,7 +624,10 @@
       "name": "Organizing recommendation-intent feedback",
       "description": "Organizing recommendation-intent feedback. Use when the task requires a summary of recommendation intent and improvement feedback. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-057/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-057/assets/context-contract.json",
+        "skills/mk-057/assets/check-context.py"
+      ],
       "pack": "packs/mk-057.md"
     },
     {
@@ -464,7 +635,10 @@
       "name": "Classifying fixed and variable costs",
       "description": "Classifying fixed and variable costs. Use when the task requires a comparison of fixed expenses and per-order variable expenses. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-058/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-058/assets/context-contract.json",
+        "skills/mk-058/assets/check-context.py"
+      ],
       "pack": "packs/mk-058.md"
     },
     {
@@ -472,7 +646,10 @@
       "name": "Per-product contribution margin calculation",
       "description": "Per-product contribution margin calculation. Use when the task requires the amount remaining after specified variable expenses. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-059/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-059/assets/context-contract.json",
+        "skills/mk-059/assets/check-context.py"
+      ],
       "pack": "packs/mk-059.md"
     },
     {
@@ -480,7 +657,10 @@
       "name": "Contribution margin ratio calculation",
       "description": "Contribution margin ratio calculation. Use when the task requires contribution amounts and revenue ratios with explicit definitions. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-060/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-060/assets/context-contract.json",
+        "skills/mk-060/assets/check-context.py"
+      ],
       "pack": "packs/mk-060.md"
     },
     {
@@ -488,7 +668,10 @@
       "name": "Break-even revenue calculation",
       "description": "Break-even revenue calculation. Use when the task requires a break-even table based on fixed expenses and contribution margin ratio. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-061/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-061/assets/context-contract.json",
+        "skills/mk-061/assets/check-context.py"
+      ],
       "pack": "packs/mk-061.md"
     },
     {
@@ -496,7 +679,10 @@
       "name": "Converting a revenue target into order volume",
       "description": "Converting a revenue target into order volume. Use when the task requires orders required for the target revenue and average order value. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-062/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-062/assets/context-contract.json",
+        "skills/mk-062/assets/check-context.py"
+      ],
       "pack": "packs/mk-062.md"
     },
     {
@@ -504,7 +690,10 @@
       "name": "Converting an order target into traffic",
       "description": "Converting an order target into traffic. Use when the task requires traffic required for the order target and conversion rate. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-063/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-063/assets/context-contract.json",
+        "skills/mk-063/assets/check-context.py"
+      ],
       "pack": "packs/mk-063.md"
     },
     {
@@ -512,7 +701,10 @@
       "name": "Customer acquisition cost ceiling calculation",
       "description": "Customer acquisition cost ceiling calculation. Use when the task requires an estimate based on average order value, gross margin, and the affordable allocation. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-064/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-064/assets/context-contract.json",
+        "skills/mk-064/assets/check-context.py"
+      ],
       "pack": "packs/mk-064.md"
     },
     {
@@ -520,7 +712,10 @@
       "name": "Working backward to target cost per click",
       "description": "Working backward to target cost per click. Use when the task requires cPC derived from acceptable CPA and conversion rate. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-065/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-065/assets/context-contract.json",
+        "skills/mk-065/assets/check-context.py"
+      ],
       "pack": "packs/mk-065.md"
     },
     {
@@ -528,7 +723,10 @@
       "name": "Working backward to target cost per add-to-cart",
       "description": "Working backward to target cost per add-to-cart. Use when the task requires cost derived from the add-to-cart purchase rate and CPA. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-066/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-066/assets/context-contract.json",
+        "skills/mk-066/assets/check-context.py"
+      ],
       "pack": "packs/mk-066.md"
     },
     {
@@ -536,7 +734,10 @@
       "name": "Break-even return on ad spend calculation",
       "description": "Calculate break-even ROAS from revenue and non-advertising expenses. Use for questions about which product costs to include, whether production and delivery alone suffice, how to incorporate monthly company fixed costs, and whether the lowest-priced variant can represent the whole range. For method questions, deliver cost definitions, formulas, and examples directly; check costs and sales mix when calculating actual figures. A break-even question alone does not trigger scaling or pricing workflows",
       "source": "skills/mk-067/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-067/assets/context-contract.json",
+        "skills/mk-067/assets/check-context.py"
+      ],
       "pack": "packs/mk-067.md"
     },
     {
@@ -544,7 +745,10 @@
       "name": "Marketing-spend allocation ceiling",
       "description": "Marketing-spend allocation ceiling. Use for financial models, available marketing budgets, and profit-reinvestment decisions under e-commerce net-profit targets, including tax-inclusive prices, per-order and company expenses, competitor price ranges, reinvestment denominators, and periods. Deliver a recalculable model and conditional budget. Handle pure break-even ROAS or scaling an existing Meta campaign according to that specific request",
       "source": "skills/mk-068/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-068/assets/context-contract.json",
+        "skills/mk-068/assets/check-context.py"
+      ],
       "pack": "packs/mk-068.md"
     },
     {
@@ -552,7 +756,10 @@
       "name": "Post-discount profit calculation",
       "description": "Post-discount profit calculation. Use when the task requires joint calculation of discounts, gifts, and logistics. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-069/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-069/assets/context-contract.json",
+        "skills/mk-069/assets/check-context.py"
+      ],
       "pack": "packs/mk-069.md"
     },
     {
@@ -560,7 +767,10 @@
       "name": "Additional volume required after a price cut",
       "description": "Additional volume required after a price cut. Use when the task requires extra sales volume needed to maintain contribution. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-070/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-070/assets/context-contract.json",
+        "skills/mk-070/assets/check-context.py"
+      ],
       "pack": "packs/mk-070.md"
     },
     {
@@ -568,7 +778,10 @@
       "name": "Average order value and conversion-rate sensitivity analysis",
       "description": "Average order value and conversion-rate sensitivity analysis. Use when the task requires revenue and profit changes under different assumptions. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-071/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-071/assets/context-contract.json",
+        "skills/mk-071/assets/check-context.py"
+      ],
       "pack": "packs/mk-071.md"
     },
     {
@@ -576,7 +789,10 @@
       "name": "Breaking down traffic, lead, and order acquisition costs",
       "description": "Breaking down traffic, lead, and order acquisition costs. Use when the task requires numerators, denominators, and calculations for the three costs. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-072/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-072/assets/context-contract.json",
+        "skills/mk-072/assets/check-context.py"
+      ],
       "pack": "packs/mk-072.md"
     },
     {
@@ -584,7 +800,10 @@
       "name": "Revenue-gap decomposition",
       "description": "When revenue declines or misses a target, use consistently defined data to decompose traffic, conversion-rate, and average-order-value differences and decide what to check first, the next action, and review conditions. Ask for missing data first and reassess after corrections",
       "source": "skills/mk-073/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-073/assets/context-contract.json",
+        "skills/mk-073/assets/check-context.py"
+      ],
       "pack": "packs/mk-073.md"
     },
     {
@@ -592,7 +811,10 @@
       "name": "Marketing return on investment calculation",
       "description": "Marketing return on investment calculation. Use when the task requires an mROI calculation with explicit definitions and cost boundaries. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-074/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-074/assets/context-contract.json",
+        "skills/mk-074/assets/check-context.py"
+      ],
       "pack": "packs/mk-074.md"
     },
     {
@@ -600,7 +822,10 @@
       "name": "Cost-metric definition review",
       "description": "Cost-metric definition review. Use when the task requires a check for mixed use of leads, people, and orders. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-075/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-075/assets/context-contract.json",
+        "skills/mk-075/assets/check-context.py"
+      ],
       "pack": "packs/mk-075.md"
     },
     {
@@ -608,7 +833,10 @@
       "name": "Product-line breadth inventory",
       "description": "Product-line breadth inventory. Use when the task requires product-category coverage and gaps. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-076/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-076/assets/context-contract.json",
+        "skills/mk-076/assets/check-context.py"
+      ],
       "pack": "packs/mk-076.md"
     },
     {
@@ -616,7 +844,10 @@
       "name": "Product-line depth inventory",
       "description": "Product-line depth inventory. Use when the task requires tiers, specifications, and price differences within a product category. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-077/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-077/assets/context-contract.json",
+        "skills/mk-077/assets/check-context.py"
+      ],
       "pack": "packs/mk-077.md"
     },
     {
@@ -624,7 +855,10 @@
       "name": "Selecting traffic-driving products",
       "description": "Selecting traffic-driving products. Use when the task requires product candidates suitable for acquiring new customers. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-078/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-078/assets/context-contract.json",
+        "skills/mk-078/assets/check-context.py"
+      ],
       "pack": "packs/mk-078.md"
     },
     {
@@ -632,7 +866,10 @@
       "name": "Trial-product design",
       "description": "Trial-product design. Use when the task requires specification proposals that lower the barrier to a first trial. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-079/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-079/assets/context-contract.json",
+        "skills/mk-079/assets/check-context.py"
+      ],
       "pack": "packs/mk-079.md"
     },
     {
@@ -640,7 +877,10 @@
       "name": "Core-product positioning",
       "description": "Core-product positioning. Use when the task requires the role of regular products that can be sold continuously. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-080/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-080/assets/context-contract.json",
+        "skills/mk-080/assets/check-context.py"
+      ],
       "pack": "packs/mk-080.md"
     },
     {
@@ -648,7 +888,10 @@
       "name": "Selecting high-margin products",
       "description": "Selecting high-margin products. Use when the task requires products with a profit-generating role and their cost constraints. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-081/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-081/assets/context-contract.json",
+        "skills/mk-081/assets/check-context.py"
+      ],
       "pack": "packs/mk-081.md"
     },
     {
@@ -656,7 +899,10 @@
       "name": "Planning knowledge-based entry points",
       "description": "Planning knowledge-based entry points. Use when the task requires an entry point that answers questions before introducing products. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-082/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-082/assets/context-contract.json",
+        "skills/mk-082/assets/check-context.py"
+      ],
       "pack": "packs/mk-082.md"
     },
     {
@@ -664,7 +910,10 @@
       "name": "Product progression from first to repeat purchase",
       "description": "Plan post-purchase product sequences around existing buyers' needs so the same audience continues buying suitable products from the line. Use when second and third purchases are scarce, the user does not want to keep increasing ad spend, and wants a direction for follow-on purchases first",
       "source": "skills/mk-083/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-083/assets/context-contract.json",
+        "skills/mk-083/assets/check-context.py"
+      ],
       "pack": "packs/mk-083.md"
     },
     {
@@ -672,7 +921,10 @@
       "name": "Cross-selling to the same customer group",
       "description": "Cross-selling to the same customer group. Use when the task requires related-product recommendation hypotheses for existing buyers. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-084/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-084/assets/context-contract.json",
+        "skills/mk-084/assets/check-context.py"
+      ],
       "pack": "packs/mk-084.md"
     },
     {
@@ -680,7 +932,10 @@
       "name": "Expanding audiences for the same product",
       "description": "Expanding audiences for the same product. Use when the task requires new user groups to test for the same product. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-085/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-085/assets/context-contract.json",
+        "skills/mk-085/assets/check-context.py"
+      ],
       "pack": "packs/mk-085.md"
     },
     {
@@ -688,7 +943,10 @@
       "name": "Bundling popular products with new products",
       "description": "Bundling popular products with new products. Use when the task requires evidence-based cross-sell bundles. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-086/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-086/assets/context-contract.json",
+        "skills/mk-086/assets/check-context.py"
+      ],
       "pack": "packs/mk-086.md"
     },
     {
@@ -696,7 +954,10 @@
       "name": "Premium-bundle upgrade design",
       "description": "Premium-bundle upgrade design. Use when the task requires offers differentiated by functionality, specifications, or service. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-087/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-087/assets/context-contract.json",
+        "skills/mk-087/assets/check-context.py"
+      ],
       "pack": "packs/mk-087.md"
     },
     {
@@ -704,7 +965,10 @@
       "name": "Channel-exclusive bundle design",
       "description": "Channel-exclusive bundle design. Use when the task requires product-bundle differences across channels. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-088/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-088/assets/context-contract.json",
+        "skills/mk-088/assets/check-context.py"
+      ],
       "pack": "packs/mk-088.md"
     },
     {
@@ -712,7 +976,10 @@
       "name": "Three-sided product-pricing check",
       "description": "Three-sided product-pricing check. Use when the task requires conflicts among cost, market, and willingness to pay. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-089/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-089/assets/context-contract.json",
+        "skills/mk-089/assets/check-context.py"
+      ],
       "pack": "packs/mk-089.md"
     },
     {
@@ -720,7 +987,10 @@
       "name": "Product-profitability prioritization",
       "description": "Product-profitability prioritization. Use when the task requires a comparison of revenue, gross margin, and conversion performance. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-090/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-090/assets/context-contract.json",
+        "skills/mk-090/assets/check-context.py"
+      ],
       "pack": "packs/mk-090.md"
     },
     {
@@ -728,7 +998,10 @@
       "name": "Product-mix gap diagnosis",
       "description": "Product-mix gap diagnosis. Use when the task requires imbalances between traffic-driving and profit-generating roles. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-091/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-091/assets/context-contract.json",
+        "skills/mk-091/assets/check-context.py"
+      ],
       "pack": "packs/mk-091.md"
     },
     {
@@ -736,7 +1009,10 @@
       "name": "Annual marketing-event inventory",
       "description": "Annual marketing-event inventory. Use when the task requires a table of holidays, brand milestones, and launch events. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-092/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-092/assets/context-contract.json",
+        "skills/mk-092/assets/check-context.py"
+      ],
       "pack": "packs/mk-092.md"
     },
     {
@@ -744,7 +1020,10 @@
       "name": "Organizing high- and low-season pacing",
       "description": "Organizing high- and low-season pacing. Use for historical seasonality hypotheses or seasonal ecommerce questions about peak-demand assumptions, annual planning, and end-of-season monitoring. Deliver conditional guidance for general method questions; mentions of PPC or CAC alone do not trigger account diagnosis",
       "source": "skills/mk-093/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-093/assets/context-contract.json",
+        "skills/mk-093/assets/check-context.py"
+      ],
       "pack": "packs/mk-093.md"
     },
     {
@@ -752,7 +1031,10 @@
       "name": "Monthly theme planning",
       "description": "Monthly theme planning. Use when the task requires monthly themes connecting needs, Personas, and products. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-094/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-094/assets/context-contract.json",
+        "skills/mk-094/assets/check-context.py"
+      ],
       "pack": "packs/mk-094.md"
     },
     {
@@ -760,7 +1042,10 @@
       "name": "Annual campaign scheduling",
       "description": "Annual campaign scheduling. Use when the task requires a campaign calendar that avoids resource conflicts. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-095/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-095/assets/context-contract.json",
+        "skills/mk-095/assets/check-context.py"
+      ],
       "pack": "packs/mk-095.md"
     },
     {
@@ -768,7 +1053,10 @@
       "name": "Dividing roles between ongoing and campaign traffic",
       "description": "Dividing roles between ongoing and campaign traffic. Use when the task requires a task table for break-even traffic and campaign-driven additional volume. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-096/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-096/assets/context-contract.json",
+        "skills/mk-096/assets/check-context.py"
+      ],
       "pack": "packs/mk-096.md"
     },
     {
@@ -776,7 +1064,10 @@
       "name": "Educational-traffic budget planning",
       "description": "Educational-traffic budget planning. Use when the task requires resource uses that build understanding before conversion. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-097/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-097/assets/context-contract.json",
+        "skills/mk-097/assets/check-context.py"
+      ],
       "pack": "packs/mk-097.md"
     },
     {
@@ -784,7 +1075,10 @@
       "name": "Annual new-product sequencing",
       "description": "Annual new-product sequencing. Use when the task requires progression among new products, bestsellers, and campaigns. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-098/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-098/assets/context-contract.json",
+        "skills/mk-098/assets/check-context.py"
+      ],
       "pack": "packs/mk-098.md"
     },
     {
@@ -792,7 +1086,10 @@
       "name": "Backward scheduling for campaign preparation",
       "description": "Work backward from the campaign start date to prepare the campaign. Use for Black Friday/Cyber Monday promotions, sales, whether banners should be prepared early or at the last minute, and scheduling. For method questions, deliver phases and dependencies directly; fill actual dates for a case-specific schedule",
       "source": "skills/mk-099/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-099/assets/context-contract.json",
+        "skills/mk-099/assets/check-context.py"
+      ],
       "pack": "packs/mk-099.md"
     },
     {
@@ -800,7 +1097,10 @@
       "name": "Warm-up phase task design",
       "description": "Warm-up phase task design. Use when the task requires arrangements for gathering needs, reminders, and education. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-100/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-100/assets/context-contract.json",
+        "skills/mk-100/assets/check-context.py"
+      ],
       "pack": "packs/mk-100.md"
     },
     {
@@ -808,7 +1108,10 @@
       "name": "Launch-phase task design",
       "description": "Launch-phase task design. Use when the task requires traffic and conversion responsibilities at the start of sales. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-101/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-101/assets/context-contract.json",
+        "skills/mk-101/assets/check-context.py"
+      ],
       "pack": "packs/mk-101.md"
     },
     {
@@ -816,7 +1119,10 @@
       "name": "Mid-campaign adjustment planning",
       "description": "Mid-campaign adjustment planning. Use when the task requires data checks, creative replacement, and adjustment conditions. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-102/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-102/assets/context-contract.json",
+        "skills/mk-102/assets/check-context.py"
+      ],
       "pack": "packs/mk-102.md"
     },
     {
@@ -824,7 +1130,10 @@
       "name": "Countdown-phase communication planning",
       "description": "Countdown-phase communication planning. Use when the task requires reminders based on real closing conditions. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-103/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-103/assets/context-contract.json",
+        "skills/mk-103/assets/check-context.py"
+      ],
       "pack": "packs/mk-103.md"
     },
     {
@@ -832,7 +1141,10 @@
       "name": "Post-campaign continuation plan",
       "description": "Post-campaign continuation plan. Use when the task requires fulfillment, instruction, repeat purchases, and list organization. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-104/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-104/assets/context-contract.json",
+        "skills/mk-104/assets/check-context.py"
+      ],
       "pack": "packs/mk-104.md"
     },
     {
@@ -840,7 +1152,10 @@
       "name": "Reusable campaign-page planning",
       "description": "Reusable campaign-page planning. Use when the task requires pages to reuse annually and items to update. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-105/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-105/assets/context-contract.json",
+        "skills/mk-105/assets/check-context.py"
+      ],
       "pack": "packs/mk-105.md"
     },
     {
@@ -848,7 +1163,10 @@
       "name": "First-purchase offer design for new customers",
       "description": "First-purchase offer design for new customers. Use when the task requires purchase reasons and product bundles for new customers. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-106/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-106/assets/context-contract.json",
+        "skills/mk-106/assets/check-context.py"
+      ],
       "pack": "packs/mk-106.md"
     },
     {
@@ -856,7 +1174,10 @@
       "name": "Member-benefit offer design",
       "description": "Member-benefit offer design. Use when the task requires differentiated treatment for existing members. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-107/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-107/assets/context-contract.json",
+        "skills/mk-107/assets/check-context.py"
+      ],
       "pack": "packs/mk-107.md"
     },
     {
@@ -864,7 +1185,10 @@
       "name": "Gift-with-purchase threshold planning",
       "description": "Gift-with-purchase threshold planning. Use when the task requires calculations of average order value, gift cost, and spending thresholds. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-108/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-108/assets/context-contract.json",
+        "skills/mk-108/assets/check-context.py"
+      ],
       "pack": "packs/mk-108.md"
     },
     {
@@ -872,7 +1196,10 @@
       "name": "Free-shipping offer check",
       "description": "Check shipping-cost responsibility and low-average-order-value risks in free-shipping offers, or explain why a free-shipping formula subtracts AOV, the amount remaining per order, and the difference from a reference baseline. Check product revenue, buyer-paid shipping, and logistics expense for each offer. A purely formula-based question can be answered with symbols; do not infer an optimal threshold or conversion effect",
       "source": "skills/mk-109/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-109/assets/context-contract.json",
+        "skills/mk-109/assets/check-context.py"
+      ],
       "pack": "packs/mk-109.md"
     },
     {
@@ -880,7 +1207,10 @@
       "name": "Paid add-on offer design",
       "description": "Paid add-on offer design. Use when the task requires cross-sell relevance and incremental gross profit. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-110/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-110/assets/context-contract.json",
+        "skills/mk-110/assets/check-context.py"
+      ],
       "pack": "packs/mk-110.md"
     },
     {
@@ -888,7 +1218,10 @@
       "name": "Multi-item bundle design",
       "description": "Plan multi-item bundles around purchase quantity, usage scenarios, and benefits. Use for increasing average order value while addressing concerns that bundling could reduce a premium product's perceived value. Propose conditional candidates using real products and variable costs; verify sources separately for examples and platform data",
       "source": "skills/mk-111/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-111/assets/context-contract.json",
+        "skills/mk-111/assets/check-context.py"
+      ],
       "pack": "packs/mk-111.md"
     },
     {
@@ -896,7 +1229,10 @@
       "name": "Coupon-use condition design",
       "description": "Coupon-use condition design. Use when the task requires eligible audience, scope, and validity period. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-112/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-112/assets/context-contract.json",
+        "skills/mk-112/assets/check-context.py"
+      ],
       "pack": "packs/mk-112.md"
     },
     {
@@ -904,7 +1240,10 @@
       "name": "Limited-time offer truthfulness check",
       "description": "Limited-time offer truthfulness check. Use when the task requires verification of dates, inventory, and offer promises. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-113/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-113/assets/context-contract.json",
+        "skills/mk-113/assets/check-context.py"
+      ],
       "pack": "packs/mk-113.md"
     },
     {
@@ -912,7 +1251,10 @@
       "name": "Matching campaign messages to customer groups",
       "description": "Matching campaign messages to customer groups. Use when the task requires main messages for different customer groups in the same campaign. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-114/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-114/assets/context-contract.json",
+        "skills/mk-114/assets/check-context.py"
+      ],
       "pack": "packs/mk-114.md"
     },
     {
@@ -920,7 +1262,10 @@
       "name": "Phasing the campaign budget",
       "description": "Phasing the campaign budget. Use when the task requires objectives and budget assumptions for each phase. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-115/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-115/assets/context-contract.json",
+        "skills/mk-115/assets/check-context.py"
+      ],
       "pack": "packs/mk-115.md"
     },
     {
@@ -928,7 +1273,10 @@
       "name": "Campaign contact-list building design",
       "description": "Campaign contact-list building design. Use when the task requires participation and subscription paths that clearly disclose their purpose. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-116/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-116/assets/context-contract.json",
+        "skills/mk-116/assets/check-context.py"
+      ],
       "pack": "packs/mk-116.md"
     },
     {
@@ -936,7 +1284,10 @@
       "name": "Assessing weekend or time-slot campaigns",
       "description": "Assessing weekend or time-slot campaigns. Use when the task requires deciding whether a campaign is needed from time-slot data first. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-117/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-117/assets/context-contract.json",
+        "skills/mk-117/assets/check-context.py"
+      ],
       "pack": "packs/mk-117.md"
     },
     {
@@ -944,7 +1295,10 @@
       "name": "Comparing discount and gift offers",
       "description": "Compare customer value and variable costs of discounts versus gifts/product bundles. Use when corporate offers stack with payment fees and the user wants promotional adjustments other than an across-the-board price increase",
       "source": "skills/mk-118/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-118/assets/context-contract.json",
+        "skills/mk-118/assets/check-context.py"
+      ],
       "pack": "packs/mk-118.md"
     },
     {
@@ -952,7 +1306,10 @@
       "name": "Campaign performance review",
       "description": "Campaign performance review. Use when the task requires revenue, profit, contact-list, and repeat-purchase results. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-119/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-119/assets/context-contract.json",
+        "skills/mk-119/assets/check-context.py"
+      ],
       "pack": "packs/mk-119.md"
     },
     {
@@ -960,7 +1317,10 @@
       "name": "One-sentence sales-page positioning",
       "description": "One-sentence sales-page positioning. Use when the task requires a clear answer to who the product is for and what it solves. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-120/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-120/assets/context-contract.json",
+        "skills/mk-120/assets/check-context.py"
+      ],
       "pack": "packs/mk-120.md"
     },
     {
@@ -968,7 +1328,10 @@
       "name": "Pain-point opening for a sales page",
       "description": "Pain-point opening for a sales page. Use when the task requires an opening grounded in original customer needs. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-121/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-121/assets/context-contract.json",
+        "skills/mk-121/assets/check-context.py"
+      ],
       "pack": "packs/mk-121.md"
     },
     {
@@ -976,7 +1339,10 @@
       "name": "Ideal scenarios for a sales page",
       "description": "Ideal scenarios for a sales page. Use when the task requires post-use scenarios without fabricated experiences. Apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-122/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-122/assets/context-contract.json",
+        "skills/mk-122/assets/check-context.py"
+      ],
       "pack": "packs/mk-122.md"
     },
     {
@@ -984,7 +1350,10 @@
       "name": "Three-Solution Section",
       "description": "Three-Solution Section. Use when you need a mapping of pain points to three USPs; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-123/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-123/assets/context-contract.json",
+        "skills/mk-123/assets/check-context.py"
+      ],
       "pack": "packs/mk-123.md"
     },
     {
@@ -992,7 +1361,10 @@
       "name": "Feature Evidence Section",
       "description": "Feature Evidence Section. Use when you need modules pairing features, explanations, and real evidence; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-124/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-124/assets/context-contract.json",
+        "skills/mk-124/assets/check-context.py"
+      ],
       "pack": "packs/mk-124.md"
     },
     {
@@ -1000,7 +1372,10 @@
       "name": "Everyday Role Section",
       "description": "Everyday Role Section. Use when you need copy showing how the product fits into users' lives; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-125/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-125/assets/context-contract.json",
+        "skills/mk-125/assets/check-context.py"
+      ],
       "pack": "packs/mk-125.md"
     },
     {
@@ -1008,7 +1383,10 @@
       "name": "Third-Party Testimonial Section",
       "description": "Third-Party Testimonial Section. Use when you need only authentic feedback with permission for use; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-126/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-126/assets/context-contract.json",
+        "skills/mk-126/assets/check-context.py"
+      ],
       "pack": "packs/mk-126.md"
     },
     {
@@ -1016,7 +1394,10 @@
       "name": "Sales Page Offer Comparison",
       "description": "Sales Page Offer Comparison. Use when you need a comparison of bundles, prices, and intended users; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-127/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-127/assets/context-contract.json",
+        "skills/mk-127/assets/check-context.py"
+      ],
       "pack": "packs/mk-127.md"
     },
     {
@@ -1024,7 +1405,10 @@
       "name": "Brand Rationale Section",
       "description": "Brand Rationale Section. Use when you need supported brand beliefs and commitments; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-128/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-128/assets/context-contract.json",
+        "skills/mk-128/assets/check-context.py"
+      ],
       "pack": "packs/mk-128.md"
     },
     {
@@ -1032,7 +1416,10 @@
       "name": "Sales Page Section Order Diagnosis",
       "description": "Sales Page Section Order Diagnosis. Use when you need problems in readers' understanding and decision sequence; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-129/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-129/assets/context-contract.json",
+        "skills/mk-129/assets/check-context.py"
+      ],
       "pack": "packs/mk-129.md"
     },
     {
@@ -1040,7 +1427,10 @@
       "name": "Product Page and Campaign Page Roles",
       "description": "Product Page and Campaign Page Roles. Use when you need the boundary between ongoing and campaign-specific information; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-130/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-130/assets/context-contract.json",
+        "skills/mk-130/assets/check-context.py"
+      ],
       "pack": "packs/mk-130.md"
     },
     {
@@ -1048,7 +1438,10 @@
       "name": "Sales Page Evidence Gap Check",
       "description": "Sales Page Evidence Gap Check. Use when you need missing sources, false testimonials, and vague guarantees; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-131/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-131/assets/context-contract.json",
+        "skills/mk-131/assets/check-context.py"
+      ],
       "pack": "packs/mk-131.md"
     },
     {
@@ -1056,7 +1449,10 @@
       "name": "Sales Page Action Entry Check",
       "description": "Sales Page Action Entry Check. Use when you need alignment between offers, buttons, and page goals; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-132/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-132/assets/context-contract.json",
+        "skills/mk-132/assets/check-context.py"
+      ],
       "pack": "packs/mk-132.md"
     },
     {
@@ -1064,7 +1460,10 @@
       "name": "Sales Page Creative Breakdown",
       "description": "Sales Page Creative Breakdown. Use when you need a list of module copy ready for design handoff; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-133/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-133/assets/context-contract.json",
+        "skills/mk-133/assets/check-context.py"
+      ],
       "pack": "packs/mk-133.md"
     },
     {
@@ -1072,7 +1471,10 @@
       "name": "Sales Page Single-Variable Test Design",
       "description": "Sales Page Single-Variable Test Design. Use when you need one key difference compared per test; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-134/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-134/assets/context-contract.json",
+        "skills/mk-134/assets/check-context.py"
+      ],
       "pack": "packs/mk-134.md"
     },
     {
@@ -1080,7 +1482,10 @@
       "name": "FABE Ad Copy Generation",
       "description": "FABE Ad Copy Generation. Use when you need a complete draft covering features, advantages, benefits, and evidence; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-135/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-135/assets/context-contract.json",
+        "skills/mk-135/assets/check-context.py"
+      ],
       "pack": "packs/mk-135.md"
     },
     {
@@ -1088,7 +1493,10 @@
       "name": "FABE Copy Gap Check",
       "description": "FABE Copy Gap Check. Use when you need missing or inconsistent elements among the four components; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-136/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-136/assets/context-contract.json",
+        "skills/mk-136/assets/check-context.py"
+      ],
       "pack": "packs/mk-136.md"
     },
     {
@@ -1096,7 +1504,10 @@
       "name": "Three-Line Ad Copy",
       "description": "Write Traditional Chinese Facebook ads from three confirmed comparison-aware USPs. Base line one on the Persona’s buying motivation rather than a fixed pain-point formula. Deliver three tones with 14–15 Traditional Chinese characters in line one and 7–8 in the complete CTA",
       "source": "skills/mk-137/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-137/assets/context-contract.json",
+        "skills/mk-137/assets/check-context.py"
+      ],
       "pack": "packs/mk-137.md"
     },
     {
@@ -1104,7 +1515,10 @@
       "name": "Situational Question Opening",
       "description": "Situational Question Opening. Use when you need opening candidates matched to usage occasions; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-138/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-138/assets/context-contract.json",
+        "skills/mk-138/assets/check-context.py"
+      ],
       "pack": "packs/mk-138.md"
     },
     {
@@ -1112,7 +1526,10 @@
       "name": "Benefit-Led Headline",
       "description": "Benefit-Led Headline. Use when you need headlines supported by product facts; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-139/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-139/assets/context-contract.json",
+        "skills/mk-139/assets/check-context.py"
+      ],
       "pack": "packs/mk-139.md"
     },
     {
@@ -1120,7 +1537,10 @@
       "name": "Evidence-Led Creative Planning",
       "description": "Evidence-Led Creative Planning. Use when you need a plan for turning data or demonstrations into creative; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-140/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-140/assets/context-contract.json",
+        "skills/mk-140/assets/check-context.py"
+      ],
       "pack": "packs/mk-140.md"
     },
     {
@@ -1128,7 +1548,10 @@
       "name": "Feature Demonstration Creative Planning",
       "description": "Feature Demonstration Creative Planning. Use when you need features and scenes to film or demonstrate; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-141/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-141/assets/context-contract.json",
+        "skills/mk-141/assets/check-context.py"
+      ],
       "pack": "packs/mk-141.md"
     },
     {
@@ -1136,7 +1559,10 @@
       "name": "Adapt One Selling Point Across Audiences",
       "description": "Adapt One Selling Point Across Audiences. Use when you need facts preserved while situations and benefits are adapted; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-142/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-142/assets/context-contract.json",
+        "skills/mk-142/assets/check-context.py"
+      ],
       "pack": "packs/mk-142.md"
     },
     {
@@ -1144,7 +1570,10 @@
       "name": "Ad Primary Text and Destination Alignment",
       "description": "Ad Primary Text and Destination Alignment. Use when you need consistency between ad promises and destination pages; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-143/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-143/assets/context-contract.json",
+        "skills/mk-143/assets/check-context.py"
+      ],
       "pack": "packs/mk-143.md"
     },
     {
@@ -1152,7 +1581,10 @@
       "name": "Feed Creative Adaptation",
       "description": "Feed Creative Adaptation. Use when you need image and copy drafts suited to the reading context; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-144/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-144/assets/context-contract.json",
+        "skills/mk-144/assets/check-context.py"
+      ],
       "pack": "packs/mk-144.md"
     },
     {
@@ -1160,7 +1592,10 @@
       "name": "Vertical Creative Adaptation",
       "description": "Vertical Creative Adaptation. Use when you need drafts reorganized for vertical viewing; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-145/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-145/assets/context-contract.json",
+        "skills/mk-145/assets/check-context.py"
+      ],
       "pack": "packs/mk-145.md"
     },
     {
@@ -1168,7 +1603,10 @@
       "name": "Call-to-Action Clarity Check",
       "description": "Call-to-Action Clarity Check. Use when you need clarity of the action, audience, and purpose; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-146/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-146/assets/context-contract.json",
+        "skills/mk-146/assets/check-context.py"
+      ],
       "pack": "packs/mk-146.md"
     },
     {
@@ -1176,7 +1614,10 @@
       "name": "Ad Creative Brief",
       "description": "Ad Creative Brief. Use when you need specifications and evidence requirements for design or filming; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-147/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-147/assets/context-contract.json",
+        "skills/mk-147/assets/check-context.py"
+      ],
       "pack": "packs/mk-147.md"
     },
     {
@@ -1184,7 +1625,10 @@
       "name": "Purchase Concern Classification",
       "description": "Purchase Concern Classification. Use when you need concerns about price, trust, use, and delivery; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-148/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-148/assets/context-contract.json",
+        "skills/mk-148/assets/check-context.py"
+      ],
       "pack": "packs/mk-148.md"
     },
     {
@@ -1192,7 +1636,10 @@
       "name": "Extract Authentic Review Highlights",
       "description": "Extract Authentic Review Highlights. Use when you need customer review highlights that preserve the original meaning; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-149/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-149/assets/context-contract.json",
+        "skills/mk-149/assets/check-context.py"
+      ],
       "pack": "packs/mk-149.md"
     },
     {
@@ -1200,7 +1647,10 @@
       "name": "Match Reviews to Purchase Barriers",
       "description": "Match Reviews to Purchase Barriers. Use when you need which review can answer which concern; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-150/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-150/assets/context-contract.json",
+        "skills/mk-150/assets/check-context.py"
+      ],
       "pack": "packs/mk-150.md"
     },
     {
@@ -1208,7 +1658,10 @@
       "name": "Review Creative Permission Check",
       "description": "Check the sources, usage permissions, and sensitive information in review creative. Use for questions about turning public reviews into B2C/Meta ad images or whether removing a name replaces consent. For method questions, first explain the difference between usage rights and anonymous presentation; for individual cases, verify the original review and existing permission",
       "source": "skills/mk-151/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-151/assets/context-contract.json",
+        "skills/mk-151/assets/check-context.py"
+      ],
       "pack": "packs/mk-151.md"
     },
     {
@@ -1216,7 +1669,10 @@
       "name": "Review Collage Creative Planning",
       "description": "Review Collage Creative Planning. Use when you need original excerpts and visual arrangements; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-152/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-152/assets/context-contract.json",
+        "skills/mk-152/assets/check-context.py"
+      ],
       "pack": "packs/mk-152.md"
     },
     {
@@ -1224,7 +1680,10 @@
       "name": "Turn Customer Service Q&A into Creative",
       "description": "Turn Customer Service Q&A into Creative. Use when you need ad drafts built from real questions and answers; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-153/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-153/assets/context-contract.json",
+        "skills/mk-153/assets/check-context.py"
+      ],
       "pack": "packs/mk-153.md"
     },
     {
@@ -1232,7 +1691,10 @@
       "name": "Third-Party Article Suitability Assessment",
       "description": "Third-Party Article Suitability Assessment. Use when you need fit between topic, audience, and purchase path; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-154/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-154/assets/context-contract.json",
+        "skills/mk-154/assets/check-context.py"
+      ],
       "pack": "packs/mk-154.md"
     },
     {
@@ -1240,7 +1702,10 @@
       "name": "Unboxing Collaboration Brief",
       "description": "Unboxing Collaboration Brief. Use when you need situations, questions, and evidence to demonstrate; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-155/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-155/assets/context-contract.json",
+        "skills/mk-155/assets/check-context.py"
+      ],
       "pack": "packs/mk-155.md"
     },
     {
@@ -1248,7 +1713,10 @@
       "name": "Collaboration Content Reuse Planning",
       "description": "Collaboration Content Reuse Planning. Use when you need usage scope across ads, the official website, and social media; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-156/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-156/assets/context-contract.json",
+        "skills/mk-156/assets/check-context.py"
+      ],
       "pack": "packs/mk-156.md"
     },
     {
@@ -1256,7 +1724,10 @@
       "name": "Partner Renewal Assessment",
       "description": "Partner Renewal Assessment. Use when you need an assessment based on traffic quality and sales data; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-157/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-157/assets/context-contract.json",
+        "skills/mk-157/assets/check-context.py"
+      ],
       "pack": "packs/mk-157.md"
     },
     {
@@ -1264,7 +1735,10 @@
       "name": "Trust Gap Creative List",
       "description": "Trust Gap Creative List. Use when you need locations needing reviews, evidence, or explanations; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-158/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-158/assets/context-contract.json",
+        "skills/mk-158/assets/check-context.py"
+      ],
       "pack": "packs/mk-158.md"
     },
     {
@@ -1272,7 +1746,10 @@
       "name": "Evergreen Trust Asset Classification",
       "description": "Evergreen Trust Asset Classification. Use when you need classification by audience, concern, and stage; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-159/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-159/assets/context-contract.json",
+        "skills/mk-159/assets/check-context.py"
+      ],
       "pack": "packs/mk-159.md"
     },
     {
@@ -1280,7 +1757,10 @@
       "name": "Translate Business Goals into Meta Ad Tasks",
       "description": "Translate business purposes into Meta campaign objectives, conversion locations, and performance criteria. Use when choosing Traffic versus Sales, LPV versus link clicks, or considering an objective change; first establish the intended business outcome rather than choosing an objective directly from high or low metrics",
       "source": "skills/mk-160/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-160/assets/context-contract.json",
+        "skills/mk-160/assets/check-context.py"
+      ],
       "pack": "packs/mk-160.md"
     },
     {
@@ -1288,7 +1768,10 @@
       "name": "Meta Ad Hierarchy Planning",
       "description": "Meta Ad Hierarchy Planning. Use when you need roles of campaigns, ad sets, and ads; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-161/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-161/assets/context-contract.json",
+        "skills/mk-161/assets/check-context.py"
+      ],
       "pack": "packs/mk-161.md"
     },
     {
@@ -1296,7 +1779,10 @@
       "name": "Meta Naming Convention Generation",
       "description": "Organize configurable names for Meta campaigns, ad sets, and ads to support later identification and analysis. Use when taking over an account without naming conventions, consistently classifying large volumes of weekly ads, or replacing Ad 1 / Ad 2 with names that identify messages without opening the creative. Confirm unknown platforms or object levels first; distinguish objective/product, audience/placement, and messaging direction according to the original method",
       "source": "skills/mk-162/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-162/assets/context-contract.json",
+        "skills/mk-162/assets/check-context.py"
+      ],
       "pack": "packs/mk-162.md"
     },
     {
@@ -1304,7 +1790,10 @@
       "name": "Meta Audience Hypothesis List",
       "description": "Meta Audience Hypothesis List. Use when you need audience evidence and reasons for testing; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-163/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-163/assets/context-contract.json",
+        "skills/mk-163/assets/check-context.py"
+      ],
       "pack": "packs/mk-163.md"
     },
     {
@@ -1313,7 +1802,9 @@
       "description": "Use the Persona and reference interest lists to portray everyday life through a set of candidate labels, delivering dimensions, reasons, sources, and gaps. This edition does not verify live platform availability or configure advertising",
       "source": "skills/mk-164/SKILL.md",
       "references": [
-        "skills/mk-164/assets/interest-reference.md"
+        "skills/mk-164/assets/interest-reference.md",
+        "skills/mk-164/assets/context-contract.json",
+        "skills/mk-164/assets/check-context.py"
       ],
       "pack": "packs/mk-164.md"
     },
@@ -1322,7 +1813,10 @@
       "name": "Match Meta Creative to Placements",
       "description": "Match Meta Creative to Placements. Use when you need suitability and missing elements of existing creative; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-165/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-165/assets/context-contract.json",
+        "skills/mk-165/assets/check-context.py"
+      ],
       "pack": "packs/mk-165.md"
     },
     {
@@ -1330,7 +1824,10 @@
       "name": "Meta Creative Test Grouping",
       "description": "Design comparable Meta test groups for existing copy and creative directions under the same Persona. Use for questions such as how to group these assets for testing or which messages to compare first for the same audience",
       "source": "skills/mk-166/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-166/assets/context-contract.json",
+        "skills/mk-166/assets/check-context.py"
+      ],
       "pack": "packs/mk-166.md"
     },
     {
@@ -1338,7 +1835,10 @@
       "name": "Meta Single-Variable Test Check",
       "description": "Meta Single-Variable Test Check. Use when you need risks of changing the audience and creative at the same time; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-167/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-167/assets/context-contract.json",
+        "skills/mk-167/assets/check-context.py"
+      ],
       "pack": "packs/mk-167.md"
     },
     {
@@ -1346,7 +1846,10 @@
       "name": "Remarketing Funnel Inventory",
       "description": "Remarketing Funnel Inventory. Use when you need segments for browsing, adding to cart, and purchasing; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-172/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-172/assets/context-contract.json",
+        "skills/mk-172/assets/check-context.py"
+      ],
       "pack": "packs/mk-172.md"
     },
     {
@@ -1354,7 +1857,10 @@
       "name": "Diagnose Browsing Without Adding to Cart",
       "description": "Diagnose Browsing Without Adding to Cart. Use when you need possible causes to verify, including insufficient information and demand mismatch; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-173/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-173/assets/context-contract.json",
+        "skills/mk-173/assets/check-context.py"
+      ],
       "pack": "packs/mk-173.md"
     },
     {
@@ -1362,7 +1868,10 @@
       "name": "Diagnose Cart Adds Without Purchase",
       "description": "Diagnose Cart Adds Without Purchase. Use when you need items to investigate around price, shipping, payment, and trust; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-174/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-174/assets/context-contract.json",
+        "skills/mk-174/assets/check-context.py"
+      ],
       "pack": "packs/mk-174.md"
     },
     {
@@ -1370,7 +1879,10 @@
       "name": "Remarketing Audience Naming",
       "description": "Remarketing Audience Naming. Use when you need names identifying events, windows, and exclusions; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-181/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-181/assets/context-contract.json",
+        "skills/mk-181/assets/check-context.py"
+      ],
       "pack": "packs/mk-181.md"
     },
     {
@@ -1378,7 +1890,10 @@
       "name": "Browsing-Stage Educational Copy",
       "description": "Browsing-Stage Educational Copy. Use when you need copy that builds understanding and trust; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-182/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-182/assets/context-contract.json",
+        "skills/mk-182/assets/check-context.py"
+      ],
       "pack": "packs/mk-182.md"
     },
     {
@@ -1386,7 +1901,10 @@
       "name": "Cart-Stage Concern-Resolution Copy",
       "description": "Cart-Stage Concern-Resolution Copy. Use when you need copy addressing shipping, payment, and risk; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-183/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-183/assets/context-contract.json",
+        "skills/mk-183/assets/check-context.py"
+      ],
       "pack": "packs/mk-183.md"
     },
     {
@@ -1394,7 +1912,10 @@
       "name": "Genuine Deadline Reminder Copy",
       "description": "Genuine Deadline Reminder Copy. Use when you need reminders based only on valid offers and deadlines; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-184/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-184/assets/context-contract.json",
+        "skills/mk-184/assets/check-context.py"
+      ],
       "pack": "packs/mk-184.md"
     },
     {
@@ -1402,7 +1923,10 @@
       "name": "New-Customer Offer Reminder Copy",
       "description": "New-Customer Offer Reminder Copy. Use when you need reminders consistent with eligibility and conditions; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-185/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-185/assets/context-contract.json",
+        "skills/mk-185/assets/check-context.py"
+      ],
       "pack": "packs/mk-185.md"
     },
     {
@@ -1410,7 +1934,10 @@
       "name": "Remarketing Creative Matching",
       "description": "Remarketing Creative Matching. Use when you need content matched to each funnel stage; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-186/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-186/assets/context-contract.json",
+        "skills/mk-186/assets/check-context.py"
+      ],
       "pack": "packs/mk-186.md"
     },
     {
@@ -1418,7 +1945,10 @@
       "name": "Remarketing Repeated-Reach Check",
       "description": "Remarketing Repeated-Reach Check. Use when you need risks from audience overlap and excessive messaging; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-187/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-187/assets/context-contract.json",
+        "skills/mk-187/assets/check-context.py"
+      ],
       "pack": "packs/mk-187.md"
     },
     {
@@ -1426,7 +1956,10 @@
       "name": "Post ID Identification",
       "description": "Post ID Identification. Use when you need traceable post identifiers and format checks; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-204/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-204/assets/context-contract.json",
+        "skills/mk-204/assets/check-context.py"
+      ],
       "pack": "packs/mk-204.md"
     },
     {
@@ -1434,7 +1967,10 @@
       "name": "Aggregate Performance for the Same Post",
       "description": "Aggregate Performance for the Same Post. Use when you need post-level performance across ads; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-205/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-205/assets/context-contract.json",
+        "skills/mk-205/assets/check-context.py"
+      ],
       "pack": "packs/mk-205.md"
     },
     {
@@ -1442,7 +1978,10 @@
       "name": "Hero Post Candidate Selection",
       "description": "Hero Post Candidate Selection. Use when you need candidates with sample size and performance across multiple dimensions; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-206/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-206/assets/context-contract.json",
+        "skills/mk-206/assets/check-context.py"
+      ],
       "pack": "packs/mk-206.md"
     },
     {
@@ -1450,7 +1989,10 @@
       "name": "New-Customer Hero Post Assessment",
       "description": "New-Customer Hero Post Assessment. Use when you need performance and suitable audiences for new-customer acquisition; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-207/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-207/assets/context-contract.json",
+        "skills/mk-207/assets/check-context.py"
+      ],
       "pack": "packs/mk-207.md"
     },
     {
@@ -1458,7 +2000,10 @@
       "name": "Remarketing Hero Post Assessment",
       "description": "Remarketing Hero Post Assessment. Use when you need performance and creative roles for recovery; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-208/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-208/assets/context-contract.json",
+        "skills/mk-208/assets/check-context.py"
+      ],
       "pack": "packs/mk-208.md"
     },
     {
@@ -1466,7 +2011,10 @@
       "name": "Diagnose High-Engagement, Low-Sales Posts",
       "description": "Diagnose High-Engagement, Low-Sales Posts. Use when you need gaps between engagement and the business task; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-209/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-209/assets/context-contract.json",
+        "skills/mk-209/assets/check-context.py"
+      ],
       "pack": "packs/mk-209.md"
     },
     {
@@ -1474,7 +2022,10 @@
       "name": "Cross-Audience Testing of Winning Creative",
       "description": "Cross-Audience Testing of Winning Creative. Use when you need a trackable cross-audience validation plan; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-211/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-211/assets/context-contract.json",
+        "skills/mk-211/assets/check-context.py"
+      ],
       "pack": "packs/mk-211.md"
     },
     {
@@ -1482,7 +2033,10 @@
       "name": "Search Term Source Data Health Check",
       "description": "Search Term Source Data Health Check. Use when you need dates, fields, and data gaps; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-232/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-232/assets/context-contract.json",
+        "skills/mk-232/assets/check-context.py"
+      ],
       "pack": "packs/mk-232.md"
     },
     {
@@ -1490,7 +2044,10 @@
       "name": "Search Term Intent Labeling",
       "description": "Search Term Intent Labeling. Use when you need the problem each search is trying to solve now; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-233/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-233/assets/context-contract.json",
+        "skills/mk-233/assets/check-context.py"
+      ],
       "pack": "packs/mk-233.md"
     },
     {
@@ -1498,7 +2055,10 @@
       "name": "Search Term Mining",
       "description": "Search Term Mining. Use when you need demand candidates worth serving independently; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-234/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-234/assets/context-contract.json",
+        "skills/mk-234/assets/check-context.py"
+      ],
       "pack": "packs/mk-234.md"
     },
     {
@@ -1506,7 +2066,10 @@
       "name": "Search Term Exclusion Review",
       "description": "Judge whether Google Search/Shopping search terms should be excluded. Use for low-click, apparently relevant terms and organizing negative keyword candidates. Assess intent, data volume, and the destination page directly; retain observation status when evidence is insufficient",
       "source": "skills/mk-235/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-235/assets/context-contract.json",
+        "skills/mk-235/assets/check-context.py"
+      ],
       "pack": "packs/mk-235.md"
     },
     {
@@ -1514,7 +2077,10 @@
       "name": "Search Term Observation Classification",
       "description": "Search Term Observation Classification. Use when you need ambiguous items or items with insufficient data; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-236/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-236/assets/context-contract.json",
+        "skills/mk-236/assets/check-context.py"
+      ],
       "pack": "packs/mk-236.md"
     },
     {
@@ -1522,7 +2088,10 @@
       "name": "Find Content Opportunities in Search Terms",
       "description": "Find Content Opportunities in Search Terms. Use when you need topics suited to content but not necessarily paid traffic; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-237/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-237/assets/context-contract.json",
+        "skills/mk-237/assets/check-context.py"
+      ],
       "pack": "packs/mk-237.md"
     },
     {
@@ -1530,7 +2099,10 @@
       "name": "Semantic Clustering of Search Demand",
       "description": "Semantic Clustering of Search Demand. Use when you need grouping by questions rather than word roots alone; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-238/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-238/assets/context-contract.json",
+        "skills/mk-238/assets/check-context.py"
+      ],
       "pack": "packs/mk-238.md"
     },
     {
@@ -1538,7 +2110,10 @@
       "name": "Turn Search Terms into FAQs",
       "description": "Turn Search Terms into FAQs. Use when you need FAQ proposals based on real search questions; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-239/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-239/assets/context-contract.json",
+        "skills/mk-239/assets/check-context.py"
+      ],
       "pack": "packs/mk-239.md"
     },
     {
@@ -1546,7 +2121,10 @@
       "name": "Turn Search Terms into Comparison Pages",
       "description": "Turn Search Terms into Comparison Pages. Use when you need comparison needs and what should be compared; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-240/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-240/assets/context-contract.json",
+        "skills/mk-240/assets/check-context.py"
+      ],
       "pack": "packs/mk-240.md"
     },
     {
@@ -1554,7 +2132,10 @@
       "name": "Improve Product Pages Using Search Terms",
       "description": "Improve Product Pages Using Search Terms. Use when you need to address questions unanswered by existing pages; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-241/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-241/assets/context-contract.json",
+        "skills/mk-241/assets/check-context.py"
+      ],
       "pack": "packs/mk-241.md"
     },
     {
@@ -1562,7 +2143,10 @@
       "name": "Assign Search Demand to Channels",
       "description": "Assign Search Demand to Channels. Use when you need ads, SEO, both, or no investment for now; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-242/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-242/assets/context-contract.json",
+        "skills/mk-242/assets/check-context.py"
+      ],
       "pack": "packs/mk-242.md"
     },
     {
@@ -1570,7 +2154,10 @@
       "name": "Compare Search Hypotheses with the Market",
       "description": "Compare Search Hypotheses with the Market. Use when you need observed, unobserved, and contradictory evidence; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-243/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-243/assets/context-contract.json",
+        "skills/mk-243/assets/check-context.py"
+      ],
       "pack": "packs/mk-243.md"
     },
     {
@@ -1578,7 +2165,10 @@
       "name": "Product Data Field Inventory",
       "description": "Product Data Field Inventory. Use when you need gaps in required and commercially necessary fields; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-250/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-250/assets/context-contract.json",
+        "skills/mk-250/assets/check-context.py"
+      ],
       "pack": "packs/mk-250.md"
     },
     {
@@ -1586,7 +2176,10 @@
       "name": "Product ID Mapping Check",
       "description": "Product ID Mapping Check. Use when you need mappings across product, variant, and tracking event IDs; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-251/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-251/assets/context-contract.json",
+        "skills/mk-251/assets/check-context.py"
+      ],
       "pack": "packs/mk-251.md"
     },
     {
@@ -1594,7 +2187,10 @@
       "name": "Product Title Identifiability Check",
       "description": "Product Title Identifiability Check. Use when you need missing brand, model, and core attributes; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-252/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-252/assets/context-contract.json",
+        "skills/mk-252/assets/check-context.py"
+      ],
       "pack": "packs/mk-252.md"
     },
     {
@@ -1602,7 +2198,10 @@
       "name": "Product Description Completeness Check",
       "description": "Product Description Completeness Check. Use when you need missing information about features, uses, and limitations; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-253/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-253/assets/context-contract.json",
+        "skills/mk-253/assets/check-context.py"
+      ],
       "pack": "packs/mk-253.md"
     },
     {
@@ -1610,7 +2209,10 @@
       "name": "Product Price Consistency Check",
       "description": "Product Price Consistency Check. Use when you need differences between catalog, offer, and website prices; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-254/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-254/assets/context-contract.json",
+        "skills/mk-254/assets/check-context.py"
+      ],
       "pack": "packs/mk-254.md"
     },
     {
@@ -1618,7 +2220,10 @@
       "name": "Product Stock Status Check",
       "description": "Product Stock Status Check. Use when you need availability and data update issues; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-255/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-255/assets/context-contract.json",
+        "skills/mk-255/assets/check-context.py"
+      ],
       "pack": "packs/mk-255.md"
     },
     {
@@ -1626,7 +2231,10 @@
       "name": "Product Image and Link Check",
       "description": "Product Image and Link Check. Use when you need matching images and destination pages to products; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-256/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-256/assets/context-contract.json",
+        "skills/mk-256/assets/check-context.py"
+      ],
       "pack": "packs/mk-256.md"
     },
     {
@@ -1634,7 +2242,10 @@
       "name": "Product Category Mapping",
       "description": "Product Category Mapping. Use when you need mappings between internal and platform categories; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-257/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-257/assets/context-contract.json",
+        "skills/mk-257/assets/check-context.py"
+      ],
       "pack": "packs/mk-257.md"
     },
     {
@@ -1642,7 +2253,10 @@
       "name": "Product Barcode Completeness Check",
       "description": "Product Barcode Completeness Check. Use when you need missing identifiers such as GTIN; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-261/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-261/assets/context-contract.json",
+        "skills/mk-261/assets/check-context.py"
+      ],
       "pack": "packs/mk-261.md"
     },
     {
@@ -1650,7 +2264,10 @@
       "name": "Product Custom Label Design",
       "description": "Product Custom Label Design. Use when you need labels for margin, price tier, campaign, and product line; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-262/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-262/assets/context-contract.json",
+        "skills/mk-262/assets/check-context.py"
+      ],
       "pack": "packs/mk-262.md"
     },
     {
@@ -1658,7 +2275,10 @@
       "name": "Shopping Product Group Planning",
       "description": "Shopping Product Group Planning. Use when you need groups based on product data and business strategy; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-263/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-263/assets/context-contract.json",
+        "skills/mk-263/assets/check-context.py"
+      ],
       "pack": "packs/mk-263.md"
     },
     {
@@ -1666,7 +2286,10 @@
       "name": "Shopping SKU Waste Diagnosis",
       "description": "Shopping SKU Waste Diagnosis. Use when you need a product-level comparison of spend and sales; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-264/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-264/assets/context-contract.json",
+        "skills/mk-264/assets/check-context.py"
+      ],
       "pack": "packs/mk-264.md"
     },
     {
@@ -1674,7 +2297,10 @@
       "name": "Shopping Search Term Feedback",
       "description": "Shopping Search Term Feedback. Use when you need feed, negative keyword, and grouping recommendations; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-265/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-265/assets/context-contract.json",
+        "skills/mk-265/assets/check-context.py"
+      ],
       "pack": "packs/mk-265.md"
     },
     {
@@ -1682,7 +2308,10 @@
       "name": "Demand Generation Task Definition",
       "description": "Demand Generation Task Definition. Use when you need the business question this campaign needs to test; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-267/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-267/assets/context-contract.json",
+        "skills/mk-267/assets/check-context.py"
+      ],
       "pack": "packs/mk-267.md"
     },
     {
@@ -1690,7 +2319,10 @@
       "name": "Demand Generation Audience Hypotheses",
       "description": "Demand Generation Audience Hypotheses. Use when you need audience candidates built from existing evidence; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-268/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-268/assets/context-contract.json",
+        "skills/mk-268/assets/check-context.py"
+      ],
       "pack": "packs/mk-268.md"
     },
     {
@@ -1698,7 +2330,10 @@
       "name": "Custom Segment Input Preparation",
       "description": "Custom Segment Input Preparation. Use when you need usable term, URL, and app signals; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-269/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-269/assets/context-contract.json",
+        "skills/mk-269/assets/check-context.py"
+      ],
       "pack": "packs/mk-269.md"
     },
     {
@@ -1706,7 +2341,10 @@
       "name": "First-Party Audience Usability Check",
       "description": "First-Party Audience Usability Check. Use when you need sources, purposes, permissions, and limitations; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-270/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-270/assets/context-contract.json",
+        "skills/mk-270/assets/check-context.py"
+      ],
       "pack": "packs/mk-270.md"
     },
     {
@@ -1714,7 +2352,10 @@
       "name": "Cold and Warm Audience Test Roles",
       "description": "Cold and Warm Audience Test Roles. Use when you need arrangements for new-customer exploration and follow-up communication; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-271/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-271/assets/context-contract.json",
+        "skills/mk-271/assets/check-context.py"
+      ],
       "pack": "packs/mk-271.md"
     },
     {
@@ -1722,7 +2363,10 @@
       "name": "Demand Gen Creative Test Matrix",
       "description": "Demand Gen Creative Test Matrix. Use when you need comparable combinations of audiences and creative angles; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-272/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-272/assets/context-contract.json",
+        "skills/mk-272/assets/check-context.py"
+      ],
       "pack": "packs/mk-272.md"
     },
     {
@@ -1730,7 +2374,10 @@
       "name": "Match Demand Gen Creative to Channels",
       "description": "Match Demand Gen Creative to Channels. Use when you need creative requirements for different viewing contexts; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-273/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-273/assets/context-contract.json",
+        "skills/mk-273/assets/check-context.py"
+      ],
       "pack": "packs/mk-273.md"
     },
     {
@@ -1738,7 +2385,10 @@
       "name": "Demand Gen Landing Page Matching",
       "description": "Demand Gen Landing Page Matching. Use when you need creative promises and the next-step page; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-274/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-274/assets/context-contract.json",
+        "skills/mk-274/assets/check-context.py"
+      ],
       "pack": "packs/mk-274.md"
     },
     {
@@ -1746,7 +2396,10 @@
       "name": "Demand Gen Campaign Planning",
       "description": "Demand Gen Campaign Planning. Use when you need groups, audiences, creative, goals, and budget; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-275/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-275/assets/context-contract.json",
+        "skills/mk-275/assets/check-context.py"
+      ],
       "pack": "packs/mk-275.md"
     },
     {
@@ -1754,7 +2407,10 @@
       "name": "Demand Gen Audience Diagnosis",
       "description": "Demand Gen Audience Diagnosis. Use when you need performance differences between audience groups; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-276/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-276/assets/context-contract.json",
+        "skills/mk-276/assets/check-context.py"
+      ],
       "pack": "packs/mk-276.md"
     },
     {
@@ -1762,7 +2418,10 @@
       "name": "Demand Gen Creative Diagnosis",
       "description": "Demand Gen Creative Diagnosis. Use when you need creative performance under the same conditions and possible causes to investigate; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-277/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-277/assets/context-contract.json",
+        "skills/mk-277/assets/check-context.py"
+      ],
       "pack": "packs/mk-277.md"
     },
     {
@@ -1770,7 +2429,10 @@
       "name": "Video Media Task Definition",
       "description": "Video Media Task Definition. Use when you need tasks for reach, views, engagement, and conversions; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-279/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-279/assets/context-contract.json",
+        "skills/mk-279/assets/check-context.py"
+      ],
       "pack": "packs/mk-279.md"
     },
     {
@@ -1778,7 +2440,10 @@
       "name": "Video Opening Hook Diagnosis",
       "description": "Video Opening Hook Diagnosis. Use when you need unclear or irrelevant sections at the beginning; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-280/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-280/assets/context-contract.json",
+        "skills/mk-280/assets/check-context.py"
+      ],
       "pack": "packs/mk-280.md"
     },
     {
@@ -1786,7 +2451,10 @@
       "name": "Video Brand Appearance Timing Check",
       "description": "Video Brand Appearance Timing Check. Use when you need the sequence of brand, problem, and evidence; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-281/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-281/assets/context-contract.json",
+        "skills/mk-281/assets/check-context.py"
+      ],
       "pack": "packs/mk-281.md"
     },
     {
@@ -1794,7 +2462,10 @@
       "name": "Video Message Structure Diagnosis",
       "description": "Video Message Structure Diagnosis. Use when you need the viewer's understanding sequence and redundant sections; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-282/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-282/assets/context-contract.json",
+        "skills/mk-282/assets/check-context.py"
+      ],
       "pack": "packs/mk-282.md"
     },
     {
@@ -1802,7 +2473,10 @@
       "name": "Video Call-to-Action Check",
       "description": "Video Call-to-Action Check. Use when you need alignment between viewer readiness and the CTA; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-283/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-283/assets/context-contract.json",
+        "skills/mk-283/assets/check-context.py"
+      ],
       "pack": "packs/mk-283.md"
     },
     {
@@ -1810,7 +2484,10 @@
       "name": "Shorts Version Restructuring",
       "description": "Shorts Version Restructuring. Use when you need storyboards rewritten for vertical viewing; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-284/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-284/assets/context-contract.json",
+        "skills/mk-284/assets/check-context.py"
+      ],
       "pack": "packs/mk-284.md"
     },
     {
@@ -1818,7 +2495,10 @@
       "name": "In-stream Version Restructuring",
       "description": "In-stream Version Restructuring. Use when you need storyboard plans for skippable viewing contexts; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-285/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-285/assets/context-contract.json",
+        "skills/mk-285/assets/check-context.py"
+      ],
       "pack": "packs/mk-285.md"
     },
     {
@@ -1826,7 +2506,10 @@
       "name": "Bumper Version Restructuring",
       "description": "Bumper Version Restructuring. Use when you need short storyboard plans with a single message; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-286/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-286/assets/context-contract.json",
+        "skills/mk-286/assets/check-context.py"
+      ],
       "pack": "packs/mk-286.md"
     },
     {
@@ -1834,7 +2517,10 @@
       "name": "Video Sequence Design",
       "description": "Video Sequence Design. Use when you need problem, education, evidence, and follow-up communication; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-287/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-287/assets/context-contract.json",
+        "skills/mk-287/assets/check-context.py"
+      ],
       "pack": "packs/mk-287.md"
     },
     {
@@ -1842,7 +2528,10 @@
       "name": "YouTube Placement and Audience Roles",
       "description": "YouTube Placement and Audience Roles. Use when you need uses of audiences, topics, terms, and placements; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-288/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-288/assets/context-contract.json",
+        "skills/mk-288/assets/check-context.py"
+      ],
       "pack": "packs/mk-288.md"
     },
     {
@@ -1850,7 +2539,10 @@
       "name": "YouTube Frequency Planning",
       "description": "YouTube Frequency Planning. Use when you need frequency hypotheses within the budget and goals; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-289/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-289/assets/context-contract.json",
+        "skills/mk-289/assets/check-context.py"
+      ],
       "pack": "packs/mk-289.md"
     },
     {
@@ -1858,7 +2550,10 @@
       "name": "YouTube Media Plan",
       "description": "YouTube Media Plan. Use when you need timing, formats, audiences, and measurement; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-290/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-290/assets/context-contract.json",
+        "skills/mk-290/assets/check-context.py"
+      ],
       "pack": "packs/mk-290.md"
     },
     {
@@ -1866,7 +2561,10 @@
       "name": "Video View Quality Diagnosis",
       "description": "Video View Quality Diagnosis. Use when you need a comparison of view rate, cost, and the media task; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-291/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-291/assets/context-contract.json",
+        "skills/mk-291/assets/check-context.py"
+      ],
       "pack": "packs/mk-291.md"
     },
     {
@@ -1874,7 +2572,10 @@
       "name": "Video and Placement Performance Breakdown",
       "description": "Video and Placement Performance Breakdown. Use when you need items to investigate around weak viewer retention and reaching the wrong audience; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-292/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-292/assets/context-contract.json",
+        "skills/mk-292/assets/check-context.py"
+      ],
       "pack": "packs/mk-292.md"
     },
     {
@@ -1882,7 +2583,10 @@
       "name": "Sitewide Page Type Inventory",
       "description": "Sitewide Page Type Inventory. Use when you need an asset table of home, category, product, article, and other pages; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-308/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-308/assets/context-contract.json",
+        "skills/mk-308/assets/check-context.py"
+      ],
       "pack": "packs/mk-308.md"
     },
     {
@@ -1890,7 +2594,10 @@
       "name": "Website Audience Inventory",
       "description": "Website Audience Inventory. Use when you need the audiences and tasks served by each page type; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-309/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-309/assets/context-contract.json",
+        "skills/mk-309/assets/check-context.py"
+      ],
       "pack": "packs/mk-309.md"
     },
     {
@@ -1898,7 +2605,10 @@
       "name": "Build a Search Answer Matrix",
       "description": "Build a Search Answer Matrix. Use when you need a mapping of audiences, stages, questions, and pages; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-310/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-310/assets/context-contract.json",
+        "skills/mk-310/assets/check-context.py"
+      ],
       "pack": "packs/mk-310.md"
     },
     {
@@ -1906,7 +2616,10 @@
       "name": "Topic Hub Page Planning",
       "description": "Topic Hub Page Planning. Use when you need a hub blueprint that answers a set of needs together; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-311/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-311/assets/context-contract.json",
+        "skills/mk-311/assets/check-context.py"
+      ],
       "pack": "packs/mk-311.md"
     },
     {
@@ -1914,7 +2627,10 @@
       "name": "Decide Whether to Keep, Improve, or Add Pages",
       "description": "Use website pages and GSC query/page performance to decide whether existing pages should be kept, improved, consolidated, or supplemented with new pages, and plan main entry pages and relevant internal links",
       "source": "skills/mk-312/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-312/assets/context-contract.json",
+        "skills/mk-312/assets/check-context.py"
+      ],
       "pack": "packs/mk-312.md"
     },
     {
@@ -1922,7 +2638,10 @@
       "name": "Hub Page Module Design",
       "description": "Hub Page Module Design. Use when you need required answers, evidence, and referral sections; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-313/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-313/assets/context-contract.json",
+        "skills/mk-313/assets/check-context.py"
+      ],
       "pack": "packs/mk-313.md"
     },
     {
@@ -1930,7 +2649,10 @@
       "name": "Article-to-Hub Internal Link Planning",
       "description": "Article-to-Hub Internal Link Planning. Use when you need paths from content back to commercial hubs; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-314/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-314/assets/context-contract.json",
+        "skills/mk-314/assets/check-context.py"
+      ],
       "pack": "packs/mk-314.md"
     },
     {
@@ -1938,7 +2660,10 @@
       "name": "Hub-to-Product Internal Link Planning",
       "description": "Hub-to-Product Internal Link Planning. Use when you need paths from answers to products and services; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-315/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-315/assets/context-contract.json",
+        "skills/mk-315/assets/check-context.py"
+      ],
       "pack": "packs/mk-315.md"
     },
     {
@@ -1946,7 +2671,10 @@
       "name": "Choose Page Types for Search Demand",
       "description": "Choose Page Types for Search Demand. Use when you need fit with article, comparison, category, or booking pages; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-316/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-316/assets/context-contract.json",
+        "skills/mk-316/assets/check-context.py"
+      ],
       "pack": "packs/mk-316.md"
     },
     {
@@ -1954,7 +2682,10 @@
       "name": "Page Title Check",
       "description": "Page Title Check. Use when you need alignment between the topic, demand, and title; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-317/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-317/assets/context-contract.json",
+        "skills/mk-317/assets/check-context.py"
+      ],
       "pack": "packs/mk-317.md"
     },
     {
@@ -1962,7 +2693,10 @@
       "name": "Page Meta Description Check",
       "description": "Page Meta Description Check. Use when work requires descriptions that match the actual page; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-318/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-318/assets/context-contract.json",
+        "skills/mk-318/assets/check-context.py"
+      ],
       "pack": "packs/mk-318.md"
     },
     {
@@ -1970,7 +2704,10 @@
       "name": "Page H1 Hierarchy Check",
       "description": "Page H1 Hierarchy Check. Use when work requires issues with topic structure and heading hierarchy; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-319/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-319/assets/context-contract.json",
+        "skills/mk-319/assets/check-context.py"
+      ],
       "pack": "packs/mk-319.md"
     },
     {
@@ -1978,7 +2715,10 @@
       "name": "Page H2 and H3 Structure Check",
       "description": "Page H2 and H3 Structure Check. Use when work requires issues with question-and-answer hierarchy and paragraph relationships; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-320/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-320/assets/context-contract.json",
+        "skills/mk-320/assets/check-context.py"
+      ],
       "pack": "packs/mk-320.md"
     },
     {
@@ -1986,7 +2726,10 @@
       "name": "Page Image Alt Text Check",
       "description": "Page Image Alt Text Check. Use when work requires missing information about image content and alternative text; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-321/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-321/assets/context-contract.json",
+        "skills/mk-321/assets/check-context.py"
+      ],
       "pack": "packs/mk-321.md"
     },
     {
@@ -1994,7 +2737,10 @@
       "name": "Basic Page Markup Check",
       "description": "Basic Page Markup Check. Use when work requires items to check, including language, canonical, and robots; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-322/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-322/assets/context-contract.json",
+        "skills/mk-322/assets/check-context.py"
+      ],
       "pack": "packs/mk-322.md"
     },
     {
@@ -2002,7 +2748,10 @@
       "name": "Article Opening Answer Check",
       "description": "Article Opening Answer Check. Use when work requires missing questions, audience, answers, and decision guidance; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-324/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-324/assets/context-contract.json",
+        "skills/mk-324/assets/check-context.py"
+      ],
       "pack": "packs/mk-324.md"
     },
     {
@@ -2010,7 +2759,10 @@
       "name": "Article Subheading Clarity Check",
       "description": "Article Subheading Clarity Check. Use when work requires subheadings that remain unclear outside their context; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-325/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-325/assets/context-contract.json",
+        "skills/mk-325/assets/check-context.py"
+      ],
       "pack": "packs/mk-325.md"
     },
     {
@@ -2018,7 +2770,10 @@
       "name": "Answer-First Paragraph Check",
       "description": "Answer-First Paragraph Check. Use when work requires locations where answers are buried too deeply or not given directly; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-326/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-326/assets/context-contract.json",
+        "skills/mk-326/assets/check-context.py"
+      ],
       "pack": "packs/mk-326.md"
     },
     {
@@ -2026,7 +2781,10 @@
       "name": "Standalone Paragraph Clarity Check",
       "description": "Standalone Paragraph Clarity Check. Use when work requires locations that depend on earlier text or contain unclear pronouns; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-327/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-327/assets/context-contract.json",
+        "skills/mk-327/assets/check-context.py"
+      ],
       "pack": "packs/mk-327.md"
     },
     {
@@ -2034,7 +2792,10 @@
       "name": "List Module Fit",
       "description": "List Module Fit. Use when work requires passages suitable for conversion to lists, with reasons; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-328/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-328/assets/context-contract.json",
+        "skills/mk-328/assets/check-context.py"
+      ],
       "pack": "packs/mk-328.md"
     },
     {
@@ -2042,7 +2803,10 @@
       "name": "Step Module Fit",
       "description": "Step Module Fit. Use when work requires steps with order, prerequisites, and completion conditions; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-329/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-329/assets/context-contract.json",
+        "skills/mk-329/assets/check-context.py"
+      ],
       "pack": "packs/mk-329.md"
     },
     {
@@ -2050,7 +2814,10 @@
       "name": "Comparison Table Module Fit",
       "description": "Comparison Table Module Fit. Use when work requires proposed tables with comparison dimensions and information gaps; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-330/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-330/assets/context-contract.json",
+        "skills/mk-330/assets/check-context.py"
+      ],
       "pack": "packs/mk-330.md"
     },
     {
@@ -2058,7 +2825,10 @@
       "name": "FAQ Module Fit",
       "description": "FAQ Module Fit. Use when work requires FAQ sections supported by actual question demand; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-331/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-331/assets/context-contract.json",
+        "skills/mk-331/assets/check-context.py"
+      ],
       "pack": "packs/mk-331.md"
     },
     {
@@ -2066,7 +2836,10 @@
       "name": "Firsthand Experience Check",
       "description": "Firsthand Experience Check. Use when work requires evidence of experience and gaps that cannot be filled by invention; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-332/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-332/assets/context-contract.json",
+        "skills/mk-332/assets/check-context.py"
+      ],
       "pack": "packs/mk-332.md"
     },
     {
@@ -2074,7 +2847,10 @@
       "name": "Screenshot, Record, and Data Evidence Check",
       "description": "Screenshot, Record, and Data Evidence Check. Use when work requires required evidence, dates, and missing items; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-333/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-333/assets/context-contract.json",
+        "skills/mk-333/assets/check-context.py"
+      ],
       "pack": "packs/mk-333.md"
     },
     {
@@ -2082,7 +2858,10 @@
       "name": "Source Check for Important Claims",
       "description": "Source Check for Important Claims. Use when work requires a mapping of claims to sources that actually support them; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-334/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-334/assets/context-contract.json",
+        "skills/mk-334/assets/check-context.py"
+      ],
       "pack": "packs/mk-334.md"
     },
     {
@@ -2090,7 +2869,10 @@
       "name": "Expert Quotation Authenticity Check",
       "description": "Expert Quotation Authenticity Check. Use when work requires checks of quotations, identities, and original sources; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-335/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-335/assets/context-contract.json",
+        "skills/mk-335/assets/check-context.py"
+      ],
       "pack": "packs/mk-335.md"
     },
     {
@@ -2098,7 +2880,10 @@
       "name": "Article Differentiation Check",
       "description": "Article Differentiation Check. Use when work requires parts that repeat common claims or offer new judgments; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-336/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-336/assets/context-contract.json",
+        "skills/mk-336/assets/check-context.py"
+      ],
       "pack": "packs/mk-336.md"
     },
     {
@@ -2106,7 +2891,10 @@
       "name": "Applicability and Limitations Check",
       "description": "Applicability and Limitations Check. Use when work requires audiences, situations, resources, and points that do not apply universally; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-337/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-337/assets/context-contract.json",
+        "skills/mk-337/assets/check-context.py"
+      ],
       "pack": "packs/mk-337.md"
     },
     {
@@ -2114,7 +2902,10 @@
       "name": "Article Next-Step Entry Check",
       "description": "Article Next-Step Entry Check. Use when work requires reasonable actions and page links; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-338/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-338/assets/context-contract.json",
+        "skills/mk-338/assets/check-context.py"
+      ],
       "pack": "packs/mk-338.md"
     },
     {
@@ -2122,7 +2913,10 @@
       "name": "Weak Paragraph Prioritization",
       "description": "Weak Paragraph Prioritization. Use when work requires passages most worth revising first, with supporting reasons; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-339/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-339/assets/context-contract.json",
+        "skills/mk-339/assets/check-context.py"
+      ],
       "pack": "packs/mk-339.md"
     },
     {
@@ -2130,7 +2924,10 @@
       "name": "Four-Sentence Answer Paragraph Draft",
       "description": "Four-Sentence Answer Paragraph Draft. Use when work requires answer modules reorganized around the original facts; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-340/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-340/assets/context-contract.json",
+        "skills/mk-340/assets/check-context.py"
+      ],
       "pack": "packs/mk-340.md"
     },
     {
@@ -2138,7 +2935,10 @@
       "name": "Before-and-After Article Revision Comparison",
       "description": "Before-and-After Article Revision Comparison. Use when work requires changes, retained facts, and items still lacking evidence; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-341/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-341/assets/context-contract.json",
+        "skills/mk-341/assets/check-context.py"
+      ],
       "pack": "packs/mk-341.md"
     },
     {
@@ -2146,7 +2946,10 @@
       "name": "Standard Brand Name Organization",
       "description": "Standard Brand Name Organization. Use when work requires a primary name, aliases, and wording that avoids confusion; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-342/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-342/assets/context-contract.json",
+        "skills/mk-342/assets/check-context.py"
+      ],
       "pack": "packs/mk-342.md"
     },
     {
@@ -2154,7 +2957,10 @@
       "name": "One-Sentence and Three-Sentence Brand Introductions",
       "description": "One-Sentence and Three-Sentence Brand Introductions. Use when work requires standard introductions for external citation; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-343/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-343/assets/context-contract.json",
+        "skills/mk-343/assets/check-context.py"
+      ],
       "pack": "packs/mk-343.md"
     },
     {
@@ -2162,7 +2968,10 @@
       "name": "Cross-Platform Brand Introduction Comparison",
       "description": "Cross-Platform Brand Introduction Comparison. Use when work requires inconsistencies between the official website and other platforms; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-344/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-344/assets/context-contract.json",
+        "skills/mk-344/assets/check-context.py"
+      ],
       "pack": "packs/mk-344.md"
     },
     {
@@ -2170,7 +2979,10 @@
       "name": "Brand Category and Service Check",
       "description": "Brand Category and Service Check. Use when work requires problems caused by descriptions in the wrong category; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-345/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-345/assets/context-contract.json",
+        "skills/mk-345/assets/check-context.py"
+      ],
       "pack": "packs/mk-345.md"
     },
     {
@@ -2178,7 +2990,10 @@
       "name": "Official Brand Link Comparison",
       "description": "Official Brand Link Comparison. Use when work requires cross-platform connections and incorrect links; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-346/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-346/assets/context-contract.json",
+        "skills/mk-346/assets/check-context.py"
+      ],
       "pack": "packs/mk-346.md"
     },
     {
@@ -2186,7 +3001,10 @@
       "name": "Brand Entity and Founder Relationship Mapping",
       "description": "Brand Entity and Founder Relationship Mapping. Use when work requires actual relationships among people, organizations, and services; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-347/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-347/assets/context-contract.json",
+        "skills/mk-347/assets/check-context.py"
+      ],
       "pack": "packs/mk-347.md"
     },
     {
@@ -2194,7 +3012,10 @@
       "name": "Brand Directory Fit",
       "description": "Brand Directory Fit. Use when work requires platforms worth adding listings to and platforms that do not fit; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-348/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-348/assets/context-contract.json",
+        "skills/mk-348/assets/check-context.py"
+      ],
       "pack": "packs/mk-348.md"
     },
     {
@@ -2202,7 +3023,10 @@
       "name": "Incorrect Brand Description Verification",
       "description": "Incorrect Brand Description Verification. Use when work requires incorrect content, original evidence, and correction drafts; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-349/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-349/assets/context-contract.json",
+        "skills/mk-349/assets/check-context.py"
+      ],
       "pack": "packs/mk-349.md"
     },
     {
@@ -2210,7 +3034,10 @@
       "name": "Brand Media Kit",
       "description": "Brand Media Kit. Use when work requires names, descriptions, services, differentiators, and links; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-350/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-350/assets/context-contract.json",
+        "skills/mk-350/assets/check-context.py"
+      ],
       "pack": "packs/mk-350.md"
     },
     {
@@ -2218,7 +3045,10 @@
       "name": "Third-Party Testimonial Source Inventory",
       "description": "Third-Party Testimonial Source Inventory. Use when work requires media coverage, cases, and usable third-party statements; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-351/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-351/assets/context-contract.json",
+        "skills/mk-351/assets/check-context.py"
+      ],
       "pack": "packs/mk-351.md"
     },
     {
@@ -2226,7 +3056,10 @@
       "name": "Third-Party Content Improvement Priorities",
       "description": "Third-Party Content Improvement Priorities. Use when work requires priorities based on gaps, impact, and ability to act; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-352/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-352/assets/context-contract.json",
+        "skills/mk-352/assets/check-context.py"
+      ],
       "pack": "packs/mk-352.md"
     },
     {
@@ -2234,7 +3067,10 @@
       "name": "Off-Site Content Collaboration List",
       "description": "Off-Site Content Collaboration List. Use when work requires real URLs, topics, and reasons to collaborate; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-353/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-353/assets/context-contract.json",
+        "skills/mk-353/assets/check-context.py"
+      ],
       "pack": "packs/mk-353.md"
     },
     {
@@ -2242,7 +3078,10 @@
       "name": "Search Result Format Inventory",
       "description": "Search Result Format Inventory. Use when work requires articles, videos, and channels appearing in actual results; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-354/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-354/assets/context-contract.json",
+        "skills/mk-354/assets/check-context.py"
+      ],
       "pack": "packs/mk-354.md"
     },
     {
@@ -2250,7 +3089,10 @@
       "name": "Cross-Platform Content Adaptation Plan",
       "description": "Cross-Platform Content Adaptation Plan. Use when work requires one topic adapted to each platform's task, rather than spun content; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-355/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-355/assets/context-contract.json",
+        "skills/mk-355/assets/check-context.py"
+      ],
       "pack": "packs/mk-355.md"
     },
     {
@@ -2258,7 +3100,10 @@
       "name": "External-to-Website Referral Path Check",
       "description": "External-to-Website Referral Path Check. Use when work requires the path from off-site content to node pages and transaction pages; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-356/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-356/assets/context-contract.json",
+        "skills/mk-356/assets/check-context.py"
+      ],
       "pack": "packs/mk-356.md"
     },
     {
@@ -2266,7 +3111,10 @@
       "name": "Off-Site Correction Outreach Draft",
       "description": "Off-Site Correction Outreach Draft. Use when work requires evidence-supported brand correction or supplementary outreach drafts; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-357/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-357/assets/context-contract.json",
+        "skills/mk-357/assets/check-context.py"
+      ],
       "pack": "packs/mk-357.md"
     },
     {
@@ -2274,7 +3122,10 @@
       "name": "AI Search Test Question Bank",
       "description": "AI Search Test Question Bank. Use when work requires definition, comparison, context, and decision questions; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-358/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-358/assets/context-contract.json",
+        "skills/mk-358/assets/check-context.py"
+      ],
       "pack": "packs/mk-358.md"
     },
     {
@@ -2282,7 +3133,10 @@
       "name": "Non-Branded Test Question Design",
       "description": "Non-Branded Test Question Design. Use when work requires need-based questions without directly inserting the brand; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-359/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-359/assets/context-contract.json",
+        "skills/mk-359/assets/check-context.py"
+      ],
       "pack": "packs/mk-359.md"
     },
     {
@@ -2290,7 +3144,10 @@
       "name": "AI Search Question Prioritization",
       "description": "AI Search Question Prioritization. Use when work requires question selection based on business relevance and representativeness; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-360/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-360/assets/context-contract.json",
+        "skills/mk-360/assets/check-context.py"
+      ],
       "pack": "packs/mk-360.md"
     },
     {
@@ -2298,7 +3155,10 @@
       "name": "AI Answer Record Table",
       "description": "AI Answer Record Table. Use when work requires platforms, dates, questions, complete answers, and sources; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-361/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-361/assets/context-contract.json",
+        "skills/mk-361/assets/check-context.py"
+      ],
       "pack": "packs/mk-361.md"
     },
     {
@@ -2306,7 +3166,10 @@
       "name": "AI Citation Presence Assessment",
       "description": "AI Citation Presence Assessment. Use when work requires records of websites and pages actually cited; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-362/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-362/assets/context-contract.json",
+        "skills/mk-362/assets/check-context.py"
+      ],
       "pack": "packs/mk-362.md"
     },
     {
@@ -2314,7 +3177,10 @@
       "name": "AI Brand Mention Assessment",
       "description": "AI Brand Mention Assessment. Use when work requires whether the brand is mentioned and the surrounding context; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-363/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-363/assets/context-contract.json",
+        "skills/mk-363/assets/check-context.py"
+      ],
       "pack": "packs/mk-363.md"
     },
     {
@@ -2322,7 +3188,10 @@
       "name": "AI Brand Description Accuracy Check",
       "description": "AI Brand Description Accuracy Check. Use when work requires checks against original brand information; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-364/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-364/assets/context-contract.json",
+        "skills/mk-364/assets/check-context.py"
+      ],
       "pack": "packs/mk-364.md"
     },
     {
@@ -2330,7 +3199,10 @@
       "name": "Comparison of Brands Listed Together by AI",
       "description": "Comparison of Brands Listed Together by AI. Use when work requires brands appearing together and their context; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-365/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-365/assets/context-contract.json",
+        "skills/mk-365/assets/check-context.py"
+      ],
       "pack": "packs/mk-365.md"
     },
     {
@@ -2338,7 +3210,10 @@
       "name": "Member Order Data Organization",
       "description": "Member Order Data Organization. Use when work requires correct relationships between customers with multiple orders and order details; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-372/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-372/assets/context-contract.json",
+        "skills/mk-372/assets/check-context.py"
+      ],
       "pack": "packs/mk-372.md"
     },
     {
@@ -2346,7 +3221,10 @@
       "name": "Member Identifier Consistency Check",
       "description": "Member Identifier Consistency Check. Use when work requires duplicate customers and unmatched items; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-373/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-373/assets/context-contract.json",
+        "skills/mk-373/assets/check-context.py"
+      ],
       "pack": "packs/mk-373.md"
     },
     {
@@ -2354,7 +3232,10 @@
       "name": "Member Purchase Recency Calculation",
       "description": "Member Purchase Recency Calculation. Use when work requires time since the most recent purchase as of a specified reference date; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-374/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-374/assets/context-contract.json",
+        "skills/mk-374/assets/check-context.py"
+      ],
       "pack": "packs/mk-374.md"
     },
     {
@@ -2362,7 +3243,10 @@
       "name": "Member Purchase Frequency Calculation",
       "description": "Member Purchase Frequency Calculation. Use when work requires frequency calculated from distinct valid orders; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-375/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-375/assets/context-contract.json",
+        "skills/mk-375/assets/check-context.py"
+      ],
       "pack": "packs/mk-375.md"
     },
     {
@@ -2370,7 +3254,10 @@
       "name": "Member Cumulative Spend Calculation",
       "description": "Member Cumulative Spend Calculation. Use when work requires purchase amounts with clear refund and period definitions; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-376/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-376/assets/context-contract.json",
+        "skills/mk-376/assets/check-context.py"
+      ],
       "pack": "packs/mk-376.md"
     },
     {
@@ -2378,7 +3265,10 @@
       "name": "Member Average Order Value Calculation",
       "description": "Member Average Order Value Calculation. Use when work requires average order value compared with amount and frequency; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-377/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-377/assets/context-contract.json",
+        "skills/mk-377/assets/check-context.py"
+      ],
       "pack": "packs/mk-377.md"
     },
     {
@@ -2386,7 +3276,10 @@
       "name": "RFM Threshold Setting",
       "description": "RFM Threshold Setting. Use when work requires thresholds based on purchase cycles and distributions; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-378/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-378/assets/context-contract.json",
+        "skills/mk-378/assets/check-context.py"
+      ],
       "pack": "packs/mk-378.md"
     },
     {
@@ -2394,7 +3287,10 @@
       "name": "RFM Score Calculation",
       "description": "RFM Score Calculation. Use when work requires recalculable scores and their original basis; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-379/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-379/assets/context-contract.json",
+        "skills/mk-379/assets/check-context.py"
+      ],
       "pack": "packs/mk-379.md"
     },
     {
@@ -2402,7 +3298,10 @@
       "name": "RFM Segment Naming",
       "description": "RFM Segment Naming. Use when work requires definitions for segments such as loyal, high-potential, and due for reactivation; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-380/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-380/assets/context-contract.json",
+        "skills/mk-380/assets/check-context.py"
+      ],
       "pack": "packs/mk-380.md"
     },
     {
@@ -2410,7 +3309,10 @@
       "name": "One-Time Purchaser Identification",
       "description": "One-Time Purchaser Identification. Use when work requires F1 members and traceable sources; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-381/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-381/assets/context-contract.json",
+        "skills/mk-381/assets/check-context.py"
+      ],
       "pack": "packs/mk-381.md"
     },
     {
@@ -2418,7 +3320,10 @@
       "name": "Second-Purchase Member Identification",
       "description": "Second-Purchase Member Identification. Use when work requires F2 attainment and member groups; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-382/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-382/assets/context-contract.json",
+        "skills/mk-382/assets/check-context.py"
+      ],
       "pack": "packs/mk-382.md"
     },
     {
@@ -2426,7 +3331,10 @@
       "name": "Days to First Repeat Purchase Calculation",
       "description": "Days to First Repeat Purchase Calculation. Use when work requires the interval between the first and second valid purchases; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-383/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-383/assets/context-contract.json",
+        "skills/mk-383/assets/check-context.py"
+      ],
       "pack": "packs/mk-383.md"
     },
     {
@@ -2434,7 +3342,10 @@
       "name": "New, Existing, and Dormant Member Segmentation",
       "description": "New, Existing, and Dormant Member Segmentation. Use when work requires NES groups with clear periods and statuses; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-384/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-384/assets/context-contract.json",
+        "skills/mk-384/assets/check-context.py"
+      ],
       "pack": "packs/mk-384.md"
     },
     {
@@ -2442,7 +3353,10 @@
       "name": "Member Status Transition Analysis",
       "description": "Member Status Transition Analysis. Use when work requires changes in groups between periods; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-385/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-385/assets/context-contract.json",
+        "skills/mk-385/assets/check-context.py"
+      ],
       "pack": "packs/mk-385.md"
     },
     {
@@ -2450,7 +3364,10 @@
       "name": "High-Value Member Selection",
       "description": "High-Value Member Selection. Use when work requires candidates assessed jointly on frequency, amount, and recency; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-386/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-386/assets/context-contract.json",
+        "skills/mk-386/assets/check-context.py"
+      ],
       "pack": "packs/mk-386.md"
     },
     {
@@ -2458,7 +3375,10 @@
       "name": "Member Segmentation Completeness Check",
       "description": "Member Segmentation Completeness Check. Use when work requires checks for missing, overlapping, and incorrect segments; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-387/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-387/assets/context-contract.json",
+        "skills/mk-387/assets/check-context.py"
+      ],
       "pack": "packs/mk-387.md"
     },
     {
@@ -2466,7 +3386,10 @@
       "name": "New Member First-Purchase Nurturing",
       "description": "New Member First-Purchase Nurturing. Use when work requires a message sequence combining education with reasons for a first purchase; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-388/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-388/assets/context-contract.json",
+        "skills/mk-388/assets/check-context.py"
+      ],
       "pack": "packs/mk-388.md"
     },
     {
@@ -2474,7 +3397,10 @@
       "name": "Post-Purchase Usage Education Plan",
       "description": "Post-Purchase Usage Education Plan. Use when work requires post-delivery content matching the actual product; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-389/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-389/assets/context-contract.json",
+        "skills/mk-389/assets/check-context.py"
+      ],
       "pack": "packs/mk-389.md"
     },
     {
@@ -2482,7 +3408,10 @@
       "name": "First Repeat Purchase Promotion Plan",
       "description": "First Repeat Purchase Promotion Plan. Use when work requires repeat purchase timing and second-product arrangements; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-390/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-390/assets/context-contract.json",
+        "skills/mk-390/assets/check-context.py"
+      ],
       "pack": "packs/mk-390.md"
     },
     {
@@ -2490,7 +3419,10 @@
       "name": "Replenishment Reminder Timing Plan",
       "description": "Replenishment Reminder Timing Plan. Use when work requires reminder hypotheses based on usage and historical cycles; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-391/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-391/assets/context-contract.json",
+        "skills/mk-391/assets/check-context.py"
+      ],
       "pack": "packs/mk-391.md"
     },
     {
@@ -2498,7 +3430,10 @@
       "name": "New-Product Priority for High-Value Members",
       "description": "New-Product Priority for High-Value Members. Use when work requires eligible members and a new-product communication plan; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-392/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-392/assets/context-contract.json",
+        "skills/mk-392/assets/check-context.py"
+      ],
       "pack": "packs/mk-392.md"
     },
     {
@@ -2506,7 +3441,10 @@
       "name": "Exclusive Bundles for Loyal Members",
       "description": "Exclusive Bundles for Loyal Members. Use when work requires alignment among bundle quantities, gross profit, and needs; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-393/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-393/assets/context-contract.json",
+        "skills/mk-393/assets/check-context.py"
+      ],
       "pack": "packs/mk-393.md"
     },
     {
@@ -2514,7 +3452,10 @@
       "name": "High-Potential Member Upgrade Plan",
       "description": "High-Potential Member Upgrade Plan. Use when work requires arrangements for moving to the next purchase stage; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-394/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-394/assets/context-contract.json",
+        "skills/mk-394/assets/check-context.py"
+      ],
       "pack": "packs/mk-394.md"
     },
     {
@@ -2522,7 +3463,10 @@
       "name": "Win-Back Plan for At-Risk Members",
       "description": "Win-Back Plan for At-Risk Members. Use when work requires recent changes and suitable reminders; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-395/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-395/assets/context-contract.json",
+        "skills/mk-395/assets/check-context.py"
+      ],
       "pack": "packs/mk-395.md"
     },
     {
@@ -2530,7 +3474,10 @@
       "name": "Dormant Member Reactivation Copy",
       "description": "Dormant Member Reactivation Copy. Use when work requires real benefits, reasons to return, and opt-out choices; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-396/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-396/assets/context-contract.json",
+        "skills/mk-396/assets/check-context.py"
+      ],
       "pack": "packs/mk-396.md"
     },
     {
@@ -2538,7 +3485,10 @@
       "name": "Invitations to Members Willing to Recommend",
       "description": "Invitations to Members Willing to Recommend. Use when work requires authorized invitations to share and provide feedback; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-397/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-397/assets/context-contract.json",
+        "skills/mk-397/assets/check-context.py"
+      ],
       "pack": "packs/mk-397.md"
     },
     {
@@ -2546,7 +3496,10 @@
       "name": "Member Campaign Repeat Purchase Review",
       "description": "Member Campaign Repeat Purchase Review. Use when work requires repeat purchase results and confounding factors for the same group; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-398/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-398/assets/context-contract.json",
+        "skills/mk-398/assets/check-context.py"
+      ],
       "pack": "packs/mk-398.md"
     },
     {
@@ -2554,7 +3507,10 @@
       "name": "Add-Friend Incentive Design",
       "description": "Add-Friend Incentive Design. Use when work requires immediate, relevant, low-friction reasons to connect; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-399/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-399/assets/context-contract.json",
+        "skills/mk-399/assets/check-context.py"
+      ],
       "pack": "packs/mk-399.md"
     },
     {
@@ -2562,7 +3518,10 @@
       "name": "Add-Friend Flow Friction Check",
       "description": "Add-Friend Flow Friction Check. Use when work requires friction in claiming benefits and taking the next step; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-400/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-400/assets/context-contract.json",
+        "skills/mk-400/assets/check-context.py"
+      ],
       "pack": "packs/mk-400.md"
     },
     {
@@ -2570,7 +3529,10 @@
       "name": "Three-Part LINE Welcome Message",
       "description": "Three-Part LINE Welcome Message. Use when work requires an immediate benefit, a next step, and a clear action; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-401/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-401/assets/context-contract.json",
+        "skills/mk-401/assets/check-context.py"
+      ],
       "pack": "packs/mk-401.md"
     },
     {
@@ -2578,7 +3540,10 @@
       "name": "LINE Interest Tag Design",
       "description": "LINE Interest Tag Design. Use when work requires interest tags linked to content and products; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-402/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-402/assets/context-contract.json",
+        "skills/mk-402/assets/check-context.py"
+      ],
       "pack": "packs/mk-402.md"
     },
     {
@@ -2586,7 +3551,10 @@
       "name": "LINE Customer Problem Tag Design",
       "description": "LINE Customer Problem Tag Design. Use when work requires customer problems that change subsequent messages; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-403/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-403/assets/context-contract.json",
+        "skills/mk-403/assets/check-context.py"
+      ],
       "pack": "packs/mk-403.md"
     },
     {
@@ -2594,7 +3562,10 @@
       "name": "LINE Stage Tag Design",
       "description": "LINE Stage Tag Design. Use when work requires statuses for joining, consideration, first purchase, and repeat purchase; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-404/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-404/assets/context-contract.json",
+        "skills/mk-404/assets/check-context.py"
+      ],
       "pack": "packs/mk-404.md"
     },
     {
@@ -2602,7 +3573,10 @@
       "name": "LINE Tag Simplification Check",
       "description": "LINE Tag Simplification Check. Use when work requires tags without corresponding business actions; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-405/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-405/assets/context-contract.json",
+        "skills/mk-405/assets/check-context.py"
+      ],
       "pack": "packs/mk-405.md"
     },
     {
@@ -2610,7 +3584,10 @@
       "name": "Seven-Day LINE Flow for Non-Buyers",
       "description": "Seven-Day LINE Flow for Non-Buyers. Use when work requires a draft with conditions, messages, and exit rules; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-406/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-406/assets/context-contract.json",
+        "skills/mk-406/assets/check-context.py"
+      ],
       "pack": "packs/mk-406.md"
     },
     {
@@ -2618,7 +3595,10 @@
       "name": "LINE Copy by Customer Status",
       "description": "LINE Copy by Customer Status. Use when work requires copy for different customer statuses within the same campaign; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-407/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-407/assets/context-contract.json",
+        "skills/mk-407/assets/check-context.py"
+      ],
       "pack": "packs/mk-407.md"
     },
     {
@@ -2626,7 +3606,10 @@
       "name": "Cost per Friend Calculation",
       "description": "Cost per Friend Calculation. Use when work requires a consistent basis for spending and valid newly added friends; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-408/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-408/assets/context-contract.json",
+        "skills/mk-408/assets/check-context.py"
+      ],
       "pack": "packs/mk-408.md"
     },
     {
@@ -2634,7 +3617,10 @@
       "name": "Friend Quality Tracking",
       "description": "Friend Quality Tracking. Use when work requires comparisons of interaction, first purchases, repeat purchases, and blocks; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-409/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-409/assets/context-contract.json",
+        "skills/mk-409/assets/check-context.py"
+      ],
       "pack": "packs/mk-409.md"
     },
     {
@@ -2642,7 +3628,10 @@
       "name": "Friend Lifetime Value Estimate",
       "description": "Friend Lifetime Value Estimate. Use when work requires estimates with explicit periods, gross margins, and scenario assumptions; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-410/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-410/assets/context-contract.json",
+        "skills/mk-410/assets/check-context.py"
+      ],
       "pack": "packs/mk-410.md"
     },
     {
@@ -2650,7 +3639,10 @@
       "name": "Newsletter Subject Line Draft",
       "description": "Newsletter Subject Line Draft. Use when work requires non-misleading subject lines that match the content; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-411/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-411/assets/context-contract.json",
+        "skills/mk-411/assets/check-context.py"
+      ],
       "pack": "packs/mk-411.md"
     },
     {
@@ -2658,7 +3650,10 @@
       "name": "Newsletter Preview Text Draft",
       "description": "Newsletter Preview Text Draft. Use when work requires preview summaries that continue the subject line; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-412/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-412/assets/context-contract.json",
+        "skills/mk-412/assets/check-context.py"
+      ],
       "pack": "packs/mk-412.md"
     },
     {
@@ -2666,7 +3661,10 @@
       "name": "Newsletter Body and CTA",
       "description": "Newsletter Body and CTA. Use when work requires content, benefits, buttons, and destination pages; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-413/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-413/assets/context-contract.json",
+        "skills/mk-413/assets/check-context.py"
+      ],
       "pack": "packs/mk-413.md"
     },
     {
@@ -2674,7 +3672,10 @@
       "name": "Concise SMS Draft",
       "description": "Concise SMS Draft. Use when work requires actual campaign conditions and the required action; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-414/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-414/assets/context-contract.json",
+        "skills/mk-414/assets/check-context.py"
+      ],
       "pack": "packs/mk-414.md"
     },
     {
@@ -2682,7 +3683,10 @@
       "name": "Cross-Channel Message Schedule",
       "description": "Cross-Channel Message Schedule. Use when work requires frequency, audiences, channels, and recipient permissions; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-415/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-415/assets/context-contract.json",
+        "skills/mk-415/assets/check-context.py"
+      ],
       "pack": "packs/mk-415.md"
     },
     {
@@ -2690,7 +3694,10 @@
       "name": "Unsubscribe and Inactivity Suppression Check",
       "description": "Unsubscribe and Inactivity Suppression Check. Use when work requires recipients and conditions for stopping messages; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-416/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-416/assets/context-contract.json",
+        "skills/mk-416/assets/check-context.py"
+      ],
       "pack": "packs/mk-416.md"
     },
     {
@@ -2698,7 +3705,10 @@
       "name": "Monthly Social Theme Breakdown",
       "description": "Monthly Social Theme Breakdown. Use when work requires topic ideas connecting needs with products; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-417/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-417/assets/context-contract.json",
+        "skills/mk-417/assets/check-context.py"
+      ],
       "pack": "packs/mk-417.md"
     },
     {
@@ -2706,7 +3716,10 @@
       "name": "Weekly Social Content Schedule",
       "description": "Weekly Social Content Schedule. Use when work requires content roles for education, testimonials, campaigns, and other tasks; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-418/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-418/assets/context-contract.json",
+        "skills/mk-418/assets/check-context.py"
+      ],
       "pack": "packs/mk-418.md"
     },
     {
@@ -2714,7 +3727,10 @@
       "name": "Product Education Post Plan",
       "description": "Product Education Post Plan. Use when work requires questions and visuals readers need to understand; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-419/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-419/assets/context-contract.json",
+        "skills/mk-419/assets/check-context.py"
+      ],
       "pack": "packs/mk-419.md"
     },
     {
@@ -2722,7 +3738,10 @@
       "name": "Third-Party Content Sharing Copy",
       "description": "Third-Party Content Sharing Copy. Use when work requires sharing with clear attribution and usable permissions; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-420/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-420/assets/context-contract.json",
+        "skills/mk-420/assets/check-context.py"
+      ],
       "pack": "packs/mk-420.md"
     },
     {
@@ -2730,7 +3749,10 @@
       "name": "Monthly Member Newsletter Organization",
       "description": "Monthly Member Newsletter Organization. Use when work requires topics and order for reusable content; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-421/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-421/assets/context-contract.json",
+        "skills/mk-421/assets/check-context.py"
+      ],
       "pack": "packs/mk-421.md"
     },
     {
@@ -2738,7 +3760,10 @@
       "name": "Evergreen and Campaign Post Mix",
       "description": "Evergreen and Campaign Post Mix. Use when work requires content roles for different tasks; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-422/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-422/assets/context-contract.json",
+        "skills/mk-422/assets/check-context.py"
+      ],
       "pack": "packs/mk-422.md"
     },
     {
@@ -2746,7 +3771,10 @@
       "name": "Long-Article Adaptation into Short Social Posts",
       "description": "Long-Article Adaptation into Short Social Posts. Use when work requires passage adaptations without new facts; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-423/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-423/assets/context-contract.json",
+        "skills/mk-423/assets/check-context.py"
+      ],
       "pack": "packs/mk-423.md"
     },
     {
@@ -2754,7 +3782,10 @@
       "name": "Successful Creative Reuse Topic Selection",
       "description": "Successful Creative Reuse Topic Selection. Use when work requires new uses for previously effective content; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-424/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-424/assets/context-contract.json",
+        "skills/mk-424/assets/check-context.py"
+      ],
       "pack": "packs/mk-424.md"
     },
     {
@@ -2762,7 +3793,10 @@
       "name": "Social Content Referral Check",
       "description": "Social Content Referral Check. Use when work requires alignment between post promises and linked pages; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-425/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-425/assets/context-contract.json",
+        "skills/mk-425/assets/check-context.py"
+      ],
       "pack": "packs/mk-425.md"
     },
     {
@@ -2770,7 +3804,10 @@
       "name": "Social Content Performance Review",
       "description": "Social Content Performance Review. Use when work requires separate assessments of engagement, clicks, and business tasks; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-426/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-426/assets/context-contract.json",
+        "skills/mk-426/assets/check-context.py"
+      ],
       "pack": "packs/mk-426.md"
     },
     {
@@ -2778,7 +3815,10 @@
       "name": "UTM Naming Plan",
       "description": "UTM Naming Plan. Use when work requires rules for source, medium, campaign, and creative; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-427/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-427/assets/context-contract.json",
+        "skills/mk-427/assets/check-context.py"
+      ],
       "pack": "packs/mk-427.md"
     },
     {
@@ -2786,7 +3826,10 @@
       "name": "UTM URL Generation and Check",
       "description": "UTM URL Generation and Check. Use when work requires trackable URLs and parameter errors; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-428/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-428/assets/context-contract.json",
+        "skills/mk-428/assets/check-context.py"
+      ],
       "pack": "packs/mk-428.md"
     },
     {
@@ -2794,7 +3837,10 @@
       "name": "KOL Collaboration UTM Classification",
       "description": "KOL Collaboration UTM Classification. Use when work requires identification of partners, placements, products, and collaborations; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-429/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-429/assets/context-contract.json",
+        "skills/mk-429/assets/check-context.py"
+      ],
       "pack": "packs/mk-429.md"
     },
     {
@@ -2802,7 +3848,10 @@
       "name": "Organic and Paid Traffic Definition Check",
       "description": "Organic and Paid Traffic Definition Check. Use when work requires classification evidence and items that cannot be determined directly; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-430/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-430/assets/context-contract.json",
+        "skills/mk-430/assets/check-context.py"
+      ],
       "pack": "packs/mk-430.md"
     },
     {
@@ -2810,7 +3859,10 @@
       "name": "New and Returning Customer Traffic Comparison",
       "description": "New and Returning Customer Traffic Comparison. Use when work requires comparisons with consistent periods and new / returning customer definitions; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-431/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-431/assets/context-contract.json",
+        "skills/mk-431/assets/check-context.py"
+      ],
       "pack": "packs/mk-431.md"
     },
     {
@@ -2818,7 +3870,10 @@
       "name": "New-Customer Conversion Source Analysis",
       "description": "New-Customer Conversion Source Analysis. Use when work requires source comparisons against first-purchase rates; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-432/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-432/assets/context-contract.json",
+        "skills/mk-432/assets/check-context.py"
+      ],
       "pack": "packs/mk-432.md"
     },
     {
@@ -2826,7 +3881,10 @@
       "name": "Landing Page Traffic Value Comparison",
       "description": "Landing Page Traffic Value Comparison. Use when work requires revenue and session comparisons on a consistent basis; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-433/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-433/assets/context-contract.json",
+        "skills/mk-433/assets/check-context.py"
+      ],
       "pack": "packs/mk-433.md"
     },
     {
@@ -2834,7 +3892,10 @@
       "name": "Campaign Type Traffic Value Comparison",
       "description": "Campaign Type Traffic Value Comparison. Use when work requires traffic, revenue, and limitations across campaigns; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-434/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-434/assets/context-contract.json",
+        "skills/mk-434/assets/check-context.py"
+      ],
       "pack": "packs/mk-434.md"
     },
     {
@@ -2842,7 +3903,10 @@
       "name": "Product Revenue, Gross Margin, and Conversion Comparison",
       "description": "Product Revenue, Gross Margin, and Conversion Comparison. Use when work requires product investment candidates and limits on causal interpretation; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-435/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-435/assets/context-contract.json",
+        "skills/mk-435/assets/check-context.py"
+      ],
       "pack": "packs/mk-435.md"
     },
     {
@@ -2850,7 +3914,10 @@
       "name": "Website Funnel Event Plan",
       "description": "Website Funnel Event Plan. Use when work requires definitions of nodes, actions, events, and value; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-436/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-436/assets/context-contract.json",
+        "skills/mk-436/assets/check-context.py"
+      ],
       "pack": "packs/mk-436.md"
     },
     {
@@ -2858,7 +3925,10 @@
       "name": "Cross-Platform Impression Definition Check",
       "description": "Cross-Platform Impression Definition Check. Use when work requires impressions that can be summed without treating them as unique reach; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-440/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-440/assets/context-contract.json",
+        "skills/mk-440/assets/check-context.py"
+      ],
       "pack": "packs/mk-440.md"
     },
     {
@@ -2866,7 +3936,10 @@
       "name": "GSC Search Opportunity Selection",
       "description": "GSC Search Opportunity Selection. Use when work requires candidates based on impressions, clicks, rankings, and demand; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-441/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-441/assets/context-contract.json",
+        "skills/mk-441/assets/check-context.py"
+      ],
       "pack": "packs/mk-441.md"
     },
     {
@@ -2874,7 +3947,10 @@
       "name": "Brand Background Brief",
       "description": "Brand Background Brief. Use when work requires a fact sheet covering the brand, products, audiences, and limitations; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-444/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-444/assets/context-contract.json",
+        "skills/mk-444/assets/check-context.py"
+      ],
       "pack": "packs/mk-444.md"
     },
     {
@@ -2882,7 +3958,10 @@
       "name": "Consulting Response Evidence Check",
       "description": "Consulting Response Evidence Check. Use when work requires checks of whether claims cite data actually obtained; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-448/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-448/assets/context-contract.json",
+        "skills/mk-448/assets/check-context.py"
+      ],
       "pack": "packs/mk-448.md"
     },
     {
@@ -2890,7 +3969,10 @@
       "name": "Consulting Output Acceptance Questions",
       "description": "Consulting Output Acceptance Questions. Use when work requires real case inputs and conditions for an acceptable result; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-450/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-450/assets/context-contract.json",
+        "skills/mk-450/assets/check-context.py"
+      ],
       "pack": "packs/mk-450.md"
     },
     {
@@ -2899,7 +3981,9 @@
       "description": "Produce, rewrite, and review Google PMAX text assets. Use when the user requests PMAX ads, headlines and descriptions, stronger reasons to click, or a complete copy rewrite. Start from Persona, USP, and evidence; establish the entry point, need scenario, and landing page, then express the same scenario through S / N / T / F. Deliver a 15 / 5 / 5 pool of independently recombinable assets with item-by-item review. Match images and videos only after copy completion; this skill does not cover RSA formatting or ad account operations",
       "source": "extensions/pmax-copy/SKILL.md",
       "references": [
-        "extensions/pmax-copy/references/copy-contract.md"
+        "extensions/pmax-copy/references/copy-contract.md",
+        "extensions/pmax-copy/assets/context-contract.json",
+        "extensions/pmax-copy/assets/check-context.py"
       ],
       "pack": "packs/pmax-copy.md"
     },
@@ -2910,7 +3994,9 @@
       "source": "extensions/write-marketing-rollout-plan/SKILL.md",
       "references": [
         "extensions/write-marketing-rollout-plan/THIRD_PARTY_NOTICES.md",
-        "extensions/write-marketing-rollout-plan/references/sources.md"
+        "extensions/write-marketing-rollout-plan/references/sources.md",
+        "extensions/write-marketing-rollout-plan/assets/context-contract.json",
+        "extensions/write-marketing-rollout-plan/assets/check-context.py"
       ],
       "pack": "packs/write-marketing-rollout-plan.md"
     },
@@ -2921,7 +4007,9 @@
       "source": "extensions/forecast-event-profit/SKILL.md",
       "references": [
         "extensions/forecast-event-profit/THIRD_PARTY_NOTICES.md",
-        "extensions/forecast-event-profit/references/sources.md"
+        "extensions/forecast-event-profit/references/sources.md",
+        "extensions/forecast-event-profit/assets/context-contract.json",
+        "extensions/forecast-event-profit/assets/check-context.py"
       ],
       "pack": "packs/forecast-event-profit.md"
     },
@@ -2932,7 +4020,9 @@
       "source": "extensions/simplify-member-rules/SKILL.md",
       "references": [
         "extensions/simplify-member-rules/THIRD_PARTY_NOTICES.md",
-        "extensions/simplify-member-rules/references/sources.md"
+        "extensions/simplify-member-rules/references/sources.md",
+        "extensions/simplify-member-rules/assets/context-contract.json",
+        "extensions/simplify-member-rules/assets/check-context.py"
       ],
       "pack": "packs/simplify-member-rules.md"
     }
@@ -2951,7 +4041,9 @@
         "supplements/speak-human-tw/references/protected-content.md",
         "supplements/speak-human-tw/references/scenes.md",
         "supplements/speak-human-tw/references/taiwan-localization.md",
-        "supplements/speak-human-tw/references/voice-and-rhythm.md"
+        "supplements/speak-human-tw/references/voice-and-rhythm.md",
+        "supplements/speak-human-tw/assets/context-contract.json",
+        "supplements/speak-human-tw/assets/check-context.py"
       ],
       "pack": "packs/speak-human-tw.md",
       "language": "zh-TW"

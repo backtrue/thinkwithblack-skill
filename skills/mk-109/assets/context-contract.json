@@ -1,0 +1,561 @@
+{
+  "skill_id": "MK-109",
+  "source_sha256": "69228ef9583e898a4b0ef3d34f9200971df50e59a9717d8452a2dc5fe01e1b83",
+  "role": "conditional",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u7684\u4f86\u6e90\u8207\u78ba\u5207\u7f3a\u9805\uff0c\u4f9d\u539f\u65b9\u6cd5\u63a5\u7e8c"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.product_net_revenue",
+            "label": "\u4e0d\u542b\u904b\u5546\u54c1\u6de8\u6536\u5165 P",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "period_start",
+              "period_end",
+              "currency"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "amount",
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.buyer_shipping",
+            "label": "\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "amount",
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.logistics_cost",
+            "label": "\u7269\u6d41\u652f\u51fa L",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "amount",
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.other_cost",
+            "label": "\u5176\u4ed6\u6210\u672c C",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "amount",
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.order_count",
+            "label": "\u65e2\u6709\u8a02\u55ae\u6578 N",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "count",
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.shipping_inclusion",
+            "label": "\u5be6\u6536\u662f\u5426\u542b\u8cb7\u5bb6\u904b\u8cbb F",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.offer_comparison",
+            "label": "\u65b0\u820a\u512a\u60e0\u689d\u4ef6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u540c\u53e3\u5f91\u904b\u8cbb\u627f\u64d4\u8207\u4f4e\u5ba2\u55ae\u98a8\u96aa\u8a08\u7b97"
+    },
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u4fdd\u7559\u7b26\u865f\u8aaa\u660e\u904b\u8cbb\u516c\u5f0f"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.input.fa5caf11c976c51c",
+            "label": "\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.068ca021897ef07c",
+            "label": "\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6",
+            "quantity": "amount"
+          },
+          {
+            "field": "task.input.e435567e6413ebce",
+            "label": "\u7269\u6d41\u652f\u51fa L",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6",
+            "quantity": "amount"
+          },
+          {
+            "field": "task.input.dd7f9b92f77d6a3e",
+            "label": "\u5176\u4ed6\u6210\u672c C",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6",
+            "quantity": "amount"
+          },
+          {
+            "field": "task.input.a592c2af4401016d",
+            "label": "\u5be6\u6536\u662f\u5426\u542b F",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.order_count",
+            "label": "\u65e2\u6709\u8a02\u55ae\u6578 N",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6",
+            "quantity": "count"
+          },
+          {
+            "field": "offer.terms",
+            "label": "\u65b0\u820a\u512a\u60e0\u689d\u4ef6",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_website_or_source",
+            "preparation": "MK-001",
+            "condition": null,
+            "kind": "offer",
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
+    },
+    "calculate": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.product_net_revenue",
+            "label": "\u4e0d\u542b\u904b\u5546\u54c1\u6de8\u6536\u5165 P",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "period_start",
+              "period_end",
+              "currency"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "amount",
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.buyer_shipping",
+            "label": "\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "amount",
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.logistics_cost",
+            "label": "\u7269\u6d41\u652f\u51fa L",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "amount",
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.other_cost",
+            "label": "\u5176\u4ed6\u6210\u672c C",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "currency",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "amount",
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.order_count",
+            "label": "\u65e2\u6709\u8a02\u55ae\u6578 N",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "number"
+            ],
+            "scope": [
+              "brand_key",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "quantity": "count",
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.shipping_inclusion",
+            "label": "\u5be6\u6536\u662f\u5426\u542b\u8cb7\u5bb6\u904b\u8cbb F",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          },
+          {
+            "field": "task.offer_comparison",
+            "label": "\u65b0\u820a\u512a\u60e0\u689d\u4ef6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 37,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u516c\u5f0f\u554f\u984c\u53ef\u4fdd\u7559\u7b26\u865f\uff1b\u5be6\u7b97\u63d0\u4f9b\u4e0d\u542b\u904b\u7684\u5546\u54c1\u6de8\u6536\u5165 P\u3001\u8cb7\u5bb6\u539f\u4ed8\u904b\u8cbb F\u3001\u7269\u6d41\u652f\u51fa L\u3001\u5176\u4ed6\u6210\u672c C\u3001\u5be6\u6536\u662f\u5426\u542b F\u3001\u65e2\u6709\u8a02\u55ae\u6578 N \u53ca\u65b0\u820a\u512a\u60e0\u689d\u4ef6"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u540c\u53e3\u5f91\u904b\u8cbb\u627f\u64d4\u8207\u4f4e\u5ba2\u55ae\u98a8\u96aa\u8a08\u7b97"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [
+      "offer.terms"
+    ],
+    "dependents": "\u4ee5\u5df2\u4f7f\u7528 datum ID \u8207 digest \u5c0d\u61c9\u6b63\u5728\u9032\u884c\u7684\u4efb\u52d9\u53ca\u884d\u751f\u8cc7\u6599"
+  },
+  "schema_version": 1,
+  "method_sha256": "1632ebdc14f0aca125852b9a37abb64327df243e8f1d803c98944ec35c00c9e9",
+  "method_path": "skills/mk-109/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

@@ -1,0 +1,122 @@
+{
+  "skill_id": "MK-241",
+  "source_sha256": "6535d1404da9a859b032c309123c9b27c2756d2f228795fec806cc6b73137db1",
+  "role": "consumer",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u8cc7\u6599\u53ca\u539f\u65b9\u6cd5\u7684\u78ba\u5207\u7f3a\u9805"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.mk_241_1",
+            "label": "\u4ea4\u6613\u6216\u884c\u52d5\u578b\u641c\u5c0b\u5b57\u8a5e\u8207\u4f86\u6e90",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u4ea4\u6613\u6216\u884c\u52d5\u578b\u641c\u5c0b\u5b57\u8a5e\u8207\u4f86\u6e90\u3001\u5546\u54c1\u6216\u670d\u52d9\u9801\u539f\u6587\u53ca URL\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u50f9\u683c\u8cc7\u683c\u8207\u53ef\u63d0\u4f9b\u884c\u52d5\uff1b\u6210\u6548\u4f5c\u5df2\u6709\u7684\u512a\u5148\u5e8f\u8b49\u64da"
+          },
+          {
+            "field": "task.mk_241_2",
+            "label": "\u5546\u54c1\u6216\u670d\u52d9\u9801\u539f\u6587\u53ca URL",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u4ea4\u6613\u6216\u884c\u52d5\u578b\u641c\u5c0b\u5b57\u8a5e\u8207\u4f86\u6e90\u3001\u5546\u54c1\u6216\u670d\u52d9\u9801\u539f\u6587\u53ca URL\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u50f9\u683c\u8cc7\u683c\u8207\u53ef\u63d0\u4f9b\u884c\u52d5\uff1b\u6210\u6548\u4f5c\u5df2\u6709\u7684\u512a\u5148\u5e8f\u8b49\u64da"
+          },
+          {
+            "field": "product.facts",
+            "label": "\u7522\u54c1\u4e8b\u5be6",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "source_excerpt": "\u4ea4\u6613\u6216\u884c\u52d5\u578b\u641c\u5c0b\u5b57\u8a5e\u8207\u4f86\u6e90\u3001\u5546\u54c1\u6216\u670d\u52d9\u9801\u539f\u6587\u53ca URL\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u50f9\u683c\u8cc7\u683c\u8207\u53ef\u63d0\u4f9b\u884c\u52d5\uff1b\u6210\u6548\u4f5c\u5df2\u6709\u7684\u512a\u5148\u5e8f\u8b49\u64da"
+          },
+          {
+            "field": "task.mk_241_4",
+            "label": "\u50f9\u683c\u8cc7\u683c\u8207\u53ef\u63d0\u4f9b\u884c\u52d5",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u4ea4\u6613\u6216\u884c\u52d5\u578b\u641c\u5c0b\u5b57\u8a5e\u8207\u4f86\u6e90\u3001\u5546\u54c1\u6216\u670d\u52d9\u9801\u539f\u6587\u53ca URL\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u50f9\u683c\u8cc7\u683c\u8207\u53ef\u63d0\u4f9b\u884c\u52d5\uff1b\u6210\u6548\u4f5c\u5df2\u6709\u7684\u512a\u5148\u5e8f\u8b49\u64da"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u884c\u52d5\u9700\u6c42\u8207\u627f\u63a5"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [
+      "product.facts"
+    ],
+    "dependents": "\u4f9d\u5be6\u969b\u4f7f\u7528\u8cc7\u6599 ID \u8207\u6458\u8981\u91cd\u67e5"
+  },
+  "schema_version": 1,
+  "method_sha256": "809d6b4e9ca8dc26689ed9f32cc51e2b9cb9861b7cc1177cd8d909eb5172cc2c",
+  "method_path": "skills/mk-241/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

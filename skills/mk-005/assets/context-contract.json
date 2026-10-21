@@ -1,0 +1,211 @@
+{
+  "skill_id": "MK-005",
+  "source_sha256": "ee3768a6bd85e8f64ae39ed441990b0ddf8017b75f62cf6a87d1b06455a21c49",
+  "role": "producer",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "any": [
+          {
+            "field": "claim.statement",
+            "label": "\u4e3b\u5f35\u539f\u53e5",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported",
+              "hypothesis",
+              "brand_claim"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u4e3b\u5f35\u539f\u53e5\u3001\u5b8c\u6574\u8b49\u64da\u3001\u5c0d\u8c61\u3001\u7522\u54c1\u7248\u672c\u3001\u4f7f\u7528\u689d\u4ef6\u53ca\u5be6\u969b\u7d50\u679c"
+          },
+          {
+            "field": "claim.usp",
+            "label": "\u5019\u9078 USP",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported",
+              "hypothesis",
+              "brand_claim"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 164,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "> \u5e6b\u4f60\u627e\u51fa\u7522\u54c1\u7684 USP\uff08Unique Selling Proposition\uff09\u9019\u4e5f\u662f\u7b2c\u4e00\u6b21\u4f60\u8ddf AI \u6e9d\u901a\u7684\u6a5f\u6703\uff0c\u5982\u679c\u4ed6\u6293\u7684\u51fa\u4f86\u7576\u7136\u5f88\u597d\uff0c\u4f46\u5982\u679c\u4ed6\u6c92 Get \u5230\u4f60\u7684\u9ede\uff0c\u90a3\u8acb\u52d9\u5fc5\u8ddf\u4ed6\u8aaa\u4f60\u7684\u60f3\u6cd5"
+          },
+          {
+            "field": "task.claim",
+            "label": "\u5f85\u6838\u5c0d\u4e3b\u5f35\u539f\u53e5",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u4e3b\u5f35\u539f\u53e5\u3001\u5b8c\u6574\u8b49\u64da\u3001\u5c0d\u8c61\u3001\u7522\u54c1\u7248\u672c\u3001\u4f7f\u7528\u689d\u4ef6\u53ca\u5be6\u969b\u7d50\u679c"
+          }
+        ]
+      },
+      "delivery": false,
+      "allowed_output": "\u4e3b\u5f35\u8207\u5f85\u53d6\u5f97\u7684\u5b8c\u6574\u8b49\u64da"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "any": [
+              {
+                "field": "claim.statement",
+                "label": "\u4e3b\u5f35\u539f\u53e5",
+                "location": "context",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported",
+                  "hypothesis",
+                  "brand_claim"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key",
+                  "product_id",
+                  "product_version"
+                ],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_website_or_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u4e3b\u5f35\u539f\u53e5\u3001\u5b8c\u6574\u8b49\u64da\u3001\u5c0d\u8c61\u3001\u7522\u54c1\u7248\u672c\u3001\u4f7f\u7528\u689d\u4ef6\u53ca\u5be6\u969b\u7d50\u679c"
+              },
+              {
+                "field": "claim.usp",
+                "label": "\u5019\u9078 USP",
+                "location": "context",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported",
+                  "hypothesis",
+                  "brand_claim"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key",
+                  "product_id",
+                  "product_version"
+                ],
+                "min_count": 1,
+                "source_line": 164,
+                "missing_action": "collect_website_or_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "> \u5e6b\u4f60\u627e\u51fa\u7522\u54c1\u7684 USP\uff08Unique Selling Proposition\uff09\u9019\u4e5f\u662f\u7b2c\u4e00\u6b21\u4f60\u8ddf AI \u6e9d\u901a\u7684\u6a5f\u6703\uff0c\u5982\u679c\u4ed6\u6293\u7684\u51fa\u4f86\u7576\u7136\u5f88\u597d\uff0c\u4f46\u5982\u679c\u4ed6\u6c92 Get \u5230\u4f60\u7684\u9ede\uff0c\u90a3\u8acb\u52d9\u5fc5\u8ddf\u4ed6\u8aaa\u4f60\u7684\u60f3\u6cd5"
+              }
+            ]
+          },
+          {
+            "field": "claim.proof",
+            "label": "\u5b8c\u6574\u8b49\u64da\u3001\u9069\u7528\u5c0d\u8c61\u3001\u5546\u54c1\u7248\u672c\u3001\u689d\u4ef6\u8207\u5be6\u969b\u7d50\u679c",
+            "location": "context",
+            "states": [
+              "data_supported",
+              "user_confirmed"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u4e3b\u5f35\u539f\u53e5\u3001\u5b8c\u6574\u8b49\u64da\u3001\u5c0d\u8c61\u3001\u7522\u54c1\u7248\u672c\u3001\u4f7f\u7528\u689d\u4ef6\u53ca\u5be6\u969b\u7d50\u679c"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u9010\u9805\u4e3b\u5f35\u3001\u8b49\u64da\u8207\u652f\u6301\u7bc4\u570d\u914d\u5c0d"
+    },
+    "teach": {
+      "requires": {
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u65b9\u6cd5\u3001\u516c\u5f0f\u8207\u660e\u793a\u5047\u8a2d\u793a\u4f8b"
+    }
+  },
+  "writeback": [
+    "claim.proof",
+    "claim.statement",
+    "claim.usp"
+  ],
+  "invalidation": {
+    "fields": [
+      "claim.proof",
+      "claim.statement",
+      "claim.usp"
+    ],
+    "dependents": "\u4f9d datum ID\u3001\u4f86\u6e90\u7248\u672c\u8207\u5167\u5bb9\u6458\u8981\u91cd\u67e5\u884d\u751f\u8cc7\u6599\u53ca\u4efb\u52d9"
+  },
+  "schema_version": 1,
+  "method_sha256": "8dee4bedce25e67c5766a9df3ce3756cb98f4435e275d8283b23627294a31533",
+  "method_path": "skills/mk-005/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

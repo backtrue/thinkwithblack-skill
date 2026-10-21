@@ -1,0 +1,266 @@
+{
+  "skill_id": "MK-167",
+  "source_sha256": "661cba10b34df80dc3c8eb69e78b42ec3290c240ae4b054b792b73accd4fd219",
+  "role": "unneeded",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u7684\u4f86\u6e90\u8207\u78ba\u5207\u7f3a\u9805\uff0c\u4f9d\u539f\u65b9\u6cd5\u63a5\u7e8c"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "any": [
+              {
+                "field": "task.input.11262d0a07ae8f16",
+                "label": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08\u6216\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae\u3001\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d\u3001\u671f\u9593\u3001\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6"
+              },
+              {
+                "field": "task.input.e33d418d9c81bdbe",
+                "label": "\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08\u6216\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae\u3001\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d\u3001\u671f\u9593\u3001\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6"
+              }
+            ],
+            "condition": null,
+            "source_line": 36
+          },
+          {
+            "field": "task.input.4e2d9801b8b4f09b",
+            "label": "\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08\u6216\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae\u3001\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d\u3001\u671f\u9593\u3001\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.cc0784b2a4611d5b",
+            "label": "\u671f\u9593",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08\u6216\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae\u3001\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d\u3001\u671f\u9593\u3001\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.c1ba1e595978f62d",
+            "label": "\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08\u6216\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae\u3001\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d\u3001\u671f\u9593\u3001\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "Meta \u55ae\u4e00\u8b8a\u91cf\u6e2c\u8a66\u6aa2\u67e5\u7684\u539f\u65b9\u6cd5\u4ea4\u4ed8"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.input.11262d0a07ae8f16",
+            "label": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08\u6216\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae\u3001\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d\u3001\u671f\u9593\u3001\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.e33d418d9c81bdbe",
+            "label": "\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08\u6216\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae\u3001\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d\u3001\u671f\u9593\u3001\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.4e2d9801b8b4f09b",
+            "label": "\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08\u6216\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae\u3001\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d\u3001\u671f\u9593\u3001\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.cc0784b2a4611d5b",
+            "label": "\u671f\u9593",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08\u6216\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae\u3001\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d\u3001\u671f\u9593\u3001\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6"
+          },
+          {
+            "field": "task.input.c1ba1e595978f62d",
+            "label": "\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u5f85\u6aa2\u67e5\u7684\u6e2c\u8a66\u8a2d\u8a08\u6216\u5be6\u969b\u8b8a\u66f4\u6e05\u55ae\u3001\u5404\u7d44\u53d7\u773e\uff0f\u6587\u6848\uff0f\u7d20\u6750\uff0f\u7248\u4f4d\u3001\u671f\u9593\u3001\u6bd4\u8f03\u6307\u6a19\u8207\u56fa\u5b9a\u689d\u4ef6"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4ee5\u5df2\u4f7f\u7528 datum ID \u8207 digest \u5c0d\u61c9\u6b63\u5728\u9032\u884c\u7684\u4efb\u52d9\u53ca\u884d\u751f\u8cc7\u6599"
+  },
+  "schema_version": 1,
+  "method_sha256": "4c02958cb1837ca1ee4a94b9ace100dd1f0cd4741dbb2b44780d2df52e36fe37",
+  "method_path": "skills/mk-167/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

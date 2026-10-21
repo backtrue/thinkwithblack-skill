@@ -1,12 +1,15 @@
 {
-  "version": "2026.10.21-free.3",
+  "version": "2026.10.22-free.1",
   "entries": [
     {
       "id": "INF-05-07",
       "name": "回購週期計算",
       "description": "依顧客與有效訂單日期計算指定群組的回購週期、平均與中位；適用五年訂單中第一筆到第二筆平均隔幾天、如何用試算表計算，直接處理計量工作",
       "source": "skills/inf-05-07/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/inf-05-07/assets/context-contract.json",
+        "skills/inf-05-07/assets/check-context.py"
+      ],
       "pack": "packs/inf-05-07.md"
     },
     {
@@ -14,7 +17,10 @@
       "name": "商品事實整理",
       "description": "商品事實整理。用於需要可引用商品事實表與缺件清單的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-001/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-001/assets/context-contract.json",
+        "skills/mk-001/assets/check-context.py"
+      ],
       "pack": "packs/mk-001.md"
     },
     {
@@ -22,7 +28,10 @@
       "name": "獨特賣點萃取",
       "description": "獨特賣點萃取。用於需要有依據的差異化賣點候選的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-002/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-002/assets/context-contract.json",
+        "skills/mk-002/assets/check-context.py"
+      ],
       "pack": "packs/mk-002.md"
     },
     {
@@ -30,7 +39,10 @@
       "name": "賣點獨特性檢查",
       "description": "檢查既有商品賣點或 USP 是否只是通用口號，依商品事實與競品證據比較獨特性；適用「這個賣點競品也能說嗎」「這句 USP 有差異嗎」",
       "source": "skills/mk-003/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-003/assets/context-contract.json",
+        "skills/mk-003/assets/check-context.py"
+      ],
       "pack": "packs/mk-003.md"
     },
     {
@@ -38,7 +50,10 @@
       "name": "賣點對客價值檢查",
       "description": "賣點對客價值檢查。用於需要每項賣點對應的顧客利益的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-004/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-004/assets/context-contract.json",
+        "skills/mk-004/assets/check-context.py"
+      ],
       "pack": "packs/mk-004.md"
     },
     {
@@ -46,7 +61,10 @@
       "name": "賣點證據配對",
       "description": "賣點證據配對。用於需要主張、證據、缺口對照表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-005/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-005/assets/context-contract.json",
+        "skills/mk-005/assets/check-context.py"
+      ],
       "pack": "packs/mk-005.md"
     },
     {
@@ -54,7 +72,10 @@
       "name": "主打三賣點排序",
       "description": "主打三賣點排序。用於需要主打優先序與取捨理由的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-006/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-006/assets/context-contract.json",
+        "skills/mk-006/assets/check-context.py"
+      ],
       "pack": "packs/mk-006.md"
     },
     {
@@ -62,7 +83,10 @@
       "name": "功能轉顧客利益",
       "description": "功能轉顧客利益。用於需要功能、優勢、利益轉譯表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-007/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-007/assets/context-contract.json",
+        "skills/mk-007/assets/check-context.py"
+      ],
       "pack": "packs/mk-007.md"
     },
     {
@@ -70,7 +94,10 @@
       "name": "賣點轉使用情境",
       "description": "賣點轉使用情境。用於需要規格放回日常場景的素材切角的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-008/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-008/assets/context-contract.json",
+        "skills/mk-008/assets/check-context.py"
+      ],
       "pack": "packs/mk-008.md"
     },
     {
@@ -78,7 +105,10 @@
       "name": "功能型價值主張",
       "description": "功能型價值主張。用於需要功能問題與解法的一句話的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-009/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-009/assets/context-contract.json",
+        "skills/mk-009/assets/check-context.py"
+      ],
       "pack": "packs/mk-009.md"
     },
     {
@@ -86,7 +116,10 @@
       "name": "情緒型價值主張",
       "description": "情緒型價值主張。用於需要有來源的情緒利益與溝通界線的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-010/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-010/assets/context-contract.json",
+        "skills/mk-010/assets/check-context.py"
+      ],
       "pack": "packs/mk-010.md"
     },
     {
@@ -94,7 +127,10 @@
       "name": "社會角色型價值主張",
       "description": "社會角色型價值主張。用於需要角色認同與產品價值對接稿的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-011/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-011/assets/context-contract.json",
+        "skills/mk-011/assets/check-context.py"
+      ],
       "pack": "packs/mk-011.md"
     },
     {
@@ -102,7 +138,10 @@
       "name": "品牌一句話定位",
       "description": "品牌一句話定位。用於需要對誰、解決什麼、差在哪的一句話的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-012/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-012/assets/context-contract.json",
+        "skills/mk-012/assets/check-context.py"
+      ],
       "pack": "packs/mk-012.md"
     },
     {
@@ -110,7 +149,10 @@
       "name": "競品優勢對照",
       "description": "競品優勢對照。用於需要不超出證據的品牌差異比較表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-013/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-013/assets/context-contract.json",
+        "skills/mk-013/assets/check-context.py"
+      ],
       "pack": "packs/mk-013.md"
     },
     {
@@ -118,7 +160,10 @@
       "name": "賣點失焦診斷",
       "description": "賣點失焦診斷。用於需要文案偏離核心價值的位置與修正方向的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-014/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-014/assets/context-contract.json",
+        "skills/mk-014/assets/check-context.py"
+      ],
       "pack": "packs/mk-014.md"
     },
     {
@@ -126,7 +171,10 @@
       "name": "顧客線索彙整",
       "description": "顧客線索彙整。用於需要原始線索、來源、已知與未知分欄的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-015/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-015/assets/context-contract.json",
+        "skills/mk-015/assets/check-context.py"
+      ],
       "pack": "packs/mk-015.md"
     },
     {
@@ -134,7 +182,10 @@
       "name": "Persona 候選建立",
       "description": "Persona 候選建立。用於需要不虛構真實身分的受眾假說卡的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-016/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-016/assets/context-contract.json",
+        "skills/mk-016/assets/check-context.py"
+      ],
       "pack": "packs/mk-016.md"
     },
     {
@@ -142,7 +193,10 @@
       "name": "顧客核心價值判讀",
       "description": "顧客核心價值判讀。用於需要重視什麼及其原始證據的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-017/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-017/assets/context-contract.json",
+        "skills/mk-017/assets/check-context.py"
+      ],
       "pack": "packs/mk-017.md"
     },
     {
@@ -150,7 +204,10 @@
       "name": "購買動機分群",
       "description": "購買動機分群。用於需要同商品不同購買動機的群組的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-018/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-018/assets/context-contract.json",
+        "skills/mk-018/assets/check-context.py"
+      ],
       "pack": "packs/mk-018.md"
     },
     {
@@ -158,7 +215,10 @@
       "name": "消費痛點整理",
       "description": "消費痛點整理。用於需要顧客問題、影響與證據清單的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-019/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-019/assets/context-contract.json",
+        "skills/mk-019/assets/check-context.py"
+      ],
       "pack": "packs/mk-019.md"
     },
     {
@@ -166,7 +226,10 @@
       "name": "需求與欲望區分",
       "description": "需求與欲望區分。用於需要必要解法與期待感受對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-020/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-020/assets/context-contract.json",
+        "skills/mk-020/assets/check-context.py"
+      ],
       "pack": "packs/mk-020.md"
     },
     {
@@ -174,7 +237,10 @@
       "name": "高低支付意願線索判讀",
       "description": "高低支付意願線索判讀。用於需要可觀察訊號及待驗證問題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-021/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-021/assets/context-contract.json",
+        "skills/mk-021/assets/check-context.py"
+      ],
       "pack": "packs/mk-021.md"
     },
     {
@@ -182,7 +248,10 @@
       "name": "5W1H 情境展開",
       "description": "5W1H 情境展開。用於需要人物、任務、時間、地點與原因表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-022/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-022/assets/context-contract.json",
+        "skills/mk-022/assets/check-context.py"
+      ],
       "pack": "packs/mk-022.md"
     },
     {
@@ -190,7 +259,10 @@
       "name": "使用者與購買者拆分",
       "description": "使用者與購買者拆分。用於需要本人使用、送禮、代購等角色假說的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-023/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-023/assets/context-contract.json",
+        "skills/mk-023/assets/check-context.py"
+      ],
       "pack": "packs/mk-023.md"
     },
     {
@@ -198,7 +270,10 @@
       "name": "時間情境切角",
       "description": "時間情境切角。用於需要使用時段或季節的情境題庫的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-024/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-024/assets/context-contract.json",
+        "skills/mk-024/assets/check-context.py"
+      ],
       "pack": "packs/mk-024.md"
     },
     {
@@ -206,7 +281,10 @@
       "name": "地點情境切角",
       "description": "地點情境切角。用於需要場域不同造成的需求差異的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-025/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-025/assets/context-contract.json",
+        "skills/mk-025/assets/check-context.py"
+      ],
       "pack": "packs/mk-025.md"
     },
     {
@@ -214,7 +292,10 @@
       "name": "場合情境切角",
       "description": "場合情境切角。用於需要送禮、日常、特殊場合的需求差異的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-026/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-026/assets/context-contract.json",
+        "skills/mk-026/assets/check-context.py"
+      ],
       "pack": "packs/mk-026.md"
     },
     {
@@ -222,7 +303,10 @@
       "name": "受眾與賣點配對",
       "description": "受眾與賣點配對。用於需要Persona × USP 優先溝通矩陣的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-027/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-027/assets/context-contract.json",
+        "skills/mk-027/assets/check-context.py"
+      ],
       "pack": "packs/mk-027.md"
     },
     {
@@ -230,7 +314,10 @@
       "name": "Persona 證據健檢",
       "description": "Persona 證據健檢。用於需要有根據與純腦補項目的核對表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-028/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-028/assets/context-contract.json",
+        "skills/mk-028/assets/check-context.py"
+      ],
       "pack": "packs/mk-028.md"
     },
     {
@@ -238,7 +325,10 @@
       "name": "角色標記商品辨識",
       "description": "角色標記商品辨識。用於需要可能提供身分線索的商品與限制的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-029/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-029/assets/context-contract.json",
+        "skills/mk-029/assets/check-context.py"
+      ],
       "pack": "packs/mk-029.md"
     },
     {
@@ -246,7 +336,10 @@
       "name": "角色標記反例檢查",
       "description": "角色標記反例檢查。用於需要送禮與代購等替代解釋的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-030/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-030/assets/context-contract.json",
+        "skills/mk-030/assets/check-context.py"
+      ],
       "pack": "packs/mk-030.md"
     },
     {
@@ -254,7 +347,10 @@
       "name": "既有買家下一步需求",
       "description": "既有買家下一步需求。用於需要同一買家可驗證的後續需求假說的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-031/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-031/assets/context-contract.json",
+        "skills/mk-031/assets/check-context.py"
+      ],
       "pack": "packs/mk-031.md"
     },
     {
@@ -262,7 +358,10 @@
       "name": "需求觸發事件發想",
       "description": "需求觸發事件發想。用於需要具體可觀察事件候選表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-032/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-032/assets/context-contract.json",
+        "skills/mk-032/assets/check-context.py"
+      ],
       "pack": "packs/mk-032.md"
     },
     {
@@ -270,7 +369,10 @@
       "name": "事件與人格描述去混淆",
       "description": "事件與人格描述去混淆。用於需要抽象標籤改成可查證事件的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-033/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-033/assets/context-contract.json",
+        "skills/mk-033/assets/check-context.py"
+      ],
       "pack": "packs/mk-033.md"
     },
     {
@@ -278,7 +380,10 @@
       "name": "事件轉問題意識",
       "description": "事件轉問題意識。用於需要每個事件會引發的問題假說的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-034/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-034/assets/context-contract.json",
+        "skills/mk-034/assets/check-context.py"
+      ],
       "pack": "packs/mk-034.md"
     },
     {
@@ -286,7 +391,10 @@
       "name": "顧客口語搜尋句生成",
       "description": "顧客口語搜尋句生成。用於需要保留原意的搜尋句候選的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-035/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-035/assets/context-contract.json",
+        "skills/mk-035/assets/check-context.py"
+      ],
       "pack": "packs/mk-035.md"
     },
     {
@@ -294,7 +402,10 @@
       "name": "四類搜尋意圖判讀",
       "description": "四類搜尋意圖判讀。用於需要意圖分類、依據及無法確定項的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-036/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-036/assets/context-contract.json",
+        "skills/mk-036/assets/check-context.py"
+      ],
       "pack": "packs/mk-036.md"
     },
     {
@@ -302,7 +413,10 @@
       "name": "資訊缺口判讀",
       "description": "資訊缺口判讀。用於需要各需求在行動前還缺什麼資訊的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-037/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-037/assets/context-contract.json",
+        "skills/mk-037/assets/check-context.py"
+      ],
       "pack": "packs/mk-037.md"
     },
     {
@@ -310,7 +424,10 @@
       "name": "合理下一步設計",
       "description": "合理下一步設計。用於需要與需求成熟度相符的行動的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-038/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-038/assets/context-contract.json",
+        "skills/mk-038/assets/check-context.py"
+      ],
       "pack": "packs/mk-038.md"
     },
     {
@@ -318,7 +435,10 @@
       "name": "搜尋需求地圖建立",
       "description": "搜尋需求地圖建立。用於需要事件到行動的可檢查路徑表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-039/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-039/assets/context-contract.json",
+        "skills/mk-039/assets/check-context.py"
+      ],
       "pack": "packs/mk-039.md"
     },
     {
@@ -326,7 +446,10 @@
       "name": "需求與廣告形式配對",
       "description": "需求與廣告形式配對。用於需要搜尋、影片等方式的任務分工的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-040/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-040/assets/context-contract.json",
+        "skills/mk-040/assets/check-context.py"
+      ],
       "pack": "packs/mk-040.md"
     },
     {
@@ -334,7 +457,10 @@
       "name": "廣告與頁面承諾檢查",
       "description": "廣告與頁面承諾檢查。用於需要承諾未被頁面回答的斷點的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-041/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-041/assets/context-contract.json",
+        "skills/mk-041/assets/check-context.py"
+      ],
       "pack": "packs/mk-041.md"
     },
     {
@@ -342,7 +468,10 @@
       "name": "行動跳太快診斷",
       "description": "行動跳太快診斷。用於需要過早要求成交或詢價的位置的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-042/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-042/assets/context-contract.json",
+        "skills/mk-042/assets/check-context.py"
+      ],
       "pack": "packs/mk-042.md"
     },
     {
@@ -350,7 +479,10 @@
       "name": "網站接不住需求辨識",
       "description": "網站接不住需求辨識。用於需要不存在或不足的承接頁清單的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-043/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-043/assets/context-contract.json",
+        "skills/mk-043/assets/check-context.py"
+      ],
       "pack": "packs/mk-043.md"
     },
     {
@@ -358,7 +490,10 @@
       "name": "搜尋假說驗證清單",
       "description": "搜尋假說驗證清單。用於需要各假說所需訪談、字詞或頁面證據的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-044/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-044/assets/context-contract.json",
+        "skills/mk-044/assets/check-context.py"
+      ],
       "pack": "packs/mk-044.md"
     },
     {
@@ -366,7 +501,10 @@
       "name": "價格敏感度問卷設計",
       "description": "價格敏感度問卷設計。用於需要四種價格感受題與施測說明的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-046/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-046/assets/context-contract.json",
+        "skills/mk-046/assets/check-context.py"
+      ],
       "pack": "packs/mk-046.md"
     },
     {
@@ -374,7 +512,10 @@
       "name": "價格問卷回答健檢",
       "description": "價格問卷回答健檢。用於需要缺值、矛盾回答與異常值清單的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-047/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-047/assets/context-contract.json",
+        "skills/mk-047/assets/check-context.py"
+      ],
       "pack": "packs/mk-047.md"
     },
     {
@@ -382,7 +523,10 @@
       "name": "價格感受分布整理",
       "description": "價格感受分布整理。用於需要四條累積比例曲線的計算表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-048/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-048/assets/context-contract.json",
+        "skills/mk-048/assets/check-context.py"
+      ],
       "pack": "packs/mk-048.md"
     },
     {
@@ -390,7 +534,10 @@
       "name": "可接受價格區間判讀",
       "description": "可接受價格區間判讀。用於需要交點與合理價格帶的限制說明的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-049/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-049/assets/context-contract.json",
+        "skills/mk-049/assets/check-context.py"
+      ],
       "pack": "packs/mk-049.md"
     },
     {
@@ -398,7 +545,10 @@
       "name": "理想價格交點判讀",
       "description": "理想價格交點判讀。用於需要價格交點計算與解讀的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-050/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-050/assets/context-contract.json",
+        "skills/mk-050/assets/check-context.py"
+      ],
       "pack": "packs/mk-050.md"
     },
     {
@@ -406,7 +556,10 @@
       "name": "不同客群價格接受度比較",
       "description": "不同客群價格接受度比較。用於需要同口徑的分群價格分布的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-051/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-051/assets/context-contract.json",
+        "skills/mk-051/assets/check-context.py"
+      ],
       "pack": "packs/mk-051.md"
     },
     {
@@ -414,7 +567,10 @@
       "name": "定價與成本底線核對",
       "description": "定價與成本底線核對。用於需要可接受價格與利潤限制對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-052/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-052/assets/context-contract.json",
+        "skills/mk-052/assets/check-context.py"
+      ],
       "pack": "packs/mk-052.md"
     },
     {
@@ -422,7 +578,10 @@
       "name": "上市價與早鳥價問卷",
       "description": "上市價與早鳥價問卷。用於需要兩種報價的接受度題組的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-053/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-053/assets/context-contract.json",
+        "skills/mk-053/assets/check-context.py"
+      ],
       "pack": "packs/mk-053.md"
     },
     {
@@ -430,7 +589,10 @@
       "name": "問卷賣點排序",
       "description": "問卷賣點排序。用於需要消費者重視功能的排序結果的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-054/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-054/assets/context-contract.json",
+        "skills/mk-054/assets/check-context.py"
+      ],
       "pack": "packs/mk-054.md"
     },
     {
@@ -438,7 +600,10 @@
       "name": "產品偏好題設計",
       "description": "設計能區分商品選擇理由的問卷題組；適用電商購後想取得顧客洞察、詢問題目建議，以及研究痛點、需求與產品特點。先交有依據的題目草稿，具體選項依真實商品與情境整理",
       "source": "skills/mk-055/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-055/assets/context-contract.json",
+        "skills/mk-055/assets/check-context.py"
+      ],
       "pack": "packs/mk-055.md"
     },
     {
@@ -446,7 +611,10 @@
       "name": "情境與角色補問題設計",
       "description": "情境與角色補問題設計。用於需要用提問補足角色標記的不確定的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-056/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-056/assets/context-contract.json",
+        "skills/mk-056/assets/check-context.py"
+      ],
       "pack": "packs/mk-056.md"
     },
     {
@@ -454,7 +622,10 @@
       "name": "推薦意願回饋整理",
       "description": "推薦意願回饋整理。用於需要推薦意願與改善意見整理的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-057/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-057/assets/context-contract.json",
+        "skills/mk-057/assets/check-context.py"
+      ],
       "pack": "packs/mk-057.md"
     },
     {
@@ -462,7 +633,10 @@
       "name": "固定變動成本分類",
       "description": "固定變動成本分類。用於需要固定費與逐單變動費對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-058/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-058/assets/context-contract.json",
+        "skills/mk-058/assets/check-context.py"
+      ],
       "pack": "packs/mk-058.md"
     },
     {
@@ -470,7 +644,10 @@
       "name": "單品貢獻毛利計算",
       "description": "單品貢獻毛利計算。用於需要扣除指定變動費後的剩餘額的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-059/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-059/assets/context-contract.json",
+        "skills/mk-059/assets/check-context.py"
+      ],
       "pack": "packs/mk-059.md"
     },
     {
@@ -478,7 +655,10 @@
       "name": "貢獻率計算",
       "description": "貢獻率計算。用於需要口徑清楚的貢獻額與營收比率的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-060/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-060/assets/context-contract.json",
+        "skills/mk-060/assets/check-context.py"
+      ],
       "pack": "packs/mk-060.md"
     },
     {
@@ -486,7 +666,10 @@
       "name": "損平營業額試算",
       "description": "損平營業額試算。用於需要固定費與貢獻率的損平表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-061/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-061/assets/context-contract.json",
+        "skills/mk-061/assets/check-context.py"
+      ],
       "pack": "packs/mk-061.md"
     },
     {
@@ -494,7 +677,10 @@
       "name": "目標營收拆訂單數",
       "description": "目標營收拆訂單數。用於需要目標營收與客單對應所需訂單的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-062/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-062/assets/context-contract.json",
+        "skills/mk-062/assets/check-context.py"
+      ],
       "pack": "packs/mk-062.md"
     },
     {
@@ -502,7 +688,10 @@
       "name": "目標訂單拆流量",
       "description": "目標訂單拆流量。用於需要訂單目標與轉換率所需流量的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-063/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-063/assets/context-contract.json",
+        "skills/mk-063/assets/check-context.py"
+      ],
       "pack": "packs/mk-063.md"
     },
     {
@@ -510,7 +699,10 @@
       "name": "獲客成本上限試算",
       "description": "獲客成本上限試算。用於需要以客單、毛利及可承擔比例估算的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-064/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-064/assets/context-contract.json",
+        "skills/mk-064/assets/check-context.py"
+      ],
       "pack": "packs/mk-064.md"
     },
     {
@@ -518,7 +710,10 @@
       "name": "目標點擊成本回推",
       "description": "目標點擊成本回推。用於需要可接受 CPA 與轉換率推算 CPC的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-065/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-065/assets/context-contract.json",
+        "skills/mk-065/assets/check-context.py"
+      ],
       "pack": "packs/mk-065.md"
     },
     {
@@ -526,7 +721,10 @@
       "name": "目標加購成本回推",
       "description": "目標加購成本回推。用於需要加購成交率與 CPA 推算成本的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-066/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-066/assets/context-contract.json",
+        "skills/mk-066/assets/check-context.py"
+      ],
       "pack": "packs/mk-066.md"
     },
     {
@@ -534,7 +732,10 @@
       "name": "損平廣告報酬率試算",
       "description": "依收入與非廣告費用計算損平ROAS；適用逐商品要算哪些成本、只算製作配送是否足夠、公司月固定費如何納入，以及多規格能否用最低價代表整體。方法詢問直接交費用口徑、公式與例子；實際試算才核對成本與成交組合，單純損平不啟動加碼或定價流程",
       "source": "skills/mk-067/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-067/assets/context-contract.json",
+        "skills/mk-067/assets/check-context.py"
+      ],
       "pack": "packs/mk-067.md"
     },
     {
@@ -542,7 +743,10 @@
       "name": "行銷費用配置上限",
       "description": "行銷費用配置上限。用於電商淨利目標下的財務模型、可用行銷預算與利潤再投入比例決策，包含含稅售價、逐單及公司費用、競品價帶、再投入分母和期間；交可重算模型及條件式預算。純損平ROAS或既有Meta活動加碼依該需求處理",
       "source": "skills/mk-068/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-068/assets/context-contract.json",
+        "skills/mk-068/assets/check-context.py"
+      ],
       "pack": "packs/mk-068.md"
     },
     {
@@ -550,7 +754,10 @@
       "name": "折扣後利潤試算",
       "description": "折扣後利潤試算。用於需要折扣、贈品及物流一併核算的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-069/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-069/assets/context-contract.json",
+        "skills/mk-069/assets/check-context.py"
+      ],
       "pack": "packs/mk-069.md"
     },
     {
@@ -558,7 +765,10 @@
       "name": "降價所需增量試算",
       "description": "降價所需增量試算。用於需要維持利潤需要補足的銷量的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-070/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-070/assets/context-contract.json",
+        "skills/mk-070/assets/check-context.py"
+      ],
       "pack": "packs/mk-070.md"
     },
     {
@@ -566,7 +776,10 @@
       "name": "客單轉換率敏感度分析",
       "description": "客單轉換率敏感度分析。用於需要不同假設下的營收與利潤變化的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-071/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-071/assets/context-contract.json",
+        "skills/mk-071/assets/check-context.py"
+      ],
       "pack": "packs/mk-071.md"
     },
     {
@@ -574,7 +787,10 @@
       "name": "流量名單訂單成本拆解",
       "description": "流量名單訂單成本拆解。用於需要三成本的分子分母與計算的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-072/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-072/assets/context-contract.json",
+        "skills/mk-072/assets/check-context.py"
+      ],
       "pack": "packs/mk-072.md"
     },
     {
@@ -582,7 +798,10 @@
       "name": "營收缺口拆解",
       "description": "營收下降或未達目標時，用同口徑資料拆解流量、成交率與客單差額，決定優先檢查方向、下一步與回看條件；缺資料先補問，資料更正後重新判斷",
       "source": "skills/mk-073/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-073/assets/context-contract.json",
+        "skills/mk-073/assets/check-context.py"
+      ],
       "pack": "packs/mk-073.md"
     },
     {
@@ -590,7 +809,10 @@
       "name": "行銷投資報酬計算",
       "description": "行銷投資報酬計算。用於需要含口徑及成本限制的 mROI 試算的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-074/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-074/assets/context-contract.json",
+        "skills/mk-074/assets/check-context.py"
+      ],
       "pack": "packs/mk-074.md"
     },
     {
@@ -598,7 +820,10 @@
       "name": "成本指標口徑健檢",
       "description": "成本指標口徑健檢。用於需要名單、人數、訂單是否混用的檢查的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-075/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-075/assets/context-contract.json",
+        "skills/mk-075/assets/check-context.py"
+      ],
       "pack": "packs/mk-075.md"
     },
     {
@@ -606,7 +831,10 @@
       "name": "產品線寬度盤點",
       "description": "產品線寬度盤點。用於需要商品類別的完整度與缺口的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-076/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-076/assets/context-contract.json",
+        "skills/mk-076/assets/check-context.py"
+      ],
       "pack": "packs/mk-076.md"
     },
     {
@@ -614,7 +842,10 @@
       "name": "產品線深度盤點",
       "description": "產品線深度盤點。用於需要同類商品層級、規格與價格差的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-077/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-077/assets/context-contract.json",
+        "skills/mk-077/assets/check-context.py"
+      ],
       "pack": "packs/mk-077.md"
     },
     {
@@ -622,7 +853,10 @@
       "name": "引流款選品",
       "description": "引流款選品。用於需要適合取得新客的商品候選的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-078/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-078/assets/context-contract.json",
+        "skills/mk-078/assets/check-context.py"
+      ],
       "pack": "packs/mk-078.md"
     },
     {
@@ -630,7 +864,10 @@
       "name": "體驗款設計",
       "description": "體驗款設計。用於需要降低首次嘗試門檻的規格提案的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-079/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-079/assets/context-contract.json",
+        "skills/mk-079/assets/check-context.py"
+      ],
       "pack": "packs/mk-079.md"
     },
     {
@@ -638,7 +875,10 @@
       "name": "經典款定位",
       "description": "經典款定位。用於需要可持續銷售的常態商品角色的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-080/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-080/assets/context-contract.json",
+        "skills/mk-080/assets/check-context.py"
+      ],
       "pack": "packs/mk-080.md"
     },
     {
@@ -646,7 +886,10 @@
       "name": "毛利款選品",
       "description": "毛利款選品。用於需要獲利角色商品與成本限制的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-081/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-081/assets/context-contract.json",
+        "skills/mk-081/assets/check-context.py"
+      ],
       "pack": "packs/mk-081.md"
     },
     {
@@ -654,7 +897,10 @@
       "name": "知識型入口規劃",
       "description": "知識型入口規劃。用於需要先解答問題再導產品的入口的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-082/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-082/assets/context-contract.json",
+        "skills/mk-082/assets/check-context.py"
+      ],
       "pack": "packs/mk-082.md"
     },
     {
@@ -662,7 +908,10 @@
       "name": "首購到回購商品接力",
       "description": "依已購顧客需求規劃首購後的商品接力，讓同一受眾持續購買產品線中的適合商品；適用二購、三購少且不想持續加廣告、想先找後續購買方向",
       "source": "skills/mk-083/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-083/assets/context-contract.json",
+        "skills/mk-083/assets/check-context.py"
+      ],
       "pack": "packs/mk-083.md"
     },
     {
@@ -670,7 +919,10 @@
       "name": "同客群交叉銷售",
       "description": "同客群交叉銷售。用於需要既有買家的相關商品推薦假說的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-084/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-084/assets/context-contract.json",
+        "skills/mk-084/assets/check-context.py"
+      ],
       "pack": "packs/mk-084.md"
     },
     {
@@ -678,7 +930,10 @@
       "name": "同商品擴展客群",
       "description": "同商品擴展客群。用於需要相同商品可測試的新使用群的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-085/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-085/assets/context-contract.json",
+        "skills/mk-085/assets/check-context.py"
+      ],
       "pack": "packs/mk-085.md"
     },
     {
@@ -686,7 +941,10 @@
       "name": "熱門品帶新品組合",
       "description": "熱門品帶新品組合。用於需要有依據的搭售組合的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-086/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-086/assets/context-contract.json",
+        "skills/mk-086/assets/check-context.py"
+      ],
       "pack": "packs/mk-086.md"
     },
     {
@@ -694,7 +952,10 @@
       "name": "高價組合升級設計",
       "description": "高價組合升級設計。用於需要功能、規格或服務差異的方案的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-087/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-087/assets/context-contract.json",
+        "skills/mk-087/assets/check-context.py"
+      ],
       "pack": "packs/mk-087.md"
     },
     {
@@ -702,7 +963,10 @@
       "name": "通路專屬組合設計",
       "description": "通路專屬組合設計。用於需要不同通路的商品組合差異的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-088/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-088/assets/context-contract.json",
+        "skills/mk-088/assets/check-context.py"
+      ],
       "pack": "packs/mk-088.md"
     },
     {
@@ -710,7 +974,10 @@
       "name": "商品定價三面檢查",
       "description": "商品定價三面檢查。用於需要成本、市場與支付意願的衝突的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-089/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-089/assets/context-contract.json",
+        "skills/mk-089/assets/check-context.py"
+      ],
       "pack": "packs/mk-089.md"
     },
     {
@@ -718,7 +985,10 @@
       "name": "商品獲利優先序",
       "description": "商品獲利優先序。用於需要收益、毛利與轉換表現對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-090/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-090/assets/context-contract.json",
+        "skills/mk-090/assets/check-context.py"
+      ],
       "pack": "packs/mk-090.md"
     },
     {
@@ -726,7 +996,10 @@
       "name": "產品組合缺口診斷",
       "description": "產品組合缺口診斷。用於需要引流與獲利角色不平衡的問題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-091/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-091/assets/context-contract.json",
+        "skills/mk-091/assets/check-context.py"
+      ],
       "pack": "packs/mk-091.md"
     },
     {
@@ -734,7 +1007,10 @@
       "name": "年度行銷事件盤點",
       "description": "年度行銷事件盤點。用於需要節慶、品牌節點與上市事件表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-092/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-092/assets/context-contract.json",
+        "skills/mk-092/assets/check-context.py"
+      ],
       "pack": "packs/mk-092.md"
     },
     {
@@ -742,7 +1018,10 @@
       "name": "淡旺季節奏整理",
       "description": "淡旺季節奏整理。用於依歷史資料標示季節性假說，或季節性電商詢問如何檢查旺季需求假設、安排全年工作與季末觀察；一般方法請教直接交條件式節奏，不因提到 PPC 或 CAC 就啟動實際帳戶診斷",
       "source": "skills/mk-093/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-093/assets/context-contract.json",
+        "skills/mk-093/assets/check-context.py"
+      ],
       "pack": "packs/mk-093.md"
     },
     {
@@ -750,7 +1029,10 @@
       "name": "月份主題規劃",
       "description": "月份主題規劃。用於需要需求、Persona 與產品的月份主題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-094/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-094/assets/context-contract.json",
+        "skills/mk-094/assets/check-context.py"
+      ],
       "pack": "packs/mk-094.md"
     },
     {
@@ -758,7 +1040,10 @@
       "name": "年度檔期排程",
       "description": "年度檔期排程。用於需要避免資源衝突的檔期日曆的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-095/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-095/assets/context-contract.json",
+        "skills/mk-095/assets/check-context.py"
+      ],
       "pack": "packs/mk-095.md"
     },
     {
@@ -766,7 +1051,10 @@
       "name": "常態與活動流量分工",
       "description": "常態與活動流量分工。用於需要損平流量與活動增量的任務表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-096/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-096/assets/context-contract.json",
+        "skills/mk-096/assets/check-context.py"
+      ],
       "pack": "packs/mk-096.md"
     },
     {
@@ -774,7 +1062,10 @@
       "name": "教育型流量預算規劃",
       "description": "教育型流量預算規劃。用於需要先理解再成交的資源用途的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-097/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-097/assets/context-contract.json",
+        "skills/mk-097/assets/check-context.py"
+      ],
       "pack": "packs/mk-097.md"
     },
     {
@@ -782,7 +1073,10 @@
       "name": "年度新品接力安排",
       "description": "年度新品接力安排。用於需要新品與熱賣品、檔期的接力的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-098/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-098/assets/context-contract.json",
+        "skills/mk-098/assets/check-context.py"
+      ],
       "pack": "packs/mk-098.md"
     },
     {
@@ -790,7 +1084,10 @@
       "name": "檔期前置工作倒排",
       "description": "依活動起跑日倒排檔期準備；適用黑五／Cyber Monday 促銷、sale、橫幅要提前準備還是臨時做、怎麼排時間。方法詢問直接交階段與依賴，個案排程再填實際日期",
       "source": "skills/mk-099/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-099/assets/context-contract.json",
+        "skills/mk-099/assets/check-context.py"
+      ],
       "pack": "packs/mk-099.md"
     },
     {
@@ -798,7 +1095,10 @@
       "name": "預熱期任務設計",
       "description": "預熱期任務設計。用於需要需求收集、提醒與教育的安排的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-100/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-100/assets/context-contract.json",
+        "skills/mk-100/assets/check-context.py"
+      ],
       "pack": "packs/mk-100.md"
     },
     {
@@ -806,7 +1106,10 @@
       "name": "開跑期任務設計",
       "description": "開跑期任務設計。用於需要正式開賣的流量與轉換分工的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-101/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-101/assets/context-contract.json",
+        "skills/mk-101/assets/check-context.py"
+      ],
       "pack": "packs/mk-101.md"
     },
     {
@@ -814,7 +1117,10 @@
       "name": "檔期中段調整規劃",
       "description": "檔期中段調整規劃。用於需要數據檢查、素材替換與調整條件的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-102/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-102/assets/context-contract.json",
+        "skills/mk-102/assets/check-context.py"
+      ],
       "pack": "packs/mk-102.md"
     },
     {
@@ -822,7 +1128,10 @@
       "name": "倒數期溝通規劃",
       "description": "倒數期溝通規劃。用於需要基於真實截止條件的提醒的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-103/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-103/assets/context-contract.json",
+        "skills/mk-103/assets/check-context.py"
+      ],
       "pack": "packs/mk-103.md"
     },
     {
@@ -830,7 +1139,10 @@
       "name": "檔後接續計畫",
       "description": "檔後接續計畫。用於需要交付、教學、回購與名單整理的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-104/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-104/assets/context-contract.json",
+        "skills/mk-104/assets/check-context.py"
+      ],
       "pack": "packs/mk-104.md"
     },
     {
@@ -838,7 +1150,10 @@
       "name": "可重複使用檔期頁規劃",
       "description": "可重複使用檔期頁規劃。用於需要每年延用的頁面與更新項目的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-105/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-105/assets/context-contract.json",
+        "skills/mk-105/assets/check-context.py"
+      ],
       "pack": "packs/mk-105.md"
     },
     {
@@ -846,7 +1161,10 @@
       "name": "新客首購方案設計",
       "description": "新客首購方案設計。用於需要給新客的購買理由與商品組合的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-106/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-106/assets/context-contract.json",
+        "skills/mk-106/assets/check-context.py"
+      ],
       "pack": "packs/mk-106.md"
     },
     {
@@ -854,7 +1172,10 @@
       "name": "會員權益方案設計",
       "description": "會員權益方案設計。用於需要針對既有會員的差異化待遇的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-107/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-107/assets/context-contract.json",
+        "skills/mk-107/assets/check-context.py"
+      ],
       "pack": "packs/mk-107.md"
     },
     {
@@ -862,7 +1183,10 @@
       "name": "滿額贈門檻規劃",
       "description": "滿額贈門檻規劃。用於需要客單、贈品成本與門檻試算的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-108/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-108/assets/context-contract.json",
+        "skills/mk-108/assets/check-context.py"
+      ],
       "pack": "packs/mk-108.md"
     },
     {
@@ -870,7 +1194,10 @@
       "name": "免運方案檢查",
       "description": "檢查免運方案的運費承擔與低客單風險，或解釋免運公式為什麼扣 AOV、單筆剩餘額與相對基準差額。逐方案核對商品收入、買家運費與物流支出；純公式問題保留符號即可交付，不推最佳門檻或轉換成效",
       "source": "skills/mk-109/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-109/assets/context-contract.json",
+        "skills/mk-109/assets/check-context.py"
+      ],
       "pack": "packs/mk-109.md"
     },
     {
@@ -878,7 +1205,10 @@
       "name": "加價購方案設計",
       "description": "加價購方案設計。用於需要搭售關聯性與增量毛利的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-110/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-110/assets/context-contract.json",
+        "skills/mk-110/assets/check-context.py"
+      ],
       "pack": "packs/mk-110.md"
     },
     {
@@ -886,7 +1216,10 @@
       "name": "多件組合方案設計",
       "description": "依購買量、使用情境與利益說明規劃多件商品組合；適用想提高客單、擔心組合降低高價商品價值感的問題。以真實商品及變動成本提出條件候選，案例與平台資料另核對來源",
       "source": "skills/mk-111/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-111/assets/context-contract.json",
+        "skills/mk-111/assets/check-context.py"
+      ],
       "pack": "packs/mk-111.md"
     },
     {
@@ -894,7 +1227,10 @@
       "name": "折價券使用條件設計",
       "description": "折價券使用條件設計。用於需要適用對象、範圍與有效期限的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-112/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-112/assets/context-contract.json",
+        "skills/mk-112/assets/check-context.py"
+      ],
       "pack": "packs/mk-112.md"
     },
     {
@@ -902,7 +1238,10 @@
       "name": "限時方案真實性檢查",
       "description": "限時方案真實性檢查。用於需要日期、庫存、優惠承諾核對的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-113/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-113/assets/context-contract.json",
+        "skills/mk-113/assets/check-context.py"
+      ],
       "pack": "packs/mk-113.md"
     },
     {
@@ -910,7 +1249,10 @@
       "name": "活動訴求與客群配對",
       "description": "活動訴求與客群配對。用於需要同檔期不同客群的主訴求的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-114/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-114/assets/context-contract.json",
+        "skills/mk-114/assets/check-context.py"
+      ],
       "pack": "packs/mk-114.md"
     },
     {
@@ -918,7 +1260,10 @@
       "name": "活動預算分期",
       "description": "活動預算分期。用於需要各階段目的與預算假設的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-115/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-115/assets/context-contract.json",
+        "skills/mk-115/assets/check-context.py"
+      ],
       "pack": "packs/mk-115.md"
     },
     {
@@ -926,7 +1271,10 @@
       "name": "活動名單累積設計",
       "description": "活動名單累積設計。用於需要明確告知用途的參與與訂閱路徑的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-116/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-116/assets/context-contract.json",
+        "skills/mk-116/assets/check-context.py"
+      ],
       "pack": "packs/mk-116.md"
     },
     {
@@ -934,7 +1282,10 @@
       "name": "週末或時段活動判讀",
       "description": "週末或時段活動判讀。用於需要先依時段數據判斷是否需要活動的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-117/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-117/assets/context-contract.json",
+        "skills/mk-117/assets/check-context.py"
+      ],
       "pack": "packs/mk-117.md"
     },
     {
@@ -942,7 +1293,10 @@
       "name": "折扣與贈品方案比較",
       "description": "比較折扣與贈品／商品組合的顧客價值及變動成本；適用企業優惠疊加付款費、想找全面漲價以外的促銷調整方向",
       "source": "skills/mk-118/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-118/assets/context-contract.json",
+        "skills/mk-118/assets/check-context.py"
+      ],
       "pack": "packs/mk-118.md"
     },
     {
@@ -950,7 +1304,10 @@
       "name": "活動成效檢討",
       "description": "活動成效檢討。用於需要營收、利潤、名單與回購結果的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-119/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-119/assets/context-contract.json",
+        "skills/mk-119/assets/check-context.py"
+      ],
       "pack": "packs/mk-119.md"
     },
     {
@@ -958,7 +1315,10 @@
       "name": "銷售頁一句話定位",
       "description": "銷售頁一句話定位。用於需要清楚回答賣給誰與解決什麼的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-120/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-120/assets/context-contract.json",
+        "skills/mk-120/assets/check-context.py"
+      ],
       "pack": "packs/mk-120.md"
     },
     {
@@ -966,7 +1326,10 @@
       "name": "銷售頁痛點開場",
       "description": "銷售頁痛點開場。用於需要以原始需求為基礎的開頭的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-121/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-121/assets/context-contract.json",
+        "skills/mk-121/assets/check-context.py"
+      ],
       "pack": "packs/mk-121.md"
     },
     {
@@ -974,7 +1337,10 @@
       "name": "銷售頁理想情境",
       "description": "銷售頁理想情境。用於需要不虛構經驗的使用後情境的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-122/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-122/assets/context-contract.json",
+        "skills/mk-122/assets/check-context.py"
+      ],
       "pack": "packs/mk-122.md"
     },
     {
@@ -982,7 +1348,10 @@
       "name": "三大解法區塊",
       "description": "三大解法區塊。用於需要痛點與三項 USP 的對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-123/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-123/assets/context-contract.json",
+        "skills/mk-123/assets/check-context.py"
+      ],
       "pack": "packs/mk-123.md"
     },
     {
@@ -990,7 +1359,10 @@
       "name": "功能證據區塊",
       "description": "功能證據區塊。用於需要功能、解釋與實際證據的模組的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-124/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-124/assets/context-contract.json",
+        "skills/mk-124/assets/check-context.py"
+      ],
       "pack": "packs/mk-124.md"
     },
     {
@@ -998,7 +1370,10 @@
       "name": "生活角色區塊",
       "description": "生活角色區塊。用於需要產品融入使用者生活的文案的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-125/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-125/assets/context-contract.json",
+        "skills/mk-125/assets/check-context.py"
+      ],
       "pack": "packs/mk-125.md"
     },
     {
@@ -1006,7 +1381,10 @@
       "name": "第三方見證區塊",
       "description": "第三方見證區塊。用於需要僅使用已授權真實回饋的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-126/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-126/assets/context-contract.json",
+        "skills/mk-126/assets/check-context.py"
+      ],
       "pack": "packs/mk-126.md"
     },
     {
@@ -1014,7 +1392,10 @@
       "name": "銷售頁方案比較",
       "description": "銷售頁方案比較。用於需要組合、價格、適用對象對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-127/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-127/assets/context-contract.json",
+        "skills/mk-127/assets/check-context.py"
+      ],
       "pack": "packs/mk-127.md"
     },
     {
@@ -1022,7 +1403,10 @@
       "name": "品牌理由區塊",
       "description": "品牌理由區塊。用於需要有依據的品牌理念與承諾的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-128/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-128/assets/context-contract.json",
+        "skills/mk-128/assets/check-context.py"
+      ],
       "pack": "packs/mk-128.md"
     },
     {
@@ -1030,7 +1414,10 @@
       "name": "銷售頁段落順序診斷",
       "description": "銷售頁段落順序診斷。用於需要讀者理解與決策順序的問題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-129/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-129/assets/context-contract.json",
+        "skills/mk-129/assets/check-context.py"
+      ],
       "pack": "packs/mk-129.md"
     },
     {
@@ -1038,7 +1425,10 @@
       "name": "商品頁與活動頁分工",
       "description": "商品頁與活動頁分工。用於需要長期資訊及檔期資訊的邊界的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-130/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-130/assets/context-contract.json",
+        "skills/mk-130/assets/check-context.py"
+      ],
       "pack": "packs/mk-130.md"
     },
     {
@@ -1046,7 +1436,10 @@
       "name": "銷售頁缺證據檢查",
       "description": "銷售頁缺證據檢查。用於需要缺來源、假見證與空泛保證的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-131/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-131/assets/context-contract.json",
+        "skills/mk-131/assets/check-context.py"
+      ],
       "pack": "packs/mk-131.md"
     },
     {
@@ -1054,7 +1447,10 @@
       "name": "銷售頁行動入口檢查",
       "description": "銷售頁行動入口檢查。用於需要優惠、按鈕、頁面目標一致性的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-132/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-132/assets/context-contract.json",
+        "skills/mk-132/assets/check-context.py"
+      ],
       "pack": "packs/mk-132.md"
     },
     {
@@ -1062,7 +1458,10 @@
       "name": "銷售頁素材拆稿",
       "description": "銷售頁素材拆稿。用於需要可移交設計的模組文案清單的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-133/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-133/assets/context-contract.json",
+        "skills/mk-133/assets/check-context.py"
+      ],
       "pack": "packs/mk-133.md"
     },
     {
@@ -1070,7 +1469,10 @@
       "name": "銷售頁單變量測試設計",
       "description": "銷售頁單變量測試設計。用於需要每次只比較一項關鍵差異的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-134/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-134/assets/context-contract.json",
+        "skills/mk-134/assets/check-context.py"
+      ],
       "pack": "packs/mk-134.md"
     },
     {
@@ -1078,7 +1480,10 @@
       "name": "FABE 廣告文案生成",
       "description": "FABE 廣告文案生成。用於需要特性、優勢、利益、證據完整稿的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-135/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-135/assets/context-contract.json",
+        "skills/mk-135/assets/check-context.py"
+      ],
       "pack": "packs/mk-135.md"
     },
     {
@@ -1086,7 +1491,10 @@
       "name": "FABE 文案缺項檢查",
       "description": "FABE 文案缺項檢查。用於需要四要素缺漏與不相符處的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-136/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-136/assets/context-contract.json",
+        "skills/mk-136/assets/check-context.py"
+      ],
       "pack": "packs/mk-136.md"
     },
     {
@@ -1094,7 +1502,10 @@
       "name": "三行式廣告文案",
       "description": "臉書廣告三行分段法。先確認三個比較式 USP，從 Persona 購買動機選擇第一行情境，不固定寫痛點，再產出積極、友善、專業三組文案，逐行核對字數、完整 CTA 與消費者主詞",
       "source": "skills/mk-137/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-137/assets/context-contract.json",
+        "skills/mk-137/assets/check-context.py"
+      ],
       "pack": "packs/mk-137.md"
     },
     {
@@ -1102,7 +1513,10 @@
       "name": "情境問題式開場",
       "description": "情境問題式開場。用於需要對應使用事件的開頭候選的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-138/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-138/assets/context-contract.json",
+        "skills/mk-138/assets/check-context.py"
+      ],
       "pack": "packs/mk-138.md"
     },
     {
@@ -1110,7 +1524,10 @@
       "name": "利益導向主標",
       "description": "利益導向主標。用於需要可由產品事實支持的標題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-139/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-139/assets/context-contract.json",
+        "skills/mk-139/assets/check-context.py"
+      ],
       "pack": "packs/mk-139.md"
     },
     {
@@ -1118,7 +1535,10 @@
       "name": "證據導向素材企劃",
       "description": "證據導向素材企劃。用於需要把資料或示範變成素材的規劃的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-140/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-140/assets/context-contract.json",
+        "skills/mk-140/assets/check-context.py"
+      ],
       "pack": "packs/mk-140.md"
     },
     {
@@ -1126,7 +1546,10 @@
       "name": "功能示範素材企劃",
       "description": "功能示範素材企劃。用於需要拍攝或展示的功能與畫面的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-141/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-141/assets/context-contract.json",
+        "skills/mk-141/assets/check-context.py"
+      ],
       "pack": "packs/mk-141.md"
     },
     {
@@ -1134,7 +1557,10 @@
       "name": "同賣點跨受眾改稿",
       "description": "同賣點跨受眾改稿。用於需要保留事實但調整情境與利益的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-142/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-142/assets/context-contract.json",
+        "skills/mk-142/assets/check-context.py"
+      ],
       "pack": "packs/mk-142.md"
     },
     {
@@ -1142,7 +1568,10 @@
       "name": "廣告主文與連結對接",
       "description": "廣告主文與連結對接。用於需要廣告承諾和連結頁一致性的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-143/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-143/assets/context-contract.json",
+        "skills/mk-143/assets/check-context.py"
+      ],
       "pack": "packs/mk-143.md"
     },
     {
@@ -1150,7 +1579,10 @@
       "name": "動態消息素材改編",
       "description": "動態消息素材改編。用於需要符合閱讀情境的圖文版稿的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-144/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-144/assets/context-contract.json",
+        "skills/mk-144/assets/check-context.py"
+      ],
       "pack": "packs/mk-144.md"
     },
     {
@@ -1158,7 +1590,10 @@
       "name": "直式素材改編",
       "description": "直式素材改編。用於需要依垂直觀看情境重組的版稿的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-145/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-145/assets/context-contract.json",
+        "skills/mk-145/assets/check-context.py"
+      ],
       "pack": "packs/mk-145.md"
     },
     {
@@ -1166,7 +1601,10 @@
       "name": "行動呼籲清楚度檢查",
       "description": "行動呼籲清楚度檢查。用於需要動作、對象、目的明確性的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-146/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-146/assets/context-contract.json",
+        "skills/mk-146/assets/check-context.py"
+      ],
       "pack": "packs/mk-146.md"
     },
     {
@@ -1174,7 +1612,10 @@
       "name": "廣告素材需求單",
       "description": "廣告素材需求單。用於需要交給設計或拍攝的規格與證據需求的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-147/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-147/assets/context-contract.json",
+        "skills/mk-147/assets/check-context.py"
+      ],
       "pack": "packs/mk-147.md"
     },
     {
@@ -1182,7 +1623,10 @@
       "name": "消費者購買疑慮分類",
       "description": "消費者購買疑慮分類。用於需要價格、信任、使用與交付疑慮的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-148/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-148/assets/context-contract.json",
+        "skills/mk-148/assets/check-context.py"
+      ],
       "pack": "packs/mk-148.md"
     },
     {
@@ -1190,7 +1634,10 @@
       "name": "真實評價重點萃取",
       "description": "真實評價重點萃取。用於需要保留原意的顧客評價重點的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-149/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-149/assets/context-contract.json",
+        "skills/mk-149/assets/check-context.py"
+      ],
       "pack": "packs/mk-149.md"
     },
     {
@@ -1198,7 +1645,10 @@
       "name": "評價對應購買阻力",
       "description": "評價對應購買阻力。用於需要哪則評價可回答哪個疑慮的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-150/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-150/assets/context-contract.json",
+        "skills/mk-150/assets/check-context.py"
+      ],
       "pack": "packs/mk-150.md"
     },
     {
@@ -1206,7 +1656,10 @@
       "name": "評價素材授權檢查",
       "description": "確認評價素材的來源、使用許可與敏感資訊；適用公開評論能否做成 B2C／Meta 廣告圖、刪除姓名是否可代替取得同意的問題。方法詢問先說明使用權與匿名呈現的差別，個案再核對評論原文與既有授權",
       "source": "skills/mk-151/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-151/assets/context-contract.json",
+        "skills/mk-151/assets/check-context.py"
+      ],
       "pack": "packs/mk-151.md"
     },
     {
@@ -1214,7 +1667,10 @@
       "name": "評論拼圖素材規劃",
       "description": "評論拼圖素材規劃。用於需要原文摘錄與畫面安排的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-152/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-152/assets/context-contract.json",
+        "skills/mk-152/assets/check-context.py"
+      ],
       "pack": "packs/mk-152.md"
     },
     {
@@ -1222,7 +1678,10 @@
       "name": "客服問答轉素材",
       "description": "客服問答轉素材。用於需要從真實問答形成的廣告草稿的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-153/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-153/assets/context-contract.json",
+        "skills/mk-153/assets/check-context.py"
+      ],
       "pack": "packs/mk-153.md"
     },
     {
@@ -1230,7 +1689,10 @@
       "name": "第三方文章採用評估",
       "description": "第三方文章採用評估。用於需要題目、受眾與成交路徑適配的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-154/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-154/assets/context-contract.json",
+        "skills/mk-154/assets/check-context.py"
+      ],
       "pack": "packs/mk-154.md"
     },
     {
@@ -1238,7 +1700,10 @@
       "name": "開箱內容合作需求單",
       "description": "開箱內容合作需求單。用於需要應展示的情境、疑問與證據的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-155/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-155/assets/context-contract.json",
+        "skills/mk-155/assets/check-context.py"
+      ],
       "pack": "packs/mk-155.md"
     },
     {
@@ -1246,7 +1711,10 @@
       "name": "合作內容再利用規劃",
       "description": "合作內容再利用規劃。用於需要廣告、官網、社群使用範圍的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-156/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-156/assets/context-contract.json",
+        "skills/mk-156/assets/check-context.py"
+      ],
       "pack": "packs/mk-156.md"
     },
     {
@@ -1254,7 +1722,10 @@
       "name": "合作對象續約評估",
       "description": "合作對象續約評估。用於需要依流量品質與成交資料評估的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-157/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-157/assets/context-contract.json",
+        "skills/mk-157/assets/check-context.py"
+      ],
       "pack": "packs/mk-157.md"
     },
     {
@@ -1262,7 +1733,10 @@
       "name": "信任缺口素材清單",
       "description": "信任缺口素材清單。用於需要補評測、證據或說明的位置的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-158/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-158/assets/context-contract.json",
+        "skills/mk-158/assets/check-context.py"
+      ],
       "pack": "packs/mk-158.md"
     },
     {
@@ -1270,7 +1744,10 @@
       "name": "常態信任素材庫分類",
       "description": "常態信任素材庫分類。用於需要依受眾、疑慮、階段分類的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-159/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-159/assets/context-contract.json",
+        "skills/mk-159/assets/check-context.py"
+      ],
       "pack": "packs/mk-159.md"
     },
     {
@@ -1278,7 +1755,10 @@
       "name": "Meta 商業目標轉投放任務",
       "description": "將商業目的轉成 Meta 行銷活動目標、轉換位置與成效判準。適用於不知道該選流量還是銷售、LPV 還是連結點擊，或想換廣告目標的問題；先確認要帶來的業務成果，不從指標高低直接指定目標",
       "source": "skills/mk-160/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-160/assets/context-contract.json",
+        "skills/mk-160/assets/check-context.py"
+      ],
       "pack": "packs/mk-160.md"
     },
     {
@@ -1286,7 +1766,10 @@
       "name": "Meta 廣告層級規劃",
       "description": "Meta 廣告層級規劃。用於需要活動、廣告組合與廣告的分工的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-161/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-161/assets/context-contract.json",
+        "skills/mk-161/assets/check-context.py"
+      ],
       "pack": "packs/mk-161.md"
     },
     {
@@ -1294,7 +1777,10 @@
       "name": "Meta 命名規則產生",
       "description": "為 Meta 行銷活動、廣告組合與廣告整理可設定的命名表，供後續辨識與分析；適用接手帳戶不知道怎麼命名、每週大量新廣告需一致分類，以及名稱只剩 Ad 1／Ad 2、希望不打開素材就辨識廣告訊息的問題。平台或物件層級未知時先確認；依原方法區分目標／產品、受眾／版位與訊息方向",
       "source": "skills/mk-162/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-162/assets/context-contract.json",
+        "skills/mk-162/assets/check-context.py"
+      ],
       "pack": "packs/mk-162.md"
     },
     {
@@ -1302,7 +1788,10 @@
       "name": "Meta 受眾假說清單",
       "description": "Meta 受眾假說清單。用於需要受眾依據與測試理由的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-163/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-163/assets/context-contract.json",
+        "skills/mk-163/assets/check-context.py"
+      ],
       "pack": "packs/mk-163.md"
     },
     {
@@ -1311,7 +1800,9 @@
       "description": "依 Persona 與參考興趣清單，用整組候選標籤刻畫生活樣貌，交付面向、理由、來源及缺口；本版不做平台即時查證或投放設定。",
       "source": "skills/mk-164/SKILL.md",
       "references": [
-        "skills/mk-164/assets/interest-reference.md"
+        "skills/mk-164/assets/interest-reference.md",
+        "skills/mk-164/assets/context-contract.json",
+        "skills/mk-164/assets/check-context.py"
       ],
       "pack": "packs/mk-164.md"
     },
@@ -1320,7 +1811,10 @@
       "name": "Meta 素材與版位配對",
       "description": "Meta 素材與版位配對。用於需要現有素材適配及缺件的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-165/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-165/assets/context-contract.json",
+        "skills/mk-165/assets/check-context.py"
+      ],
       "pack": "packs/mk-165.md"
     },
     {
@@ -1328,7 +1822,10 @@
       "name": "Meta 素材測試分組",
       "description": "為同一 Persona 的既有文案與素材方向設計可比較的 Meta 測試組；適用「這幾支素材怎麼分組測」「同一受眾先比較哪些訊息」",
       "source": "skills/mk-166/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-166/assets/context-contract.json",
+        "skills/mk-166/assets/check-context.py"
+      ],
       "pack": "packs/mk-166.md"
     },
     {
@@ -1336,7 +1833,10 @@
       "name": "Meta 單一變量測試檢查",
       "description": "Meta 單一變量測試檢查。用於需要受眾與素材同時變動的風險的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-167/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-167/assets/context-contract.json",
+        "skills/mk-167/assets/check-context.py"
+      ],
       "pack": "packs/mk-167.md"
     },
     {
@@ -1344,7 +1844,10 @@
       "name": "再行銷漏斗盤點",
       "description": "再行銷漏斗盤點。用於需要瀏覽、加購、購買的分層的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-172/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-172/assets/context-contract.json",
+        "skills/mk-172/assets/check-context.py"
+      ],
       "pack": "packs/mk-172.md"
     },
     {
@@ -1352,7 +1855,10 @@
       "name": "瀏覽未加購阻力診斷",
       "description": "瀏覽未加購阻力診斷。用於需要資訊不足與需求不符等待驗證原因的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-173/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-173/assets/context-contract.json",
+        "skills/mk-173/assets/check-context.py"
+      ],
       "pack": "packs/mk-173.md"
     },
     {
@@ -1360,7 +1866,10 @@
       "name": "加購未購買阻力診斷",
       "description": "加購未購買阻力診斷。用於需要價格、運送、支付與信任待查項的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-174/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-174/assets/context-contract.json",
+        "skills/mk-174/assets/check-context.py"
+      ],
       "pack": "packs/mk-174.md"
     },
     {
@@ -1368,7 +1877,10 @@
       "name": "再行銷受眾命名",
       "description": "再行銷受眾命名。用於需要可辨識事件、窗口與排除的名稱的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-181/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-181/assets/context-contract.json",
+        "skills/mk-181/assets/check-context.py"
+      ],
       "pack": "packs/mk-181.md"
     },
     {
@@ -1376,7 +1888,10 @@
       "name": "瀏覽階段教育文案",
       "description": "瀏覽階段教育文案。用於需要幫助理解與建立信任的文案的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-182/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-182/assets/context-contract.json",
+        "skills/mk-182/assets/check-context.py"
+      ],
       "pack": "packs/mk-182.md"
     },
     {
@@ -1384,7 +1899,10 @@
       "name": "加購階段解疑文案",
       "description": "加購階段解疑文案。用於需要回應運費、付款與風險的文案的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-183/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-183/assets/context-contract.json",
+        "skills/mk-183/assets/check-context.py"
+      ],
       "pack": "packs/mk-183.md"
     },
     {
@@ -1392,7 +1910,10 @@
       "name": "真實期限提醒文案",
       "description": "真實期限提醒文案。用於需要僅按有效優惠與截止日提醒的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-184/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-184/assets/context-contract.json",
+        "skills/mk-184/assets/check-context.py"
+      ],
       "pack": "packs/mk-184.md"
     },
     {
@@ -1400,7 +1921,10 @@
       "name": "新客優惠提醒文案",
       "description": "新客優惠提醒文案。用於需要符合資格與條件的提醒的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-185/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-185/assets/context-contract.json",
+        "skills/mk-185/assets/check-context.py"
+      ],
       "pack": "packs/mk-185.md"
     },
     {
@@ -1408,7 +1932,10 @@
       "name": "再行銷素材配對",
       "description": "再行銷素材配對。用於需要每個漏斗階段對應內容的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-186/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-186/assets/context-contract.json",
+        "skills/mk-186/assets/check-context.py"
+      ],
       "pack": "packs/mk-186.md"
     },
     {
@@ -1416,7 +1943,10 @@
       "name": "再行銷重複觸及檢查",
       "description": "再行銷重複觸及檢查。用於需要人群重疊與訊息過量風險的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-187/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-187/assets/context-contract.json",
+        "skills/mk-187/assets/check-context.py"
+      ],
       "pack": "packs/mk-187.md"
     },
     {
@@ -1424,7 +1954,10 @@
       "name": "貼文 ID 辨識",
       "description": "貼文 ID 辨識。用於需要可追溯貼文識別碼與格式檢查的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-204/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-204/assets/context-contract.json",
+        "skills/mk-204/assets/check-context.py"
+      ],
       "pack": "packs/mk-204.md"
     },
     {
@@ -1432,7 +1965,10 @@
       "name": "同貼文成效彙總",
       "description": "同貼文成效彙總。用於需要跨廣告的貼文層級成效的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-205/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-205/assets/context-contract.json",
+        "skills/mk-205/assets/check-context.py"
+      ],
       "pack": "packs/mk-205.md"
     },
     {
@@ -1440,7 +1976,10 @@
       "name": "Hero Post 候選篩選",
       "description": "Hero Post 候選篩選。用於需要含樣本量與多面向表現的候選的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-206/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-206/assets/context-contract.json",
+        "skills/mk-206/assets/check-context.py"
+      ],
       "pack": "packs/mk-206.md"
     },
     {
@@ -1448,7 +1987,10 @@
       "name": "新客 Hero Post 評估",
       "description": "新客 Hero Post 評估。用於需要新客用途的成效與適用人群的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-207/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-207/assets/context-contract.json",
+        "skills/mk-207/assets/check-context.py"
+      ],
       "pack": "packs/mk-207.md"
     },
     {
@@ -1456,7 +1998,10 @@
       "name": "再行銷 Hero Post 評估",
       "description": "再行銷 Hero Post 評估。用於需要挽回用途的成效與素材角色的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-208/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-208/assets/context-contract.json",
+        "skills/mk-208/assets/check-context.py"
+      ],
       "pack": "packs/mk-208.md"
     },
     {
@@ -1464,7 +2009,10 @@
       "name": "高互動低成交貼文診斷",
       "description": "高互動低成交貼文診斷。用於需要互動與商業任務的落差的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-209/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-209/assets/context-contract.json",
+        "skills/mk-209/assets/check-context.py"
+      ],
       "pack": "packs/mk-209.md"
     },
     {
@@ -1472,7 +2020,10 @@
       "name": "勝出素材跨受眾測試",
       "description": "勝出素材跨受眾測試。用於需要可追蹤的跨受眾驗證計畫的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-211/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-211/assets/context-contract.json",
+        "skills/mk-211/assets/check-context.py"
+      ],
       "pack": "packs/mk-211.md"
     },
     {
@@ -1480,7 +2031,10 @@
       "name": "搜尋字詞原始資料健檢",
       "description": "搜尋字詞原始資料健檢。用於需要日期、欄位與資料缺漏說明的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-232/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-232/assets/context-contract.json",
+        "skills/mk-232/assets/check-context.py"
+      ],
       "pack": "packs/mk-232.md"
     },
     {
@@ -1488,7 +2042,10 @@
       "name": "搜尋字詞意圖標記",
       "description": "搜尋字詞意圖標記。用於需要每筆搜尋現在要解決的問題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-233/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-233/assets/context-contract.json",
+        "skills/mk-233/assets/check-context.py"
+      ],
       "pack": "packs/mk-233.md"
     },
     {
@@ -1496,7 +2053,10 @@
       "name": "搜尋字詞煉金",
       "description": "搜尋字詞煉金。用於需要值得獨立承接的需求候選的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-234/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-234/assets/context-contract.json",
+        "skills/mk-234/assets/check-context.py"
+      ],
       "pack": "packs/mk-234.md"
     },
     {
@@ -1504,7 +2064,10 @@
       "name": "搜尋字詞排雷",
       "description": "判斷 Google Search／Shopping 搜尋字詞是否應排除；適用每詞低點擊、看似相關、想整理否定候選的問題。直接依意圖、資料量與頁面承接判讀，證據不足保留觀察",
       "source": "skills/mk-235/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-235/assets/context-contract.json",
+        "skills/mk-235/assets/check-context.py"
+      ],
       "pack": "packs/mk-235.md"
     },
     {
@@ -1512,7 +2075,10 @@
       "name": "搜尋字詞待觀察分類",
       "description": "搜尋字詞待觀察分類。用於需要模糊或資料不足項的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-236/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-236/assets/context-contract.json",
+        "skills/mk-236/assets/check-context.py"
+      ],
       "pack": "packs/mk-236.md"
     },
     {
@@ -1520,7 +2086,10 @@
       "name": "搜尋字詞內容機會挖掘",
       "description": "搜尋字詞內容機會挖掘。用於需要不適合買流量但可做內容的題目的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-237/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-237/assets/context-contract.json",
+        "skills/mk-237/assets/check-context.py"
+      ],
       "pack": "packs/mk-237.md"
     },
     {
@@ -1528,7 +2097,10 @@
       "name": "搜尋需求語意聚類",
       "description": "搜尋需求語意聚類。用於需要依問題而非只靠字根分群的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-238/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-238/assets/context-contract.json",
+        "skills/mk-238/assets/check-context.py"
+      ],
       "pack": "packs/mk-238.md"
     },
     {
@@ -1536,7 +2108,10 @@
       "name": "搜尋字詞轉 FAQ",
       "description": "搜尋字詞轉 FAQ。用於需要根據真實搜尋問題的 FAQ 提案的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-239/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-239/assets/context-contract.json",
+        "skills/mk-239/assets/check-context.py"
+      ],
       "pack": "packs/mk-239.md"
     },
     {
@@ -1544,7 +2119,10 @@
       "name": "搜尋字詞轉比較頁",
       "description": "搜尋字詞轉比較頁。用於需要比較需求與應比較項目的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-240/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-240/assets/context-contract.json",
+        "skills/mk-240/assets/check-context.py"
+      ],
       "pack": "packs/mk-240.md"
     },
     {
@@ -1552,7 +2130,10 @@
       "name": "搜尋字詞轉商品頁補強",
       "description": "搜尋字詞轉商品頁補強。用於需要既有頁面未回答的需求的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-241/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-241/assets/context-contract.json",
+        "skills/mk-241/assets/check-context.py"
+      ],
       "pack": "packs/mk-241.md"
     },
     {
@@ -1560,7 +2141,10 @@
       "name": "搜尋需求媒體分工",
       "description": "搜尋需求媒體分工。用於需要廣告、SEO、兩者或暫不投入的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-242/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-242/assets/context-contract.json",
+        "skills/mk-242/assets/check-context.py"
+      ],
       "pack": "packs/mk-242.md"
     },
     {
@@ -1568,7 +2152,10 @@
       "name": "搜尋假說與市場對照",
       "description": "搜尋假說與市場對照。用於需要已觀察、未觀察與相反證據的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-243/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-243/assets/context-contract.json",
+        "skills/mk-243/assets/check-context.py"
+      ],
       "pack": "packs/mk-243.md"
     },
     {
@@ -1576,7 +2163,10 @@
       "name": "商品資料欄位盤點",
       "description": "商品資料欄位盤點。用於需要必填與商業必要欄位缺口的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-250/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-250/assets/context-contract.json",
+        "skills/mk-250/assets/check-context.py"
+      ],
       "pack": "packs/mk-250.md"
     },
     {
@@ -1584,7 +2174,10 @@
       "name": "商品 ID 對照檢查",
       "description": "商品 ID 對照檢查。用於需要商品、變體與追蹤事件 ID 對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-251/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-251/assets/context-contract.json",
+        "skills/mk-251/assets/check-context.py"
+      ],
       "pack": "packs/mk-251.md"
     },
     {
@@ -1592,7 +2185,10 @@
       "name": "商品標題可辨識性檢查",
       "description": "商品標題可辨識性檢查。用於需要品牌、型號與核心屬性缺漏的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-252/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-252/assets/context-contract.json",
+        "skills/mk-252/assets/check-context.py"
+      ],
       "pack": "packs/mk-252.md"
     },
     {
@@ -1600,7 +2196,10 @@
       "name": "商品描述完整性檢查",
       "description": "商品描述完整性檢查。用於需要功能、用途與限制資訊缺漏的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-253/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-253/assets/context-contract.json",
+        "skills/mk-253/assets/check-context.py"
+      ],
       "pack": "packs/mk-253.md"
     },
     {
@@ -1608,7 +2207,10 @@
       "name": "商品價格一致性檢查",
       "description": "商品價格一致性檢查。用於需要目錄、優惠及網站價格差異的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-254/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-254/assets/context-contract.json",
+        "skills/mk-254/assets/check-context.py"
+      ],
       "pack": "packs/mk-254.md"
     },
     {
@@ -1616,7 +2218,10 @@
       "name": "商品庫存狀態檢查",
       "description": "商品庫存狀態檢查。用於需要可售狀態與資料更新問題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-255/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-255/assets/context-contract.json",
+        "skills/mk-255/assets/check-context.py"
+      ],
       "pack": "packs/mk-255.md"
     },
     {
@@ -1624,7 +2229,10 @@
       "name": "商品圖片與連結檢查",
       "description": "商品圖片與連結檢查。用於需要圖片、目標頁與商品匹配的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-256/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-256/assets/context-contract.json",
+        "skills/mk-256/assets/check-context.py"
+      ],
       "pack": "packs/mk-256.md"
     },
     {
@@ -1632,7 +2240,10 @@
       "name": "商品分類映射",
       "description": "商品分類映射。用於需要內部分類與平台分類對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-257/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-257/assets/context-contract.json",
+        "skills/mk-257/assets/check-context.py"
+      ],
       "pack": "packs/mk-257.md"
     },
     {
@@ -1640,7 +2251,10 @@
       "name": "商品條碼完整性檢查",
       "description": "商品條碼完整性檢查。用於需要GTIN 等識別欄位的缺漏的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-261/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-261/assets/context-contract.json",
+        "skills/mk-261/assets/check-context.py"
+      ],
       "pack": "packs/mk-261.md"
     },
     {
@@ -1648,7 +2262,10 @@
       "name": "商品自訂標籤設計",
       "description": "商品自訂標籤設計。用於需要毛利、價位、活動與產品線標籤的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-262/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-262/assets/context-contract.json",
+        "skills/mk-262/assets/check-context.py"
+      ],
       "pack": "packs/mk-262.md"
     },
     {
@@ -1656,7 +2273,10 @@
       "name": "Shopping 商品群組規劃",
       "description": "Shopping 商品群組規劃。用於需要商品資料與商業策略分組的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-263/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-263/assets/context-contract.json",
+        "skills/mk-263/assets/check-context.py"
+      ],
       "pack": "packs/mk-263.md"
     },
     {
@@ -1664,7 +2284,10 @@
       "name": "Shopping SKU 浪費診斷",
       "description": "Shopping SKU 浪費診斷。用於需要商品層級花費與成交對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-264/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-264/assets/context-contract.json",
+        "skills/mk-264/assets/check-context.py"
+      ],
       "pack": "packs/mk-264.md"
     },
     {
@@ -1672,7 +2295,10 @@
       "name": "Shopping 搜尋字詞回饋",
       "description": "Shopping 搜尋字詞回饋。用於需要Feed、否定字詞與分組建議的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-265/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-265/assets/context-contract.json",
+        "skills/mk-265/assets/check-context.py"
+      ],
       "pack": "packs/mk-265.md"
     },
     {
@@ -1680,7 +2306,10 @@
       "name": "需求開發任務定義",
       "description": "需求開發任務定義。用於需要本次活動需驗證的商業問題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-267/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-267/assets/context-contract.json",
+        "skills/mk-267/assets/check-context.py"
+      ],
       "pack": "packs/mk-267.md"
     },
     {
@@ -1688,7 +2317,10 @@
       "name": "需求開發受眾假說",
       "description": "需求開發受眾假說。用於需要從既有證據建立的受眾候選的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-268/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-268/assets/context-contract.json",
+        "skills/mk-268/assets/check-context.py"
+      ],
       "pack": "packs/mk-268.md"
     },
     {
@@ -1696,7 +2328,10 @@
       "name": "自訂區隔素材準備",
       "description": "自訂區隔素材準備。用於需要可用字詞、網址與應用程式線索的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-269/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-269/assets/context-contract.json",
+        "skills/mk-269/assets/check-context.py"
+      ],
       "pack": "packs/mk-269.md"
     },
     {
@@ -1704,7 +2339,10 @@
       "name": "第一方受眾可用性檢查",
       "description": "第一方受眾可用性檢查。用於需要來源、用途、授權與限制的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-270/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-270/assets/context-contract.json",
+        "skills/mk-270/assets/check-context.py"
+      ],
       "pack": "packs/mk-270.md"
     },
     {
@@ -1712,7 +2350,10 @@
       "name": "冷暖受眾測試分工",
       "description": "冷暖受眾測試分工。用於需要新客探索與再溝通的安排的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-271/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-271/assets/context-contract.json",
+        "skills/mk-271/assets/check-context.py"
+      ],
       "pack": "packs/mk-271.md"
     },
     {
@@ -1720,7 +2361,10 @@
       "name": "Demand Gen 素材測試矩陣",
       "description": "Demand Gen 素材測試矩陣。用於需要受眾與素材角度的可比較組合的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-272/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-272/assets/context-contract.json",
+        "skills/mk-272/assets/check-context.py"
+      ],
       "pack": "packs/mk-272.md"
     },
     {
@@ -1728,7 +2372,10 @@
       "name": "Demand Gen 渠道素材配對",
       "description": "Demand Gen 渠道素材配對。用於需要不同觀看情境的素材需求的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-273/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-273/assets/context-contract.json",
+        "skills/mk-273/assets/check-context.py"
+      ],
       "pack": "packs/mk-273.md"
     },
     {
@@ -1736,7 +2383,10 @@
       "name": "Demand Gen 到達頁配對",
       "description": "Demand Gen 到達頁配對。用於需要素材承諾與下一步頁面的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-274/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-274/assets/context-contract.json",
+        "skills/mk-274/assets/check-context.py"
+      ],
       "pack": "packs/mk-274.md"
     },
     {
@@ -1744,7 +2394,10 @@
       "name": "Demand Gen 活動規劃",
       "description": "Demand Gen 活動規劃。用於需要群組、受眾、素材、目標與預算的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-275/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-275/assets/context-contract.json",
+        "skills/mk-275/assets/check-context.py"
+      ],
       "pack": "packs/mk-275.md"
     },
     {
@@ -1752,7 +2405,10 @@
       "name": "Demand Gen 受眾診斷",
       "description": "Demand Gen 受眾診斷。用於需要不同人群的成效差異的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-276/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-276/assets/context-contract.json",
+        "skills/mk-276/assets/check-context.py"
+      ],
       "pack": "packs/mk-276.md"
     },
     {
@@ -1760,7 +2416,10 @@
       "name": "Demand Gen 素材診斷",
       "description": "Demand Gen 素材診斷。用於需要同條件下素材表現與待查原因的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-277/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-277/assets/context-contract.json",
+        "skills/mk-277/assets/check-context.py"
+      ],
       "pack": "packs/mk-277.md"
     },
     {
@@ -1768,7 +2427,10 @@
       "name": "影片媒體任務定義",
       "description": "影片媒體任務定義。用於需要觸及、觀看、互動與轉換任務的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-279/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-279/assets/context-contract.json",
+        "skills/mk-279/assets/check-context.py"
+      ],
       "pack": "packs/mk-279.md"
     },
     {
@@ -1776,7 +2438,10 @@
       "name": "影片開場鉤子診斷",
       "description": "影片開場鉤子診斷。用於需要前段不清楚或不相關的位置的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-280/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-280/assets/context-contract.json",
+        "skills/mk-280/assets/check-context.py"
+      ],
       "pack": "packs/mk-280.md"
     },
     {
@@ -1784,7 +2449,10 @@
       "name": "影片品牌出現時機檢查",
       "description": "影片品牌出現時機檢查。用於需要品牌、問題與證據的排序的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-281/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-281/assets/context-contract.json",
+        "skills/mk-281/assets/check-context.py"
+      ],
       "pack": "packs/mk-281.md"
     },
     {
@@ -1792,7 +2460,10 @@
       "name": "影片訊息結構診斷",
       "description": "影片訊息結構診斷。用於需要觀眾理解順序與冗餘段落的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-282/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-282/assets/context-contract.json",
+        "skills/mk-282/assets/check-context.py"
+      ],
       "pack": "packs/mk-282.md"
     },
     {
@@ -1800,7 +2471,10 @@
       "name": "影片行動呼籲檢查",
       "description": "影片行動呼籲檢查。用於需要觀眾狀態與 CTA 的配合的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-283/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-283/assets/context-contract.json",
+        "skills/mk-283/assets/check-context.py"
+      ],
       "pack": "packs/mk-283.md"
     },
     {
@@ -1808,7 +2482,10 @@
       "name": "Shorts 版本重組",
       "description": "Shorts 版本重組。用於需要依直式觀看情境重寫的分鏡的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-284/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-284/assets/context-contract.json",
+        "skills/mk-284/assets/check-context.py"
+      ],
       "pack": "packs/mk-284.md"
     },
     {
@@ -1816,7 +2493,10 @@
       "name": "In-stream 版本重組",
       "description": "In-stream 版本重組。用於需要可略過觀看情境的分鏡方案的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-285/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-285/assets/context-contract.json",
+        "skills/mk-285/assets/check-context.py"
+      ],
       "pack": "packs/mk-285.md"
     },
     {
@@ -1824,7 +2504,10 @@
       "name": "Bumper 版本重組",
       "description": "Bumper 版本重組。用於需要單一訊息短版分鏡方案的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-286/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-286/assets/context-contract.json",
+        "skills/mk-286/assets/check-context.py"
+      ],
       "pack": "packs/mk-286.md"
     },
     {
@@ -1832,7 +2515,10 @@
       "name": "影片序列設計",
       "description": "影片序列設計。用於需要問題、教育、證據與後續溝通的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-287/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-287/assets/context-contract.json",
+        "skills/mk-287/assets/check-context.py"
+      ],
       "pack": "packs/mk-287.md"
     },
     {
@@ -1840,7 +2526,10 @@
       "name": "YouTube 版位受眾分工",
       "description": "YouTube 版位受眾分工。用於需要受眾、主題、字詞及版位的用途的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-288/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-288/assets/context-contract.json",
+        "skills/mk-288/assets/check-context.py"
+      ],
       "pack": "packs/mk-288.md"
     },
     {
@@ -1848,7 +2537,10 @@
       "name": "YouTube 頻次規劃",
       "description": "YouTube 頻次規劃。用於需要預算與目標下的頻次假說的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-289/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-289/assets/context-contract.json",
+        "skills/mk-289/assets/check-context.py"
+      ],
       "pack": "packs/mk-289.md"
     },
     {
@@ -1856,7 +2548,10 @@
       "name": "YouTube 媒體計畫",
       "description": "YouTube 媒體計畫。用於需要期間、格式、受眾與衡量方式的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-290/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-290/assets/context-contract.json",
+        "skills/mk-290/assets/check-context.py"
+      ],
       "pack": "packs/mk-290.md"
     },
     {
@@ -1864,7 +2559,10 @@
       "name": "影片觀看品質診斷",
       "description": "影片觀看品質診斷。用於需要觀看率、成本與媒體任務對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-291/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-291/assets/context-contract.json",
+        "skills/mk-291/assets/check-context.py"
+      ],
       "pack": "packs/mk-291.md"
     },
     {
@@ -1872,7 +2570,10 @@
       "name": "影片與版位成效拆解",
       "description": "影片與版位成效拆解。用於需要素材留不住人與接觸錯人待查項的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-292/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-292/assets/context-contract.json",
+        "skills/mk-292/assets/check-context.py"
+      ],
       "pack": "packs/mk-292.md"
     },
     {
@@ -1880,7 +2581,10 @@
       "name": "全站頁面類型盤點",
       "description": "全站頁面類型盤點。用於需要首頁、分類、產品、文章等資產表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-308/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-308/assets/context-contract.json",
+        "skills/mk-308/assets/check-context.py"
+      ],
       "pack": "packs/mk-308.md"
     },
     {
@@ -1888,7 +2592,10 @@
       "name": "網站服務對象盤點",
       "description": "網站服務對象盤點。用於需要每種頁面服務的受眾與任務的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-309/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-309/assets/context-contract.json",
+        "skills/mk-309/assets/check-context.py"
+      ],
       "pack": "packs/mk-309.md"
     },
     {
@@ -1896,7 +2603,10 @@
       "name": "搜尋答案矩陣建立",
       "description": "搜尋答案矩陣建立。用於需要人群、階段、問題與頁面對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-310/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-310/assets/context-contract.json",
+        "skills/mk-310/assets/check-context.py"
+      ],
       "pack": "packs/mk-310.md"
     },
     {
@@ -1904,7 +2614,10 @@
       "name": "主題節點頁規劃",
       "description": "主題節點頁規劃。用於需要集中回答一組需求的節點藍圖的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-311/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-311/assets/context-contract.json",
+        "skills/mk-311/assets/check-context.py"
+      ],
       "pack": "packs/mk-311.md"
     },
     {
@@ -1912,7 +2625,10 @@
       "name": "既有頁保留補強新增判讀",
       "description": "依網站頁面與 GSC 查詢／頁面表現，判斷既有頁應保留、補強、整併或新增，並規劃主入口頁與相關內部連結。",
       "source": "skills/mk-312/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-312/assets/context-contract.json",
+        "skills/mk-312/assets/check-context.py"
+      ],
       "pack": "packs/mk-312.md"
     },
     {
@@ -1920,7 +2636,10 @@
       "name": "節點頁模組設計",
       "description": "節點頁模組設計。用於需要必要回答、證據與導流區塊的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-313/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-313/assets/context-contract.json",
+        "skills/mk-313/assets/check-context.py"
+      ],
       "pack": "packs/mk-313.md"
     },
     {
@@ -1928,7 +2647,10 @@
       "name": "文章到節點頁內連結規劃",
       "description": "文章到節點頁內連結規劃。用於需要內容回到商業節點的路徑的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-314/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-314/assets/context-contract.json",
+        "skills/mk-314/assets/check-context.py"
+      ],
       "pack": "packs/mk-314.md"
     },
     {
@@ -1936,7 +2658,10 @@
       "name": "節點頁到商品頁內連結規劃",
       "description": "節點頁到商品頁內連結規劃。用於需要答案連到商品與服務的路徑的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-315/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-315/assets/context-contract.json",
+        "skills/mk-315/assets/check-context.py"
+      ],
       "pack": "packs/mk-315.md"
     },
     {
@@ -1944,7 +2669,10 @@
       "name": "搜尋需求頁面類型選擇",
       "description": "搜尋需求頁面類型選擇。用於需要文章、比較、分類或預約的適配的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-316/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-316/assets/context-contract.json",
+        "skills/mk-316/assets/check-context.py"
+      ],
       "pack": "packs/mk-316.md"
     },
     {
@@ -1952,7 +2680,10 @@
       "name": "頁面 Title 檢查",
       "description": "頁面 Title 檢查。用於需要主題、需求與標題的一致性的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-317/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-317/assets/context-contract.json",
+        "skills/mk-317/assets/check-context.py"
+      ],
       "pack": "packs/mk-317.md"
     },
     {
@@ -1960,7 +2691,10 @@
       "name": "頁面 Meta 描述檢查",
       "description": "頁面 Meta 描述檢查。用於需要與實際頁面相符的描述的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-318/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-318/assets/context-contract.json",
+        "skills/mk-318/assets/check-context.py"
+      ],
       "pack": "packs/mk-318.md"
     },
     {
@@ -1968,7 +2702,10 @@
       "name": "頁面 H1 層級檢查",
       "description": "頁面 H1 層級檢查。用於需要主題結構與層級問題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-319/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-319/assets/context-contract.json",
+        "skills/mk-319/assets/check-context.py"
+      ],
       "pack": "packs/mk-319.md"
     },
     {
@@ -1976,7 +2713,10 @@
       "name": "頁面 H2 H3 結構檢查",
       "description": "頁面 H2 H3 結構檢查。用於需要問答層次與段落從屬問題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-320/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-320/assets/context-contract.json",
+        "skills/mk-320/assets/check-context.py"
+      ],
       "pack": "packs/mk-320.md"
     },
     {
@@ -1984,7 +2724,10 @@
       "name": "頁面圖片替代文字檢查",
       "description": "頁面圖片替代文字檢查。用於需要圖片內容與替代說明缺漏的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-321/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-321/assets/context-contract.json",
+        "skills/mk-321/assets/check-context.py"
+      ],
       "pack": "packs/mk-321.md"
     },
     {
@@ -1992,7 +2735,10 @@
       "name": "頁面標記基礎檢查",
       "description": "頁面標記基礎檢查。用於需要語言、canonical、robots 等待查項的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-322/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-322/assets/context-contract.json",
+        "skills/mk-322/assets/check-context.py"
+      ],
       "pack": "packs/mk-322.md"
     },
     {
@@ -2000,7 +2746,10 @@
       "name": "文章開頭回答度檢查",
       "description": "文章開頭回答度檢查。用於需要問題、對象、答案與判斷缺漏的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-324/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-324/assets/context-contract.json",
+        "skills/mk-324/assets/check-context.py"
+      ],
       "pack": "packs/mk-324.md"
     },
     {
@@ -2008,7 +2757,10 @@
       "name": "文章小標題可理解性檢查",
       "description": "文章小標題可理解性檢查。用於需要脫離上下文仍不清楚的小標的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-325/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-325/assets/context-contract.json",
+        "skills/mk-325/assets/check-context.py"
+      ],
       "pack": "packs/mk-325.md"
     },
     {
@@ -2016,7 +2768,10 @@
       "name": "段落答案前置檢查",
       "description": "段落答案前置檢查。用於需要答案埋太深或未直接回答的位置的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-326/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-326/assets/context-contract.json",
+        "skills/mk-326/assets/check-context.py"
+      ],
       "pack": "packs/mk-326.md"
     },
     {
@@ -2024,7 +2779,10 @@
       "name": "段落獨立理解度檢查",
       "description": "段落獨立理解度檢查。用於需要依賴前文或代詞不明的位置的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-327/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-327/assets/context-contract.json",
+        "skills/mk-327/assets/check-context.py"
+      ],
       "pack": "packs/mk-327.md"
     },
     {
@@ -2032,7 +2790,10 @@
       "name": "清單模組適配",
       "description": "清單模組適配。用於需要適合改清單的段落與理由的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-328/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-328/assets/context-contract.json",
+        "skills/mk-328/assets/check-context.py"
+      ],
       "pack": "packs/mk-328.md"
     },
     {
@@ -2040,7 +2801,10 @@
       "name": "步驟模組適配",
       "description": "步驟模組適配。用於需要順序、前提及完成條件的步驟的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-329/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-329/assets/context-contract.json",
+        "skills/mk-329/assets/check-context.py"
+      ],
       "pack": "packs/mk-329.md"
     },
     {
@@ -2048,7 +2812,10 @@
       "name": "比較表模組適配",
       "description": "比較表模組適配。用於需要比較維度與資訊不足的表格提案的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-330/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-330/assets/context-contract.json",
+        "skills/mk-330/assets/check-context.py"
+      ],
       "pack": "packs/mk-330.md"
     },
     {
@@ -2056,7 +2823,10 @@
       "name": "FAQ 模組適配",
       "description": "FAQ 模組適配。用於需要確有疑問需求的問答區塊的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-331/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-331/assets/context-contract.json",
+        "skills/mk-331/assets/check-context.py"
+      ],
       "pack": "packs/mk-331.md"
     },
     {
@@ -2064,7 +2834,10 @@
       "name": "第一手經驗有無檢查",
       "description": "第一手經驗有無檢查。用於需要經驗依據與不能補寫的空白的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-332/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-332/assets/context-contract.json",
+        "skills/mk-332/assets/check-context.py"
+      ],
       "pack": "packs/mk-332.md"
     },
     {
@@ -2072,7 +2845,10 @@
       "name": "截圖紀錄數據證據檢查",
       "description": "截圖紀錄數據證據檢查。用於需要必要證據、日期與缺件的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-333/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-333/assets/context-contract.json",
+        "skills/mk-333/assets/check-context.py"
+      ],
       "pack": "packs/mk-333.md"
     },
     {
@@ -2080,7 +2856,10 @@
       "name": "重要主張來源檢查",
       "description": "重要主張來源檢查。用於需要能真正支持主張的來源對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-334/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-334/assets/context-contract.json",
+        "skills/mk-334/assets/check-context.py"
+      ],
       "pack": "packs/mk-334.md"
     },
     {
@@ -2088,7 +2867,10 @@
       "name": "專家引用真實性檢查",
       "description": "專家引用真實性檢查。用於需要引言、身分與原始來源核對的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-335/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-335/assets/context-contract.json",
+        "skills/mk-335/assets/check-context.py"
+      ],
       "pack": "packs/mk-335.md"
     },
     {
@@ -2096,7 +2878,10 @@
       "name": "文章差異化檢查",
       "description": "文章差異化檢查。用於需要與常見說法相同或有新判斷的部分的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-336/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-336/assets/context-contract.json",
+        "skills/mk-336/assets/check-context.py"
+      ],
       "pack": "packs/mk-336.md"
     },
     {
@@ -2104,7 +2889,10 @@
       "name": "適用限制檢查",
       "description": "適用限制檢查。用於需要人群、情境、資源與不能泛用項的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-337/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-337/assets/context-contract.json",
+        "skills/mk-337/assets/check-context.py"
+      ],
       "pack": "packs/mk-337.md"
     },
     {
@@ -2112,7 +2900,10 @@
       "name": "文章下一步入口檢查",
       "description": "文章下一步入口檢查。用於需要合理行動與頁面連結的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-338/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-338/assets/context-contract.json",
+        "skills/mk-338/assets/check-context.py"
+      ],
       "pack": "packs/mk-338.md"
     },
     {
@@ -2120,7 +2911,10 @@
       "name": "弱段落優先序",
       "description": "弱段落優先序。用於需要最值得先改的段落及依據的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-339/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-339/assets/context-contract.json",
+        "skills/mk-339/assets/check-context.py"
+      ],
       "pack": "packs/mk-339.md"
     },
     {
@@ -2128,7 +2922,10 @@
       "name": "四句式答案段落草稿",
       "description": "四句式答案段落草稿。用於需要依原始事實重排的回答模組的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-340/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-340/assets/context-contract.json",
+        "skills/mk-340/assets/check-context.py"
+      ],
       "pack": "packs/mk-340.md"
     },
     {
@@ -2136,7 +2933,10 @@
       "name": "文章修改前後對照",
       "description": "文章修改前後對照。用於需要改動、保留事實與仍缺證據項的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-341/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-341/assets/context-contract.json",
+        "skills/mk-341/assets/check-context.py"
+      ],
       "pack": "packs/mk-341.md"
     },
     {
@@ -2144,7 +2944,10 @@
       "name": "品牌標準名稱整理",
       "description": "品牌標準名稱整理。用於需要主名、別名、避免混淆的寫法的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-342/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-342/assets/context-contract.json",
+        "skills/mk-342/assets/check-context.py"
+      ],
       "pack": "packs/mk-342.md"
     },
     {
@@ -2152,7 +2955,10 @@
       "name": "品牌一句與三句介紹",
       "description": "品牌一句與三句介紹。用於需要可供外部引用的標準介紹的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-343/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-343/assets/context-contract.json",
+        "skills/mk-343/assets/check-context.py"
+      ],
       "pack": "packs/mk-343.md"
     },
     {
@@ -2160,7 +2966,10 @@
       "name": "品牌跨平台介紹對照",
       "description": "品牌跨平台介紹對照。用於需要官網與各平台不一致處的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-344/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-344/assets/context-contract.json",
+        "skills/mk-344/assets/check-context.py"
+      ],
       "pack": "packs/mk-344.md"
     },
     {
@@ -2168,7 +2977,10 @@
       "name": "品牌類別與服務核對",
       "description": "品牌類別與服務核對。用於需要被描述成錯誤類別的問題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-345/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-345/assets/context-contract.json",
+        "skills/mk-345/assets/check-context.py"
+      ],
       "pack": "packs/mk-345.md"
     },
     {
@@ -2176,7 +2988,10 @@
       "name": "品牌官方連結對照",
       "description": "品牌官方連結對照。用於需要各平台互連與錯誤連結的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-346/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-346/assets/context-contract.json",
+        "skills/mk-346/assets/check-context.py"
+      ],
       "pack": "packs/mk-346.md"
     },
     {
@@ -2184,7 +2999,10 @@
       "name": "品牌實體與創辦人關係整理",
       "description": "品牌實體與創辦人關係整理。用於需要人物、組織、服務的真實關係的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-347/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-347/assets/context-contract.json",
+        "skills/mk-347/assets/check-context.py"
+      ],
       "pack": "packs/mk-347.md"
     },
     {
@@ -2192,7 +3010,10 @@
       "name": "品牌資料目錄適配",
       "description": "品牌資料目錄適配。用於需要值得補登與不適合的平台的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-348/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-348/assets/context-contract.json",
+        "skills/mk-348/assets/check-context.py"
+      ],
       "pack": "packs/mk-348.md"
     },
     {
@@ -2200,7 +3021,10 @@
       "name": "品牌被錯誤描述查核",
       "description": "品牌被錯誤描述查核。用於需要錯誤內容、原始證據與修正稿的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-349/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-349/assets/context-contract.json",
+        "skills/mk-349/assets/check-context.py"
+      ],
       "pack": "packs/mk-349.md"
     },
     {
@@ -2208,7 +3032,10 @@
       "name": "品牌媒體資料包",
       "description": "品牌媒體資料包。用於需要名稱、說法、服務、差異與連結的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-350/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-350/assets/context-contract.json",
+        "skills/mk-350/assets/check-context.py"
+      ],
       "pack": "packs/mk-350.md"
     },
     {
@@ -2216,7 +3043,10 @@
       "name": "第三方見證來源盤點",
       "description": "第三方見證來源盤點。用於需要媒體、案例與可用證詞的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-351/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-351/assets/context-contract.json",
+        "skills/mk-351/assets/check-context.py"
+      ],
       "pack": "packs/mk-351.md"
     },
     {
@@ -2224,7 +3054,10 @@
       "name": "第三方內容補強優先序",
       "description": "第三方內容補強優先序。用於需要缺漏、影響與可處理性的排序的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-352/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-352/assets/context-contract.json",
+        "skills/mk-352/assets/check-context.py"
+      ],
       "pack": "packs/mk-352.md"
     },
     {
@@ -2232,7 +3065,10 @@
       "name": "站外內容合作名單",
       "description": "站外內容合作名單。用於需要真實網址、題目與合作理由的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-353/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-353/assets/context-contract.json",
+        "skills/mk-353/assets/check-context.py"
+      ],
       "pack": "packs/mk-353.md"
     },
     {
@@ -2240,7 +3076,10 @@
       "name": "搜尋結果版型盤點",
       "description": "搜尋結果版型盤點。用於需要實際結果中的文章、影片與通路的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-354/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-354/assets/context-contract.json",
+        "skills/mk-354/assets/check-context.py"
+      ],
       "pack": "packs/mk-354.md"
     },
     {
@@ -2248,7 +3087,10 @@
       "name": "多平台內容改編規劃",
       "description": "多平台內容改編規劃。用於需要同主題按平台任務改編而非洗稿的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-355/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-355/assets/context-contract.json",
+        "skills/mk-355/assets/check-context.py"
+      ],
       "pack": "packs/mk-355.md"
     },
     {
@@ -2256,7 +3098,10 @@
       "name": "外部入口回官網路徑檢查",
       "description": "外部入口回官網路徑檢查。用於需要站外到節點與交易頁的承接的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-356/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-356/assets/context-contract.json",
+        "skills/mk-356/assets/check-context.py"
+      ],
       "pack": "packs/mk-356.md"
     },
     {
@@ -2264,7 +3109,10 @@
       "name": "站外修正聯繫草稿",
       "description": "站外修正聯繫草稿。用於需要有證據的品牌更正或補充信的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-357/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-357/assets/context-contract.json",
+        "skills/mk-357/assets/check-context.py"
+      ],
       "pack": "packs/mk-357.md"
     },
     {
@@ -2272,7 +3120,10 @@
       "name": "AI 搜尋測試題庫",
       "description": "AI 搜尋測試題庫。用於需要定義、比較、情境與決策題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-358/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-358/assets/context-contract.json",
+        "skills/mk-358/assets/check-context.py"
+      ],
       "pack": "packs/mk-358.md"
     },
     {
@@ -2280,7 +3131,10 @@
       "name": "品牌非指名測試題設計",
       "description": "品牌非指名測試題設計。用於需要不直接塞品牌的需求問題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-359/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-359/assets/context-contract.json",
+        "skills/mk-359/assets/check-context.py"
+      ],
       "pack": "packs/mk-359.md"
     },
     {
@@ -2288,7 +3142,10 @@
       "name": "AI 搜尋題目優先序",
       "description": "AI 搜尋題目優先序。用於需要依商業關聯與代表性選題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-360/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-360/assets/context-contract.json",
+        "skills/mk-360/assets/check-context.py"
+      ],
       "pack": "packs/mk-360.md"
     },
     {
@@ -2296,7 +3153,10 @@
       "name": "AI 回答紀錄表",
       "description": "AI 回答紀錄表。用於需要平台、日期、問題、完整回答與來源的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-361/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-361/assets/context-contract.json",
+        "skills/mk-361/assets/check-context.py"
+      ],
       "pack": "packs/mk-361.md"
     },
     {
@@ -2304,7 +3164,10 @@
       "name": "AI 引用有無判讀",
       "description": "AI 引用有無判讀。用於需要實際引用網站與頁面的紀錄的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-362/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-362/assets/context-contract.json",
+        "skills/mk-362/assets/check-context.py"
+      ],
       "pack": "packs/mk-362.md"
     },
     {
@@ -2312,7 +3175,10 @@
       "name": "AI 品牌提及判讀",
       "description": "AI 品牌提及判讀。用於需要有無提到品牌及上下文的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-363/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-363/assets/context-contract.json",
+        "skills/mk-363/assets/check-context.py"
+      ],
       "pack": "packs/mk-363.md"
     },
     {
@@ -2320,7 +3186,10 @@
       "name": "AI 品牌描述正確性檢查",
       "description": "AI 品牌描述正確性檢查。用於需要描述與品牌原始資料核對的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-364/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-364/assets/context-contract.json",
+        "skills/mk-364/assets/check-context.py"
+      ],
       "pack": "packs/mk-364.md"
     },
     {
@@ -2328,7 +3197,10 @@
       "name": "AI 同列品牌比較",
       "description": "AI 同列品牌比較。用於需要一起出現的品牌與情境的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-365/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-365/assets/context-contract.json",
+        "skills/mk-365/assets/check-context.py"
+      ],
       "pack": "packs/mk-365.md"
     },
     {
@@ -2336,7 +3208,10 @@
       "name": "會員訂單資料整理",
       "description": "會員訂單資料整理。用於需要一人多單與訂單明細的正確關係的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-372/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-372/assets/context-contract.json",
+        "skills/mk-372/assets/check-context.py"
+      ],
       "pack": "packs/mk-372.md"
     },
     {
@@ -2344,7 +3219,10 @@
       "name": "會員識別碼一致性檢查",
       "description": "會員識別碼一致性檢查。用於需要重複顧客與無法匹配項的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-373/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-373/assets/context-contract.json",
+        "skills/mk-373/assets/check-context.py"
+      ],
       "pack": "packs/mk-373.md"
     },
     {
@@ -2352,7 +3230,10 @@
       "name": "會員最近購買日計算",
       "description": "會員最近購買日計算。用於需要指定基準日下的最近購買間隔的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-374/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-374/assets/context-contract.json",
+        "skills/mk-374/assets/check-context.py"
+      ],
       "pack": "packs/mk-374.md"
     },
     {
@@ -2360,7 +3241,10 @@
       "name": "會員購買頻次計算",
       "description": "會員購買頻次計算。用於需要以不重複有效訂單計算頻次的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-375/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-375/assets/context-contract.json",
+        "skills/mk-375/assets/check-context.py"
+      ],
       "pack": "packs/mk-375.md"
     },
     {
@@ -2368,7 +3252,10 @@
       "name": "會員累積金額計算",
       "description": "會員累積金額計算。用於需要明確退款與期間口徑的購買額的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-376/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-376/assets/context-contract.json",
+        "skills/mk-376/assets/check-context.py"
+      ],
       "pack": "packs/mk-376.md"
     },
     {
@@ -2376,7 +3263,10 @@
       "name": "會員客單價計算",
       "description": "會員客單價計算。用於需要金額與頻次的客單對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-377/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-377/assets/context-contract.json",
+        "skills/mk-377/assets/check-context.py"
+      ],
       "pack": "packs/mk-377.md"
     },
     {
@@ -2384,7 +3274,10 @@
       "name": "RFM 門檻設定",
       "description": "RFM 門檻設定。用於需要依購買週期與分布設定門檻的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-378/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-378/assets/context-contract.json",
+        "skills/mk-378/assets/check-context.py"
+      ],
       "pack": "packs/mk-378.md"
     },
     {
@@ -2392,7 +3285,10 @@
       "name": "RFM 分數計算",
       "description": "RFM 分數計算。用於需要可重算的分數與原始依據的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-379/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-379/assets/context-contract.json",
+        "skills/mk-379/assets/check-context.py"
+      ],
       "pack": "packs/mk-379.md"
     },
     {
@@ -2400,7 +3296,10 @@
       "name": "RFM 客群命名",
       "description": "RFM 客群命名。用於需要忠誠、潛力、待喚回等分群定義的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-380/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-380/assets/context-contract.json",
+        "skills/mk-380/assets/check-context.py"
+      ],
       "pack": "packs/mk-380.md"
     },
     {
@@ -2408,7 +3307,10 @@
       "name": "只買一次會員辨識",
       "description": "只買一次會員辨識。用於需要F1 會員與可追蹤來源的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-381/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-381/assets/context-contract.json",
+        "skills/mk-381/assets/check-context.py"
+      ],
       "pack": "packs/mk-381.md"
     },
     {
@@ -2416,7 +3318,10 @@
       "name": "第二次購買會員辨識",
       "description": "第二次購買會員辨識。用於需要F2 達成狀況與群組的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-382/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-382/assets/context-contract.json",
+        "skills/mk-382/assets/check-context.py"
+      ],
       "pack": "packs/mk-382.md"
     },
     {
@@ -2424,7 +3329,10 @@
       "name": "首次回購天數計算",
       "description": "首次回購天數計算。用於需要第一與第二次有效購買間隔的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-383/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-383/assets/context-contract.json",
+        "skills/mk-383/assets/check-context.py"
+      ],
       "pack": "packs/mk-383.md"
     },
     {
@@ -2432,7 +3340,10 @@
       "name": "新舊沉睡會員分群",
       "description": "新舊沉睡會員分群。用於需要期間與狀態明確的 NES 群組的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-384/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-384/assets/context-contract.json",
+        "skills/mk-384/assets/check-context.py"
+      ],
       "pack": "packs/mk-384.md"
     },
     {
@@ -2440,7 +3351,10 @@
       "name": "會員狀態遷移分析",
       "description": "會員狀態遷移分析。用於需要前後期間群組變化的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-385/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-385/assets/context-contract.json",
+        "skills/mk-385/assets/check-context.py"
+      ],
       "pack": "packs/mk-385.md"
     },
     {
@@ -2448,7 +3362,10 @@
       "name": "高價值會員篩選",
       "description": "高價值會員篩選。用於需要頻次、金額與時效的綜合候選的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-386/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-386/assets/context-contract.json",
+        "skills/mk-386/assets/check-context.py"
+      ],
       "pack": "packs/mk-386.md"
     },
     {
@@ -2456,7 +3373,10 @@
       "name": "會員分群完整性檢查",
       "description": "會員分群完整性檢查。用於需要遺漏、重疊與錯誤分群核對的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-387/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-387/assets/context-contract.json",
+        "skills/mk-387/assets/check-context.py"
+      ],
       "pack": "packs/mk-387.md"
     },
     {
@@ -2464,7 +3384,10 @@
       "name": "新會員首購培養",
       "description": "新會員首購培養。用於需要教育與首購理由的訊息流程的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-388/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-388/assets/context-contract.json",
+        "skills/mk-388/assets/check-context.py"
+      ],
       "pack": "packs/mk-388.md"
     },
     {
@@ -2472,7 +3395,10 @@
       "name": "首購後使用教學規劃",
       "description": "首購後使用教學規劃。用於需要與實際商品相符的交付後內容的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-389/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-389/assets/context-contract.json",
+        "skills/mk-389/assets/check-context.py"
+      ],
       "pack": "packs/mk-389.md"
     },
     {
@@ -2480,7 +3406,10 @@
       "name": "第一次回購促進計畫",
       "description": "規劃只買過一次的顧客如何走向第二次購買，依商品週期安排提醒時機與第二件商品；適用「首購客怎麼促成二購」",
       "source": "skills/mk-390/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-390/assets/context-contract.json",
+        "skills/mk-390/assets/check-context.py"
+      ],
       "pack": "packs/mk-390.md"
     },
     {
@@ -2488,7 +3417,10 @@
       "name": "補貨提醒時機規劃",
       "description": "補貨提醒時機規劃。用於需要依使用量與歷史週期的提醒假說的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-391/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-391/assets/context-contract.json",
+        "skills/mk-391/assets/check-context.py"
+      ],
       "pack": "packs/mk-391.md"
     },
     {
@@ -2496,7 +3428,10 @@
       "name": "高價值會員新品優先",
       "description": "高價值會員新品優先。用於需要適用會員與新品溝通方案的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-392/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-392/assets/context-contract.json",
+        "skills/mk-392/assets/check-context.py"
+      ],
       "pack": "packs/mk-392.md"
     },
     {
@@ -2504,7 +3439,10 @@
       "name": "忠誠會員專屬組合",
       "description": "忠誠會員專屬組合。用於需要多件量、毛利與需求匹配的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-393/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-393/assets/context-contract.json",
+        "skills/mk-393/assets/check-context.py"
+      ],
       "pack": "packs/mk-393.md"
     },
     {
@@ -2512,7 +3450,10 @@
       "name": "高潛力會員升級方案",
       "description": "高潛力會員升級方案。用於需要進入下一購買階段的安排的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-394/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-394/assets/context-contract.json",
+        "skills/mk-394/assets/check-context.py"
+      ],
       "pack": "packs/mk-394.md"
     },
     {
@@ -2520,7 +3461,10 @@
       "name": "流失風險會員挽回",
       "description": "流失風險會員挽回。用於需要近期變化與適當提醒的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-395/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-395/assets/context-contract.json",
+        "skills/mk-395/assets/check-context.py"
+      ],
       "pack": "packs/mk-395.md"
     },
     {
@@ -2528,7 +3472,10 @@
       "name": "沉睡會員喚醒稿",
       "description": "沉睡會員喚醒稿。用於需要真實利益、回來理由與退出選項的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-396/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-396/assets/context-contract.json",
+        "skills/mk-396/assets/check-context.py"
+      ],
       "pack": "packs/mk-396.md"
     },
     {
@@ -2536,7 +3483,10 @@
       "name": "推薦意願會員邀請",
       "description": "推薦意願會員邀請。用於需要經允許的分享與回饋邀請的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-397/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-397/assets/context-contract.json",
+        "skills/mk-397/assets/check-context.py"
+      ],
       "pack": "packs/mk-397.md"
     },
     {
@@ -2544,7 +3494,10 @@
       "name": "會員活動回購成效檢討",
       "description": "會員活動回購成效檢討。用於需要同群組回購結果與干擾因素的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-398/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-398/assets/context-contract.json",
+        "skills/mk-398/assets/check-context.py"
+      ],
       "pack": "packs/mk-398.md"
     },
     {
@@ -2552,7 +3505,10 @@
       "name": "加好友誘因設計",
       "description": "加好友誘因設計。用於需要立即、相關、低阻力的交換理由的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-399/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-399/assets/context-contract.json",
+        "skills/mk-399/assets/check-context.py"
+      ],
       "pack": "packs/mk-399.md"
     },
     {
@@ -2560,7 +3516,10 @@
       "name": "加好友流程阻力檢查",
       "description": "加好友流程阻力檢查。用於需要領取與下一步流程的卡點的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-400/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-400/assets/context-contract.json",
+        "skills/mk-400/assets/check-context.py"
+      ],
       "pack": "packs/mk-400.md"
     },
     {
@@ -2568,7 +3527,10 @@
       "name": "LINE 三段式歡迎訊息",
       "description": "LINE 三段式歡迎訊息。用於需要立即利益、下一步、清楚動作的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-401/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-401/assets/context-contract.json",
+        "skills/mk-401/assets/check-context.py"
+      ],
       "pack": "packs/mk-401.md"
     },
     {
@@ -2576,7 +3538,10 @@
       "name": "LINE 興趣標籤設計",
       "description": "LINE 興趣標籤設計。用於需要可連到內容與商品的興趣標籤的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-402/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-402/assets/context-contract.json",
+        "skills/mk-402/assets/check-context.py"
+      ],
       "pack": "packs/mk-402.md"
     },
     {
@@ -2584,7 +3549,10 @@
       "name": "LINE 問題標籤設計",
       "description": "LINE 問題標籤設計。用於需要可改變後續訊息的顧客問題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-403/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-403/assets/context-contract.json",
+        "skills/mk-403/assets/check-context.py"
+      ],
       "pack": "packs/mk-403.md"
     },
     {
@@ -2592,7 +3560,10 @@
       "name": "LINE 階段標籤設計",
       "description": "LINE 階段標籤設計。用於需要加入、考慮、首購與回購狀態的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-404/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-404/assets/context-contract.json",
+        "skills/mk-404/assets/check-context.py"
+      ],
       "pack": "packs/mk-404.md"
     },
     {
@@ -2600,7 +3571,10 @@
       "name": "LINE 標籤精簡健檢",
       "description": "LINE 標籤精簡健檢。用於需要沒有對應商業動作的標籤的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-405/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-405/assets/context-contract.json",
+        "skills/mk-405/assets/check-context.py"
+      ],
       "pack": "packs/mk-405.md"
     },
     {
@@ -2608,7 +3582,10 @@
       "name": "LINE 未購買七日流程",
       "description": "LINE 未購買七日流程。用於需要含條件、訊息與退出規則的草案的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-406/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-406/assets/context-contract.json",
+        "skills/mk-406/assets/check-context.py"
+      ],
       "pack": "packs/mk-406.md"
     },
     {
@@ -2616,7 +3593,10 @@
       "name": "LINE 狀態分眾稿",
       "description": "LINE 狀態分眾稿。用於需要同活動對不同狀態的稿件的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-407/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-407/assets/context-contract.json",
+        "skills/mk-407/assets/check-context.py"
+      ],
       "pack": "packs/mk-407.md"
     },
     {
@@ -2624,7 +3604,10 @@
       "name": "加好友成本計算",
       "description": "加好友成本計算。用於需要花費與有效新增好友的口徑的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-408/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-408/assets/context-contract.json",
+        "skills/mk-408/assets/check-context.py"
+      ],
       "pack": "packs/mk-408.md"
     },
     {
@@ -2632,7 +3615,10 @@
       "name": "好友品質追蹤",
       "description": "好友品質追蹤。用於需要互動、首購、回購與封鎖對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-409/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-409/assets/context-contract.json",
+        "skills/mk-409/assets/check-context.py"
+      ],
       "pack": "packs/mk-409.md"
     },
     {
@@ -2640,7 +3626,10 @@
       "name": "好友長期價值試算",
       "description": "好友長期價值試算。用於需要期間、毛利與情境假設明確的估算的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-410/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-410/assets/context-contract.json",
+        "skills/mk-410/assets/check-context.py"
+      ],
       "pack": "packs/mk-410.md"
     },
     {
@@ -2648,7 +3637,10 @@
       "name": "電子報主旨草稿",
       "description": "電子報主旨草稿。用於需要對應內容且不誤導的主旨的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-411/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-411/assets/context-contract.json",
+        "skills/mk-411/assets/check-context.py"
+      ],
       "pack": "packs/mk-411.md"
     },
     {
@@ -2656,7 +3648,10 @@
       "name": "電子報預覽文字草稿",
       "description": "電子報預覽文字草稿。用於需要延續主旨的預覽摘要的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-412/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-412/assets/context-contract.json",
+        "skills/mk-412/assets/check-context.py"
+      ],
       "pack": "packs/mk-412.md"
     },
     {
@@ -2664,7 +3659,10 @@
       "name": "電子報正文與 CTA",
       "description": "電子報正文與 CTA。用於需要內容、利益、按鈕與目的頁的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-413/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-413/assets/context-contract.json",
+        "skills/mk-413/assets/check-context.py"
+      ],
       "pack": "packs/mk-413.md"
     },
     {
@@ -2672,7 +3670,10 @@
       "name": "簡訊精簡草稿",
       "description": "簡訊精簡草稿。用於需要真實活動條件與必要行動的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-414/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-414/assets/context-contract.json",
+        "skills/mk-414/assets/check-context.py"
+      ],
       "pack": "packs/mk-414.md"
     },
     {
@@ -2680,7 +3681,10 @@
       "name": "跨渠道發訊排程",
       "description": "跨渠道發訊排程。用於需要頻率、對象、渠道與接收權限的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-415/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-415/assets/context-contract.json",
+        "skills/mk-415/assets/check-context.py"
+      ],
       "pack": "packs/mk-415.md"
     },
     {
@@ -2688,7 +3692,10 @@
       "name": "退訂與無互動抑制檢查",
       "description": "退訂與無互動抑制檢查。用於需要不再發送對象與條件的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-416/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-416/assets/context-contract.json",
+        "skills/mk-416/assets/check-context.py"
+      ],
       "pack": "packs/mk-416.md"
     },
     {
@@ -2696,7 +3703,10 @@
       "name": "月份社群主題拆題",
       "description": "月份社群主題拆題。用於需要主題對應需求與商品的選題的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-417/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-417/assets/context-contract.json",
+        "skills/mk-417/assets/check-context.py"
+      ],
       "pack": "packs/mk-417.md"
     },
     {
@@ -2704,7 +3714,10 @@
       "name": "每週社群內容排程",
       "description": "每週社群內容排程。用於需要教育、見證、活動等內容分工的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-418/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-418/assets/context-contract.json",
+        "skills/mk-418/assets/check-context.py"
+      ],
       "pack": "packs/mk-418.md"
     },
     {
@@ -2712,7 +3725,10 @@
       "name": "產品教育貼文企劃",
       "description": "產品教育貼文企劃。用於需要讀者需要理解的問題與畫面的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-419/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-419/assets/context-contract.json",
+        "skills/mk-419/assets/check-context.py"
+      ],
       "pack": "packs/mk-419.md"
     },
     {
@@ -2720,7 +3736,10 @@
       "name": "第三方內容分享稿",
       "description": "第三方內容分享稿。用於需要清楚歸屬與可用授權的分享的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-420/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-420/assets/context-contract.json",
+        "skills/mk-420/assets/check-context.py"
+      ],
       "pack": "packs/mk-420.md"
     },
     {
@@ -2728,7 +3747,10 @@
       "name": "會員內容月刊編排",
       "description": "會員內容月刊編排。用於需要可重用內容的主題與順序的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-421/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-421/assets/context-contract.json",
+        "skills/mk-421/assets/check-context.py"
+      ],
       "pack": "packs/mk-421.md"
     },
     {
@@ -2736,7 +3758,10 @@
       "name": "常態與檔期貼文配比",
       "description": "常態與檔期貼文配比。用於需要不同任務的內容分工的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-422/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-422/assets/context-contract.json",
+        "skills/mk-422/assets/check-context.py"
+      ],
       "pack": "packs/mk-422.md"
     },
     {
@@ -2744,7 +3769,10 @@
       "name": "長文拆社群短文",
       "description": "長文拆社群短文。用於需要不新增事實的段落改編的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-423/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-423/assets/context-contract.json",
+        "skills/mk-423/assets/check-context.py"
+      ],
       "pack": "packs/mk-423.md"
     },
     {
@@ -2752,7 +3780,10 @@
       "name": "熱賣素材再利用選題",
       "description": "熱賣素材再利用選題。用於需要過往有效內容的新使用安排的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-424/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-424/assets/context-contract.json",
+        "skills/mk-424/assets/check-context.py"
+      ],
       "pack": "packs/mk-424.md"
     },
     {
@@ -2760,7 +3791,10 @@
       "name": "社群內容導流檢查",
       "description": "社群內容導流檢查。用於需要貼文承諾與連結頁對接的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-425/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-425/assets/context-contract.json",
+        "skills/mk-425/assets/check-context.py"
+      ],
       "pack": "packs/mk-425.md"
     },
     {
@@ -2768,7 +3802,10 @@
       "name": "社群內容成效回顧",
       "description": "社群內容成效回顧。用於需要互動、點擊與商業任務分開評估的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-426/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-426/assets/context-contract.json",
+        "skills/mk-426/assets/check-context.py"
+      ],
       "pack": "packs/mk-426.md"
     },
     {
@@ -2776,7 +3813,10 @@
       "name": "UTM 命名規劃",
       "description": "UTM 命名規劃。用於需要來源、媒介、活動、素材的規則的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-427/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-427/assets/context-contract.json",
+        "skills/mk-427/assets/check-context.py"
+      ],
       "pack": "packs/mk-427.md"
     },
     {
@@ -2784,7 +3824,10 @@
       "name": "UTM 網址產生與檢查",
       "description": "UTM 網址產生與檢查。用於需要可追蹤網址與參數錯誤的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-428/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-428/assets/context-contract.json",
+        "skills/mk-428/assets/check-context.py"
+      ],
       "pack": "packs/mk-428.md"
     },
     {
@@ -2792,7 +3835,10 @@
       "name": "KOL 合作 UTM 分類",
       "description": "KOL 合作 UTM 分類。用於需要對象、版位、商品與合作案辨識的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-429/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-429/assets/context-contract.json",
+        "skills/mk-429/assets/check-context.py"
+      ],
       "pack": "packs/mk-429.md"
     },
     {
@@ -2800,7 +3846,10 @@
       "name": "自然付費流量口徑檢查",
       "description": "自然付費流量口徑檢查。用於需要分類依據與不可直接判定項的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-430/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-430/assets/context-contract.json",
+        "skills/mk-430/assets/check-context.py"
+      ],
       "pack": "packs/mk-430.md"
     },
     {
@@ -2808,7 +3857,10 @@
       "name": "新舊客流量比較",
       "description": "新舊客流量比較。用於需要期間與新舊客定義一致的比較的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-431/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-431/assets/context-contract.json",
+        "skills/mk-431/assets/check-context.py"
+      ],
       "pack": "packs/mk-431.md"
     },
     {
@@ -2816,7 +3868,10 @@
       "name": "新客轉換來源分析",
       "description": "新客轉換來源分析。用於需要來源與首次購買比例對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-432/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-432/assets/context-contract.json",
+        "skills/mk-432/assets/check-context.py"
+      ],
       "pack": "packs/mk-432.md"
     },
     {
@@ -2824,7 +3879,10 @@
       "name": "到達頁流量價值比較",
       "description": "到達頁流量價值比較。用於需要收益與工作階段的同口徑對照的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-433/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-433/assets/context-contract.json",
+        "skills/mk-433/assets/check-context.py"
+      ],
       "pack": "packs/mk-433.md"
     },
     {
@@ -2832,7 +3890,10 @@
       "name": "活動案型流量價值比較",
       "description": "活動案型流量價值比較。用於需要不同活動的流量、收益及限制的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-434/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-434/assets/context-contract.json",
+        "skills/mk-434/assets/check-context.py"
+      ],
       "pack": "packs/mk-434.md"
     },
     {
@@ -2840,7 +3901,10 @@
       "name": "商品收益毛利轉換對照",
       "description": "商品收益毛利轉換對照。用於需要商品投資候選與非因果限制的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-435/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-435/assets/context-contract.json",
+        "skills/mk-435/assets/check-context.py"
+      ],
       "pack": "packs/mk-435.md"
     },
     {
@@ -2848,7 +3912,10 @@
       "name": "網站漏斗事件規劃",
       "description": "網站漏斗事件規劃。用於需要節點、行動、事件與價值定義的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-436/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-436/assets/context-contract.json",
+        "skills/mk-436/assets/check-context.py"
+      ],
       "pack": "packs/mk-436.md"
     },
     {
@@ -2856,7 +3923,10 @@
       "name": "跨平台曝光口徑檢查",
       "description": "跨平台曝光口徑檢查。用於需要可加總曝光與不可視為不重複觸及的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-440/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-440/assets/context-contract.json",
+        "skills/mk-440/assets/check-context.py"
+      ],
       "pack": "packs/mk-440.md"
     },
     {
@@ -2864,7 +3934,10 @@
       "name": "GSC 搜尋機會篩選",
       "description": "GSC 搜尋機會篩選。用於需要曝光、點擊、排名與需求的候選的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-441/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-441/assets/context-contract.json",
+        "skills/mk-441/assets/check-context.py"
+      ],
       "pack": "packs/mk-441.md"
     },
     {
@@ -2872,7 +3945,10 @@
       "name": "品牌背景底稿",
       "description": "品牌背景底稿。用於需要品牌、商品、對象與限制的事實表的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-444/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-444/assets/context-contract.json",
+        "skills/mk-444/assets/check-context.py"
+      ],
       "pack": "packs/mk-444.md"
     },
     {
@@ -2880,7 +3956,10 @@
       "name": "顧問回覆證據檢查",
       "description": "顧問回覆證據檢查。用於需要主張是否引用實際取得資料的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-448/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-448/assets/context-contract.json",
+        "skills/mk-448/assets/check-context.py"
+      ],
       "pack": "packs/mk-448.md"
     },
     {
@@ -2888,7 +3967,10 @@
       "name": "顧問輸出驗收題",
       "description": "顧問輸出驗收題。用於需要真實案例輸入與合格結果條件的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-450/SKILL.md",
-      "references": [],
+      "references": [
+        "skills/mk-450/assets/context-contract.json",
+        "skills/mk-450/assets/check-context.py"
+      ],
       "pack": "packs/mk-450.md"
     },
     {
@@ -2897,7 +3979,9 @@
       "description": "產出、重寫與審核 Google PMAX 文字素材。使用者要求建立 PMAX 廣告、寫標題與說明、改善點擊理由或重寫整批文案時使用。承接 Persona、USP 與證據，先定進場入口、需求場景及到達頁，再將同一場景翻成 S／N／T／F，交付 15／5／5 可獨立重組的素材池與逐則審核。文案完成後才配對圖片影片；不處理 RSA 格式或廣告帳戶操作",
       "source": "extensions/pmax-copy/SKILL.md",
       "references": [
-        "extensions/pmax-copy/references/copy-contract.md"
+        "extensions/pmax-copy/references/copy-contract.md",
+        "extensions/pmax-copy/assets/context-contract.json",
+        "extensions/pmax-copy/assets/check-context.py"
       ],
       "pack": "packs/pmax-copy.md"
     },
@@ -2908,7 +3992,9 @@
       "source": "extensions/write-marketing-rollout-plan/SKILL.md",
       "references": [
         "extensions/write-marketing-rollout-plan/THIRD_PARTY_NOTICES.md",
-        "extensions/write-marketing-rollout-plan/references/sources.md"
+        "extensions/write-marketing-rollout-plan/references/sources.md",
+        "extensions/write-marketing-rollout-plan/assets/context-contract.json",
+        "extensions/write-marketing-rollout-plan/assets/check-context.py"
       ],
       "pack": "packs/write-marketing-rollout-plan.md"
     },
@@ -2919,7 +4005,9 @@
       "source": "extensions/forecast-event-profit/SKILL.md",
       "references": [
         "extensions/forecast-event-profit/THIRD_PARTY_NOTICES.md",
-        "extensions/forecast-event-profit/references/sources.md"
+        "extensions/forecast-event-profit/references/sources.md",
+        "extensions/forecast-event-profit/assets/context-contract.json",
+        "extensions/forecast-event-profit/assets/check-context.py"
       ],
       "pack": "packs/forecast-event-profit.md"
     },
@@ -2930,7 +4018,9 @@
       "source": "extensions/simplify-member-rules/SKILL.md",
       "references": [
         "extensions/simplify-member-rules/THIRD_PARTY_NOTICES.md",
-        "extensions/simplify-member-rules/references/sources.md"
+        "extensions/simplify-member-rules/references/sources.md",
+        "extensions/simplify-member-rules/assets/context-contract.json",
+        "extensions/simplify-member-rules/assets/check-context.py"
       ],
       "pack": "packs/simplify-member-rules.md"
     }
@@ -2949,7 +4039,9 @@
         "supplements/speak-human-tw/references/protected-content.md",
         "supplements/speak-human-tw/references/scenes.md",
         "supplements/speak-human-tw/references/taiwan-localization.md",
-        "supplements/speak-human-tw/references/voice-and-rhythm.md"
+        "supplements/speak-human-tw/references/voice-and-rhythm.md",
+        "supplements/speak-human-tw/assets/context-contract.json",
+        "supplements/speak-human-tw/assets/check-context.py"
       ],
       "pack": "packs/speak-human-tw.md",
       "language": "zh-TW"

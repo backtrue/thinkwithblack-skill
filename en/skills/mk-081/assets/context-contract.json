@@ -1,0 +1,212 @@
+{
+  "skill_id": "MK-081",
+  "source_sha256": "8e254c87f77ba65c6516f5f4943d7088f8b692a38ec56a899df3c18eda7cb6da",
+  "role": "unneeded",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u7684\u4f86\u6e90\u8207\u78ba\u5207\u7f3a\u9805\uff0c\u4f9d\u539f\u65b9\u6cd5\u63a5\u7e8c"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.input.3f468cadf259d662",
+            "label": "\u5546\u54c1\u6de8\u8ca2\u737b",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5546\u54c1\u6de8\u8ca2\u737b\u3001\u53ef\u8cfc\u5ba2\u7fa4\u3001\u56de\u8cfc\u91cf\u3001\u9000\u8ca8\u8207\u5c65\u7d04\u6210\u672c"
+          },
+          {
+            "field": "task.input.54048c5a7cab8576",
+            "label": "\u53ef\u8cfc\u5ba2\u7fa4",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5546\u54c1\u6de8\u8ca2\u737b\u3001\u53ef\u8cfc\u5ba2\u7fa4\u3001\u56de\u8cfc\u91cf\u3001\u9000\u8ca8\u8207\u5c65\u7d04\u6210\u672c"
+          },
+          {
+            "field": "task.input.71b7c8f82c0714ce",
+            "label": "\u56de\u8cfc\u91cf",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5546\u54c1\u6de8\u8ca2\u737b\u3001\u53ef\u8cfc\u5ba2\u7fa4\u3001\u56de\u8cfc\u91cf\u3001\u9000\u8ca8\u8207\u5c65\u7d04\u6210\u672c"
+          },
+          {
+            "field": "task.input.53cb15f950dff0c4",
+            "label": "\u9000\u8ca8\u8207\u5c65\u7d04\u6210\u672c",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5546\u54c1\u6de8\u8ca2\u737b\u3001\u53ef\u8cfc\u5ba2\u7fa4\u3001\u56de\u8cfc\u91cf\u3001\u9000\u8ca8\u8207\u5c65\u7d04\u6210\u672c"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u6bdb\u5229\u6b3e\u9078\u54c1\u7684\u539f\u65b9\u6cd5\u4ea4\u4ed8"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.input.3f468cadf259d662",
+            "label": "\u5546\u54c1\u6de8\u8ca2\u737b",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5546\u54c1\u6de8\u8ca2\u737b\u3001\u53ef\u8cfc\u5ba2\u7fa4\u3001\u56de\u8cfc\u91cf\u3001\u9000\u8ca8\u8207\u5c65\u7d04\u6210\u672c"
+          },
+          {
+            "field": "task.input.54048c5a7cab8576",
+            "label": "\u53ef\u8cfc\u5ba2\u7fa4",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5546\u54c1\u6de8\u8ca2\u737b\u3001\u53ef\u8cfc\u5ba2\u7fa4\u3001\u56de\u8cfc\u91cf\u3001\u9000\u8ca8\u8207\u5c65\u7d04\u6210\u672c"
+          },
+          {
+            "field": "task.input.71b7c8f82c0714ce",
+            "label": "\u56de\u8cfc\u91cf",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5546\u54c1\u6de8\u8ca2\u737b\u3001\u53ef\u8cfc\u5ba2\u7fa4\u3001\u56de\u8cfc\u91cf\u3001\u9000\u8ca8\u8207\u5c65\u7d04\u6210\u672c"
+          },
+          {
+            "field": "task.input.53cb15f950dff0c4",
+            "label": "\u9000\u8ca8\u8207\u5c65\u7d04\u6210\u672c",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5546\u54c1\u6de8\u8ca2\u737b\u3001\u53ef\u8cfc\u5ba2\u7fa4\u3001\u56de\u8cfc\u91cf\u3001\u9000\u8ca8\u8207\u5c65\u7d04\u6210\u672c"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [],
+    "dependents": "\u4ee5\u5df2\u4f7f\u7528 datum ID \u8207 digest \u5c0d\u61c9\u6b63\u5728\u9032\u884c\u7684\u4efb\u52d9\u53ca\u884d\u751f\u8cc7\u6599"
+  },
+  "schema_version": 1,
+  "method_sha256": "68f54c7e128c037ec4f572fb6211ed4cf888841220e9940afc75f89e4ef39664",
+  "method_path": "skills/mk-081/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}

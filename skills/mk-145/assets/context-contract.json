@@ -1,0 +1,451 @@
+{
+  "skill_id": "MK-145",
+  "source_sha256": "6fb979a1db560e2e81e8a576d16fea6f495476513d15c65dafd4ad5c04513dca",
+  "role": "consumer",
+  "stages": {
+    "prepare": {
+      "requires": {
+        "all": []
+      },
+      "delivery": false,
+      "allowed_output": "\u6574\u7406\u5df2\u53d6\u5f97\u7684\u4f86\u6e90\u8207\u78ba\u5207\u7f3a\u9805\uff0c\u4f9d\u539f\u65b9\u6cd5\u63a5\u7e8c"
+    },
+    "execute": {
+      "requires": {
+        "all": [
+          {
+            "any": [
+              {
+                "field": "task.input.e63559af76cf948a",
+                "label": "\u4f86\u6e90\u7d20\u6750",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+              },
+              {
+                "field": "task.input.55f086dfcf3b201e",
+                "label": "\u53ef\u8b80\u7248\u7a3f",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+              }
+            ],
+            "condition": null,
+            "source_line": 36
+          },
+          {
+            "any": [
+              {
+                "field": "persona.profile",
+                "label": "\u6307\u5b9a Persona",
+                "location": "context",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported",
+                  "hypothesis"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key",
+                  "persona_id"
+                ],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_website_or_source",
+                "preparation": "INF-00-06",
+                "condition": null,
+                "kind": "persona",
+                "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+              },
+              {
+                "field": "task.input.2b148511f5b38202",
+                "label": "\u6307\u5b9a Persona",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported",
+                  "hypothesis"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+              }
+            ],
+            "condition": null
+          },
+          {
+            "any": [
+              {
+                "field": "claim.value_proposition",
+                "label": "\u50f9\u503c\u4e3b\u5f35",
+                "location": "context",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [
+                  "brand_key",
+                  "product_id",
+                  "product_version"
+                ],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_website_or_source",
+                "preparation": "INF-00-06",
+                "condition": null,
+                "kind": "claim",
+                "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+              },
+              {
+                "field": "task.input.1bce58d96ae17fc7",
+                "label": "\u50f9\u503c\u4e3b\u5f35",
+                "location": "task",
+                "states": [
+                  "source_stated",
+                  "user_confirmed",
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "condition": null,
+                "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+              }
+            ],
+            "condition": null
+          },
+          {
+            "field": "claim.usp",
+            "label": "USP",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported",
+              "brand_claim",
+              "hypothesis"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "MK-002",
+            "condition": null,
+            "kind": "claim",
+            "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+          },
+          {
+            "field": "asset.specification",
+            "label": "\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c",
+            "location": "context",
+            "states": [
+              "user_confirmed"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "INF-00-06",
+            "condition": null,
+            "kind": "asset",
+            "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u76f4\u5f0f\u7d20\u6750\u6539\u7de8\u7684\u539f\u65b9\u6cd5\u4ea4\u4ed8"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.input.e63559af76cf948a",
+            "label": "\u4f86\u6e90\u7d20\u6750",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+          },
+          {
+            "field": "task.input.55f086dfcf3b201e",
+            "label": "\u53ef\u8b80\u7248\u7a3f",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+          },
+          {
+            "field": "persona.profile",
+            "label": "\u6307\u5b9a Persona",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported",
+              "hypothesis"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "persona_id"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "INF-00-06",
+            "condition": null,
+            "kind": "persona",
+            "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+          },
+          {
+            "field": "task.input.2b148511f5b38202",
+            "label": "\u6307\u5b9a Persona",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported",
+              "hypothesis"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+          },
+          {
+            "field": "claim.value_proposition",
+            "label": "\u50f9\u503c\u4e3b\u5f35",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "INF-00-06",
+            "condition": null,
+            "kind": "claim",
+            "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+          },
+          {
+            "field": "task.input.1bce58d96ae17fc7",
+            "label": "\u50f9\u503c\u4e3b\u5f35",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+          },
+          {
+            "field": "claim.usp",
+            "label": "USP",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported",
+              "brand_claim",
+              "hypothesis"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "MK-002",
+            "condition": null,
+            "kind": "claim",
+            "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+          },
+          {
+            "field": "asset.specification",
+            "label": "\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c",
+            "location": "context",
+            "states": [
+              "user_confirmed"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": "INF-00-06",
+            "condition": null,
+            "kind": "asset",
+            "source_excerpt": "\u4f86\u6e90\u7d20\u6750\u6216\u53ef\u8b80\u7248\u7a3f\u3001\u6838\u5fc3 Persona \u50f9\u503c\u4e3b\u5f35\u8207 USP\u3001\u76f4\u5f0f\u89c0\u770b\u60c5\u5883\u53ca\u5df2\u78ba\u8a8d\u898f\u683c"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
+    }
+  },
+  "writeback": [],
+  "invalidation": {
+    "fields": [
+      "asset.specification",
+      "claim.usp",
+      "claim.value_proposition",
+      "persona.profile"
+    ],
+    "dependents": "\u4ee5\u5df2\u4f7f\u7528 datum ID \u8207 digest \u5c0d\u61c9\u6b63\u5728\u9032\u884c\u7684\u4efb\u52d9\u53ca\u884d\u751f\u8cc7\u6599"
+  },
+  "schema_version": 1,
+  "method_sha256": "ad0003a6ba344304bdf2d7ac8397ee30a86856e58a6710fbfe3dedc361004bc9",
+  "method_path": "skills/mk-145/SKILL.md",
+  "source_language": "zh-TW",
+  "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
+}
