@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026.10.21-en.3
+
+Add initial brand-context inventory, latest relevant context reads before each brand task, reuse of known information, and provenance-backed confirmed-fact updates; keep unknowns, hypotheses, and task diagnoses distinct
+
 ## 2026.10.21-en.2
 
 MK-137 starts line one from the Persona’s buying motivation, selecting pain points, aspirations, self-identity, or purchase concerns accordingly. Check the opening–USP connection, add matching cases, and preserve the character limits and all-three-draft validation
