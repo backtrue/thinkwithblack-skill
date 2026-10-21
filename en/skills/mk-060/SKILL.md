@@ -15,7 +15,9 @@ Recalculability does not mean the data is complete; break-even points and cost c
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+Provide: Net revenue and variable costs on the same scope, or verified contribution
+
+For method questions, provide the formula, variables and an example directly; for a calculation, ask only for missing operands
 
 ## Method
 

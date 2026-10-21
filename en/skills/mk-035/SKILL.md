@@ -31,13 +31,13 @@ Search phrases and paths are planning hypotheses; check them against real search
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Trigger event | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | The customer's current problem | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Available answer | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Supporting page/creative | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Gap | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Reasonable next step | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Basis | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Customer wording and source | Use the supplied source, calculation, or explicit unknown |
+| 2 | Event and job | Use the supplied source, calculation, or explicit unknown |
+| 3 | Actual candidate search phrase | Use the supplied source, calculation, or explicit unknown |
+| 4 | Wording and intent rationale | Use the supplied source, calculation, or explicit unknown |
+| 5 | Observed or hypothesized | Use the supplied source, calculation, or explicit unknown |
+| 6 | Destination page and action | Use the supplied source, calculation, or explicit unknown |
+| 7 | Validation data | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification cases
 

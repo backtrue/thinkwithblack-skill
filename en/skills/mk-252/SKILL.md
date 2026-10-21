@@ -15,13 +15,14 @@ When IDs cannot be matched one-to-one, leave them unmatched rather than guess; d
 
 ## Required Inputs
 
-Provide: product Feed, actual website information, SKU performance, and disapproval messages
+Catalog platform, original title by SKU or variant, product pages and authoritative brand, model, and core attribute data, plus relevant current field specifications
 
 ## Method Steps
 
-1. Use the actual product name for title so the catalog and ads can identify it
-2. Titles must map one-to-one to SKUs/product pages; avoid many identical generic names that create confusion
-3. The original course provides no SEO title formula; check only identifiability and data consistency without adding rules
+1. Match each SKU or variant to its page and authoritative product data, preserving the original title; leave unmatched records unresolved
+2. Check brand, model, and identifying core attributes for omissions, errors, or attributes from another variant; mark model as not applicable when the product has none
+3. Draft an identifiable title from available sources while retaining model and variant differences; leave unsupported brands or attributes missing instead of guessing from images or similar products
+4. Deliver original value, gap, proposed value, and evidence for each component, checking current platform field requirements without adding an unsupported SEO ranking formula
 
 ## Calculation and Interpretation
 
@@ -29,25 +30,21 @@ Use product data for specifications and prices; verify catalog fields and disapp
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Subject / location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Conditions for use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Actual evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Check status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Differences / possible causes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Next task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | SKU or variant and product source | Use the supplied source, calculation, or explicit unknown |
+| 2 | Original title | Use the supplied source, calculation, or explicit unknown |
+| 3 | Brand, model, and core attribute checks | Use the supplied source, calculation, or explicit unknown |
+| 4 | Missing, incorrect, and inapplicable items | Use the supplied source, calculation, or explicit unknown |
+| 5 | Proposed title | Use the supplied source, calculation, or explicit unknown |
+| 6 | Component evidence and specification checks | Use the supplied source, calculation, or explicit unknown |
+| 7 | Missing data | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-252-C05｜Data meets existing conditions**
+**MK-252-A1 | Red and blue SKUs share a generic title; official data includes color but no model**
 
-Expected: report usable or keep as is; do not invent a need for changes
-
-**MK-252-C06｜The tool returns an error**
-
-Expected: report data not obtained; do not classify the tool error as a business anomaly
+Expected: Use each SKU’s actual color to distinguish the titles; mark model as not applicable instead of inventing one
 
 ## Method Sources
 

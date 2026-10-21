@@ -11,37 +11,46 @@ For a regular chat, upload `packs/mk-269.md`; it includes the shared rules, this
 
 This Skill delivers: **Usable term, URL, and app signals**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 Views or clicks do not automatically stand in for sales; do not directly rank channels measured on different bases
 
 ## Required Inputs
 
-Provide: demand events, existing terms, audiences, creative, and advertising data
+Audience needs/evidence, candidate terms, readable URL content and app functions, campaign purpose
 
 ## Method Steps
 
-1. Demand Gen develops demand before customers actively search; first build hypotheses from demand-triggering events, existing search terms, website visitors, customer data, and conversion records
-2. For “Custom Segment Input Preparation,” deliver “Usable term, URL, and app signals” while retaining the relationships among audience hypotheses, creative angles, channels, landing pages, and conversion goals
-3. The outline supports cold audiences, custom segments, first-party data, remarketing, and an audience × creative test matrix; AI-generated audiences remain hypotheses to validate through advertising
-4. The outline provides no fixed audience thresholds, creative specifications, budget ratios, or diagnostic cutoffs; check current official information when current Demand Gen features are involved
+1. Check how each term, URL or app relates to the need; remove name-only or irrelevant matches
+2. Label input types/reasons, group distinct intents and retain source/read date
+3. Explain that URLs/apps are similarity signals, not selected placements or retargeting of specific competitor visitors; verify available settings when configuring
 
 ## Calculation and Interpretation
 
-The main current source is a course outline; complete decision rules, data contracts, and case tests are still missing
+Google treats URLs/apps as audience similarity inputs, not promises of placement on those properties
+
+Source: [Google: Custom segments](https://support.google.com/google-ads/answer/9805516?hl=en)
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Cold / warm status and source | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Channel context | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Creative angle | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Destination page | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Comparison conditions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Metrics | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Specifications to verify | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Candidate input | Use the supplied source, calculation, or explicit unknown |
+| 2 | Type | Use the supplied source, calculation, or explicit unknown |
+| 3 | Need mapping | Use the supplied source, calculation, or explicit unknown |
+| 4 | Source and date | Use the supplied source, calculation, or explicit unknown |
+| 5 | Keep/remove rationale | Use the supplied source, calculation, or explicit unknown |
+| 6 | Setting checks | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-269-A1 | A competitor URL is supplied**
+
+Expected: Do not claim its visitors or placement are targeted
+
+**MK-269-A2 | An identically named app has unrelated functions**
+
+Expected: Exclude with reason
 
 ## Method Sources
 

@@ -15,7 +15,7 @@ Products occurring in the same transaction do not establish psychological motive
 
 ## Required inputs
 
-Provide: SKUs, product costs, customer groups, purchase records, and product lines
+Provide: Transactions and audience by channel, fees and revenue shares, product bundles, willingness-to-pay or choice evidence, stock and fulfillment conditions
 
 ## Method
 

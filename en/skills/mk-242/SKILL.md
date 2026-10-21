@@ -11,42 +11,46 @@ For a regular chat, upload `packs/mk-242.md`; it includes the shared rules, this
 
 This Skill delivers: **Ads, SEO, both, or no investment for now**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 If the account cannot show all terms, do not call the data complete market demand; the same term can mean different things in different service contexts
 
 ## Required Inputs
 
-Provide: search terms, keywords, campaign performance, pages, and demand hypotheses
+Demand clusters/sources, ability to serve them, existing pages, business goals, ad cost or test budget, and content resources
 
 ## Method Steps
 
-1. Use real Search Terms rather than only Keyword hypotheses to complete “Assign Search Demand to Channels”
-2. The course outline supports AI clustering of Search Terms into Query Cluster, Search Intent, problem topics, and business value, then Ads / SEO / Both / Ignore
-3. When delivering “Ads, SEO, both, or no investment for now,” retain the original search terms and supporting evidence; without real Search Terms, provide only a method plan and do not claim market validation
-4. The outline defines no fixed clustering algorithm, score, or business-value threshold; do not add one
+1. Check whether the brand can fulfill the need; mark unsupported needs Ignore/hold with reasons
+2. Consider Ads for actionable intent, a destination and a supported cost basis; consider SEO for ongoing questions with evidence and maintenance resources
+3. Choose Both only when both jobs are supported, with separate destinations/measurement; mark unknowns pending rather than Ignore
 
 ## Calculation and Interpretation
 
-Search term reports may not cover the entire market; observe when evidence is insufficient, and do not choose negative keywords from guesses alone
+Use the brand’s targets/cost conditions, not universal CPC, conversion-rate or search-volume thresholds; decisions remain revisable
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Source subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Target subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Task to address | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Evidence of fit | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Applicable conditions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Unmapped items / conflicts | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Next step | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Demand cluster | Use the supplied source, calculation, or explicit unknown |
+| 2 | Fulfillment ability | Use the supplied source, calculation, or explicit unknown |
+| 3 | Ads conditions | Use the supplied source, calculation, or explicit unknown |
+| 4 | SEO conditions | Use the supplied source, calculation, or explicit unknown |
+| 5 | Ads/SEO/Both/Ignore/pending | Use the supplied source, calculation, or explicit unknown |
+| 6 | Evidence | Use the supplied source, calculation, or explicit unknown |
+| 7 | Resources and next step | Use the supplied source, calculation, or explicit unknown |
+| 8 | Revision condition | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-242-C05｜One subject has two different uses**
+**MK-242-A1 | Purchase intent exists but the offering cannot fulfill it**
 
-Expected: list uses and conditions separately rather than force a single match
+Expected: Hold and explain the gap
+
+**MK-242-A2 | Content can answer the need but ad economics are unknown**
+
+Expected: SEO candidate, Ads pending; do not force Both
 
 ## Method Sources
 

@@ -15,13 +15,13 @@ Do not rank RFM results from different observation periods as if they shared one
 
 ## Required inputs
 
-Provide: de-identified customer, order, date, amount, and refund data
+Deidentified customer key, unique order key, valid dates, cancellation/refund rules, history coverage and observation window
 
 ## Method steps
 
-1. Use Frequency / COUNT of order numbers to filter members with 2 purchases
-2. Use this group to analyze whether a first repeat purchase has occurred and how long it took
-3. Do not equate F=2 with loyalty; use the full RFM segmentation to determine loyalty
+1. Fix history/window, apply valid-order rules and deduplicate by customer/order key before counting item rows
+2. F = distinct valid order keys per customer; deliver F = 2, not COUNT of item rows
+3. Check first/second dates; F = 2 is not loyalty, and customers with three or more orders are outside this exact-two group
 
 ## Calculation and interpretation
 
@@ -39,11 +39,11 @@ First define members, valid orders, refunds, and the period; calculate frequency
 | 6 | Unknowns | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Downstream use | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-382-C05｜One record matches opposing conditions**
+**MK-382-A1 | Two orders with two rows each, no third order**
 
-Expected: mark the data as contradictory or pending classification; do not arbitrarily assign the most common category
+Expected: F = 2, not four; customers with a third order are not exact-two
 
 ## Method sources
 

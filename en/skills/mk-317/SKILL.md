@@ -15,7 +15,7 @@ Permission in robots or the existence of a sitemap does not guarantee indexing; 
 
 ## Required Inputs
 
-Provide: website pages, HTML, existing content, audiences, and search demand
+Page URL, actual title/body, page job, audience and search-question evidence
 
 ## Method Steps
 
@@ -29,15 +29,15 @@ Actually crawl/read content and site structure; check current rules and markup, 
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Subject / location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Conditions for use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Actual evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Check status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Differences / possible causes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Next task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | URL | Use the supplied source, calculation, or explicit unknown |
+| 2 | Original title | Use the supplied source, calculation, or explicit unknown |
+| 3 | Page topic/job | Use the supplied source, calculation, or explicit unknown |
+| 4 | Audience-need evidence | Use the supplied source, calculation, or explicit unknown |
+| 5 | Issue/evidence | Use the supplied source, calculation, or explicit unknown |
+| 6 | Actual revised title | Use the supplied source, calculation, or explicit unknown |
+| 7 | Body/fact alignment | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 

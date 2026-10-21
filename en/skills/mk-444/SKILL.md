@@ -1,6 +1,6 @@
 ---
 name: mk-444
-description: "Brand Background Brief. Use when work requires A fact sheet covering the brand, products, audiences, and limitations; process the specified inputs using this method and verify the deliverable"
+description: "Brand Background Brief. Use when work requires a fact sheet covering the brand, products, audiences, and limitations; process the specified inputs using this method and verify the deliverable"
 ---
 
 # MK-444 | Brand Background Brief
@@ -15,7 +15,7 @@ Maintain, observe, and gather evidence first are valid decisions; do not conceal
 
 ## Required inputs
 
-Provide: brand background, existing data, course rules, and the current decision
+Provide: Brand name, official URL, products/services, audience, approved facts and sources, and names that could be confused
 
 ## Method steps
 
@@ -29,17 +29,23 @@ This task only inventories work; old specifications are not new authorization, a
 
 ## Required output fields
 
-| Order | Field | How to fill it in |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Original question | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 2 | Known evidence | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 3 | Judgment / hypothesis | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 4 | Recommendation | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 5 | Required prerequisites | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 6 | Resources and responsible role | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 7 | Priority rationale | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 8 | Acceptance check | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 9 | Status | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+| 1 | Brand name/official URL | Use the supplied source, calculation, or explicit unknown |
+| 2 | Products/services | Use the supplied source, calculation, or explicit unknown |
+| 3 | Audience | Use the supplied source, calculation, or explicit unknown |
+| 4 | One-sentence introduction | Use the supplied source, calculation, or explicit unknown |
+| 5 | Three-sentence introduction | Use the supplied source, calculation, or explicit unknown |
+| 6 | Verifiable brand facts | Use the supplied source, calculation, or explicit unknown |
+| 7 | Source/date per fact | Use the supplied source, calculation, or explicit unknown |
+| 8 | Confusable names/claims | Use the supplied source, calculation, or explicit unknown |
+| 9 | Unknowns/confirmations | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-444-A1 | Same brand name, different official URLs**
+
+Expected: Use approved URL/facts without merging unrelated brands
 
 ## Method sources
 

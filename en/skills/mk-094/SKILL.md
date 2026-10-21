@@ -15,7 +15,7 @@ Historical seasonality can inform planning but does not guarantee recurrence; do
 
 ## Required inputs
 
-Provide: Annual goals, historical seasonality, brand events, capacity, and budget
+Provide: Monthly goal and actual need, product price and margin, Persona, USP, seasonal/campaign evidence, capacity and budget; annual data only for existing annual dependencies
 
 ## Method
 

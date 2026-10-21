@@ -15,7 +15,7 @@ A content review cannot replace user-behavior data; without performance data, do
 
 ## Required inputs
 
-Provide: Product facts, Persona, selling points, real evidence, offers, and brand information
+Provide: Original customer need or wording, audience, product facts and evidence; the existing opening when revising
 
 ## Method
 
@@ -31,14 +31,18 @@ Quotes, numbers, effects, and testimonials need original support; produce only a
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Original location | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Paragraph task | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Original text/facts | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Gap | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Required revision | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Available evidence | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | CTA/next paragraph | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 8 | Acceptance method | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Original customer need and source | Use the supplied source, calculation, or explicit unknown |
+| 2 | Audience and context | Use the supplied source, calculation, or explicit unknown |
+| 3 | Supported product facts | Use the supplied source, calculation, or explicit unknown |
+| 4 | Complete opening draft | Use the supplied source, calculation, or explicit unknown |
+| 5 | Connection to the need | Use the supplied source, calculation, or explicit unknown |
+| 6 | Facts to confirm | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-121-A1 | Customer asks about cost; only pricing facts exist**
+
+Expected: Address cost in the opening without invented experience
 
 ## Method sources
 

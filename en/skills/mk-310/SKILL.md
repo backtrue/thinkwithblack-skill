@@ -29,16 +29,15 @@ Actually crawl/read content and site structure; check current rules and markup, 
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | URL | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Page task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Corresponding demand | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Original location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Gap type | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Recommended changes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Dependencies | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Acceptance | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Audience | Use the supplied source, calculation, or explicit unknown |
+| 2 | Search intent | Use the supplied source, calculation, or explicit unknown |
+| 3 | Actual question | Use the supplied source, calculation, or explicit unknown |
+| 4 | Suitable page type | Use the supplied source, calculation, or explicit unknown |
+| 5 | Existing page and status | Use the supplied source, calculation, or explicit unknown |
+| 6 | Destination gap | Use the supplied source, calculation, or explicit unknown |
+| 7 | Priority action and reason | Use the supplied source, calculation, or explicit unknown |
 
 ## Method Sources
 

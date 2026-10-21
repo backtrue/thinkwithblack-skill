@@ -20,7 +20,7 @@ Provide: Product facts, existing customer data, surveys, or customer-service rec
 ## Method
 
 1. Look for role-marker products from three angles: functional markers, consumption markers, and contextual markers
-2. Functional markers are strongest: purchase alone separates a distinct identity. Consumption markers use continued usage frequency to confirm a habit; contextual markers only strongly suggest a particular life situation
+2. Functional markers provide role clues, while gifts, proxy purchases, and use by someone else still need checking. Consumption markers use continued usage frequency to observe habits; contextual markers provide clues about a particular life situation
 3. A role-marker product need not be a bestseller; the point is whether its purchase helps the brand determine more confidently "who this person is"
 
 ## Calculations and interpretation

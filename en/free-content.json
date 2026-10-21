@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.20-en.1",
+  "version": "2026.10.21-en.1",
   "language": "en",
-  "sourceVersion": "2026.10.20-free.1",
+  "sourceVersion": "2026.10.21-free.1",
   "entries": [
     {
       "id": "INF-05-07",
@@ -1313,9 +1313,7 @@
       "description": "Use the Persona and reference interest lists to portray everyday life through a set of candidate labels, delivering dimensions, reasons, sources, and gaps. This edition does not verify live platform availability or configure advertising",
       "source": "skills/mk-164/SKILL.md",
       "references": [
-        "skills/mk-164/assets/eachspy-302-interests.csv",
-        "skills/mk-164/assets/interest-reference.md",
-        "skills/mk-164/assets/primenumbers-interests.csv"
+        "skills/mk-164/assets/interest-reference.md"
       ],
       "pack": "packs/mk-164.md"
     },
@@ -1538,7 +1536,7 @@
     {
       "id": "MK-239",
       "name": "Turn Search Terms into FAQs",
-      "description": "Turn Search Terms into FAQs. Use when you need fAQ proposals based on real search questions; apply this method to the specified inputs and verify the deliverable",
+      "description": "Turn Search Terms into FAQs. Use when you need FAQ proposals based on real search questions; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-239/SKILL.md",
       "references": [],
       "pack": "packs/mk-239.md"
@@ -1554,7 +1552,7 @@
     {
       "id": "MK-241",
       "name": "Improve Product Pages Using Search Terms",
-      "description": "Improve Product Pages Using Search Terms. Use when you need needs unanswered by existing pages; apply this method to the specified inputs and verify the deliverable",
+      "description": "Improve Product Pages Using Search Terms. Use when you need to address questions unanswered by existing pages; apply this method to the specified inputs and verify the deliverable",
       "source": "skills/mk-241/SKILL.md",
       "references": [],
       "pack": "packs/mk-241.md"
@@ -2058,7 +2056,7 @@
     {
       "id": "MK-331",
       "name": "FAQ Module Fit",
-      "description": "FAQ Module Fit. Use when work requires fAQ sections supported by actual question demand; process the specified inputs using this method and verify the deliverable",
+      "description": "FAQ Module Fit. Use when work requires FAQ sections supported by actual question demand; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-331/SKILL.md",
       "references": [],
       "pack": "packs/mk-331.md"
@@ -2281,8 +2279,8 @@
     },
     {
       "id": "MK-359",
-      "name": "Non-Branded Brand Test Question Design",
-      "description": "Non-Branded Brand Test Question Design. Use when work requires need-based questions without directly inserting the brand; process the specified inputs using this method and verify the deliverable",
+      "name": "Non-Branded Test Question Design",
+      "description": "Non-Branded Test Question Design. Use when work requires need-based questions without directly inserting the brand; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-359/SKILL.md",
       "references": [],
       "pack": "packs/mk-359.md"
@@ -2410,7 +2408,7 @@
     {
       "id": "MK-381",
       "name": "One-Time Purchaser Identification",
-      "description": "One-Time Purchaser Identification. Use when work requires f1 members and traceable sources; process the specified inputs using this method and verify the deliverable",
+      "description": "One-Time Purchaser Identification. Use when work requires F1 members and traceable sources; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-381/SKILL.md",
       "references": [],
       "pack": "packs/mk-381.md"
@@ -2418,7 +2416,7 @@
     {
       "id": "MK-382",
       "name": "Second-Purchase Member Identification",
-      "description": "Second-Purchase Member Identification. Use when work requires f2 attainment and member groups; process the specified inputs using this method and verify the deliverable",
+      "description": "Second-Purchase Member Identification. Use when work requires F2 attainment and member groups; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-382/SKILL.md",
       "references": [],
       "pack": "packs/mk-382.md"
@@ -2434,7 +2432,7 @@
     {
       "id": "MK-384",
       "name": "New, Existing, and Dormant Member Segmentation",
-      "description": "New, Existing, and Dormant Member Segmentation. Use when work requires nES groups with clear periods and statuses; process the specified inputs using this method and verify the deliverable",
+      "description": "New, Existing, and Dormant Member Segmentation. Use when work requires NES groups with clear periods and statuses; process the specified inputs using this method and verify the deliverable",
       "source": "skills/mk-384/SKILL.md",
       "references": [],
       "pack": "packs/mk-384.md"
@@ -2943,7 +2941,7 @@
     {
       "id": "speak-human-tw",
       "name": "說人話：繁中去 AI 味",
-      "description": "潤飾既有繁體中文長文，保留背景鋪陳、作者關切、自然銜接與完整參考範例",
+      "description": "校對與改寫既有繁體中文長短稿件，保留事實、作者口吻與條件，附完整長文參考範例",
       "source": "supplements/speak-human-tw/SKILL.md",
       "references": [
         "supplements/speak-human-tw/LICENSE",

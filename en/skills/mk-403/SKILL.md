@@ -40,11 +40,11 @@ Verify contact consent, unsubscribes, and message specifications; friend counts 
 | 7 | Deliverables and acceptance | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 8 | Unresolved items | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-403-C05｜Budget unknown but assets can be organized first**
+**MK-403-A1 | Tag lacks a trigger rule**
 
-Expected: deliver the planning that does not depend on a budget first; do not require a complete questionnaire
+Expected: Specify missing entry/exit conditions rather than infer state from its name
 
 ## Method sources
 

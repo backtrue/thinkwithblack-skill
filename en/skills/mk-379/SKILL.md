@@ -57,11 +57,11 @@ Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources
 | 6 | Result | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Missing items / limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-379-C05｜The original specification gives no segment weights or cost ratios**
+**MK-379-A1 | An R value matches two bands**
 
-Expected: list the necessary decisions; do not invent “industry-standard” values
+Expected: Report overlap rather than choose the higher score
 
 ## Method sources
 

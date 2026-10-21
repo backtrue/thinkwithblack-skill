@@ -15,7 +15,7 @@ Creating a draft from scratch here does not automatically invoke Speak Human TW;
 
 ## Required Inputs
 
-Provide: product, audience hypothesis, evidence, landing page, and placement requirements
+Provide: Confirmed Persona and three USPs with evidence; identify missing items and organize what is supplied without inventing replacements
 
 ## Method Steps
 

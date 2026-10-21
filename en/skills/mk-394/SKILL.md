@@ -46,11 +46,11 @@ Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources
 | 7 | Deliverables and acceptance | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 8 | Unresolved items | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-394-C05｜Budget unknown but assets can be organized first**
+**MK-394-A1 | Member matches segment but not offer eligibility**
 
-Expected: deliver the planning that does not depend on a budget first; do not require a complete questionnaire
+Expected: Retain segmentation but exclude the offer; no send-ready status
 
 ## Method sources
 

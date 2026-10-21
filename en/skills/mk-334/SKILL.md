@@ -1,6 +1,6 @@
 ---
 name: mk-334
-description: "Source Check for Important Claims. Use when work requires A mapping of claims to sources that actually support them; process the specified inputs using this method and verify the deliverable"
+description: "Source Check for Important Claims. Use when work requires a mapping of claims to sources that actually support them; process the specified inputs using this method and verify the deliverable"
 ---
 
 # MK-334 | Source Check for Important Claims

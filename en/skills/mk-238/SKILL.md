@@ -11,37 +11,45 @@ For a regular chat, upload `packs/mk-238.md`; it includes the shared rules, this
 
 This Skill delivers: **Grouping by questions rather than word roots alone**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 If the account cannot show all terms, do not call the data complete market demand; the same term can mean different things in different service contexts
 
 ## Required Inputs
 
-Provide: search terms, keywords, campaign performance, pages, and demand hypotheses
+Actual search terms, source/period, product capabilities and existing pages; retain measurement definitions for any performance data
 
 ## Method Steps
 
-1. Use real Search Terms rather than only Keyword hypotheses to complete “Semantic Clustering of Search Demand”
-2. The course outline supports AI clustering of Search Terms into Query Cluster, Search Intent, problem topics, and business value, then Ads / SEO / Both / Ignore
-3. When delivering “Grouping by questions rather than word roots alone,” retain the original search terms and supporting evidence; without real Search Terms, provide only a method plan and do not claim market validation
-4. The outline defines no fixed clustering algorithm, score, or business-value threshold; do not add one
+1. Label each query’s job, audience, conditions and intent before grouping by wording
+2. Group terms when one answer/page can serve the same job; split shared roots with different uses and retain ambiguity
+3. Name clusters, list member queries and reasons, and check omissions/duplicates; without actual terms, label the output as a planning hypothesis
 
 ## Calculation and Interpretation
 
-Search term reports may not cover the entire market; observe when evidence is insufficient, and do not choose negative keywords from guesses alone
+Cluster by question and destination; aggregate performance only on comparable periods and definitions, without inventing scores
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Search term | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Original keyword and group | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Cost / result | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Intent fit | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Problem type | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Recommended action | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Affected scope | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Review | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Original query and source | Use the supplied source, calculation, or explicit unknown |
+| 2 | Job and intent | Use the supplied source, calculation, or explicit unknown |
+| 3 | Cluster | Use the supplied source, calculation, or explicit unknown |
+| 4 | Member terms and rationale | Use the supplied source, calculation, or explicit unknown |
+| 5 | Split or ambiguity | Use the supplied source, calculation, or explicit unknown |
+| 6 | Destination | Use the supplied source, calculation, or explicit unknown |
+| 7 | Next step | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-238-A1 | “Apple” refers to fruit storage and phone repair**
+
+Expected: Create separate clusters
+
+**MK-238-A2 | Different wording asks how to replace the same model’s battery**
+
+Expected: Group while preserving original queries
 
 ## Method Sources
 

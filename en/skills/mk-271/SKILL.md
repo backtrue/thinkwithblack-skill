@@ -11,42 +11,45 @@ For a regular chat, upload `packs/mk-271.md`; it includes the shared rules, this
 
 This Skill delivers: **Arrangements for new-customer exploration and follow-up communication**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 Views or clicks do not automatically stand in for sales; do not directly rank channels measured on different bases
 
 ## Required Inputs
 
-Provide: demand events, existing terms, audiences, creative, and advertising data
+Acquisition goal, existing engagement/purchase audience rules, windows, exclusions, messages and pages
 
 ## Method Steps
 
-1. Demand Gen develops demand before customers actively search; first build hypotheses from demand-triggering events, existing search terms, website visitors, customer data, and conversion records
-2. For “Cold and Warm Audience Test Roles,” deliver “Arrangements for new-customer exploration and follow-up communication” while retaining the relationships among audience hypotheses, creative angles, channels, landing pages, and conversion goals
-3. The outline supports cold audiences, custom segments, first-party data, remarketing, and an audience × creative test matrix; AI-generated audiences remain hypotheses to validate through advertising
-4. The outline provides no fixed audience thresholds, creative specifications, budget ratios, or diagnostic cutoffs; check current official information when current Demand Gen features are involved
+1. Separate prospecting from re-engagement using observed rules; warm does not mean ready to buy
+2. Define each role’s job, message, destination and outcome; use known behavior to choose the next information
+3. Check windows/overlap and specify handling; budgets follow resources and the question, not a fixed ratio
 
 ## Calculation and Interpretation
 
-The main current source is a course outline; complete decision rules, data contracts, and case tests are still missing
+Retain differing baseline propensity and measurement; higher re-engagement conversion does not prove stronger acquisition
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Source subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Target subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Task to address | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Evidence of fit | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Applicable conditions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Unmapped items / conflicts | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Next step | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Cold/warm role | Use the supplied source, calculation, or explicit unknown |
+| 2 | Inclusion/exclusion | Use the supplied source, calculation, or explicit unknown |
+| 3 | Window and overlap | Use the supplied source, calculation, or explicit unknown |
+| 4 | Job | Use the supplied source, calculation, or explicit unknown |
+| 5 | Message/destination | Use the supplied source, calculation, or explicit unknown |
+| 6 | Outcome metric | Use the supplied source, calculation, or explicit unknown |
+| 7 | Resources and open issues | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-271-C05｜One subject has two different uses**
+**MK-271-A1 | Warm audience includes buyers but offer is new-customer-only**
 
-Expected: list uses and conditions separately rather than force a single match
+Expected: Add exclusion or revise message
+
+**MK-271-A2 | No budget supplied**
+
+Expected: Deliver roles without inventing a 70/30 split
 
 ## Method Sources
 

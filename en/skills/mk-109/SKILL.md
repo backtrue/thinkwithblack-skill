@@ -15,7 +15,7 @@ Do not fabricate discounts, gift inventory, countdown deadlines, limited quantit
 
 ## Required inputs
 
-Provide: Campaign goals, products, costs, real offer conditions, and customer groups
+Keep symbols for formula questions; calculations need product net revenue excluding shipping P, buyer shipping charge F, logistics expense L, other costs C, whether receipts include F, existing orders N and original/new offer conditions
 
 ## Method
 
@@ -31,13 +31,16 @@ Check gross margin and stacked offers; time limits, inventory, and benefits must
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Object/location | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Conditions for adoption | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Actual evidence | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Check status | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Difference/candidate cause | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Next task | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Limitations | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Offer and conditions | Use the supplied source, calculation, or explicit unknown |
+| 2 | Product net revenue P | Use the supplied source, calculation, or explicit unknown |
+| 3 | Buyer shipping revenue F | Use the supplied source, calculation, or explicit unknown |
+| 4 | Logistics expense L | Use the supplied source, calculation, or explicit unknown |
+| 5 | Other costs C | Use the supplied source, calculation, or explicit unknown |
+| 6 | Whether receipts include F | Use the supplied source, calculation, or explicit unknown |
+| 7 | Original/new contribution calculation | Use the supplied source, calculation, or explicit unknown |
+| 8 | Existing-order difference N×F | Use the supplied source, calculation, or explicit unknown |
+| 9 | New-order contribution | Use the supplied source, calculation, or explicit unknown |
+| 10 | Unknowns and missing data | Use the supplied source, calculation, or explicit unknown |
 
 ## MK-109 supplementary method: checking revenue and expenses in free-shipping offers
 
@@ -55,13 +58,17 @@ For free-shipping comparisons, follow the separate verification of revenue and e
 
 ## Verification cases
 
-**MK-109-C05 | The data meets the existing conditions**
+**MK-109-A1 | P=500, F=60, L=80, C=300, N=10**
 
-Expected: Report usable or maintain; do not manufacture a need for changes
+Expected: Original contribution180, new120; existing orders lose600, not logistics80 substituted for shipping60
 
-**MK-109-C06 | The tool returns an error**
+**MK-109-A2 | Only L=80 is known, F unknown**
 
-Expected: Report that the data was not obtained; do not classify it as a business anomaly
+Expected: Keep original P+F−80−C, new P−80−C and difference −F
+
+**MK-109-A3 | Receipts560 already include F=60**
+
+Expected: Derive P=500; do not add60 to560
 
 ## Method sources
 

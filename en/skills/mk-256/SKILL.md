@@ -15,13 +15,14 @@ When IDs cannot be matched one-to-one, leave them unmatched rather than guess; d
 
 ## Required Inputs
 
-Provide: product Feed, actual website information, SKU performance, and disapproval messages
+Catalog platform and link, image_link, and additional_image_link values by SKU or variant; product pages and authoritative product images; current read results and relevant official image and link specifications
 
 ## Method Steps
 
-1. link points to the actual product page; image_link uses the primary product image, while additional_image_link can contain other product images
-2. Check that links open, images are accessible, and both match the product
-3. Verify additional-image limits against current platform specifications; the Google/Facebook counts in the course reflect the platform at that time and require rechecking before actual execution
+1. Preserve original link, image_link, and additional_image_link values by SKU or variant; read the URLs and final redirect destinations, recording response status and time
+2. Verify the landing product and variant and inspect whether accessible images depict that product rather than another color or model; a downloadable image is not proof of a content match
+3. Check format, dimensions, additional-image limits, and URL requirements against the actual platform’s current official specifications, recording sources and dates; leave missing access or specification evidence pending
+4. Deliver access and matching results for each URL plus corrected URLs or missing-image requests; after an actual replacement, read back the page and image rather than treating a proposed URL as verified
 
 ## Calculation and Interpretation
 
@@ -29,25 +30,21 @@ Use product data for specifications and prices; verify catalog fields and disapp
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Subject / location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Conditions for use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Actual evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Check status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Differences / possible causes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Next task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | SKU or variant and original URL field | Use the supplied source, calculation, or explicit unknown |
+| 2 | Response status, final URL, and read time | Use the supplied source, calculation, or explicit unknown |
+| 3 | Actual page or image content | Use the supplied source, calculation, or explicit unknown |
+| 4 | Product or variant match result | Use the supplied source, calculation, or explicit unknown |
+| 5 | Specification source, date, and check result | Use the supplied source, calculation, or explicit unknown |
+| 6 | Corrected URL or missing-image request | Use the supplied source, calculation, or explicit unknown |
+| 7 | Post-change readback and unresolved items | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-256-C05｜Data meets existing conditions**
+**MK-256-A1 | An image URL opens, but a blue SKU displays a red product**
 
-Expected: report usable or keep as is; do not invent a need for changes
-
-**MK-256-C06｜The tool returns an error**
-
-Expected: report data not obtained; do not classify the tool error as a business anomaly
+Expected: Pass access and fail variant matching; request the correct blue image and read it back after an actual replacement
 
 ## Method Sources
 

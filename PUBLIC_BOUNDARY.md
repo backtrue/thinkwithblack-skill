@@ -1,6 +1,6 @@
 # 免費內容與進階服務
 
-免費版是 thinkwithblack-skills 儲存庫與 Google Drive 共用的一套教材，依公開清單提供相同版本的方法與參考
+免費版是 thinkwithblack-skill 儲存庫與 Google Drive 共用的一套教材，依公開清單提供相同版本的方法與參考
 
 | 免費教材 | thinkwithblack-mcp 承接的工作 |
 |---|---|

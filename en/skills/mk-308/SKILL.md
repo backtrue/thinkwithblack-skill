@@ -15,7 +15,7 @@ Asset group signals are not equivalent to precise audience targeting; separately
 
 ## Required Inputs
 
-Provide: website pages, HTML, existing content, audiences, and search demand
+Site URL inventory/readable content, existing page jobs and available audience/search-need evidence
 
 ## Method Steps
 
@@ -29,16 +29,16 @@ Actually crawl/read content and site structure; check current rules and markup, 
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Check dimension | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Valid data and sources | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Configuration scope | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Observations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Overlap / interference | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Recommended candidates | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Required prerequisites | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Acceptance | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | URL | Use the supplied source, calculation, or explicit unknown |
+| 2 | Page type | Use the supplied source, calculation, or explicit unknown |
+| 3 | Existing job/audience need | Use the supplied source, calculation, or explicit unknown |
+| 4 | Readable content/state | Use the supplied source, calculation, or explicit unknown |
+| 5 | Search need/evidence | Use the supplied source, calculation, or explicit unknown |
+| 6 | SEO foundation/gaps | Use the supplied source, calculation, or explicit unknown |
+| 7 | AEO answer/node gaps | Use the supplied source, calculation, or explicit unknown |
+| 8 | Next step | Use the supplied source, calculation, or explicit unknown |
 
 ## Method Sources
 

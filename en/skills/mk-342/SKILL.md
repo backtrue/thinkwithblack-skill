@@ -1,6 +1,6 @@
 ---
 name: mk-342
-description: "Standard Brand Name Organization. Use when work requires A primary name, aliases, and wording that avoids confusion; process the specified inputs using this method and verify the deliverable"
+description: "Standard Brand Name Organization. Use when work requires a primary name, aliases, and wording that avoids confusion; process the specified inputs using this method and verify the deliverable"
 ---
 
 # MK-342 | Standard Brand Name Organization

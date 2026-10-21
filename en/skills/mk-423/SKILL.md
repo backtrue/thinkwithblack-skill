@@ -15,13 +15,13 @@ High reach supports observations about content, not paid conversion performance;
 
 ## Required inputs
 
-Provide: monthly themes, existing assets, real customer feedback, and content performance
+Original article or specified passages, audience/platform, product facts and conditions to preserve, adaptation purpose and length requirements
 
 ## Method steps
 
-1. The original course materials do not define a fixed algorithm for splitting long articles into short posts
-2. Extract a single question, viewpoint, or product education point from existing educational resources, roundup / comparison articles, or member newsletters for short social content
-3. The resulting pieces must still fit the month's marketing theme and target audience; do not repost everything merely because the original exists
+1. Select one question the source answers and locate its supporting facts
+2. Write a complete standalone short post, retaining conditions/author perspective without turning examples into universal outcomes
+3. Check each sentence against the source and remove invented numbers, experiences or causality; deliver the passage mapping and actual post
 
 ## Calculation and interpretation
 
@@ -29,16 +29,20 @@ Content reuse requires fidelity and permission; assess reach, engagement, clicks
 
 ## Required output fields
 
-| Order | Field | How to fill it in |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Date / topic | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 2 | Audience task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 3 | Angle | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 4 | Format | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 5 | Original evidence | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 6 | Production requirements | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 7 | Destination page / CTA | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 8 | Acceptance check | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+| 1 | Source passage/topic | Use the supplied source, calculation, or explicit unknown |
+| 2 | Preserved facts/conditions | Use the supplied source, calculation, or explicit unknown |
+| 3 | Complete short post | Use the supplied source, calculation, or explicit unknown |
+| 4 | Platform/length | Use the supplied source, calculation, or explicit unknown |
+| 5 | Sentence-to-source mapping | Use the supplied source, calculation, or explicit unknown |
+| 6 | Open confirmations | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-423-A1 | Source says only some tested participants benefited**
+
+Expected: Retain scope/conditions, not universal benefit
 
 ## Method sources
 

@@ -15,13 +15,14 @@ Products occurring in the same transaction do not establish psychological motive
 
 ## Required inputs
 
-Provide: SKUs, product costs, customer groups, purchase records, and product lines
+Provide: Product capabilities and limits, current audience and uses, customer/market need signals, stock and costs; records of new-use orders if available
 
 ## Method
 
-1. For audiences already converting, use lookalike audiences and ADV+ to reach more potential buyers
-2. Before scaling, confirm that the original buyers were identified by a product with meaningful role-marking power; avoid amplifying incorrect signals from a vague buyer group
-3. Advertising is a way to amplify reach, not the only way to discover role-marker products
+1. List demonstrated capabilities, limitations and current uses
+2. Find different uses in customer wording, service records or market questions, then identify possible roles without inferring identity from age or one purchase
+3. Check whether the existing product can complete each job, required conditions and counterexamples; retain unmet needs
+4. Prioritize by need evidence and supply capacity, specify observable validation, and check cost/outcomes when actual orders exist
 
 ## Calculations and interpretation
 
@@ -31,13 +32,19 @@ Product selections and next-need proposals are candidates; check inventory, gros
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Product/role | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Need clues | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Sales and gross margin | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Pairing or follow-on relationship | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Supply constraints | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Candidate approach | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Reason | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Product capabilities and evidence | Use the supplied source, calculation, or explicit unknown |
+| 2 | Current use and audience | Use the supplied source, calculation, or explicit unknown |
+| 3 | Candidate new use and role | Use the supplied source, calculation, or explicit unknown |
+| 4 | Observed need signals | Use the supplied source, calculation, or explicit unknown |
+| 5 | What the existing product can and cannot meet | Use the supplied source, calculation, or explicit unknown |
+| 6 | Stock and contribution conditions | Use the supplied source, calculation, or explicit unknown |
+| 7 | Validation question, method and revision condition | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-085-A1 | Customers use the product for another evidenced job**
+
+Expected: Deliver a role/use candidate, limits and validation, not merely a lookalike audience
 
 ## Method sources
 

@@ -15,7 +15,9 @@ Recalculability does not mean the data is complete; break-even points and cost c
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+Provide: Revenue, gross margin rate or costs, marketing expense and the ROI definition for the same analysis scope
+
+For method questions, provide the formula, variables and an example directly; for a calculation, ask only for missing operands
 
 ## Method
 

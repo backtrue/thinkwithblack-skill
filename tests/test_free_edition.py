@@ -27,6 +27,30 @@ class FreeEditionTests(unittest.TestCase):
     def test_path_cannot_escape_repository(self):
         p=self.root/'free-content.json';m=json.loads(p.read_text());m['entries'][0]['references']=['../outside.md'];p.write_text(json.dumps(m))
         with self.assertRaisesRegex(ValueError,'outside repository'):b.generate(self.root)
+    def test_skill_description_and_index_cannot_drift(self):
+        p=self.root/'free-content.json';m=json.loads(p.read_text())
+        m['entries'][0]['description']='A different routing promise'
+        p.write_text(json.dumps(m))
+        with self.assertRaisesRegex(ValueError,'description/index mismatch'):b.generate(self.root)
+    def test_missing_or_duplicate_discovery_metadata_is_rejected(self):
+        p=self.root/'skills/mk-001/SKILL.md';original=p.read_text()
+        for replacement in ['', 'name: mk-001\nname: another-name\n']:
+            with self.subTest(replacement=replacement):
+                p.write_text(original.replace('name: mk-001\n',replacement))
+                with self.assertRaisesRegex(ValueError,'Missing or duplicate Skill name'):b.load(self.root)
+    def test_skill_name_matches_its_directory(self):
+        p=self.root/'skills/mk-001/SKILL.md';p.write_text(p.read_text().replace('name: mk-001','name: different-method'))
+        with self.assertRaisesRegex(ValueError,'name/path mismatch'):b.load(self.root)
+    def test_metadata_accepts_quoted_and_folded_descriptions(self):
+        p=self.base/'SKILL.md'
+        expected = 'A "quoted" description'
+        for value in [json.dumps(expected), "'" + expected + "'", '>\n  A "quoted"\n  description']:
+            p.write_text('---\nname: sample\ndescription: '+value+'\n---\n')
+            self.assertEqual(b.skill_metadata(p)['description'],'A "quoted" description')
+    def test_chinese_fragment_is_checked_before_packaging(self):
+        p=self.root/'skills/mk-001/SKILL.md';p.write_text(p.read_text()+'\n[來源](#不存在的章節)\n')
+        b.generate(self.root)
+        with self.assertRaisesRegex(ValueError,'Broken local fragment'):b.package(self.root,self.base/'out')
     def test_reproducible_archives_and_same_content(self):
         r1=b.package(self.root,self.base/'one');r2=b.package(self.root,self.base/'two')
         self.assertEqual(r1,r2)
@@ -57,6 +81,17 @@ class FreeEditionTests(unittest.TestCase):
         self.assertIn('speak-human-tw',out['INDEX.md'].decode())
         catalog=json.loads(out['catalog.json'])
         self.assertEqual(catalog['supplements'][0]['sourceSha256'],b.sha((self.root/supplement['source']).read_bytes()))
+    def test_interest_pack_keeps_guide_without_redistributing_datasets(self):
+        for language in ['', 'en/']:
+            manifest=json.loads((self.root/(language+'free-content.json')).read_text())
+            entry=next(e for e in manifest['entries'] if e['id']=='MK-164')
+            self.assertEqual(entry['references'],['skills/mk-164/assets/interest-reference.md'])
+            pack=(self.root/(language+entry['pack'])).read_text()
+            self.assertIn('https://www.eachspy.com/terms/',pack)
+            self.assertIn('https://primenumbers.co.jp/download/meta_interesting/',pack)
+            self.assertNotIn('eachspy-302-interests.csv',pack)
+            self.assertNotIn('primenumbers-interests.csv',pack)
+            self.assertNotIn('Advertising,466M',pack)
     def test_supplement_missing_reference_is_rejected(self):
         (self.root/'supplements/speak-human-tw/references/long-form-approved-example.md').unlink()
         with self.assertRaisesRegex(ValueError,'Missing supplemental source'):b.verify(self.root)

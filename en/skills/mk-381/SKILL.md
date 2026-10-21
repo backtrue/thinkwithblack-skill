@@ -15,13 +15,13 @@ Do not rank RFM results from different observation periods as if they shared one
 
 ## Required inputs
 
-Provide: de-identified customer, order, date, amount, and refund data
+Deidentified customer key, unique order key, valid dates, cancellation/refund rules, history coverage and observation window
 
 ## Method steps
 
-1. Use Frequency / COUNT of order numbers to filter members who have purchased only once
-2. The course materials call this group F1 and prioritize moving them toward a second purchase in member management
-3. Cross-reference with people who made their first purchase last month for a first repeat purchase plan
+1. Fix history/window, apply valid-order rules and deduplicate by customer/order key before counting item rows
+2. F = distinct valid order keys per customer; deliver F = 1, not COUNT of item rows
+3. Retain order keys and period; partial history is not lifetime frequency
 
 ## Calculation and interpretation
 
@@ -40,6 +40,12 @@ First define members, valid orders, refunds, and the period; calculate frequency
 | 7 | Applied segmentation rules | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 8 | Segment | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 9 | Limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+
+## Verification cases
+
+**MK-381-A1 | One purchase with three item rows**
+
+Expected: Still F1
 
 ## Method sources
 

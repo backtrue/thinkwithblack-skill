@@ -15,7 +15,7 @@ Historical seasonality can inform planning but does not guarantee recurrence; do
 
 ## Required inputs
 
-Provide: Annual goals, historical seasonality, brand events, capacity, and budget
+New products and current bestsellers, launch conditions/dates, product and collaboration-packaging costs, production/sourcing timeline, campaign goal, stock and budget
 
 ## Method
 
@@ -31,19 +31,20 @@ Use actual brand data for campaign dates and high/low seasons; classroom schedul
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Source item | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Target item | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Supporting task | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Evidence of fit | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Applicable conditions | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Unmatched items/conflicts | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Next step | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Product/new-or-bestseller role | Use the supplied source, calculation, or explicit unknown |
+| 2 | Campaign/dates | Use the supplied source, calculation, or explicit unknown |
+| 3 | Launch conditions/prerequisites | Use the supplied source, calculation, or explicit unknown |
+| 4 | Production, sourcing and packaging timeline | Use the supplied source, calculation, or explicit unknown |
+| 5 | Product/collaboration costs | Use the supplied source, calculation, or explicit unknown |
+| 6 | Stock/budget feasibility | Use the supplied source, calculation, or explicit unknown |
+| 7 | Handoff relationship | Use the supplied source, calculation, or explicit unknown |
+| 8 | Conflicts/adjustment conditions | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification cases
 
-**MK-098-C05 | One item has two distinct uses**
+**MK-098-A1 | New product sourcing completes after the planned campaign**
 
-Expected: List the uses and conditions separately; do not force a single match
+Expected: Flag the dependency conflict and revise the handoff date or retain the bestseller; do not call the new product launch-ready
 
 ## Method sources
 

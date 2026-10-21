@@ -15,17 +15,17 @@ Do not rank RFM results from different observation periods as if they shared one
 
 ## Required inputs
 
-Provide: de-identified customer, order, date, amount, and refund data
+Deidentified customer/order/item keys, revenue-field definition, refund/cancellation rules, observation window and currency
 
 ## Method steps
 
-1. To assess spending capacity per purchase, use AVERAGE to calculate each member's average order amount
-2. Do not conflate average order value with cumulative spending as one M measure; the course materials assign these calculations different purposes
-3. Average order value can inform subsequent M tiers and pricing for campaign bundles
+1. Create one net-amount row per valid order, counting repeated order totals once and applying agreed refunds
+2. Customer AOV = total valid-order net revenue / distinct valid orders, not AVERAGE of raw item rows
+3. Show total, count and average separately; zero orders means undefined average, and missing data differs from confirmed zero transactions
 
 ## Calculation and interpretation
 
-First define members, valid orders, refunds, and the period; calculate frequency using orders rather than item rows
+Deduplicate repeated order totals; if only item amounts exist, aggregate by order first. Do not mix these representations
 
 ## Required output fields
 
@@ -39,11 +39,11 @@ First define members, valid orders, refunds, and the period; calculate frequency
 | 6 | Result | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Missing items / limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-377-C05｜The original specification gives no segment weights or cost ratios**
+**MK-377-A1 | Order A total 100 repeated twice, B total 300 once**
 
-Expected: list the necessary decisions; do not invent “industry-standard” values
+Expected: Two-order AOV 200, not row average 166.67
 
 ## Method sources
 

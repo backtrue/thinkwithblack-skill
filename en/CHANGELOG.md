@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026.10.21-en.1
+
+- Review all 365 methods across content, routing, consistency, structure, execution and maintenance
+- Align inputs and required outputs; complete distinct Search, Shopping, Demand Gen and video workflows
+- Correct order deduplication, recency dates, median, nonpositive contribution and free-shipping comparisons with specific validation cases
+- Synchronize English source/index descriptions and validate discovery metadata and local fragments during builds
+- Keep MK-164 third-party source navigation and use an available list supplied for the task
+
 ## 2026.10.20-en.1
 
 MK-137 counts all text before the arrow as one complete 7–8-character Traditional Chinese CTA, including every prefix; remove the extra introduction allowance and update validation examples

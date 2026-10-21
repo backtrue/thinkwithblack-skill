@@ -15,13 +15,15 @@ If the account cannot show all terms, do not call the data complete market deman
 
 ## Required Inputs
 
-Provide: search terms, keywords, campaign performance, pages, and demand hypotheses
+Original Search Terms report with export source and timestamp, covered period, time zone, currency, filters and visible-row coverage, field definitions, and available tracking or conversion mappings
 
 ## Method Steps
 
-1. Confirm that the data contains customers' actual Search Terms, not Keyword hypotheses presented as real market language
-2. Retain at least each search term, corresponding ad/keyword, clicks/cost, and available conversion data so next actions can be judged
-3. Without tracking or a data bridge, analyze only demand language and relevance; do not claim which terms produce business value
+1. Verify that rows are actual customer Search Terms and retain the original file, export timestamp, and source; keep Keywords and generated ideas separate
+2. Check period, time zone, currency, filters, aggregation level, and coverage; identify missing dates, mixed periods, truncation, and hidden portions
+3. Check types and definitions for queries, associated ads or keywords, clicks, cost, and available conversions; distinguish zero, blank, untracked, and hidden values; inspect actual row dimensions before treating repeated query text as duplication
+4. Verify the mapping from tracked conversions to business outcomes; without that bridge, retain language and relevance analysis and leave business value unconfirmed
+5. Deliver a field-health table, supported analysis scope, and missing-data requests; preserve raw values and record any cleaning rules
 
 ## Calculation and Interpretation
 
@@ -29,25 +31,22 @@ Search term reports may not cover the entire market; observe when evidence is in
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Subject / location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Conditions for use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Actual evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Check status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Differences / possible causes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Next task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Source, export time, and covered period | Use the supplied source, calculation, or explicit unknown |
+| 2 | Time zone, currency, filters, and coverage | Use the supplied source, calculation, or explicit unknown |
+| 3 | Field name, type, and definition | Use the supplied source, calculation, or explicit unknown |
+| 4 | Missing, zero, untracked, or hidden status | Use the supplied source, calculation, or explicit unknown |
+| 5 | Duplicate and aggregation checks | Use the supplied source, calculation, or explicit unknown |
+| 6 | Tracking-to-business-outcome mapping | Use the supplied source, calculation, or explicit unknown |
+| 7 | Supported analysis and missing data | Use the supplied source, calculation, or explicit unknown |
+| 8 | Raw values, cleaning rules, and effects | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-232-C05｜Data meets existing conditions**
+**MK-232-A1 | A report has queries and clicks but no dates or conversion field**
 
-Expected: report usable or keep as is; do not invent a need for changes
-
-**MK-232-C06｜The tool returns an error**
-
-Expected: report data not obtained; do not classify the tool error as a business anomaly
+Expected: Mark the period unknown and conversions unavailable; organize demand language, but do not compare period performance or fill the absent conversion column with zeros
 
 ## Method Sources
 

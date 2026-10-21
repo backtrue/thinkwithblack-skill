@@ -15,13 +15,13 @@ Permission in robots or the existence of a sitemap does not guarantee indexing; 
 
 ## Required Inputs
 
-Provide: website pages, HTML, existing content, audiences, and search demand
+Pages/page types in scope, product/service capabilities, original customer questions/context and existing audience/intent evidence
 
 ## Method Steps
 
-1. Define the website's 3 most likely target audiences, describing identity characteristics, current situation, real problems, reasons for starting a search, and distance from action
-2. Audiences are working hypotheses for predicting questions and must later be validated with actual search/customer data
-3. Do not treat these three audiences as the website's only customer groups
+1. State the customer question for each page/page type, preserving original context/source
+2. Describe the audience role/hypothesis, difficulty, search reason and distance from action; identify whether the page should explain, compare or support action
+3. Map page type × audience × job; prioritize conflicting jobs or propose separate pages, retaining unknown needs for validation
 
 ## Calculation and Interpretation
 
@@ -29,16 +29,22 @@ Actually crawl/read content and site structure; check current rules and markup, 
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | URL | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Page task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Corresponding demand | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Original location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Gap type | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Recommended changes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Dependencies | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Acceptance | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Page or page type | Use the supplied source, calculation, or explicit unknown |
+| 2 | Audience role/hypothesis | Use the supplied source, calculation, or explicit unknown |
+| 3 | Context/difficulty | Use the supplied source, calculation, or explicit unknown |
+| 4 | Search reason | Use the supplied source, calculation, or explicit unknown |
+| 5 | Distance from action | Use the supplied source, calculation, or explicit unknown |
+| 6 | Primary page job | Use the supplied source, calculation, or explicit unknown |
+| 7 | Original evidence | Use the supplied source, calculation, or explicit unknown |
+| 8 | Conflicts/validation | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-309-A1 | Some users want explanation while others compare products**
+
+Expected: Map explanation and comparison page jobs separately with sources rather than force one sales page
 
 ## Method Sources
 

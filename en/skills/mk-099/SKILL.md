@@ -15,7 +15,7 @@ Historical seasonality can inform planning but does not guarantee recurrence; do
 
 ## Required inputs
 
-Provide: Annual goals, historical seasonality, brand events, capacity, and budget
+Provide: Method questions can use a relative T-day schedule directly; an actual schedule needs the goal, start/end dates, products/offers, production and approval lead times, fulfillment capacity and resource conflicts
 
 ## Method
 

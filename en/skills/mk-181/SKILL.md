@@ -15,7 +15,7 @@ Event groups do not necessarily represent the same people dropping off at each s
 
 ## Required Inputs
 
-Provide: the event funnel, pages, existing audiences, and actual offer terms
+Source, event, product/page scope, inclusion window, exclusions, existing naming rules and version/date
 
 ## Method Steps
 
@@ -29,16 +29,21 @@ Verify source periods, audience overlap, and exclusions; funnel changes alone do
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Behavioral conditions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Period | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Exclusions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Known behavior | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Barriers to validate | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Next-stage message | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Execution status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Proposed name string | Use the supplied source, calculation, or explicit unknown |
+| 2 | Event and source | Use the supplied source, calculation, or explicit unknown |
+| 3 | Product or page scope | Use the supplied source, calculation, or explicit unknown |
+| 4 | Inclusion window | Use the supplied source, calculation, or explicit unknown |
+| 5 | Exclusions | Use the supplied source, calculation, or explicit unknown |
+| 6 | Version or update date | Use the supplied source, calculation, or explicit unknown |
+| 7 | Duplicate-name and ambiguity check | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-181-A1 | Same event, different windows**
+
+Expected: Include windows in names so the groups remain distinguishable
 
 ## Method Sources
 

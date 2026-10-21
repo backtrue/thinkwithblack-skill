@@ -11,46 +11,47 @@ For a regular chat, upload `packs/mk-291.md`; it includes the shared rules, this
 
 This Skill delivers: **A comparison of view rate, cost, and the media task**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 Without evidence of reading the video or audio, provide recommendations only for the available text; do not invent video content
 
 ## Required Inputs
 
-Provide: video, transcript, timecodes, media goals, audience, and performance
+Videos, formats, audiences, impressions, platform-defined views, cost and media goal for comparable periods, with field definitions
 
 ## Method Steps
 
-1. First define whether the video's media task is reach, views, frequency, engagement, or another approved objective, then address “Video View Quality Diagnosis”
-2. The outline supports creative and media planning around the first 3–5 seconds, opening hook, brand, evidence, CTA, video sequences, and viewing contexts such as Shorts / In-stream / Bumper
-3. When delivering “A comparison of view rate, cost, and the media task,” distinguish the audience, placement/format, video, and media task; view metrics cannot be presented as causal evidence of sales
-4. The outline provides no fixed frequency, view rate, CPV, or best threshold by format; verify current YouTube Ads specifications through official sources
+1. Separate formats/definitions, retaining distinctions among TrueView views, public views and other plays
+2. Check denominators and calculate applicable view rate, CPV and CPM; retain inapplicable fields
+3. Compare with the media task and comparable baseline, reporting observations/confounds rather than sales causality
 
 ## Calculation and Interpretation
 
-The main current source is a course outline; verify current placements and formats, and do not treat view metrics as causal evidence of sales
+Where applicable, view rate = consistently defined views / impressions; CPV = cost / views; CPM = cost / impressions × 1000, with no zero-denominator calculation. Bumper/non-skippable formats have no TrueView views; do not substitute other view counts
+
+Source: [Google: Video formats and view definitions](https://support.google.com/google-ads/answer/2375464?hl=en)
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Subject / location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Conditions for use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Actual evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Check status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Differences / possible causes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Next task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Video/format | Use the supplied source, calculation, or explicit unknown |
+| 2 | Period/audience | Use the supplied source, calculation, or explicit unknown |
+| 3 | Original metric definition | Use the supplied source, calculation, or explicit unknown |
+| 4 | Values/denominators | Use the supplied source, calculation, or explicit unknown |
+| 5 | Calculation/result | Use the supplied source, calculation, or explicit unknown |
+| 6 | Media-task comparison | Use the supplied source, calculation, or explicit unknown |
+| 7 | Confounds/open issues | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-291-C05｜Data meets existing conditions**
+**MK-291-A1 | Bumper has impressions/cost only**
 
-Expected: report usable or keep as is; do not invent a need for changes
+Expected: CPM available; TrueView view rate inapplicable
 
-**MK-291-C06｜The tool returns an error**
+**MK-291-A2 | Cost 100, 50 comparable views**
 
-Expected: report data not obtained; do not classify the tool error as a business anomaly
+Expected: CPV two, interpreted against the task
 
 ## Method Sources
 

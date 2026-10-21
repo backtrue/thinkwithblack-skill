@@ -15,7 +15,7 @@ Do not send messages or create automation without approval; if a tool cannot sho
 
 ## Required inputs
 
-Provide: friend or subscriber status, permissions, product content, campaigns, and channel reports
+Provide: Actual joining/redemption steps, links or screens, each step’s tested state/errors, next destination, incentive conditions and available funnel data
 
 ## Method steps
 
@@ -39,15 +39,11 @@ Verify contact consent, unsubscribes, and message specifications; friend counts 
 | 6 | Next task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-400-C05｜Data meets the existing conditions**
+**MK-400-A1 | Drop-off report exists, redemption steps unavailable**
 
-Expected: Report that it is usable or should be maintained; do not invent a need for changes
-
-**MK-400-C06｜Tool returns an error**
-
-Expected: Report that the data was not obtained; do not classify it as a business anomaly
+Expected: List step/screen checks without claiming a broken button
 
 ## Method sources
 

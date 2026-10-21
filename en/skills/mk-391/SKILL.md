@@ -47,11 +47,11 @@ Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources r
 | 7 | Deliverables and acceptance | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 8 | Unresolved items | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-391-C05｜Budget unknown but assets can be organized first**
+**MK-391-A1 | Replenishment cycle is only assumed**
 
-Expected: deliver the planning that does not depend on a budget first; do not require a complete questionnaire
+Expected: Label assumption/evidence needed, not a definite depletion date
 
 ## Method sources
 

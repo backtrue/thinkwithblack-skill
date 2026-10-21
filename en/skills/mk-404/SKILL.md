@@ -47,11 +47,11 @@ Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources r
 | 7 | Deliverables and acceptance | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 8 | Unresolved items | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-404-C05｜Budget unknown but assets can be organized first**
+**MK-404-A1 | One tag represents two distinct needs**
 
-Expected: deliver the planning that does not depend on a budget first; do not require a complete questionnaire
+Expected: Split rules or clarify purpose instead of forcing one message
 
 ## Method sources
 

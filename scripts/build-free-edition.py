@@ -24,6 +24,33 @@ def safe(root,rel):
     if (root/rel).is_symlink():raise ValueError('Symlink is not a public source: '+rel)
     return p
 
+def skill_metadata(path):
+    """Read the public source's required scalar metadata without dependencies."""
+    match=re.match(r'\A---\n(.*?)\n---(?:\n|$)',path.read_text(),re.S)
+    if not match:raise ValueError('Missing Skill frontmatter: '+str(path))
+    lines=match[1].splitlines();result={}
+    for key in ['name','description']:
+        matches=[i for i,line in enumerate(lines) if re.match(r'^'+key+r'\s*:',line)]
+        if len(matches)!=1:raise ValueError('Missing or duplicate Skill '+key+': '+str(path))
+        index=matches[0];value=lines[index].split(':',1)[1].strip()
+        if value in {'>','>-','>+','|','|-','|+'}:
+            parts=[]
+            for line in lines[index+1:]:
+                if line and not line[0].isspace():break
+                parts.append(line.strip())
+            value=(' ' if value.startswith('>') else '\n').join(parts).strip()
+        elif value.startswith('"'):
+            try:value=json.loads(value)
+            except (ValueError,TypeError):raise ValueError('Invalid quoted Skill '+key+': '+str(path))
+        elif value.startswith("'"):
+            if not value.endswith("'") or len(value)<2:raise ValueError('Invalid quoted Skill '+key+': '+str(path))
+            value=value[1:-1].replace("''", "'")
+        if not isinstance(value,str) or not value.strip():raise ValueError('Empty Skill '+key+': '+str(path))
+        result[key]=value
+    if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',result['name']) or len(result['name'])>64:
+        raise ValueError('Invalid Skill name: '+str(path))
+    return result
+
 def load(root):
     m=json.loads((root/'free-content.json').read_text())
     if not re.fullmatch(r'[0-9A-Za-z.-]+',m['version']):raise ValueError('Invalid version')
@@ -35,6 +62,9 @@ def load(root):
         for f in [e['source']]+e['references']:
             if not safe(root,f).is_file():raise ValueError('Missing source: '+f)
             if any(x in Path(f).parts for x in FORBIDDEN):raise ValueError('Product file: '+f)
+        metadata=skill_metadata(safe(root,e['source']))
+        if metadata['name']!=Path(e['source']).parent.name:raise ValueError('Skill name/path mismatch: '+e['source'])
+        if metadata['description']!=e['description']:raise ValueError('Skill description/index mismatch: '+e['source'])
     actual={str(p.relative_to(root)) for group in ['skills','extensions'] for p in (root/group).glob('*/SKILL.md')}
     if actual!=sources:raise ValueError('Public method inventory mismatch: '+str(sorted(actual^sources)))
     for e in m.get('supplements',[]):
@@ -161,6 +191,7 @@ def verify(root):
             for pat in PRODUCT_PATTERNS:
                 if re.search(pat,t):raise ValueError('Product content in '+rel+': '+pat)
         if rel.endswith('.md'):
+            if not rel.startswith('en/'):en['verify_fragments'](root,rel,t,label='local')
             for match in LINK.finditer(t):
                 target=local_link(root,rel,match[1])
                 if target and not target.is_file():raise ValueError('Broken local link in '+rel+': '+match[1])

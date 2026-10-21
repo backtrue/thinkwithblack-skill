@@ -15,7 +15,7 @@ If the account cannot show all terms, do not call the data complete market deman
 
 ## Required Inputs
 
-Provide: search terms, keywords, campaign performance, pages, and demand hypotheses
+Comparison queries/sources, verifiable facts about alternatives, selection criteria/contexts and existing destination; retain definitions for any supplied performance
 
 ## Method Steps
 
@@ -29,16 +29,16 @@ Search term reports may not cover the entire market; observe when evidence is in
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Comparison item | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Subject / version A | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Subject / version B | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Definition / measurement basis | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Comparability | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Difference | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Source | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Original query/need | Use the supplied source, calculation, or explicit unknown |
+| 2 | Page purpose/audience | Use the supplied source, calculation, or explicit unknown |
+| 3 | Alternatives/evidence | Use the supplied source, calculation, or explicit unknown |
+| 4 | Selection criteria | Use the supplied source, calculation, or explicit unknown |
+| 5 | Page structure/section outline | Use the supplied source, calculation, or explicit unknown |
+| 6 | Actual comparison content | Use the supplied source, calculation, or explicit unknown |
+| 7 | CTA/placement | Use the supplied source, calculation, or explicit unknown |
+| 8 | Gaps/next step | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 

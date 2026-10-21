@@ -15,13 +15,15 @@ When IDs cannot be matched one-to-one, leave them unmatched rather than guess; d
 
 ## Required Inputs
 
-Provide: product Feed, actual website information, SKU performance, and disapproval messages
+Catalog platform, SKU or variant and currency; feed regular price, sale price, and effective period; current page price for the same variant, read time, promotion conditions and time zone; current price-field specifications
 
 ## Method Steps
 
-1. A Feed can contain both price for the original price and sale_price for the promotional price
-2. Match catalog prices to actual product page/campaign prices so the ad and landing page do not differ
-3. Follow the platform's Feed price format requirements; the course example is “1,000 TWD / 800 TWD”
+1. Align feed and product page by SKU or variant, recording prices, currency, read time, and promotion conditions
+2. Check regular price, sale price, and start or end time separately; use a common time zone to determine the effective price at read time instead of treating expired or future promotions as current
+3. Compare the actual payable product price under matching page conditions and identify currency, amount, period, or variant discrepancies; leave inaccessible pages unresolved
+4. Verify amount, currency, and time-field formatting against the catalog platform’s current official requirements and record the source and date; course typography with thousands separators is not a feed serialization rule
+5. Deliver raw values, discrepancies, proposed corrections, and evidence per item; after an actual update, read back the feed and page, keeping unexecuted changes labeled as proposals
 
 ## Calculation and Interpretation
 
@@ -29,25 +31,22 @@ Use product data for specifications and prices; verify catalog fields and disapp
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Subject / location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Conditions for use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Actual evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Check status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Differences / possible causes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Next task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | SKU or variant, platform, and currency | Use the supplied source, calculation, or explicit unknown |
+| 2 | Feed regular and sale prices | Use the supplied source, calculation, or explicit unknown |
+| 3 | Effective period, time zone, and read time | Use the supplied source, calculation, or explicit unknown |
+| 4 | Page price and promotion conditions | Use the supplied source, calculation, or explicit unknown |
+| 5 | Discrepancy and effective price | Use the supplied source, calculation, or explicit unknown |
+| 6 | Format specification source and date | Use the supplied source, calculation, or explicit unknown |
+| 7 | Proposed value and evidence | Use the supplied source, calculation, or explicit unknown |
+| 8 | Actual update and readback status | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-254-C05｜Data meets existing conditions**
+**MK-254-A1 | A promotion expired but the feed still shows its sale price while the page shows the regular price**
 
-Expected: report usable or keep as is; do not invent a need for changes
-
-**MK-254-C06｜The tool returns an error**
-
-Expected: report data not obtained; do not classify the tool error as a business anomaly
+Expected: Align time zone and SKU, flag the effective-period and price mismatch, and propose a correction while recording actual update and readback status
 
 ## Method Sources
 

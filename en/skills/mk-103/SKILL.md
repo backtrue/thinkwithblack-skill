@@ -15,7 +15,7 @@ Historical seasonality can inform planning but does not guarantee recurrence; do
 
 ## Required inputs
 
-Provide: Annual goals, historical seasonality, brand events, capacity, and budget
+Provide: Campaign goal, actual deadline, products/offers, evidence of quantity or stock limits, available prior high-intent audience and contact eligibility
 
 ## Method
 

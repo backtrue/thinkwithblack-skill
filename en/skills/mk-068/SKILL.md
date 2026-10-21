@@ -15,13 +15,20 @@ Working backward to resource requirements is not a forecast or optimal allocatio
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+Use inputs for the work requested; substitute or derive values already supplied
+
+- Spending ceiling: pre-marketing available contribution, fixed expenses not yet deducted, and approved target profit for the same period and accounting basis. Derive contribution from revenue and corresponding costs only when it is not already known
+- Order and traffic requirements: after establishing or deriving the revenue target, use average order value and conversion rate. Reuse directly supplied order or traffic requirements with their basis and source
+- Net-profit model: revenue, per-order and company expenses, the target profit definition, and applicable tax assumptions; use sections A–C below to complete fields that affect the result
+- Profit reinvestment: also obtain the profit base, percentage denominator and period, existing budget, payment timing, and affordable amount; compare candidates under sections D–E
+
+For a formula or method question, first deliver the formula and an explicitly hypothetical example. Request missing branch-specific values only for an actual calculation
 
 ## Method
 
-1. Work backward from the end financial result to the marketing budget instead of first asking "How much do you want to spend?"
-2. Calculate fixed costs, contribution margin ratio, break-even revenue, order requirements, and traffic needs first, then determine how much paid traffic is needed to close the gap
-3. Budget allocation aims to maintain necessary exposure/traffic and reduce unit acquisition costs; do not equate cost reduction with budget cuts
+1. Identify whether the task asks for a spending ceiling, order and traffic requirements, or net-profit/reinvestment assessment; fix the period, cost basis, and target
+2. For a spending ceiling alone, substitute directly into the formula below and check double-counted costs and feasibility. Work backward using average order value and conversion rate only when order or traffic requirements are requested
+3. Use sections A–C for net-profit modeling and then D–E for profit reinvestment. Deliver the results relevant to the task; assess budget allocation against the target and affordable ceiling, without equating lower unit acquisition costs with budget cuts
 
 ## Calculations and interpretation
 

@@ -165,17 +165,11 @@ def language_exceptions(root):
         for line in (root / entry['source']).read_text().splitlines():
             if line.startswith('原始檔：'):
                 allowed.add(line.removeprefix('原始檔：').strip())
-    source_rows = (root / 'skills/mk-164/assets/primenumbers-interests.csv').read_text().splitlines()[2:]
-    return sorted(allowed, key=len, reverse=True), source_rows
+    return sorted(allowed, key=len, reverse=True), []
 
 
 def verify_language(rel, text, exceptions):
     titles, source_rows = exceptions
-    if rel in {'skills/mk-164/assets/primenumbers-interests.csv',
-               'skills/mk-164/assets/interest-reference.md', 'packs/mk-164.md'}:
-        # These rows are original Japanese category/interest labels used as evidence
-        retained = set(source_rows)
-        text = '\n'.join(line for line in text.splitlines() if line not in retained)
     text = re.sub(r'<[^>]+>', '', text)
     text = re.sub(r'\]\([^\n)]*\)', ']', text)
     text = re.sub(r'https?://\S+', '', text)
@@ -198,7 +192,7 @@ def markdown_anchors(text):
     return anchors
 
 
-def verify_fragments(english, rel, text):
+def verify_fragments(english, rel, text, label='English'):
     for match in core.LINK.finditer(text):
         link = unquote(match[1].strip('<>'))
         if '#' not in link or re.match(r'[a-zA-Z][a-zA-Z0-9+.-]*:', link):
@@ -207,7 +201,7 @@ def verify_fragments(english, rel, text):
         target = core.local_link(english, rel, path) if path else english / rel
         if fragment and target and target.is_file() and target.suffix == '.md':
             if fragment not in markdown_anchors(target.read_text()):
-                raise ValueError('Broken English fragment in ' + rel + ': ' + link)
+                raise ValueError('Broken ' + label + ' fragment in ' + rel + ': ' + link)
 
 
 def verify(root):

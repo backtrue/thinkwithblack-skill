@@ -15,7 +15,7 @@ Use actual tools and current official specifications to establish platform optio
 
 ## Required Inputs
 
-Provide: account configuration snapshots, business goals, creative, events, and authorization information
+Provide: Persona and its sources, an available interest-name reference list or source page; selecting candidates from a Persona does not require an ad account, token, tracking events or connection authorization
 
 ## Method Steps
 
@@ -29,27 +29,26 @@ Verify current platform settings and available audiences; this catalog does not 
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Level / subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Current state | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Candidate settings | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Basis for audience and message | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Creative and page | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Required events | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Permission / missing items | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Persona trait and source | Use the supplied source, calculation, or explicit unknown |
+| 2 | Original interest label and Chinese equivalent | Use the supplied source, calculation, or explicit unknown |
+| 3 | Role or context portrayed | Use the supplied source, calculation, or explicit unknown |
+| 4 | Inclusion rationale | Use the supplied source, calculation, or explicit unknown |
+| 5 | Fact or hypothesis | Use the supplied source, calculation, or explicit unknown |
+| 6 | Reference source and date | Use the supplied source, calculation, or explicit unknown |
+| 7 | Current availability verification status | Use the supplied source, calculation, or explicit unknown |
 
 ## MK-164 v0.5｜Portray a Persona Using Reference Lists (2026-10-02)
 
 This is the approved method update, not a verbatim quotation from the original course. The workflow below addresses the need to portray a Persona with a set of interest labels, replacing selection based only on product categories. Retain the original course's audience-size advice as historical context; this version does not control audience size
 
 ### Purpose and Scope
-Deliver a set of candidate interest labels that together portray the Persona's everyday life. Start with the Eachspy 2026-09-23 and Primenumbers 2026-10 reference lists. This version does not call APIs, inspect the Meta interface, require official IDs, configure OR/AND, age, exclusions, or budgets, or create audiences or ads. Leave live platform availability and performance unknown; missing accounts, IDs, or connections do not block this version's work
+Deliver a set of candidate interest labels that together describe the Persona’s life. Use an available interest-name list supplied for this task. This version does not call APIs, inspect Meta settings, require official IDs, configure targeting or create audiences/ads. Current platform availability remains unknown; missing account access does not block the candidate-selection work
 
 ### Inputs and Data
 Read the user-specified Persona and authorized background first; do not ask again for existing information. Distinguish source statements, Persona hypotheses, and unknowns. Do not invent occupation, income, brand preferences, or current purchase intent
-See the reference lists in the same directory: assets/interest-reference.md, assets/eachspy-302-interests.csv, and assets/primenumbers-interests.csv. Preserve original names, categories, sources, and snapshot dates; place Chinese translations in a separate field without presenting them as official platform names. These references are not a complete or live inventory of targetable labels
+See [Interest reference guide](assets/interest-reference.md) for sources and input format. Read the supplied list directly; if absent, use the specified accessible source. If it cannot be read, report the missing list rather than invent names. Preserve original labels, categories, sources and snapshot dates; translations are reading aids, not official platform labels. A reference list is not a complete or live targeting catalog
 
 ### Workflow
 1. Describe the person in one paragraph, organizing their life priorities, preferences, daily activities, content interests, brands, and values; use only known dimensions

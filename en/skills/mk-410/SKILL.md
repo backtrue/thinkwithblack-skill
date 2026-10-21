@@ -46,11 +46,11 @@ Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources r
 | 6 | Result | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Missing items / limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-410-C05｜The original specification gives no segment weights or cost ratios**
+**MK-410-A1 | Two sends have different observation windows**
 
-Expected: list the necessary decisions; do not invent “industry-standard” values
+Expected: Align windows before ranking immature outcomes
 
 ## Method sources
 

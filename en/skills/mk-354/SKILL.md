@@ -36,16 +36,16 @@ Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources r
 
 ## Required output fields
 
-| Order | Field | How to fill it in |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Source page | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 2 | Brand factual baseline | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 3 | Actual description | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 4 | Difference type | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 5 | Degree of control | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 6 | Recommended work | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 7 | Required materials | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 8 | Status | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+| 1 | Query | Use the supplied source, calculation, or explicit unknown |
+| 2 | Region, device and date | Use the supplied source, calculation, or explicit unknown |
+| 3 | Observed position | Use the supplied source, calculation, or explicit unknown |
+| 4 | Result URL and format | Use the supplied source, calculation, or explicit unknown |
+| 5 | Page job | Use the supplied source, calculation, or explicit unknown |
+| 6 | Counts by job and format | Use the supplied source, calculation, or explicit unknown |
+| 7 | SERP evidence | Use the supplied source, calculation, or explicit unknown |
+| 8 | Inferences and unknowns | Use the supplied source, calculation, or explicit unknown |
 
 ## Method sources
 

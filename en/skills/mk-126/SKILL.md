@@ -15,13 +15,15 @@ A page content check does not replace user behavior data; without performance da
 
 ## Required Inputs
 
-Provide: product facts, Persona, selling points, authentic evidence, offers, and brand information
+Actual testimonial text, source/date, permitted use, product claim to support and page context
 
 ## Method Steps
 
 1. Place third-party testimonials in the seventh cell of the nine-cell framework, and keep that section updated
 2. Testimonials can come from ordinary users' experiences, authentic platform reviews, awards/certifications, media interviews, or creator content; a major KOL is not required
 3. Do not use incentives to fabricate five-star reviews; third-party testimonials must be traceable to authentic sources
+4. Check each original quotation, source, and permission record; record allowed channels, formats, dates, editing or excerpt rights, and permission to display names or avatars; public visibility does not establish reuse permission
+5. Classify each item as usable, awaiting permission, or expired for this page or ad use; retain its meaning and conditions and map each excerpt to its source
 
 ## Calculation and Interpretation
 
@@ -29,16 +31,22 @@ Quotes, numbers, effects, and testimonials require original support; produce pag
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Original location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Section task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Original text / facts | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Gap | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Required changes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Available evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | CTA / next section | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Acceptance method | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Original testimonial, source, and date | Use the supplied source, calculation, or explicit unknown |
+| 2 | Supported claim and conditions | Use the supplied source, calculation, or explicit unknown |
+| 3 | Permission evidence and status | Use the supplied source, calculation, or explicit unknown |
+| 4 | Channels, formats, and term | Use the supplied source, calculation, or explicit unknown |
+| 5 | Editing, excerpt, name, and avatar rights | Use the supplied source, calculation, or explicit unknown |
+| 6 | Intended use and eligibility | Use the supplied source, calculation, or explicit unknown |
+| 7 | Page position and faithful excerpt | Use the supplied source, calculation, or explicit unknown |
+| 8 | Permission or refresh work needed | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-126-A1 | A testimonial is licensed only for the website but planned for Meta ads**
+
+Expected: Allow the covered website use; mark advertising permission as missing instead of extending the website license to paid ads
 
 ## Method Sources
 

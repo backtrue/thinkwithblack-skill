@@ -43,11 +43,11 @@ Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources
 | 6 | Result | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Missing items / limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-383-C05｜The original specification gives no segment weights or cost ratios**
+**MK-383-A1 | Three purchases, first-to-second gap ten days**
 
-Expected: list the necessary decisions; do not invent “industry-standard” values
+Expected: Include in all first-repeat customers unless exact F = 2 is requested
 
 ## Method sources
 

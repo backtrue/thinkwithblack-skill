@@ -36,16 +36,17 @@ Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources r
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Original location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Section task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Original text / facts | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Gap | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Required changes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Available evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | CTA / next section | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Acceptance method | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Hypothesis and original evidence | Use the supplied source, calculation, or explicit unknown |
+| 2 | Control, variant, and single change | Use the supplied source, calculation, or explicit unknown |
+| 3 | Held conditions and allocation | Use the supplied source, calculation, or explicit unknown |
+| 4 | Primary metric, numerator, and denominator | Use the supplied source, calculation, or explicit unknown |
+| 5 | Cost floor and observation window | Use the supplied source, calculation, or explicit unknown |
+| 6 | Agreed end rule and uncertainty treatment | Use the supplied source, calculation, or explicit unknown |
+| 7 | Mature results and confound checks | Use the supplied source, calculation, or explicit unknown |
+| 8 | Adopt, retain, or repair decision | Use the supplied source, calculation, or explicit unknown |
+| 9 | Missing evidence and reversal conditions | Use the supplied source, calculation, or explicit unknown |
 
 ## Method Sources
 

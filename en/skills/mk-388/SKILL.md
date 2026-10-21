@@ -1,6 +1,6 @@
 ---
 name: mk-388
-description: "New Member First-Purchase Nurturing. Use when work requires A message sequence combining education with reasons for a first purchase; process the specified inputs using this method and verify the deliverable"
+description: "New Member First-Purchase Nurturing. Use when work requires a message sequence combining education with reasons for a first purchase; process the specified inputs using this method and verify the deliverable"
 ---
 
 # MK-388 | New Member First-Purchase Nurturing

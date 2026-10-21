@@ -15,7 +15,7 @@ Creating a draft from scratch here does not automatically invoke Speak Human TW;
 
 ## Required Inputs
 
-Provide: product, audience hypothesis, evidence, landing page, and placement requirements
+Provide: Confirmed Persona, three USPs, three-line copy and product evidence; include FABE when supplied. Identify missing original material before completing dependent work
 
 ## Method Steps
 
@@ -29,16 +29,22 @@ First verify product facts and creative usage rights; check current platform cha
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Version | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Communication task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Core angle | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Body / headline | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Facts and evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | CTA | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Differences from other versions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Persona/need | Use the supplied source, calculation, or explicit unknown |
+| 2 | Three USPs/evidence | Use the supplied source, calculation, or explicit unknown |
+| 3 | Value proposition/three-line direction | Use the supplied source, calculation, or explicit unknown |
+| 4 | Placement/verified dimensions | Use the supplied source, calculation, or explicit unknown |
+| 5 | Visual or shooting requirements | Use the supplied source, calculation, or explicit unknown |
+| 6 | Actual copy | Use the supplied source, calculation, or explicit unknown |
+| 7 | Proof assets | Use the supplied source, calculation, or explicit unknown |
+| 8 | Production gaps/constraints | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-147-A1 | Persona, USPs and copy supplied; dimensions absent**
+
+Expected: Deliver visual/proof brief and a dimension gap, not invented specs
 
 ## Method Sources
 

@@ -15,31 +15,38 @@ Customer segmentation and actual eligibility to receive marketing messages are s
 
 ## Required inputs
 
-Provide: member groups, product cycles, available offers, and permission to receive messages
+Provide: Member needs and purchase evidence, bundle contents and price, product and fulfillment costs, margin definition, stock, offers and contact eligibility
 
 ## Method steps
 
-1. Loyal-member benefit bundles can use larger sets, more units, or multiple products to create offers with high average order value and high gross profit
-2. Repeat purchase / benefit bundles do not have to contain the same product; candidates may share audience needs or product characteristics
-3. Monthly campaigns can use super-early-bird, early-bird, and campaign-price tiers for loyal, loyal-due-for-reactivation, and high-potential customers respectively
-4. Actual discounts and prices still require brand approval; the skill does not invent offers
+1. Select bundles using member needs/purchase evidence and check complementarity/stock
+2. Calculate discounted net revenue, product, fulfillment and offer costs under the stated margin definition; contribution additionally deducts other variable costs, without double-counting discounts
+3. Check brand floors, demand and capacity; negative contribution or failed floors requires revision, not a high-margin label
+4. Deliver the bundle, price, costs, evidence and feasibility conditions before its message
 
 ## Calculation and interpretation
 
-Base repeat purchase reminders on purchase cycles and contact consent; this catalog does not actually send messages
+List revenue/cost components under the project’s margin definition; contribution = net revenue − all specified variable costs. Calculate a rate only with positive net revenue; incomplete costs leave a partial calculation and explicit gaps
 
 ## Required output fields
 
-| Order | Field | How to fill it in |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Customer group | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 2 | Purchase evidence | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 3 | Relationship task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 4 | Trigger / timing | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 5 | Messages and products | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 6 | Available channels | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 7 | Exclusion conditions | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 8 | Measurement | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+| 1 | Bundle/quantities | Use the supplied source, calculation, or explicit unknown |
+| 2 | Need/purchase evidence | Use the supplied source, calculation, or explicit unknown |
+| 3 | Discounted net revenue | Use the supplied source, calculation, or explicit unknown |
+| 4 | Product/fulfillment/offer costs | Use the supplied source, calculation, or explicit unknown |
+| 5 | Margin definition/calculation | Use the supplied source, calculation, or explicit unknown |
+| 6 | Contribution versus floor | Use the supplied source, calculation, or explicit unknown |
+| 7 | Stock/capacity | Use the supplied source, calculation, or explicit unknown |
+| 8 | Feasible or revise | Use the supplied source, calculation, or explicit unknown |
+| 9 | Message draft | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-393-A1 | Bundle price known, costs/demand unknown**
+
+Expected: Keep margin/fit pending; no high-margin claim
 
 ## Method sources
 

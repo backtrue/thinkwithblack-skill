@@ -15,13 +15,15 @@ Use actual tools and current official specifications to establish platform optio
 
 ## Required Inputs
 
-Provide: account configuration snapshots, business goals, creative, events, and authorization information
+Existing assets and actual formats, dimensions, and durations; target placements and ad task; current official specifications or accessible specification sources; available placement previews
 
 ## Method Steps
 
 1. Prepare dimensions by placement: square for feeds and vertical for Reels/Stories
 2. Consider product characteristics, audience age, and usage habits together; the course's experience-based guidance gives more consideration to IG for people in their 30s or younger, and more to FB for older audiences
 3. Even with automatic placements, check placement controls; the course's specific advice from 2025/8 reflects experience at that time, so verify the current Meta interface/policies before actual execution
+4. Build an asset-by-placement table comparing actual dimensions, aspect ratio, format, and duration with current official requirements and record the source and check date; course sizing and age heuristics do not replace this evidence
+5. Preview cropping, captions, CTA, and key-content obstruction; deliver usable, rework, or unresolved status with specific missing assets; missing previews remain pending rather than being marked fitted
 
 ## Calculation and Interpretation
 
@@ -29,16 +31,21 @@ Verify current platform settings and available audiences; this catalog does not 
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Level / subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Current state | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Candidate settings | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Basis for audience and message | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Creative and page | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Required events | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Permission / missing items | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Asset and target placement | Use the supplied source, calculation, or explicit unknown |
+| 2 | Actual format, dimensions, ratio, and duration | Use the supplied source, calculation, or explicit unknown |
+| 3 | Official specification source and check date | Use the supplied source, calculation, or explicit unknown |
+| 4 | Fit result and discrepancies | Use the supplied source, calculation, or explicit unknown |
+| 5 | Rebuild, reshoot, or adjustment work | Use the supplied source, calculation, or explicit unknown |
+| 6 | Placement preview and obstruction check | Use the supplied source, calculation, or explicit unknown |
+| 7 | Unknowns and next action | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-165-A1 | Only a square image exists and no Reels preview is available**
+
+Expected: Record current requirements and recomposition gaps for the target placement and keep preview status pending; uploadability alone does not establish fit
 
 ## Method Sources
 

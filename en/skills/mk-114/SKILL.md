@@ -15,7 +15,7 @@ Do not fabricate discounts, gift inventory, countdown deadlines, limited quantit
 
 ## Required inputs
 
-Provide: Campaign goals, products, costs, real offer conditions, and customer groups
+Provide: Actual monthly needs, audience and Persona pain points/desires, confirmed USP and evidence, first/repeat purchase objective, actual offer conditions
 
 ## Method
 
@@ -31,13 +31,13 @@ Check gross margin and stacked offers; time limits, inventory, and benefits must
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Source item | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Target item | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Supporting task | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Evidence of fit | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Applicable conditions | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Unmatched items/conflicts | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Next step | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Audience and monthly need | Use the supplied source, calculation, or explicit unknown |
+| 2 | Persona pain points and desires | Use the supplied source, calculation, or explicit unknown |
+| 3 | USP and supporting evidence | Use the supplied source, calculation, or explicit unknown |
+| 4 | Complete main message | Use the supplied source, calculation, or explicit unknown |
+| 5 | First-purchase or repeat-purchase reason | Use the supplied source, calculation, or explicit unknown |
+| 6 | Actual offer conditions | Use the supplied source, calculation, or explicit unknown |
+| 7 | Validation tasks | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification cases
 

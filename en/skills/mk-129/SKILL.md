@@ -15,7 +15,7 @@ A page content check does not replace user behavior data; without performance da
 
 ## Required Inputs
 
-Provide: product facts, Persona, selling points, authentic evidence, offers, and brand information
+Page text or complete sections to diagnose, target Persona, intended page job, product claims and available evidence
 
 ## Method Steps
 

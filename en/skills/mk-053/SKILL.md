@@ -15,7 +15,7 @@ Without raw survey responses, produce only a questionnaire or analysis plan; do 
 
 ## Required inputs
 
-Provide: Product costs, target audience, raw survey responses, or survey purpose
+Provide: Respondents, actual product/bundle, launch and early-bird prices and conditions, scale preference; costs and brand floor for feasibility, not existing responses as a prerequisite for question design
 
 ## Method
 
@@ -31,13 +31,19 @@ Check sampling, valid responses, and the ordering of price questions; willingnes
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Decision question | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Question/source | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Valid sample | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Grouped results | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Supported conclusion | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Boundaries of extrapolation | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Next task | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Respondent and product/bundle introduction | Use the supplied source, calculation, or explicit unknown |
+| 2 | Launch and early-bird prices and conditions | Use the supplied source, calculation, or explicit unknown |
+| 3 | Actual acceptance questions | Use the supplied source, calculation, or explicit unknown |
+| 4 | Scale and options | Use the supplied source, calculation, or explicit unknown |
+| 5 | Presentation order | Use the supplied source, calculation, or explicit unknown |
+| 6 | Cost feasibility and unknowns | Use the supplied source, calculation, or explicit unknown |
+| 7 | Survey and response collection method | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-053-A1 | Two real prices/conditions but no responses**
+
+Expected: Draft acceptance questions and scales without requiring prior answers
 
 ## Method sources
 

@@ -1,6 +1,6 @@
 ---
 name: mk-408
-description: "Cost per Friend Calculation. Use when work requires A consistent basis for spending and valid newly added friends; process the specified inputs using this method and verify the deliverable"
+description: "Cost per Friend Calculation. Use when work requires a consistent basis for spending and valid newly added friends; process the specified inputs using this method and verify the deliverable"
 ---
 
 # MK-408 | Cost per Friend Calculation
@@ -39,11 +39,15 @@ Verify contact consent, unsubscribes, and message specifications; friend counts 
 | 6 | Result | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Missing items / limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-408-C05｜The original specification gives no segment weights or cost ratios**
+**MK-408-A1 | Same-period LAP spend100 and ten new friends**
 
-Expected: list the necessary decisions; do not invent “industry-standard” values
+Expected: CPF = 10, retaining acquisition definition/window
+
+**MK-408-A2 | Zero new friends**
+
+Expected: CPF undefined, not zero cost
 
 ## Method sources
 

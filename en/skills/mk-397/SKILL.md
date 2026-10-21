@@ -15,7 +15,7 @@ Customer segmentation and actual eligibility to receive marketing messages are s
 
 ## Required inputs
 
-Provide: member groups, product cycles, available offers, and permission to receive messages
+Provide: Recommendation question and scale, actual scores and dates, Promoter definition, deidentified member key, campaign and contact eligibility
 
 ## Method steps
 
@@ -29,16 +29,21 @@ Base repeat purchase reminders on purchase cycles and contact consent; this cata
 
 ## Required output fields
 
-| Order | Field | How to fill it in |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Customer group | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 2 | Purchase evidence | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 3 | Relationship task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 4 | Trigger / timing | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 5 | Messages and products | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 6 | Available channels | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 7 | Exclusion conditions | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 8 | Measurement | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+| 1 | Deidentified member key | Use the supplied source, calculation, or explicit unknown |
+| 2 | Recommendation question, scale and response date | Use the supplied source, calculation, or explicit unknown |
+| 3 | Actual score | Use the supplied source, calculation, or explicit unknown |
+| 4 | Promoter definition and classification | Use the supplied source, calculation, or explicit unknown |
+| 5 | Campaign eligibility | Use the supplied source, calculation, or explicit unknown |
+| 6 | Contact eligibility | Use the supplied source, calculation, or explicit unknown |
+| 7 | Invitation draft and status | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-397-A1 | Member called loyal but lacks recommendation score**
+
+Expected: Do not label Promoter; request question, scale and response
 
 ## Method sources
 

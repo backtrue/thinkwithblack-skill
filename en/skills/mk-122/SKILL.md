@@ -15,7 +15,7 @@ A content review cannot replace user-behavior data; without performance data, do
 
 ## Required inputs
 
-Provide: Product facts, Persona, selling points, real evidence, offers, and brand information
+Provide: Original customer usage context, product facts, supported post-use outcomes and conditions; original text when revising
 
 ## Method
 
@@ -31,14 +31,18 @@ Quotes, numbers, effects, and testimonials need original support; produce only a
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Original location | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Paragraph task | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Original text/facts | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Gap | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Required revision | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Available evidence | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | CTA/next paragraph | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 8 | Acceptance method | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Original usage context | Use the supplied source, calculation, or explicit unknown |
+| 2 | Known product effect and source | Use the supplied source, calculation, or explicit unknown |
+| 3 | Supported post-use outcome | Use the supplied source, calculation, or explicit unknown |
+| 4 | Complete scenario draft | Use the supplied source, calculation, or explicit unknown |
+| 5 | Timing and conditions | Use the supplied source, calculation, or explicit unknown |
+| 6 | Removed inventions or unknowns | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-122-A1 | Only space-saving specifications, no time evidence**
+
+Expected: Draft the supported space scenario without inventing time savings
 
 ## Method sources
 

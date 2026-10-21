@@ -19,9 +19,9 @@ Provide: de-identified customer, order, date, amount, and refund data
 
 ## Method steps
 
-1. First organize order data with these required fields: order number, email or phone number, order date, and order total
-2. Use email or phone as pivot-table rows so each member's orders can be aggregated into one row
-3. Calculate R, F, and M from this organized order table; do not replace original orders with subjective member labels
+1. Use stable deidentified customer keys, unique order keys, valid dates, amounts/statuses; identify order-level versus item-level input
+2. Build one row per customer/order key, preserving item keys and their order relationship separately; count repeated order totals once and aggregate item amounts according to their definition
+3. Flag missing keys, conflicting totals or customer ownership rather than merging by guesswork; use the cleaned valid-order table for RFM
 
 ## Calculation and interpretation
 
@@ -40,6 +40,12 @@ First define members, valid orders, refunds, and the period; calculate frequency
 | 7 | Applied segmentation rules | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 8 | Segment | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 9 | Limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+
+## Verification cases
+
+**MK-372-A1 | One order, two item rows each repeating total 100**
+
+Expected: Order table total remains 100; preserve the two item relationships
 
 ## Method sources
 

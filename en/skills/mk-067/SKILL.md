@@ -15,13 +15,13 @@ Recalculability does not mean the data is complete; break-even points and cost c
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+For a method question, deliver the formula and an explicitly hypothetical example directly. An actual calculation requires net revenue, non-advertising expenses, and fixed expenses not yet included for the same period and product scope. For multiple variants, use quantities and revenue/costs per variant, or totals already aggregated using the actual mix. A break-even threshold alone does not require conversion rate, actual CPA, or budget utilization
 
 ## Method
 
-1. Compare actual CPA with ideal CPA first, then assess budget utilization
-2. When CPA fits the cost constraints but the budget is underspent, the course prioritizes more ads/creative combinations to use the budget. Once the budget can be spent and CPA remains healthy, increase spending gradually
-3. Stop before scaling pushes CPA beyond its ceiling; high ROAS/low CPA is not a reason to raise budgets indefinitely
+1. Confirm the period, scope, and sources of revenue and non-advertising expenses; organize variant and overall amounts using the calculation sequence below
+2. Calculate pre-advertising available contribution. Subtract fixed expenses not yet included when they must also be covered, then calculate break-even ROAS
+3. Retain the formula, cost basis, sales mix, and excluded expenses; provide a method explanation or actual calculation as requested
 
 ## Calculations and interpretation
 
@@ -29,7 +29,7 @@ If advertising is the only remaining expense to cover, break-even ROAS = 1 ÷ pr
 
 ### Execution order for a break-even calculation
 
-This section handles break-even formulas and method questions. Section 3 contains the source course's advertising-scaling logic and applies only when scaling is separately requested and actual CPA, target CPA, and budget data are available. Actual CPA or budget consumption is not a prerequisite for break-even calculation
+This section covers the break-even formula and method questions; check costs and calculate the threshold in order
 
 1. Fix the period, currency, and product/variant scope; first confirm whether revenue is net of discounts and refunds. For each variant, list net revenue Rᵢ, non-advertising expenses Vᵢ for the same scope, and their sources. Include the product, payment/logistics, fulfillment, and other costs the question needs covered, counting each once. Advertising expense is the ceiling being solved for; do not deduct it into Vᵢ first. If only purchase costs are supplied, deliver a partial threshold and retain the remaining expense gaps
 2. Calculate Cᵢ=Rᵢ−Vᵢ, then aggregate R=ΣRᵢ and C=ΣCᵢ using the actual sales mix. Multiply unit prices and unit costs by quantities sold first; do not multiply values already totaled for the period again. Check attribution of shared order expenses first so they are not deducted for every variant. Aggregate products, categories, and the entire store within their respective consistent scopes; actual advertising ROAS must use the same revenue scope

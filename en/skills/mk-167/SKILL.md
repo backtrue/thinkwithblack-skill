@@ -15,7 +15,7 @@ Use actual tools and current official specifications to establish platform optio
 
 ## Required Inputs
 
-Provide: account configuration snapshots, business goals, creative, events, and authorization information
+Test design or actual change list, audience/copy/creative/placement by group, period, comparison metric and held conditions
 
 ## Method Steps
 
@@ -29,16 +29,21 @@ Verify current platform settings and available audiences; this catalog does not 
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Level / subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Current state | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Candidate settings | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Basis for audience and message | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Creative and page | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Required events | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Permission / missing items | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Original comparison question | Use the supplied source, calculation, or explicit unknown |
+| 2 | Audience, copy, creative, and placement by group | Use the supplied source, calculation, or explicit unknown |
+| 3 | Held conditions and simultaneous changes | Use the supplied source, calculation, or explicit unknown |
+| 4 | Primary metric, denominator, and observation window | Use the supplied source, calculation, or explicit unknown |
+| 5 | Confounds and comparable scope | Use the supplied source, calculation, or explicit unknown |
+| 6 | Single retained change and revised design | Use the supplied source, calculation, or explicit unknown |
+| 7 | Missing evidence and interpretation changes | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-167-A1 | CTR rises after both audience and creative change**
+
+Expected: Retain the observed difference, withdraw attribution to creative alone, and redesign the comparison holding one factor fixed
 
 ## Method Sources
 

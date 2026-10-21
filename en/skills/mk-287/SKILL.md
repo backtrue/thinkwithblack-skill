@@ -11,43 +11,45 @@ For a regular chat, upload `packs/mk-287.md`; it includes the shared rules, this
 
 This Skill delivers: **Problem, education, evidence, and follow-up communication**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 Without evidence of reading the video or audio, provide recommendations only for the available text; do not invent video content
 
 ## Required Inputs
 
-Provide: video, transcript, timecodes, media goals, audience, and performance
+Initial viewer state, questions to understand, product/proof, available videos, next action and delivery constraints
 
 ## Method Steps
 
-1. First define whether the video's media task is reach, views, frequency, engagement, or another approved objective, then address “Video Sequence Design”
-2. The outline supports creative and media planning around the first 3–5 seconds, opening hook, brand, evidence, CTA, video sequences, and viewing contexts such as Shorts / In-stream / Bumper
-3. When delivering “Problem, education, evidence, and follow-up communication,” distinguish the audience, placement/format, video, and media task; view metrics cannot be presented as causal evidence of sales
-4. The outline provides no fixed frequency, view rate, CPV, or best threshold by format; verify current YouTube Ads specifications through official sources
+1. Assign problem, education, proof and follow-up roles in a comprehension sequence
+2. Specify prerequisites/entry conditions and leave unknown delivery conditions open rather than assuming sequential viewing
+3. Deliver each outline, CTA, standalone context and next video; verify sequencing capability in the actual account
 
 ## Calculation and Interpretation
 
-The main current source is a course outline; verify current placements and formats, and do not treat view metrics as causal evidence of sales
+Narrative order is a plan; actual exposure order requires delivery evidence
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Goal | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Plan / task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Evidence and assumptions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Prerequisites | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Resources | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Deliverables and acceptance | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Open decisions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Sequence number | Use the supplied source, calculation, or explicit unknown |
+| 2 | Entry state/condition | Use the supplied source, calculation, or explicit unknown |
+| 3 | Role | Use the supplied source, calculation, or explicit unknown |
+| 4 | Actual outline | Use the supplied source, calculation, or explicit unknown |
+| 5 | Proof | Use the supplied source, calculation, or explicit unknown |
+| 6 | CTA/next step | Use the supplied source, calculation, or explicit unknown |
+| 7 | Delivery checks | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-287-C05｜Budget is unknown but creative can be organized first**
+**MK-287-A1 | Viewer starts with video two**
 
-Expected: first deliver planning that does not depend on budget; do not require a complete questionnaire
+Expected: Include essential standalone context
+
+**MK-287-A2 | No sequencing capability evidence**
+
+Expected: Plan narrative order without promising ordered exposure
 
 ## Method Sources
 

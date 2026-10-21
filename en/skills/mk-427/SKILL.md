@@ -15,7 +15,7 @@ Adding impressions across platforms does not yield deduplicated reach; conversio
 
 ## Required inputs
 
-Provide: GA4, GSC, advertising, and sales exports, metric definitions, and costs
+Provide: Channels/platforms, campaign naming requirements, current source/medium/campaign dictionary and examples; performance exports are not required for naming
 
 ## Method steps
 
@@ -29,22 +29,21 @@ Verify data sources, dates, currencies, denominators, and attribution; sums acro
 
 ## Required output fields
 
-| Order | Field | How to fill it in |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Goal | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 2 | Audience | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 3 | Plan / task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 4 | Evidence and assumptions | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 5 | Prerequisites | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 6 | Resources | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 7 | Deliverables and acceptance | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 8 | Unresolved items | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+| 1 | Field | Use the supplied source, calculation, or explicit unknown |
+| 2 | Purpose | Use the supplied source, calculation, or explicit unknown |
+| 3 | Allowed values/case rule | Use the supplied source, calculation, or explicit unknown |
+| 4 | Actual naming example | Use the supplied source, calculation, or explicit unknown |
+| 5 | Source dictionary | Use the supplied source, calculation, or explicit unknown |
+| 6 | Duplicates/conflicts | Use the supplied source, calculation, or explicit unknown |
+| 7 | Maintenance | Use the supplied source, calculation, or explicit unknown |
 
-## Validation cases
+## Verification cases
 
-**MK-427-C05｜Budget unknown but assets can be organized first**
+**MK-427-A1 | Dictionary uses email, another entry uses Email**
 
-Expected: deliver the planning that does not depend on a budget first; do not require a complete questionnaire
+Expected: Flag case fragmentation and follow the approved dictionary
 
 ## Method sources
 

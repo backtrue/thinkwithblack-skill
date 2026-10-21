@@ -15,7 +15,7 @@ Products occurring in the same transaction do not establish psychological motive
 
 ## Required inputs
 
-Provide: SKUs, product costs, customer groups, purchase records, and product lines
+Provide: SKU costs and target contribution, comparable market prices and channel conditions, audience willingness-to-pay or choice evidence, adjustable offers
 
 ## Method
 
@@ -31,13 +31,13 @@ Product selections and next-need proposals are candidates; check inventory, gros
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Product/role | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Need clues | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Sales and gross margin | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Pairing or follow-on relationship | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Supply constraints | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Candidate approach | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Reason | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Product and offer | Use the supplied source, calculation, or explicit unknown |
+| 2 | Cost and contribution | Use the supplied source, calculation, or explicit unknown |
+| 3 | Comparable market prices and conditions | Use the supplied source, calculation, or explicit unknown |
+| 4 | Willingness-to-pay evidence | Use the supplied source, calculation, or explicit unknown |
+| 5 | Conflict among the three | Use the supplied source, calculation, or explicit unknown |
+| 6 | Feasible options | Use the supplied source, calculation, or explicit unknown |
+| 7 | Unknowns and next step | Use the supplied source, calculation, or explicit unknown |
 
 ## Method sources
 

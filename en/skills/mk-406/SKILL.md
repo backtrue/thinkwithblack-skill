@@ -1,6 +1,6 @@
 ---
 name: mk-406
-description: "Seven-Day LINE Flow for Non-Buyers. Use when work requires A draft with conditions, messages, and exit rules; process the specified inputs using this method and verify the deliverable"
+description: "Seven-Day LINE Flow for Non-Buyers. Use when work requires a draft with conditions, messages, and exit rules; process the specified inputs using this method and verify the deliverable"
 ---
 
 # MK-406 | Seven-Day LINE Flow for Non-Buyers

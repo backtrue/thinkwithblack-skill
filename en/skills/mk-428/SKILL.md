@@ -15,39 +15,38 @@ Adding impressions across platforms does not yield deduplicated reach; conversio
 
 ## Required inputs
 
-Provide: GA4, GSC, advertising, and sales exports, metric definitions, and costs
+Provide: Complete destination URL, approved source/medium/campaign values, content/term when needed, existing tracking parameters and query/fragment to preserve
 
 ## Method steps
 
-1. Use a URL Builder to add UTM parameters such as source, medium, and campaign to the actual destination URL
-2. After generation, check the original URL, query string, and UTM values; avoid overwriting necessary existing parameters
-3. UTM classifies traffic without itself changing destination-page content; before live advertising, click-test whether GA receives the expected source
+1. Parse path, existing query and fragment, preserving non-UTM parameters
+2. Add approved source/medium/campaign and optional values with URL encoding; resolve conflicting existing UTM values rather than append duplicate keys
+3. Reassemble query before fragment, decode/read back values and check preserved parameters/fragment
+4. Deliver complete URL/parameter table; mark expected analytics reception only after actual testing/readback
 
 ## Calculation and interpretation
 
-Verify data sources, dates, currencies, denominators, and attribution; sums across platforms do not equal unique reach or incremental impact
+Preserve approved value casing and encode special characters; URL correctness and GA4 reception are separate checks
+
+Source: [Google Analytics: Custom URLs](https://support.google.com/analytics/answer/10917952?hl=en)
 
 ## Required output fields
 
-| Order | Field | How to fill it in |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Subject / location | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 2 | Conditions for use | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 3 | Actual evidence | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 4 | Check status | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 5 | Differences / possible causes | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 6 | Next task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 7 | Limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+| 1 | Complete original URL | Use the supplied source, calculation, or explicit unknown |
+| 2 | Approved UTM values | Use the supplied source, calculation, or explicit unknown |
+| 3 | Existing parameters/conflicts | Use the supplied source, calculation, or explicit unknown |
+| 4 | Complete generated URL | Use the supplied source, calculation, or explicit unknown |
+| 5 | Decoded readback | Use the supplied source, calculation, or explicit unknown |
+| 6 | Original query/fragment check | Use the supplied source, calculation, or explicit unknown |
+| 7 | Actual test state | Use the supplied source, calculation, or explicit unknown |
 
-## Validation cases
+## Verification cases
 
-**MK-428-C05｜Data meets the existing conditions**
+**MK-428-A1 | URL has ?sku=1#details and campaign contains a space**
 
-Expected: Report that it is usable or should be maintained; do not invent a need for changes
-
-**MK-428-C06｜Tool returns an error**
-
-Expected: Report that the data was not obtained; do not classify it as a business anomaly
+Expected: Preserve sku/fragment; add encoded UTM query before fragment and decode-check
 
 ## Method sources
 

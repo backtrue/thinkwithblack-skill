@@ -19,9 +19,10 @@ Provide: actual AI answers, queries, dates, platforms, and cited URLs
 
 ## Method steps
 
-1. The neighboring-brand check records which brands / categories AI groups with the brand
-2. If a premium service appears in a low-price list or a strategy course is grouped with tool tutorials, treat this as a possible sign of misaligned positioning signals
-3. Revisit positioning signals, comparison pages, case pages, and external descriptions, rather than pursuing mentions alone
+1. Record co-mentioned brands, full prompt, platform, date, answer and citations
+2. Treat co-mention as an observation for this run; identify possible pages/external descriptions and leave unattributed causes open
+3. Compare actual sources with approved positioning; propose specific corrections when sources differ or reproducible observations have supporting evidence
+4. Recheck under comparable conditions and retain non-reproductions; a single co-mention does not by itself justify site changes
 
 ## Calculation and interpretation
 
@@ -40,11 +41,11 @@ Retain questions, dates, platforms, and actual answers; one result does not repr
 | 7 | Source | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 8 | Limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-365-C05｜Comparison periods differ in length or definition**
+**MK-365-A1 | Single competitor co-mention without attributable source**
 
-Expected: Do not directly compare totals; first list what is not comparable and what can safely be compared
+Expected: Record observation/open source question, not a positioning-page rewrite
 
 ## Method sources
 

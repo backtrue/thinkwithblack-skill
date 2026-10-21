@@ -15,7 +15,7 @@ Do not rank RFM results from different observation periods as if they shared one
 
 ## Required inputs
 
-Provide: de-identified customer, order, date, amount, and refund data
+Valid source orders/deidentified keys, current RFM values/scores, same-version score bands/group mappings, window/reference date and list production date
 
 ## Method steps
 
@@ -40,15 +40,11 @@ First define members, valid orders, refunds, and the period; calculate frequency
 | 6 | Next task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-387-C05｜Data meets the existing conditions**
+**MK-387-A1 | Orders exist but mapping version missing**
 
-Expected: Report that it is usable or should be maintained; do not invent a need for changes
-
-**MK-387-C06｜Tool returns an error**
-
-Expected: Report that the data was not obtained; do not classify it as a business anomaly
+Expected: Check data completeness while leaving segment mapping unverified
 
 ## Method sources
 

@@ -15,7 +15,7 @@ Creating a draft from scratch here does not automatically invoke Speak Human TW;
 
 ## Required Inputs
 
-Provide: product, audience hypothesis, evidence, landing page, and placement requirements
+Actual primary text, headline and creative, intended action, destination content/URL, product/offer facts
 
 ## Method Steps
 

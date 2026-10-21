@@ -11,43 +11,46 @@ For a regular chat, upload `packs/mk-272.md`; it includes the shared rules, this
 
 This Skill delivers: **Comparable combinations of audiences and creative angles**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 Views or clicks do not automatically stand in for sales; do not directly rank channels measured on different bases
 
 ## Required Inputs
 
-Provide: demand events, existing terms, audiences, creative, and advertising data
+Audiences/creatives to compare, primary outcome, period, channel, landing page and test resources
 
 ## Method Steps
 
-1. Demand Gen develops demand before customers actively search; first build hypotheses from demand-triggering events, existing search terms, website visitors, customer data, and conversion records
-2. For “Demand Gen Creative Test Matrix,” deliver “Comparable combinations of audiences and creative angles” while retaining the relationships among audience hypotheses, creative angles, channels, landing pages, and conversion goals
-3. The outline supports cold audiences, custom segments, first-party data, remarketing, and an audience × creative test matrix; AI-generated audiences remain hypotheses to validate through advertising
-4. The outline provides no fixed audience thresholds, creative specifications, budget ratios, or diagnostic cutoffs; check current official information when current Demand Gen features are involved
+1. Choose whether this round tests audience or creative and state the comparison
+2. Build audience×creative cells, holding other relevant conditions constant for the chosen comparison
+3. Record delivery opportunity, result source and mature window for each cell; flag confounded/noncomparable cells
 
 ## Calculation and Interpretation
 
-The main current source is a course outline; complete decision rules, data contracts, and case tests are still missing
+Unequal platform delivery is not a randomized test; insufficient comparable opportunity leaves the result unconfirmed
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Hypothesis | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Controlled conditions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Changed conditions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Subject / creative | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Primary result | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Source of stopping rule | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Acceptance | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Cell ID | Use the supplied source, calculation, or explicit unknown |
+| 2 | Audience | Use the supplied source, calculation, or explicit unknown |
+| 3 | Creative/angle | Use the supplied source, calculation, or explicit unknown |
+| 4 | Held conditions | Use the supplied source, calculation, or explicit unknown |
+| 5 | Changed variable | Use the supplied source, calculation, or explicit unknown |
+| 6 | Window/opportunity | Use the supplied source, calculation, or explicit unknown |
+| 7 | Outcome/criteria | Use the supplied source, calculation, or explicit unknown |
+| 8 | Confounds/next step | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-272-C05｜Price, creative, and audience all differ between the control and new group**
+**MK-272-A1 | Audience A gets creative A and B gets B**
 
-Expected: mark confounding or split the groups again; do not attribute the result to one changed factor
+Expected: Cannot isolate audience versus creative
+
+**MK-272-A2 | Two openings share audience/destination**
+
+Expected: Define a creative comparison and other controls
 
 ## Method Sources
 

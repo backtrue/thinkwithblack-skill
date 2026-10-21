@@ -15,13 +15,14 @@ Permission in robots or the existence of a sitemap does not guarantee indexing; 
 
 ## Required Inputs
 
-Provide: website pages, HTML, existing content, audiences, and search demand
+Website or topic and existing URL inventory, readable pages and internal links, target audience and search tasks; available GSC query-by-page data with common property and search type, filters, two equal nonoverlapping periods, and coverage. When GSC data is absent, inspect actual content and intent first and leave performance judgments pending
 
 ## Method Steps
 
-1. For each question, determine whether an existing page already answers it, can be improved, or a new page is needed
-2. If an existing page has the same topic/intent, prioritize improving it rather than creating a page for every long-tail question
-3. Add a page only when existing pages have different tasks and cannot reasonably meet the need; explain the break caused by the missing page
+1. Follow the complete workflow below to inventory URLs, actual content, and page tasks; when GSC is available, align periods, property, search type, and filters before reviewing page and query-by-page changes
+2. Classify each page as retain, improve, consolidation candidate, or add; a shared keyword or traffic decline alone does not justify consolidation, and pages with independent decision or case value retain that distinction
+3. Assign a main entry and relevant internal links for each need, specifying source, destination, contextual anchor, and reader’s next action; consolidation candidates also need a destination, unique-content preservation, and pending checks
+4. Use the per-page decision table and follow-up observations in the complete workflow; execute actual website changes within that workflow’s authorization scope
 
 ## Calculation and Interpretation
 
@@ -29,15 +30,16 @@ Actually crawl/read content and site structure; check current rules and markup, 
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Unit of analysis | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Original clues | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Category definitions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Classification result | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Supporting / counterevidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Unknowns | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Downstream use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | URL/page job | Use the supplied source, calculation, or explicit unknown |
+| 2 | GSC period/query evidence | Use the supplied source, calculation, or explicit unknown |
+| 3 | Keep, improve, consolidate or add | Use the supplied source, calculation, or explicit unknown |
+| 4 | Decision evidence | Use the supplied source, calculation, or explicit unknown |
+| 5 | Consolidation/new destination | Use the supplied source, calculation, or explicit unknown |
+| 6 | Internal links/routing | Use the supplied source, calculation, or explicit unknown |
+| 7 | Follow-up metrics | Use the supplied source, calculation, or explicit unknown |
+| 8 | Gaps/revision conditions | Use the supplied source, calculation, or explicit unknown |
 
 ## MK-312 Supplement: Main Entry Pages, GSC Performance, and Consolidation Decisions
 
@@ -55,9 +57,13 @@ Deliver a decision table with one row per page, including at least URL, page rol
 
 ## Verification Cases
 
-**MK-312-C05｜One record meets opposing conditions**
+**MK-312-A1 | Two pages cover the same treatment: one explains the process and one provides cases under different conditions**
 
-Expected: mark contradictory or pending judgment; do not arbitrarily assign the most common category
+Expected: Read the pages and search tasks; when cases answer a distinct decision, retain their roles and relevant links instead of consolidating solely because of a shared keyword
+
+**MK-312-A2 | GSC exports only some query rows and a page is absent**
+
+Expected: Record the coverage gap; absence does not mean zero traffic; continue content inventory while leaving that page’s performance conclusion pending
 
 ## Method Sources
 

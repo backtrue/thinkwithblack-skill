@@ -40,11 +40,11 @@ Verify contact consent, unsubscribes, and message specifications; friend counts 
 | 7 | Deliverables and acceptance | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 8 | Unresolved items | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-402-C05｜Budget unknown but assets can be organized first**
+**MK-402-A1 | Question options lack a messaging purpose**
 
-Expected: deliver the planning that does not depend on a budget first; do not require a complete questionnaire
+Expected: Remove unused fields or leave purpose pending
 
 ## Method sources
 

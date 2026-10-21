@@ -11,43 +11,45 @@ For a regular chat, upload `packs/mk-289.md`; it includes the shared rules, this
 
 This Skill delivers: **Frequency hypotheses within the budget and goals**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 Without evidence of reading the video or audio, provide recommendations only for the available text; do not invent video content
 
 ## Required Inputs
 
-Provide: video, transcript, timecodes, media goals, audience, and performance
+Media task, audience/window, budget, reach/impressions or CPM estimate, existing frequency and response
 
 ## Method Steps
 
-1. First define whether the video's media task is reach, views, frequency, engagement, or another approved objective, then address “YouTube Frequency Planning”
-2. The outline supports creative and media planning around the first 3–5 seconds, opening hook, brand, evidence, CTA, video sequences, and viewing contexts such as Shorts / In-stream / Bumper
-3. When delivering “Frequency hypotheses within the budget and goals,” distinguish the audience, placement/format, video, and media task; view metrics cannot be presented as causal evidence of sales
-4. The outline provides no fixed frequency, view rate, CPV, or best threshold by format; verify current YouTube Ads specifications through official sources
+1. Fix window/audience and distinguish actual frequency, forecast frequency and platform settings
+2. Compute average frequency from comparable impressions/unique reach; with budget/CPM, first estimate impressions, then use supported reach estimates
+3. Identify limited reach, repetition and fatigue signals with project-specific adjustment conditions; no universal optimum without evidence
 
 ## Calculation and Interpretation
 
-The main current source is a course outline; verify current placements and formats, and do not treat view metrics as causal evidence of sales
+Average frequency = impressions / unique reach in the same window; estimated impressions = budget / CPM × 1000. No calculation with zero reach/CPM; an average is not every person’s exposure count
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Goal | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Plan / task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Evidence and assumptions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Prerequisites | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Resources | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Deliverables and acceptance | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Open decisions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Task/window | Use the supplied source, calculation, or explicit unknown |
+| 2 | Budget/assumptions | Use the supplied source, calculation, or explicit unknown |
+| 3 | Impression/unique-reach sources | Use the supplied source, calculation, or explicit unknown |
+| 4 | Actual/forecast frequency | Use the supplied source, calculation, or explicit unknown |
+| 5 | Signals | Use the supplied source, calculation, or explicit unknown |
+| 6 | Adjustment conditions | Use the supplied source, calculation, or explicit unknown |
+| 7 | Unknowns | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-289-C05｜Budget is unknown but creative can be organized first**
+**MK-289-A1 | 1,000 impressions, 250 unique reach**
 
-Expected: first deliver planning that does not depend on budget; do not require a complete questionnaire
+Expected: Average four, not four for everyone
+
+**MK-289-A2 | Budget only**
+
+Expected: Reach/frequency remain unknown
 
 ## Method Sources
 

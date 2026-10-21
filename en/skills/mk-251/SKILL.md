@@ -15,7 +15,7 @@ When IDs cannot be matched one-to-one, leave them unmatched rather than guess; d
 
 ## Required Inputs
 
-Provide: product Feed, actual website information, SKU performance, and disapproval messages
+Feed product/variant IDs, actual ViewContent/AddToCart/Purchase event samples and product identifiers, website SKU mapping and relevant event times
 
 ## Method Steps
 
@@ -40,6 +40,12 @@ Use product data for specifications and prices; verify catalog fields and disapp
 | 7 | Issue classification | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
 | 8 | Correction location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
 | 9 | Status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+
+## Verification cases
+
+**MK-251-A1 | Feed exists but event samples do not**
+
+Expected: Record missing event evidence without claiming a matching pass
 
 ## Method Sources
 

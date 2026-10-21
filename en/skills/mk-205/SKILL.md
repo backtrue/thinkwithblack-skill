@@ -15,30 +15,41 @@ Past success supports candidates and hypotheses only; shared content elements ar
 
 ## Required Inputs
 
-Provide: Post IDs, cross-audience performance, creative, and seed-list quality
+Post ID-to-ad mapping, same-period spend, impressions and consistently defined click/engagement/conversion counts, task and attribution window
 
 ## Method Steps
 
-1. Multiple ads/audiences may use the same Post ID; aggregate spend, CTR, engagement, and conversions by Post ID for evaluation
-2. Do not inspect only a single ad row, which can fragment interpretation of the same post's accumulated social proof
-3. Retain differences between acquisition/remarketing and traffic/conversion tasks during aggregation; do not merge different purposes into a single ROAS
+1. Match ad rows by Post ID, remove repeated exports and fix period, click/engagement definitions, task and attribution window
+2. Sum additive, mutually exclusive comparable rows for cost, impressions, clicks and valid outcomes, then recompute rates from summed numerators/denominators; do not sum or average row CTRs
+3. Keep acquisition/re-engagement and traffic/sales tasks separate; overlapping conversion attribution is not deduplicated real orders
+4. Deliver raw totals, formulas and results, leaving zero-denominator rates undefined
 
 ## Calculation and Interpretation
 
-Aggregate by Post ID and distinguish advertising contexts; high engagement or high ROAS alone does not guarantee scalability
+CTR = consistently defined clicks / total impressions; CPC = total spend / corresponding clicks; cost per sale = comparable spend / corresponding valid sales. Preserve click type and percentage units for CTR
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Post ID | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Source and period | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Performance across four dimensions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Sample limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Suitable use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Elements to retain | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Test arrangement | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Reasons for not using | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Post ID/source ad rows | Use the supplied source, calculation, or explicit unknown |
+| 2 | Task, period and attribution window | Use the supplied source, calculation, or explicit unknown |
+| 3 | Spend/impression totals | Use the supplied source, calculation, or explicit unknown |
+| 4 | Click, engagement and sale counts | Use the supplied source, calculation, or explicit unknown |
+| 5 | Numerators/denominators/formulas | Use the supplied source, calculation, or explicit unknown |
+| 6 | Recomputed results | Use the supplied source, calculation, or explicit unknown |
+| 7 | Duplicates/noncomparable rows | Use the supplied source, calculation, or explicit unknown |
+| 8 | Interpretation | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-205-A1 | Comparable rows: 100 impressions/10 clicks and 900 impressions/9 clicks**
+
+Expected: CTR = 19/1000 = 1.9%, not row-average5.5%
+
+**MK-205-A2 | Rows use different click definitions**
+
+Expected: Calculate separately, not one combined CTR
 
 ## Method Sources
 

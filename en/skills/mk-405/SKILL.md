@@ -15,7 +15,7 @@ Do not send messages or create automation without approval; if a tool cannot sho
 
 ## Required inputs
 
-Provide: friend or subscriber status, permissions, product content, campaigns, and channel reports
+Provide: Current tags and definitions, trigger sources, usage history, downstream messages/automation references and verifiable data keys
 
 ## Method steps
 
@@ -39,15 +39,11 @@ Verify contact consent, unsubscribes, and message specifications; friend counts 
 | 6 | Next task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-405-C05｜Data meets the existing conditions**
+**MK-405-A1 | Apparently duplicate tag is referenced by automation**
 
-Expected: Report that it is usable or should be maintained; do not invent a need for changes
-
-**MK-405-C06｜Tool returns an error**
-
-Expected: Report that the data was not obtained; do not classify it as a business anomaly
+Expected: Preserve dependency and propose a merge, not immediate deletion
 
 ## Method sources
 

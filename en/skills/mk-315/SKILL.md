@@ -15,7 +15,7 @@ Permission in robots or the existence of a sitemap does not guarantee indexing; 
 
 ## Required Inputs
 
-Provide: website pages, HTML, existing content, audiences, and search demand
+Node question/content, intent-maturity evidence, candidate product/service page content/URLs and supported next action
 
 ## Method Steps
 
@@ -29,22 +29,21 @@ Actually crawl/read content and site structure; check current rules and markup, 
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Goal | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Plan / task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Evidence and assumptions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Prerequisites | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Resources | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Deliverables and acceptance | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Open decisions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Node question | Use the supplied source, calculation, or explicit unknown |
+| 2 | Intent maturity and evidence | Use the supplied source, calculation, or explicit unknown |
+| 3 | Candidate product or service | Use the supplied source, calculation, or explicit unknown |
+| 4 | Destination URL | Use the supplied source, calculation, or explicit unknown |
+| 5 | Actual CTA | Use the supplied source, calculation, or explicit unknown |
+| 6 | Promise-to-destination consistency | Use the supplied source, calculation, or explicit unknown |
+| 7 | Conditions against a sales referral | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-315-C05｜Budget is unknown but creative can be organized first**
+**MK-315-A1 | Reader is learning the problem and product cannot answer it**
 
-Expected: first deliver planning that does not depend on budget; do not require a complete questionnaire
+Expected: Route to explanatory content rather than forcing purchase
 
 ## Method Sources
 

@@ -15,7 +15,7 @@ Adding impressions across platforms does not yield deduplicated reach; conversio
 
 ## Required inputs
 
-Provide: GA4, GSC, advertising, and sales exports, metric definitions, and costs
+Partner, platform/placement, product/bundle, campaign purpose, existing UTM dictionary/examples; existing links for review
 
 ## Method steps
 
@@ -25,25 +25,26 @@ Provide: GA4, GSC, advertising, and sales exports, metric definitions, and costs
 
 ## Calculation and interpretation
 
-Verify data sources, dates, currencies, denominators, and attribution; sums across platforms do not equal unique reach or incremental impact
+Interpret source, medium, campaign, content and applicable term for each partner link and verify a unique campaign/creative mapping; report collisions/unknowns rather than fill meaningless values
 
 ## Required output fields
 
-| Order | Field | How to fill it in |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Unit of analysis | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 2 | Original clues | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 3 | Category definitions | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 4 | Classification results | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 5 | Support / counterexamples | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 6 | Unknowns | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 7 | Downstream use | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+| 1 | Partner | Use the supplied source, calculation, or explicit unknown |
+| 2 | Platform/placement | Use the supplied source, calculation, or explicit unknown |
+| 3 | Product/bundle | Use the supplied source, calculation, or explicit unknown |
+| 4 | campaign | Use the supplied source, calculation, or explicit unknown |
+| 5 | source/medium | Use the supplied source, calculation, or explicit unknown |
+| 6 | content/applicable term | Use the supplied source, calculation, or explicit unknown |
+| 7 | Actual names/mapping | Use the supplied source, calculation, or explicit unknown |
+| 8 | Collisions/gaps | Use the supplied source, calculation, or explicit unknown |
 
-## Validation cases
+## Verification cases
 
-**MK-429-C05｜One record matches opposing conditions**
+**MK-429-A1 | Two partners get identical parameters**
 
-Expected: mark the data as contradictory or pending classification; do not arbitrarily assign the most common category
+Expected: Flag ambiguity and use the existing dictionary to identify each partner
 
 ## Method sources
 

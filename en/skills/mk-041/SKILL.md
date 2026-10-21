@@ -15,7 +15,7 @@ Task stages are analytical categories, not a claim that every customer follows t
 
 ## Required inputs
 
-Provide: The product or service, customers' own words, existing pages, and actions the company can support
+Provide: Actual search terms and sources, ad text and promises, landing page content or URL, supported products/services and action
 
 ## Method
 

@@ -15,7 +15,7 @@ A page content check does not replace user behavior data; without performance da
 
 ## Required Inputs
 
-Provide: product facts, Persona, selling points, authentic evidence, offers, and brand information
+Product/campaign page content and URLs, traffic sources/jobs, actual campaign conditions and deadline
 
 ## Method Steps
 

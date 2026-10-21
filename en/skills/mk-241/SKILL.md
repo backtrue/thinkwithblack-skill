@@ -1,6 +1,6 @@
 ---
 name: mk-241
-description: "Improve Product Pages Using Search Terms. Use when you need needs unanswered by existing pages; apply this method to the specified inputs and verify the deliverable"
+description: "Improve Product Pages Using Search Terms. Use when you need to address questions unanswered by existing pages; apply this method to the specified inputs and verify the deliverable"
 ---
 
 # MK-241｜Improve Product Pages Using Search Terms
@@ -15,7 +15,7 @@ If the account cannot show all terms, do not call the data complete market deman
 
 ## Required Inputs
 
-Provide: search terms, keywords, campaign performance, pages, and demand hypotheses
+Transactional/action queries and sources, product/service page text/URL, product facts, pricing/eligibility and supported action; existing performance may inform priority
 
 ## Method Steps
 
@@ -29,16 +29,16 @@ Search term reports may not cover the entire market; observe when evidence is in
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Search term | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Original keyword and group | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Cost / result | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Intent fit | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Problem type | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Recommended action | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Affected scope | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Review | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Original query/intent | Use the supplied source, calculation, or explicit unknown |
+| 2 | Page URL/original location | Use the supplied source, calculation, or explicit unknown |
+| 3 | Missing answer | Use the supplied source, calculation, or explicit unknown |
+| 4 | Actual added copy | Use the supplied source, calculation, or explicit unknown |
+| 5 | Evidence/conditions | Use the supplied source, calculation, or explicit unknown |
+| 6 | CTA/next action | Use the supplied source, calculation, or explicit unknown |
+| 7 | Priority evidence | Use the supplied source, calculation, or explicit unknown |
+| 8 | Open confirmation | Use the supplied source, calculation, or explicit unknown |
 
 ## Method Sources
 

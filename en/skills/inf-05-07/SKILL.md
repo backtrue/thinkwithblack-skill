@@ -15,11 +15,11 @@ This document specifies the data requirements and method. It does not establish 
 
 ## Required inputs
 
-Upload an order table (CSV or spreadsheet) containing customer identifiers, unique order IDs, valid payment timestamps, and cancellation/refund/test statuses, and state the historical coverage and time zone
+Required data: an order table (CSV or spreadsheet) containing customer identifiers, unique order IDs, valid payment timestamps, and cancellation/refund/test statuses, and state the historical coverage and time zone
 
 ## Method
 
-1. Check the uploaded data's historical coverage, customer key, order uniqueness, and valid-order rules
+1. Check the data's historical coverage, customer key, order uniqueness, and valid-order rules
 2. Group valid orders by customer and sort them; select only each customer's first and second valid orders
 3. Calculate the interval between the first two orders, then calculate the mean using the number of eligible customers as the denominator, following the supplementary formulas below
 4. Deliver the valid sample size, mean and median, counts of customers without a repeat purchase and with unknown histories, preserving the data period and calculation basis
@@ -43,7 +43,7 @@ Original permission mode: read. Execute dependencies only when needed for this t
 
 Use this skill directly when the user wants to calculate repeat-purchase intervals, the mean interval between the first and second valid orders, or asks whether an app or spreadsheet can produce that number. The [Q028 original question and author's clarification](https://www.reddit.com/r/shopify/comments/18optr5/how_do_you_find_average_time_between_orders/) specify five years of customer and order records. An app and a spreadsheet are alternative approaches; a spreadsheet method is sufficient, and both are not required
 
-Clean and calculate from the data uploaded for this task
+Clean and calculate from the data obtained for this task
 
 Preserve the original population: all customers whose first and second valid orders can be verified (F2+). Include customers with three or more purchases, but count only the first-to-second interval once per customer. A population of customers with exactly two orders applies only when the user explicitly requests it. The first order observed in a five-year window is not necessarily a customer's lifetime first purchase. Check complete history, customer keys, unique orders, valid payment timestamps, time zones, and cancellation/refund/test rules first. Report unknown histories separately; deduplicate line items by order before calculation. Distinct valid orders on the same day may have a zero-day interval
 
@@ -60,6 +60,12 @@ For example, if the data ends at row 1000, the valid customer count is `=COUNT(E
 [Microsoft IF](https://support.microsoft.com/en-us/excel/functions/if-function) explains conditional output; [Microsoft AVERAGE](https://support.microsoft.com/en-us/excel/functions/average-function) explains that text and blanks are ignored while numeric zeros are retained. These formulas implement the method's calculations; they do not confirm a native Shopify report or an app capability
 
 When raw data is missing, deliver the cohort, interval, formulas, observation window, and missing inputs; leave the valid sample, mean/median, and number without a repeat purchase unknown. If the question is solely about app selection or native features, verify those capabilities separately. Email is usage context; measurement does not automatically generate welcome messages, fixed contact dates, or causal claims about results
+
+### Median and verification
+
+Using the valid first-to-second intervals in column E, calculate median with `=IF(COUNT(E2:E1000)=0,"No valid repeat-purchase sample",MEDIAN(E2:E1000))`. Replace 1000 with the actual last row, retain genuine zero-day intervals and exclude blanks
+
+Check: intervals 0, 10 and 50 give count 3, mean 20 and median 10; no valid intervals produce the no-sample message for both mean and median
 
 ## Method sources
 

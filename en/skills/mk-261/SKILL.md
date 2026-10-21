@@ -11,46 +11,45 @@ For a regular chat, upload `packs/mk-261.md`; it includes the shared rules, this
 
 This Skill delivers: **Missing identifiers such as GTIN**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 When IDs cannot be matched one-to-one, leave them unmatched rather than guess; do not invent a match rate without complete event samples
 
 ## Required Inputs
 
-Provide: product Feed, actual website information, SKU performance, and disapproval messages
+Feed identifiers, manufacturer/package records, variants and current Merchant Center diagnostics
 
 ## Method Steps
 
-1. Start with Merchant Center / Product Feed and actual product data, handling only “Product Barcode Completeness Check”
-2. The outline explicitly supports Title, Description, Image, Price, Availability, Brand, GTIN, Google Product Category, Product Type, Custom Label, Product Group, Shopping Search Terms, and disapproval/data-quality diagnosis
-3. When delivering “Missing identifiers such as GTIN,” trace the result to the actual Feed, SKU performance, search terms, or disapproval messages; if data is missing, list only the missing items
-4. Merchant Center field requirements, disapproval rules, and Shopping capabilities change; check current Google official information before actual execution, and do not invent fixed rules absent from the outline
+1. Match each product/variant to original identifier records and retain unmatched items
+2. Distinguish missing values, formatting issues, mismatched codes and products with no manufacturer identifier; never invent a code
+3. List original values, authoritative sources and proposed corrections; check current Google identifier requirements for this product type and reread diagnostics after an applied correction
 
 ## Calculation and Interpretation
 
-Use product data for specifications and prices; verify catalog fields and disapproval rules during production
+The same title does not establish the same variant; without diagnostic readback, keep the listing status unverified
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Subject / location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Conditions for use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Actual evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Check status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Differences / possible causes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Next task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Product/variant key | Use the supplied source, calculation, or explicit unknown |
+| 2 | Original Feed value | Use the supplied source, calculation, or explicit unknown |
+| 3 | Manufacturer evidence | Use the supplied source, calculation, or explicit unknown |
+| 4 | Missing/conflicting value | Use the supplied source, calculation, or explicit unknown |
+| 5 | Proposed value and basis | Use the supplied source, calculation, or explicit unknown |
+| 6 | Applicable rule source | Use the supplied source, calculation, or explicit unknown |
+| 7 | Readback state | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-261-C05｜Data meets existing conditions**
+**MK-261-A1 | Two sizes have different codes**
 
-Expected: report usable or keep as is; do not invent a need for changes
+Expected: Match by variant
 
-**MK-261-C06｜The tool returns an error**
+**MK-261-A2 | No manufacturer code is supplied**
 
-Expected: report data not obtained; do not classify the tool error as a business anomaly
+Expected: Record missing evidence/rule check; do not invent a GTIN
 
 ## Method Sources
 

@@ -31,13 +31,13 @@ Use only verifiable product differences. Mark claims lacking evidence as needing
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Factual feature | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Customer task | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Tangible benefit | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Basis for comparison | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Suitable angle | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Lead/supporting/to investigate | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Reason | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Feature and evidence | Use the supplied source, calculation, or explicit unknown |
+| 2 | Customer job | Use the supplied source, calculation, or explicit unknown |
+| 3 | Functional problem | Use the supplied source, calculation, or explicit unknown |
+| 4 | How the product addresses it | Use the supplied source, calculation, or explicit unknown |
+| 5 | Feature-to-job mapping | Use the supplied source, calculation, or explicit unknown |
+| 6 | Complete one-sentence statement | Use the supplied source, calculation, or explicit unknown |
+| 7 | Unknowns and validation | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification cases
 

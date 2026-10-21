@@ -15,7 +15,7 @@ Permission in robots or the existence of a sitemap does not guarantee indexing; 
 
 ## Required Inputs
 
-Provide: website pages, HTML, existing content, audiences, and search demand
+Node job, question to answer, available evidence/conditions, destination or next step; original content for revisions
 
 ## Method Steps
 
@@ -29,22 +29,21 @@ Actually crawl/read content and site structure; check current rules and markup, 
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Goal | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Plan / task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Evidence and assumptions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Prerequisites | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Resources | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Deliverables and acceptance | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Open decisions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Question addressed | Use the supplied source, calculation, or explicit unknown |
+| 2 | H2 heading | Use the supplied source, calculation, or explicit unknown |
+| 3 | Short-answer text | Use the supplied source, calculation, or explicit unknown |
+| 4 | Supporting evidence and conditions | Use the supplied source, calculation, or explicit unknown |
+| 5 | Supporting detail | Use the supplied source, calculation, or explicit unknown |
+| 6 | Next destination and action | Use the supplied source, calculation, or explicit unknown |
+| 7 | Unknown facts | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-313-C05｜Budget is unknown but creative can be organized first**
+**MK-313-A1 | Short answer refers to a product named only earlier**
 
-Expected: first deliver planning that does not depend on budget; do not require a complete questionnaire
+Expected: Make the reference independently understandable while retaining conditions
 
 ## Method Sources
 

@@ -15,7 +15,9 @@ Working backward to resource requirements is not a forecast or optimal allocatio
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+Provide: Target or break-even revenue, comparable average order value and planning period
+
+For method questions, provide the formula, variables and an example directly; for a calculation, ask only for missing operands
 
 ## Method
 
@@ -25,11 +27,7 @@ Provide: Revenue, costs, average order value, conversion rate, fixed expenses, a
 
 ## Calculations and interpretation
 
-Required orders = target revenue ÷ average order value on the same basis; round up when planning an actual order count
-
-Retain original values, units, periods, and substituted formulas. The formula is not an unconditional guarantee of results
-
-Define gross profit, contribution margin, cost denominators, and periods explicitly; do not copy classroom example numbers as universal thresholds
+Required orders = target revenue / comparable AOV, rounded up for whole orders. AOV must be positive; retain revenue scope, currency and period without adding margin/cost prerequisites
 
 ## Required output fields
 
@@ -45,13 +43,13 @@ Define gross profit, contribution margin, cost denominators, and periods explici
 
 ## Verification cases
 
-**MK-062-C05 | A required denominator is zero**
+**MK-062-A1 | Target1000, AOV300**
 
-Expected: Report that the formula is undefined; do not output a zero cost or an infinite target
+Expected: Four whole orders required
 
-**MK-062-C06 | Only some costs are supplied**
+**MK-062-A2 | AOV zero or unknown**
 
-Expected: Retain the partial result and excluded items; do not call it complete profitability
+Expected: No finite order requirement; retain invalid/missing input
 
 ## Method sources
 

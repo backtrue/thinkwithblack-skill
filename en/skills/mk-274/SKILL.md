@@ -11,42 +11,45 @@ For a regular chat, upload `packs/mk-274.md`; it includes the shared rules, this
 
 This Skill delivers: **Creative promises and the next-step page**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 Views or clicks do not automatically stand in for sales; do not directly rank channels measured on different bases
 
 ## Required Inputs
 
-Provide: demand events, existing terms, audiences, creative, and advertising data
+Actual creative promise/CTA, destination content or URL, product facts, offer and eligibility conditions
 
 ## Method Steps
 
-1. Demand Gen develops demand before customers actively search; first build hypotheses from demand-triggering events, existing search terms, website visitors, customer data, and conversion records
-2. For “Demand Gen Landing Page Matching,” deliver “Creative promises and the next-step page” while retaining the relationships among audience hypotheses, creative angles, channels, landing pages, and conversion goals
-3. The outline supports cold audiences, custom segments, first-party data, remarketing, and an audience × creative test matrix; AI-generated audiences remain hypotheses to validate through advertising
-4. The outline provides no fixed audience thresholds, creative specifications, budget ratios, or diagnostic cutoffs; check current official information when current Demand Gen features are involved
+1. Extract audience, problem, benefit, conditions and next action
+2. Locate each element in the first screen, evidence, pricing conditions and action entry
+3. Choose whether to narrow the creative or improve the page, writing specific corrections/locations and checking sources
 
 ## Calculation and Interpretation
 
-The main current source is a course outline; complete decision rules, data contracts, and case tests are still missing
+A working link establishes accessibility only; verify promise and next-action alignment item by item
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Source subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Target subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Task to address | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Evidence of fit | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Applicable conditions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Unmapped items / conflicts | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Next step | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Creative wording | Use the supplied source, calculation, or explicit unknown |
+| 2 | Promise/conditions | Use the supplied source, calculation, or explicit unknown |
+| 3 | Page location | Use the supplied source, calculation, or explicit unknown |
+| 4 | Support/gap | Use the supplied source, calculation, or explicit unknown |
+| 5 | Change target | Use the supplied source, calculation, or explicit unknown |
+| 6 | Actual revision | Use the supplied source, calculation, or explicit unknown |
+| 7 | Evidence source | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-274-C05｜One subject has two different uses**
+**MK-274-A1 | Creative says free but page charges**
 
-Expected: list uses and conditions separately rather than force a single match
+Expected: Flag conflict and revise to the actual offer
+
+**MK-274-A2 | Page unreadable**
+
+Expected: Leave alignment unverified
 
 ## Method Sources
 

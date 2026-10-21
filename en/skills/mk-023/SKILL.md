@@ -19,9 +19,9 @@ Provide: Product facts, existing customer data, surveys, or customer-service rec
 
 ## Method
 
-1. The buyer is not necessarily the actual user. First assess whether the product directly identifies the buyer's role or could be purchased for someone else
-2. Define a role directly from purchase behavior only for a function-based role-marker product whose purchase establishes who the buyer is
-3. When a contextual role marker is weaker, strengthen it with surveys, email-marketing tags, or subsequent behavior; do not immediately equate the buyer with the user
+1. Separate buyer, actual user, gift purchaser and proxy roles; retain directly observed transaction facts
+2. A functionally distinctive product can provide a stronger role clue, but check gift, proxy and other-user counterexamples; keep unconfirmed roles as hypotheses
+3. Seek survey, service or subsequent-behavior evidence when the role changes the recommendation
 
 ## Calculations and interpretation
 

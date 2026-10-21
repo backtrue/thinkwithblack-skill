@@ -15,7 +15,7 @@ Use actual tools and current official specifications to establish platform optio
 
 ## Required Inputs
 
-Provide: account configuration snapshots, business goals, creative, events, and authorization information
+Campaign/ad-set/ad levels to name, objective/product, evergreen or campaign status, new/existing customers, audience/placements and existing conventions
 
 ## Method Steps
 
@@ -29,16 +29,15 @@ Verify current platform settings and available audiences; this catalog does not 
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Level / subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Current state | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Candidate settings | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Basis for audience and message | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Creative and page | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Required events | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Permission / missing items | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Campaign, ad-set, or ad level | Use the supplied source, calculation, or explicit unknown |
+| 2 | Name components, order, and separator | Use the supplied source, calculation, or explicit unknown |
+| 3 | Required and optional components | Use the supplied source, calculation, or explicit unknown |
+| 4 | Proposed name and corresponding settings | Use the supplied source, calculation, or explicit unknown |
+| 5 | Retained or revised team convention | Use the supplied source, calculation, or explicit unknown |
+| 6 | Name collision and ambiguity checks | Use the supplied source, calculation, or explicit unknown |
+| 7 | Version and change record | Use the supplied source, calculation, or explicit unknown |
 
 ## Method Sources
 

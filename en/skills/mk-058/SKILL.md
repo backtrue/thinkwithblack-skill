@@ -15,7 +15,7 @@ Recalculability does not mean the data is complete; break-even points and cost c
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+Cost items, amounts, period and charging basis; for method questions, provide classification principles and examples directly
 
 ## Method
 
@@ -25,33 +25,29 @@ Provide: Revenue, costs, average order value, conversion rate, fixed expenses, a
 
 ## Calculations and interpretation
 
-Separate fixed costs from costs that vary with order volume. Split mixed costs using the breakdown supplied for this case; do not guess unknown splits
-
-Retain original values, units, periods, and substituted formulas. The formula is not an unconditional guarantee of results
-
-Define gross profit, contribution margin, cost denominators, and periods explicitly; do not copy classroom example numbers as universal thresholds
+Classify fixed, variable or mixed costs according to how they vary with sales in this case, preserving charging basis and period; use supplied split rules for mixed costs and retain unknowns
 
 ## Required output fields
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Input variable | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Value | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Unit and definition | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Source | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Formula | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Result | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Limitations | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Cost item | Use the supplied source, calculation, or explicit unknown |
+| 2 | Amount/period | Use the supplied source, calculation, or explicit unknown |
+| 3 | Charging basis | Use the supplied source, calculation, or explicit unknown |
+| 4 | Fixed, variable or mixed | Use the supplied source, calculation, or explicit unknown |
+| 5 | Classification evidence | Use the supplied source, calculation, or explicit unknown |
+| 6 | Mixed-cost split | Use the supplied source, calculation, or explicit unknown |
+| 7 | Unknowns/gaps | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification cases
 
-**MK-058-C05 | A required denominator is zero**
+**MK-058-A1 | Monthly rent10000, payment fee2% of orders**
 
-Expected: Report that the formula is undefined; do not output a zero cost or an infinite target
+Expected: Classify fixed and variable with charging basis
 
-**MK-058-C06 | Only some costs are supplied**
+**MK-058-A2 | Utilities include base and usage charges without a split**
 
-Expected: Retain the partial result and excluded items; do not call it complete profitability
+Expected: Mark mixed and request split, not all fixed
 
 ## Method sources
 

@@ -15,7 +15,7 @@ Creating a draft from scratch here does not automatically invoke Speak Human TW;
 
 ## Required Inputs
 
-Provide: product, audience hypothesis, evidence, landing page, and placement requirements
+Original USP/evidence, existing draft or value proposition, each audience’s known context/problems and product facts
 
 ## Method Steps
 

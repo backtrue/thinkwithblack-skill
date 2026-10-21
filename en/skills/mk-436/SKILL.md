@@ -15,7 +15,7 @@ Adding impressions across platforms does not yield deduplicated reach; conversio
 
 ## Required inputs
 
-Provide: GA4, GSC, advertising, and sales exports, metric definitions, and costs
+Provide: Actual website/app flow, business goals, actions/pages to observe, available order/event identifiers and current tracking; planned flow when implementation has not begun
 
 ## Method steps
 
@@ -54,11 +54,11 @@ Even with missing data, complete the table defining nodes, actions, events, and 
 
 Funnel comparisons use the same units, periods, and definition of the paid subset
 
-## Validation cases
+## Verification cases
 
-**MK-436-C05｜Budget unknown but assets can be organized first**
+**MK-436-A1 | Checkout clicked but payment incomplete**
 
-Expected: deliver the planning that does not depend on a budget first; do not require a complete questionnaire
+Expected: Separate checkout-start from purchase-success with trigger evidence
 
 ## Method sources
 

@@ -15,13 +15,13 @@ One answer does not establish a stable ranking; do not simulate current results 
 
 ## Required inputs
 
-Provide: actual AI answers, queries, dates, platforms, and cited URLs
+Provide: Original AI response, question, platform and date, plus approved brand name, category, products/services, positioning and sources
 
 ## Method steps
 
-1. The description check goes beyond the presence of a brand name to verify AI's description of brand type, services, positioning, and differentiation
-2. For vague descriptions, return to 105 to check identity signals; for incorrect descriptions, prioritize external context and brand descriptions
-3. Do not immediately attribute AI errors to hallucination; first check whether the brand's own and third-party signals are confused
+1. Check AI statements about brand name, type, services, positioning and differences, preserving the answer/source
+2. For vague statements, compare approved name, category, audience, products and differentiation evidence directly; for errors, inspect actual citations/external descriptions
+3. Report support, contradiction or unknown for each claim and the next evidence needed without inferring a cause from one error
 
 ## Calculation and interpretation
 
@@ -39,15 +39,11 @@ Retain questions, dates, platforms, and actual answers; one result does not repr
 | 6 | Next task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-364-C05｜Data meets the existing conditions**
+**MK-364-A1 | Only AI answer, no approved brand facts**
 
-Expected: Report that it is usable or should be maintained; do not invent a need for changes
-
-**MK-364-C06｜Tool returns an error**
-
-Expected: Report that the data was not obtained; do not classify it as a business anomaly
+Expected: List identity claims/source gaps rather than assume correctness
 
 ## Method sources
 

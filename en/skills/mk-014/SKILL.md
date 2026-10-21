@@ -15,7 +15,7 @@ Separate features, benefits, and evidence; do not claim exclusivity without comp
 
 ## Required inputs
 
-Provide: Product specifications, competitor differences, verifiable evidence, and intended customers
+Provide: Text or page to review and its location, intended audience and focus, product facts and supporting evidence
 
 ## Method
 
@@ -31,13 +31,13 @@ Use only verifiable product differences. Mark claims lacking evidence as needing
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Factual feature | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Customer task | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Tangible benefit | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Basis for comparison | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Suitable angle | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Lead/supporting/to investigate | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Reason | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Original text and location | Use the supplied source, calculation, or explicit unknown |
+| 2 | Intended focus and audience | Use the supplied source, calculation, or explicit unknown |
+| 3 | Exclusivity, relevance, quantification or focus issue | Use the supplied source, calculation, or explicit unknown |
+| 4 | Evidence | Use the supplied source, calculation, or explicit unknown |
+| 5 | Revision direction | Use the supplied source, calculation, or explicit unknown |
+| 6 | Revised text | Use the supplied source, calculation, or explicit unknown |
+| 7 | Facts to confirm | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification cases
 

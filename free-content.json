@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.20-free.1",
+  "version": "2026.10.21-free.1",
   "entries": [
     {
       "id": "INF-05-07",
@@ -1124,7 +1124,7 @@
     {
       "id": "MK-141",
       "name": "功能示範素材企劃",
-      "description": "功能示範素材企劃。用於需要需要拍攝或展示的功能與畫面的工作；依本項方法處理已指定資料並核對交付",
+      "description": "功能示範素材企劃。用於需要拍攝或展示的功能與畫面的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-141/SKILL.md",
       "references": [],
       "pack": "packs/mk-141.md"
@@ -1260,7 +1260,7 @@
     {
       "id": "MK-158",
       "name": "信任缺口素材清單",
-      "description": "信任缺口素材清單。用於需要需要補評測、證據或說明的位置的工作；依本項方法處理已指定資料並核對交付",
+      "description": "信任缺口素材清單。用於需要補評測、證據或說明的位置的工作；依本項方法處理已指定資料並核對交付",
       "source": "skills/mk-158/SKILL.md",
       "references": [],
       "pack": "packs/mk-158.md"
@@ -1311,9 +1311,7 @@
       "description": "依 Persona 與參考興趣清單，用整組候選標籤刻畫生活樣貌，交付面向、理由、來源及缺口；本版不做平台即時查證或投放設定。",
       "source": "skills/mk-164/SKILL.md",
       "references": [
-        "skills/mk-164/assets/eachspy-302-interests.csv",
-        "skills/mk-164/assets/interest-reference.md",
-        "skills/mk-164/assets/primenumbers-interests.csv"
+        "skills/mk-164/assets/interest-reference.md"
       ],
       "pack": "packs/mk-164.md"
     },
@@ -2896,7 +2894,7 @@
     {
       "id": "pmax-copy",
       "name": "PMAX 文案產出與審核",
-      "description": "產出、重寫與審核 Google PMAX 文字素材。使用者要求建立 PMAX 廣告、寫標題與說明、改善點擊理由或重寫整批文案時使用。承接 Persona、USP 與證據，先定進場入口、需求場景及到達頁，再將同一場景翻成 S／N／T／F，交付 15／5／5 可獨立重組的素材池與逐則審核。文案完成後才配對圖片影片；不處理 RSA 格式或廣告帳戶操作。",
+      "description": "產出、重寫與審核 Google PMAX 文字素材。使用者要求建立 PMAX 廣告、寫標題與說明、改善點擊理由或重寫整批文案時使用。承接 Persona、USP 與證據，先定進場入口、需求場景及到達頁，再將同一場景翻成 S／N／T／F，交付 15／5／5 可獨立重組的素材池與逐則審核。文案完成後才配對圖片影片；不處理 RSA 格式或廣告帳戶操作",
       "source": "extensions/pmax-copy/SKILL.md",
       "references": [
         "extensions/pmax-copy/references/copy-contract.md"
@@ -2941,7 +2939,7 @@
     {
       "id": "speak-human-tw",
       "name": "說人話：繁中去 AI 味",
-      "description": "潤飾既有繁體中文長文，保留背景鋪陳、作者關切、自然銜接與完整參考範例",
+      "description": "校對與改寫既有繁體中文長短稿件，保留事實、作者口吻與條件，附完整長文參考範例",
       "source": "supplements/speak-human-tw/SKILL.md",
       "references": [
         "supplements/speak-human-tw/LICENSE",

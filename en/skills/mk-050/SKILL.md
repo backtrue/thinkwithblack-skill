@@ -15,7 +15,7 @@ Curve intersections, cost floors, and launch decisions are distinct tasks; a pri
 
 ## Required inputs
 
-Provide: Product costs, target audience, raw survey responses, or survey purpose
+Provide the target group, four original answers, product/quantity and currency, sampling and cleaning rules. For existing curves, include the price grid, cumulative direction, and denominator. Explain the method with explicit assumptions when appropriate; costs are needed only for business-feasibility assessment
 
 ## Method
 
@@ -25,7 +25,9 @@ Provide: Product costs, target audience, raw survey responses, or survey purpose
 
 ## Calculations and interpretation
 
-Check sampling, valid responses, and the ordering of price questions; willingness to pay is neither actual purchasing nor a profit guarantee
+At a common price p, use the same N responses with all four answers valid: the too-cheap proportion is the count with too-cheap threshold >= p divided by N; bargain/cheap uses the same direction. The somewhat-expensive proportion is the count with somewhat-expensive threshold <= p divided by N; too-expensive uses the same direction. All four curves share the price grid and denominator. Retain missing answers, inconsistent price ordering, and cleaning rules; do not discard answers to force an intersection
+
+A discrete grid brackets a crossing interval. Report an estimated crossing only with a stated interpolation method. Report absent crossings or overlapping intervals rather than inventing a unique precise value. PMC crosses too-cheap with somewhat-expensive; PME crosses bargain/cheap with too-expensive; OPP crosses too-cheap with too-expensive; IPP crosses bargain/cheap with somewhat-expensive. These describe this sample's price perceptions; check costs and actual purchases separately
 
 ## Required output fields
 
@@ -41,13 +43,13 @@ Check sampling, valid responses, and the ordering of price questions; willingnes
 
 ## Verification cases
 
-**MK-050-C05 | A respondent's four price answers have a contradictory order**
+**MK-050-A1 | At a price, two of four valid respondents have too-cheap thresholds >= p**
 
-Expected: Retain and flag the original answers; report sensitivity separately under the established cleaning rules
+Expected: The too-cheap proportion is 2/4 = 50%; use the same denominator and each curve's direction for the other questions
 
-**MK-050-C06 | The curves do not have an intersection defined by the source**
+**MK-050-A2 | No crossing appears on the discrete grid**
 
-Expected: Deliver the distributions and the reason interpretation is unavailable; do not fabricate an intersection
+Expected: Report the absent intersection and interpretable range; do not use an average price as a crossing
 
 ## Method sources
 

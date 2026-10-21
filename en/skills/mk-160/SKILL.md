@@ -15,7 +15,7 @@ Use actual tools and current official specifications to establish platform optio
 
 ## Required Inputs
 
-Provide: account configuration snapshots, business goals, creative, events, and authorization information
+Business purpose/intended outcome, destination and available measurement; explain general conditions directly, requesting account snapshots/relevant event data only for specific settings
 
 ## Method Steps
 

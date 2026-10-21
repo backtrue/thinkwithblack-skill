@@ -15,7 +15,9 @@ Recalculability does not mean the data is complete; break-even points and cost c
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+Provide: Original order count and original/new contribution per order, or their prices and costs; corresponding conversion rates only when traffic is to be derived
+
+For method questions, provide the formula, variables and an example directly; for a calculation, ask only for missing operands
 
 ## Method
 
@@ -25,11 +27,7 @@ Provide: Revenue, costs, average order value, conversion rate, fixed expenses, a
 
 ## Calculations and interpretation
 
-New orders required to maintain original contribution = original orders × original contribution per order ÷ new contribution per order
-
-Retain original values, units, periods, and substituted formulas. The formula is not an unconditional guarantee of results
-
-Define gross profit, contribution margin, cost denominators, and periods explicitly; do not copy classroom example numbers as universal thresholds
+Orders required to maintain original contribution = original orders × original contribution per order / new contribution per order, rounded up for whole orders. Apply this requirement only when new contribution is positive. With zero or negative new contribution, more such orders cannot recover an originally positive contribution; do not report negative orders or a finite break-even volume. If original total contribution is also nonpositive, show both results and confirm the target
 
 ## Required output fields
 
@@ -45,13 +43,13 @@ Define gross profit, contribution margin, cost denominators, and periods explici
 
 ## Verification cases
 
-**MK-070-C05 | A required denominator is zero**
+**MK-070-A1 | Original 100 orders at contribution 20, new contribution 10**
 
-Expected: Report that the formula is undefined; do not output a zero cost or an infinite target
+Expected: Requires 200 orders
 
-**MK-070-C06 | Only some costs are supplied**
+**MK-070-A2 | New contribution zero or −5**
 
-Expected: Retain the partial result and excluded items; do not call it complete profitability
+Expected: Cannot recover original positive contribution through more such orders; no finite positive or negative order requirement
 
 ## Method sources
 

@@ -43,11 +43,11 @@ Decision rules authored by ThinkWithBlack on 2026-10-14; original course sources
 | 6 | Result | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Missing items / limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-376-C05｜The original specification gives no segment weights or cost ratios**
+**MK-376-A1 | Valid orders 100 and 200, second refunded 50 but remains valid**
 
-Expected: list the necessary decisions; do not invent “industry-standard” values
+Expected: Total 250, mean 125, with the refund rule retained
 
 ## Method sources
 

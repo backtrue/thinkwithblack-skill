@@ -15,7 +15,7 @@ Keep review excerpts faithful; a recommendation, collaboration plan, or reuse ar
 
 ## Required Inputs
 
-Provide: actual reviews, customer service records, collaboration content, permissions, and performance data
+Product facts, audience/context, collaboration topic or search need, required demonstrations, available assets, deliverable specifications, intended usage channels/term
 
 ## Method Steps
 
@@ -29,15 +29,22 @@ Use only authentic reviews and third-party content with usage rights; do not fab
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Original evidence text / location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Source and date | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Supported claim | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Applicable conditions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Permission status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Recommended use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Inferences not supported | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Collaboration goal/topic | Use the supplied source, calculation, or explicit unknown |
+| 2 | Audience/context | Use the supplied source, calculation, or explicit unknown |
+| 3 | Product facts/conditions to preserve | Use the supplied source, calculation, or explicit unknown |
+| 4 | Required demonstrations/shots | Use the supplied source, calculation, or explicit unknown |
+| 5 | Format/deliverable specifications | Use the supplied source, calculation, or explicit unknown |
+| 6 | Usage channels/term | Use the supplied source, calculation, or explicit unknown |
+| 7 | Assets/schedule | Use the supplied source, calculation, or explicit unknown |
+| 8 | Acceptance/gaps | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-155-A1 | Product facts exist but commercial rights not agreed**
+
+Expected: Brief states requested channels/term pending agreement, not granted rights
 
 ## Method Sources
 

@@ -15,13 +15,15 @@ Keep review excerpts faithful; a recommendation, collaboration plan, or reuse ar
 
 ## Required Inputs
 
-Provide: actual reviews, customer service records, collaboration content, permissions, and performance data
+Each original collaboration asset and source; licensed channels, formats, term, editing and identity rights; intended uses, current placements, and any available relevant performance data
 
 ## Method Steps
 
 1. Plan collaboration content for long-term reuse where possible: SERP visibility, licensed use on the official website, nonbrand social content, search ad creative, and Meta Hero Post/remarketing
 2. Verify the permission period and media scope before use; a prior collaboration does not imply perpetual commercial rights
 3. Update reuse priorities monthly using the SERP and performance, rather than treating the collaboration as a one-off post
+4. Map each original asset to its adapted version and intended use; check format, editing or excerpt rights, and identity presentation as well as channels and term; flag uncovered uses for permission and expired placements for removal or renewal
+5. For each reuse item, specify actual editing work, priority basis, owner, and expiry review date; when performance is unavailable, prioritize verified needs without inventing returns
 
 ## Calculation and Interpretation
 
@@ -29,22 +31,22 @@ Use only authentic reviews and third-party content with usage rights; do not fab
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Goal | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Subject | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Plan / task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Evidence and assumptions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Prerequisites | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Resources | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Deliverables and acceptance | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Open decisions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Original content, source, and current placement | Use the supplied source, calculation, or explicit unknown |
+| 2 | Licensed channels, formats, and term | Use the supplied source, calculation, or explicit unknown |
+| 3 | Editing and identity rights | Use the supplied source, calculation, or explicit unknown |
+| 4 | Intended use and covered version | Use the supplied source, calculation, or explicit unknown |
+| 5 | Editing work and owner | Use the supplied source, calculation, or explicit unknown |
+| 6 | Priority and basis | Use the supplied source, calculation, or explicit unknown |
+| 7 | Expiry and renewal or removal work | Use the supplied source, calculation, or explicit unknown |
+| 8 | Unresolved permissions | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-156-C05｜Budget is unknown but creative can be organized first**
+**MK-156-A1 | A video is licensed for one year of website use and proposed for edited paid ads**
 
-Expected: first deliver planning that does not depend on budget; do not require a complete questionnaire
+Expected: Keep the covered website use within its term; verify paid-ad and editing rights separately and flag uncovered uses for permission
 
 ## Method Sources
 

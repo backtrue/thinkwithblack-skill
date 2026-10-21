@@ -1,6 +1,6 @@
 ---
 name: mk-239
-description: "Turn Search Terms into FAQs. Use when you need fAQ proposals based on real search questions; apply this method to the specified inputs and verify the deliverable"
+description: "Turn Search Terms into FAQs. Use when you need FAQ proposals based on real search questions; apply this method to the specified inputs and verify the deliverable"
 ---
 
 # MK-239｜Turn Search Terms into FAQs
@@ -29,16 +29,21 @@ Search term reports may not cover the entire market; observe when evidence is in
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Search term | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Original keyword and group | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Cost / result | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Intent fit | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Problem type | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Recommended action | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Affected scope | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Review | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Actual customer question and source | Use the supplied source, calculation, or explicit unknown |
+| 2 | FAQ question | Use the supplied source, calculation, or explicit unknown |
+| 3 | Actual answer | Use the supplied source, calculation, or explicit unknown |
+| 4 | Supporting evidence and conditions | Use the supplied source, calculation, or explicit unknown |
+| 5 | Existing page gap | Use the supplied source, calculation, or explicit unknown |
+| 6 | Proposed page and placement | Use the supplied source, calculation, or explicit unknown |
+| 7 | Next step and unknowns | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-239-A1 | Sourced answer exists but the page omits it**
+
+Expected: Deliver the FAQ question/answer, source and placement
 
 ## Method Sources
 

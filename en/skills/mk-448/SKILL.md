@@ -15,7 +15,7 @@ Maintain, observe, and gather evidence first are valid decisions; do not conceal
 
 ## Required inputs
 
-Provide: brand background, existing data, course rules, and the current decision
+Provide: Complete consultant answer, citations or readable sources, original question and verifiable business data
 
 ## Method steps
 
@@ -29,25 +29,21 @@ This task only inventories work; old specifications are not new authorization, a
 
 ## Required output fields
 
-| Order | Field | How to fill it in |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Subject / location | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 2 | Conditions for use | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 3 | Actual evidence | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 4 | Check status | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 5 | Differences / possible causes | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 6 | Next task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 7 | Limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+| 1 | Consultant statement and location | Use the supplied source, calculation, or explicit unknown |
+| 2 | Claim type | Use the supplied source, calculation, or explicit unknown |
+| 3 | Cited source and location | Use the supplied source, calculation, or explicit unknown |
+| 4 | What the source actually supports | Use the supplied source, calculation, or explicit unknown |
+| 5 | Supported, partial, contradicted or unverifiable | Use the supplied source, calculation, or explicit unknown |
+| 6 | Corrected wording and reason | Use the supplied source, calculation, or explicit unknown |
+| 7 | Missing source | Use the supplied source, calculation, or explicit unknown |
 
-## Validation cases
+## Verification cases
 
-**MK-448-C05｜Data meets the existing conditions**
+**MK-448-A1 | Source supports only part of a compound claim**
 
-Expected: Report that it is usable or should be maintained; do not invent a need for changes
-
-**MK-448-C06｜Tool returns an error**
-
-Expected: Report that the data was not obtained; do not classify it as a business anomaly
+Expected: Split claims, mark partial support and revise unsupported wording
 
 ## Method sources
 

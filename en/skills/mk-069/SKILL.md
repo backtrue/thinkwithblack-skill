@@ -15,7 +15,9 @@ Recalculability does not mean the data is complete; break-even points and cost c
 
 ## Required inputs
 
-Provide: Revenue, costs, average order value, conversion rate, fixed expenses, and target assumptions
+Provide: Discount/gift offer, discounted net revenue, order variable costs, additional promotional and fulfillment costs, and the brand contribution floor
+
+For method questions, provide the formula, variables and an example directly; for a calculation, ask only for missing operands
 
 ## Method
 

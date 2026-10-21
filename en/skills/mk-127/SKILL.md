@@ -15,7 +15,7 @@ A page content check does not replace user behavior data; without performance da
 
 ## Required Inputs
 
-Provide: product facts, Persona, selling points, authentic evidence, offers, and brand information
+Each actual offer’s contents, price, eligibility/window, product/fulfillment costs, margin definition, purchase entry and audience
 
 ## Method Steps
 
@@ -29,22 +29,23 @@ Quotes, numbers, effects, and testimonials require original support; produce pag
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Comparison item | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Subject / version A | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Subject / version B | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Definition / measurement basis | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Comparability | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Difference | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Source | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Offer name (one row per offer) | Use the supplied source, calculation, or explicit unknown |
+| 2 | Contents/quantity | Use the supplied source, calculation, or explicit unknown |
+| 3 | Price/eligibility | Use the supplied source, calculation, or explicit unknown |
+| 4 | Offer window | Use the supplied source, calculation, or explicit unknown |
+| 5 | Product/fulfillment costs | Use the supplied source, calculation, or explicit unknown |
+| 6 | Margin definition/calculation | Use the supplied source, calculation, or explicit unknown |
+| 7 | Use case/difference | Use the supplied source, calculation, or explicit unknown |
+| 8 | Purchase entry | Use the supplied source, calculation, or explicit unknown |
+| 9 | Gaps | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-127-C05｜Comparison periods have different lengths or definitions**
+**MK-127-A1 | Three real purchase offers**
 
-Expected: do not directly compare totals; first list items that are not comparable and those that can safely be compared
+Expected: One row for each, preserving price, eligibility, costs and entry, not limited to A/B
 
 ## Method Sources
 

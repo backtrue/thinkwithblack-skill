@@ -15,7 +15,7 @@ Creating a draft from scratch here does not automatically invoke Speak Human TW;
 
 ## Required Inputs
 
-Provide: product, audience hypothesis, evidence, landing page, and placement requirements
+Source asset/readable layout, core Persona value proposition/USP, vertical-viewing context and confirmed specifications
 
 ## Method Steps
 
@@ -29,16 +29,16 @@ First verify product facts and creative usage rights; check current platform cha
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Version | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Communication task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Core angle | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Body / headline | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Facts and evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | CTA | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Differences from other versions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Source asset and core message | Use the supplied source, calculation, or explicit unknown |
+| 2 | Target Stories or Reels placement | Use the supplied source, calculation, or explicit unknown |
+| 3 | Vertical recomposition, crop, and visual sequence | Use the supplied source, calculation, or explicit unknown |
+| 4 | Caption, audio, and CTA placement | Use the supplied source, calculation, or explicit unknown |
+| 5 | Dimensions, format, and current specification source | Use the supplied source, calculation, or explicit unknown |
+| 6 | Obstruction and key content visibility | Use the supplied source, calculation, or explicit unknown |
+| 7 | Assets requiring reshoots or rebuilding | Use the supplied source, calculation, or explicit unknown |
+| 8 | Preview and adjustment results by placement | Use the supplied source, calculation, or explicit unknown |
 
 ## Method Sources
 

@@ -29,16 +29,17 @@ First verify product facts and creative usage rights; check current platform cha
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Version | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Communication task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Core angle | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Body / headline | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Facts and evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | CTA | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Differences from other versions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Persona and USP or benefit to substantiate | Use the supplied source, calculation, or explicit unknown |
+| 2 | Original evidence, source, and conditions | Use the supplied source, calculation, or explicit unknown |
+| 3 | Asset permissions and permitted use | Use the supplied source, calculation, or explicit unknown |
+| 4 | Visual or chart plan and evidence labeling | Use the supplied source, calculation, or explicit unknown |
+| 5 | Demonstration action or data presentation | Use the supplied source, calculation, or explicit unknown |
+| 6 | Placement, format, and dimension basis | Use the supplied source, calculation, or explicit unknown |
+| 7 | Captions, narration, and directing copy | Use the supplied source, calculation, or explicit unknown |
+| 8 | Missing production assets and alternative angle | Use the supplied source, calculation, or explicit unknown |
+| 9 | Placement preview and evidence check | Use the supplied source, calculation, or explicit unknown |
 
 ## Method Sources
 

@@ -38,6 +38,14 @@ class EnglishEditionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Missing source'):
             b.package(self.root, self.base / 'out')
 
+    def test_english_description_and_index_cannot_drift(self):
+        path = self.root / 'en/free-content.json'
+        manifest = json.loads(path.read_text())
+        manifest['entries'][0]['description'] = 'A different routing promise'
+        path.write_text(json.dumps(manifest))
+        with self.assertRaisesRegex(ValueError, 'description/index mismatch'):
+            e.generate(self.root)
+
     def test_changed_chinese_source_requires_translation_review(self):
         path = self.root / 'skills/mk-001/SKILL.md'
         path.write_text(path.read_text() + '\nChanged source requirement\n')

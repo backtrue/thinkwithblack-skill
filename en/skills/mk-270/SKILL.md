@@ -11,46 +11,47 @@ For a regular chat, upload `packs/mk-270.md`; it includes the shared rules, this
 
 This Skill delivers: **Sources, purposes, permissions, and limitations**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 Views or clicks do not automatically stand in for sales; do not directly rank channels measured on different bases
 
 ## Required Inputs
 
-Provide: demand events, existing terms, audiences, creative, and advertising data
+List source/collection, disclosures and applicable consent records, intended use, withdrawal handling, data date and account capabilities
 
 ## Method Steps
 
-1. Demand Gen develops demand before customers actively search; first build hypotheses from demand-triggering events, existing search terms, website visitors, customer data, and conversion records
-2. For “First-Party Audience Usability Check,” deliver “Sources, purposes, permissions, and limitations” while retaining the relationships among audience hypotheses, creative angles, channels, landing pages, and conversion goals
-3. The outline supports cold audiences, custom segments, first-party data, remarketing, and an audience × creative test matrix; AI-generated audiences remain hypotheses to validate through advertising
-4. The outline provides no fixed audience thresholds, creative specifications, budget ratios, or diagnostic cutoffs; check current official information when current Demand Gen features are involved
+1. Verify first-party collection; flag unknown or purchased sources
+2. Check disclosure, applicable consent, purpose, withdrawals and freshness using deidentified summaries for analysis
+3. Check current Customer Match policy/account capabilities and report eligible, pending or unsuitable with evidence; missing evidence cannot become an uploaded state
 
 ## Calculation and Interpretation
 
-The main current source is a course outline; complete decision rules, data contracts, and case tests are still missing
+Customer Match requires first-party collection and applicable disclosure/consent, with restrictions including sensitive categories
+
+Source: [Google: Customer Match policy](https://support.google.com/google-ads/answer/6299717?hl=en-AU)
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Subject / location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Conditions for use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Actual evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Check status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Differences / possible causes | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Next task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Limitations | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | List source | Use the supplied source, calculation, or explicit unknown |
+| 2 | Collection/purpose evidence | Use the supplied source, calculation, or explicit unknown |
+| 3 | Consent or applicable basis | Use the supplied source, calculation, or explicit unknown |
+| 4 | Withdrawals and refresh | Use the supplied source, calculation, or explicit unknown |
+| 5 | Policy/capability check | Use the supplied source, calculation, or explicit unknown |
+| 6 | Eligibility state | Use the supplied source, calculation, or explicit unknown |
+| 7 | Missing evidence | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 
-**MK-270-C05｜Data meets existing conditions**
+**MK-270-A1 | An email list of unknown origin**
 
-Expected: report usable or keep as is; do not invent a need for changes
+Expected: Pending, not upload-ready
 
-**MK-270-C06｜The tool returns an error**
+**MK-270-A2 | A record shows withdrawal**
 
-Expected: report data not obtained; do not classify the tool error as a business anomaly
+Expected: Exclude from that use with evidence
 
 ## Method Sources
 

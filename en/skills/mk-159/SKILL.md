@@ -15,13 +15,15 @@ Use actual tools and current official specifications to establish platform optio
 
 ## Required Inputs
 
-Provide: actual reviews, customer service records, collaboration content, permissions, and performance data
+Asset IDs, original files, and source dates; known audiences, specific concerns, journey stages, and evidence for each classification; supported claims and conditions; licensed channels, formats, and term. Mark classifications without supporting evidence as unconfirmed
 
 ## Method Steps
 
 1. Classify evergreen trust assets into user testimonials, third-party reviews/KOL KOC, professional authorities, customer service Q&A, and similar types
 2. Preserve each asset's source and permission status so remarketing can select it for different concerns
 3. User testimonials and celebrity/authority endorsements are not mutually exclusive; test them in parallel according to the product's trust needs
+4. For each asset, record audience, specific concern answered, and journey stage in addition to content type, with a basis for each tag; unsupported tags remain unconfirmed instead of being inferred from tone
+5. Retain the original asset, source date, supported claim, and licensed channels, formats, and term so a concern maps to usable evidence; update availability when rights expire or facts or conditions change
 
 ## Calculation and Interpretation
 
@@ -29,15 +31,16 @@ Use only authentic reviews and third-party content with usage rights; do not fab
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Unit of analysis | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Original clues | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Category definitions | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Classification result | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Supporting / counterevidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Unknowns | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Downstream use | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Asset ID, original file, and type | Use the supplied source, calculation, or explicit unknown |
+| 2 | Source and date | Use the supplied source, calculation, or explicit unknown |
+| 3 | Audience, concern, and classification basis | Use the supplied source, calculation, or explicit unknown |
+| 4 | Journey stage and conditions | Use the supplied source, calculation, or explicit unknown |
+| 5 | Supported claim and evidence scope | Use the supplied source, calculation, or explicit unknown |
+| 6 | Licensed channels, formats, term, and status | Use the supplied source, calculation, or explicit unknown |
+| 7 | Usable placement and asset version | Use the supplied source, calculation, or explicit unknown |
+| 8 | Unconfirmed tags and refresh work | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification Cases
 

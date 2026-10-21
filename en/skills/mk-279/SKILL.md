@@ -11,36 +11,45 @@ For a regular chat, upload `packs/mk-279.md`; it includes the shared rules, this
 
 This Skill delivers: **Tasks for reach, views, engagement, and conversions**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 Without evidence of reading the video or audio, provide recommendations only for the available text; do not invent video content
 
 ## Required Inputs
 
-Provide: video, transcript, timecodes, media goals, audience, and performance
+Business goal, viewer state, intended action, existing video/production resources and measurable outcomes
 
 ## Method Steps
 
-1. First define whether the video's media task is reach, views, frequency, engagement, or another approved objective, then address “Video Media Task Definition”
-2. The outline supports creative and media planning around the first 3–5 seconds, opening hook, brand, evidence, CTA, video sequences, and viewing contexts such as Shorts / In-stream / Bumper
-3. When delivering “Tasks for reach, views, engagement, and conversions,” distinguish the audience, placement/format, video, and media task; view metrics cannot be presented as causal evidence of sales
-4. The outline provides no fixed frequency, view rate, CPV, or best threshold by format; verify current YouTube Ads specifications through official sources
+1. Define this video’s role in reach, comprehension, engagement or action
+2. Specify the primary outcome/source; views or clicks are primary only for corresponding tasks, while sales require sales data
+3. State the message, proof and next action, plus questions this role cannot answer
 
 ## Calculation and Interpretation
 
-The main current source is a course outline; verify current placements and formats, and do not treat view metrics as causal evidence of sales
+Fix the primary task before reading results; supporting metrics must not redefine success after the fact
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Time / section | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | Viewing or text evidence | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Message task | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Observed issues | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Revision / filming requirements | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | CTA | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Test metrics | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Business goal | Use the supplied source, calculation, or explicit unknown |
+| 2 | Video role | Use the supplied source, calculation, or explicit unknown |
+| 3 | Viewer state | Use the supplied source, calculation, or explicit unknown |
+| 4 | Primary outcome/source | Use the supplied source, calculation, or explicit unknown |
+| 5 | Supporting metrics | Use the supplied source, calculation, or explicit unknown |
+| 6 | Message/next action | Use the supplied source, calculation, or explicit unknown |
+| 7 | Unknowns | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-279-A1 | Inquiry goal, only views available**
+
+Expected: Inquiries remain unmeasured
+
+**MK-279-A2 | No video yet, task definition requested**
+
+Expected: Deliver role and production direction
 
 ## Method Sources
 

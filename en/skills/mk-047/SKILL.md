@@ -15,7 +15,7 @@ Curve intersections, cost floors, and launch decisions are distinct tasks; a pri
 
 ## Required inputs
 
-Provide: Product costs, target audience, raw survey responses, or survey purpose
+Provide: Wording of the four PSM questions, currency and response format, raw answers, deidentified response keys, sampling and segments; supplied costs or market prices are range references only
 
 ## Method
 
@@ -31,23 +31,19 @@ Check sampling, valid responses, and the ordering of price questions; willingnes
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Price point | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Valid response count | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Cumulative proportion for each question | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Intersection definition | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Interpretable result | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Excluded/unprocessed count | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Limitations | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Anonymous response key and four original prices | Use the supplied source, calculation, or explicit unknown |
+| 2 | Question meaning and currency | Use the supplied source, calculation, or explicit unknown |
+| 3 | Missing, inconsistent or unusual response | Use the supplied source, calculation, or explicit unknown |
+| 4 | Keep/exclude rule and reason | Use the supplied source, calculation, or explicit unknown |
+| 5 | Segment | Use the supplied source, calculation, or explicit unknown |
+| 6 | Valid count after cleaning | Use the supplied source, calculation, or explicit unknown |
+| 7 | Open issues and preserved original values | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification cases
 
-**MK-047-C05 | A respondent's four price answers have a contradictory order**
+**MK-047-A1 | One of four prices is missing**
 
-Expected: Retain and flag the original answers; report sensitivity separately under the established cleaning rules
-
-**MK-047-C06 | The curves do not have an intersection defined by the source**
-
-Expected: Deliver the distributions and the reason interpretation is unavailable; do not fabricate an intersection
+Expected: Preserve original values, flag the gap and apply stated validity rules without imputation
 
 ## Method sources
 

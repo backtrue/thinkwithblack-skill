@@ -38,13 +38,14 @@ Decision rules authored by ThinkWithBlack, 2026-10-14; original course sources r
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Factual feature | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Customer task | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Tangible benefit | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Basis for comparison | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Suitable angle | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Lead/supporting/to investigate | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Reason | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Original claim | Use the supplied source, calculation, or explicit unknown |
+| 2 | Evidence source and location | Use the supplied source, calculation, or explicit unknown |
+| 3 | Applicable audience, version and conditions | Use the supplied source, calculation, or explicit unknown |
+| 4 | Supported scope | Use the supplied source, calculation, or explicit unknown |
+| 5 | Unsupported or contradicted portion | Use the supplied source, calculation, or explicit unknown |
+| 6 | Publishable revision | Use the supplied source, calculation, or explicit unknown |
+| 7 | Supported, pending or withdrawn | Use the supplied source, calculation, or explicit unknown |
+| 8 | Revision and recheck conditions | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification cases
 

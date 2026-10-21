@@ -40,11 +40,11 @@ Verify contact consent, unsubscribes, and message specifications; friend counts 
 | 7 | Deliverables and acceptance | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 8 | Unresolved items | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-399-C05｜Budget unknown but assets can be organized first**
+**MK-399-A1 | Joining incentive exists but no next step**
 
-Expected: deliver the planning that does not depend on a budget first; do not require a complete questionnaire
+Expected: Identify purpose/flow gap rather than enlarge the gift
 
 ## Method sources
 

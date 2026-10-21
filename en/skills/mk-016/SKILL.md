@@ -31,14 +31,14 @@ Treat customer roles and motivations as hypotheses initially; do not establish s
 
 | Order | Field | How to complete |
 |---:|---|---|
-| 1 | Hypothesized group | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 2 | Buying/using role | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 3 | Trigger situation | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 4 | Tasks and concerns | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 5 | Supporting clues | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 6 | Counterexamples | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 7 | Items to validate | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
-| 8 | Suitable message | Use source evidence, an intermediate method result, or an explicit unknown; do not invent information |
+| 1 | Persona name | Use the supplied source, calculation, or explicit unknown |
+| 2 | Age, residence, occupation and income | Use the supplied source, calculation, or explicit unknown |
+| 3 | Three values | Use the supplied source, calculation, or explicit unknown |
+| 4 | Three motivations | Use the supplied source, calculation, or explicit unknown |
+| 5 | Preferred brands and competitors | Use the supplied source, calculation, or explicit unknown |
+| 6 | Who, When, Where, What, Why and How | Use the supplied source, calculation, or explicit unknown |
+| 7 | Source, hypothesis or unknown for each item | Use the supplied source, calculation, or explicit unknown |
+| 8 | Validation tasks | Use the supplied source, calculation, or explicit unknown |
 
 ## Verification cases
 

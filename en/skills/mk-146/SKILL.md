@@ -15,7 +15,7 @@ Creating a draft from scratch here does not automatically invoke Speak Human TW;
 
 ## Required Inputs
 
-Provide: product, audience hypothesis, evidence, landing page, and placement requirements
+CTA wording/location, intended action/campaign goal, destination or flow content, real eligibility/offer conditions
 
 ## Method Steps
 

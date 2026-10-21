@@ -15,7 +15,7 @@ Event groups do not necessarily represent the same people dropping off at each s
 
 ## Required Inputs
 
-Provide: the event funnel, pages, existing audiences, and actual offer terms
+Actual cart/checkout flow, disclosed charges for that checkout, shipping/payment/delivery conditions, error/service evidence and product facts; actual offer rules when used
 
 ## Method Steps
 

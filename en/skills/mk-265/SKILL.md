@@ -11,38 +11,45 @@ For a regular chat, upload `packs/mk-265.md`; it includes the shared rules, this
 
 This Skill delivers: **Feed, negative keyword, and grouping recommendations**
 
-Preserve the original task name and delivery scope. This method was developed from the master-table task and approved entry requirements, not claimed as new rules quoted verbatim from the course. The original source is a course outline, and the detailed method still requires approval/review. Do not infer unauthorized product behavior, business thresholds, or platform capabilities from this draft
+Execution steps compiled by ThinkWithBlack for this method's stated purpose, 2026-10-21; the course outline and original sources are retained below
 
 When IDs cannot be matched one-to-one, leave them unmatched rather than guess; do not invent a match rate without complete event samples
 
 ## Required Inputs
 
-Provide: product Feed, actual website information, SKU performance, and disapproval messages
+Actual Shopping queries/period, matched products/Feed, landing pages, spend/outcomes and current exclusions/groups
 
 ## Method Steps
 
-1. Start with Merchant Center / Product Feed and actual product data, handling only “Shopping Search Term Feedback”
-2. The outline explicitly supports Title, Description, Image, Price, Availability, Brand, GTIN, Google Product Category, Product Type, Custom Label, Product Group, Shopping Search Terms, and disapproval/data-quality diagnosis
-3. When delivering “Feed, negative keyword, and grouping recommendations,” trace the result to the actual Feed, SKU performance, search terms, or disapproval messages; if data is missing, list only the missing items
-4. Merchant Center field requirements, disapproval rules, and Shopping capabilities change; check current Google official information before actual execution, and do not invent fixed rules absent from the outline
+1. Compare each query with product facts/jobs: relevant, demonstrably irrelevant or ambiguous
+2. Recommend Feed edits for omitted true attributes; propose negatives for unsupported needs with scope and false-exclusion checks
+3. Recommend grouping when different product uses require different management; low conversion alone is not sufficient for negation
 
 ## Calculation and Interpretation
 
-Use product data for specifications and prices; verify catalog fields and disapproval rules during production
+Tie Feed, negative and grouping actions to actual queries/product evidence; check unintended exclusion of valid demand
 
 ## Required Output Fields
 
-| Order | Field | How to fill it |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Product / variant | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 2 | IDs from each source | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 3 | Field | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 4 | Feed value | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 5 | Website value | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 6 | Update time | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 7 | Issue classification | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 8 | Correction location | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
-| 9 | Status | Original evidence, intermediate method result, or explicitly unknown; do not fabricate |
+| 1 | Query and source | Use the supplied source, calculation, or explicit unknown |
+| 2 | Matched SKU | Use the supplied source, calculation, or explicit unknown |
+| 3 | Intent and relevance | Use the supplied source, calculation, or explicit unknown |
+| 4 | Spend/outcomes | Use the supplied source, calculation, or explicit unknown |
+| 5 | Feed/negative/grouping/observe | Use the supplied source, calculation, or explicit unknown |
+| 6 | Specific change and scope | Use the supplied source, calculation, or explicit unknown |
+| 7 | False-exclusion/conflict check | Use the supplied source, calculation, or explicit unknown |
+
+## Verification cases
+
+**MK-265-A1 | Documented waterproof feature is missing from Feed**
+
+Expected: Suggest adding the true attribute
+
+**MK-265-A2 | Relevant query has low conversion before maturity**
+
+Expected: Observe rather than negate
 
 ## Method Sources
 

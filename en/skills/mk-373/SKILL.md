@@ -15,13 +15,13 @@ Do not rank RFM results from different observation periods as if they shared one
 
 ## Required inputs
 
-Provide: de-identified customer, order, date, amount, and refund data
+Deidentified customer/order keys and source systems, supplied approved key mappings, duplicate/unmatched records; raw emails or phone numbers are not required
 
 ## Method steps
 
-1. The original course materials allow email or phone as the row / identifier for member segmentation
-2. Use the same identifier throughout one analysis so switching between email / phone does not split one member across rows
-3. The original course materials provide no algorithm for cross-email / phone deduplication, merging, or primary-key repair; flag multiple identifiers for one person as a data-governance gap rather than merging them yourself
+1. Fix the deidentified customer key and check missing/duplicate keys and orders assigned to multiple customers
+2. Merge only using confirmed source-system mappings; similar names or purchase behavior do not establish identity
+3. Deliver original/mapped keys, merge evidence and unmatched records; preserve unmapped identities without requesting raw contact data
 
 ## Calculation and interpretation
 
@@ -39,15 +39,11 @@ First define members, valid orders, refunds, and the period; calculate frequency
 | 6 | Next task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 | 7 | Limitations | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
 
-## Validation cases
+## Verification cases
 
-**MK-373-C05｜Data meets the existing conditions**
+**MK-373-A1 | Two anonymized keys buy the same product, no mapping**
 
-Expected: Report that it is usable or should be maintained; do not invent a need for changes
-
-**MK-373-C06｜Tool returns an error**
-
-Expected: Report that the data was not obtained; do not classify it as a business anomaly
+Expected: Keep separate and unresolved, without merging
 
 ## Method sources
 

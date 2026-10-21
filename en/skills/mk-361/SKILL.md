@@ -29,22 +29,22 @@ Retain questions, dates, platforms, and actual answers; one result does not repr
 
 ## Required output fields
 
-| Order | Field | How to fill it in |
+| Order | Field | How to complete |
 |---:|---|---|
-| 1 | Original hypothesis / task | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 2 | Baseline | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 3 | Actual action | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 4 | Subsequent evidence | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 5 | Interpretation | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 6 | Confounding factors | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 7 | Version / replacement | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
-| 8 | Next round | Original evidence, intermediate method results, or an explicit unknown; do not fabricate |
+| 1 | Platform and model or interface | Use the supplied source, calculation, or explicit unknown |
+| 2 | Date and region | Use the supplied source, calculation, or explicit unknown |
+| 3 | Full question and conversation conditions | Use the supplied source, calculation, or explicit unknown |
+| 4 | Full original response | Use the supplied source, calculation, or explicit unknown |
+| 5 | Cited sources | Use the supplied source, calculation, or explicit unknown |
+| 6 | Brand mentions and nearby brands | Use the supplied source, calculation, or explicit unknown |
+| 7 | Differences from brand facts | Use the supplied source, calculation, or explicit unknown |
+| 8 | Not triggered or unavailable status | Use the supplied source, calculation, or explicit unknown |
 
-## Validation cases
+## Verification cases
 
-**MK-361-C05｜Approved but not actually executed**
+**MK-361-A1 | Response contains no citations**
 
-Expected: keep the task pending execution; do not evaluate before-and-after effects
+Expected: Preserve the full answer and record no citations; invent no URLs
 
 ## Method sources
 
