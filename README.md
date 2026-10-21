@@ -14,9 +14,9 @@
 
 商品賣點、廣告文案、活動預算、單品毛利、顧客回購<br>從你今天卡住的那一題開始
 
-[![365 Skills](https://img.shields.io/badge/行銷_Skills-365-171717?style=flat-square)](INDEX.md) [![Markdown](https://img.shields.io/badge/使用方式-上傳_Markdown-F2C94C?style=flat-square&labelColor=171717)](START_HERE.md) [![MIT License](https://img.shields.io/badge/License-MIT-171717?style=flat-square)](LICENSE) [![npm](https://img.shields.io/npm/v/ai-marketing-skills?style=flat-square)](https://www.npmjs.com/package/ai-marketing-skills)
+[![365 Skills](https://img.shields.io/badge/行銷_Skills-365-171717?style=flat-square)](INDEX.md) [![Markdown](https://img.shields.io/badge/使用方式-上傳_Markdown-F2C94C?style=flat-square&labelColor=171717)](START_HERE.md) [![MIT License](https://img.shields.io/badge/License-MIT-171717?style=flat-square)](LICENSE)
 
-**[用 npx 安裝](#用-npx-安裝)** · **[下載完整教材包 ↓](https://github.com/backtrue/thinkwithblack-skill/releases/latest)** · **[逛逛 365 個 Skills](INDEX.md)** · **[開始第一題](#三步開始你的第一題)**
+**[下載完整教材包 ↓](https://github.com/backtrue/thinkwithblack-skill/releases/latest)** · **[逛逛 365 個 Skills](INDEX.md)** · **[開始第一題](#三步開始你的第一題)**
 
 覺得這份工具箱值得留著，點右上角 **Star ⭐** 收藏，下次遇到行銷問題再回來
 
@@ -24,39 +24,15 @@
 
 ---
 
-## 用 npx 安裝
-
-在你要使用 Skill 的專案資料夾開啟終端機，確認已安裝 Node.js 20 以上版本與 npm，執行：
-
-```bash
-npx ai-marketing-skills
-```
-
-依畫面選擇繁體中文或英文、使用的 AI 工具，再輸入你想處理的問題，例如「我要算商品毛利」。從結果選一個方法，就會安裝到目前專案的 Claude Code、Codex 或 Cursor
-
-安裝完成後，用所選工具開啟同一個專案，提出工作問題並附上資料，就能使用完整方法
-
-也可以直接使用以下指令：
-
-| 用途 | 指令 |
-|---|---|
-| 搜尋適合的方法 | `npx ai-marketing-skills search "我要算商品毛利"` |
-| 安裝單品貢獻毛利方法到 Codex | `npx ai-marketing-skills install contribution-margin --agent codex --lang zh-TW` |
-| 匯出給一般 AI 對話使用 | `npx ai-marketing-skills export contribution-margin --lang zh-TW` |
-
-`--agent` 可填 `claude-code`、`codex` 或 `cursor`；英文方法使用 `--lang en`
-
-選擇一般 AI 對話匯出後，依匯出資料夾的 `README.md` 上傳方法與練習資料，再貼上 `STARTER_PROMPT.txt` 開始
-
-[查看 npm 套件與版本](https://www.npmjs.com/package/ai-marketing-skills)
+> **更新資訊｜2026-10-21**：現在也能用 `npx ai-marketing-skills` 選擇方法，安裝到 Claude Code、Codex 或 Cursor，或匯出給一般 AI 對話使用。安裝環境與完整指令見 [npm 套件說明](https://www.npmjs.com/package/ai-marketing-skills)
 
 ## 把今天的工作，交給有方法的 AI
 
 「這個商品到底有什麼賣點？」「廣告費加下去，每賣一盒還剩多少？」「客人買過一次，下一次要怎麼找他回來？」
 
-**Marketing Skills for Everyone** 是 ThinkWithBlack 整理的 **365 份免費行銷方法包**，可以用 npx 安裝到 AI 工具，也能上傳到一般 AI 對話。每份都帶著需要的資料、處理步驟、交付格式與核對方式，讓 AI 有方法可循，也讓你有依據檢查成果
+**Marketing Skills for Everyone** 是 ThinkWithBlack 整理的 **365 份可上傳行銷方法包**。每份都帶著需要的資料、處理步驟、交付格式與核對方式，讓 AI 有方法可循，也讓你有依據檢查成果
 
-使用上傳方式時，**說出你的問題，讓 AI 從索引選方法。** 你再上傳它需要的那一份，就能開始一起做，不必先記住 365 個名稱
+**說出你的問題，讓 AI 從索引選方法。** 你再上傳它需要的那一份，就能開始一起做，不必先記住 365 個名稱
 
 ## 我為什麼把這套 Skills 開源
 
