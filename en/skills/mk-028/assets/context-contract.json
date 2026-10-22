@@ -98,6 +98,88 @@
       },
       "delivery": true,
       "allowed_output": "\u65b9\u6cd5\u3001\u516c\u5f0f\u8207\u660e\u793a\u5047\u8a2d\u793a\u4f8b"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "persona.profile",
+            "label": "\u5f85\u6838\u5c0d Persona \u6216\u9700\u6c42\u5047\u8aaa",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported",
+              "hypothesis"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "persona_id"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5f85\u6838\u5c0d\u7684 Persona \u6216\u9700\u6c42\u5047\u8aaa\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u9867\u5ba2\u539f\u8a71\u3001\u554f\u5377\u6216\u5ba2\u670d\u7d00\u9304\u53ca\u4f86\u6e90"
+          },
+          {
+            "field": "product.facts",
+            "label": "\u7522\u54c1\u4e8b\u5be6",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5f85\u6838\u5c0d\u7684 Persona \u6216\u9700\u6c42\u5047\u8aaa\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u9867\u5ba2\u539f\u8a71\u3001\u554f\u5377\u6216\u5ba2\u670d\u7d00\u9304\u53ca\u4f86\u6e90"
+          },
+          {
+            "field": "task.customer_evidence_status",
+            "label": "\u9867\u5ba2\u539f\u8a71\u8207\u8b49\u64da\u53ca\u7f3a\u6f0f\u72c0\u614b",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "condition": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5f85\u6838\u5c0d\u7684 Persona \u6216\u9700\u6c42\u5047\u8aaa\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u9867\u5ba2\u539f\u8a71\u3001\u554f\u5377\u6216\u5ba2\u670d\u7d00\u9304\u53ca\u4f86\u6e90"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
     }
   },
   "writeback": [

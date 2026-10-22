@@ -317,6 +317,232 @@
       },
       "delivery": true,
       "allowed_output": "\u50f9\u683c\u7d50\u679c\u8207\u5546\u696d\u53ef\u884c\u6027\u5206\u958b\u5224\u8b80"
+    },
+    "calculable": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.psm_product_currency",
+            "label": "\u5546\u54c1\u3001\u4efd\u91cf\u8207\u5e63\u5225",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\u76ee\u6a19\u5c0d\u8c61\u3001\u56db\u984c\u539f\u59cb\u56de\u7b54\u3001\u5546\u54c1\uff0f\u4efd\u91cf\u8207\u5e63\u5225\u3001\u6536\u6a23\u53ca\u6e05\u7406\u898f\u5247\uff1b\u5df2\u6709\u66f2\u7dda\u6642\u9644\u50f9\u683c\u683c\u9ede\u3001\u7d2f\u7a4d\u65b9\u5411\u8207\u5206\u6bcd\u3002\u89e3\u91cb\u65b9\u6cd5\u53ef\u7528\u660e\u793a\u5047\u8a2d\uff0c\u6210\u672c\u53ea\u5728\u5224\u65b7\u5546\u696d\u53ef\u884c\u6027\u6642\u9700\u8981"
+          },
+          {
+            "any": [
+              {
+                "field": "task.psm_answers",
+                "label": "\u56db\u984c\u539f\u59cb\u56de\u7b54",
+                "location": "task",
+                "states": [
+                  "data_supported"
+                ],
+                "value_types": [
+                  "text",
+                  "texts",
+                  "references"
+                ],
+                "scope": [],
+                "min_count": 1,
+                "source_line": 38,
+                "missing_action": "collect_authorized_source",
+                "preparation": null,
+                "source_excerpt": "\u8acb\u63d0\u4f9b\u76ee\u6a19\u5c0d\u8c61\u3001\u56db\u984c\u539f\u59cb\u56de\u7b54\u3001\u5546\u54c1\uff0f\u4efd\u91cf\u8207\u5e63\u5225\u3001\u6536\u6a23\u53ca\u6e05\u7406\u898f\u5247\uff1b\u5df2\u6709\u66f2\u7dda\u6642\u9644\u50f9\u683c\u683c\u9ede\u3001\u7d2f\u7a4d\u65b9\u5411\u8207\u5206\u6bcd\u3002\u89e3\u91cb\u65b9\u6cd5\u53ef\u7528\u660e\u793a\u5047\u8a2d\uff0c\u6210\u672c\u53ea\u5728\u5224\u65b7\u5546\u696d\u53ef\u884c\u6027\u6642\u9700\u8981"
+              },
+              {
+                "all": [
+                  {
+                    "field": "task.psm_curves",
+                    "label": "\u5df2\u6574\u7406\u56db\u689d\u66f2\u7dda",
+                    "location": "task",
+                    "states": [
+                      "data_supported"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [],
+                    "min_count": 1,
+                    "source_line": 29,
+                    "missing_action": "collect_authorized_source",
+                    "preparation": null,
+                    "source_excerpt": "\u9019\u500b\u6280\u80fd\u4ea4\u4ed8\uff1a**\u56db\u689d\u7d2f\u7a4d\u6bd4\u4f8b\u66f2\u7dda\u7684\u8a08\u7b97\u8868**\u3002"
+                  },
+                  {
+                    "field": "task.psm_curve_definition",
+                    "label": "\u50f9\u683c\u683c\u9ede\u3001\u7d2f\u7a4d\u65b9\u5411\u8207\u5206\u6bcd",
+                    "location": "task",
+                    "states": [
+                      "source_stated",
+                      "user_confirmed",
+                      "data_supported"
+                    ],
+                    "value_types": [
+                      "text",
+                      "texts",
+                      "references"
+                    ],
+                    "scope": [],
+                    "min_count": 1,
+                    "source_line": 38,
+                    "missing_action": "collect_authorized_source",
+                    "preparation": null,
+                    "source_excerpt": "\u8acb\u63d0\u4f9b\u76ee\u6a19\u5c0d\u8c61\u3001\u56db\u984c\u539f\u59cb\u56de\u7b54\u3001\u5546\u54c1\uff0f\u4efd\u91cf\u8207\u5e63\u5225\u3001\u6536\u6a23\u53ca\u6e05\u7406\u898f\u5247\uff1b\u5df2\u6709\u66f2\u7dda\u6642\u9644\u50f9\u683c\u683c\u9ede\u3001\u7d2f\u7a4d\u65b9\u5411\u8207\u5206\u6bcd\u3002\u89e3\u91cb\u65b9\u6cd5\u53ef\u7528\u660e\u793a\u5047\u8a2d\uff0c\u6210\u672c\u53ea\u5728\u5224\u65b7\u5546\u696d\u53ef\u884c\u6027\u6642\u9700\u8981"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u5df2\u63d0\u4f9b\u56de\u7b54\u6216\u56db\u689d\u66f2\u7dda\u7684\u6578\u5b78\u6574\u7406\u3001\u4ea4\u53c9\u5340\u9593\u8207\u53ef\u8a08\u7b97\u4e2d\u9593\u7d50\u679c\uff1b\u62bd\u6a23\u3001\u6e05\u7406\u8207\u9069\u7528\u7bc4\u570d\u7f3a\u9805\u660e\u5217\uff0c\u5ba2\u7fa4\u4ee3\u8868\u6027\u53ca\u5546\u696d\u53ef\u884c\u6027\u5f85\u539f\u968e\u6bb5\u8cc7\u6599"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.psm_audience",
+            "label": "\u76ee\u6a19\u5c0d\u8c61\u8207\u62bd\u6a23\u4f86\u6e90",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\u76ee\u6a19\u5c0d\u8c61\u3001\u56db\u984c\u539f\u59cb\u56de\u7b54\u3001\u5546\u54c1\uff0f\u4efd\u91cf\u8207\u5e63\u5225\u3001\u6536\u6a23\u53ca\u6e05\u7406\u898f\u5247\uff1b\u5df2\u6709\u66f2\u7dda\u6642\u9644\u50f9\u683c\u683c\u9ede\u3001\u7d2f\u7a4d\u65b9\u5411\u8207\u5206\u6bcd\u3002\u89e3\u91cb\u65b9\u6cd5\u53ef\u7528\u660e\u793a\u5047\u8a2d\uff0c\u6210\u672c\u53ea\u5728\u5224\u65b7\u5546\u696d\u53ef\u884c\u6027\u6642\u9700\u8981"
+          },
+          {
+            "field": "task.psm_product_currency",
+            "label": "\u5546\u54c1\u3001\u4efd\u91cf\u8207\u5e63\u5225",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\u76ee\u6a19\u5c0d\u8c61\u3001\u56db\u984c\u539f\u59cb\u56de\u7b54\u3001\u5546\u54c1\uff0f\u4efd\u91cf\u8207\u5e63\u5225\u3001\u6536\u6a23\u53ca\u6e05\u7406\u898f\u5247\uff1b\u5df2\u6709\u66f2\u7dda\u6642\u9644\u50f9\u683c\u683c\u9ede\u3001\u7d2f\u7a4d\u65b9\u5411\u8207\u5206\u6bcd\u3002\u89e3\u91cb\u65b9\u6cd5\u53ef\u7528\u660e\u793a\u5047\u8a2d\uff0c\u6210\u672c\u53ea\u5728\u5224\u65b7\u5546\u696d\u53ef\u884c\u6027\u6642\u9700\u8981"
+          },
+          {
+            "field": "task.psm_cleaning",
+            "label": "\u6536\u6a23\u8207\u6e05\u7406\u898f\u5247",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\u76ee\u6a19\u5c0d\u8c61\u3001\u56db\u984c\u539f\u59cb\u56de\u7b54\u3001\u5546\u54c1\uff0f\u4efd\u91cf\u8207\u5e63\u5225\u3001\u6536\u6a23\u53ca\u6e05\u7406\u898f\u5247\uff1b\u5df2\u6709\u66f2\u7dda\u6642\u9644\u50f9\u683c\u683c\u9ede\u3001\u7d2f\u7a4d\u65b9\u5411\u8207\u5206\u6bcd\u3002\u89e3\u91cb\u65b9\u6cd5\u53ef\u7528\u660e\u793a\u5047\u8a2d\uff0c\u6210\u672c\u53ea\u5728\u5224\u65b7\u5546\u696d\u53ef\u884c\u6027\u6642\u9700\u8981"
+          },
+          {
+            "field": "task.psm_answers",
+            "label": "\u56db\u984c\u539f\u59cb\u56de\u7b54",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\u76ee\u6a19\u5c0d\u8c61\u3001\u56db\u984c\u539f\u59cb\u56de\u7b54\u3001\u5546\u54c1\uff0f\u4efd\u91cf\u8207\u5e63\u5225\u3001\u6536\u6a23\u53ca\u6e05\u7406\u898f\u5247\uff1b\u5df2\u6709\u66f2\u7dda\u6642\u9644\u50f9\u683c\u683c\u9ede\u3001\u7d2f\u7a4d\u65b9\u5411\u8207\u5206\u6bcd\u3002\u89e3\u91cb\u65b9\u6cd5\u53ef\u7528\u660e\u793a\u5047\u8a2d\uff0c\u6210\u672c\u53ea\u5728\u5224\u65b7\u5546\u696d\u53ef\u884c\u6027\u6642\u9700\u8981"
+          },
+          {
+            "field": "task.psm_curves",
+            "label": "\u5df2\u6574\u7406\u56db\u689d\u66f2\u7dda",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 29,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u9019\u500b\u6280\u80fd\u4ea4\u4ed8\uff1a**\u56db\u689d\u7d2f\u7a4d\u6bd4\u4f8b\u66f2\u7dda\u7684\u8a08\u7b97\u8868**\u3002"
+          },
+          {
+            "field": "task.psm_curve_definition",
+            "label": "\u50f9\u683c\u683c\u9ede\u3001\u7d2f\u7a4d\u65b9\u5411\u8207\u5206\u6bcd",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\u76ee\u6a19\u5c0d\u8c61\u3001\u56db\u984c\u539f\u59cb\u56de\u7b54\u3001\u5546\u54c1\uff0f\u4efd\u91cf\u8207\u5e63\u5225\u3001\u6536\u6a23\u53ca\u6e05\u7406\u898f\u5247\uff1b\u5df2\u6709\u66f2\u7dda\u6642\u9644\u50f9\u683c\u683c\u9ede\u3001\u7d2f\u7a4d\u65b9\u5411\u8207\u5206\u6bcd\u3002\u89e3\u91cb\u65b9\u6cd5\u53ef\u7528\u660e\u793a\u5047\u8a2d\uff0c\u6210\u672c\u53ea\u5728\u5224\u65b7\u5546\u696d\u53ef\u884c\u6027\u6642\u9700\u8981"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
     }
   },
   "writeback": [],

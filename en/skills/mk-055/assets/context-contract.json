@@ -1,7 +1,7 @@
 {
   "skill_id": "MK-055",
   "source_sha256": "fb8efb2336a52f513cae20ec3856bf1045dfdb25978b65598794e3ff2f7dd578",
-  "role": "consumer",
+  "role": "conditional",
   "stages": {
     "prepare": {
       "requires": {
@@ -83,7 +83,132 @@
         ]
       },
       "delivery": true,
-      "allowed_output": "\u7522\u54c1\u504f\u597d\u554f\u5377\u984c\u76ee"
+      "allowed_output": "\u4f9d\u771f\u5be6\u5546\u54c1\u8207\u53d7\u8a2a\u60c5\u5883\u5b8c\u6210\u7684\u554f\u5377\u984c\u76ee\u53ca\u5546\u54c1\u5c08\u5c6c\u9078\u9805"
+    },
+    "draft": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.research_decision",
+            "label": "\u7814\u7a76\u8981\u652f\u6301\u7684\u6c7a\u7b56",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\u7814\u7a76\u8981\u652f\u6301\u7684\u6c7a\u7b56\u3001\u771f\u5be6\u5546\u54c1\u8cc7\u8a0a\u3001\u76ee\u6a19\u53d7\u8a2a\u8005\u8207\u63d0\u554f\u60c5\u5883\uff1b\u5df2\u6709\u9867\u5ba2\u539f\u8a71\u53ef\u4e00\u4f75\u63d0\u4f9b\uff0c\u984c\u76ee\u8a2d\u8a08\u4e0d\u4ee5\u65e2\u6709\u56de\u7b54\u70ba\u524d\u7f6e"
+          },
+          {
+            "field": "task.respondents",
+            "label": "\u76ee\u6a19\u53d7\u8a2a\u8005\u8207\u63d0\u554f\u60c5\u5883",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\u7814\u7a76\u8981\u652f\u6301\u7684\u6c7a\u7b56\u3001\u771f\u5be6\u5546\u54c1\u8cc7\u8a0a\u3001\u76ee\u6a19\u53d7\u8a2a\u8005\u8207\u63d0\u554f\u60c5\u5883\uff1b\u5df2\u6709\u9867\u5ba2\u539f\u8a71\u53ef\u4e00\u4f75\u63d0\u4f9b\uff0c\u984c\u76ee\u8a2d\u8a08\u4e0d\u4ee5\u65e2\u6709\u56de\u7b54\u70ba\u524d\u7f6e"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u4e00\u822c\u8cfc\u524d\uff0f\u8cfc\u5f8c\u958b\u653e\u984c\u8349\u7a3f\u3001\u5404\u984c\u7528\u9014\u8207\u56de\u7b54\u5f62\u5f0f\uff1b\u5546\u54c1\u5c08\u5c6c\u9078\u9805\u53ca\u5176\u8b49\u64da\u4fdd\u7559\u5f85\u88dc"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.research_decision",
+            "label": "\u7814\u7a76\u8981\u652f\u6301\u7684\u6c7a\u7b56",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\u7814\u7a76\u8981\u652f\u6301\u7684\u6c7a\u7b56\u3001\u771f\u5be6\u5546\u54c1\u8cc7\u8a0a\u3001\u76ee\u6a19\u53d7\u8a2a\u8005\u8207\u63d0\u554f\u60c5\u5883\uff1b\u5df2\u6709\u9867\u5ba2\u539f\u8a71\u53ef\u4e00\u4f75\u63d0\u4f9b\uff0c\u984c\u76ee\u8a2d\u8a08\u4e0d\u4ee5\u65e2\u6709\u56de\u7b54\u70ba\u524d\u7f6e"
+          },
+          {
+            "field": "product.facts",
+            "label": "\u771f\u5be6\u5546\u54c1\u8cc7\u8a0a",
+            "location": "context",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "product_id",
+              "product_version"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\u7814\u7a76\u8981\u652f\u6301\u7684\u6c7a\u7b56\u3001\u771f\u5be6\u5546\u54c1\u8cc7\u8a0a\u3001\u76ee\u6a19\u53d7\u8a2a\u8005\u8207\u63d0\u554f\u60c5\u5883\uff1b\u5df2\u6709\u9867\u5ba2\u539f\u8a71\u53ef\u4e00\u4f75\u63d0\u4f9b\uff0c\u984c\u76ee\u8a2d\u8a08\u4e0d\u4ee5\u65e2\u6709\u56de\u7b54\u70ba\u524d\u7f6e"
+          },
+          {
+            "field": "task.respondents",
+            "label": "\u76ee\u6a19\u53d7\u8a2a\u8005\u8207\u63d0\u554f\u60c5\u5883",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\u7814\u7a76\u8981\u652f\u6301\u7684\u6c7a\u7b56\u3001\u771f\u5be6\u5546\u54c1\u8cc7\u8a0a\u3001\u76ee\u6a19\u53d7\u8a2a\u8005\u8207\u63d0\u554f\u60c5\u5883\uff1b\u5df2\u6709\u9867\u5ba2\u539f\u8a71\u53ef\u4e00\u4f75\u63d0\u4f9b\uff0c\u984c\u76ee\u8a2d\u8a08\u4e0d\u4ee5\u65e2\u6709\u56de\u7b54\u70ba\u524d\u7f6e"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
     }
   },
   "writeback": [],

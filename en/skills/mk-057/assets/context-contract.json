@@ -198,6 +198,54 @@
       },
       "delivery": true,
       "allowed_output": "\u6709\u5be6\u969b\u8cc7\u683c\u4f9d\u64da\u7684\u9080\u8acb\u5019\u9078"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.recommendation_question",
+            "label": "\u63a8\u85a6\u610f\u9858\u984c\u76ee\u53ca\u91cf\u5c3a",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u63a8\u85a6\u610f\u9858\u984c\u76ee\u3001\u91cf\u5c3a\u3001\u5be6\u969b\u56de\u8986\u8207\u56de\u6536\u671f\u9593\uff1b\u53ea\u8a2d\u8a08\u554f\u984c\u6642\u63d0\u4f9b\u7522\u54c1\u6216\u670d\u52d9\u53ca\u53d7\u6e2c\u5c0d\u8c61\u5373\u53ef\u3002\u7522\u9080\u8acb\u540d\u55ae\u6642\u52a0\u53bb\u8b58\u5225\u6703\u54e1\u9375\u3001\u806f\u7e6b\u8cc7\u683c\u8207\u6d3b\u52d5\u689d\u4ef6"
+          },
+          {
+            "field": "task.recommendation_answers",
+            "label": "\u5be6\u969b\u56de\u8986\u53ca\u56de\u6536\u671f\u9593",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u63a8\u85a6\u610f\u9858\u984c\u76ee\u3001\u91cf\u5c3a\u3001\u5be6\u969b\u56de\u8986\u8207\u56de\u6536\u671f\u9593\uff1b\u53ea\u8a2d\u8a08\u554f\u984c\u6642\u63d0\u4f9b\u7522\u54c1\u6216\u670d\u52d9\u53ca\u53d7\u6e2c\u5c0d\u8c61\u5373\u53ef\u3002\u7522\u9080\u8acb\u540d\u55ae\u6642\u52a0\u53bb\u8b58\u5225\u6703\u54e1\u9375\u3001\u806f\u7e6b\u8cc7\u683c\u8207\u6d3b\u52d5\u689d\u4ef6"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
     }
   },
   "writeback": [],

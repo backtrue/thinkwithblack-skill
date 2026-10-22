@@ -1,7 +1,7 @@
 {
   "skill_id": "MK-379",
   "source_sha256": "6b546b907f3268d1511600ecdf7d9ddc8661b58f3d8a7842608d0bd33fbe198c",
-  "role": "consumer",
+  "role": "conditional",
   "stages": {
     "prepare": {
       "requires": {
@@ -134,6 +134,85 @@
       },
       "delivery": true,
       "allowed_output": "\u5206\u6578\u8207\u6838\u51c6\u7fa4\u7d44\u540d\u7a31"
+    },
+    "raw_values": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.rfm_source",
+            "label": "\u9867\u5ba2\u3001\u6709\u6548\u8a02\u55ae\u3001\u9000\u6b3e\u3001\u53c3\u8003\u65e5\u8207\u5b8c\u6574\u89c0\u5bdf\u7a97",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u9867\u5ba2\uff0f\u6709\u6548\u8a02\u55ae\uff0f\u9000\u6b3e\u3001\u53c3\u8003\u65e5\u8207\u5b8c\u6574\u89c0\u5bdf\u7a97\uff1b\u6838\u51c6R\u3001F\u3001M\u5206\u6578\u5340\u9593\uff08\u542b\u908a\u754c\u662f\u5426\u5305\u542b\u3001\u65b9\u5411\u3001M\u7e3d\u984d\u6216\u5e73\u5747\u984d\u3001\u898f\u5247\u7248\u672c\uff09\uff0c\u4ee5\u53ca\u9700\u547d\u540d\u6642\u7684\u4ee3\u78bc\u5c0d\u7167"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u539f\u59cb R/F/M\u3001\u4f86\u6e90\u3001\u53c3\u8003\u65e5\u8207\u89c0\u5bdf\u7a97\u53ca\u5f85\u5b9a\u5207\u9ede\u8868\uff1b\u5206\u6578\u3001\u4ee3\u78bc\u8207\u7fa4\u7d44\u540d\u7a31\u5f85\u6838\u51c6\u898f\u5247"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.rfm_source",
+            "label": "\u9867\u5ba2\u3001\u6709\u6548\u8a02\u55ae\u3001\u9000\u6b3e\u3001\u53c3\u8003\u65e5\u8207\u5b8c\u6574\u89c0\u5bdf\u7a97",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "references"
+            ],
+            "scope": [
+              "brand_key",
+              "period_end",
+              "period_start"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u9867\u5ba2\uff0f\u6709\u6548\u8a02\u55ae\uff0f\u9000\u6b3e\u3001\u53c3\u8003\u65e5\u8207\u5b8c\u6574\u89c0\u5bdf\u7a97\uff1b\u6838\u51c6R\u3001F\u3001M\u5206\u6578\u5340\u9593\uff08\u542b\u908a\u754c\u662f\u5426\u5305\u542b\u3001\u65b9\u5411\u3001M\u7e3d\u984d\u6216\u5e73\u5747\u984d\u3001\u898f\u5247\u7248\u672c\uff09\uff0c\u4ee5\u53ca\u9700\u547d\u540d\u6642\u7684\u4ee3\u78bc\u5c0d\u7167"
+          },
+          {
+            "field": "rule.rfm_scoring",
+            "label": "\u6838\u51c6 RFM \u5340\u9593\u3001\u908a\u754c\u3001\u65b9\u5411\u3001M \u53e3\u5f91\u8207\u7248\u672c",
+            "location": "context",
+            "states": [
+              "user_confirmed"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u9867\u5ba2\uff0f\u6709\u6548\u8a02\u55ae\uff0f\u9000\u6b3e\u3001\u53c3\u8003\u65e5\u8207\u5b8c\u6574\u89c0\u5bdf\u7a97\uff1b\u6838\u51c6R\u3001F\u3001M\u5206\u6578\u5340\u9593\uff08\u542b\u908a\u754c\u662f\u5426\u5305\u542b\u3001\u65b9\u5411\u3001M\u7e3d\u984d\u6216\u5e73\u5747\u984d\u3001\u898f\u5247\u7248\u672c\uff09\uff0c\u4ee5\u53ca\u9700\u547d\u540d\u6642\u7684\u4ee3\u78bc\u5c0d\u7167"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
     }
   },
   "writeback": [],

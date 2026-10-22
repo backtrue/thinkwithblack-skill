@@ -176,6 +176,35 @@
       },
       "delivery": true,
       "allowed_output": "\u5f9e\u73fe\u6709\u4f86\u6e90\u8fa8\u8b58\u5019\u9078 ID \u8207\u5f85\u6838\u5c0d\u9805\u76ee"
+    },
+    "candidate_id": {
+      "requires": {
+        "all": [
+          {
+            "field": "task.candidate_identifier",
+            "label": "\u539f\u59cb\u5f71\u7247\u7de8\u865f\u6216\u5176\u4ed6\u5019\u9078\u8b58\u5225\u5b57\u4e32\u53ca\u5df2\u77e5\u4f86\u6e90",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 52,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8b58\u5225\u78bc\u4fdd\u7559\u539f\u59cb\u5b57\u4e32\uff0c\u6838\u5c0d\u6240\u5c6c\u7c89\u7d72\u5c08\u9801\u8207\u8cbc\u6587\uff1b\u5f71\u7247\u7de8\u865f\u3001\u5019\u9078\u7de8\u865f\u8207\u5df2\u78ba\u8a8d Post ID \u5206\u958b\u8a18\u9304\uff0c\u7f3a\u5c11\u5e73\u53f0\u78ba\u8a8d\u6642\u4fdd\u7559\u5f85\u78ba\u8a8d"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u539f\u59cb\u8b58\u5225\u5b57\u4e32\u3001\u5019\u9078\u5167\u5bb9\u985e\u578b\u3001\u73fe\u884c\u8f49\u7528\u6838\u5c0d\u6d41\u7a0b\u8207\u5f85\u78ba\u8a8d\u9805\uff1b\u4f86\u6e90\u672a\u77e5\u4fdd\u7559\u672a\u77e5\uff0c\u4e0d\u76f4\u63a5\u6a19\u70ba\u5df2\u78ba\u8a8d Post ID"
     }
   },
   "writeback": [],

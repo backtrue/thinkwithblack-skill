@@ -174,6 +174,96 @@
       },
       "delivery": true,
       "allowed_output": "\u52a0\u4e0a\u540c\u7bc4\u570d\u6210\u6548\u6838\u5c0d"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.site_urls",
+            "label": "\u7db2\u7ad9\u4e3b\u984c\u8207\u65e2\u6709 URL \u6e05\u55ae",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u7db2\u7ad9\uff0f\u4e3b\u984c\u8207\u65e2\u6709 URL \u6e05\u55ae\u3001\u53ef\u8b80\u53d6\u9801\u9762\u53ca\u5167\u90e8\u9023\u7d50\uff0c\u76ee\u6a19\u53d7\u773e\u8207\u641c\u5c0b\u4efb\u52d9\uff1b\u53ef\u7528 GSC \u67e5\u8a62\u00d7\u9801\u9762\u8cc7\u6599\u3001\u76f8\u540c\u8cc7\u6e90\u8207\u641c\u5c0b\u985e\u578b\u3001\u7be9\u9078\u3001\u5169\u500b\u7b49\u9577\u4e0d\u91cd\u758a\u671f\u9593\u53ca\u8986\u84cb\u7bc4\u570d\u3002GSC \u7f3a\u5c11\u6642\u5148\u505a\u5be6\u969b\u5167\u5bb9\uff0f\u610f\u5716\u76e4\u9ede\uff0c\u76f8\u95dc\u6210\u6548\u5224\u65b7\u6a19\u70ba\u5f85\u88dc"
+          },
+          {
+            "field": "task.pages_links",
+            "label": "\u5be6\u969b\u53ef\u8b80\u9801\u9762\u53ca\u5167\u90e8\u9023\u7d50",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u7db2\u7ad9\uff0f\u4e3b\u984c\u8207\u65e2\u6709 URL \u6e05\u55ae\u3001\u53ef\u8b80\u53d6\u9801\u9762\u53ca\u5167\u90e8\u9023\u7d50\uff0c\u76ee\u6a19\u53d7\u773e\u8207\u641c\u5c0b\u4efb\u52d9\uff1b\u53ef\u7528 GSC \u67e5\u8a62\u00d7\u9801\u9762\u8cc7\u6599\u3001\u76f8\u540c\u8cc7\u6e90\u8207\u641c\u5c0b\u985e\u578b\u3001\u7be9\u9078\u3001\u5169\u500b\u7b49\u9577\u4e0d\u91cd\u758a\u671f\u9593\u53ca\u8986\u84cb\u7bc4\u570d\u3002GSC \u7f3a\u5c11\u6642\u5148\u505a\u5be6\u969b\u5167\u5bb9\uff0f\u610f\u5716\u76e4\u9ede\uff0c\u76f8\u95dc\u6210\u6548\u5224\u65b7\u6a19\u70ba\u5f85\u88dc"
+          },
+          {
+            "field": "task.search_audience",
+            "label": "\u76ee\u6a19\u53d7\u773e\u8207\u641c\u5c0b\u4efb\u52d9",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u7db2\u7ad9\uff0f\u4e3b\u984c\u8207\u65e2\u6709 URL \u6e05\u55ae\u3001\u53ef\u8b80\u53d6\u9801\u9762\u53ca\u5167\u90e8\u9023\u7d50\uff0c\u76ee\u6a19\u53d7\u773e\u8207\u641c\u5c0b\u4efb\u52d9\uff1b\u53ef\u7528 GSC \u67e5\u8a62\u00d7\u9801\u9762\u8cc7\u6599\u3001\u76f8\u540c\u8cc7\u6e90\u8207\u641c\u5c0b\u985e\u578b\u3001\u7be9\u9078\u3001\u5169\u500b\u7b49\u9577\u4e0d\u91cd\u758a\u671f\u9593\u53ca\u8986\u84cb\u7bc4\u570d\u3002GSC \u7f3a\u5c11\u6642\u5148\u505a\u5be6\u969b\u5167\u5bb9\uff0f\u610f\u5716\u76e4\u9ede\uff0c\u76f8\u95dc\u6210\u6548\u5224\u65b7\u6a19\u70ba\u5f85\u88dc"
+          },
+          {
+            "field": "task.gsc_query_page",
+            "label": "GSC \u67e5\u8a62\u8207\u9801\u9762\u3001\u8cc7\u6e90\u3001\u641c\u5c0b\u985e\u578b\u3001\u7be9\u9078\u3001\u5169\u500b\u7b49\u9577\u4e0d\u91cd\u758a\u671f\u9593\u8207\u8986\u84cb",
+            "location": "task",
+            "states": [
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u7db2\u7ad9\uff0f\u4e3b\u984c\u8207\u65e2\u6709 URL \u6e05\u55ae\u3001\u53ef\u8b80\u53d6\u9801\u9762\u53ca\u5167\u90e8\u9023\u7d50\uff0c\u76ee\u6a19\u53d7\u773e\u8207\u641c\u5c0b\u4efb\u52d9\uff1b\u53ef\u7528 GSC \u67e5\u8a62\u00d7\u9801\u9762\u8cc7\u6599\u3001\u76f8\u540c\u8cc7\u6e90\u8207\u641c\u5c0b\u985e\u578b\u3001\u7be9\u9078\u3001\u5169\u500b\u7b49\u9577\u4e0d\u91cd\u758a\u671f\u9593\u53ca\u8986\u84cb\u7bc4\u570d\u3002GSC \u7f3a\u5c11\u6642\u5148\u505a\u5be6\u969b\u5167\u5bb9\uff0f\u610f\u5716\u76e4\u9ede\uff0c\u76f8\u95dc\u6210\u6548\u5224\u65b7\u6a19\u70ba\u5f85\u88dc"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
     }
   },
   "writeback": [],

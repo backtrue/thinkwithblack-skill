@@ -64,7 +64,14 @@
     },
     "lecture_example": {
       "requires": {
-        "all": [
+        "all": []
+      },
+      "delivery": true,
+      "allowed_output": "\u539f\u8b1b\u7fa9\u5167\u5d4c RFM \u5206\u985e\u8868\u3001\u4f86\u6e90\u8207\u539f\u8a18\u6cd5\u6b67\u7fa9\uff1b\u5167\u5d4c\u4f8b\u5b50\u4fdd\u6301\u4f8b\u5b50\uff0c\u54c1\u724c\u5206\u7fa4\u53ca\u547d\u540d\u5f85\u6838\u51c6\u6620\u5c04"
+    },
+    "partial": {
+      "requires": {
+        "any": [
           {
             "field": "task.rfm_scores",
             "label": "\u5df2\u6838\u5c0d RFM \u5206\u6578\u8207\u4e09\u4f4d\u4ee3\u78bc\u53ca\u5340\u9593\u89c0\u5bdf\u7a97\u7248\u672c",
@@ -83,11 +90,32 @@
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6838\u5c0d\u7684R\uff0fF\uff0fM\u5206\u6578\u8207\u4e09\u4f4d\u4ee3\u78bc\u3001\u5340\u9593\uff0f\u89c0\u5bdf\u7a97\u7248\u672c\u3001\u54c1\u724c\u6838\u51c6\u985e\u578b\u6620\u5c04\uff1b\u63a1\u539f\u8b1b\u7fa9\u793a\u4f8b\u6642\u4f7f\u7528\u672c\u6587\u5167\u5d4c\u8868\u4e26\u4fdd\u7559\u672a\u660e\u78ba\u9805\u76ee"
+          },
+          {
+            "field": "rule.rfm_names",
+            "label": "\u54c1\u724c\u6838\u51c6\u985e\u578b\u6620\u5c04",
+            "location": "context",
+            "states": [
+              "user_confirmed"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [
+              "brand_key"
+            ],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_website_or_source",
+            "preparation": null,
+            "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6838\u5c0d\u7684R\uff0fF\uff0fM\u5206\u6578\u8207\u4e09\u4f4d\u4ee3\u78bc\u3001\u5340\u9593\uff0f\u89c0\u5bdf\u7a97\u7248\u672c\u3001\u54c1\u724c\u6838\u51c6\u985e\u578b\u6620\u5c04\uff1b\u63a1\u539f\u8b1b\u7fa9\u793a\u4f8b\u6642\u4f7f\u7528\u672c\u6587\u5167\u5d4c\u8868\u4e26\u4fdd\u7559\u672a\u660e\u78ba\u9805\u76ee"
           }
         ]
       },
       "delivery": true,
-      "allowed_output": "\u4f7f\u7528\u539f\u8b1b\u7fa9\u5167\u5d4c\u8868\u4e26\u4fdd\u7559\u672a\u660e\u78ba\u9805\u76ee"
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
     }
   },
   "writeback": [],

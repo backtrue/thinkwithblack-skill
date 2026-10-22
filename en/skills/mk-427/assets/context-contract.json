@@ -80,6 +80,77 @@
       },
       "delivery": true,
       "allowed_output": "UTM \u547d\u540d\u898f\u5247"
+    },
+    "partial": {
+      "requires": {
+        "any": [
+          {
+            "field": "task.mk_427_1",
+            "label": "\u6e20\u9053\u8207\u5e73\u53f0\u6e05\u55ae",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u6e20\u9053\u8207\u5e73\u53f0\u6e05\u55ae\u3001\u6d3b\u52d5\u547d\u540d\u9700\u6c42\u3001\u73fe\u6709 source/medium/campaign \u5b57\u5178\u53ca\u7bc4\u4f8b\uff1b\u5efa\u7acb\u547d\u540d\u898f\u5247\u4e0d\u9700\u6210\u6548\u532f\u51fa"
+          },
+          {
+            "field": "task.mk_427_2",
+            "label": "\u6d3b\u52d5\u547d\u540d\u9700\u6c42",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u6e20\u9053\u8207\u5e73\u53f0\u6e05\u55ae\u3001\u6d3b\u52d5\u547d\u540d\u9700\u6c42\u3001\u73fe\u6709 source/medium/campaign \u5b57\u5178\u53ca\u7bc4\u4f8b\uff1b\u5efa\u7acb\u547d\u540d\u898f\u5247\u4e0d\u9700\u6210\u6548\u532f\u51fa"
+          },
+          {
+            "field": "task.mk_427_3",
+            "label": "\u73fe\u6709\u5b57\u5178\u53ca\u7bc4\u4f8b\u6216\u5c1a\u672a\u5efa\u7acb\u72c0\u614b",
+            "location": "task",
+            "states": [
+              "source_stated",
+              "user_confirmed",
+              "data_supported"
+            ],
+            "value_types": [
+              "text",
+              "texts",
+              "references"
+            ],
+            "scope": [],
+            "min_count": 1,
+            "source_line": 38,
+            "missing_action": "collect_authorized_source",
+            "preparation": null,
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u6e20\u9053\u8207\u5e73\u53f0\u6e05\u55ae\u3001\u6d3b\u52d5\u547d\u540d\u9700\u6c42\u3001\u73fe\u6709 source/medium/campaign \u5b57\u5178\u53ca\u7bc4\u4f8b\uff1b\u5efa\u7acb\u547d\u540d\u898f\u5247\u4e0d\u9700\u6210\u6548\u532f\u51fa"
+          }
+        ]
+      },
+      "delivery": true,
+      "allowed_output": "\u53ea\u4ea4\u5df2\u8b80\u4f86\u6e90\u652f\u6301\u7684\u5c0d\u61c9\u4e8b\u5be6\u6216\u8349\u7a3f\uff0c\u9010\u9805\u9644\u4f86\u6e90\u8207\u672a\u5b8c\u6210\u6bb5\u843d\uff1b\u9700\u8981\u7f3a\u4ef6\u7684\u7d50\u8ad6\u5f85\u88dc\u4f86\u6e90\u5f8c\u63a5\u7e8c"
     }
   },
   "writeback": [],
