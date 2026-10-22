@@ -265,6 +265,71 @@
     ],
     "dependents": "\u4ee5\u5df2\u4f7f\u7528 datum ID \u8207 digest \u5c0d\u61c9\u6b63\u5728\u9032\u884c\u7684\u4efb\u52d9\u53ca\u884d\u751f\u8cc7\u6599"
   },
+  "social_evidence": {
+    "schema_version": 1,
+    "applies_to": "social_evidence_only",
+    "account_confirmation_required": true,
+    "content_review_required": true,
+    "source_revision_required": true,
+    "founder_and_brand_separate": true,
+    "provider_persona_inference_state": "hypothesis",
+    "company_identity_from_social": false,
+    "missing_action": "discover_confirm_collect_review_sources",
+    "raw_content": "read_selected_evidence_on_demand",
+    "workflow": [
+      "discover_accounts_and_preview",
+      "confirm_account_relationship_and_usage",
+      "collect_relevant_original_content",
+      "show_extracted_fields_with_sources",
+      "confirm_selected_facts_then_writeback"
+    ],
+    "snapshot_fields": {
+      "source_accounts": [
+        "id",
+        "platform",
+        "url",
+        "platform_id (optional)",
+        "revision",
+        "status=confirmed",
+        "relationship",
+        "usage",
+        "confirmation",
+        "confirmed_identity_sha256"
+      ],
+      "source_reviews": [
+        "id",
+        "status=approved",
+        "source_revisions",
+        "confirmation",
+        "evidence_sha256"
+      ],
+      "evidence.social": [
+        "source_id",
+        "collection_id",
+        "platform",
+        "platform_content_id",
+        "content_kind",
+        "source_revision",
+        "coverage",
+        "review_id"
+      ]
+    },
+    "identity_digest": "sha256 of canonical JSON {platform,identity:platform_id or url}",
+    "confirmation_evidence": "Original conversation or approved_document excerpt, source, retrieved_at, brand scope and sha256 of the excerpt",
+    "coverage_requirements": {
+      "metadata_only": "video_description",
+      "transcript": "transcript with language, origin and start/end timecodes",
+      "audiovisual": "audiovisual_analysis with reader, audio/visual modes, timecodes and receipt",
+      "video_body": [
+        "transcript",
+        "audiovisual"
+      ]
+    },
+    "search_candidates": "Host searches and reads original discovery evidence, then calls brand_sources_add; candidate still needs user confirmation",
+    "review_evidence_digest": "sha256 of the approved full evidence JSON with recursively sorted object keys; task evidence must match the approved digest",
+    "policy_sha256": "0d459af1d6903ed822d51764268ae42d85ce5c452b03093b7d84f4b42fe29a69",
+    "field_requirements": []
+  },
   "schema_version": 1,
   "method_sha256": "153e7f9baf1f4eaed45659149d8c78447d686b9f3d027bf3af3c09ed870f889b",
   "method_path": "skills/mk-343/SKILL.md",

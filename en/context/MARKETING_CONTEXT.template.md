@@ -19,6 +19,17 @@ Objects include brand, product, offer, Persona, claim and proof, content asset, 
 
 For each source, save its ID, type, actual URL or file location, original excerpt, retrieval time, SHA-256 and scope. Preserve previous versions and identify both sources when they conflict
 
+## SNS and YouTube source review
+
+Discover candidate accounts from actual website links, footers, about pages and sameAs. Show the account URL, profile and a few post or video samples. Ask the user to confirm its relationship to the company, brand, founder or product and the permitted use before collecting relevant content. Reuse existing account confirmations
+
+| Source ID | Platform and stable ID | Account URL | Relationship and permitted use | Discovery evidence | Account revision and original confirmation | Collection date, count and coverage | Content review confirmation |
+|---|---|---|---|---|---|---|---|
+
+Show extracted fields with original links and excerpts for a separate content review before writing them into the context. Preserve company identity, founder views, brand claims, customer statements and Persona hypotheses separately. Video titles and descriptions provide metadata_only coverage. Transcripts retain language, origin and timestamps
+
+Machine snapshots include source_accounts, source_reviews and evidence.social. Follow social_evidence in the method contract for fields and the identity digest. Recheck dependent records when a source is withdrawn or changes. Preserve independently supported and separately user-confirmed facts, and retain the last successful collection when access fails
+
 ## Missing data
 
 List the necessary missing fields, accessible sources and next actions for the selected Skill and stage. Reuse known data and resume the original task after collecting what is needed
@@ -26,3 +37,5 @@ List the necessary missing fields, accessible sources and next actions for the s
 ## Separate task record
 
 Task Context stores the task_id, original request, Skill and stage, scope, data references, pending decisions, used context IDs and digests, and output references and digests. Leave bulk orders and personal lists in their source systems
+
+Record video evidence by the coverage actually obtained and its time range. Transcripts include language and origin; audiovisual analysis includes the reader, audio/visual modes and execution receipt. Accounts found through search retain the original discovery excerpt and enter pending source confirmation
