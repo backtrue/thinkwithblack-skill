@@ -6,6 +6,8 @@
 
 **by ThinkWithBlack**
 
+**365 free AI marketing skills for ChatGPT, Claude, Gemini & Claude Code — bilingual zh-TW / English, MIT.**
+
 ## 365 個免費 AI 行銷 Skills
 
 **一天一個 Skill，解決一個行銷問題**
