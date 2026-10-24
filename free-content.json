@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.24-free.1",
+  "version": "2026.10.25-free.1",
   "entries": [
     {
       "id": "INF-05-07",
@@ -455,7 +455,7 @@
     {
       "id": "MK-041",
       "name": "廣告與頁面承諾檢查",
-      "description": "廣告與頁面承諾檢查。用於需要承諾未被頁面回答的斷點的工作；依本項方法處理已指定資料並核對交付",
+      "description": "廣告與頁面承諾檢查。適用第三方盲測／評比文章與商品頁沒有回答同一問題，或會員優惠在註冊後找不到承接位置；對照原承諾與頁面，交付有證據的斷點及下一步",
       "source": "skills/mk-041/SKILL.md",
       "references": [
         "skills/mk-041/assets/context-contract.json",
@@ -3492,7 +3492,7 @@
     {
       "id": "MK-398",
       "name": "會員活動回購成效檢討",
-      "description": "會員活動回購成效檢討。用於需要同群組回購結果與干擾因素的工作；依本項方法處理已指定資料並核對交付",
+      "description": "檢討會員活動或KOL團購原客群的跨期回購，分開原名單、可聯繫與實際觸達、有效回購、成熟窗口及其他活動影響；依固定分母與成本判斷續用、調整或停止",
       "source": "skills/mk-398/SKILL.md",
       "references": [
         "skills/mk-398/assets/context-contract.json",
@@ -3910,7 +3910,7 @@
     {
       "id": "MK-436",
       "name": "網站漏斗事件規劃",
-      "description": "網站漏斗事件規劃。用於需要節點、行動、事件與價值定義的工作；依本項方法處理已指定資料並核對交付",
+      "description": "規劃網站或App漏斗的節點、行動、事件與價值，也適用多院所廣告、LINE、電話及表單到有效諮詢的定義與關聯；保留各來源、期間、單位與去重規則，分開前段行為和真實成果",
       "source": "skills/mk-436/SKILL.md",
       "references": [
         "skills/mk-436/assets/context-contract.json",
@@ -3988,7 +3988,7 @@
     {
       "id": "write-marketing-rollout-plan",
       "name": "書面行銷策略與 rollout",
-      "description": "將既有行銷想法寫成主管看得懂的季度／指定期間策略與廣告 rollout，交付目的、採用做法及依據、階段與依賴、責任資源、衡量回顧及可填範本；適用詢問怎麼寫、如何避免空泛、用文件或 Excel。單純活動前倒排、實際投放設定、預算推算及索取已發生的同業案例另依該工作處理",
+      "description": "也適用既有消費者市場帶動企業訂單與門市回流的分階段安排，以及創作者體驗活動兼現場成交和後續素材的整體規劃。將既有行銷想法寫成主管看得懂的季度／指定期間策略與廣告 rollout，交付目的、採用做法及依據、階段與依賴、責任資源、衡量回顧及可填範本；適用詢問怎麼寫、如何避免空泛、用文件或 Excel。單純活動前倒排、實際投放設定、預算推算及索取已發生的同業案例另依該工作處理",
       "source": "extensions/write-marketing-rollout-plan/SKILL.md",
       "references": [
         "extensions/write-marketing-rollout-plan/THIRD_PARTY_NOTICES.md",

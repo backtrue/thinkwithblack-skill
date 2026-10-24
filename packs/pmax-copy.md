@@ -1,6 +1,6 @@
 # pmax-copy｜PMAX 文案產出與審核 方法包
 
-教材版本：2026.10.24-free.1
+教材版本：2026.10.25-free.1
 
 <a id="common-rules"></a>
 

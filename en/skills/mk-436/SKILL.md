@@ -1,6 +1,6 @@
 ---
 name: mk-436
-description: "Website Funnel Event Plan. Use when work requires definitions of nodes, actions, events, and value; process the specified inputs using this method and verify the deliverable"
+description: "Plan website or app funnel nodes, actions, events, and value, including ads, LINE, phone calls, and forms leading to valid inquiries across multiple clinics. Preserve source, period, unit, and deduplication rules; distinguish early actions from business outcomes"
 ---
 
 # MK-436 | Website Funnel Event Plan
@@ -12,6 +12,8 @@ For ordinary chat, upload `packs/mk-436.md`, which includes the shared rules, th
 This skill delivers: **Definitions of nodes, actions, events, and value**
 
 Adding impressions across platforms does not yield deduplicated reach; conversions with different attribution windows cannot be added as actual sitewide orders
+
+Use this method when multiple clinics record ads, LINE, phone calls, and forms separately and need to connect clicks, friend additions, and valid inquiries. Keep clinic, treatment, source, and period separate. Record LINE button clicks, friend additions, and valid inquiries as different actions, and use approved identity and deduplication rules. When linkage evidence is unavailable, preserve the separate counts and required fields
 
 ## Required inputs
 

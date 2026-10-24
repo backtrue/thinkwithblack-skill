@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.24-en.1",
+  "version": "2026.10.25-en.1",
   "language": "en",
-  "sourceVersion": "2026.10.24-free.1",
+  "sourceVersion": "2026.10.25-free.1",
   "entries": [
     {
       "id": "INF-05-07",
@@ -457,7 +457,7 @@
     {
       "id": "MK-041",
       "name": "Ad-to-page promise check",
-      "description": "Ad-to-page promise check. Use when the task requires breaks where the page does not answer the ad's promise. Apply this method to the specified inputs and verify the deliverable",
+      "description": "Check whether an ad's promise is answered by the page, including third-party blind-test or comparison articles, product pages, and member offers that disappear after registration. Identify supported gaps and the next action",
       "source": "skills/mk-041/SKILL.md",
       "references": [
         "skills/mk-041/assets/context-contract.json",
@@ -3494,7 +3494,7 @@
     {
       "id": "MK-398",
       "name": "Member Campaign Repeat Purchase Review",
-      "description": "Member Campaign Repeat Purchase Review. Use when work requires repeat purchase results and confounding factors for the same group; process the specified inputs using this method and verify the deliverable",
+      "description": "Review repeat purchases by the original member-campaign or creator group-buy cohort across periods. Separate the original list, contactable and reached members, valid repeat purchases, maturity windows, and other campaigns; use fixed denominators and costs to decide whether to continue, adjust, or stop",
       "source": "skills/mk-398/SKILL.md",
       "references": [
         "skills/mk-398/assets/context-contract.json",
@@ -3912,7 +3912,7 @@
     {
       "id": "MK-436",
       "name": "Website Funnel Event Plan",
-      "description": "Website Funnel Event Plan. Use when work requires definitions of nodes, actions, events, and value; process the specified inputs using this method and verify the deliverable",
+      "description": "Plan website or app funnel nodes, actions, events, and value, including ads, LINE, phone calls, and forms leading to valid inquiries across multiple clinics. Preserve source, period, unit, and deduplication rules; distinguish early actions from business outcomes",
       "source": "skills/mk-436/SKILL.md",
       "references": [
         "skills/mk-436/assets/context-contract.json",
@@ -3990,7 +3990,7 @@
     {
       "id": "write-marketing-rollout-plan",
       "name": "Written Marketing Strategy and Rollout",
-      "description": "Turn existing marketing ideas into a strategy and advertising rollout for a quarter or specified period that managers can understand. Deliver objectives, chosen approaches and evidence, stages and dependencies, responsibilities and resources, measurement and review, and fillable templates. Use for questions about how to write, avoid vagueness, or choose documents versus Excel. Handle pre-event backward scheduling alone, live advertising setup, budget calculations, and requests for actual peer cases through the corresponding work",
+      "description": "Also use for phased consumer demand leading to business orders and store visits, or for creator experiences combining onsite sales with later promotional content. Turn existing marketing ideas into a strategy and advertising rollout for a quarter or specified period that managers can understand. Deliver objectives, chosen approaches and evidence, stages and dependencies, responsibilities and resources, measurement and review, and fillable templates. Use for questions about how to write, avoid vagueness, or choose documents versus Excel. Handle pre-event backward scheduling alone, live advertising setup, budget calculations, and requests for actual peer cases through the corresponding work",
       "source": "extensions/write-marketing-rollout-plan/SKILL.md",
       "references": [
         "extensions/write-marketing-rollout-plan/THIRD_PARTY_NOTICES.md",

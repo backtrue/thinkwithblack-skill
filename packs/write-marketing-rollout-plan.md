@@ -1,6 +1,6 @@
 # write-marketing-rollout-plan｜書面行銷策略與 rollout 方法包
 
-教材版本：2026.10.24-free.1
+教材版本：2026.10.25-free.1
 
 <a id="common-rules"></a>
 
@@ -115,6 +115,14 @@ MK-137 沿用三個 USP 確認與三組實稿字數驗證：第一行 14–15 �
 
 方法來源、採用段落及授權見 [[附錄：sources.md](#reference-2)](#reference-2)；MIT 原始授權見 [[附錄：THIRD_PARTY_NOTICES.md](#reference-1)](#reference-1)
 
+## 消費者市場接企業訂單與門市回流
+
+「既有雨衣品牌先面向外送員，再累積企業訂單和實體店回流，三到六個月該排什麼、第三個月能檢查什麼」直接依本方法五步整理既有構想。消費者購買、企業詢價／確認訂單與門市回流各列對象、承接與實際紀錄，階段前後依賴、人力和第三個月可讀成果分開；市場人數、平台狀態及贈品條件依可核對來源，不把當時提案寫成已執行成果
+
+## 體驗活動兼成交與後續素材
+
+「影音設備品牌辦創作者體驗，希望現場銷售也取得後續推廣素材，活動、商品組合、準備與成交追蹤怎麼安排」直接依本方法五步交整體活動安排。體驗、現場有效訂單與可使用素材各有產物、負責角色、準備依賴及回顧；分開素材取得與實際可用的使用授權。另明確要求能交拍攝團隊的完整需求單時，才接該工作，不因活動需要素材就自動增加第二方法
+
 <a id="reference-1"></a>
 
 ## 附錄：THIRD_PARTY_NOTICES.md
@@ -183,7 +191,7 @@ SOFTWARE.
 ```json
 {
   "skill_id": "references/lecture-skills/write-marketing-rollout-plan/SKILL.md",
-  "source_sha256": "21ee47d084c9f02c7fe432911857f9fc25ddf619b26055a77fe38086b55ce26f",
+  "source_sha256": "5bb04cc74da6482288e5dba3f3f2bbdbca093167e3a21c3d69c84e6126e64179",
   "role": "producer",
   "stages": {
     "prepare": {
@@ -564,7 +572,7 @@ SOFTWARE.
     "field_requirements": []
   },
   "schema_version": 1,
-  "method_sha256": "47864cd899099744bb7f9c1dc0c791a9b77598540e931eaf27e705501a5b2cbd",
+  "method_sha256": "11f781511a2a1cd65c79b6b0f85826c1becbb6fcba1855e6964465cdbc1cd2d9",
   "method_path": "extensions/write-marketing-rollout-plan/SKILL.md",
   "source_language": "zh-TW",
   "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."

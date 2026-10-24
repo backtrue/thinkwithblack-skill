@@ -1,6 +1,6 @@
 ---
 name: mk-041
-description: "Ad-to-page promise check. Use when the task requires breaks where the page does not answer the ad's promise. Apply this method to the specified inputs and verify the deliverable"
+description: "Check whether an ad's promise is answered by the page, including third-party blind-test or comparison articles, product pages, and member offers that disappear after registration. Identify supported gaps and the next action"
 ---
 
 # MK-041 | Ad-to-page promise check
@@ -12,6 +12,8 @@ For a regular chat, upload `packs/mk-041.md`. It includes the shared rules, this
 This skill delivers: **Breaks where the page does not answer the ad's promise**
 
 Task stages are analytical categories, not a claim that every customer follows the same path
+
+Use this method when a third-party blind-test or comparison ad, article, and product page answer different questions, or when an advertised member offer cannot be found after registration. Compare the promise, evidence, and reasonable next action at each step. Add a page experiment or separate tracking design only when that work is explicitly requested
 
 ## Required inputs
 

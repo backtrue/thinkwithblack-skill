@@ -1,6 +1,6 @@
 {
   "skill_id": "references/lecture-skills/write-marketing-rollout-plan/SKILL.md",
-  "source_sha256": "21ee47d084c9f02c7fe432911857f9fc25ddf619b26055a77fe38086b55ce26f",
+  "source_sha256": "5bb04cc74da6482288e5dba3f3f2bbdbca093167e3a21c3d69c84e6126e64179",
   "role": "producer",
   "stages": {
     "prepare": {
@@ -381,7 +381,7 @@
     "field_requirements": []
   },
   "schema_version": 1,
-  "method_sha256": "47864cd899099744bb7f9c1dc0c791a9b77598540e931eaf27e705501a5b2cbd",
+  "method_sha256": "11f781511a2a1cd65c79b6b0f85826c1becbb6fcba1855e6964465cdbc1cd2d9",
   "method_path": "extensions/write-marketing-rollout-plan/SKILL.md",
   "source_language": "zh-TW",
   "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."

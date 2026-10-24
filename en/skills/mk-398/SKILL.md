@@ -1,6 +1,6 @@
 ---
 name: mk-398
-description: "Member Campaign Repeat Purchase Review. Use when work requires repeat purchase results and confounding factors for the same group; process the specified inputs using this method and verify the deliverable"
+description: "Review repeat purchases by the original member-campaign or creator group-buy cohort across periods. Separate the original list, contactable and reached members, valid repeat purchases, maturity windows, and other campaigns; use fixed denominators and costs to decide whether to continue, adjust, or stop"
 ---
 
 # MK-398 | Member Campaign Repeat Purchase Review
@@ -12,6 +12,8 @@ For ordinary chat, upload `packs/mk-398.md`, which includes the shared rules, th
 This skill delivers: **Repeat purchase results and confounding factors for the same group**
 
 Customer segmentation and actual eligibility to receive marketing messages are separate matters
+
+Use this method to review repeat purchases by an original creator group-buy cohort after a year or across periods. Preserve the original list and observation window, and separate actual reach, valid repeat purchases, and other campaign effects. Reconcile inconsistent reported counts and percentages with the original list and valid orders. Use the approved target instead of a universal passing rate; add segmentation copy only when requested
 
 ## Required inputs
 

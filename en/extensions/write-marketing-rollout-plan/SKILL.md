@@ -1,6 +1,6 @@
 ---
 name: write-marketing-rollout-plan
-description: "Turn existing marketing ideas into a strategy and advertising rollout for a quarter or specified period that managers can understand. Deliver objectives, chosen approaches and evidence, stages and dependencies, responsibilities and resources, measurement and review, and fillable templates. Use for questions about how to write, avoid vagueness, or choose documents versus Excel. Handle pre-event backward scheduling alone, live advertising setup, budget calculations, and requests for actual peer cases through the corresponding work"
+description: "Also use for phased consumer demand leading to business orders and store visits, or for creator experiences combining onsite sales with later promotional content. Turn existing marketing ideas into a strategy and advertising rollout for a quarter or specified period that managers can understand. Deliver objectives, chosen approaches and evidence, stages and dependencies, responsibilities and resources, measurement and review, and fillable templates. Use for questions about how to write, avoid vagueness, or choose documents versus Excel. Handle pre-event backward scheduling alone, live advertising setup, budget calculations, and requests for actual peer cases through the corresponding work"
 ---
 
 # Written Marketing Strategy and Rollout
@@ -55,3 +55,11 @@ Check that every approach has an objective, rationale, and execution arrangement
 ## Sources
 
 See [references/sources.md](references/sources.md) for method sources, adopted passages, and licensing; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the original MIT license
+
+## Consumer demand leading to business orders and store visits
+
+Use this method when an established rainwear brand wants to reach delivery riders first, then develop business orders and repeat store visits, and needs a three-to-six-month sequence with early evidence by month three. Apply the existing five steps. Give consumer purchases, business inquiries and confirmed orders, and store visits their own audience, next action, and actual records. Separate stage dependencies, staffing, and evidence available by month three. Verify market counts, platform conditions, and gift terms from readable sources, and preserve proposals as proposals until executed
+
+## Creator experiences with onsite sales and later content
+
+Use this method when an audio-equipment brand plans a creator experience that should produce onsite sales and content for later promotion. Use the existing five steps to organize the whole event. Define deliverables, owners, preparation dependencies, and review for the experience, valid onsite orders, and usable content. Distinguish obtaining content from obtaining the rights to use it. Add a separate production brief only when a complete brief for the filming team is explicitly requested

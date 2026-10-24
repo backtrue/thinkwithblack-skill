@@ -1,6 +1,6 @@
 # write-marketing-rollout-plan | Written Marketing Strategy and Rollout — method pack
 
-Materials version: 2026.10.24-en.1
+Materials version: 2026.10.25-en.1
 
 <a id="common-rules"></a>
 
@@ -114,6 +114,14 @@ Check that every approach has an objective, rationale, and execution arrangement
 
 See [[Appendix: sources.md](#reference-2)](#reference-2) for method sources, adopted passages, and licensing; see [[Appendix: THIRD_PARTY_NOTICES.md](#reference-1)](#reference-1) for the original MIT license
 
+## Consumer demand leading to business orders and store visits
+
+Use this method when an established rainwear brand wants to reach delivery riders first, then develop business orders and repeat store visits, and needs a three-to-six-month sequence with early evidence by month three. Apply the existing five steps. Give consumer purchases, business inquiries and confirmed orders, and store visits their own audience, next action, and actual records. Separate stage dependencies, staffing, and evidence available by month three. Verify market counts, platform conditions, and gift terms from readable sources, and preserve proposals as proposals until executed
+
+## Creator experiences with onsite sales and later content
+
+Use this method when an audio-equipment brand plans a creator experience that should produce onsite sales and content for later promotion. Use the existing five steps to organize the whole event. Define deliverables, owners, preparation dependencies, and review for the experience, valid onsite orders, and usable content. Distinguish obtaining content from obtaining the rights to use it. Add a separate production brief only when a complete brief for the filming team is explicitly requested
+
 <a id="reference-1"></a>
 
 ## Appendix: THIRD_PARTY_NOTICES.md
@@ -182,7 +190,7 @@ The document / presentation / spreadsheet choices and fillable templates were in
 ```json
 {
   "skill_id": "references/lecture-skills/write-marketing-rollout-plan/SKILL.md",
-  "source_sha256": "21ee47d084c9f02c7fe432911857f9fc25ddf619b26055a77fe38086b55ce26f",
+  "source_sha256": "5bb04cc74da6482288e5dba3f3f2bbdbca093167e3a21c3d69c84e6126e64179",
   "role": "producer",
   "stages": {
     "prepare": {
@@ -563,7 +571,7 @@ The document / presentation / spreadsheet choices and fillable templates were in
     "field_requirements": []
   },
   "schema_version": 1,
-  "method_sha256": "ba1b29c0200b51ceb11149c59ab92ae66127fdb62cfc22bbe079f62e8ca0dc06",
+  "method_sha256": "4643665bfef25a2e3cfb04639abd1ee9293472f05c8bd77047dfa85179c56015",
   "method_path": "extensions/write-marketing-rollout-plan/SKILL.md",
   "source_language": "zh-TW",
   "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."
