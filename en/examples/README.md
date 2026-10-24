@@ -7,3 +7,5 @@ All products, numbers and customer situations below are fictional practice data
 3. After the cost task, first ask only: “I want customers who have bought a cookie gift box once to buy a second time. Plan the contact timing, message and results tracking.” The AI should check the index again, select MK-390 and ask for the complete method. Then upload that method pack and the [repeat-purchase scenario](cookie-repeat.md)
 4. [Campaign budget and profit](event-forecast.md): estimate historical multipliers, calculate a forecast and work backward from a target
 5. [Membership rules](member-rules.md): preserve existing benefits, check boundary conditions and prepare comprehension questions
+
+6. [Three consulting tasks for one product](consultant-decisions.md): distinguish facts, selling-point candidates and uniqueness; practice uncertainty, corrections and case continuation

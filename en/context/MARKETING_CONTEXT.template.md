@@ -39,3 +39,5 @@ List the necessary missing fields, accessible sources and next actions for the s
 Task Context stores the task_id, original request, Skill and stage, scope, data references, pending decisions, used context IDs and digests, and output references and digests. Leave bulk orders and personal lists in their source systems
 
 Record video evidence by the coverage actually obtained and its time range. Transcripts include language and origin; audiovisual analysis includes the reader, audio/visual modes and execution receipt. Accounts found through search retain the original discovery excerpt and enter pending source confirmation
+
+Keep case choices, next actions and reported results in the separate [case continuation summary](CASE_CONTEXT.template.md)

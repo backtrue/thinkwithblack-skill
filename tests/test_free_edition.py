@@ -59,6 +59,8 @@ class FreeEditionTests(unittest.TestCase):
             for p,h in r1['files'].items():
                 self.assertEqual(b.sha(t.read(p)),h);self.assertEqual(t.read(p),s.read(p))
             self.assertEqual(set(t.namelist()),set(r1['files']))
+            self.assertIn('context/CASE_CONTEXT.template.md',t.namelist())
+            self.assertIn('examples/consultant-decisions.md',t.namelist())
             self.assertIn('Copyright (c) 2025 Corey Haines',t.read('packs/write-marketing-rollout-plan.md').decode())
             self.assertIn('wang.joan.888',t.read('README.md').decode())
             self.assertNotIn('.git',s.namelist())

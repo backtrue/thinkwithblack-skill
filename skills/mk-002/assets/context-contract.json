@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-002",
-  "source_sha256": "bf3884b4ce40f714a7d3f181ba3eed1cb3841af23bc42d77f1d904313c1668bd",
+  "source_sha256": "455b412884e641dc1328e4a13f82b5c7e0d7e1482d2e7e639faf2e988f90e305",
   "role": "producer",
   "stages": {
     "prepare": {
@@ -309,7 +309,7 @@
     "field_requirements": []
   },
   "schema_version": 1,
-  "method_sha256": "87864cc1ed84085c8f764f403a3d4e67068216ba076c02a1dd7eda674c772993",
+  "method_sha256": "9197b70b754589b473c14bbec5d1cafdf882b9773a489a25806dbb6bb514a4d6",
   "method_path": "skills/mk-002/SKILL.md",
   "source_language": "zh-TW",
   "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."

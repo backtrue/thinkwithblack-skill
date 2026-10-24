@@ -19,6 +19,16 @@ Before delivery, run the same contract again. The method pack includes `check-co
 
 MK-137 retains confirmation of three USPs and validation of all three finished variants: 14–15 Traditional Chinese characters in the first line and 7–8 in the entire CTA before the arrow. Count each Chinese character as one character and deliver only after every variant passes
 
+## Evidence-backed consulting conversations
+
+Separate retrievable facts from business choices. Retrieve facts from authorized sources first. Order choices by their prerequisites and ask one question that changes the current deliverable, stating the known evidence, the choice needed, the recommended option and reason, and what can be delivered after the answer. Cite file locations, actual excerpts or saved source IDs
+
+When the user says “I don’t know,” use available evidence to outline candidates and a direction to test, or deliver the draft or specific research action permitted by the method. Keep recommendations as recommendations and assumptions as unverified. Reuse answers already given. Settle the audience before a dependent message angle; revisit dependent choices and outputs when an earlier choice changes
+
+For a vague request, use the selected method and available evidence to identify the intended outcome, current obstacle, supporting evidence and untested assumptions. Compare feasible approaches and give the first action, its deliverable and the new evidence that would change the recommendation. Execute clearly specified individual tasks directly
+
+Keep a case summary keyed to the original request: scope and version, chosen direction and reason, the user’s confirmation quote, open assumptions, next action, reported results and sources. In a new conversation, match the brand, product version and original request, then read the latest summary and relevant context. Resolve multiple matching cases before continuing; retrieve long reports and full history as needed
+
 ## Each question and change of task
 
 1. Select one method from the `INDEX.md` uploaded in this conversation that can fully address the current task. State its ID, name and method-pack path

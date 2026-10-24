@@ -17,7 +17,7 @@
     {
       "id": "MK-001",
       "name": "Product fact inventory",
-      "description": "Product fact inventory. Use when the task requires a citable product fact table and missing-input list. Apply this method to the specified inputs and verify the deliverable",
+      "description": "Extract citable product facts and missing information from product pages, specifications and instructions. Use for “What can we say based on these materials?” Delivers a sourced fact table, focusing on facts before choosing selling points",
       "source": "skills/mk-001/SKILL.md",
       "references": [
         "skills/mk-001/assets/context-contract.json",
@@ -28,7 +28,7 @@
     {
       "id": "MK-002",
       "name": "Unique selling proposition extraction",
-      "description": "Unique selling proposition extraction. Use when the task requires evidence-based candidates for differentiated selling points. Apply this method to the specified inputs and verify the deliverable",
+      "description": "Derive differentiators and customer benefits from existing product facts. Use for “Which features should we lead with?” Delivers evidence-backed selling-point candidates when product materials are already available",
       "source": "skills/mk-002/SKILL.md",
       "references": [
         "skills/mk-002/assets/context-contract.json",
@@ -39,7 +39,7 @@
     {
       "id": "MK-003",
       "name": "Selling-point distinctiveness check",
-      "description": "Check whether existing product selling points or USPs are merely generic slogans, and compare distinctiveness using product facts and competitor evidence. Use for \"Could competitors make this claim too?\" or \"Is this USP differentiated?\"",
+      "description": "Compare an existing selling point with product facts and competitor evidence. Use for “Could a competitor make the same claim?” Delivers a uniqueness comparison and evidence gaps for an existing claim",
       "source": "skills/mk-003/SKILL.md",
       "references": [
         "skills/mk-003/assets/context-contract.json",

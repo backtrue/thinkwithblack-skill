@@ -121,6 +121,8 @@
 
 還沒準備好自己的資料，可以先用[虛構練習資料](examples/README.md)跑第一題；經常處理同一個品牌，可以填一份[品牌背景表](context/MARKETING_CONTEXT.template.md)一起上傳
 
+下次接著做同一案，可附上 [個案接續摘要](context/CASE_CONTEXT.template.md)；[三種顧問工作範例](examples/consultant-decisions.md) 示範如何選法、提出建議及修正後接續
+
 **方法全文用上傳的，只需貼一次上面的起手指示。** 詳細操作見 [START_HERE.md](START_HERE.md)
 
 ## 下載後，你會拿到什麼？

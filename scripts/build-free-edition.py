@@ -6,8 +6,8 @@ import argparse, hashlib, json, re, zipfile, runpy
 
 ROOT=Path(__file__).resolve().parents[1]
 DOCS=['README.md','START_HERE.md','PUBLIC_SKILL_RULES.md','PUBLIC_BOUNDARY.md','LICENSE',
-      'RELEASE.md','CHANGELOG.md','CONTRIBUTING.md','context/MARKETING_CONTEXT.template.md',
-      'examples/README.md','examples/product-facts.md','examples/cookie-costs.md','examples/cookie-repeat.md','examples/event-forecast.md','examples/member-rules.md']
+      'RELEASE.md','CHANGELOG.md','CONTRIBUTING.md','context/MARKETING_CONTEXT.template.md','context/CASE_CONTEXT.template.md',
+      'examples/README.md','examples/product-facts.md','examples/cookie-costs.md','examples/cookie-repeat.md','examples/event-forecast.md','examples/member-rules.md','examples/consultant-decisions.md']
 MAINTENANCE=['scripts/build-free-edition.py','scripts/verify-public-skills.py','tests/test_free_edition.py',
              '.github/workflows/prepare-thinkwithblack-release.yml','.gitignore',
              'scripts/build-english-edition.py','tests/test_english_edition.py']

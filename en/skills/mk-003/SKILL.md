@@ -1,6 +1,6 @@
 ---
 name: mk-003
-description: "Check whether existing product selling points or USPs are merely generic slogans, and compare distinctiveness using product facts and competitor evidence. Use for \"Could competitors make this claim too?\" or \"Is this USP differentiated?\""
+description: "Compare an existing selling point with product facts and competitor evidence. Use for “Could a competitor make the same claim?” Delivers a uniqueness comparison and evidence gaps for an existing claim"
 ---
 
 # MK-003 | Selling-point distinctiveness check

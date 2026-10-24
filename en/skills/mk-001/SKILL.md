@@ -1,6 +1,6 @@
 ---
 name: mk-001
-description: "Product fact inventory. Use when the task requires a citable product fact table and missing-input list. Apply this method to the specified inputs and verify the deliverable"
+description: "Extract citable product facts and missing information from product pages, specifications and instructions. Use for “What can we say based on these materials?” Delivers a sourced fact table, focusing on facts before choosing selling points"
 ---
 
 # MK-001 | Product fact inventory

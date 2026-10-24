@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-003",
-  "source_sha256": "51da8a0f3f6a35603101a45f8a2532da4ec27e3fbe1724298f2bc02136b2e4d5",
+  "source_sha256": "6adedec72420699f9f843abeb244df2d0cf62ce3e4023c933ff71872f1a5d13d",
   "role": "consumer",
   "stages": {
     "prepare": {
@@ -306,7 +306,7 @@
     "field_requirements": []
   },
   "schema_version": 1,
-  "method_sha256": "fc363ece29085bdb6daa1277d4e30a4df1cacf429b7fcda56749fd42ae683413",
+  "method_sha256": "fa3bda9b511d933485be649ec290d63b9221e67dfcaabc4309028bd47632255f",
   "method_path": "skills/mk-003/SKILL.md",
   "source_language": "zh-TW",
   "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."

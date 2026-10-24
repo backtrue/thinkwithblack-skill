@@ -1,6 +1,6 @@
 ---
 name: mk-002
-description: "Unique selling proposition extraction. Use when the task requires evidence-based candidates for differentiated selling points. Apply this method to the specified inputs and verify the deliverable"
+description: "Derive differentiators and customer benefits from existing product facts. Use for “Which features should we lead with?” Delivers evidence-backed selling-point candidates when product materials are already available"
 ---
 
 # MK-002 | Unique selling proposition extraction

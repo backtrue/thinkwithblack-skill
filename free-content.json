@@ -15,7 +15,7 @@
     {
       "id": "MK-001",
       "name": "商品事實整理",
-      "description": "商品事實整理。用於需要可引用商品事實表與缺件清單的工作；依本項方法處理已指定資料並核對交付",
+      "description": "從商品頁、規格與使用說明整理可引用事實及缺件，適用「這些資料能拿來說什麼」；交付有來源的商品事實表，著重事實盤點，尚不挑選主打賣點",
       "source": "skills/mk-001/SKILL.md",
       "references": [
         "skills/mk-001/assets/context-contract.json",
@@ -26,7 +26,7 @@
     {
       "id": "MK-002",
       "name": "獨特賣點萃取",
-      "description": "獨特賣點萃取。用於需要有依據的差異化賣點候選的工作；依本項方法處理已指定資料並核對交付",
+      "description": "從已有商品事實萃取差異與顧客利益，適用「商品資料有了，哪些特色值得主打」；交付有依據的賣點候選，適合已有資料要挑主打特色的工作",
       "source": "skills/mk-002/SKILL.md",
       "references": [
         "skills/mk-002/assets/context-contract.json",
@@ -37,7 +37,7 @@
     {
       "id": "MK-003",
       "name": "賣點獨特性檢查",
-      "description": "檢查既有商品賣點或 USP 是否只是通用口號，依商品事實與競品證據比較獨特性；適用「這個賣點競品也能說嗎」「這句 USP 有差異嗎」",
+      "description": "用商品事實與競品證據檢查既有賣點，適用「這句賣點競品也能說嗎」；交付獨特性比較與待補證據，適合已有主張要檢查差異的工作",
       "source": "skills/mk-003/SKILL.md",
       "references": [
         "skills/mk-003/assets/context-contract.json",

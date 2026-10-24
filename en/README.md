@@ -119,6 +119,8 @@ Find the `.md` file the AI names inside the English `packs/` folder and upload i
 
 Try the [fictional practice data](examples/README.md) first, or add your completed [brand context template](context/MARKETING_CONTEXT.template.md) when you regularly work on the same brand
 
+For a follow-up conversation, add the [case continuation summary](context/CASE_CONTEXT.template.md). The [three consulting tasks example](examples/consultant-decisions.md) shows method selection, recommendations and corrections
+
 Upload the method itself as a file. You only need to paste the starter prompt once per conversation. See [START_HERE.md](START_HERE.md) for follow-up questions and file-reading guidance
 
 ## What's in the package?
