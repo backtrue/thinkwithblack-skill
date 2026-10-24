@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.10.24-en.1
+
+- Order consulting questions by prerequisites, with sourced recommendations, reasons and next deliverables
+- Add a portable case summary for choices, unknowns, next actions and reported results
+- Clarify vague requests through outcomes, obstacles, assumptions and alternative approaches
+- Distinguish product facts, selling-point extraction and uniqueness checks, with reproducible bilingual examples
+
 ## 2026.10.22-en.1
 
 - Added a source-bound data contract and shared checker to each method pack, with requirements for research, planning, drafts and final conclusions
