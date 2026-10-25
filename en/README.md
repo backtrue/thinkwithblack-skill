@@ -34,6 +34,29 @@ Product positioning · Ad copy · Campaign budgets · Contribution margin · Rep
 
 **Describe your problem and let the AI find a method in the index.** Then upload that pack and your data. You do not need to memorize 365 skill names
 
+## A marketing medical center: Start with your problem, not a skill name
+
+Think of a single-purpose AI Skill as a specialist clinic: it focuses on one kind of work. These **365 free marketing Skills are more like a marketing medical center**: a collection of methods from different disciplines, so you can start with the problem you are facing and find the right specialty.
+
+For example, if an ad gets clicks but no orders, you may not yet know whether to examine the product's value, the ad message, or what happens on the website. You do not need to memorize Skill IDs. Describe the problem, let AI select one applicable method from the [method index](INDEX.md), and follow the [three-step guide](#start-your-first-task) to upload the method pack and relevant information. Work through one task at a time.
+
+### Ten areas of marketing expertise
+
+| Area | A question you may be asking | Example method |
+|---|---|---|
+| **Product positioning and customer research** (44 methods) | Who should buy my product? Which features matter to customers? | [Persona candidates](packs/mk-016.md) |
+| **Product strategy, pricing and profitability** (46 methods) | What should I charge? How much do I keep from each order? | [Product contribution margin](packs/mk-059.md) |
+| **Annual plans and promotions** (29 methods) | How do I prepare for a major sale or plan campaign tasks? | [Campaign preparation timeline](packs/mk-099.md) |
+| **Product pages, ad copy and creative** (40 methods) | How do I explain the product or write convincing ads? | [Three-line ad copy](packs/mk-137.md) |
+| **Meta ads and retargeting** (25 methods) | Visitors add to cart but do not buy. What should I address? | [Cart abandonment obstacles](packs/mk-174.md) |
+| **Google ads and video marketing** (51 methods) | How should I use search terms, Shopping or video formats? | [Search term opportunities](packs/mk-234.md) |
+| **SEO, AEO, GEO and AI search** (58 methods) | What content needs improvement? Does AI mention my brand? | [AI brand mentions](packs/mk-363.md) |
+| **Customer retention, LINE and email** (47 methods) | How can I encourage a second purchase after the first? | [First repeat-purchase plan](packs/mk-390.md) |
+| **Social content planning** (10 methods) | What should my brand post this month? | [Monthly social topics](packs/mk-417.md) |
+| **Measurement and marketing decisions** (15 methods) | Where does website traffic come from, and what should I track? | [Website funnel event plan](packs/mk-436.md) |
+
+These categories group the [365 methods in version 2026.10.25-free.1](catalog.json) by primary use; each method is counted once. Cross-disciplinary questions still depend on the index and each method's actual scope. The free edition handles one task using data you provide; it does not automatically connect to accounts or change ad settings.
+
 ## Why I made these skills open source
 
 I started “網路行銷零元本舖” to reduce information gaps and help businesses build their own marketing skills. Teaching was how I pursued that goal. With AI, I wanted to turn more than a decade of hands-on teaching and continuing client work into methods people could use alongside an AI assistant
