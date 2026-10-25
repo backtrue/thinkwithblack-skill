@@ -55,7 +55,7 @@ For example, if an ad gets clicks but no orders, you may not yet know whether to
 | **Social content planning** (10 methods) | What should my brand post this month? | [Monthly social topics](packs/mk-417.md) |
 | **Measurement and marketing decisions** (15 methods) | Where does website traffic come from, and what should I track? | [Website funnel event plan](packs/mk-436.md) |
 
-These categories group the [365 methods in version 2026.10.25-free.1](catalog.json) by primary use; each method is counted once. Cross-disciplinary questions still depend on the index and each method's actual scope. The free edition handles one task using data you provide; it does not automatically connect to accounts or change ad settings.
+These categories group the [365 methods in version 2026.10.25-free.2](catalog.json) by primary use; each method is counted once. Cross-disciplinary questions still depend on the index and each method's actual scope. The free edition handles one task using data you provide; it does not automatically connect to accounts or change ad settings.
 
 ## Why I made these skills open source
 
