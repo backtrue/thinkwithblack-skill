@@ -1,6 +1,6 @@
 {
   "skill_id": "references/lecture-skills/speak-human-tw/SKILL.md",
-  "source_sha256": "e2a8b4c0c739f8603d780175ca7b20fd5da568a33f0693eda4fbe5c72ac5d997",
+  "source_sha256": "c9d0e4b2229d963b33d8fedaac77015dc3cea12442f9a4d58c998f4ea234ba9a",
   "role": "unneeded",
   "stages": {
     "prepare": {
@@ -112,7 +112,7 @@
     "field_requirements": []
   },
   "schema_version": 1,
-  "method_sha256": "e2a8b4c0c739f8603d780175ca7b20fd5da568a33f0693eda4fbe5c72ac5d997",
+  "method_sha256": "c9d0e4b2229d963b33d8fedaac77015dc3cea12442f9a4d58c998f4ea234ba9a",
   "method_path": "supplements/speak-human-tw/SKILL.md",
   "source_language": "zh-TW",
   "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."

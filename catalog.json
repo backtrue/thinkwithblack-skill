@@ -6247,7 +6247,7 @@
       "pack": "packs/speak-human-tw.md",
       "language": "zh-TW",
       "sourceSha256": "c9d0e4b2229d963b33d8fedaac77015dc3cea12442f9a4d58c998f4ea234ba9a",
-      "packSha256": "a4bb1769315cf4c85cd245f947dc632e6425fc7b8031cd742584fe32ea55663d",
+      "packSha256": "1aa8f164dd070dd1fc0fed1131dabaa9bf04d2cdaa1dfd204a8e32fbbfe25ae6",
       "referenceSha256": {
         "supplements/speak-human-tw/LICENSE": "51b47eb42673c9b0051b6579e49b6e9db0d2ee1f05a8d2285aaabf559bd178a2",
         "supplements/speak-human-tw/references/examples.md": "57399bf377921e7d2cf4c757d1a02788e2cddb193b41078cb40ac6e2b9769e7d",
@@ -6257,7 +6257,7 @@
         "supplements/speak-human-tw/references/scenes.md": "f3fed8efad26fb909c5adc85a620ca1fcae0331b41555a55264582b8e7525986",
         "supplements/speak-human-tw/references/taiwan-localization.md": "5dd6115d19228455ea79261c8b47b7d3f8df90d179e506cf689571a9bce12b4d",
         "supplements/speak-human-tw/references/voice-and-rhythm.md": "7368d0628ae78e62299fb44aec7046277a2d927f3d923fa4136a681b1857ec19",
-        "supplements/speak-human-tw/assets/context-contract.json": "5f9a873251474cfebd66cf248232b5c10542e934e77c1490dc82baf47bc5a369",
+        "supplements/speak-human-tw/assets/context-contract.json": "6f9e5342fa80d48257a776a5148f19ddd77cb10a330ea7db5d1866f28aed0931",
         "supplements/speak-human-tw/assets/check-context.py": "a29c10ae63a6aadafed5dc9996b97670de06ec73e71c0f90540c7c175cd14c56"
       }
     }
