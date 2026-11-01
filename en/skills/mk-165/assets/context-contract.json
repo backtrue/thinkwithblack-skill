@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-165",
-  "source_sha256": "0270f6af5acd5b356aaeea622f976e674b78c19125d9619588650e58776094e4",
+  "source_sha256": "280f0dc64da3aba16ccbe82ee7645f80404c330c70157cc7534ef3e5668ca6f5",
   "role": "unneeded",
   "stages": {
     "prepare": {
@@ -321,7 +321,7 @@
     "field_requirements": []
   },
   "schema_version": 1,
-  "method_sha256": "aea424c7803e4f1de59ebc5f58a8eb04e2148ac5ae666d4bcd0653a156a25da8",
+  "method_sha256": "cf4213b78f4d8210e1e2843973edd0c66007db298513b4014899928998a760d4",
   "method_path": "skills/mk-165/SKILL.md",
   "source_language": "zh-TW",
   "source_note": "Source excerpts preserve the reviewed method language; structured checks are shared across editions."

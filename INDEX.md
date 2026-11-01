@@ -1,6 +1,6 @@
 # ThinkWithBlack 免費方法索引
 
-教材版本：2026.10.26-free.1｜共 365 份方法
+教材版本：2026.11.01-free.1｜共 365 份方法
 
 ## 先讀這段
 
@@ -380,6 +380,7 @@
 | forecast-event-profit | 檔期預算與獲利預估 | 以歷史檔期與近期基準估計促銷 CPM、轉換率、客單，建立廣告預算、營收與貢獻利潤情境及回測。適用黑五等檔期預估與建模教學；只有已給數值的敏感度比較使用既有敏感度方法 | [packs/forecast-event-profit.md](packs/forecast-event-profit.md) |
 | simplify-member-rules | 會員規則簡化與理解檢查 | 將既有點數、會員、訂閱及數位權益規則整理成顧客看得懂的說明，逐情境核對改寫前後的權益相同，並設計不提示答案的理解測試。適用規則太多、名稱混亂、例外難找；輸入既有制度，交規則對照、顧客說明、測試題與答案表 | [packs/simplify-member-rules.md](packs/simplify-member-rules.md) |
 
-## 附加校稿工具
+## 附加實作工具
 
 - [說人話：繁中去 AI 味](packs/speak-human-tw.md)：校對與改寫既有繁體中文長短稿件，保留事實、作者口吻與條件，附完整長文參考範例
+- [廣告素材多尺寸改版](packs/resize-ad-creatives.md)：廣告圖片多比例改版、直式安全區與逐版位素材交付

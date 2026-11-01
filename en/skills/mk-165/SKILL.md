@@ -19,11 +19,12 @@ Existing assets and actual formats, dimensions, and durations; target placements
 
 ## Method Steps
 
-1. Prepare dimensions by placement: square for feeds and vertical for Reels/Stories
-2. Consider product characteristics, audience age, and usage habits together; the course's experience-based guidance gives more consideration to IG for people in their 30s or younger, and more to FB for older audiences
-3. Even with automatic placements, check placement controls; the course's specific advice from 2025/8 reflects experience at that time, so verify the current Meta interface/policies before actual execution
-4. Build an asset-by-placement table comparing actual dimensions, aspect ratio, format, and duration with current official requirements and record the source and check date; course sizing and age heuristics do not replace this evidence
-5. Preview cropping, captions, CTA, and key-content obstruction; deliver usable, rework, or unresolved status with specific missing assets; missing previews remain pending rather than being marked fitted
+1. For new image ads, prepare at least 1:1 plus 9:16 or 4:5 plus 9:16, preferably all three ratios. Assign 1:1 or 4:5 to feeds and 9:16 to Stories and Reels.
+2. Create missing versions by recomposing the authorized source image, preserving product appearance, branding, copy, prices and offer details. Do not stretch, crop away information or rely on automatic platform cropping
+3. Set 9:16 safe zones using current official image-placement specifications or the supplied template, recording source and check date. For a shared Stories/Reels image, use the intersection. Keep the product, logo, headline, prices and offer conditions inside; backgrounds and decorations may extend to the edges
+4. Build an asset-by-placement table with actual filename, pixels, ratio, placement, safe-zone source and image-review result. Reopen outputs to check text, product distortion and boundary violations; deliver clean creative and a safe-zone inspection image
+5. Upload the matching version for each placement and inspect actual previews for cropping, interface obstruction and readability. Record missing previews as pending; correct known mismatches and inspect again
+6. When reusing a multi-image Hero post that the user wants unchanged, preserve its original assets and Post ID. Handle video within the requested scope rather than automatically recreating it
 
 ## Calculation and Interpretation
 

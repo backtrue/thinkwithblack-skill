@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.26-free.1",
+  "version": "2026.11.01-free.1",
   "entries": [
     {
       "id": "INF-05-07",
@@ -4044,6 +4044,18 @@
         "supplements/speak-human-tw/assets/check-context.py"
       ],
       "pack": "packs/speak-human-tw.md",
+      "language": "zh-TW"
+    },
+    {
+      "id": "resize-ad-creatives",
+      "name": "廣告素材多尺寸改版",
+      "description": "廣告圖片多比例改版、直式安全區與逐版位素材交付",
+      "source": "supplements/resize-ad-creatives/SKILL.md",
+      "references": [
+        "supplements/resize-ad-creatives/assets/context-contract.json",
+        "supplements/resize-ad-creatives/assets/check-context.py"
+      ],
+      "pack": "packs/resize-ad-creatives.md",
       "language": "zh-TW"
     }
   ]

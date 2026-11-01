@@ -1,6 +1,6 @@
 # write-marketing-rollout-plan｜書面行銷策略與 rollout 方法包
 
-教材版本：2026.10.26-free.1
+教材版本：2026.11.01-free.1
 
 <a id="common-rules"></a>
 

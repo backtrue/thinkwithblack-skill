@@ -1,7 +1,7 @@
 # ThinkWithBlack free method index
 
-Materials version: 2026.10.26-en.1 | 365 methods | Language: English
-Chinese source version: 2026.10.26-free.1
+Materials version: 2026.11.01-en.1 | 365 methods | Language: English
+Chinese source version: 2026.11.01-free.1
 
 ## Read this first
 
@@ -381,6 +381,7 @@ Each method pack includes the shared rules, complete method, required references
 | forecast-event-profit | Campaign Budget and Profit Forecasting | Use historical campaigns and a recent baseline to estimate promotional CPM, conversion rate, and average order value, building ad-budget, revenue, and contribution-profit scenarios with backtesting. Use for campaign forecasting such as Black Friday and modeling instruction; use the existing sensitivity method for sensitivity comparisons involving only supplied values | [packs/forecast-event-profit.md](packs/forecast-event-profit.md) |
 | simplify-member-rules | Simplifying Member Rules and Checking Understanding | Organize existing points, membership, subscription, and digital-benefit rules into explanations customers can understand. Check each scenario for unchanged benefits before and after rewriting, and design comprehension tests that do not reveal answers. Use when rules are excessive, names are confusing, or exceptions are hard to find; take the existing system as input and deliver rule mappings, customer explanations, test questions, and an answer sheet | [packs/simplify-member-rules.md](packs/simplify-member-rules.md) |
 
-## Source-language editing supplements
+## Source-language supplemental tools
 
 - [speak-human-tw: Traditional Chinese editing helper](packs/speak-human-tw.md) — includes the complete original-language writing example
+- [resize-ad-creatives: Ad creative resizing](packs/resize-ad-creatives.md) — multiple aspect ratios, safe zones and placement-ready image delivery; Traditional Chinese source

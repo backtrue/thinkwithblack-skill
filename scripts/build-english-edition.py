@@ -129,9 +129,12 @@ Each method pack includes the shared rules, complete method, required references
         name = entry['name'].replace('|', '/')
         index += f'| {entry["id"]} | {name} | {desc} | [{entry["pack"]}]({entry["pack"]}) |\n'
     if manifest.get('supplements'):
-        index+='\n## Source-language editing supplements\n\n'
+        index+='\n## Source-language supplemental tools\n\n'
         for entry in manifest['supplements']:
-            index+=f'- [{entry["id"]}: Traditional Chinese editing helper]({entry["pack"]}) — includes the complete original-language writing example\n'
+            if entry['id'] == 'resize-ad-creatives':
+                index+=f'- [{entry["id"]}: Ad creative resizing]({entry["pack"]}) — multiple aspect ratios, safe zones and placement-ready image delivery; Traditional Chinese source\n'
+            else:
+                index+=f'- [{entry["id"]}: Traditional Chinese editing helper]({entry["pack"]}) — includes the complete original-language writing example\n'
     generated['INDEX.md'] = index.encode()
     return manifest, generated
 

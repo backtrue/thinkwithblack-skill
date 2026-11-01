@@ -168,7 +168,7 @@ def expected(root):
         desc=e['description'].replace('|','／').replace('\n',' ')
         intro+=f'| {e["id"]} | {e["name"]} | {desc} | [{e["pack"]}]({e["pack"]}) |\n'
     if m.get('supplements'):
-        intro+='\n## 附加校稿工具\n\n'
+        intro+='\n## 附加實作工具\n\n'
         for e in m['supplements']:intro+=f'- [{e["name"]}]({e["pack"]})：{e["description"]}\n'
     out['INDEX.md']=intro.encode()
     return m,out
