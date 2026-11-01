@@ -131,7 +131,11 @@ Each method pack includes the shared rules, complete method, required references
     if manifest.get('supplements'):
         index+='\n## Source-language supplemental tools\n\n'
         for entry in manifest['supplements']:
-            if entry['id'] == 'resize-ad-creatives':
+            if entry['id'] == 'article-to-social-posts':
+                index+=f'- [{entry["id"]}: Article to five social platforms]({entry["pack"]}) — platform-specific copy, language editing and publication formatting; Traditional Chinese source\n'
+            elif entry['id'] == 'speak-human-en':
+                index+=f'- [{entry["id"]}: Natural English writing and editing]({entry["pack"]}) — preserve facts, evidence and author voice; English source\n'
+            elif entry['id'] == 'resize-ad-creatives':
                 index+=f'- [{entry["id"]}: Ad creative resizing]({entry["pack"]}) — multiple aspect ratios, safe zones and placement-ready image delivery; Traditional Chinese source\n'
             else:
                 index+=f'- [{entry["id"]}: Traditional Chinese editing helper]({entry["pack"]}) — includes the complete original-language writing example\n'

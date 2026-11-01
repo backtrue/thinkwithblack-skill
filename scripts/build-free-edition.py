@@ -70,7 +70,7 @@ def load(root):
     for e in m.get('supplements',[]):
         identifier=e['id'];prefix='supplements/'+identifier+'/'
         if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',identifier) or identifier in ids:raise ValueError('Invalid supplemental ID')
-        if e['source']!=prefix+'SKILL.md' or e['pack']!='packs/'+identifier+'.md' or e.get('language')!='zh-TW':raise ValueError('Invalid supplemental mapping')
+        if e['source']!=prefix+'SKILL.md' or e['pack']!='packs/'+identifier+'.md' or e.get('language') not in ['zh-TW','en']:raise ValueError('Invalid supplemental mapping')
         ids.add(identifier)
         for rel in [e['source']]+e['references']:
             if not rel.startswith(prefix) or not safe(root,rel).is_relative_to((root/prefix).resolve()):raise ValueError('Supplemental path outside Skill')

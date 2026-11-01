@@ -1,7 +1,7 @@
 {
-  "version": "2026.11.01-en.1",
+  "version": "2026.11.02-en.1",
   "language": "en",
-  "sourceVersion": "2026.11.01-free.1",
+  "sourceVersion": "2026.11.02-free.1",
   "entries": [
     {
       "id": "INF-05-07",
@@ -4059,6 +4059,48 @@
       ],
       "pack": "packs/resize-ad-creatives.md",
       "language": "zh-TW"
+    },
+    {
+      "id": "article-to-social-posts",
+      "name": "文章轉多平台社群貼文",
+      "description": "五平台文案、依語言潤稿與發布格式檢查",
+      "source": "supplements/article-to-social-posts/SKILL.md",
+      "references": [
+        "supplements/article-to-social-posts/assets/context-contract.json",
+        "supplements/article-to-social-posts/assets/check-context.py",
+        "supplements/article-to-social-posts/references/speak-human-tw/LICENSE",
+        "supplements/article-to-social-posts/references/speak-human-tw/METHOD.md",
+        "supplements/article-to-social-posts/references/speak-human-en/LICENSE",
+        "supplements/article-to-social-posts/references/speak-human-en/THIRD_PARTY_NOTICES.md",
+        "supplements/article-to-social-posts/references/speak-human-en/METHOD.md",
+        "supplements/article-to-social-posts/references/speak-human-en/references/sources.md",
+        "supplements/article-to-social-posts/references/speak-human-en/references/editing-examples.md",
+        "supplements/article-to-social-posts/references/speak-human-tw/references/taiwan-localization.md",
+        "supplements/article-to-social-posts/references/speak-human-tw/references/scenes.md",
+        "supplements/article-to-social-posts/references/speak-human-tw/references/examples.md",
+        "supplements/article-to-social-posts/references/speak-human-tw/references/voice-and-rhythm.md",
+        "supplements/article-to-social-posts/references/speak-human-tw/references/protected-content.md",
+        "supplements/article-to-social-posts/references/speak-human-tw/references/patterns.md",
+        "supplements/article-to-social-posts/references/speak-human-tw/references/long-form-approved-example.md"
+      ],
+      "pack": "packs/article-to-social-posts.md",
+      "language": "zh-TW"
+    },
+    {
+      "id": "speak-human-en",
+      "name": "自然英文寫作與潤稿",
+      "description": "保留事實與作者口吻的英文寫作、翻譯及潤稿",
+      "source": "supplements/speak-human-en/SKILL.md",
+      "references": [
+        "supplements/speak-human-en/LICENSE",
+        "supplements/speak-human-en/THIRD_PARTY_NOTICES.md",
+        "supplements/speak-human-en/references/sources.md",
+        "supplements/speak-human-en/references/editing-examples.md",
+        "supplements/speak-human-en/assets/context-contract.json",
+        "supplements/speak-human-en/assets/check-context.py"
+      ],
+      "pack": "packs/speak-human-en.md",
+      "language": "en"
     }
   ]
 }

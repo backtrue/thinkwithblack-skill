@@ -8,6 +8,20 @@ class FreeEditionTests(unittest.TestCase):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.base=Path(self.tmp.name);self.root=self.base/'repo'
         shutil.copytree(ROOT,self.root,ignore=shutil.ignore_patterns('.git','__pycache__'))
+    def test_social_pack_embeds_both_required_editors(self):
+        manifest,out=b.verify(self.root)
+        pack=out['packs/article-to-social-posts.md'].decode()
+        self.assertIn('Shift+Enter',pack)
+        for name in ['speak-human-tw','speak-human-en']:
+            source=self.root/'supplements/article-to-social-posts/references'/name/'METHOD.md'
+            body=source.read_text().split('---',2)[2].strip()
+            self.assertIn(body.splitlines()[0],pack)
+            for paragraph in body.split('\n\n'):
+                if '](' not in paragraph:self.assertIn(paragraph.strip(),pack)
+        self.assertIn('Copyright (c) 2026 Soumya',pack)
+        self.assertIn('supplement-reference-',pack)
+        self.assertEqual(len(manifest['entries']),365)
+
     def test_declared_dependency_must_exist(self):
         (self.root/'extensions/pmax-copy/references/copy-contract.md').unlink()
         with self.assertRaisesRegex(ValueError,'Missing source'):b.verify(self.root)
