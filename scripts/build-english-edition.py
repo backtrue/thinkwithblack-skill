@@ -135,6 +135,8 @@ Each method pack includes the shared rules, complete method, required references
                 index+=f'- [{entry["id"]}: Article to five social platforms]({entry["pack"]}) — platform-specific copy, language editing and publication formatting; Traditional Chinese source\n'
             elif entry['id'] == 'speak-human-en':
                 index+=f'- [{entry["id"]}: Natural English writing and editing]({entry["pack"]}) — preserve facts, evidence and author voice; English source\n'
+            elif entry['id'] == 'black-meta-ad-setting':
+                index+=f'- [{entry["id"]}: Black Meta ad setup]({entry["pack"]}) — campaign planning, creative sizes, Safe Zone checks, placement setup, upload verification and authorized activation; Traditional Chinese source\n'
             elif entry['id'] == 'resize-ad-creatives':
                 index+=f'- [{entry["id"]}: Ad creative resizing]({entry["pack"]}) — multiple aspect ratios, safe zones and placement-ready image delivery; Traditional Chinese source\n'
             else:

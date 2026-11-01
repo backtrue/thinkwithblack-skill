@@ -1,7 +1,7 @@
 {
-  "version": "2026.11.02-en.1",
+  "version": "2026.11.02-en.2",
   "language": "en",
-  "sourceVersion": "2026.11.02-free.1",
+  "sourceVersion": "2026.11.02-free.2",
   "entries": [
     {
       "id": "INF-05-07",
@@ -4101,6 +4101,18 @@
       ],
       "pack": "packs/speak-human-en.md",
       "language": "en"
+    },
+    {
+      "id": "black-meta-ad-setting",
+      "name": "Black 專屬 Meta 廣告投放流程",
+      "description": "企劃、素材、安全區、版位、上稿與驗收的八步流程",
+      "source": "supplements/black-meta-ad-setting/SKILL.md",
+      "references": [
+        "supplements/black-meta-ad-setting/assets/context-contract.json",
+        "supplements/black-meta-ad-setting/assets/check-context.py"
+      ],
+      "pack": "packs/black-meta-ad-setting.md",
+      "language": "zh-TW"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # ThinkWithBlack 免費方法索引
 
-教材版本：2026.11.02-free.1｜共 365 份方法
+教材版本：2026.11.02-free.2｜共 365 份方法
 
 ## 先讀這段
 
@@ -386,3 +386,4 @@
 - [廣告素材多尺寸改版](packs/resize-ad-creatives.md)：廣告圖片多比例改版、直式安全區與逐版位素材交付
 - [文章轉多平台社群貼文](packs/article-to-social-posts.md)：五平台文案、依語言潤稿與發布格式檢查
 - [自然英文寫作與潤稿](packs/speak-human-en.md)：保留事實與作者口吻的英文寫作、翻譯及潤稿
+- [Black 專屬 Meta 廣告投放流程](packs/black-meta-ad-setting.md)：企劃、素材、安全區、版位、上稿與驗收的八步流程
