@@ -1,6 +1,6 @@
 # 自然英文寫作與潤稿
 
-版本：2026.11.02-free.2｜原文語言：en
+版本：2026.11.08-free.1｜原文語言：en
 
 # Speak human in English
 
