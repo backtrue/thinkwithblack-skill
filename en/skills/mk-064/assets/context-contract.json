@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-064",
-  "source_sha256": "e6014c4156574009490b6b4e0eea9a41b11a90cb27d762305f75ae3c0fab7aac",
+  "source_sha256": "4356aee08f4be4820764e06b6824aaef4309420da858f7c1941c43304f9ce547",
   "role": "producer",
   "stages": {
     "prepare": {
@@ -35,7 +35,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6307\u5b9aTarget CPA\u53ca\u6bcf\u7b46\u6709\u6548\u8a02\u55ae\u5b9a\u7fa9\uff1b\u82e5\u672c\u6848\u6838\u51c6\u7c21\u5316\u4f30\u7b97\uff0c\u9700\u5ba2\u55ae\u50f9\u3001\u6bdb\u5229\u7387\u3001\u53ef\u5206\u914d\u5ee3\u544a\u8cbb\u6bd4\u4f8b\u8207\u5404\u6210\u672c\u6db5\u84cb\u9805\u76ee\uff0c\u5747\u9644\u671f\u9593\u8207\u5e63\u5225"
@@ -56,7 +56,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6307\u5b9aTarget CPA\u53ca\u6bcf\u7b46\u6709\u6548\u8a02\u55ae\u5b9a\u7fa9\uff1b\u82e5\u672c\u6848\u6838\u51c6\u7c21\u5316\u4f30\u7b97\uff0c\u9700\u5ba2\u55ae\u50f9\u3001\u6bdb\u5229\u7387\u3001\u53ef\u5206\u914d\u5ee3\u544a\u8cbb\u6bd4\u4f8b\u8207\u5404\u6210\u672c\u6db5\u84cb\u9805\u76ee\uff0c\u5747\u9644\u671f\u9593\u8207\u5e63\u5225"
@@ -83,7 +83,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6307\u5b9aTarget CPA\u53ca\u6bcf\u7b46\u6709\u6548\u8a02\u55ae\u5b9a\u7fa9\uff1b\u82e5\u672c\u6848\u6838\u51c6\u7c21\u5316\u4f30\u7b97\uff0c\u9700\u5ba2\u55ae\u50f9\u3001\u6bdb\u5229\u7387\u3001\u53ef\u5206\u914d\u5ee3\u544a\u8cbb\u6bd4\u4f8b\u8207\u5404\u6210\u672c\u6db5\u84cb\u9805\u76ee\uff0c\u5747\u9644\u671f\u9593\u8207\u5e63\u5225"
@@ -107,7 +107,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "amount",
@@ -132,7 +132,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "ratio",
@@ -157,7 +157,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "ratio",
@@ -185,7 +185,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6307\u5b9aTarget CPA\u53ca\u6bcf\u7b46\u6709\u6548\u8a02\u55ae\u5b9a\u7fa9\uff1b\u82e5\u672c\u6848\u6838\u51c6\u7c21\u5316\u4f30\u7b97\uff0c\u9700\u5ba2\u55ae\u50f9\u3001\u6bdb\u5229\u7387\u3001\u53ef\u5206\u914d\u5ee3\u544a\u8cbb\u6bd4\u4f8b\u8207\u5404\u6210\u672c\u6db5\u84cb\u9805\u76ee\uff0c\u5747\u9644\u671f\u9593\u8207\u5e63\u5225"
@@ -213,7 +213,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6307\u5b9aTarget CPA\u53ca\u6bcf\u7b46\u6709\u6548\u8a02\u55ae\u5b9a\u7fa9\uff1b\u82e5\u672c\u6848\u6838\u51c6\u7c21\u5316\u4f30\u7b97\uff0c\u9700\u5ba2\u55ae\u50f9\u3001\u6bdb\u5229\u7387\u3001\u53ef\u5206\u914d\u5ee3\u544a\u8cbb\u6bd4\u4f8b\u8207\u5404\u6210\u672c\u6db5\u84cb\u9805\u76ee\uff0c\u5747\u9644\u671f\u9593\u8207\u5e63\u5225"
@@ -234,7 +234,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6307\u5b9aTarget CPA\u53ca\u6bcf\u7b46\u6709\u6548\u8a02\u55ae\u5b9a\u7fa9\uff1b\u82e5\u672c\u6848\u6838\u51c6\u7c21\u5316\u4f30\u7b97\uff0c\u9700\u5ba2\u55ae\u50f9\u3001\u6bdb\u5229\u7387\u3001\u53ef\u5206\u914d\u5ee3\u544a\u8cbb\u6bd4\u4f8b\u8207\u5404\u6210\u672c\u6db5\u84cb\u9805\u76ee\uff0c\u5747\u9644\u671f\u9593\u8207\u5e63\u5225"
@@ -253,7 +253,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6307\u5b9aTarget CPA\u53ca\u6bcf\u7b46\u6709\u6548\u8a02\u55ae\u5b9a\u7fa9\uff1b\u82e5\u672c\u6848\u6838\u51c6\u7c21\u5316\u4f30\u7b97\uff0c\u9700\u5ba2\u55ae\u50f9\u3001\u6bdb\u5229\u7387\u3001\u53ef\u5206\u914d\u5ee3\u544a\u8cbb\u6bd4\u4f8b\u8207\u5404\u6210\u672c\u6db5\u84cb\u9805\u76ee\uff0c\u5747\u9644\u671f\u9593\u8207\u5e63\u5225"
@@ -277,7 +277,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "amount",
@@ -302,7 +302,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "ratio",
@@ -327,7 +327,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "ratio",
@@ -355,7 +355,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u5df2\u6307\u5b9aTarget CPA\u53ca\u6bcf\u7b46\u6709\u6548\u8a02\u55ae\u5b9a\u7fa9\uff1b\u82e5\u672c\u6848\u6838\u51c6\u7c21\u5316\u4f30\u7b97\uff0c\u9700\u5ba2\u55ae\u50f9\u3001\u6bdb\u5229\u7387\u3001\u53ef\u5206\u914d\u5ee3\u544a\u8cbb\u6bd4\u4f8b\u8207\u5404\u6210\u672c\u6db5\u84cb\u9805\u76ee\uff0c\u5747\u9644\u671f\u9593\u8207\u5e63\u5225"

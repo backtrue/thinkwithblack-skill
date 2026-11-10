@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-074",
-  "source_sha256": "3133f2f9427dc7a626ea3bd2ac8c0640b789d923ae637e0c9c5ff340ae4a29b6",
+  "source_sha256": "00f41cb2fad9fc1f0d815bb39e653566ddd96600b6c70c2bdc9995ed5a4c310f",
   "role": "unneeded",
   "stages": {
     "prepare": {
@@ -29,7 +29,7 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -51,7 +51,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -73,7 +73,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -110,7 +110,7 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -132,7 +132,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -154,7 +154,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,

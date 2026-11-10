@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-066",
-  "source_sha256": "885efe78a77b57ff3aed98b5e335959168353591c5e1d16cc0e2e7b637367e88",
+  "source_sha256": "c45767f2c7dfdd2f64ccdda486ad43e006674ff5aa4628381a652abe1abd2493",
   "role": "conditional",
   "stages": {
     "prepare": {
@@ -28,7 +28,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 48,
+            "source_line": 56,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "amount",
@@ -50,7 +50,7 @@
               "period_end"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "count",
@@ -72,7 +72,7 @@
               "period_end"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "count",
@@ -94,7 +94,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u7528\u539f\u59cb\u8cc7\u6599\uff1a\u6bcf\u7b46\u6709\u6548\u8a02\u55aeTarget CPA\u3001\u540c\u6279\u52a0\u8cfcA\u53ca\u5176\u6709\u6548\u8cfc\u8cb7P\u3001\u4e8b\u4ef6\uff0f\u4eba\u6b21\uff0f\u8a02\u55ae\u55ae\u4f4d\u3001\u914d\u5c0d\u65b9\u5f0f\u3001\u6210\u719f\u89c0\u5bdf\u7a97\u3001\u5be6\u969b\u52a0\u8cfc\u8cbb\u7528"
@@ -116,7 +116,7 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "amount",
@@ -151,7 +151,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-064",
             "condition": null,
@@ -174,7 +174,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -196,7 +196,7 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -218,7 +218,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -240,7 +240,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -265,7 +265,7 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,

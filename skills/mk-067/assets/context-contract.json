@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-067",
-  "source_sha256": "b236d26434c3507d02f22d4a4e44f1158426dd2c60bc618ebd0cff52fcf8ce4f",
+  "source_sha256": "2872a0b9b91d1132b3fdc4b17a1eb1de27653842ea4441a8f13470b86483e432",
   "role": "producer",
   "stages": {
     "teach": {
@@ -39,7 +39,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 43,
+            "source_line": 51,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -64,7 +64,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 63,
+            "source_line": 71,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -89,7 +89,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 43,
+            "source_line": 51,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -117,7 +117,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 43,
+            "source_line": 51,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -150,7 +150,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 43,
+            "source_line": 51,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -175,7 +175,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 63,
+            "source_line": 71,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -200,7 +200,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 43,
+            "source_line": 51,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -228,7 +228,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 43,
+            "source_line": 51,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,

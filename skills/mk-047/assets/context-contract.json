@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-047",
-  "source_sha256": "c212a5e24f4a392d8a205a4ade2faf07e9c4207d53772990e240a594786c23ee",
+  "source_sha256": "3354f3cc76c859ea5464d31795bb0bd4b278e34b51a74682a0a4008abeff55f5",
   "role": "unneeded",
   "stages": {
     "prepare": {
@@ -29,7 +29,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
@@ -50,7 +50,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
@@ -69,7 +69,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
@@ -90,7 +90,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
@@ -119,7 +119,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
@@ -140,7 +140,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
@@ -159,7 +159,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
@@ -188,7 +188,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
@@ -209,7 +209,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
@@ -228,7 +228,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"
@@ -249,7 +249,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u56db\u500b PSM \u984c\u76ee\u7684\u539f\u6587\u3001\u5e63\u5225\u8207\u586b\u7b54\u65b9\u5f0f\u3001\u9010\u7b46\u539f\u59cb\u56de\u7b54\u3001\u53bb\u8b58\u5225\u56de\u7b54\u9375\u3001\u62bd\u6a23\u8207\u5ba2\u7fa4\u8cc7\u6599\uff1b\u6210\u672c\u6216\u5e02\u5834\u50f9\u683c\u53ea\u4f5c\u5df2\u63d0\u4f9b\u7684\u7bc4\u570d\u53c3\u8003"

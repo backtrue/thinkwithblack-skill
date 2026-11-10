@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-160",
-  "source_sha256": "0d35a409f89996d3c0bf3f3a403686c862a2ea3db8ca8aa66b29b6cedd4f3962",
+  "source_sha256": "319d1be6995ef79169fe532e4f07cc4a90cf47195e7ca02d817ed188c678748a",
   "role": "unneeded",
   "stages": {
     "prepare": {
@@ -29,7 +29,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u672c\u6b21\u5546\u696d\u76ee\u7684\u8207\u9810\u5b9a\u6210\u679c\u3001\u76ee\u7684\u5730\u53ca\u53ef\u7528\u8861\u91cf\u65b9\u5f0f\uff1b\u4e00\u822c\u65b9\u6cd5\u76f4\u63a5\u8aaa\u660e\u689d\u4ef6\uff0c\u53ea\u6709\u6838\u5c0d\u500b\u6848\u8a2d\u5b9a\u6642\u9700\u8981\u5e33\u6236\u5feb\u7167\u8207\u76f8\u95dc\u4e8b\u4ef6\u8cc7\u6599"
@@ -50,7 +50,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u672c\u6b21\u5546\u696d\u76ee\u7684\u8207\u9810\u5b9a\u6210\u679c\u3001\u76ee\u7684\u5730\u53ca\u53ef\u7528\u8861\u91cf\u65b9\u5f0f\uff1b\u4e00\u822c\u65b9\u6cd5\u76f4\u63a5\u8aaa\u660e\u689d\u4ef6\uff0c\u53ea\u6709\u6838\u5c0d\u500b\u6848\u8a2d\u5b9a\u6642\u9700\u8981\u5e33\u6236\u5feb\u7167\u8207\u76f8\u95dc\u4e8b\u4ef6\u8cc7\u6599"
@@ -86,7 +86,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u672c\u6b21\u5546\u696d\u76ee\u7684\u8207\u9810\u5b9a\u6210\u679c\u3001\u76ee\u7684\u5730\u53ca\u53ef\u7528\u8861\u91cf\u65b9\u5f0f\uff1b\u4e00\u822c\u65b9\u6cd5\u76f4\u63a5\u8aaa\u660e\u689d\u4ef6\uff0c\u53ea\u6709\u6838\u5c0d\u500b\u6848\u8a2d\u5b9a\u6642\u9700\u8981\u5e33\u6236\u5feb\u7167\u8207\u76f8\u95dc\u4e8b\u4ef6\u8cc7\u6599"
@@ -107,7 +107,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u672c\u6b21\u5546\u696d\u76ee\u7684\u8207\u9810\u5b9a\u6210\u679c\u3001\u76ee\u7684\u5730\u53ca\u53ef\u7528\u8861\u91cf\u65b9\u5f0f\uff1b\u4e00\u822c\u65b9\u6cd5\u76f4\u63a5\u8aaa\u660e\u689d\u4ef6\uff0c\u53ea\u6709\u6838\u5c0d\u500b\u6848\u8a2d\u5b9a\u6642\u9700\u8981\u5e33\u6236\u5feb\u7167\u8207\u76f8\u95dc\u4e8b\u4ef6\u8cc7\u6599"

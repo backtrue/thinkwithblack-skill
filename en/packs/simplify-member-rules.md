@@ -1,6 +1,6 @@
 # simplify-member-rules | Simplifying Member Rules and Checking Understanding — method pack
 
-Materials version: 2026.11.08-en.1
+Materials version: 2026.11.11-en.1
 
 <a id="common-rules"></a>
 

@@ -1,6 +1,6 @@
 # Black 專屬 Meta 廣告投放流程
 
-版本：2026.11.08-en.1｜原文語言：zh-TW
+版本：2026.11.11-en.1｜原文語言：zh-TW
 
 # black-meta-ad-setting
 

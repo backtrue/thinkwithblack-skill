@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-129",
-  "source_sha256": "d65b4c384d18d5156f7d453cd1272f34f739f637641daf39f847208bdeb56889",
+  "source_sha256": "29cad9dba0e8d3d3b6d9b6fcc489f4ff805511dc2c169dc42cf630dc4a29f928",
   "role": "consumer",
   "stages": {
     "prepare": {
@@ -31,7 +31,7 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "condition": null,
@@ -53,7 +53,7 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "condition": null,
@@ -61,7 +61,7 @@
               }
             ],
             "condition": null,
-            "source_line": 36
+            "source_line": 46
           },
           {
             "field": "persona.profile",
@@ -82,7 +82,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-016",
             "condition": null,
@@ -105,7 +105,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -131,7 +131,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-005",
             "condition": null,
@@ -162,7 +162,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -184,7 +184,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -209,7 +209,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-016",
             "condition": null,
@@ -232,7 +232,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -258,7 +258,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-005",
             "condition": null,

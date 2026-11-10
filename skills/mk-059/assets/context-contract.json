@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-059",
-  "source_sha256": "3b01b0eff3c1d43ef362fbcdb58668c420a576138088d950d96e6670aeb76549",
+  "source_sha256": "2606b47ceee20a6d4c57d90945784704213b8ff9d31e05abef36de3dea0256de",
   "role": "unneeded",
   "stages": {
     "teach": {
@@ -39,7 +39,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -65,7 +65,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -99,7 +99,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -125,7 +125,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,

@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-001",
-  "source_sha256": "534ddc75c34389630f1b66ca6b1375edafe3b951aaa6b9b57284eb376f6c776b",
+  "source_sha256": "37db5698cfab6bb5d16cdb0990586be7fa7b4b129eadf4b5fac97148d64e215a",
   "role": "producer",
   "stages": {
     "prepare": {
@@ -20,11 +20,11 @@
         ],
         "scope": [],
         "min_count": 1,
-        "source_line": 45,
+        "source_line": 52,
         "missing_action": "collect_authorized_source",
         "preparation": null,
         "condition": null,
-        "source_excerpt": "1. \u5148\u8b93 AI \u770b\u5f97\u5230\u7522\u54c1\u672c\u8eab\uff1a\u512a\u5148\u63d0\u4f9b\u5546\u54c1\u9801\u5167\u5bb9\uff1b\u82e5\u5de5\u5177\u7121\u6cd5\u76f4\u63a5\u8b80\u7db2\u9801\uff0c\u4f9d\u8b1b\u7fa9\u6539\u7528\u5546\u54c1\u5716\u7247\u6216\u5546\u54c1\u9801 PDF\u3002"
+        "source_excerpt": "1. \u5148\u8b93 AI \u770b\u5f97\u5230\u7522\u54c1\u672c\u8eab\uff1a\u512a\u5148\u63d0\u4f9b\u5546\u54c1\u9801\u5167\u5bb9\uff1b\u82e5\u5de5\u5177\u7121\u6cd5\u76f4\u63a5\u8b80\u7db2\u9801\uff0c\u4f9d\u8b1b\u7fa9\u6539\u7528\u5546\u54c1\u5716\u7247\u6216\u5546\u54c1\u9801 PDF"
       },
       "delivery": false,
       "allowed_output": "\u5546\u54c1\u8fa8\u8b58\u8207\u4f86\u6e90"
@@ -46,11 +46,11 @@
         ],
         "scope": [],
         "min_count": 1,
-        "source_line": 45,
+        "source_line": 52,
         "missing_action": "collect_authorized_source",
         "preparation": null,
         "condition": null,
-        "source_excerpt": "1. \u5148\u8b93 AI \u770b\u5f97\u5230\u7522\u54c1\u672c\u8eab\uff1a\u512a\u5148\u63d0\u4f9b\u5546\u54c1\u9801\u5167\u5bb9\uff1b\u82e5\u5de5\u5177\u7121\u6cd5\u76f4\u63a5\u8b80\u7db2\u9801\uff0c\u4f9d\u8b1b\u7fa9\u6539\u7528\u5546\u54c1\u5716\u7247\u6216\u5546\u54c1\u9801 PDF\u3002"
+        "source_excerpt": "1. \u5148\u8b93 AI \u770b\u5f97\u5230\u7522\u54c1\u672c\u8eab\uff1a\u512a\u5148\u63d0\u4f9b\u5546\u54c1\u9801\u5167\u5bb9\uff1b\u82e5\u5de5\u5177\u7121\u6cd5\u76f4\u63a5\u8b80\u7db2\u9801\uff0c\u4f9d\u8b1b\u7fa9\u6539\u7528\u5546\u54c1\u5716\u7247\u6216\u5546\u54c1\u9801 PDF"
       },
       "delivery": true,
       "allowed_output": "\u5546\u54c1\u4e8b\u5be6\u3001\u9650\u5236\u3001\u5ba3\u7a31\u8207\u7f3a\u8b49\u64da\u72c0\u614b"
@@ -81,11 +81,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 45,
+            "source_line": 52,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "1. \u5148\u8b93 AI \u770b\u5f97\u5230\u7522\u54c1\u672c\u8eab\uff1a\u512a\u5148\u63d0\u4f9b\u5546\u54c1\u9801\u5167\u5bb9\uff1b\u82e5\u5de5\u5177\u7121\u6cd5\u76f4\u63a5\u8b80\u7db2\u9801\uff0c\u4f9d\u8b1b\u7fa9\u6539\u7528\u5546\u54c1\u5716\u7247\u6216\u5546\u54c1\u9801 PDF\u3002"
+            "source_excerpt": "1. \u5148\u8b93 AI \u770b\u5f97\u5230\u7522\u54c1\u672c\u8eab\uff1a\u512a\u5148\u63d0\u4f9b\u5546\u54c1\u9801\u5167\u5bb9\uff1b\u82e5\u5de5\u5177\u7121\u6cd5\u76f4\u63a5\u8b80\u7db2\u9801\uff0c\u4f9d\u8b1b\u7fa9\u6539\u7528\u5546\u54c1\u5716\u7247\u6216\u5546\u54c1\u9801 PDF"
           }
         ]
       },

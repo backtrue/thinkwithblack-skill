@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-007",
-  "source_sha256": "d959fabd425ada92a960662499cda9af82e0c223550c69273bdf3443ea864f4d",
+  "source_sha256": "48df5c1508f28fbeb761521372dc8956a96523fe07aa5bbf3aecbed7ccfc7b70",
   "role": "producer",
   "stages": {
     "prepare": {
@@ -33,12 +33,12 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-001",
             "condition": null,
             "kind": "product",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61"
           },
           {
             "field": "task.input.e26b90243cd5c8d9",
@@ -56,11 +56,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61"
           },
           {
             "field": "claim.proof",
@@ -82,12 +82,12 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-005",
             "condition": null,
             "kind": "claim",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61"
           },
           {
             "field": "persona.profile",
@@ -108,12 +108,12 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-016",
             "condition": null,
             "kind": "persona",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61"
           }
         ]
       },
@@ -143,12 +143,12 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-001",
             "condition": null,
             "kind": "product",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61"
           },
           {
             "field": "task.input.e26b90243cd5c8d9",
@@ -166,11 +166,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61"
           },
           {
             "field": "claim.proof",
@@ -192,12 +192,12 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-005",
             "condition": null,
             "kind": "claim",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61"
           },
           {
             "field": "persona.profile",
@@ -218,12 +218,12 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-016",
             "condition": null,
             "kind": "persona",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1\u898f\u683c\u3001\u7af6\u54c1\u5dee\u7570\u3001\u53ef\u8b49\u5be6\u8b49\u64da\u3001\u92b7\u552e\u5c0d\u8c61"
           }
         ]
       },

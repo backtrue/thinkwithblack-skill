@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-046",
-  "source_sha256": "7c9e26975f61e870eb6fcd22a934a224d6fc74ebd057d15fdc780f9e44d6345d",
+  "source_sha256": "d495b327d683c7b47b6dace5700b2beb8d9a2b63145b9c8757fd90724ce14ffe",
   "role": "consumer",
   "stages": {
     "prepare": {
@@ -29,11 +29,11 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684"
           },
           {
             "any": [
@@ -56,12 +56,12 @@
                   "brand_key"
                 ],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_website_or_source",
                 "preparation": "INF-00-06",
                 "condition": null,
                 "kind": "persona",
-                "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684\u3002"
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684"
               },
               {
                 "field": "task.input.d9f9f4be5215c9af",
@@ -80,11 +80,11 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "condition": null,
-                "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684\u3002"
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684"
               }
             ],
             "condition": null
@@ -105,11 +105,11 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "condition": null,
-                "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684\u3002"
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684"
               },
               {
                 "field": "task.input.af38cfc2d5655152",
@@ -127,15 +127,15 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "condition": null,
-                "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684\u3002"
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684"
               }
             ],
             "condition": null,
-            "source_line": 36
+            "source_line": 46
           }
         ]
       },
@@ -161,11 +161,11 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684"
           },
           {
             "field": "persona.profile",
@@ -186,12 +186,12 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "INF-00-06",
             "condition": null,
             "kind": "persona",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684"
           },
           {
             "field": "task.input.d9f9f4be5215c9af",
@@ -210,11 +210,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684"
           },
           {
             "field": "task.input.934ee2c3d819caff",
@@ -230,11 +230,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684"
           },
           {
             "field": "task.input.af38cfc2d5655152",
@@ -252,11 +252,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u6210\u672c\u3001\u76ee\u6a19\u5c0d\u8c61\u3001\u554f\u5377\u539f\u59cb\u56de\u7b54\u6216\u554f\u5377\u76ee\u7684"
           }
         ]
       },

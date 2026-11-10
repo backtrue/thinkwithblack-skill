@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-138",
-  "source_sha256": "1860799736583225b5f3155198d77ee2348a732dd50051b73550a3c24e8db6c1",
+  "source_sha256": "8536d7b941c053eb0c467d28c32bf5ff6e74fb721844e58a30fdd77ef706da17",
   "role": "consumer",
   "stages": {
     "prepare": {
@@ -33,12 +33,12 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-001",
             "condition": null,
             "kind": "product",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42"
           },
           {
             "field": "persona.profile",
@@ -59,12 +59,12 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-016",
             "condition": null,
             "kind": "persona",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42"
           },
           {
             "field": "task.input.ffbb85be64ca0dd2",
@@ -82,11 +82,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42"
           },
           {
             "field": "task.input.e08c5ebc1d52ee75",
@@ -104,11 +104,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42"
           },
           {
             "field": "task.input.c09df243b2aad394",
@@ -126,11 +126,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42"
           }
         ]
       },
@@ -160,12 +160,12 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-001",
             "condition": null,
             "kind": "product",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42"
           },
           {
             "field": "persona.profile",
@@ -186,12 +186,12 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-016",
             "condition": null,
             "kind": "persona",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42"
           },
           {
             "field": "task.input.ffbb85be64ca0dd2",
@@ -209,11 +209,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42"
           },
           {
             "field": "task.input.e08c5ebc1d52ee75",
@@ -231,11 +231,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42"
           },
           {
             "field": "task.input.c09df243b2aad394",
@@ -253,11 +253,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u7522\u54c1\u3001\u53d7\u773e\u5047\u8aaa\u3001\u8b49\u64da\u3001\u5230\u9054\u9801\u3001\u7248\u4f4d\u9700\u6c42"
           }
         ]
       },

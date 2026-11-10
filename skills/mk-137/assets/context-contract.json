@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-137",
-  "source_sha256": "05ed1e80735a7f86b8d68bfb660e6c0f8682b26793c1d698046595169e5dea84",
+  "source_sha256": "2fe31b8dc2e3615957ad374398ff846090d534a5e61c36008cf36bbe7b0c65fd",
   "role": "producer",
   "stages": {
     "prepare": {
@@ -26,7 +26,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 32,
+            "source_line": 42,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-001",
             "condition": null,
@@ -48,7 +48,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 32,
+            "source_line": 42,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -80,7 +80,7 @@
               "product_version"
             ],
             "min_count": 3,
-            "source_line": 34,
+            "source_line": 44,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-002",
             "condition": null,

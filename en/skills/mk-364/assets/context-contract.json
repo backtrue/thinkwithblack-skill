@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-364",
-  "source_sha256": "6618850c58acf1ddfde66705abc32948d43ab91ba014648434d7b3136f884a3b",
+  "source_sha256": "0a6225dc53c6c67e0ca400c7b3e4c8a74a8578e4a8b9f3f5ec0271a377eb7628",
   "role": "producer",
   "stages": {
     "prepare": {
@@ -29,7 +29,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 44,
+            "source_line": 54,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -51,7 +51,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -73,7 +73,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -95,7 +95,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,
@@ -117,7 +117,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,
@@ -139,7 +139,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,
@@ -163,7 +163,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,
@@ -200,7 +200,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 44,
+            "source_line": 54,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -222,7 +222,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -244,7 +244,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -266,7 +266,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,
@@ -288,7 +288,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,
@@ -310,7 +310,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,
@@ -334,7 +334,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,

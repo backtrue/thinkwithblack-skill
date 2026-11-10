@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-284",
-  "source_sha256": "39926c03c81487701384c92a793d7b3198c4996678ac73695bf37d1ed9cc5bec",
+  "source_sha256": "eacb2ebb1ae18960ce37bc6e447faa9d2817b130d1386118f9713f0938b8cceb",
   "role": "consumer",
   "stages": {
     "prepare": {
@@ -29,7 +29,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u5a92\u9ad4\u4efb\u52d9\u3001\u53d7\u773e\u3001\u7522\u54c1\u4e8b\u5be6\u8207\u53ef\u7528\u8b49\u64da\u3001\u4e3b\u8a0a\u606f\u3001\u7d20\u6750\u8207\u76ee\u7684\u9801\uff1b\u53ef\u5f9e\u96f6\u5beb\u8173\u672c\uff0c\u4e0d\u9700\u5df2\u6709\u6210\u6548"
@@ -56,7 +56,7 @@
                   "product_version"
                 ],
                 "min_count": 1,
-                "source_line": 39,
+                "source_line": 49,
                 "missing_action": "collect_website_or_source",
                 "preparation": null,
                 "source_excerpt": "\u5a92\u9ad4\u4efb\u52d9\u3001\u53d7\u773e\u3001\u7522\u54c1\u4e8b\u5be6\u8207\u53ef\u7528\u8b49\u64da\u3001\u4e3b\u8a0a\u606f\u3001\u7d20\u6750\u8207\u76ee\u7684\u9801\uff1b\u53ef\u5f9e\u96f6\u5beb\u8173\u672c\uff0c\u4e0d\u9700\u5df2\u6709\u6210\u6548"
@@ -81,7 +81,7 @@
                   "product_version"
                 ],
                 "min_count": 1,
-                "source_line": 39,
+                "source_line": 49,
                 "missing_action": "collect_authorized_source",
                 "preparation": "INF-00-06",
                 "kind": "claim",
@@ -105,7 +105,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u5a92\u9ad4\u4efb\u52d9\u3001\u53d7\u773e\u3001\u7522\u54c1\u4e8b\u5be6\u8207\u53ef\u7528\u8b49\u64da\u3001\u4e3b\u8a0a\u606f\u3001\u7d20\u6750\u8207\u76ee\u7684\u9801\uff1b\u53ef\u5f9e\u96f6\u5beb\u8173\u672c\uff0c\u4e0d\u9700\u5df2\u6709\u6210\u6548"
@@ -134,7 +134,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u5a92\u9ad4\u4efb\u52d9\u3001\u53d7\u773e\u3001\u7522\u54c1\u4e8b\u5be6\u8207\u53ef\u7528\u8b49\u64da\u3001\u4e3b\u8a0a\u606f\u3001\u7d20\u6750\u8207\u76ee\u7684\u9801\uff1b\u53ef\u5f9e\u96f6\u5beb\u8173\u672c\uff0c\u4e0d\u9700\u5df2\u6709\u6210\u6548"
@@ -159,7 +159,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "source_excerpt": "\u5a92\u9ad4\u4efb\u52d9\u3001\u53d7\u773e\u3001\u7522\u54c1\u4e8b\u5be6\u8207\u53ef\u7528\u8b49\u64da\u3001\u4e3b\u8a0a\u606f\u3001\u7d20\u6750\u8207\u76ee\u7684\u9801\uff1b\u53ef\u5f9e\u96f6\u5beb\u8173\u672c\uff0c\u4e0d\u9700\u5df2\u6709\u6210\u6548"
@@ -184,7 +184,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": "INF-00-06",
             "kind": "claim",
@@ -206,7 +206,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u5a92\u9ad4\u4efb\u52d9\u3001\u53d7\u773e\u3001\u7522\u54c1\u4e8b\u5be6\u8207\u53ef\u7528\u8b49\u64da\u3001\u4e3b\u8a0a\u606f\u3001\u7d20\u6750\u8207\u76ee\u7684\u9801\uff1b\u53ef\u5f9e\u96f6\u5beb\u8173\u672c\uff0c\u4e0d\u9700\u5df2\u6709\u6210\u6548"

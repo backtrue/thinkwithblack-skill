@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-028",
-  "source_sha256": "b459d208b362cbf45ffc004483e54976098611fac74c39702050fa7df7e5a057",
+  "source_sha256": "308bb1cac9e083d1a5977af14ecd77d3031e0b8424965ba8817f18655c00bdbc",
   "role": "producer",
   "stages": {
     "prepare": {
@@ -33,7 +33,7 @@
               "persona_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,
@@ -59,7 +59,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,
@@ -81,7 +81,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -122,7 +122,7 @@
               "persona_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,
@@ -148,7 +148,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "condition": null,
@@ -170,7 +170,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,

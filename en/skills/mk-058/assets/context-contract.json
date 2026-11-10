@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-058",
-  "source_sha256": "dae9b525132cf3a70f1425d28dc1a7227fe47ecdc5bffc6ef108581f13de5349",
+  "source_sha256": "66d182d0bdc330d57bdb45f731777d583eadec02fc4c7a1da5764a4a73e4c2bb",
   "role": "unneeded",
   "stages": {
     "teach": {
@@ -36,7 +36,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -66,7 +66,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,

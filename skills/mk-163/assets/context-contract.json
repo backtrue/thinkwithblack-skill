@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-163",
-  "source_sha256": "4909a8e3d0f61ddfa1ebf3adebb181140e239a8733e28d7a7025a9d953c24952",
+  "source_sha256": "9c8488b5ef1e2843e5ae76bc94ad09b13379c26fade4d0b457af459900f0007e",
   "role": "consumer",
   "stages": {
     "prepare": {
@@ -29,7 +29,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "Persona \u6216\u9867\u5ba2\u8b49\u64da\u3001\u5546\u54c1\u80fd\u529b\u8207\u9650\u5236\u3001\u9700\u6c42\u60c5\u5883\u8207\u5546\u696d\u76ee\u7684\uff1b\u63a1\u7528\u65e2\u6709\u8f49\u63db\u7dda\u7d22\u6642\u518d\u63d0\u4f9b\u76f8\u61c9\u8cc7\u6599"
@@ -54,7 +54,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "source_excerpt": "Persona \u6216\u9867\u5ba2\u8b49\u64da\u3001\u5546\u54c1\u80fd\u529b\u8207\u9650\u5236\u3001\u9700\u6c42\u60c5\u5883\u8207\u5546\u696d\u76ee\u7684\uff1b\u63a1\u7528\u65e2\u6709\u8f49\u63db\u7dda\u7d22\u6642\u518d\u63d0\u4f9b\u76f8\u61c9\u8cc7\u6599"
@@ -75,7 +75,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "Persona \u6216\u9867\u5ba2\u8b49\u64da\u3001\u5546\u54c1\u80fd\u529b\u8207\u9650\u5236\u3001\u9700\u6c42\u60c5\u5883\u8207\u5546\u696d\u76ee\u7684\uff1b\u63a1\u7528\u65e2\u6709\u8f49\u63db\u7dda\u7d22\u6642\u518d\u63d0\u4f9b\u76f8\u61c9\u8cc7\u6599"
@@ -104,7 +104,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "Persona \u6216\u9867\u5ba2\u8b49\u64da\u3001\u5546\u54c1\u80fd\u529b\u8207\u9650\u5236\u3001\u9700\u6c42\u60c5\u5883\u8207\u5546\u696d\u76ee\u7684\uff1b\u63a1\u7528\u65e2\u6709\u8f49\u63db\u7dda\u7d22\u6642\u518d\u63d0\u4f9b\u76f8\u61c9\u8cc7\u6599"
@@ -129,7 +129,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "source_excerpt": "Persona \u6216\u9867\u5ba2\u8b49\u64da\u3001\u5546\u54c1\u80fd\u529b\u8207\u9650\u5236\u3001\u9700\u6c42\u60c5\u5883\u8207\u5546\u696d\u76ee\u7684\uff1b\u63a1\u7528\u65e2\u6709\u8f49\u63db\u7dda\u7d22\u6642\u518d\u63d0\u4f9b\u76f8\u61c9\u8cc7\u6599"
@@ -150,7 +150,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "Persona \u6216\u9867\u5ba2\u8b49\u64da\u3001\u5546\u54c1\u80fd\u529b\u8207\u9650\u5236\u3001\u9700\u6c42\u60c5\u5883\u8207\u5546\u696d\u76ee\u7684\uff1b\u63a1\u7528\u65e2\u6709\u8f49\u63db\u7dda\u7d22\u6642\u518d\u63d0\u4f9b\u76f8\u61c9\u8cc7\u6599"

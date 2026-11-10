@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-386",
-  "source_sha256": "2c766ee378ca24d950c54d0246fb875abd8be2033a7baea45fe4c7446feefca6",
+  "source_sha256": "1ab9095acb8f4435e847d1134fa17f509736166d4d6d81d22332b8bd8945fad7",
   "role": "consumer",
   "stages": {
     "prepare": {
@@ -31,7 +31,7 @@
                   "brand_key"
                 ],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_website_or_source",
                 "preparation": "INF-00-06",
                 "condition": null,
@@ -52,7 +52,7 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "condition": null,
@@ -77,7 +77,7 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -99,7 +99,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -129,7 +129,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "INF-00-06",
             "condition": null,
@@ -150,7 +150,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -172,7 +172,7 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -194,7 +194,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,

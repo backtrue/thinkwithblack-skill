@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-282",
-  "source_sha256": "c9ad612baf2fabc4cc770054399699dcb2c6ae109b73a47f6aa472921f653cab",
+  "source_sha256": "686b7e290b2f9baa6b4439dd677fc9d8827ec62abbd1ea17223c8acc042f9feb",
   "role": "consumer",
   "stages": {
     "prepare": {
@@ -31,7 +31,7 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 39,
+                "source_line": 49,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -52,7 +52,7 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 39,
+                "source_line": 49,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -75,7 +75,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -102,7 +102,7 @@
                       "brand_key"
                     ],
                     "min_count": 1,
-                    "source_line": 39,
+                    "source_line": 49,
                     "missing_action": "collect_website_or_source",
                     "preparation": null,
                     "kind": "brand",
@@ -124,7 +124,7 @@
                     ],
                     "scope": [],
                     "min_count": 1,
-                    "source_line": 39,
+                    "source_line": 49,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -153,7 +153,7 @@
                       "product_version"
                     ],
                     "min_count": 1,
-                    "source_line": 39,
+                    "source_line": 49,
                     "missing_action": "collect_website_or_source",
                     "preparation": null,
                     "kind": "product",
@@ -175,7 +175,7 @@
                     ],
                     "scope": [],
                     "min_count": 1,
-                    "source_line": 39,
+                    "source_line": 49,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -212,7 +212,7 @@
                     ],
                     "scope": [],
                     "min_count": 1,
-                    "source_line": 39,
+                    "source_line": 49,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -233,7 +233,7 @@
                     ],
                     "scope": [],
                     "min_count": 1,
-                    "source_line": 39,
+                    "source_line": 49,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -256,7 +256,7 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 39,
+                "source_line": 49,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -283,7 +283,7 @@
                           "brand_key"
                         ],
                         "min_count": 1,
-                        "source_line": 39,
+                        "source_line": 49,
                         "missing_action": "collect_website_or_source",
                         "preparation": null,
                         "kind": "brand",
@@ -305,7 +305,7 @@
                         ],
                         "scope": [],
                         "min_count": 1,
-                        "source_line": 39,
+                        "source_line": 49,
                         "missing_action": "collect_authorized_source",
                         "preparation": null,
                         "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -334,7 +334,7 @@
                           "product_version"
                         ],
                         "min_count": 1,
-                        "source_line": 39,
+                        "source_line": 49,
                         "missing_action": "collect_website_or_source",
                         "preparation": null,
                         "kind": "product",
@@ -356,7 +356,7 @@
                         ],
                         "scope": [],
                         "min_count": 1,
-                        "source_line": 39,
+                        "source_line": 49,
                         "missing_action": "collect_authorized_source",
                         "preparation": null,
                         "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -383,7 +383,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -412,7 +412,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -433,7 +433,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -454,7 +454,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -477,7 +477,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "kind": "brand",
@@ -499,7 +499,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"
@@ -524,7 +524,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_website_or_source",
             "preparation": null,
             "kind": "product",
@@ -546,7 +546,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 39,
+            "source_line": 49,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u53ef\u8b80\u5f71\u7247\u6216\u6709\u6642\u9593\u78bc\u9010\u5b57\u7a3f\u3001\u5a92\u9ad4\u4efb\u52d9\u3001\u89c0\u773e\u60c5\u5883\u3001\u54c1\u724c\u8207\u7522\u54c1\u4e8b\u5be6\uff1b\u6aa2\u67e5 CTA \u6642\u63d0\u4f9b\u76ee\u7684\u9801"

@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-444",
-  "source_sha256": "218c85d14aa637d3f76f27c3f89e144bc718dda9036a9c34c305bf9197963166",
+  "source_sha256": "8164734356c768b0fed1cdcbbcfc2f60af5ce481e375dceea8cd6a1d08ea88ca",
   "role": "producer",
   "stages": {
     "prepare": {
@@ -27,7 +27,7 @@
         ],
         "scope": [],
         "min_count": 1,
-        "source_line": 98,
+        "source_line": 108,
         "missing_action": "collect_authorized_source",
         "preparation": null,
         "condition": null,
@@ -62,7 +62,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 98,
+            "source_line": 108,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,

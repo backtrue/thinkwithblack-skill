@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-092",
-  "source_sha256": "6085c527126dd782a1dd3babf4a041d91449d76e1fc46b1665c4f2a336667666",
+  "source_sha256": "cd431ab3270322822fbf11a7f04a64f098b5b57213a83727f087f53c9964aa59",
   "role": "unneeded",
   "stages": {
     "prepare": {
@@ -29,11 +29,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97"
           },
           {
             "field": "task.input.abcc753fe0673247",
@@ -51,11 +51,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97"
           },
           {
             "field": "task.input.1a81b7a860f918a4",
@@ -73,11 +73,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97"
           },
           {
             "field": "task.input.5f06be6cfd532352",
@@ -95,11 +95,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97"
           }
         ]
       },
@@ -125,11 +125,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97"
           },
           {
             "field": "task.input.abcc753fe0673247",
@@ -147,11 +147,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97"
           },
           {
             "field": "task.input.1a81b7a860f918a4",
@@ -169,11 +169,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97"
           },
           {
             "field": "task.input.5f06be6cfd532352",
@@ -191,11 +191,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5e74\u5ea6\u76ee\u6a19\u3001\u6b77\u53f2\u5b63\u7bc0\u6027\u3001\u54c1\u724c\u4e8b\u4ef6\u3001\u7522\u80fd\u8207\u9810\u7b97"
           }
         ]
       },

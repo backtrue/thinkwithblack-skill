@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-428",
-  "source_sha256": "704f1c94e839f6f4ee34844117a83dfdd0dbd928070aeb1de71dec89239d5752",
+  "source_sha256": "2f2903cad5de68e9452dce1f9ce60323202f1ae070c5d5788bda048b6856d61c",
   "role": "producer",
   "stages": {
     "execute": {
@@ -22,7 +22,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -42,7 +42,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -79,7 +79,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -99,7 +99,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,

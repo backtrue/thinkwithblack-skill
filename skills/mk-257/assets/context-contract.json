@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-257",
-  "source_sha256": "77f0af482d66ea434a9c57126ddc51a66f1480d51966a9c9509776251c4a6f97",
+  "source_sha256": "c3387ba2f633a1675d0c50e4f31e09c496a4ff70a1e426224624858f04698cff",
   "role": "unneeded",
   "stages": {
     "prepare": {
@@ -29,11 +29,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f"
           },
           {
             "field": "task.input.0c6728d3b5b02e54",
@@ -51,11 +51,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f"
           },
           {
             "field": "task.input.25c825a2e3c06281",
@@ -73,11 +73,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f"
           }
         ]
       },
@@ -103,11 +103,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f"
           },
           {
             "field": "task.input.0c6728d3b5b02e54",
@@ -125,11 +125,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f"
           },
           {
             "field": "task.input.25c825a2e3c06281",
@@ -147,11 +147,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u5546\u54c1 Feed\u3001\u7db2\u7ad9\u5be6\u969b\u8cc7\u8a0a\u3001SKU \u6210\u6548\u53ca\u62d2\u767b\u8a0a\u606f"
           }
         ]
       },

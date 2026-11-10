@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-147",
-  "source_sha256": "3c4d4dd093951ef47b6d9f1f085a22377bc0f519fd07975ef5ec015216089173",
+  "source_sha256": "2b2f81ee96303c7637b7b875d5bb855a98de088868ab231166304f0f07e4eb5e",
   "role": "conditional",
   "stages": {
     "prepare": {
@@ -30,7 +30,7 @@
               "persona_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-028",
             "condition": null,
@@ -54,7 +54,7 @@
               "product_version"
             ],
             "min_count": 3,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-002",
             "condition": null,
@@ -81,7 +81,7 @@
               "product_version"
             ],
             "min_count": 3,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-005",
             "condition": null,
@@ -103,7 +103,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 44,
+            "source_line": 54,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -141,7 +141,7 @@
               "persona_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-028",
             "condition": null,
@@ -165,7 +165,7 @@
               "product_version"
             ],
             "min_count": 3,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-002",
             "condition": null,
@@ -192,7 +192,7 @@
               "product_version"
             ],
             "min_count": 3,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-005",
             "condition": null,
@@ -214,7 +214,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 44,
+            "source_line": 54,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,

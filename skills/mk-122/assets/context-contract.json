@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-122",
-  "source_sha256": "0b15e33c78e121acf8cbf49ec5142d2c591586066da5fcb8c93f302a7ff4e2b2",
+  "source_sha256": "6ac5245d164cad695154b77d5bba49c7a75f71b69eb8fc2e1cd1c10deb4bd4fa",
   "role": "consumer",
   "stages": {
     "prepare": {
@@ -33,7 +33,7 @@
                   "brand_key"
                 ],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": "INF-00-06",
                 "kind": "persona",
@@ -55,7 +55,7 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u9867\u5ba2\u539f\u59cb\u4f7f\u7528\u60c5\u5883\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u53ef\u652f\u6301\u7684\u4f7f\u7528\u5f8c\u7d50\u679c\u8207\u6210\u7acb\u689d\u4ef6\uff1b\u6539\u7a3f\u6642\u53e6\u63d0\u4f9b\u539f\u7a3f"
@@ -84,7 +84,7 @@
                   "product_version"
                 ],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": "INF-00-06",
                 "kind": "product",
@@ -106,7 +106,7 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u9867\u5ba2\u539f\u59cb\u4f7f\u7528\u60c5\u5883\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u53ef\u652f\u6301\u7684\u4f7f\u7528\u5f8c\u7d50\u679c\u8207\u6210\u7acb\u689d\u4ef6\uff1b\u6539\u7a3f\u6642\u53e6\u63d0\u4f9b\u539f\u7a3f"
@@ -135,7 +135,7 @@
                   "product_version"
                 ],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": "INF-00-06",
                 "kind": "claim",
@@ -157,7 +157,7 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 48,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u9867\u5ba2\u539f\u59cb\u4f7f\u7528\u60c5\u5883\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u53ef\u652f\u6301\u7684\u4f7f\u7528\u5f8c\u7d50\u679c\u8207\u6210\u7acb\u689d\u4ef6\uff1b\u6539\u7a3f\u6642\u53e6\u63d0\u4f9b\u539f\u7a3f"
@@ -194,7 +194,7 @@
                       "brand_key"
                     ],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 48,
                     "missing_action": "collect_authorized_source",
                     "preparation": "INF-00-06",
                     "kind": "persona",
@@ -216,7 +216,7 @@
                     ],
                     "scope": [],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 48,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u9867\u5ba2\u539f\u59cb\u4f7f\u7528\u60c5\u5883\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u53ef\u652f\u6301\u7684\u4f7f\u7528\u5f8c\u7d50\u679c\u8207\u6210\u7acb\u689d\u4ef6\uff1b\u6539\u7a3f\u6642\u53e6\u63d0\u4f9b\u539f\u7a3f"
@@ -245,7 +245,7 @@
                       "product_version"
                     ],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 48,
                     "missing_action": "collect_authorized_source",
                     "preparation": "INF-00-06",
                     "kind": "product",
@@ -267,7 +267,7 @@
                     ],
                     "scope": [],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 48,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u9867\u5ba2\u539f\u59cb\u4f7f\u7528\u60c5\u5883\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u53ef\u652f\u6301\u7684\u4f7f\u7528\u5f8c\u7d50\u679c\u8207\u6210\u7acb\u689d\u4ef6\uff1b\u6539\u7a3f\u6642\u53e6\u63d0\u4f9b\u539f\u7a3f"
@@ -296,7 +296,7 @@
                       "product_version"
                     ],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 48,
                     "missing_action": "collect_authorized_source",
                     "preparation": "INF-00-06",
                     "kind": "claim",
@@ -318,7 +318,7 @@
                     ],
                     "scope": [],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 48,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u9867\u5ba2\u539f\u59cb\u4f7f\u7528\u60c5\u5883\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u53ef\u652f\u6301\u7684\u4f7f\u7528\u5f8c\u7d50\u679c\u8207\u6210\u7acb\u689d\u4ef6\uff1b\u6539\u7a3f\u6642\u53e6\u63d0\u4f9b\u539f\u7a3f"
@@ -343,7 +343,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u9867\u5ba2\u539f\u59cb\u4f7f\u7528\u60c5\u5883\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u53ef\u652f\u6301\u7684\u4f7f\u7528\u5f8c\u7d50\u679c\u8207\u6210\u7acb\u689d\u4ef6\uff1b\u6539\u7a3f\u6642\u53e6\u63d0\u4f9b\u539f\u7a3f"
@@ -374,7 +374,7 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": "INF-00-06",
             "kind": "persona",
@@ -396,7 +396,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u9867\u5ba2\u539f\u59cb\u4f7f\u7528\u60c5\u5883\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u53ef\u652f\u6301\u7684\u4f7f\u7528\u5f8c\u7d50\u679c\u8207\u6210\u7acb\u689d\u4ef6\uff1b\u6539\u7a3f\u6642\u53e6\u63d0\u4f9b\u539f\u7a3f"
@@ -421,7 +421,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": "INF-00-06",
             "kind": "product",
@@ -443,7 +443,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u9867\u5ba2\u539f\u59cb\u4f7f\u7528\u60c5\u5883\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u53ef\u652f\u6301\u7684\u4f7f\u7528\u5f8c\u7d50\u679c\u8207\u6210\u7acb\u689d\u4ef6\uff1b\u6539\u7a3f\u6642\u53e6\u63d0\u4f9b\u539f\u7a3f"
@@ -468,7 +468,7 @@
               "product_version"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": "INF-00-06",
             "kind": "claim",
@@ -490,7 +490,7 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 48,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "source_excerpt": "\u8acb\u63d0\u4f9b\uff1a\u9867\u5ba2\u539f\u59cb\u4f7f\u7528\u60c5\u5883\u3001\u7522\u54c1\u4e8b\u5be6\u3001\u53ef\u652f\u6301\u7684\u4f7f\u7528\u5f8c\u7d50\u679c\u8207\u6210\u7acb\u689d\u4ef6\uff1b\u6539\u7a3f\u6642\u53e6\u63d0\u4f9b\u539f\u7a3f"

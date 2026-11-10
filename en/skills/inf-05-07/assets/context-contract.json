@@ -1,6 +1,6 @@
 {
   "skill_id": "INF-05-07",
-  "source_sha256": "b97d127a4c2a0069546c2c600d9c2d7a69c2d724fb1bd5883b38585d1d2a8d43",
+  "source_sha256": "bc87fe42d86f8c5fd589925f22e0d2e8eccc663956cb39f04812e9e4b87bb0d9",
   "role": "unneeded",
   "stages": {
     "prepare": {
@@ -29,7 +29,7 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 152,
+            "source_line": 160,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
@@ -66,7 +66,7 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 152,
+            "source_line": 160,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,

@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-070",
-  "source_sha256": "4650ac22c78d704d43b8ec66d9ec0d240ca8dc34e3df308c4552140e32b0451b",
+  "source_sha256": "b4cbf61d33593a287ff58b5b763066803617724868a1220564b9a16558b53b1f",
   "role": "unneeded",
   "stages": {
     "teach": {
@@ -38,7 +38,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "count",
@@ -67,7 +67,7 @@
                       "currency"
                     ],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 46,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "quantity": "amount",
@@ -92,7 +92,7 @@
                       "currency"
                     ],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 46,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "quantity": "amount",
@@ -121,7 +121,7 @@
                       "currency"
                     ],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 46,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "quantity": "amount",
@@ -146,7 +146,7 @@
                       "currency"
                     ],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 46,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "quantity": "amount",
@@ -171,7 +171,7 @@
                       "currency"
                     ],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 46,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "quantity": "amount",
@@ -196,7 +196,7 @@
                       "currency"
                     ],
                     "min_count": 1,
-                    "source_line": 38,
+                    "source_line": 46,
                     "missing_action": "collect_authorized_source",
                     "preparation": null,
                     "quantity": "amount",
@@ -234,7 +234,7 @@
                   "product_id"
                 ],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 46,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "quantity": "count",
@@ -263,7 +263,7 @@
                           "currency"
                         ],
                         "min_count": 1,
-                        "source_line": 38,
+                        "source_line": 46,
                         "missing_action": "collect_authorized_source",
                         "preparation": null,
                         "quantity": "amount",
@@ -288,7 +288,7 @@
                           "currency"
                         ],
                         "min_count": 1,
-                        "source_line": 38,
+                        "source_line": 46,
                         "missing_action": "collect_authorized_source",
                         "preparation": null,
                         "quantity": "amount",
@@ -317,7 +317,7 @@
                           "currency"
                         ],
                         "min_count": 1,
-                        "source_line": 38,
+                        "source_line": 46,
                         "missing_action": "collect_authorized_source",
                         "preparation": null,
                         "quantity": "amount",
@@ -342,7 +342,7 @@
                           "currency"
                         ],
                         "min_count": 1,
-                        "source_line": 38,
+                        "source_line": 46,
                         "missing_action": "collect_authorized_source",
                         "preparation": null,
                         "quantity": "amount",
@@ -367,7 +367,7 @@
                           "currency"
                         ],
                         "min_count": 1,
-                        "source_line": 38,
+                        "source_line": 46,
                         "missing_action": "collect_authorized_source",
                         "preparation": null,
                         "quantity": "amount",
@@ -392,7 +392,7 @@
                           "currency"
                         ],
                         "min_count": 1,
-                        "source_line": 38,
+                        "source_line": 46,
                         "missing_action": "collect_authorized_source",
                         "preparation": null,
                         "quantity": "amount",
@@ -422,7 +422,7 @@
               "period_end"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "ratio",
@@ -454,7 +454,7 @@
               "product_id"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "count",
@@ -479,7 +479,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "amount",
@@ -504,7 +504,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "amount",
@@ -529,7 +529,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "amount",
@@ -554,7 +554,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "amount",
@@ -579,7 +579,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "amount",
@@ -604,7 +604,7 @@
               "currency"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "amount",
@@ -628,7 +628,7 @@
               "period_end"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "quantity": "ratio",

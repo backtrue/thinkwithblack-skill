@@ -1,6 +1,6 @@
 {
   "skill_id": "MK-076",
-  "source_sha256": "b7123bbd0a0b9441d607755294034d43b356245eeab448a4466dda65bcffaa38",
+  "source_sha256": "e5be40e85bb9c4457cd7e8bf1ef5d7c9df76f1075eda9a694c8d4d5bd1babe7c",
   "role": "consumer",
   "stages": {
     "prepare": {
@@ -33,12 +33,12 @@
                   "brand_key"
                 ],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 46,
                 "missing_action": "collect_website_or_source",
                 "preparation": "INF-00-06",
                 "condition": null,
                 "kind": "asset",
-                "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
               },
               {
                 "field": "task.input.f88ba99c9b342767",
@@ -56,11 +56,11 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 46,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "condition": null,
-                "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
               }
             ],
             "condition": null
@@ -81,11 +81,11 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
           },
           {
             "field": "persona.profile",
@@ -106,12 +106,12 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-016",
             "condition": null,
             "kind": "persona",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
           },
           {
             "field": "task.purchase_records",
@@ -129,11 +129,11 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
           },
           {
             "any": [
@@ -155,12 +155,12 @@
                   "brand_key"
                 ],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 46,
                 "missing_action": "collect_website_or_source",
                 "preparation": "INF-00-06",
                 "condition": null,
                 "kind": "asset",
-                "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
               },
               {
                 "field": "task.input.c50584b04b2f0a32",
@@ -178,11 +178,11 @@
                 ],
                 "scope": [],
                 "min_count": 1,
-                "source_line": 38,
+                "source_line": 46,
                 "missing_action": "collect_authorized_source",
                 "preparation": null,
                 "condition": null,
-                "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+                "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
               }
             ],
             "condition": null
@@ -213,12 +213,12 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": "INF-00-06",
             "condition": null,
             "kind": "asset",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
           },
           {
             "field": "task.input.f88ba99c9b342767",
@@ -236,11 +236,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
           },
           {
             "field": "task.product_costs",
@@ -258,11 +258,11 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
           },
           {
             "field": "persona.profile",
@@ -283,12 +283,12 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": "MK-016",
             "condition": null,
             "kind": "persona",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
           },
           {
             "field": "task.purchase_records",
@@ -306,11 +306,11 @@
               "period_start"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
           },
           {
             "field": "asset.product_lines",
@@ -330,12 +330,12 @@
               "brand_key"
             ],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_website_or_source",
             "preparation": "INF-00-06",
             "condition": null,
             "kind": "asset",
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
           },
           {
             "field": "task.input.c50584b04b2f0a32",
@@ -353,11 +353,11 @@
             ],
             "scope": [],
             "min_count": 1,
-            "source_line": 38,
+            "source_line": 46,
             "missing_action": "collect_authorized_source",
             "preparation": null,
             "condition": null,
-            "source_excerpt": "\u539f\u6bcd\u8868\u8f38\u5165\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda\u3002"
+            "source_excerpt": "\u8acb\u63d0\u4f9b\uff1aSKU\u3001\u5546\u54c1\u6210\u672c\u3001\u5ba2\u7fa4\u3001\u8cfc\u8cb7\u7d00\u9304\u8207\u7522\u54c1\u7dda"
           }
         ]
       },
