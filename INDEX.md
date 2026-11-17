@@ -1,6 +1,6 @@
 # ThinkWithBlack 免費方法索引
 
-教材版本：2026.11.11-free.1｜共 365 份方法
+教材版本：2026.11.18-free.1｜共 365 份方法
 
 ## 先讀這段
 
@@ -387,3 +387,4 @@
 - [文章轉多平台社群貼文](packs/article-to-social-posts.md)：五平台文案、依語言潤稿與發布格式檢查
 - [自然英文寫作與潤稿](packs/speak-human-en.md)：保留事實與作者口吻的英文寫作、翻譯及潤稿
 - [Black 專屬 Meta 廣告投放流程](packs/black-meta-ad-setting.md)：企劃、素材、安全區、版位、上稿與驗收的八步流程
+- [問題理解與行動推導](packs/understand-problem-to-action.md)：從決策目的查證資料，串起組成變化、商業影響、行動與驗收條件

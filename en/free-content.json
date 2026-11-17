@@ -1,7 +1,7 @@
 {
-  "version": "2026.11.11-en.1",
+  "version": "2026.11.18-en.1",
   "language": "en",
-  "sourceVersion": "2026.11.11-free.1",
+  "sourceVersion": "2026.11.18-free.1",
   "entries": [
     {
       "id": "INF-05-07",
@@ -4112,6 +4112,18 @@
         "supplements/black-meta-ad-setting/assets/check-context.py"
       ],
       "pack": "packs/black-meta-ad-setting.md",
+      "language": "zh-TW"
+    },
+    {
+      "id": "understand-problem-to-action",
+      "name": "問題理解與行動推導",
+      "description": "從決策目的查證資料，串起組成變化、商業影響、行動與驗收條件",
+      "source": "supplements/understand-problem-to-action/SKILL.md",
+      "references": [
+        "supplements/understand-problem-to-action/references/sofara-case.md",
+        "supplements/understand-problem-to-action/references/acceptance-cases.md"
+      ],
+      "pack": "packs/understand-problem-to-action.md",
       "language": "zh-TW"
     }
   ]

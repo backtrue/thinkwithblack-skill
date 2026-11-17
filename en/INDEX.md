@@ -1,7 +1,7 @@
 # ThinkWithBlack free method index
 
-Materials version: 2026.11.11-en.1 | 365 methods | Language: English
-Chinese source version: 2026.11.11-free.1
+Materials version: 2026.11.18-en.1 | 365 methods | Language: English
+Chinese source version: 2026.11.18-free.1
 
 ## Read this first
 
@@ -388,3 +388,4 @@ Each method pack includes the shared rules, complete method, required references
 - [article-to-social-posts: Article to five social platforms](packs/article-to-social-posts.md) — platform-specific copy, language editing and publication formatting; Traditional Chinese source
 - [speak-human-en: Natural English writing and editing](packs/speak-human-en.md) — preserve facts, evidence and author voice; English source
 - [black-meta-ad-setting: Black Meta ad setup](packs/black-meta-ad-setting.md) — campaign planning, creative sizes, Safe Zone checks, placement setup, upload verification and authorized activation; Traditional Chinese source
+- [understand-problem-to-action: Traditional Chinese editing helper](packs/understand-problem-to-action.md) — includes the complete original-language writing example
