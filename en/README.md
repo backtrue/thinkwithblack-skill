@@ -34,7 +34,7 @@ Product positioning · Ad copy · Campaign budgets · Contribution margin · Rep
 
 ## Recent Skills and method updates
 
-README updated: 2026-11-19. The current English materials version is `2026.11.18-en.1`, based on Chinese version `2026.11.18-free.1`. The collection includes **365 core methods and 6 supplemental tools**, listed in [catalog.json](catalog.json)
+README updated: 2026-11-20. The current English materials version is `2026.11.20-en.1`, based on Chinese version `2026.11.20-free.1`. The collection includes **365 core methods and 6 supplemental tools**, listed in [catalog.json](catalog.json)
 
 If you have an article, an ad image or a business problem to investigate, choose a tool below and upload the draft, image or report with its method pack. Five tools were added after October 25, and the existing Traditional Chinese editing tool was updated
 
