@@ -24,8 +24,6 @@ Product positioning · Ad copy · Campaign budgets · Contribution margin · Rep
 
 ---
 
-> **Update | 2026-10-21**: Run `npx ai-marketing-skills` to choose a method and install it for Claude Code, Codex or Cursor, or export it for an AI conversation. See the [npm guide](https://www.npmjs.com/package/ai-marketing-skills) for setup and commands
-
 ## Put your AI to work on today’s marketing problem
 
 “What actually makes this product worth buying?” “After ads and shipping, what do we keep?” “They bought once — how do we bring them back?”
@@ -33,6 +31,29 @@ Product positioning · Ad copy · Campaign budgets · Contribution margin · Rep
 **Marketing Skills for Everyone** gives you **365 complete Markdown method packs** to upload to an AI conversation. Each includes the inputs it needs, steps to follow, output fields and checks that help you assess the result
 
 **Describe your problem and let the AI find a method in the index.** Then upload that pack and your data. You do not need to memorize 365 skill names
+
+## Recent Skills and method updates
+
+README updated: 2026-11-19. The current English materials version is `2026.11.18-en.1`, based on Chinese version `2026.11.18-free.1`. The collection includes **365 core methods and 6 supplemental tools**, listed in [catalog.json](catalog.json)
+
+If you have an article, an ad image or a business problem to investigate, choose a tool below and upload the draft, image or report with its method pack. Five tools were added after October 25, and the existing Traditional Chinese editing tool was updated
+
+| Added or updated | Supplemental Skill | What it helps you do |
+|---|---|---|
+| Added 11/1 | [Ad creative resizing](packs/resize-ad-creatives.md) | Adapt images to 1:1, 4:5 and 9:16, rearrange product and text elements, check Stories and Reels safe zones, and deliver final images with separate check images |
+| Added 11/2 | [Article to multiple social platforms](packs/article-to-social-posts.md) | Adapt an existing article for Facebook, Threads and Instagram in Traditional Chinese, and for X and LinkedIn in English, with platform-specific content, links and paragraph formatting |
+| Added 11/2 | [Natural English writing and editing](packs/speak-human-en.md) | Improve the structure and voice of English articles, posts and translations while preserving the author's views, numbers, sources and strength of evidence |
+| Added 11/2 | [Black Meta ad setup](packs/black-meta-ad-setting.md) | Follow eight steps covering the brief, account, creative, safe zones, audiences, placements, upload verification and authorized activation |
+| Added 11/18 | [Problem understanding and action planning](packs/understand-problem-to-action.md) | Investigate the original question and connect changes in the data to business implications, specific actions and acceptance criteria |
+| Existing tool, updated 11/8 | [Traditional Chinese writing and editing](packs/speak-human-tw.md) | Preserve the author's voice, context and explanations while improving wording, paragraphs and rhythm, and stating facts, conditions and actions directly |
+
+Upload the linked `packs/*.md` file with the material for your task. Supplemental packs retain their source language: English for `speak-human-en` and Traditional Chinese for the other five tools. Image production uses an available image-editing tool; account operations use an authorized connection. New Meta ads are saved as paused, with activation and budget changes carried out under the authorization for the task
+
+### Updates to existing methods
+
+**The 11/11 materials update connects judgments to actions.** Methods explain the decision to make, the conditions it must meet, the evidence needed and how to adjust when conditions change. For example, [product contribution margin](packs/mk-059.md) connects contribution per item to the discount the product can support, recalculating when fees vary with the discount
+
+**The 11/8 Traditional Chinese editing update adds direct, affirmative wording.** Edits state the content, applicable conditions and actions while preserving the author's views, numbers, sources and necessary context
 
 ## A marketing medical center: Start with your problem, not a skill name
 
@@ -190,6 +211,24 @@ The public collection is defined by [free-content.json](free-content.json). See 
 ## Bring the methods into everyday work
 
 ThinkWithBlack MCP provides advanced services for connecting account data, coordinating methods, monitoring progress and carrying out actions. See [free materials and advanced services](PUBLIC_BOUNDARY.md)
+
+### Recent additions to the full product
+
+The full ThinkWithBlack package and member MCP support work that connects individual methods to account data and subsequent actions. Each feature uses its applicable membership permissions and authorized tools. The free download's contents are listed in the method packs above and [catalog.json](catalog.json)
+
+| Work you need to do | What the full package and member MCP can support |
+|---|---|
+| Prepare a product's first ads | Turn a product page or PDF and photos of the same product into a one-page brief, then hand confirmed content to the media buyer |
+| Continue B2B prospecting through inquiries and follow-up | Use 11 B2B Skills for product information, search keywords, public email contacts, social demand posts, outreach emails, DMs, inquiry qualification, quotations, follow-up, pipeline review and workflow continuation, plus 2 Obsidian tools for knowledge and database design |
+| Build a new PMax campaign from Meta results | Use the general workflow to derive buying needs, search themes, asset groups and audience signals from effective creative and its original audiences; Lolinya also has a brand-specific workflow |
+| Research competitors or competitor brand keywords | Find active competitors, compare products, services, prices and terms, then assess search intent, supported differences and landing-page fit |
+| Update Google Search ads for a promotion | Prepare RSA copy, sitelinks, applicable promotion assets and a restoration checklist for when the promotion ends |
+| Explore audiences from existing copy | Derive candidate Meta interests from the situations, needs and brand preferences in the copy, keeping sources and reasoning traceable |
+| Upload ads to an existing Meta campaign | Use or create ad sets within the specified campaign according to the brief, save ads as paused and read back each field for verification |
+| Improve a website or codebase | Read modern web and Chrome extension guidance, or choose from 100 code-refactoring methods and verify observable behavior |
+| Work on an article with RCH | Search for RCH in ChatGPT to find the existing article planning, writing and review Skills |
+
+See [free materials and advanced services](PUBLIC_BOUNDARY.md) for the roles of methods, data connections and external actions
 
 ## Make these 365 methods part of your marketing toolbox
 
