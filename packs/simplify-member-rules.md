@@ -1,6 +1,6 @@
 # simplify-member-rules｜會員規則簡化與理解檢查 方法包
 
-教材版本：2026.11.20-free.1
+教材版本：2026.11.20-free.2
 
 <a id="common-rules"></a>
 

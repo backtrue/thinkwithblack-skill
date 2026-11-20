@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.11.20-en.2
+
+- Reframe the README around an AI business partner for product owners deciding what to do next, with cross-market experience and usable outputs
+- Introduce the author for first-time readers and align the English README with the approved Chinese edition
+- Retain method content and operating boundaries while rebuilding bilingual indexes, pack version labels and downloads
+
 ## 2026.10.24-en.1
 
 - Order consulting questions by prerequisites, with sourced recommendations, reasons and next deliverables
